@@ -1,6 +1,6 @@
 > ! Use at your own risk! The scripts and binaries are provided as-is and may contain bugs or errors. The author is not responsible for any damage or data loss caused by the use of these scripts.
 
-> ! Take caution, check you version of Zeekr OS before installing any APKs.
+> ! Take caution, check your version of Zeekr OS before installing any APKs.
 
 The repo describes how to modify APKs for Zeekr OS (infotaimanet system from Zeekr 001/007, aka "the Tablet"), e.g. translating Chinese UI to English.
 
@@ -107,3 +107,7 @@ Zeekr OS is based on AOSP and uses test keys supplied by Google. I have included
 ### Install APK
 
 `adb install -g _output/com.android.systemui_en.apk`
+
+## Contribution
+
+Code/APK contributions are welcome. File a PR, describe in details what you would like to add, share screenshots/videos of the tested app (if you submit a modifed APK)
