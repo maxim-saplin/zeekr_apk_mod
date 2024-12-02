@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="14.0sp" android:textColor="?android:textColorSecondary" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@android:dimen/leanback_setup_alpha_forward_in_content_start" android:layout_marginStart="@android:dimen/kg_small_widget_height" android:layout_marginEnd="@android:dimen/kg_small_widget_height"
+<TextView android:textSize="14.0sp" android:textColor="?android:textColorSecondary" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@*android:dimen/leanback_setup_alpha_forward_in_content_start" android:layout_marginStart="@*android:dimen/kg_small_widget_height" android:layout_marginEnd="@*android:dimen/kg_small_widget_height"
   xmlns:android="http://schemas.android.com/apk/res/android" />

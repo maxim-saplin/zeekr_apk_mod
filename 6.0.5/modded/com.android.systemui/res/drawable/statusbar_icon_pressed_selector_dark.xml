@@ -2,5 +2,5 @@
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/bg_status_bar_icon_selected_dark" android:state_activated="true" />
-    <item android:drawable="@android:color/transparent" />
+    <item android:drawable="@*android:color/transparent" />
 </selector>

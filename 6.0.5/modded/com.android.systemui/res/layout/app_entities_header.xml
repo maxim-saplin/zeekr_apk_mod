@@ -7,6 +7,6 @@
         <include android:id="@id/app2_view" layout="@layout/app_view" />
         <include android:id="@id/app3_view" layout="@layout/app_view" />
     </LinearLayout>
-    <Button android:gravity="center" android:id="@id/header_details" android:layout_width="wrap_content" android:layout_height="48.0dip" style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored" />
+    <Button android:gravity="center" android:id="@id/header_details" android:layout_width="wrap_content" android:layout_height="48.0dip" style="@*android:style/Widget.DeviceDefault.Button.Borderless.Colored" />
     <TextView android:textAppearance="@style/AppEntitiesHeader.Text.Summary" android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="106.0dip" />
 </LinearLayout>

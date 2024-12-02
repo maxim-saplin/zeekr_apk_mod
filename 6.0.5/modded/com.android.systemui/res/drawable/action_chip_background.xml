@@ -2,7 +2,7 @@
 <ripple android:color="@color/global_screenshot_button_ripple"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
-    <item android:id="@android:id/background">
+    <item android:id="@*android:id/background">
         <shape android:shape="rectangle">
             <solid android:color="?android:^attr-private/colorAccentPrimary" />
             <corners android:radius="@dimen/screenshot_button_corner_radius" />

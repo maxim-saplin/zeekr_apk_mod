@@ -230,7 +230,7 @@
         <activity android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" android:name="com.android.systemui.wifi.WifiDebuggingActivity" android:permission="android.permission.MANAGE_DEBUGGING" android:theme="@style/Theme.SystemUI.Dialog.Alert"/>
         <activity-alias android:exported="true" android:name="com.android.systemui.WifiDebuggingActivityAlias" android:permission="android.permission.DUMP" android:targetActivity="com.android.systemui.wifi.WifiDebuggingActivity"/>
         <activity android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true" android:name="com.android.systemui.wifi.WifiDebuggingSecondaryUserActivity" android:theme="@style/Theme.SystemUI.Dialog.Alert"/>
-        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:finishOnCloseSystemDialogs="true" android:launchMode="singleTop" android:name="com.android.systemui.net.NetworkOverLimitActivity" android:permission="android.permission.MANAGE_NETWORK_POLICY" android:taskAffinity="com.android.systemui.net" android:theme="@android:style/Theme.DeviceDefault.Light.Panel"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:finishOnCloseSystemDialogs="true" android:launchMode="singleTop" android:name="com.android.systemui.net.NetworkOverLimitActivity" android:permission="android.permission.MANAGE_NETWORK_POLICY" android:taskAffinity="com.android.systemui.net" android:theme="@*android:style/Theme.DeviceDefault.Light.Panel"/>
         <activity android:excludeFromRecents="true" android:exported="true" android:finishOnCloseSystemDialogs="true" android:launchMode="singleTop" android:name="com.android.systemui.media.MediaProjectionPermissionActivity" android:theme="@style/Theme.SystemUI.MediaProjectionAlertDialog" android:visibleToInstantApps="true"/>
         <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.android.systemui.statusbar.tv.notifications.TvNotificationPanelActivity" android:noHistory="true" android:theme="@style/TvSidePanelTheme"/>
         <activity android:excludeFromRecents="true" android:exported="true" android:finishOnCloseSystemDialogs="true" android:name="com.android.systemui.SlicePermissionActivity" android:theme="@style/Theme.SystemUI.Dialog.Alert">
@@ -238,7 +238,7 @@
                 <action android:name="com.android.intent.action.REQUEST_SLICE_PERMISSION"/>
             </intent-filter>
         </activity>
-        <activity android:excludeFromRecents="true" android:exported="true" android:label="@string/dessert_case" android:launchMode="singleInstance" android:name="com.android.systemui.DessertCase" android:process=":sweetsweetdesserts" android:screenOrientation="locked" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity android:excludeFromRecents="true" android:exported="true" android:label="@string/dessert_case" android:launchMode="singleInstance" android:name="com.android.systemui.DessertCase" android:process=":sweetsweetdesserts" android:screenOrientation="locked" android:theme="@*android:style/Theme.Black.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -249,7 +249,7 @@
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.android.systemui.people.widget.LaunchConversationActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:windowDisablePreview="true"/>
+        <activity android:name="com.android.systemui.people.widget.LaunchConversationActivity" android:theme="@*android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:windowDisablePreview="true"/>
         <receiver android:enabled="true" android:exported="true" android:label="@string/people_tile_title" android:name="com.android.systemui.people.widget.PeopleSpaceWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
@@ -266,27 +266,27 @@
             </intent-filter>
         </service>
         <service android:enabled="false" android:exported="true" android:name="com.android.systemui.keyguard.KeyguardService"/>
-        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/accessibility_desc_work_lock" android:name="com.android.systemui.keyguard.WorkLockActivity" android:permission="android.permission.MANAGE_USERS" android:resumeWhilePausing="true" android:stateNotNeeded="true" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/accessibility_desc_work_lock" android:name="com.android.systemui.keyguard.WorkLockActivity" android:permission="android.permission.MANAGE_USERS" android:resumeWhilePausing="true" android:stateNotNeeded="true" android:theme="@*android:style/Theme.Translucent.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.app.action.CONFIRM_DEVICE_CREDENTIAL_WITH_USER"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity android:excludeFromRecents="true" android:exported="false" android:finishOnCloseSystemDialogs="true" android:launchMode="singleInstance" android:name="com.android.systemui.user.CreateUserActivity" android:theme="@style/Theme.CreateUser"/>
-        <activity android:excludeFromRecents="true" android:exported="true" android:icon="@mipmap/ic_launcher_dreams" android:label="@string/start_dreams" android:name="com.android.systemui.Somnambulator" android:theme="@android:style/Theme.Wallpaper.NoTitleBar">
+        <activity android:excludeFromRecents="true" android:exported="true" android:icon="@mipmap/ic_launcher_dreams" android:label="@string/start_dreams" android:name="com.android.systemui.Somnambulator" android:theme="@*android:style/Theme.Wallpaper.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.DESK_DOCK"/>
             </intent-filter>
         </activity>
-        <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTop" android:name="com.android.systemui.ForegroundServicesDialog" android:process=":fgservices" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert.UserSwitchingDialog">
+        <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTop" android:name="com.android.systemui.ForegroundServicesDialog" android:process=":fgservices" android:theme="@*android:style/Theme.DeviceDefault.Light.Dialog.Alert.UserSwitchingDialog">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.FOREGROUND_SERVICES_SETTINGS"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:documentLaunchMode="never" android:excludeFromRecents="true" android:exported="true" android:finishOnCloseSystemDialogs="true" android:name="com.android.systemui.chooser.ChooserActivity" android:process=":ui" android:relinquishTaskIdentity="true" android:theme="@android:style/Theme.NoDisplay" android:visibleToInstantApps="true">
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:documentLaunchMode="never" android:excludeFromRecents="true" android:exported="true" android:finishOnCloseSystemDialogs="true" android:name="com.android.systemui.chooser.ChooserActivity" android:process=":ui" android:relinquishTaskIdentity="true" android:theme="@*android:style/Theme.NoDisplay" android:visibleToInstantApps="true">
             <intent-filter>
                 <action android:name="android.intent.action.CHOOSER"/>
                 <category android:name="android.intent.category.VOICE"/>

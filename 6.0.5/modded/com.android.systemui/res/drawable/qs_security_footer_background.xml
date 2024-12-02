@@ -2,9 +2,9 @@
 <inset android:insetTop="@dimen/qs_security_footer_background_inset" android:insetBottom="@dimen/qs_security_footer_background_inset"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ripple android:color="?android:colorControlHighlight">
-        <item android:id="@android:id/mask">
+        <item android:id="@*android:id/mask">
             <shape android:shape="rectangle">
-                <solid android:color="@android:color/white" />
+                <solid android:color="@*android:color/white" />
                 <corners android:radius="@dimen/qs_security_footer_corner_radius" />
             </shape>
         </item>

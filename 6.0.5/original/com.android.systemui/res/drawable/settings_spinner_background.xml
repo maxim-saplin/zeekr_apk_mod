@@ -2,7 +2,7 @@
 <ripple android:color="@color/ripple_color"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:priv-android="http://schemas.android.com/apk/prv/res/android">
-    <item android:id="@android:id/background">
+    <item android:id="@*android:id/background">
         <layer-list android:paddingMode="stack">
             <item android:top="8.0dip" android:bottom="8.0dip">
                 <shape>

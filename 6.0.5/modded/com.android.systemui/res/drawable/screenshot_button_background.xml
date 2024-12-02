@@ -2,13 +2,13 @@
 <ripple android:color="?android:textColorPrimary"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
-    <item android:id="@android:id/background">
+    <item android:id="@*android:id/background">
         <shape android:shape="rectangle">
             <solid android:color="?android:^attr-private/clickColor" />
             <corners android:radius="20.0dip" />
         </shape>
     </item>
-    <item android:id="@android:id/mask">
+    <item android:id="@*android:id/mask">
         <shape android:shape="rectangle">
             <solid android:color="?android:textColorPrimary" />
             <corners android:radius="20.0dip" />

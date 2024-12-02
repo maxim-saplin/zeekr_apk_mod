@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:theme="@style/volume_dialog_theme" android:gravity="right" android:layout_gravity="right" android:id="@id/volume_dialog_container" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+<FrameLayout android:theme="@style/volume_dialog_theme" android:gravity="right" android:layout_gravity="right" android:id="@id/volume_dialog_container" android:background="@*android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sysui="http://schemas.android.com/apk/res-auto"
   xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
     <LinearLayout android:gravity="right" android:layout_gravity="right" android:orientation="vertical" android:id="@id/volume_dialog" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/volume_dialog_panel_transparent_padding_right">

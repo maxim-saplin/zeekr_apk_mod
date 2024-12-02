@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <com.android.systemui.ResizingSpace android:layout_width="fill_parent" android:layout_height="@dimen/qs_detail_header_margin_top" />
     <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textAppearance="@style/TextAppearance.QS.DetailHeader" android:id="@android:id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textDirection="locale" android:paddingStart="@dimen/qs_detail_header_text_padding" />
+        <TextView android:textAppearance="@style/TextAppearance.QS.DetailHeader" android:id="@*android:id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textDirection="locale" android:paddingStart="@dimen/qs_detail_header_text_padding" />
         <ImageView android:id="@id/settings" android:background="?android:selectableItemBackground" android:padding="@dimen/qs_detail_image_padding" android:visibility="gone" android:layout_width="@dimen/qs_detail_image_width" android:layout_height="@dimen/qs_detail_image_height" android:src="@drawable/ic_settings" />
         <ViewStub android:id="@id/toggle_stub" android:layout="@layout/qs_detail_switch" android:inflatedId="@id/toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     </LinearLayout>

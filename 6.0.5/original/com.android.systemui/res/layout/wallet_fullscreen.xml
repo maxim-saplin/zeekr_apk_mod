@@ -2,7 +2,7 @@
 <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
-    <Toolbar android:id="@id/action_bar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:navigationContentDescription="@null" style="?android:actionBarStyle">
+    <Toolbar android:id="@id/action_bar" android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:navigationContentDescription="@null" style="?android:actionBarStyle">
         <Button android:textColor="?android:^attr-private/clickColor" android:layout_gravity="end" android:id="@id/wallet_toolbar_app_button" android:background="@drawable/wallet_app_button_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/wallet_app_button_label" android:textAlignment="center" android:paddingHorizontal="@dimen/wallet_button_horizontal_padding" />
     </Toolbar>
     <LinearLayout android:orientation="vertical" android:id="@id/card_carousel_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/wallet_card_carousel_container_top_margin">

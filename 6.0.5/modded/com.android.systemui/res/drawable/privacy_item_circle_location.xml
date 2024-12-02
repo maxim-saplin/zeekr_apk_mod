@@ -7,5 +7,5 @@
             <solid android:color="@color/privacy_chip_background" />
         </shape>
     </item>
-    <item android:gravity="center" android:id="@id/icon" android:height="@dimen/ongoing_appops_dialog_icon_size" android:width="@dimen/ongoing_appops_dialog_icon_size" android:drawable="@android:drawable/menu_background_fill_parent_width" />
+    <item android:gravity="center" android:id="@id/icon" android:height="@dimen/ongoing_appops_dialog_icon_size" android:width="@dimen/ongoing_appops_dialog_icon_size" android:drawable="@*android:drawable/menu_background_fill_parent_width" />
 </layer-list>

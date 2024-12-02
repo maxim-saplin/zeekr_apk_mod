@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@android:id/background" android:drawable="@drawable/pgs_bar_bg_cs1e" />
-    <item android:id="@android:id/progress">
+    <item android:id="@*android:id/background" android:drawable="@drawable/pgs_bar_bg_cs1e" />
+    <item android:id="@*android:id/progress">
         <scale android:drawable="@drawable/shape_pgsb_cs1e" android:scaleWidth="100%" />
     </item>
 </layer-list>

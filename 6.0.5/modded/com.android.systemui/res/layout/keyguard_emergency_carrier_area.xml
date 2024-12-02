@@ -2,5 +2,5 @@
 <com.android.keyguard.EmergencyCarrierArea android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
     <com.android.keyguard.CarrierText android:ellipsize="marquee" android:gravity="center" android:id="@id/carrier_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:singleLine="true" androidprv:allCaps="@bool/kg_use_all_caps" style="@style/Keyguard.TextView" />
-    <com.android.keyguard.EmergencyButton android:id="@id/emergency_call_button" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@android:string/indeterminate_progress_31" style="@style/Keyguard.TextView.EmergencyButton" />
+    <com.android.keyguard.EmergencyButton android:id="@id/emergency_call_button" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@*android:string/indeterminate_progress_31" style="@style/Keyguard.TextView.EmergencyButton" />
 </com.android.keyguard.EmergencyCarrierArea>

@@ -2,5 +2,5 @@
 <FrameLayout android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/qs_label_container_margin"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ImageView android:id="@id/customDrawable" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/qs_side_view_size" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_marginEnd="@dimen/qs_drawable_end_margin" />
-    <ImageView android:id="@id/chevron" android:visibility="gone" android:layout_width="@dimen/qs_icon_size" android:layout_height="@dimen/qs_icon_size" android:src="@android:drawable/grid_selector_background_focus" android:importantForAccessibility="no" android:autoMirrored="true" />
+    <ImageView android:id="@id/chevron" android:visibility="gone" android:layout_width="@dimen/qs_icon_size" android:layout_height="@dimen/qs_icon_size" android:src="@*android:drawable/grid_selector_background_focus" android:importantForAccessibility="no" android:autoMirrored="true" />
 </FrameLayout>

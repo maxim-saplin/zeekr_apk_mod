@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.systemui.qs.QSFooterView android:id="@id/qs_footer" android:background="@android:color/transparent" android:clickable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/qs_footer_height" android:layout_marginBottom="@dimen/qs_footers_margin_bottom" android:baselineAligned="false" android:layout_marginStart="@dimen/qs_footer_margin" android:layout_marginEnd="@dimen/qs_footer_margin"
+<com.android.systemui.qs.QSFooterView android:id="@id/qs_footer" android:background="@*android:color/transparent" android:clickable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/qs_footer_height" android:layout_marginBottom="@dimen/qs_footers_margin_bottom" android:baselineAligned="false" android:layout_marginStart="@dimen/qs_footer_margin" android:layout_marginEnd="@dimen/qs_footer_margin"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip">

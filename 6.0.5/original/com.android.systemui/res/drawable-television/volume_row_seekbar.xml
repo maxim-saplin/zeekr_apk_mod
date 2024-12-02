@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list android:paddingMode="stack"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:gravity="fill_horizontal|center" android:id="@android:id/background">
+    <item android:gravity="fill_horizontal|center" android:id="@*android:id/background">
         <layer-list>
             <item android:id="@id/volume_seekbar_background_solid">
                 <shape>
@@ -12,7 +12,7 @@
             </item>
         </layer-list>
     </item>
-    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress">
+    <item android:gravity="fill_horizontal|center" android:id="@*android:id/progress">
         <com.android.systemui.util.RoundedCornerProgressDrawable android:drawable="@drawable/volume_row_seekbar_progress" />
     </item>
 </layer-list>

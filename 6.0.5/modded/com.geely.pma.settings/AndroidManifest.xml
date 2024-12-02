@@ -107,7 +107,7 @@
                 <data android:scheme="saa79a4fe4"/>
             </intent-filter>
         </activity>
-        <activity android:exported="true" android:name="com.geely.pma.settings.main.ui.activity.PageJumpDispatchActivity" android:theme="@android:style/Theme.Translucent">
+        <activity android:exported="true" android:name="com.geely.pma.settings.main.ui.activity.PageJumpDispatchActivity" android:theme="@*android:style/Theme.Translucent">
             <intent-filter>
                 <action android:name="ecarx.intent.action.ACTION_CAR_CONTROL_TO_SETTINGS"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -163,22 +163,22 @@
                 <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
             </intent-filter>
         </receiver>
-        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" android:theme="@android:style/Theme">
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" android:theme="@*android:style/Theme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
-        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity" android:theme="@android:style/Theme">
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity" android:theme="@*android:style/Theme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
-        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity" android:theme="@android:style/Theme.Dialog">
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity" android:theme="@*android:style/Theme.Dialog">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
-        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@*android:style/Theme.Translucent.NoTitleBar"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
         <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
         <activity android:name="com.common.quick.demo.DemoMVVMActivity"/>

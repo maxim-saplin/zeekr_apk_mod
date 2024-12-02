@@ -30,4 +30,7 @@ Replace
 
 name="android:
 name="*android:
+
+="@android:
+="@*android:
 ```

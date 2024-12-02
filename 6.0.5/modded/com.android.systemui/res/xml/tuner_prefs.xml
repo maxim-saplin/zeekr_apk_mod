@@ -10,7 +10,7 @@
         <com.android.systemui.tuner.StatusBarSwitch android:title="@string/quick_settings_bluetooth_label" android:key="bluetooth" />
         <com.android.systemui.tuner.StatusBarSwitch android:title="@string/quick_settings_camera_label" android:key="cameratoggle" />
         <com.android.systemui.tuner.StatusBarSwitch android:title="@string/quick_settings_dnd_label" android:key="zen" />
-        <com.android.systemui.tuner.StatusBarSwitch android:title="@android:string/screen_compat_mode_hint" android:key="volume" />
+        <com.android.systemui.tuner.StatusBarSwitch android:title="@*android:string/screen_compat_mode_hint" android:key="volume" />
         <com.android.systemui.tuner.StatusBarSwitch android:title="@string/quick_settings_wifi_label" android:key="wifi" />
         <com.android.systemui.tuner.StatusBarSwitch android:title="@string/status_bar_ethernet" android:key="ethernet" />
         <com.android.systemui.tuner.StatusBarSwitch android:title="@string/quick_settings_cellular_detail_title" android:key="mobile" />

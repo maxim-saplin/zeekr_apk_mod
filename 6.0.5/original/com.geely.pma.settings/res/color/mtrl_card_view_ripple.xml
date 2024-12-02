@@ -2,6 +2,6 @@
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:state_checked="true" android:color="?colorPrimary" android:alpha="0.2" />
-    <item android:color="@android:color/transparent" app:state_dragged="true" />
+    <item android:color="@*android:color/transparent" app:state_dragged="true" />
     <item android:state_checked="false" android:color="?colorOnSurface" android:alpha="0.2" />
 </selector>
