@@ -1420,7 +1420,7 @@ APB会在0~80 km/h车速区间，对前方碰撞风险车辆进行制动减缓�
     <string name="common_theater_mode_info">自动调节座椅、空调、灯光等功能，营造舒适的观影环境</string>
     <string name="common_theater_mode_saved">影院位置已更新并保存</string>
     <string name="common_time">时间</string>
-    <string name="common_time_format">时间格式</string>
+    <string name="common_time_format">Time Format</string>
     <string name="common_toast_matching_bluetooth_text">配对请求已发送到%1$s</string>
     <string name="common_tra_light">交通灯提醒</string>
     <string name="common_track_mode_dialog_content">尊敬的用户，赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容赛道模式用户须知具体内容</string>
@@ -1583,8 +1583,8 @@ APB会在0~80 km/h车速区间，对前方碰撞风险车辆进行制动减缓�
     <string name="display_text_theme_selector_auto">自动</string>
     <string name="display_text_theme_selector_day">浅色</string>
     <string name="display_text_theme_selector_night">深色</string>
-    <string name="display_text_time_format_sub_title">时间格式</string>
-    <string name="display_text_time_format_title">时间格式</string>
+    <string name="display_text_time_format_sub_title">Time Format</string>
+    <string name="display_text_time_format_title">Time Format</string>
     <string name="door_approach_option">接近解锁</string>
     <string name="door_control_pop_info_new">非P挡下开车门或切换到P挡时，弹出快捷窗口，方便车门等控制</string>
     <string name="door_control_pop_new">车门快捷控制</string>

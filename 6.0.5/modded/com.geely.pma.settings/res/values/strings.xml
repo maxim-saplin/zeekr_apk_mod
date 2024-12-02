@@ -131,7 +131,7 @@ When selecting \'%\', the driver can adjust the overspeed reminder deviation val
 This function can only recognize some standard and clearly visible traffic signs and may not correctly recognize traffic signs in all situations. Drivers must always pay attention to the road traffic environment. For detailed warnings, instructions, and limitations of this function, please refer to the relevant sections in the \'User Manual\'."</string>
     <string name="adas_go_to_study_nzp">Go to Study</string>
     <string name="adas_high_way_autonomous_navigation">Highway Pilot</string>
-    <string name="adas_in_energy_saving_mode_function_not_available">超级省电模式开启中该功能不可用，请关闭后尝试”</string>
+    <string name="adas_in_energy_saving_mode_function_not_available">This function is unavailable while Super Energy Saving Mode is enabled. Please disable it and try again.</string>
     <string name="adas_introduction_" />
     <string name="adas_introduction_alc">"When the Lane Centering Assist function is active and the lever lane change switch is on, the vehicle will autonomously change to the corresponding side lane when the driver moves the turn signal lever to one side, provided the vehicle status and road environment meet the lane change requirements.
 
@@ -446,7 +446,7 @@ Usage Requirements:
     <string name="bx_radar_obstacle_avoidance_tip">The tank turn function will automatically stop when the radar detects an obstacle</string>
     <string name="bx_risk_awareness_letter">Risk Awareness Letter</string>
     <string name="bx_safe_security_car_location_info_upload">Driving Location Information Upload</string>
-    <string name="bx_safe_security_car_location_info_upload_dialog_content_describe">关闭行车位置信息上传开关后，将同时关闭与车辆定位相关的功能，请确认是否关闭？</string>
+    <string name="bx_safe_security_car_location_info_upload_dialog_content_describe">After turning off the driving location information upload switch, functions related to vehicle positioning will also be disabled. Please confirm if you want to proceed with turning it off.</string>
     <string name="bx_super_power_saving_content">"When the super ECO mode is turned on, certain comfort functions will be turned off and the power performance will be optimized to increase the cars driving range. Before turning on the super ECO mode, pay attention to the followings:
  1. After the car is locked or being charged, the super ECO mode will be exited
  2. The power performance will be weakened, and the driving mode will not be selectable
@@ -512,7 +512,7 @@ Usage Requirements:
     <string name="commom_door_electric_mode">Please set the electric door to electric mode first</string>
     <string name="commom_driving_mode_individualization_set">Personalized settings</string>
     <string name="common_access_point_mode">Car hotspot</string>
-    <string name="common_accor_pop_matching_bluetooth_text">配对码已发送，等待“%1$s”确认</string>
+    <string name="common_accor_pop_matching_bluetooth_text">Pairing code sent, waiting for confirmation from “%1$s”</string>
     <string name="common_adjust_rear_mirror_tip1">Pelease Use the touch pad on the right side of the steering wheel to adjust the rearview mirror.</string>
     <string name="common_adjust_rear_mirror_tip2">Please adjust the mirrors with steering wheel switch</string>
     <string name="common_adjust_wheel_steer">Adjust Wheel Steer</string>
@@ -610,8 +610,8 @@ Usage Requirements:
     <string name="common_btn_stop_discharging">Stop discharging</string>
     <string name="common_btn_verify_by_phone">Verification by app</string>
     <string name="common_business_class">Business class</string>
-    <string name="common_bx_damping_title">减振</string>
-    <string name="common_bx_suspension_title">悬架高度</string>
+    <string name="common_bx_damping_title">Damping</string>
+    <string name="common_bx_suspension_title">Suspension Height</string>
     <string name="common_cable_status_connect_ac">Connected (AC)</string>
     <string name="common_cable_status_connect_dc">Connected (DC)</string>
     <string name="common_cable_status_connect_fault">Connection failure</string>
@@ -620,7 +620,7 @@ Usage Requirements:
     <string name="common_can_be_discoverd_device">Can be discovered by mobile devices.</string>
     <string name="common_cancel">Cancel</string>
     <string name="common_cant_connect">"Couldn\'t connect, please try again"</string>
-    <string name="common_cant_connect_enter">无法加入网络，请稍后再试</string>
+    <string name="common_cant_connect_enter">Unable to join the network, please try again later</string>
     <string name="common_car_door_lock">Door lock</string>
     <string name="common_car_jack">Jack mode</string>
     <string name="common_car_jack_info">Temporarily disable levelling control when vehicle is hoisted or on jack(s)</string>
@@ -645,9 +645,9 @@ Usage Requirements:
     <string name="common_cardoors_single_door">Signle door</string>
     <string name="common_change_lane">Lane change confirmation</string>
     <string name="common_change_lane_info">After turning on, before the system perform lane change, it will remind the user that the lane will be changed, and the user needs to confirm the lane change by manually toggle the turn signal lever</string>
-    <string name="common_charge_battery_temp_little_low_tips">当前电池温度略低，充电速率轻微下降</string>
-    <string name="common_charge_battery_temp_low_tips">当前电池温度低，充电速率下降</string>
-    <string name="common_charge_battery_temp_very_low_tips">当前电池温度过低，充电速率明显下降</string>
+    <string name="common_charge_battery_temp_little_low_tips">The current battery temperature is slightly low, charging speed slightly reduced</string>
+    <string name="common_charge_battery_temp_low_tips">The current battery temperature is low, charging speed reduced</string>
+    <string name="common_charge_battery_temp_very_low_tips">The current battery temperature is too low, charging speed significantly reduced</string>
     <string name="common_charge_charge_speed">Charging speed</string>
     <string name="common_charge_current">Current</string>
     <string name="common_charge_daily">Daily</string>
@@ -668,7 +668,7 @@ Usage Requirements:
     <string name="common_charge_status_discharging_done">DISCHARGING COMPLETE</string>
     <string name="common_charge_status_discharging_fault">DISCHARGING FAILURE</string>
     <string name="common_charge_status_fast_charging">FAST CHARGING</string>
-    <string name="common_charge_status_preheating">电池温度调节中</string>
+    <string name="common_charge_status_preheating">Battery temperature adjusting</string>
     <string name="common_charge_status_schedule_charging">SCHEDULED CHARGING</string>
     <string name="common_charge_status_super_fast_charging">ULTRA CHARGING</string>
     <string name="common_charge_sunday">Sunday</string>
@@ -713,7 +713,7 @@ Usage Requirements:
     <string name="common_charging_time_normal_left_day">&lt;b>&lt;font color=#000000>%1$s&lt;/font>&lt;/b> h &lt;b>&lt;font color=#FFFFFF>%2$s&lt;/font>&lt;/b> min left</string>
     <string name="common_charging_voltage_unit">V</string>
     <string name="common_check_network_name">Could not connect,please check network name</string>
-    <string name="common_checkbox_tip">30天内不再提示</string>
+    <string name="common_checkbox_tip">Do not show again for 30 days</string>
     <string name="common_child_lock">Child lock</string>
     <string name="common_child_lock_desc">After opening, the rear doors and windows of the vehicle cannot be opened from the inside</string>
     <string name="common_chime">Chime</string>
@@ -763,7 +763,7 @@ Usage Requirements:
     <string name="common_conn_bt_connecting">Connecting</string>
     <string name="common_conn_bt_disconnected">Disconnected</string>
     <string name="common_conn_bt_disconnecting">Disconnecting</string>
-    <string name="common_conn_bt_music_connected">已连接 （仅媒体）</string>
+    <string name="common_conn_bt_music_connected">Connected (Media only)</string>
     <string name="common_conn_bt_name">John’s Car Bluetooth</string>
     <string name="common_conn_bt_num">0</string>
     <string name="common_conn_bt_phone_connected">Connected (Calls only)</string>
@@ -1299,7 +1299,7 @@ Select \'Follow Gaze Direction\', and when you look at the left/right mirror, it
     <string name="common_parking_brake_auto_info">Apply parking brake when the door is opened during standstill.</string>
     <string name="common_parking_camera">Parking Camera</string>
     <string name="common_parking_comfort">Parking comfort</string>
-    <string name="common_parking_comfort_content">驻车舒享未关闭，是否关闭？</string>
+    <string name="common_parking_comfort_content">Parking comfort is not turned off, would you like to turn it off?</string>
     <string name="common_parking_comfort_info">Keep climate and infotainment systems on for a set number of hours.</string>
     <string name="common_parking_comfort_mode_info">Parking comfort mode will consume HV energy. Function will turn OFF automatically when HV battery level is lower than 20%.</string>
     <string name="common_parking_comfort_mode_title">Parking comfort</string>
@@ -1329,8 +1329,8 @@ Select \'Follow Gaze Direction\', and when you look at the left/right mirror, it
     <string name="common_pedal_content">"Can\'t activate with the current drive mode selected."</string>
     <string name="common_pedal_function">Enable E-Pedal function</string>
     <string name="common_pedal_ok">OK!</string>
-    <string name="common_pedestrian_advance_warning_tone">行人先行提醒音</string>
-    <string name="common_pop_matching_bluetooth_text">要与“%1$s”配对吗？</string>
+    <string name="common_pedestrian_advance_warning_tone">Pedestrian Advance Warning Tone</string>
+    <string name="common_pop_matching_bluetooth_text">Do you want to pair with “%1$s”?</string>
     <string name="common_position_adjustments">Vehicle dynamics</string>
     <string name="common_position_customized">Customized</string>
     <string name="common_position_drive">Driving mode</string>
@@ -1383,7 +1383,7 @@ Select \'Follow Gaze Direction\', and when you look at the left/right mirror, it
     <string name="common_recording_resolution">Recording resolution</string>
     <string name="common_recreate_loading">loading....</string>
     <string name="common_recreate_loading_dark">Setting dark theme</string>
-    <string name="common_recreate_loading_language">正在设置语言</string>
+    <string name="common_recreate_loading_language">Setting language</string>
     <string name="common_recreate_loading_light">Setting light theme</string>
     <string name="common_regen_level">Regeneration level</string>
     <string name="common_release_parking_brake">Release parking brake</string>
@@ -1485,7 +1485,7 @@ on the screen"</string>
     <string name="common_speed_warning_mode_option">Speed warning mode</string>
     <string name="common_sport">Sport</string>
     <string name="common_standard">Standard</string>
-    <string name="common_start_the_sound_outside_the_vehicle">启动车外声音App</string>
+    <string name="common_start_the_sound_outside_the_vehicle">Start the exterior sound app</string>
     <string name="common_steam_media">Stream media</string>
     <string name="common_steer_feel">Steering</string>
     <string name="common_steer_info">Use the right steering wheel touch pad to adjust the position of the steering wheel.</string>
@@ -1496,7 +1496,7 @@ on the screen"</string>
     <string name="common_suspension_height">Ride Height</string>
     <string name="common_system_update">Car system update</string>
     <string name="common_system_update2">ZEEKR OS %1$s</string>
-    <string name="common_take_photos_with_tachograph">行车记录仪拍照</string>
+    <string name="common_take_photos_with_tachograph">Take photos with dashcam</string>
     <string name="common_tem">Temperature</string>
     <string name="common_term_service">You can read terms of Service</string>
     <string name="common_term_service2">For use ，terms of Service</string>
@@ -1713,8 +1713,8 @@ on the screen"</string>
     <string name="display_text_theme_selector_auto">Auto</string>
     <string name="display_text_theme_selector_day">Light</string>
     <string name="display_text_theme_selector_night">Dark</string>
-    <string name="display_text_time_format_sub_title">时间格式</string>
-    <string name="display_text_time_format_title">Time format</string>
+    <string name="display_text_time_format_sub_title">Time Format</string>
+    <string name="display_text_time_format_title">Time Format</string>
     <string name="door_approach_option">Approach unlock</string>
     <string name="door_control_pop_info_new">A quick window pops up for convenient door control when opening the door without being in P gear or when switching to P gear</string>
     <string name="door_control_pop_new">Quick Door Control</string>
@@ -1846,17 +1846,17 @@ on the screen"</string>
     <string name="energy_charging_current_range_unit_km">km</string>
     <string name="energy_charging_current_range_unit_mile">mile</string>
     <string name="energy_charging_current_unit">A</string>
-    <string name="energy_charging_estimate">&lt;span color=#CC85898C font-size=40px>剩余时间：&lt;/span > &lt;span color=#85898C font-size=52px style=Bold>%1$s&lt;/span > &lt;span color=#CC85898C font-size=40px>h&lt;/span > &lt;span color=#85898C font-size=52px style=Bold>%2$s&lt;/span > &lt;span color=#CC85898C font-size=40px>min&lt;/span ></string>
-    <string name="energy_charging_estimate_24">&lt;span color=#CC85898C font-size=40px>剩余时间：&lt;/span > &lt;span color=#85898C font-size=52px style=Bold>>24&lt;/span > &lt;span color=#CC85898C font-size=40px>h&lt;/span ></string>
-    <string name="energy_charging_estimate_24_day">&lt;span color=#CC383A3D font-size=40px>剩余时间：&lt;/span > &lt;span color=#383A3D font-size=52px style=Bold>>24&lt;/span > &lt;span color=#CC383A3D font-size=40px>h&lt;/span ></string>
-    <string name="energy_charging_estimate_day">" &lt;span color=#CC383A3D font-size=40px>剩余时间：&lt;/span > &lt;span color=#383A3D font-size=52px style=Bold>%1$s&lt;/span > &lt;span color=#CC383A3D font-size=40px>h&lt;/span > &lt;span color=#383A3D font-size=52px style=Bold>%2$s&lt;/span > &lt;span color=#CC383A3D font-size=40px>min&lt;/span > "</string>
-    <string name="energy_charging_estimate_no_hour">&lt;span color=#CC85898C font-size=40px>剩余时间：&lt;/span > &lt;span color=#85898C font-size=52px style=Bold>%1$s&lt;/span > &lt;span color=#CC85898C font-size=40px>min&lt;/span ></string>
-    <string name="energy_charging_estimate_no_hour_day">" &lt;span color=#CC383A3D font-size=40px>剩余时间：&lt;/span > &lt;span color=#383A3D font-size=52px style=Bold>%1$s&lt;/span > &lt;span color=#CC383A3D font-size=40px>min&lt;/span > "</string>
+    <string name="energy_charging_estimate">&lt;span color=#CC85898C font-size=40px>Remaining Time:&lt;/span > &lt;span color=#85898C font-size=52px style=Bold>%1$s&lt;/span > &lt;span color=#CC85898C font-size=40px>h&lt;/span > &lt;span color=#85898C font-size=52px style=Bold>%2$s&lt;/span > &lt;span color=#CC85898C font-size=40px>min&lt;/span ></string>
+    <string name="energy_charging_estimate_24">&lt;span color=#CC85898C font-size=40px>Remaining Time:&lt;/span > &lt;span color=#85898C font-size=52px style=Bold>>24&lt;/span > &lt;span color=#CC85898C font-size=40px>h&lt;/span ></string>
+    <string name="energy_charging_estimate_24_day">&lt;span color=#CC383A3D font-size=40px>Remaining Time:&lt;/span > &lt;span color=#383A3D font-size=52px style=Bold>>24&lt;/span > &lt;span color=#CC383A3D font-size=40px>h&lt;/span ></string>
+    <string name="energy_charging_estimate_day">" &lt;span color=#CC383A3D font-size=40px>Remaining Time:&lt;/span > &lt;span color=#383A3D font-size=52px style=Bold>%1$s&lt;/span > &lt;span color=#CC383A3D font-size=40px>h&lt;/span > &lt;span color=#383A3D font-size=52px style=Bold>%2$s&lt;/span > &lt;span color=#CC383A3D font-size=40px>min&lt;/span > "</string>
+    <string name="energy_charging_estimate_no_hour">&lt;span color=#CC85898C font-size=40px>Remaining Time:&lt;/span > &lt;span color=#85898C font-size=52px style=Bold>%1$s&lt;/span > &lt;span color=#CC85898C font-size=40px>min&lt;/span ></string>
+    <string name="energy_charging_estimate_no_hour_day">" &lt;span color=#CC383A3D font-size=40px>Remaining Time:&lt;/span > &lt;span color=#383A3D font-size=52px style=Bold>%1$s&lt;/span > &lt;span color=#CC383A3D font-size=40px>min&lt;/span > "</string>
     <string name="energy_charging_hour_unit">h</string>
     <string name="energy_charging_level_unit">%</string>
     <string name="energy_charging_minute_unit">min</string>
-    <string name="energy_charging_pre_time">&lt;span color=#CC85898C font-size=40px>已预约：&lt;/span > &lt;span color=#85898C font-size=52px style=Bold>%1$s&lt;/span ></string>
-    <string name="energy_charging_pre_time_day">&lt;span color=#CC383A3D font-size=40px>已预约：&lt;/span > &lt;span color=#383A3D font-size=52px style=Bold>%1$s&lt;/span ></string>
+    <string name="energy_charging_pre_time">&lt;span color=#CC85898C font-size=40px>Scheduled:&lt;/span > &lt;span color=#85898C font-size=52px style=Bold>%1$s&lt;/span ></string>
+    <string name="energy_charging_pre_time_day">&lt;span color=#CC383A3D font-size=40px>Scheduled:&lt;/span > &lt;span color=#383A3D font-size=52px style=Bold>%1$s&lt;/span ></string>
     <string name="energy_charging_speed_range_unit_kw">kWh</string>
     <string name="energy_charging_speed_range_unit_mile">mph</string>
     <string name="energy_charging_speed_unit">km/h</string>
