@@ -63,6 +63,8 @@ Some of the apps:
 - com.android.systemui - Status bar at the top of the screen
 - com.geely.pma.settings - Car Settings app
 
+YOU MIGHT NEED THIS APKS if something goes wrong, just reinstall the APK from the backup.
+
 ### Decompile APK
 
 `apktool b _input/com.geely.pma.settings.apk -o 6.0.5/modded/com.geely.pma.settings_en.apk`
@@ -75,6 +77,12 @@ Some of the apps:
 - Pay attention to envoding special chars in XML, e.g. use \' for single quotes
 - Use '[^\x00-\x7F]' RegEx to help find non-ASCII characters
 - Use `validate_resources.py` script to check that the modded resources are not broken and have exactly the same struture as the original one (i.e. you haven't deleted certain key)
+
+#### Unity Resources (TBD)
+
+E.g. translating Launcher 3D View (with the model of the car in 3D)
+
+#### Making Code Changes (TBD)
 
 ### Build and sign APK
 
@@ -110,7 +118,7 @@ Zeekr OS is based on AOSP and uses test keys supplied by Google. I have included
      "$alignedApk"
    ```
 
-### Install APK
+### Install APK and Test
 
 `adb install -g _output/com.android.systemui_en.apk`
 
