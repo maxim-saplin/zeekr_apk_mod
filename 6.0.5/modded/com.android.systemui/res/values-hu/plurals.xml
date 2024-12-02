@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d napja</item>
+        <item quantity="one">%d napja</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d perce</item>
+        <item quantity="one">%d perce</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d éve</item>
+        <item quantity="one">%d éve</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s vezérlő hozzáadva.</item>
+        <item quantity="one">%s vezérlő hozzáadva.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Adja meg a SIM-kártya PIN-kódját. %d próbálkozása maradt.</item>
+        <item quantity="one">Adja meg a SIM-kártya PIN-kódját. %d próbálkozása maradt. Ha elfogynak a próbálkozási lehetőségek, az eszköz feloldásához fel kell vennie a kapcsolatot szolgáltatójával.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">A SIM-kártya le van tiltva. A folytatáshoz adja meg a PUK-kódot. Még %d próbálkozása van, mielőtt végleg használhatatlanná válik a SIM-kártya. További információért forduljon a szolgáltatóhoz.</item>
+        <item quantity="one">A SIM-kártya le van tiltva. A folytatáshoz adja meg a PUK-kódot. Még %d próbálkozása van, mielőtt végleg használhatatlanná válik a SIM-kártya. További információért forduljon a szolgáltatóhoz.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Helytelen PIN-kód a SIM-kártyához. Még %d próbálkozása maradt.</item>
+        <item quantity="one">Helytelen PIN-kód a SIM-kártyához. Még %d próbálkozása maradt, az eszköz feloldásához azt követően fel kell vennie a kapcsolatot szolgáltatójával.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Helytelen PUK-kód a SIM-kártyához. Még %d próbálkozása maradt, mielőtt a SIM-kártya végleg használhatatlanná válik.</item>
+        <item quantity="one">Helytelen PUK-kód a SIM-kártyához. Még %d próbálkozása maradt, mielőtt a SIM-kártya végleg használhatatlanná válik.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Próbálja újra %d másodperc múlva.</item>
+        <item quantity="one">Próbálja újra 1 másodperc múlva.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d új értesítés</item>
+        <item quantity="one">%d új értesítés</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s további értesítés.</item>
+        <item quantity="one">%s további értesítés.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d eszköz</item>
+        <item quantity="one">%d eszköz</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Legfeljebb %d felhasználót adhat hozzá.</item>
+        <item quantity="one">Csak egy felhasználót lehet létrehozni.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d eszköz csatlakozik</item>
+        <item quantity="one">%1$d eszköz csatlakozik</item>
+    </plurals>
+</resources>

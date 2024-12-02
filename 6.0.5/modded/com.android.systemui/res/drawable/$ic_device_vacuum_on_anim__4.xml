@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$ic_device_vacuum_on_anim__5" android:duration="500" android:startOffset="0" android:valueFrom="M2.15 11.63 C2.15,11.63 -12,11.63 -12,11.63 C-12,11.63 -12,10.58 -12,10.58 C-12,10.58 2.15,10.58 2.15,10.58 C2.15,10.58 2.15,11.63 2.15,11.63c " android:valueTo="M2.15 -2.94 C2.15,-2.94 -12,-2.94 -12,-2.94 C-12,-2.94 -12,10.58 -12,10.58 C-12,10.58 2.15,10.58 2.15,10.58 C2.15,10.58 2.15,-2.94 2.15,-2.94c " android:valueType="pathType" android:propertyName="pathData" />
+</set>

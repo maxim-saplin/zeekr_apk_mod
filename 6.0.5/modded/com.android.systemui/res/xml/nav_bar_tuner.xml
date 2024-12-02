@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/nav_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sysui="http://schemas.android.com/apk/res-auto">
+    <com.android.systemui.tuner.RadioListPreference android:persistent="false" android:entries="@array/nav_bar_layouts" android:title="@string/nav_bar_layout" android:key="layout" android:summary="%s" android:entryValues="@array/nav_bar_layouts_values" />
+    <com.android.systemui.tuner.RadioListPreference android:persistent="false" android:entries="@array/nav_bar_buttons" android:title="@string/left_nav_bar_button_type" android:key="type_left" android:summary="%s" android:entryValues="@array/nav_bar_button_values" />
+    <Preference android:persistent="false" android:title="@string/left_keycode" android:key="keycode_left" />
+    <com.android.systemui.tuner.RadioListPreference android:persistent="false" android:title="@string/left_icon" android:key="icon_left" android:summary="%s" />
+    <com.android.systemui.tuner.RadioListPreference android:persistent="false" android:entries="@array/nav_bar_buttons" android:title="@string/right_nav_bar_button_type" android:key="type_right" android:summary="%s" android:entryValues="@array/nav_bar_button_values" />
+    <Preference android:persistent="false" android:title="@string/right_keycode" android:key="keycode_right" />
+    <com.android.systemui.tuner.RadioListPreference android:persistent="false" android:title="@string/right_icon" android:key="icon_right" android:summary="%s" />
+</PreferenceScreen>

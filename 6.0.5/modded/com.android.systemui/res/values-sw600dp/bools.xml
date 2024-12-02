@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="allow_force_nav_bar_handle_opaque">false</bool>
+    <bool name="is_tablet">true</bool>
+    <bool name="qs_show_user_switcher_for_single_user">true</bool>
+</resources>

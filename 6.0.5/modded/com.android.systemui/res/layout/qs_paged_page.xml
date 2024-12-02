@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.SideLabelTileLayout android:id="@id/tile_page" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/notification_side_paddings" android:paddingEnd="@dimen/notification_side_paddings"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

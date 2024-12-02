@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Tik hier om meldingen weer in te schakelen.</string>
+    <string name="notifications_off_title">Meldingen uit</string>
+    <string name="status_bar_clear_all_button">Alles wissen</string>
+</resources>

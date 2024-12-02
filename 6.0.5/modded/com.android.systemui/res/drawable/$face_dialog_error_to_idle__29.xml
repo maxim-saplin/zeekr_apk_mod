@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$face_dialog_error_to_idle__30" android:duration="50" android:startOffset="0" android:propertyName="translateXY" android:pathData="M 22.005,19.51C 21.43742198228836,20.224974105358122 22.57257801771164,18.79502589464188 22.005,19.51" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_error_to_idle__31" android:duration="167" android:startOffset="50" android:propertyName="translateXY" android:pathData="M 22.005,19.51C 21.43742198228836,20.224974105358122 19.16757801771164,23.08502589464188 18.6,23.8" android:propertyXName="translateX" android:propertyYName="translateY" />
+</set>

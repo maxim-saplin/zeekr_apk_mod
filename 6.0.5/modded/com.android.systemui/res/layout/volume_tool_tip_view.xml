@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.volume.VolumeToolTipView android:orientation="horizontal" android:id="@id/tooltip_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/volume_tool_tip_rounded_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="4.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimaryInverse" android:layout_gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/volume_odi_captions_tip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dismiss" android:background="?android:selectableItemBackgroundBorderless" android:padding="12.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_remove_no_shadow" android:tint="?android:textColorPrimaryInverse" android:contentDescription="@string/accessibility_volume_close_odi_captions_tip" android:alpha="0.7" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+    </LinearLayout>
+    <View android:layout_gravity="center_vertical" android:id="@id/arrow" android:layout_width="8.0dip" android:layout_height="10.0dip" android:layout_marginLeft="-2.0dip" />
+</com.android.systemui.volume.VolumeToolTipView>

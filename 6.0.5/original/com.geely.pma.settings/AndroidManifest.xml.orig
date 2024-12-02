@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" android:sharedUserId="android.uid.system" package="com.geely.pma.settings" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <protected-broadcast android:name="ecarx.intent.action.ECARX_OTA_CHECK"/>
+    <uses-permission android:name="android.car.permission.CAR_HVAC"/>
+    <uses-permission android:name="android.car.permission.CAR_VENDOR_EXTENSION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEM"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="android.permission.LOCAL_MAC_ADDRESS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <permission android:name="com.geely.pma.settings.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.geely.pma.settings.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="android.car.permission.CAR_CONTROL_AUDIO_VOLUME"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.access_wifi_state"/>
+    <uses-permission android:name="android.permission.access_network_state"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_setting_logo" android:label="@string/app_name" android:name="com.geely.pma.settings.SettingsApplication" android:roundIcon="@mipmap/ic_setting_logo" android:supportsRtl="true" android:theme="@style/SettingApp">
+        <meta-data android:name="eCarX_OpenAPI_AppId" android:value="f42f70546cf4f2699069ea2c583b45db"/>
+        <meta-data android:name="eCarX_OpenAPI_AppKey" android:value="6f10c4daf634bd0aa0286621fc617f60"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.main.service.SensorStatusMonitorService" android:priority="1000">
+            <intent-filter>
+                <action android:name="com.geely.pma.settings.SensorStatusMonitorService"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="true" android:name="com.geely.pma.settings.broadcast.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.ecarx.intent.action.EAS_LAUNCH_BAT_1ST"/>
+                <action android:name="ecarx.intent.action.ACTION_GLOVE_OPEN_WITH_PWD"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ecarx.intent.broadcast.action.ECARX_VR_APP_CLOSE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="vr.com" android:path="/设置" android:scheme="ecarx"/>
+                <data android:host="vr.com" android:path="/车辆设置" android:scheme="ecarx"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|layoutDirection|navigation|orientation|screenLayout|smallestScreenSize|touchscreen|uiMode" android:exported="true" android:label="@string/app_name" android:launchMode="singleInstance" android:name="com.geely.pma.settings.SettingsActivity" android:screenOrientation="landscape" android:taskAffinity="zeekr.car.settings" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="ecarx.intent.action.ECARX_BLUETOOTH_SETTINGS"/>
+                <action android:name="ecarx.intent.action.ECARX_WIFI_SETTINGS"/>
+                <action android:name="ecarx.intent.action.ECARX_AP_SETTINGS"/>
+                <action android:name="ecarx.intent.action.ECARX_OTA_SETTINGS"/>
+                <action android:name="ecarx.intent.action.ECARX_PROFILE_SETTINGS"/>
+                <action android:name="ecarx.intent.action.ECARX_CHARGING_SETTINGS"/>
+                <action android:name="ecarx.intent.action.ECARX_COMFORT_SETTINGS"/>
+                <action android:name="ecarx.intent.action.ECARX_PARKING_SETTINGS"/>
+                <action android:name="ecarx.intent.action.ECARX_PARK_COMFORT_MODE_SETTINGS"/>
+                <action android:name="ecarx.intent.action.ACTION_DRAVE_SMART_FIRST"/>
+                <action android:name="ecarx.intent.action.ECARX_SENTRY_MODE_SETTINGS"/>
+                <action android:name="ecarx.intent.action.ECARX_OTA_UPLOAD_SYSTEM_LOG_SETTINGS"/>
+                <action android:name="zeekr.intent.action.jump"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ecarx.settings.SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ecarx.intent.action.ECARX_VR_APP_OPEN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="ecarx.intent.category.ECARX_VR_APP_OPEN_AP_SETTING"/>
+                <category android:name="ecarx.intent.category.ECARX_VR_APP_OPEN_WIFI_SETTING"/>
+                <category android:name="ecarx.intent.category.ECARX_VR_APP_OPEN_BLUETOOTH_SETTING"/>
+                <category android:name="ecarx.intent.category.ECARX_VR_APP_OPEN_VOLUME_BT_SETTING"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ecarx.intent.action.ECARX_VR_APP_OPEN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="vr.com" android:path="/设置" android:scheme="ecarx"/>
+                <data android:host="vr.com" android:path="/车辆设置" android:scheme="ecarx"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="saa79a4fe4"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.geely.pma.settings.main.ui.activity.PageJumpDispatchActivity" android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="ecarx.intent.action.ACTION_CAR_CONTROL_TO_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="zeekr.intent.action.jump.CAR_SETTINGS"/>
+                <category android:name="zeekr.intent.category.jump.CAR_SETTINGS_OPEN_CONNECT_DIALOG"/>
+                <category android:name="zeekr.intent.category.jump.CAR_SETTINGS_OPEN_FULL_SCROLL_CHARGE_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="layoutDirection|uiMode" android:exported="true" android:launchMode="singleInstance" android:name="com.geely.pma.settings.main.ui.activity.DialogShowActivity" android:taskAffinity="zeekr.car.settings.dialog" android:theme="@style/dialogActivity">
+            <intent-filter>
+                <action android:name="com.geely.pma.settings.DialogShowActivity.Settings"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.geely.pma.settings.seat.TestDialogActivity"/>
+        <receiver android:exported="true" android:name="com.geely.pma.settings.energy.receiver.PreTimeReceiver">
+            <intent-filter>
+                <action android:name="com.geely.pma.energy.preSingleOffAction"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.geely.pma.settings.provider.business" android:exported="true" android:name="com.geely.pma.settings.driving.provider.SettingsBusinessProvider"/>
+        <activity android:configChanges="layoutDirection|uiMode" android:exported="true" android:launchMode="singleInstance" android:name="com.geely.pma.settings.connect.ConnectDialogActivity" android:theme="@style/connectDialogActivityTheme">
+            <intent-filter>
+                <action android:name="com.geely.setting.connect.ConnectDialogActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="com.geely.pma.settings.soundnotification.receiver.PackageIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.geely.pma.settings.provider" android:exported="true" android:name="com.geely.pma.settings.commons.provider.AppInfoProvider"/>
+        <receiver android:name="com.geely.pma.settings.display.themeauto.method.customtime.receiver.ThemeAutoCustomTimeAlarmReceiver"/>
+        <receiver android:name="com.geely.pma.settings.display.receiver.STRModeChangeReceiver"/>
+        <service android:foregroundServiceType="mediaProjection" android:name="com.geely.pma.settings.lighting.viewmodel.mediaprojection.MediaProjectionService"/>
+        <provider android:authorities="com.geely.pma.settings.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" android:theme="@android:style/Theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity" android:theme="@android:style/Theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity" android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <activity android:name="com.common.quick.demo.DemoMVVMActivity"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService0"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService1"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService2"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService3"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService4"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService5"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService6"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService7"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService8"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService9"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService10"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService11"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService12"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService13"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService14"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService15"/>
+        <activity android:name="com.geely.hmi.carservice.test.TestActivity"/>
+        <service android:exported="true" android:name="com.geely.hmi.carservice.test.DebugDataDirFloatingWindowService"/>
+        <provider android:authorities="com.geely.pma.settings.SensorsDataContentProvider" android:enabled="true" android:exported="false" android:name="com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.MainProcessName" android:value="com.geely.pma.settings"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.version" android:value="0.1.4"/>
+    </application>
+</manifest>

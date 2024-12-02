@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$ic_device_garage_off_anim__3" android:duration="517" android:startOffset="0" android:valueFrom="M5.14 -5.06 C5.14,-5.06 -5.12,-5.06 -5.12,-5.06 C-5.12,-5.06 -5.12,4.88 -5.12,4.88 C-5.12,4.88 5.14,4.88 5.14,4.88 C5.14,4.88 5.14,-5.06 5.14,-5.06c " android:valueTo="M5.14 -12.94 C5.14,-12.94 -5.12,-12.94 -5.12,-12.94 C-5.12,-12.94 -5.12,-3 -5.12,-3 C-5.12,-3 5.14,-3 5.14,-3 C5.14,-3 5.14,-12.94 5.14,-12.94c " android:valueType="pathType" android:propertyName="pathData" />
+</set>

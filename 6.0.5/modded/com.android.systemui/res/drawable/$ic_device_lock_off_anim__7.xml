@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$ic_device_lock_off_anim__8" android:duration="200" android:startOffset="0" android:valueFrom="M0 -4.8 C-4.6,-4.8 -8.32,-1.09 -8.32,3.5 C-8.32,8.08 -4.6,11.8 0,11.8 C4.59,11.8 8.32,8.08 8.32,3.5 C8.32,-1.09 4.59,-4.8 0,-4.8c " android:valueTo="M0 -4.8 C-4.6,-4.8 -8.32,-1.09 -8.32,3.5 C-8.32,8.08 -4.6,11.8 0,11.8 C4.59,11.8 8.32,8.08 8.32,3.5 C8.32,-1.09 4.59,-4.8 0,-4.8c " android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@drawable/$ic_device_lock_off_anim__9" android:duration="300" android:startOffset="200" android:valueFrom="M0 -4.8 C-4.6,-4.8 -8.32,-1.09 -8.32,3.5 C-8.32,8.08 -4.6,11.8 0,11.8 C4.59,11.8 8.32,8.08 8.32,3.5 C8.32,-1.09 4.59,-4.8 0,-4.8c " android:valueTo="M0 1.5 C-1.11,1.5 -2,2.4 -2,3.5 C-2,4.6 -1.11,5.49 0,5.49 C1.1,5.49 2,4.6 2,3.5 C2,2.4 1.1,1.5 0,1.5c " android:valueType="pathType" android:propertyName="pathData" />
+</set>

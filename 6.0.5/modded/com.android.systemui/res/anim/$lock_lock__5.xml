@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@anim/$lock_lock__6" android:duration="450" android:startOffset="0" android:valueFrom="1" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@anim/$lock_lock__7" android:duration="450" android:startOffset="0" android:valueFrom="1" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@anim/$lock_lock__8" android:duration="67" android:startOffset="450" android:valueFrom="1" android:valueTo="1.1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@anim/$lock_lock__9" android:duration="67" android:startOffset="450" android:valueFrom="1" android:valueTo="1.1" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@anim/$lock_lock__10" android:duration="183" android:startOffset="517" android:valueFrom="1.1" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@anim/$lock_lock__11" android:duration="183" android:startOffset="517" android:valueFrom="1.1" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

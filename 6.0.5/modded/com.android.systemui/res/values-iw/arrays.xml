@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>אנימציה כבויה</item>
+        <item>‏קנה מידה לאנימציה 5x.</item>
+        <item>‏קנה מידה לאנימציה 1x</item>
+        <item>‏קנה מידה לאנימציה 1.5x</item>
+        <item>‏קנה מידה לאנימציה 2x</item>
+        <item>‏קנה מידה לאנימציה 5x</item>
+        <item>‏קנה מידה לאנימציה 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>הגבלה סטנדרטית</item>
+        <item>אין תהליכים ברקע</item>
+        <item>תהליך אחד לכל היותר</item>
+        <item>2 תהליכים לכל היותר</item>
+        <item>3 תהליכים לכל היותר</item>
+        <item>4 תהליכים לכל היותר</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>תמיד להציג באחוזים</item>
+        <item>הצגת אחוזים בזמן הטעינה (ברירת מחדל)</item>
+        <item>אל תציגו את הסמל הזה</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>שימוש בבחירת המערכת (ברירת המחדל)</item>
+        <item>16 ביטים לדגימה</item>
+        <item>24 סיביות לדגימה</item>
+        <item>32 סיביות לדגימה</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>שימוש בבחירת המערכת (ברירת המחדל)</item>
+        <item>16 סיביות לדגימה</item>
+        <item>24 סיביות לדגימה</item>
+        <item>32 סיביות לדגימה</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>שימוש בבחירת המערכת (ברירת המחדל)</item>
+        <item>מונו</item>
+        <item>סטריאו</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>שימוש בבחירת המערכת (ברירת המחדל)</item>
+        <item>מונו</item>
+        <item>סטריאו</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>אופטימיזציה להשגת איכות אודיו מרבית</item>
+        <item>איזון בין איכות החיבור לאיכות אודיו</item>
+        <item>אופטימיזציה להשגת איכות חיבור מרבית</item>
+        <item>האיכות הטובה ביותר (קצב העברת נתונים מותאם)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>‏אופטימיזציה להשגת איכות אודיו מרבית (990kbps/909kbps)</item>
+        <item>‏איזון בין איכות החיבור לאיכות אודיו (660kbps/606kbps)</item>
+        <item>‏אופטימיזציה להשגת איכות חיבור מרבית (330kbps/303kbps)</item>
+        <item>האיכות הטובה ביותר (קצב העברת נתונים מותאם)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>שימוש בבחירת המערכת (ברירת המחדל)</item>
+        <item>44.1 קילו-הרץ</item>
+        <item>48.0 קילו-הרץ</item>
+        <item>88.2 קילו-הרץ</item>
+        <item>96.0 קילו-הרץ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>שימוש בבחירת המערכת (ברירת המחדל)</item>
+        <item>44.1 קילו-הרץ</item>
+        <item>48.0 קילו-הרץ</item>
+        <item>88.2 קילו-הרץ</item>
+        <item>96.0 קילו-הרץ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>שימוש בבחירת המערכת (ברירת המחדל)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>אודיו Qualcomm® aptX™</item>
+        <item>אודיו Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>שימוש בבחירת המערכת (ברירת המחדל)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>אודיו Qualcomm® aptX™</item>
+        <item>אודיו Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, פעיל</item>
+        <item>, פעיל (מדיה)</item>
+        <item>, פעיל (טלפון)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>‏AVRCP 1.5 (ברירת המחדל)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>‏MAP 1.2 (ברירת מחדל)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>מושבת</item>
+        <item>המסננים המופעלים</item>
+        <item>מופעל</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>הצגת שעות, דקות ושניות</item>
+        <item>הצגת שעות ודקות (ברירת מחדל)</item>
+        <item>בלי הסמל הזה</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>צבעים משופרים</item>
+        <item>צבעים טבעיים כפי שהם נראים לעין</item>
+        <item>צבעים מותאמים באופן אופטימלי לתוכן דיגיטלי</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>דינמי (ברירת מחדל)</item>
+        <item>גוון טבעי</item>
+        <item>רגיל</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>כבוי</item>
+        <item>הצגת אזורים עם חריגה</item>
+        <item>הצגת אזורים לעיוורון צבעים</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ללא</item>
+        <item>Logcat</item>
+        <item>‏Systrace (גרפיקה)</item>
+        <item>‏Call Stack ב-glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>‏אני לעולם לא רוצה להשתמש בבדיקת HDCP</item>
+        <item>‏שימוש בבדיקת HDCP עבור תוכן DRM בלבד</item>
+        <item>‏אני רוצה להשתמש תמיד בבדיקת HDCP</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>בלי לבדוק לעולם</item>
+        <item>‏בדיקה אם יש תוכן DRM בלבד</item>
+        <item>בדוק תמיד</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>לוח</item>
+        <item>קוד מפתח</item>
+        <item>סיבוב לאישור, החלפת מקלדת</item>
+        <item>ללא</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>רגילה</item>
+        <item>קומפקטית</item>
+        <item>נטייה שמאלה</item>
+        <item>נטייה ימינה</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>אין</item>
+        <item>‎480p</item>
+        <item>‏480p (מאובטח)</item>
+        <item>‎720p</item>
+        <item>‏720p (מאובטח)</item>
+        <item>‎1080p</item>
+        <item>‏1080p (מאובטח)</item>
+        <item>4K</item>
+        <item>‏4K (מאובטח)</item>
+        <item>‏4K (משופר)</item>
+        <item>‏4K (משופר, מאובטח)</item>
+        <item>‏720p‏, 1080p (מסך כפול)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>כבוי</item>
+        <item>64K</item>
+        <item>‎256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>כבוי</item>
+        <item>‏64K לכל מאגר של יומן רישום</item>
+        <item>‏256K לכל מאגר של יומן רישום</item>
+        <item>‏1M לכל מאגר של יומן רישום</item>
+        <item>‏4M לכל מאגר של יומן רישום</item>
+        <item>‏8M לכל מאגר נתונים זמני ביומן</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>כבוי</item>
+        <item>64K</item>
+        <item>‎256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>כבוי</item>
+        <item>כל מאגרי הנתונים הזמניים של היומן</item>
+        <item>הכול מלבד מאגרי הנתונים הזמניים של יומן הרדיו</item>
+        <item>מאגר נתונים זמני של היומן השמור בליבה בלבד</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>כבוי</item>
+        <item>הכול</item>
+        <item>הכול מלבד רדיו</item>
+        <item>ליבה בלבד</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>כבוי</item>
+        <item>שרטוט אזור חיתוך שאינו מלבני בצבע כחול</item>
+        <item>הדגשת פקודות האיור שנבדקות בצבע ירוק</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>לא זמין</item>
+        <item>כבוי</item>
+        <item>פועל</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>כבוי</item>
+        <item>במסך כעמודות</item>
+        <item>ב-adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>אנימציה כבויה</item>
+        <item>‏קנה מידה לאנימציה 5x.</item>
+        <item>‏קנה מידה לאנימציה 1x</item>
+        <item>‏קנה מידה לאנימציה 1.5x</item>
+        <item>‏קנה מידה לאנימציה 2x</item>
+        <item>‏קנה מידה לאנימציה 5x</item>
+        <item>‏קנה מידה לאנימציה 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>איטי מאוד</item>
+        <item>איטי</item>
+        <item>רגיל</item>
+        <item>מהיר</item>
+        <item>מהיר יותר</item>
+        <item>מהיר מאוד</item>
+        <item>מהיר במיוחד</item>
+        <item>יותר מהיר ממהיר במיוחד</item>
+        <item>הכי מהיר</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>בטעינה</item>
+        <item>‏MTP (פרוטוקול העברת מדיה)</item>
+        <item>‏PTP (פרוטוקול העברת תמונות)</item>
+        <item>‏RNDIS (אתרנט ב-USB)</item>
+        <item>מקור אודיו</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>מתבצעת סריקה...</item>
+        <item>מתבצעת התחברות...</item>
+        <item>מתבצע אימות…</item>
+        <item>‏משיג כתובת IP…</item>
+        <item>מחובר</item>
+        <item>בהשעיה</item>
+        <item>מתבצעת התנתקות...</item>
+        <item>מנותק</item>
+        <item>נכשל</item>
+        <item>חסומה</item>
+        <item>נמנע זמנית מחיבור חלש</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>מתבצעת סריקה...</item>
+        <item>מתבצעת התחברות אל %1$s…</item>
+        <item>מתבצע אימות מול %1$s...</item>
+        <item>‏המערכת משיגה כתובת IP מ-%1$s…</item>
+        <item>מחובר אל %1$s</item>
+        <item>בהשעיה</item>
+        <item>מתבצעת התנתקות מרשת %1$s…</item>
+        <item>מנותק</item>
+        <item>נכשל</item>
+        <item>חסומה</item>
+        <item>המערכת נמנעת זמנית מחיבור חלש</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>מתבצעת סריקה…</item>
+        <item>מתבצעת התחברות…</item>
+        <item>בתהליך אימות…</item>
+        <item>‏בתהליך של השגת כתובת IP…</item>
+        <item>מחובר</item>
+        <item>בהשעיה</item>
+        <item>מתבצע ניתוק…</item>
+        <item>מנותק</item>
+        <item>נכשל</item>
+        <item>חסום</item>
+        <item>מניעה זמנית של חיבור באיכות ירודה</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>אנימציה כבויה</item>
+        <item>‏קנה מידה לאנימציה 5x.</item>
+        <item>‏קנה מידה לאנימציה 1x</item>
+        <item>‏קנה מידה לאנימציה 1.5x</item>
+        <item>‏קנה מידה לאנימציה 2x</item>
+        <item>‏קנה מידה לאנימציה 5x</item>
+        <item>‏קנה מידה לאנימציה 10x</item>
+    </string-array>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">ပြီးခဲ့သော %d ရက်</item>
+        <item quantity="one">ပြီးခဲ့သော %d ရက်</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">ပြီးခဲ့သော%dမိနစ်</item>
+        <item quantity="one">ပြီးခဲ့သော%dမိနစ်</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">ပြီးခဲ့သော %dနှစ်</item>
+        <item quantity="one">ပြီးခဲ့သော %dနှစ်</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">ခလုတ် %s ခု ထည့်လိုက်သည်။</item>
+        <item quantity="one">ခလုတ် %s ခု ထည့်လိုက်သည်။</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">ဆင်းမ်ကတ် ပင်နံပါတ် ထည့်ပါ။ %d ကြိမ် စမ်းသပ်ခွင့်ရှိပါသေးသည်။</item>
+        <item quantity="one">ဆင်းမ်ကတ် ပင်နံပါတ် ထည့်ပါ။ သင့်စက်ကို လော့ခ်ဖွင့်ပေးရန်အတွက် ဝန်ဆောင်မှုပေးသူသို့ မဆက်သွယ်မီ %d ကြိမ် စမ်းသပ်ခွင့်ရှိပါသေးသည်။</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">ဆင်းမ်ကတ်သည် ယခု ပိတ်သွားပါပြီ။ ရှေ့ဆက်ရန် PUK ကုဒ်ကို ထည့်ပါ။ ဆင်းမ်ကတ် အပြီးပိတ်မသွားမီ သင့်တွင် %d ကြိမ် စမ်းသပ်ခွင့် ကျန်ပါသေးသည်။ အသေးစိတ်အချက်များအတွက် ဝန်ဆောင်မှုပေးသူကို ဆက်သွယ်ပါ။</item>
+        <item quantity="one">ဆင်းမ်ကတ်သည် ယခု ပိတ်သွားပါပြီ။ ရှေ့ဆက်ရန် PUK ကုဒ်ကို ထည့်ပါ။ ဆင်းမ်ကတ် အပြီးပိတ်မသွားမီ သင့်တွင် %d ကြိမ် စမ်းသပ်ခွင့် ကျန်ပါသေးသည်။ အသေးစိတ်အချက်များအတွက် ဝန်ဆောင်မှုပေးသူကို ဆက်သွယ်ပါ။</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ဆင်းမ်ပင်နံပါတ် မှန်ကန်မှုမရှိပါ။ %d ကြိမ် စမ်းသပ်ခွင့်ရှိပါသေးသည်။</item>
+        <item quantity="one">ဆင်းမ်ပင်နံပါတ် မှန်ကန်မှုမရှိပါ။ သင့်စက်ပစ္စည်းအား လော့ခ်ဖွင့်ပေးရန်အတွက် မိုဘိုင်းဝန်ဆောင်မှုပေးသူကို မဆက်သွယ်မီ %d ကြိမ် စမ်းသပ်ခွင့်ရှိပါသေးသည်။</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ဆင်းမ် ပင်နံပါတ် ပြန်ဖွင့်သည့်ကုဒ် မှန်ကန်မှုမရှိပါ။ ဆင်းမ်ကဒ်ကို အပြီးအပိုင်မပိတ်ခင် %d ကြိမ်စမ်းသပ်ခွင့် ရှိပါသေးသည်။</item>
+        <item quantity="one">ဆင်းမ် ပင်နံပါတ် ပြန်ဖွင့်သည့်ကုဒ် မှန်ကန်မှုမရှိပါ။ ဆင်းမ်ကဒ်ကို အပြီးအပိုင်မပိတ်ခင် %d ကြိမ်စမ်းသပ်ခွင့် ရှိပါသေးသည်။</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d စက္ကန့် အကြာတွင် ထပ်လုပ်ကြည့်ပါ</item>
+        <item quantity="one">၁ စက္ကန့် အကြာတွင် ထပ်လုပ်ကြည့်ပါ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">အကြောင်းကြားချက်အသစ် %d ခု</item>
+        <item quantity="one">အကြောင်းကြားချက်အသစ် %d ခု</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">အတွင်းတွင် အကြောင်းကြားချက် နောက်ထပ် %s ခုရှိပါသည်။</item>
+        <item quantity="one">အတွင်းတွင် အကြောင်းကြားချက် နောက်ထပ် %s ခုရှိပါသည်။</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">စက် %d ခု</item>
+        <item quantity="one">စက် %d ခု</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d နာရီ</item>
+        <item quantity="one">%d နာရီ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d မိနစ်</item>
+        <item quantity="one">%d မိနစ်</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">အသုံးပြုသူ %d ဦးအထိ ထည့်နိုင်သည်။</item>
+        <item quantity="one">အသုံးပြုသူ တစ်ဦးသာ ထည့်နိုင်သည်။</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">စက် %1$d ခု ချိတ်ဆက်ထားသည်</item>
+        <item quantity="one">စက် %1$d ခု ချိတ်ဆက်ထားသည်</item>
+    </plurals>
+</resources>

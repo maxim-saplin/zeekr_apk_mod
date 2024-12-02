@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:enabled="true" android:id="@id/wallet_lockscreen_settings" android:visible="true" android:title="@string/wallet_lockscreen_settings_label" android:showAsAction="never" />
+</menu>

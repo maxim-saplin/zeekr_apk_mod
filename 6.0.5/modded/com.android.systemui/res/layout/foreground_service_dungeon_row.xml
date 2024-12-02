@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.notification.row.DungeonRow android:orientation="horizontal" android:id="@id/foreground_service_dungeon_row" android:padding="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.StatusBarIconView android:id="@id/icon" android:padding="4.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    <TextView android:textColor="@color/GM2_grey_200" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/app_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="4.0dip" />
+</com.android.systemui.statusbar.notification.row.DungeonRow>

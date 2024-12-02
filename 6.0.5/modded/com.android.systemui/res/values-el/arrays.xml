@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Κινούμ. εικόνες απενεργοποιημένες</item>
+        <item>Κλίμακα κινούμενων εικόνων 0,5x</item>
+        <item>Κλίμακα κινούμενων εικόνων 1x</item>
+        <item>Κλίμακα κινούμενων εικόνων 1,5x</item>
+        <item>Κλίμακα κινούμενων εικόνων 2x</item>
+        <item>Κλίμακα κινούμενων εικόνων 5x</item>
+        <item>Κλίμακα κινούμενων εικόνων 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Τυπικό όριο</item>
+        <item>Δεν υπάρχουν διεργασίες παρασκηνίου</item>
+        <item>Το πολύ 1 διεργασία</item>
+        <item>Το πολύ 2 διεργασίες</item>
+        <item>Το πολύ 3 διαδικασίες</item>
+        <item>Το πολύ 4 διεργασίες</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Να εμφανίζεται πάντα ποσοστό</item>
+        <item>Να εμφανίζεται ποσοστό κατά τη φόρτιση (προεπιλογή)</item>
+        <item>Να μην εμφανίζεται αυτό το εικονίδιο</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Χρήση επιλογής συστήματος (Προεπιλογή)</item>
+        <item>16 bit/δείγμα</item>
+        <item>24 bit/δείγμα</item>
+        <item>32 bit/δείγμα</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Χρήση επιλογής συστήματος (Προεπιλογή)</item>
+        <item>16 bit/δείγμα</item>
+        <item>24 bit/δείγμα</item>
+        <item>32 bit/δείγμα</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Χρήση επιλογής συστήματος (Προεπιλογή)</item>
+        <item>Μονοφωνικό</item>
+        <item>Στερεοφωνικό</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Χρήση επιλογής συστήματος (Προεπιλογή)</item>
+        <item>Μονοφωνικό</item>
+        <item>Στερεοφωνικό</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Βελτιστοποιημένο για ποιότητα ήχου</item>
+        <item>Ισορροπημένος ήχος και ποιότητα σύνδεσης</item>
+        <item>Βελτιστοποιημένο για ποιότητα σύνδεσης</item>
+        <item>Βέλτιστη προσπάθεια (ρυθμός δεδομένων με δυνατότητα προσαρμογής)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Βελτιστοποιημένο για ποιότητα ήχου (990kbps/909kbps)</item>
+        <item>Ισορροπημένος ήχος και ποιότητα σύνδεσης (660kbps/606kbps)</item>
+        <item>Βελτιστοποιημένο για ποιότητα σύνδεσης (330kbps/303kbps)</item>
+        <item>Βέλτιστη προσπάθεια (ρυθμός δεδομένων με δυνατότητα προσαρμογής)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Χρήση επιλογής συστήματος (Προεπιλογή)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Χρήση επιλογής συστήματος (Προεπιλογή)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Χρήση επιλογής συστήματος (Προεπιλογή)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Ήχος Qualcomm® aptX™</item>
+        <item>Ήχος Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Χρήση επιλογής συστήματος (Προεπιλογή)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Ήχος Qualcomm® aptX™</item>
+        <item>Ήχος Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, ενεργή</item>
+        <item>, ενεργή (μέσα)</item>
+        <item>, ενεργή (τηλέφωνο)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (Προεπιλογή)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Προεπιλογή)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Απενεργοποιήθηκε</item>
+        <item>Ενεργοποιήθηκε το φιλτράρισμα</item>
+        <item>Ενεργοποιήθηκε</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Να εμφανίζονται ώρες, λεπτά και δευτερόλεπτα</item>
+        <item>Να εμφανίζονται ώρες και λεπτά (προεπιλογή)</item>
+        <item>Να μην εμφανίζεται αυτό το εικονίδιο</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Βελτιωμένα χρώματα</item>
+        <item>Φυσικά χρώματα όπως είναι ορατά στο μάτι</item>
+        <item>Βελτιστοποιημένα χρώματα για ψηφιακό περιεχόμενο</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Ζωντανό (προεπιλογή)</item>
+        <item>Φυσικό</item>
+        <item>Τυπικό</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Ανενεργές</item>
+        <item>Εμφάνιση περιοχών υπέρβασης</item>
+        <item>Εμφάνιση περιοχών για Deuteranomaly</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Τίποτα</item>
+        <item>Logcat</item>
+        <item>Systrace (Γραφικά)</item>
+        <item>Κλήση στοίβας σε glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Να μην χρησιμοποιείται ποτέ έλεγχος HDCP</item>
+        <item>Χρήση ελέγχου HDCP μόνο για περιεχόμενο DRM</item>
+        <item>Να χρησιμοποιείται πάντα έλεγχος HDCP</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Να μην γίνεται ποτέ έλεγχος</item>
+        <item>Έλεγχος μόνο για περιεχόμενο DRM</item>
+        <item>Να γίνεται πάντα έλεγχος</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Πρόχειρο</item>
+        <item>Κωδικός-πλήκτρο</item>
+        <item>Επιβεβαίωση περιστροφής, εναλλαγή πληκτρολογίου</item>
+        <item>Κανένα</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Κανονική</item>
+        <item>Συμπαγής</item>
+        <item>Αριστερού προσανατολισμού</item>
+        <item>Δεξιού προσανατολισμού</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Καμία</item>
+        <item>480p</item>
+        <item>480p (ασφαλής)</item>
+        <item>720p</item>
+        <item>720p (ασφαλής)</item>
+        <item>1080p</item>
+        <item>1080p (ασφαλής)</item>
+        <item>4K</item>
+        <item>4K (ασφαλής)</item>
+        <item>4K (αναβαθμισμένη)</item>
+        <item>4K (αναβαθμισμένη, ασφαλής)</item>
+        <item>720p, 1080p (διπλή οθόνη)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Ανενεργό</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Ανενεργό</item>
+        <item>64 K ανά πρ. μν. αρχ. καταγρ.</item>
+        <item>256 K ανά πρ. μν. αρχ. καταγρ.</item>
+        <item>1 Μ ανά προσ. μν. αρχ. καταγρ.</item>
+        <item>4 M ανά προσ. μν. αρχ. καταγρ.</item>
+        <item>8 M ανά προσωρινή μνήμη αρχείου καταγραφής</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Ανενεργό</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>8 M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Ανενεργό</item>
+        <item>Όλα τα αρχεία καταγραφής προσωρινής μνήμης</item>
+        <item>Όλα εκτός από τα αρχεία κατ.προσ.μνήμης αποστολέα</item>
+        <item>μόνο προσωρινή μνήμη αρχείου καταγραφής πυρήνα</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Ανενεργό</item>
+        <item>Όλα</item>
+        <item>Όλοι εκτός από του αποστολέα</item>
+        <item>μόνο πυρήνας</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Απενεργοποίηση</item>
+        <item>Σχεδίαση μη ορθογώνιας περιοχής με μπλε χρώμα</item>
+        <item>Επισ/ση ελεγμένων εντολών με πράσ.</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Μη διαθέσιμο</item>
+        <item>Ανενεργό</item>
+        <item>Ενεργό</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Απενεργοποιημένο</item>
+        <item>Στην οθόνη ως ράβδοι</item>
+        <item>Σε adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Κινούμ.εικόνες απενεργοποιημένες</item>
+        <item>Κλίμ. κινούμ. εικ. 0,5x</item>
+        <item>Κλίμ. κινούμ. εικ. 1x</item>
+        <item>Κλίμ. κινούμ. εικ. 1,5x</item>
+        <item>Κλίμ. κινούμ. εικ. 2x</item>
+        <item>Κλίμ. κινούμ. εικ. 5x</item>
+        <item>Κλίμ. κινούμ. εικ. 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Πολύ αργή</item>
+        <item>Αργή</item>
+        <item>Κανονική</item>
+        <item>Γρήγορη</item>
+        <item>Πιο γρήγορη</item>
+        <item>Πολύ γρήγορη</item>
+        <item>Ταχεία</item>
+        <item>Εξαιρετικά ταχεία</item>
+        <item>Ταχύτατη</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Φόρτιση σε εξέλιξη</item>
+        <item>MTP (Πρωτόκολλο μεταφοράς πολυμέσων)</item>
+        <item>PTP (Πρωτόκολλο μεταφοράς εικόνων)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Πηγή ήχου</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Σάρωση...</item>
+        <item>Σύνδεση...</item>
+        <item>Έλεγχος ταυτότητας...</item>
+        <item>Λήψη διεύθυνσης IP…</item>
+        <item>Συνδεδεμένο</item>
+        <item>Σε αναστολή</item>
+        <item>Αποσύνδεση...</item>
+        <item>Αποσυνδέθηκε</item>
+        <item>Ανεπιτυχής</item>
+        <item>Αποκλεισμένο</item>
+        <item>Προσωρινή αποφυγή αδύναμης σύνδεσης</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Σάρωση...</item>
+        <item>Σύνδεση σε %1$s...</item>
+        <item>Έλεγχος ταυτότητας με %1$s…</item>
+        <item>Λήψη διεύθυνσης IP από %1$s...</item>
+        <item>Συνδεδεμένο σε %1$s</item>
+        <item>Σε αναστολή</item>
+        <item>Αποσύνδεση από %1$s…</item>
+        <item>Αποσυνδέθηκε</item>
+        <item>Ανεπιτυχής</item>
+        <item>Αποκλεισμένο</item>
+        <item>Προσωρινή αποφυγή αδύναμης σύνδεσης</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Σάρωση…</item>
+        <item>Σύνδεση…</item>
+        <item>Έλεγχος ταυτότητας…</item>
+        <item>Λήψη διεύθυνσης IP…</item>
+        <item>Συνδέθηκε</item>
+        <item>Σε αναστολή</item>
+        <item>Αποσύνδεση…</item>
+        <item>Αποσυνδέθηκε</item>
+        <item>Ανεπιτυχής</item>
+        <item>Αποκλείστηκε</item>
+        <item>Προσωρινή αποφυγή αδύναμης σύνδεσης</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Κινούμ.εικόνες απενεργοποιημένες</item>
+        <item>Κλίμ. κινούμ. εικ. 0,5x</item>
+        <item>Κλίμ. κινούμ. εικ. 1x</item>
+        <item>Κλίμ. κινούμ. εικ. 1,5x</item>
+        <item>Κλίμ. κινούμ. εικ. 2x</item>
+        <item>Κλίμ. κινούμ. εικ. 5x</item>
+        <item>Κλίμ. κινούμ. εικ. 10x</item>
+    </string-array>
+</resources>

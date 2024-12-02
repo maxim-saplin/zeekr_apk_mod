@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@android:style/Theme.DeviceDefault.DayNight" android:id="@android:id/background" android:background="@drawable/people_tile_suppressed_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/icon" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/work_widget_badge_icon" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/ic_corp_badge_off" />
+</FrameLayout>

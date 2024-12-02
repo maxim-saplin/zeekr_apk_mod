@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView android:background="@drawable/ksh_key_item_background" android:padding="@dimen/ksh_item_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_marginStart="@dimen/ksh_item_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

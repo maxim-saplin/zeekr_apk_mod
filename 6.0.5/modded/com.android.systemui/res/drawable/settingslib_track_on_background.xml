@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:height="@dimen/settingslib_switch_track_height" android:width="@dimen/settingslib_switch_track_width" android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:left="@dimen/settingslib_switch_thumb_margin" android:right="@dimen/settingslib_switch_thumb_margin" />
+    <solid android:color="@color/settingslib_track_on_color" />
+    <corners android:radius="@dimen/settingslib_switch_track_radius" />
+</shape>

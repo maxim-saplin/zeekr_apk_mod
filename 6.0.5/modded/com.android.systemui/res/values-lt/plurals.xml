@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Prieš %d d.</item>
+        <item quantity="one">Prieš %d d.</item>
+        <item quantity="few">Prieš %d d.</item>
+        <item quantity="many">Prieš %d d.</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Prieš %d min.</item>
+        <item quantity="one">Prieš %d min.</item>
+        <item quantity="few">Prieš %d min.</item>
+        <item quantity="many">Prieš %d min.</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Prieš %d m.</item>
+        <item quantity="one">Prieš %d m.</item>
+        <item quantity="few">Prieš %d m.</item>
+        <item quantity="many">Prieš %d m.</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Pridėta %s valdiklių.</item>
+        <item quantity="one">Pridėtas %s valdiklis.</item>
+        <item quantity="few">Pridėti %s valdikliai.</item>
+        <item quantity="many">Pridėta %s valdiklio.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Įveskite SIM kortelės PIN kodą. Jums liko %d bandymų.</item>
+        <item quantity="one">Įveskite SIM kortelės PIN kodą. Jums liko %d bandymas.</item>
+        <item quantity="few">Įveskite SIM kortelės PIN kodą. Jums liko %d bandymai.</item>
+        <item quantity="many">Įveskite SIM kortelės PIN kodą. Jums liko %d bandymo.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM kortelė dabar yra išjungta. Jei norite tęsti, įveskite PUK kodą. Jums liko %d bandymų. Paskui visiškai nebegalėsite naudoti SIM kortelės. Jei reikia išsamios informacijos, susisiekite su operatoriumi.</item>
+        <item quantity="one">SIM kortelė dabar yra išjungta. Jei norite tęsti, įveskite PUK kodą. Jums liko %d bandymas. Paskui visiškai nebegalėsite naudoti SIM kortelės. Jei reikia išsamios informacijos, susisiekite su operatoriumi.</item>
+        <item quantity="few">SIM kortelė dabar yra išjungta. Jei norite tęsti, įveskite PUK kodą. Jums liko %d bandymai. Paskui visiškai nebegalėsite naudoti SIM kortelės. Jei reikia išsamios informacijos, susisiekite su operatoriumi.</item>
+        <item quantity="many">SIM kortelė dabar yra išjungta. Jei norite tęsti, įveskite PUK kodą. Jums liko %d bandymo. Paskui visiškai nebegalėsite naudoti SIM kortelės. Jei reikia išsamios informacijos, susisiekite su operatoriumi.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Netinkamas SIM kortelės PIN kodas. Liko %d bandymų.</item>
+        <item quantity="one">Netinkamas SIM kortelės PIN kodas. Liko %d bandymas.</item>
+        <item quantity="few">Netinkamas SIM kortelės PIN kodas. Liko %d bandymai.</item>
+        <item quantity="many">Netinkamas SIM kortelės PIN kodas. Liko %d bandymo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Netinkamas SIM kortelės PUK kodas. Liko %d bandymų. Paskui visiškai nebegalėsite naudoti SIM kortelės.</item>
+        <item quantity="one">Netinkamas SIM kortelės PUK kodas. Liko %d bandymas. Paskui visiškai nebegalėsite naudoti SIM kortelės.</item>
+        <item quantity="few">Netinkamas SIM kortelės PUK kodas. Liko %d bandymai. Paskui visiškai nebegalėsite naudoti SIM kortelės.</item>
+        <item quantity="many">Netinkamas SIM kortelės PUK kodas. Liko %d bandymo. Paskui visiškai nebegalėsite naudoti SIM kortelės.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Bandykite dar kartą po %d sekundžių.</item>
+        <item quantity="one">Bandykite dar kartą po %d sekundės.</item>
+        <item quantity="few">Bandykite dar kartą po %d sekundžių.</item>
+        <item quantity="many">Bandykite dar kartą po %d sekundės.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d naujų pranešimų</item>
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Grupėje yra dar %s pranešimų.</item>
+        <item quantity="one">Grupėje yra dar %s pranešimas.</item>
+        <item quantity="few">Grupėje yra dar %s pranešimai.</item>
+        <item quantity="many">Grupėje yra dar %s pranešimo.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d įrenginių</item>
+        <item quantity="one">%d įrenginys</item>
+        <item quantity="few">%d įrenginiai</item>
+        <item quantity="many">%d įrenginio</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d valandų</item>
+        <item quantity="one">%d valanda</item>
+        <item quantity="few">%d valandos</item>
+        <item quantity="many">%d valandos</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minučių</item>
+        <item quantity="one">%d minutė</item>
+        <item quantity="few">%d minutės</item>
+        <item quantity="many">%d minutės</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Galite pridėti iki %d naudotojų.</item>
+        <item quantity="one">Galite pridėti iki %d naudotojo.</item>
+        <item quantity="few">Galite pridėti iki %d naudotojų.</item>
+        <item quantity="many">Galite pridėti iki %d naudotojo.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Prijungta %1$d įrenginių</item>
+        <item quantity="one">Prijungtas %1$d įrenginys</item>
+        <item quantity="few">Prijungti %1$d įrenginiai</item>
+        <item quantity="many">Prijungta %1$d įrenginio</item>
+    </plurals>
+</resources>

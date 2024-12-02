@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animacija isključena</item>
+        <item>Animacija razmjera .5x</item>
+        <item>Animacija razmjera 1x</item>
+        <item>Animacija razmjera 1.5x</item>
+        <item>Animacija razmjera 2x</item>
+        <item>Animacija razmjera 5x</item>
+        <item>Animacija razmjera 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standardno ograničenje</item>
+        <item>Nema pozadinskih procesa</item>
+        <item>Najviše 1 proces</item>
+        <item>Najviše 2 procesa</item>
+        <item>Najviše 3 procesa</item>
+        <item>Najviše 4 procesa</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Uvijek prikaži postotak</item>
+        <item>Pokaži postotak u toku punjenja (zadano)</item>
+        <item>Ne prikazuj ovu ikonu</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Korištenje odabira sistema (zadano)</item>
+        <item>16 bitova/uzorak</item>
+        <item>24 bitova/uzorak</item>
+        <item>32 bitova/uzorak</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Korištenje odabira sistema (zadano)</item>
+        <item>16 bitova/uzorak</item>
+        <item>24 bitova/uzorak</item>
+        <item>32 bitova/uzorak</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Korištenje odabira sistema (zadano)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Korištenje odabira sistema (zadano)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimizirano za kvalitet zvuka</item>
+        <item>Uravnotežen kvalitet zvuka i veze</item>
+        <item>Optimizirano za kvalitet veze</item>
+        <item>Maksimalan napor (prilagodljiva brzina prijenosa)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimizirano za kvalitet zvuka (990 kbps/909 kbps)</item>
+        <item>Uravnotežen kvalitet zvuka i veze (660kbps/606kbps)</item>
+        <item>Optimizirano za kvalitet veze (330 kbps/303 kbps)</item>
+        <item>Maksimalan napor (prilagodljiva brzina prijenosa)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Korištenje odabira sistema (zadano)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Korištenje odabira sistema (zadano)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Korištenje odabira sistema (zadano)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Korištenje odabira sistema (zadano)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktivan</item>
+        <item>, aktivan (mediji)</item>
+        <item>, aktivan (telefon)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (zadano)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Zadano)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Onemogućeno</item>
+        <item>Omogućeno filtrirano</item>
+        <item>Omogućeno</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Prikaži sate, minute i sekunde</item>
+        <item>Prikaži sate i minute (zadano)</item>
+        <item>Ne prikazuj ovu ikonu</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Unaprijeđene boje</item>
+        <item>Prirodne boje onako kako ih oko vidi</item>
+        <item>Boje optimizirane za digitalni sadržaj</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Živopisno (zadano)</item>
+        <item>Prirodan</item>
+        <item>Standardno</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Isključeno</item>
+        <item>Prikaži područja preklapanja</item>
+        <item>Prikaži područja za Deuteranomaly</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ništa</item>
+        <item>Logcat</item>
+        <item>Systrace (grafika)</item>
+        <item>Pozovi skupinu na glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nikada ne koristite HDCP provjeru</item>
+        <item>Koristite HDCP provjeru samo za DRM sadržaj</item>
+        <item>Uvijek koristite HDCP provjeru</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nikada ne provjeravaj</item>
+        <item>Provjeri samo za DRM sadržaj</item>
+        <item>Uvijek provjeri</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Međumemorija</item>
+        <item>Kôd tipke</item>
+        <item>Potvrda rotiranjem, prebacivanje tastature</item>
+        <item>Ništa</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normalna</item>
+        <item>Kompaktna</item>
+        <item>Ulijevo</item>
+        <item>Udesno</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ništa</item>
+        <item>480p</item>
+        <item>480p (sigurno)</item>
+        <item>720p</item>
+        <item>720p (sigurno)</item>
+        <item>1080p</item>
+        <item>1080p (sigurno)</item>
+        <item>4K</item>
+        <item>4K (sigurno)</item>
+        <item>4K (povećava rezoluciju)</item>
+        <item>4K (povećava rezoluciju, osiguran)</item>
+        <item>720p, 1080p (dupli ekran)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Isključeno</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Isključeno</item>
+        <item>64K po međumemoriji zapisnika</item>
+        <item>256k po međumemoriji zapisnika</item>
+        <item>1M po međumemoriji zapisnika</item>
+        <item>4M po međumemoriji zapisnika</item>
+        <item>8M po međumemoriji zapisnika</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Isključeno</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Isključeno</item>
+        <item>Međuspremnici svih zapisnika</item>
+        <item>Međuspremnici svih zapisnika osim radija</item>
+        <item>samo međumemorija zapisnika kernela</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Isključeno</item>
+        <item>Sve</item>
+        <item>Sve osim radija</item>
+        <item>samo kernel</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Isključeno</item>
+        <item>Nacrtaj plavom bojom nepravougaonu oblast za isjecanje</item>
+        <item>Označite zelenom bojom testirane komande za crtanje</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Nedostupno</item>
+        <item>Isključeno</item>
+        <item>Uključeno</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Isključeno</item>
+        <item>Na ekranu u vidu crtica</item>
+        <item>U adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animacija isključena</item>
+        <item>Animacija razmjera .5x</item>
+        <item>Animacija razmjera 1x</item>
+        <item>Animacija razmjera 1,5x</item>
+        <item>Animacija razmjera 2x</item>
+        <item>Animacija razmjera 5x</item>
+        <item>Animacija razmjera 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Veoma sporo</item>
+        <item>Sporo</item>
+        <item>Normalno</item>
+        <item>Brzo</item>
+        <item>Brže</item>
+        <item>Veoma brzo</item>
+        <item>Ubrzano</item>
+        <item>Veoma ubrzano</item>
+        <item>Najbrže</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Punjenje</item>
+        <item>MTP (protokol za prijenos sadržaja medija)</item>
+        <item>PTP (protokol za prijenos slika)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Izvor zvuka</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Skeniranje…</item>
+        <item>Povezivanje…</item>
+        <item>Autentifikacija…</item>
+        <item>Dobivanje IP adrese…</item>
+        <item>Povezano</item>
+        <item>Obustavljeno</item>
+        <item>Prekidanje veze…</item>
+        <item>Isključen</item>
+        <item>Neuspješno</item>
+        <item>Blokirano</item>
+        <item>Privremeno izbjegavaj veze lošeg kvaliteta</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skeniranje…</item>
+        <item>Povezivanje na mrežu %1$s...</item>
+        <item>Autentifikacija s mrežom %1$s…</item>
+        <item>Dobivanje IP adrese iz mreže %1$s…</item>
+        <item>Povezano s mrežom %1$s</item>
+        <item>Obustavljeno</item>
+        <item>Prekidanje veze s mrežom %1$s…</item>
+        <item>Isključen</item>
+        <item>Neuspješno</item>
+        <item>Blokirano</item>
+        <item>Privremeno izbjegavaj veze lošeg kvaliteta</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Skeniranje…</item>
+        <item>Povezivanje…</item>
+        <item>Autentifikacija…</item>
+        <item>Dobivanje IP adrese…</item>
+        <item>Povezano</item>
+        <item>Obustavljeno</item>
+        <item>Prekidanje veze…</item>
+        <item>Veza je prekinuta</item>
+        <item>Neuspješno</item>
+        <item>Blokirano</item>
+        <item>Privremeno izbjegavanje veze lošeg kvaliteta</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animacija isključena</item>
+        <item>Animacija razmjera .5x</item>
+        <item>Animacija razmjera 1x</item>
+        <item>Animacija razmjera 1,5x</item>
+        <item>Animacija razmjera 2x</item>
+        <item>Animacija razmjera 5x</item>
+        <item>Animacija razmjera 10x</item>
+    </string-array>
+</resources>

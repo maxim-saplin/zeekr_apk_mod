@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/half_shelf_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/half_shelf" android:background="@drawable/rounded_bg_full" android:layout_width="@dimen/qs_panel_width" android:layout_height="wrap_content">
+        <com.android.systemui.statusbar.notification.row.ChannelEditorListView android:gravity="bottom" android:orientation="vertical" android:id="@id/half_shelf_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.systemui.statusbar.notification.row.AppControlView android:orientation="horizontal" android:id="@id/app_control" android:padding="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground">
+                <ImageView android:id="@id/icon" android:padding="8.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center" android:id="@id/app_name" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:fontFamily="@android:string/config_dozeUdfpsLongPressSensorType" />
+                <Switch android:layout_gravity="center_vertical" android:id="@id/toggle" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="48.0dip" />
+            </com.android.systemui.statusbar.notification.row.AppControlView>
+            <View android:background="@android:color/system_on_primary_container_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </com.android.systemui.statusbar.notification.row.ChannelEditorListView>
+        <RelativeLayout android:id="@id/bottom_actions" android:paddingTop="@dimen/notification_guts_button_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+            <TextView android:gravity="start|center" android:id="@id/see_more_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:minWidth="@dimen/notification_importance_toggle_size" android:minHeight="@dimen/notification_importance_toggle_size" android:text="@string/see_more_title" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/TextAppearance.NotificationInfo.Button" />
+            <TextView android:gravity="end|center" android:id="@id/done_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="125.0dip" android:minWidth="@dimen/notification_importance_toggle_size" android:minHeight="@dimen/notification_importance_toggle_size" android:text="@string/inline_ok_button" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/TextAppearance.NotificationInfo.Button" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:description="@string/people_tile_description" android:minWidth="136.0dip" android:updatePeriodMillis="60000" android:initialLayout="@layout/people_tile_empty_layout" android:configure="com.android.systemui.people.PeopleSpaceActivity" android:resizeMode="horizontal|vertical" android:minResizeWidth="60.0dip" android:minResizeHeight="50.0dip" android:widgetFeatures="reconfigurable" android:previewLayout="@layout/people_space_placeholder_layout" android:maxResizeHeight="207.0dip" android:targetCellHeight="1"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

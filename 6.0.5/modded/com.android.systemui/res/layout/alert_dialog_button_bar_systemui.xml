@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/autofill_save_custom_subtitle" android:paddingTop="@dimen/dialog_button_bar_top_padding" android:paddingBottom="@dimen/dialog_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:paddingStart="@dimen/dialog_side_padding" android:paddingEnd="@dimen/dialog_side_padding" android:scrollIndicators="bottom|top" style="?android:buttonBarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.internal.widget.ButtonBarLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+        <Button android:id="@android:id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:buttonBarNeutralButtonStyle" />
+        <Space android:id="@android:id/screen" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:id="@android:id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:buttonBarNegativeButtonStyle" />
+        <Button android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="?android:buttonBarPositiveButtonStyle" />
+    </com.android.internal.widget.ButtonBarLayout>
+</ScrollView>

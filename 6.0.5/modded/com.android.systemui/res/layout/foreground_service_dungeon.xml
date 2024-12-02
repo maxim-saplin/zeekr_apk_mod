@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.notification.row.ForegroundServiceDungeonView android:layout_gravity="bottom|center" android:id="@id/foreground_service_dungeon" android:visibility="visible" android:layout_width="@dimen/qs_panel_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="@drawable/notif_dungeon_bg_gradient" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/GM2_grey_200" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textColor="@color/GM2_grey_200" android:id="@id/dungeon_title" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="Apps active in background" />
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/entry_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.android.systemui.statusbar.notification.row.ForegroundServiceDungeonView>

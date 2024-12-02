@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/major_b_c"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="dot_01" android:animation="@anim/major_b_c_dot_01_animation" />
+    <target android:name="dot" android:animation="@anim/major_b_c_dot_animation" />
+</animated-vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceListItemSmall" android:textColor="?android:textColorAlertDialogListItem" android:ellipsize="marquee" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/restricted_icon" android:visibility="gone" android:layout_width="@android:dimen/config_restrictedIconSize" android:layout_height="@android:dimen/config_restrictedIconSize" android:src="@android:drawable/ic_info" android:scaleType="centerInside" android:tint="?android:colorAccent" android:layout_alignParentRight="true" />
+</RelativeLayout>

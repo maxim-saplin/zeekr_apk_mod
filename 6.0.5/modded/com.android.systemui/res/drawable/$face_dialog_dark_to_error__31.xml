@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$face_dialog_dark_to_error__32" android:duration="50" android:startOffset="0" android:valueFrom="@color/biometric_dialog_gray" android:valueTo="@color/biometric_dialog_gray" android:valueType="colorType" android:propertyName="fillColor" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_dark_to_error__33" android:duration="17" android:startOffset="50" android:valueFrom="@color/biometric_dialog_gray" android:valueTo="@color/biometric_dialog_error" android:valueType="colorType" android:propertyName="fillColor" />
+</set>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="controls_max_columns">4</integer>
+    <integer name="mtrl_calendar_header_orientation">0</integer>
+    <integer name="mtrl_calendar_selection_text_lines">6</integer>
+    <integer name="navigation_bar_deadzone_orientation">1</integer>
+    <integer name="qs_security_footer_maxLines">1</integer>
+    <integer name="quick_settings_max_rows">2</integer>
+    <integer name="quick_settings_num_columns">4</integer>
+    <integer name="scaled_password_text_size">26</integer>
+    <integer name="power_menu_max_columns">4</integer>
+    <integer name="quick_settings_user_time_settings_tile_span">2</integer>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.biometrics.UdfpsKeyguardView android:id="@id/udfps_animation_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/udfps_keyguard_fp_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/fingerprint_bg" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/udfps_aod_fp" android:padding="@dimen/lock_icon_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:lottie_autoPlay="false" app:lottie_loop="true" app:lottie_rawRes="@raw/udfps_aod_fp" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/udfps_lockscreen_fp" android:padding="@dimen/lock_icon_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:lottie_autoPlay="false" app:lottie_loop="false" app:lottie_rawRes="@raw/udfps_lockscreen_fp" />
+</com.android.systemui.biometrics.UdfpsKeyguardView>

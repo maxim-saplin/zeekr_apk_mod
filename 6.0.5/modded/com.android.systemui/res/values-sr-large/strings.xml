@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Додирните овде да бисте поново укључили обавештења.</string>
+    <string name="notifications_off_title">Обавештења су искључена</string>
+    <string name="status_bar_clear_all_button">Обриши све</string>
+</resources>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Анимацияны токтотуу</item>
+        <item>Анимация масштабы .5x</item>
+        <item>Анимация масштабы 1x</item>
+        <item>Анимация масштабы 1.5x</item>
+        <item>"Анимация масштабы  2x"</item>
+        <item>Анимация масштабы 5x</item>
+        <item>Анимация масштабы 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Стандарттык чектөө</item>
+        <item>Фондо процесстер жок</item>
+        <item>Эң көп дегенде 1 процесс</item>
+        <item>Эң көп дегенде 2 процесс</item>
+        <item>Эң көп дегенде 3 процесс</item>
+        <item>Эң көп дегенде 4 процесс</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Ар дайым пайызы көрүнсүн</item>
+        <item>Кубаттоо учурунда пайызы көрүнсүн (демейки)</item>
+        <item>Бул сүрөтчө көрүнбөсүн</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Система тандаганды колдонуу (демейки)</item>
+        <item>16 бит/үлгү</item>
+        <item>24 бит/үлгү</item>
+        <item>32 бит/үлгү</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Система тандаганды колдонуу (демейки)</item>
+        <item>16 бит/үлгү</item>
+        <item>24 бит/үлгү</item>
+        <item>32 бит/үлгү</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Система тандаганды колдонуу (демейки)</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Система тандаганды колдонуу (демейки)</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Аудионун сапатын оптималдаштыруу</item>
+        <item>Теңделген аудио жана туташуу сапаты</item>
+        <item>Туташуунун сапатын оптималдаштыруу</item>
+        <item>Мүмкүн болгон эң мыкты натыйжа (адаптивдүү битрейт)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Аудионун сапатын оптималдаштыруу (990кб/сек./909кб/сек.)</item>
+        <item>Теңделген аудио жана туташуу сапаты (660кб/сек./606кб/сек.)</item>
+        <item>Туташуунун сапатын оптималдаштыруу (330кб/сек./303кб/сек.)</item>
+        <item>Мүмкүн болгон эң мыкты натыйжа (адаптивдүү битрейт)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Система тандаганды колдонуу (демейки)</item>
+        <item>44,1 кГц</item>
+        <item>48,0 кГц</item>
+        <item>88,2 кГц</item>
+        <item>96,0 кГц</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Система тандаганды колдонуу (демейки)</item>
+        <item>44,1 кГц</item>
+        <item>48,0 кГц</item>
+        <item>88,2 кГц</item>
+        <item>96,0 кГц</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Система тандаганды колдонуу (демейки)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ аудио</item>
+        <item>Qualcomm® aptX™ HD аудио</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Система тандаганды колдонуу (демейки)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ аудио</item>
+        <item>Qualcomm® aptX™ HD аудио</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, жандырылган</item>
+        <item>, жандырылган (аудио)</item>
+        <item>, жандырылган (телефон)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (Демейки)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>карта12</item>
+        <item>карта13</item>
+        <item>карта14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>КАРТА 1.2 (Демейки)</item>
+        <item>КАРТА 1.3</item>
+        <item>КАРТА 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Өчүк</item>
+        <item>Чыпкалар иштетилди</item>
+        <item>Иштетилди</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Сааттар, мүнөттөр жана секунддар</item>
+        <item>Сааттар жана мүнөттөр (демейки шартта)</item>
+        <item>Бул сүрөтчө көрүнбөсүн</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Жакшыртылган түстөр</item>
+        <item>Көзгө көрүнгөн табигый түстөр</item>
+        <item>Санарип мазмун үчүн оптималдаштырылган түстөр</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Толкундуу (демейки)</item>
+        <item>Табигый</item>
+        <item>Кадимки</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Өчүк</item>
+        <item>Үстүнө тартуу аймагын көргөзүү</item>
+        <item>Дейтераномалиялуулар үчүн мейкиндикти көргөзүү</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Эчтеке жок</item>
+        <item>Logcat</item>
+        <item>Systrace (Graphics)</item>
+        <item>"glGetError'го карата стекти чакыруу"</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Эч качан HDCP текшерүү колдонулбасын</item>
+        <item>HDCP текшерүү DRM мазмунуна гана колдонулат</item>
+        <item>Ар дайым HDCP текшерүү колдонулсун</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Эч качан текшерилбесин</item>
+        <item>DRM мазмуну гана текшерилсин</item>
+        <item>Ар дайым текшерилсин</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Алмашуу буфери</item>
+        <item>Баскыч коду</item>
+        <item>Бурууну ырастоо, баскычтопту которуштургуч</item>
+        <item>Жок</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Кадимки</item>
+        <item>Жыйнактуу</item>
+        <item>Сол жакта</item>
+        <item>Оң жакта</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Эчтеке жок</item>
+        <item>480p</item>
+        <item>480p (коопсуз)</item>
+        <item>720p</item>
+        <item>720p (коопсуз)</item>
+        <item>1080p</item>
+        <item>1080p (коопсуз)</item>
+        <item>4K</item>
+        <item>4K (коопсуз)</item>
+        <item>4K (жогорку сапатта)</item>
+        <item>4K (жогорку сапатта, коопсуз)</item>
+        <item>720p, 1080p (кош экран)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Өчүк</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Өчүк</item>
+        <item>Буфер: 64КБ ашпашы керек</item>
+        <item>Буфер: 256КБ ашпашы керек</item>
+        <item>Буфер: 1М ашпашы керек</item>
+        <item>Буфер: 4М ашпашы керек</item>
+        <item>Буфер: 8 Мб ашпашы керек</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Өчүк</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8 Мб</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Өчүк</item>
+        <item>Бардык таржымал буферлери</item>
+        <item>Радио таржымал буферлеринен башкаларынын баары</item>
+        <item>өзөктүк журнал буфери гана</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Өчүк</item>
+        <item>Бардыгы</item>
+        <item>Радиодон башка</item>
+        <item>өзөк гана</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Өчүк</item>
+        <item>Тик бурчтуу эмес кесилген аймакты көк түстө тартуу</item>
+        <item>Текшерилген тартуу буйруктарын жашыл менен белгилөө</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Жеткиликсиз</item>
+        <item>Өчүк</item>
+        <item>Күйүк</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Өчүк</item>
+        <item>Экранда тилке катары</item>
+        <item>Төмөнкүдө: adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Анимацияны өчүрүү</item>
+        <item>Анимация масштабы .5x</item>
+        <item>Анимация масштабы 1x</item>
+        <item>Анимация масштабы 1.5x</item>
+        <item>Анимация масштабы 2x</item>
+        <item>Анимация масштабы 5x</item>
+        <item>Анимация масштабы 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Өтө жай</item>
+        <item>Жай</item>
+        <item>Орточо</item>
+        <item>Ылдам</item>
+        <item>Ылдамыраак</item>
+        <item>Абдан ылдам</item>
+        <item>Тез</item>
+        <item>Өтө тез</item>
+        <item>Эң ылдам</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Кубатталууда</item>
+        <item>MTP (Медиа өткөрүүчү протокол)</item>
+        <item>PTP (Сүрөт өткөрүүчү протокол)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Аудио булак</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Скандалууда…</item>
+        <item>Туташууда…</item>
+        <item>Аныктыгы текшерилүүдө…</item>
+        <item>IP дареги алынууда…</item>
+        <item>Туташып турат</item>
+        <item>Убактылуу токтотулду</item>
+        <item>Ажыратылууда…</item>
+        <item>Ажыратылган</item>
+        <item>Ийгиликсиз</item>
+        <item>Бөгөттөлгөн</item>
+        <item>Начар байланыштан убактылуу баш тартууда</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Скандалууда…</item>
+        <item>%1$s тармагына туташууда…</item>
+        <item>%1$s менен аныктыгы текшерилүүдө…</item>
+        <item>%1$s тармагынан IP дареги алынууда…</item>
+        <item>%1$s тармагына туташты</item>
+        <item>Убактылуу токтотулду</item>
+        <item>%1$s тармагынан ажыратылууда…</item>
+        <item>Ажыратылган</item>
+        <item>Ийгиликсиз</item>
+        <item>Бөгөттөлгөн</item>
+        <item>Начар байланыштан убактылуу баш тартууда</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Изделүүдө…</item>
+        <item>Туташууда…</item>
+        <item>Аутентификациядан өтүүдө…</item>
+        <item>IP дареги алынууда…</item>
+        <item>Туташып турат</item>
+        <item>Убактылуу токтотулду</item>
+        <item>Ажыратылууда…</item>
+        <item>Ажыратылды</item>
+        <item>Ката</item>
+        <item>Бөгөттөлдү</item>
+        <item>Байланыш начар болгондуктан өчүрүлдү</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Анимацияны өчүрүү</item>
+        <item>Анимация масштабы .5x</item>
+        <item>Анимация масштабы 1x</item>
+        <item>Анимация масштабы 1.5x</item>
+        <item>Анимация масштабы 2x</item>
+        <item>Анимация масштабы 5x</item>
+        <item>Анимация масштабы 10x</item>
+    </string-array>
+</resources>

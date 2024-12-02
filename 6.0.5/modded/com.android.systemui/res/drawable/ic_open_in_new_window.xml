@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/magnification_switch_button_color" />
+            <size android:height="48.0dip" android:width="48.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <vector android:height="36.0dip" android:width="36.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0">
+            <path android:fillColor="#ffffffff" android:pathData="M2,12.05V22.05H22V2.05H12V4.05H20V20.05H4V12.05H2Z" />
+            <path android:fillColor="#ffffffff" android:pathData="M10,2.05H2V10.05H10V2.05Z" />
+            <path android:fillColor="#ffffffff" android:pathData="M18,11.05V13.05H14.41L18.95,17.59L17.54,19L13,14.46V18.05H11V11.05H18Z" />
+        </vector>
+    </item>
+</layer-list>

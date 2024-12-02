@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/volume_dialog_theme" android:gravity="center" android:tag="row" android:background="@drawable/volume_row_rounded_background" android:paddingTop="@dimen/volume_dialog_ringer_rows_padding" android:paddingBottom="@dimen/volume_dialog_ringer_rows_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/volume_dialog_panel_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/volume_dialog_panel_width" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.Volume.Header" android:textColor="?android:colorControlNormal" android:ellipsize="end" android:id="@id/volume_row_header" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="10" />
+        <FrameLayout android:id="@id/volume_row_slider_frame" android:layout_width="fill_parent" android:layout_height="@dimen/volume_row_slider_height">
+            <SeekBar android:layout_gravity="center" android:id="@id/volume_row_slider" android:background="@null" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:clickable="true" android:layout_width="@dimen/volume_row_slider_height" android:layout_height="fill_parent" android:progressDrawable="@drawable/volume_row_seekbar" android:thumb="@null" android:rotation="270.0" android:layoutDirection="ltr" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:splitTrack="false" />
+            <include layout="@layout/volume_dnd_icon" />
+        </FrameLayout>
+        <com.android.keyguard.AlphaOptimizedImageButton android:id="@id/volume_row_icon" android:background="@drawable/ripple_drawable_20dp" android:visibility="gone" android:layout_width="@dimen/volume_dialog_tap_target_size" android:layout_height="@dimen/volume_dialog_tap_target_size" android:layout_marginBottom="@dimen/volume_dialog_row_margin_bottom" android:tint="@color/accent_tint_color_selector" android:soundEffectsEnabled="false" style="@style/VolumeButtons" />
+    </LinearLayout>
+</FrameLayout>

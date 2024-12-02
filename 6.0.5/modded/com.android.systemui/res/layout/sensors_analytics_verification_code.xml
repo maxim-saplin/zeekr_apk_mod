@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/sensors_analytics_verification_code_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/sensors_analytics_visual_code_title" android:textAllCaps="false" />
+    <TextView android:gravity="center_horizontal" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="10.0dip" android:textAllCaps="false" />
+    <com.sensorsdata.analytics.android.sdk.visual.view.PairingCodeEditText android:textSize="40.0sp" android:textColor="#ff00c48e" android:layout_gravity="center_horizontal" android:id="@id/sensors_analytics_pairing_code" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:inputType="number" android:imeOptions="flagNoExtractUi" />
+</LinearLayout>

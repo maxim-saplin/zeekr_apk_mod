@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d dae gelede</item>
+        <item quantity="one">%d dag gelede</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d m. gelede</item>
+        <item quantity="one">%d m. gelede</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d jaar gelede</item>
+        <item quantity="one">%d jaar gelede</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s kontroles bygevoeg.</item>
+        <item quantity="one">%s kontrole bygevoeg.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Voer SIM-PIN in. Jy het %d pogings oor.</item>
+        <item quantity="one">Voer SIM-PIN in. Jy het %d poging oor voordat jy jou diensverskaffer moet kontak om jou toestel te ontsluit.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM is nou gedeaktiveer. Voer PUK-kode in om voort te gaan. Jy het %d pogings oor voordat die SIM permanent onbruikbaar word. Kontak die diensverskaffer vir besonderhede.</item>
+        <item quantity="one">SIM is nou gedeaktiveer. Voer PUK-kode in om voort te gaan. Jy het %d poging oor voordat die SIM permanent onbruikbaar word. Kontak die diensverskaffer vir besonderhede.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Verkeerde SIM-PIN-kode. Jy het %d pogings oor.</item>
+        <item quantity="one">Verkeerde SIM-PIN-kode. Jy het %d oorblywende poging voordat jy jou diensverskaffer sal moet kontak om jou toestel te ontsluit.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Verkeerde SIM-PUK-kode. Jy het %d pogings oor voordat SIM permanent onbruikbaar word.</item>
+        <item quantity="one">Verkeerde SIM-PUK-kode. Jy het %d poging oor voordat SIM permanent onbruikbaar word.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Probeer oor %d sekondes weer.</item>
+        <item quantity="one">Probeer oor 1 sekonde weer.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuwe kennisgewings</item>
+        <item quantity="one">%d nuwe kennisgewing</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">nog %s kennisgewings binne.</item>
+        <item quantity="one">nog %s kennisgewing binne.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d toestelle</item>
+        <item quantity="one">%d toestel</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Jy kan tot %d gebruikers byvoeg.</item>
+        <item quantity="one">Net een gebruiker kan geskep word.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d toestelle is gekoppel</item>
+        <item quantity="one">%1$d toestel is gekoppel</item>
+    </plurals>
+</resources>

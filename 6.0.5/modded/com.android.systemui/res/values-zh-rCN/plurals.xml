@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d 天前</item>
+        <item quantity="one">%d 天前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d 分钟前</item>
+        <item quantity="one">%d 分钟前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d 年前</item>
+        <item quantity="one">%d 年前</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">已添加 %s 个控件。</item>
+        <item quantity="one">已添加 %s 个控件。</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">请输入 SIM 卡 PIN 码，您还可以尝试 %d 次。</item>
+        <item quantity="one">请输入 SIM 卡 PIN 码，您还可以尝试 %d 次。如果仍不正确，则需要联系运营商帮您解锁设备。</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM 卡现已停用，请输入 PUK 码继续使用。您还可以尝试 %d 次。如果仍不正确，该 SIM 卡将永远无法使用。有关详情，请联系您的运营商。</item>
+        <item quantity="one">SIM 卡现已停用，请输入 PUK 码继续使用。您还可以尝试 %d 次。如果仍不正确，该 SIM 卡将永远无法使用。有关详情，请联系您的运营商。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM 卡 PIN 码不正确，您还有 %d 次尝试机会。</item>
+        <item quantity="one">SIM 卡 PIN 码不正确，您还有 %d 次尝试机会。如果仍不正确，则需要联系运营商帮您解锁设备。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM 卡 PUK 码不正确，您还有 %d 次尝试机会。如果仍不正确，SIM 卡将永远无法使用。</item>
+        <item quantity="one">SIM 卡 PUK 码不正确，您还有 %d 次尝试机会。如果仍不正确，SIM 卡将永远无法使用。</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">请在 %d 秒后重试。</item>
+        <item quantity="one">请在 1 秒后重试。</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 条新通知</item>
+        <item quantity="one">%d 条新通知</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">此群组内还有 %s 条通知。</item>
+        <item quantity="one">此群组内还有 %s 条通知。</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d 台设备</item>
+        <item quantity="one">%d 台设备</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d 小时</item>
+        <item quantity="one">%d 小时</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d 分钟</item>
+        <item quantity="one">%d 分钟</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">您最多可以添加 %d 位用户。</item>
+        <item quantity="one">您只能创建一位用户。</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">已连接 %1$d 个设备</item>
+        <item quantity="one">已连接 %1$d 个设备</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="controls_max_columns">4</integer>
+    <integer name="design_snackbar_text_max_lines">1</integer>
+    <integer name="keyguard_host_view_gravity">0x00000011</integer>
+    <integer name="long_press_dock_anim_duration">290</integer>
+    <integer name="navigation_bar_deadzone_orientation">0</integer>
+    <integer name="qs_security_footer_maxLines">1</integer>
+    <integer name="quick_settings_max_rows">4</integer>
+</resources>

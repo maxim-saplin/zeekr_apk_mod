@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:background="@color/biometric_dialog_dim_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/biometric_dialog_empty_space_description" />
+    <View android:id="@id/panel" android:background="?android:colorBackgroundFloating" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="@dimen/biometric_dialog_elevation" />
+    <ScrollView android:layout_gravity="bottom|center" android:id="@id/biometric_scrollview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/biometric_dialog_border_padding" android:elevation="@dimen/biometric_dialog_elevation" />
+</FrameLayout>

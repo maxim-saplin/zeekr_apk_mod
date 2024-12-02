@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/lock_udfps_aod_fp" android:padding="@dimen/lock_icon_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" systemui:lottie_autoPlay="false" systemui:lottie_loop="true" systemui:lottie_rawRes="@raw/udfps_aod_fp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto" />

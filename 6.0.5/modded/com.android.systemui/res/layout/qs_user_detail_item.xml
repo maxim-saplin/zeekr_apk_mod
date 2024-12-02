@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.tiles.UserDetailItemView android:gravity="center|top" android:orientation="vertical" android:background="@drawable/ripple_drawable" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" systemui:activatedTextAppearance="@style/TextAppearance.QS.UserSwitcher" systemui:regularTextAppearance="@style/TextAppearance.QS.UserSwitcher"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <com.android.systemui.statusbar.phone.UserAvatarView android:id="@id/user_picture" android:layout_width="@dimen/qs_framed_avatar_size" android:layout_height="@dimen/qs_framed_avatar_size" android:layout_marginBottom="7.0dip" systemui:badgeDiameter="15.0dip" systemui:badgeMargin="5.0dip" systemui:frameColor="@color/qs_user_avatar_frame" systemui:framePadding="-1.0dip" systemui:frameWidth="6.0dip" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:gravity="center_horizontal" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:gravity="center_vertical" android:id="@id/restricted_padlock" android:visibility="gone" android:layout_width="@dimen/qs_detail_item_secondary_text_size" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/restricted_padlock_pading" android:src="@drawable/ic_info" android:scaleType="centerInside" />
+    </LinearLayout>
+</com.android.systemui.qs.tiles.UserDetailItemView>

@@ -1,0 +1,430 @@
+{
+  "version": "1.0.0",
+  "messages": {
+    "-2117150342": {
+      "message": "Fullscreen Task Vanished: #%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/fullscreen\/FullscreenTaskListener.java"
+    },
+    "-2076257741": {
+      "message": "Transition requested: %s %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "-1934680564": {
+      "message": "  splitTransition  deduced Dismiss from request. toTop=%s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/stagesplit\/StageCoordinator.java"
+    },
+    "-1683614271": {
+      "message": "Existing task: id=%d component=%s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/ShellTaskOrganizer.java"
+    },
+    "-1671119352": {
+      "message": " Delegate animation for %s to %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/RemoteTransitionHandler.java"
+    },
+    "-1533341034": {
+      "message": "Transition was merged (abort=%b: %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "-1382704050": {
+      "message": "Display removed: %d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_DRAG_AND_DROP",
+      "at": "com\/android\/wm\/shell\/draganddrop\/DragAndDropController.java"
+    },
+    "-1362429294": {
+      "message": "%s onTaskAppeared Primary taskId=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/legacysplitscreen\/LegacySplitScreenTaskListener.java"
+    },
+    "-1340279385": {
+      "message": "Remove listener=%s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/ShellTaskOrganizer.java"
+    },
+    "-1325223370": {
+      "message": "Task appeared taskId=%d listener=%s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/ShellTaskOrganizer.java"
+    },
+    "-1312360667": {
+      "message": "createRootTask() displayId=%d winMode=%d listener=%s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/ShellTaskOrganizer.java"
+    },
+    "-1308483871": {
+      "message": " try handler %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "-1297259344": {
+      "message": " animated by %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "-1269886472": {
+      "message": "Transition %s doesn't have explicit remote, search filters for match for %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/RemoteTransitionHandler.java"
+    },
+    "-1167654715": {
+      "message": "  nav bar changes sides, so not seamless.",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/DefaultTransitionHandler.java"
+    },
+    "-1006733970": {
+      "message": "Display added: %d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_DRAG_AND_DROP",
+      "at": "com\/android\/wm\/shell\/draganddrop\/DragAndDropController.java"
+    },
+    "-1000962629": {
+      "message": "Animate bounds: from=%s to=%s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_DRAG_AND_DROP",
+      "at": "com\/android\/wm\/shell\/draganddrop\/DropOutlineDrawable.java"
+    },
+    "-880817403": {
+      "message": "Task vanished taskId=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/ShellTaskOrganizer.java"
+    },
+    "-821069485": {
+      "message": "Pending transitions after one finished, so start the next one.",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "-742394458": {
+      "message": "pair task1=%d task2=%d in AppPair=%s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/apppairs\/AppPair.java"
+    },
+    "-710770147": {
+      "message": "Add target: %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_DRAG_AND_DROP",
+      "at": "com\/android\/wm\/shell\/draganddrop\/DragLayout.java"
+    },
+    "-581313329": {
+      "message": "The display#%d has been removed. Skip following steps",
+      "level": "WARN",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/RootTaskDisplayAreaOrganizer.java"
+    },
+    "-553798917": {
+      "message": "Can't pair tasks that doesn't support multi window, task1.supportsMultiWindow=%b, task2.supportsMultiWindow=%b",
+      "level": "ERROR",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/apppairs\/AppPair.java"
+    },
+    "-298656957": {
+      "message": "%s onTaskAppeared unknown taskId=%d winMode=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/legacysplitscreen\/LegacySplitScreenTaskListener.java"
+    },
+    "-272049475": {
+      "message": "Freeform Task Info Changed: #%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/freeform\/FreeformTaskListener.java"
+    },
+    "-234284913": {
+      "message": "unpair taskId=%d pair=%s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/apppairs\/AppPairsController.java"
+    },
+    "-166960725": {
+      "message": "Freeform Task Appeared: #%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/freeform\/FreeformTaskListener.java"
+    },
+    "-146110597": {
+      "message": "start default transition animation, info = %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/DefaultTransitionHandler.java"
+    },
+    "-114556030": {
+      "message": " Attempt merge %s into %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/RemoteTransitionHandler.java"
+    },
+    "42311280": {
+      "message": "  display has system alert windows, so not seamless.",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/DefaultTransitionHandler.java"
+    },
+    "111706912": {
+      "message": "Fullscreen Task Appeared: #%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/fullscreen\/FullscreenTaskListener.java"
+    },
+    "138343607": {
+      "message": " try firstHandler %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "157713005": {
+      "message": "Task info changed taskId=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/ShellTaskOrganizer.java"
+    },
+    "165317020": {
+      "message": "  split is active so using splitTransition to handle request. triggerTask=%d type=%s mainChildren=%d sideChildren=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/splitscreen\/StageCoordinator.java"
+    },
+    "214412327": {
+      "message": "RemoteTransition directly requested for %s: %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/RemoteTransitionHandler.java"
+    },
+    "274140888": {
+      "message": "Animate alpha: from=%d to=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_DRAG_AND_DROP",
+      "at": "com\/android\/wm\/shell\/draganddrop\/DropOutlineDrawable.java"
+    },
+    "305060772": {
+      "message": "Pending transition after one finished, but it isn't ready yet.",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "313857748": {
+      "message": "Transition %s ready while another transition %s is still animating. Notify the animating transition in case they can be merged",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "375908576": {
+      "message": "Clip description: handlingDrag=%b itemCount=%d mimeTypes=%s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_DRAG_AND_DROP",
+      "at": "com\/android\/wm\/shell\/draganddrop\/DragAndDropController.java"
+    },
+    "410592459": {
+      "message": "Invalid root leash (%s): %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "473543554": {
+      "message": "%s onTaskAppeared Supported",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/legacysplitscreen\/LegacySplitScreenTaskListener.java"
+    },
+    "481673835": {
+      "message": "addListenerForTaskId taskId=%s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/ShellTaskOrganizer.java"
+    },
+    "490784151": {
+      "message": "All active transition animations finished",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "580605218": {
+      "message": "Registering organizer",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/ShellTaskOrganizer.java"
+    },
+    "649960056": {
+      "message": "Display is changing, check if it should be seamless.",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/DefaultTransitionHandler.java"
+    },
+    "707170340": {
+      "message": " animated by firstHandler",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "950299522": {
+      "message": "taskId %d isn't isn't in an app-pair.",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/apppairs\/AppPairsController.java"
+    },
+    "967375804": {
+      "message": "RemoteTransition directly requested for %s: %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/OneShotRemoteHandler.java"
+    },
+    "980952660": {
+      "message": "Task root back pressed taskId=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/ShellTaskOrganizer.java"
+    },
+    "982027396": {
+      "message": "%s onTaskAppeared Secondary taskId=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/legacysplitscreen\/LegacySplitScreenTaskListener.java"
+    },
+    "990371881": {
+      "message": " Checking filter %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/RemoteTransitionHandler.java"
+    },
+    "1015274864": {
+      "message": "  wallpaper is participating but isn't seamless.",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/DefaultTransitionHandler.java"
+    },
+    "1070270131": {
+      "message": "onTransitionReady %s: %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "1079041527": {
+      "message": "incrementPool size=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/apppairs\/AppPairsPool.java"
+    },
+    "1167817788": {
+      "message": "  rotation involves upside-down portrait, so not seamless.",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/DefaultTransitionHandler.java"
+    },
+    "1184615936": {
+      "message": "Set drop target window visibility: displayId=%d visibility=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_DRAG_AND_DROP",
+      "at": "com\/android\/wm\/shell\/draganddrop\/DragAndDropController.java"
+    },
+    "1215677233": {
+      "message": "  Rotation IS seamless.",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/DefaultTransitionHandler.java"
+    },
+    "1373022370": {
+      "message": "  splitTransition  deduced Dismiss from request. toTop=%s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/splitscreen\/StageCoordinator.java"
+    },
+    "1481772149": {
+      "message": "Current target: %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_DRAG_AND_DROP",
+      "at": "com\/android\/wm\/shell\/draganddrop\/DragLayout.java"
+    },
+    "1636248050": {
+      "message": "  split is active so using splitTransition to handle request. triggerTask=%d type=%s mainChildren=%d sideChildren=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/stagesplit\/StageCoordinator.java"
+    },
+    "1649273831": {
+      "message": "Using registered One-shot remote transition %s for %s.",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/OneShotRemoteHandler.java"
+    },
+    "1799955124": {
+      "message": "Transition animation finished (abort=%b), notifying core %s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/Transitions.java"
+    },
+    "1862198614": {
+      "message": "Drag event: action=%s x=%f y=%f xOffset=%f yOffset=%f",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_DRAG_AND_DROP",
+      "at": "com\/android\/wm\/shell\/draganddrop\/DragAndDropController.java"
+    },
+    "1891981945": {
+      "message": "release entry.taskId=%s listener=%s size=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/apppairs\/AppPairsPool.java"
+    },
+    "1899149317": {
+      "message": "Freeform Task Vanished: #%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/freeform\/FreeformTaskListener.java"
+    },
+    "1915000700": {
+      "message": "  task %s isn't requesting seamless, so not seamless.",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TRANSITIONS",
+      "at": "com\/android\/wm\/shell\/transition\/DefaultTransitionHandler.java"
+    },
+    "1990759023": {
+      "message": "addListenerForType types=%s listener=%s",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/ShellTaskOrganizer.java"
+    },
+    "2006473416": {
+      "message": "acquire entry.taskId=%s listener=%s size=%d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_TASK_ORG",
+      "at": "com\/android\/wm\/shell\/apppairs\/AppPairsPool.java"
+    },
+    "2057038970": {
+      "message": "Display changed: %d",
+      "level": "VERBOSE",
+      "group": "WM_SHELL_DRAG_AND_DROP",
+      "at": "com\/android\/wm\/shell\/draganddrop\/DragAndDropController.java"
+    }
+  },
+  "groups": {
+    "WM_SHELL_DRAG_AND_DROP": {
+      "tag": "WindowManagerShell"
+    },
+    "WM_SHELL_TASK_ORG": {
+      "tag": "WindowManagerShell"
+    },
+    "WM_SHELL_TRANSITIONS": {
+      "tag": "WindowManagerShell"
+    }
+  }
+}

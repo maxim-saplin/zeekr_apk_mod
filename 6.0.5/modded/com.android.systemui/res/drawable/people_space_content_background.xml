@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/people_tile_background" />
+    <corners android:radius="@dimen/people_space_image_radius" />
+</shape>

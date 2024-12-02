@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>ಅನಿಮೇಶನ್‌‌ ಆಫ್‌ ಮಾಡಿ</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ .5x</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 1x</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 1.5x</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 2x</item>
+        <item>ಅನಿಮೇಷನ್ ಸ್ಕೇಲ್ 5x</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ಪ್ರಮಾಣಿತ ಮಿತಿ</item>
+        <item>ಹಿನ್ನೆಲೆ ಪ್ರಕ್ರಿಯೆಗಳು ಇಲ್ಲ</item>
+        <item>ಬಹುತೇಕ 1 ಪ್ರಕ್ರಿಯೆ</item>
+        <item>ಬಹುತೇಕ 2 ಪ್ರಕ್ರಿಯೆಗಳು</item>
+        <item>ಬಹುತೇಕ 3 ಪ್ರಕ್ರಿಯೆಗಳು</item>
+        <item>ಬಹುತೇಕ 4 ಪ್ರಕ್ರಿಯೆಗಳು</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>ಯಾವಾಗಲೂ ಪ್ರತಿಶತವನ್ನು ತೋರಿಸು</item>
+        <item>ಚಾರ್ಜ್‌ ಮಾಡುವಾಗ ಪ್ರತಿಶತವನ್ನು ತೋರಿಸು (ಡಿಫಾಲ್ಟ್‌)</item>
+        <item>ಈ ಐಕಾನ್ ತೋರಿಸಬೇಡ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>ಸಿಸ್ಟಂ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ (ಡಿಫಾಲ್ಟ್)</item>
+        <item>16 ಬಿಟ್ಸ್/ಮಾದರಿ</item>
+        <item>24 ಬಿಟ್ಸ್/ಮಾದರಿ</item>
+        <item>32 ಬಿಟ್ಸ್/ಮಾದರಿ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>ಸಿಸ್ಟಂ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ (ಡಿಫಾಲ್ಟ್)</item>
+        <item>16 ಬಿಟ್ಸ್/ಮಾದರಿ</item>
+        <item>24 ಬಿಟ್ಸ್/ಮಾದರಿ</item>
+        <item>32 ಬಿಟ್ಸ್/ಮಾದರಿ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>ಸಿಸ್ಟಂ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ (ಡಿಫಾಲ್ಟ್)</item>
+        <item>ಮೊನೊ</item>
+        <item>ಸ್ಟೀರಿಯೊ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>ಸಿಸ್ಟಂ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ (ಡಿಫಾಲ್ಟ್)</item>
+        <item>ಮೊನೊ</item>
+        <item>ಸ್ಟೀರಿಯೊ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>ಆಡಿಯೊ ಗುಣಮಟ್ಟಕ್ಕಾಗಿ ಆಪ್ಟಿಮೈಸ್‌ ಮಾಡಲಾಗಿದೆ</item>
+        <item>ಸಂತುಲಿತ ಆಡಿಯೊ ಮತ್ತು ಸಂಪರ್ಕದ ಗುಣಮಟ್ಟ</item>
+        <item>ಸಂಪರ್ಕ ಗುಣಮಟ್ಟಕ್ಕಾಗಿ ಆಪ್ಟಿಮೈಸ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item>ಅತ್ಯುತ್ತಮ ಪ್ರಯತ್ನ (ಹೊಂದಿಸಬಹುದಾದ ಬಿಟ್ ಪ್ರಮಾಣ)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>ಆಡಿಯೋ ಗುಣಮಟ್ಟಕ್ಕಾಗಿ (990kbps/909kbps) ಆಪ್ಟಿಮೈಸ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item>ಸಂತುಲಿತ ಆಡಿಯೊ ಮತ್ತು ಸಂಪರ್ಕದ ಗುಣಮಟ್ಟ (660kbps/606kbps)</item>
+        <item>ಸಂಪರ್ಕದ ಗುಣಮಟ್ಟಕ್ಕಾಗಿ (330kbps/303kbps) ಆಪ್ಟಿಮೈಸ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item>ಅತ್ಯುತ್ತಮ ಪ್ರಯತ್ನ (ಹೊಂದಿಸಬಹುದಾದ ಬಿಟ್ ಪ್ರಮಾಣ)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>ಸಿಸ್ಟಂ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ (ಡಿಫಾಲ್ಟ್)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>ಸಿಸ್ಟಂ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ (ಡಿಫಾಲ್ಟ್)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>ಸಿಸ್ಟಂ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ (ಡಿಫಾಲ್ಟ್)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ಆಡಿಯೋ</item>
+        <item>Qualcomm® aptX™ HD ಆಡಿಯೋ</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>ಸಿಸ್ಟಂ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ (ಡಿಫಾಲ್ಟ್)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ಆಡಿಯೋ</item>
+        <item>Qualcomm® aptX™ HD ಆಡಿಯೋ</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>ಸಕ್ರಿಯ</item>
+        <item>, ಸಕ್ರಿಯ (ಮಾಧ್ಯಮ)</item>
+        <item>, ಸಕ್ರಿಯ (ಫೋನ್)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (ಡೀಫಾಲ್ಟ್)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ಡೀಫಾಲ್ಟ್)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</item>
+        <item>ಫಿಲ್ಟರ್ ಮಾಡುವುದನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</item>
+        <item>ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>ಗಂಟೆಗಳು, ನಿಮಿಷಗಳು, ಸೆಕೆಂಡುಗಳನ್ನು ತೋರಿಸು</item>
+        <item>ಗಂಟೆಗಳು ಮತ್ತು ನಿಮಿಷಗಳನ್ನು ತೋರಿಸು (ಡಿಫಾಲ್ಟ್‌)</item>
+        <item>ಈ ಐಕಾನ್ ತೋರಿಸಬೇಡ</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>ವರ್ಧಿತ ಬಣ್ಣಗಳು</item>
+        <item>ಕಣ್ಣಿಗೆ ಕಾಣಿಸುವ ರೀತಿಯಲ್ಲಿ ನೈಸರ್ಗಿಕ ಬಣ್ಣಗಳು</item>
+        <item>ಡಿಜಿಟಲ್ ವಿಷಯಕ್ಕಾಗಿ ಆಪ್ಟಿಮೈಜ್ ಮಾಡಲಾಗಿರುವ ಬಣ್ಣಗಳು</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>ಸ್ಪಂದನಾತ್ಮಕ (ಡೀಫಾಲ್ಟ್)</item>
+        <item>ಸ್ವಾಭಾವಿಕ</item>
+        <item>ಪ್ರಮಾಣಿತ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ಆಫ್</item>
+        <item>ಓವರ್‌ಡ್ರಾ ಪ್ರದೇಶಗಳನ್ನು ತೋರಿಸು</item>
+        <item>ಡ್ಯೂಟರ್‌ನೋಮಲಿಗಾಗಿ ಪ್ರದೇಶಗಳನ್ನು ತೋರಿಸು</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>ಲಾಗ್‌ಕ್ಯಾಟ್‌</item>
+        <item>Systrace (ಗ್ರಾಫಿಕ್ಸ್)</item>
+        <item>glGetError ನಲ್ಲಿ ಕರೆಯ ಸ್ಟ್ಯಾಕ್</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP ಪರಿಶೀಲನೆಯನ್ನು ಎಂದಿಗೂ ಬಳಸದಿರು</item>
+        <item>DRM ವಿಷಯಗಳಿಗೆ ಮಾತ್ರ HDCP ಪರೀಕ್ಷಿಸುವಿಕೆಯನ್ನು ಬಳಸು</item>
+        <item>HDCP ಪರಿಶೀಲನೆಯನ್ನು ಯಾವಾಗಲೂ ಬಳಸು</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ಎಂದಿಗೂ ಪರಿಶೀಲಿಸದಿರು</item>
+        <item>DRM ವಿಷಯಗಳನ್ನು ಮಾತ್ರ ಪರಿಶೀಲಿಸು</item>
+        <item>ಯಾವಾಗಲೂ ಪರಿಶೀಲಿಸು</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>ಕ್ಲಿಪ್‌ಬೋರ್ಡ್</item>
+        <item>ಕೀಕೋಡ್</item>
+        <item>ತಿರುಗಿಸುವಿಕೆ ದೃಢೀಕರಿಸಿ, ಕೀಬೋರ್ಡ್ ಬದಲಾಯಿಸುವಿಕೆ</item>
+        <item>ಯಾವುದೂ ಅಲ್ಲ</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>ಸಾಮಾನ್ಯ</item>
+        <item>ಕಾಂಪ್ಯಾಕ್ಟ್‌</item>
+        <item>ಎಡ-ಬಾಗುವಿಕೆ</item>
+        <item>ಬಲ-ಬಾಗುವಿಕೆ</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>480p</item>
+        <item>480p (ಸುರಕ್ಷಿತ)</item>
+        <item>720p</item>
+        <item>720p (ಸುರಕ್ಷಿತ)</item>
+        <item>1080p</item>
+        <item>1080p (ಸುರಕ್ಷಿತ)</item>
+        <item>4K</item>
+        <item>4K (ಸುರಕ್ಷಿತ)</item>
+        <item>4K (ಮಾಪನ ಮಾಡದ)</item>
+        <item>4K (ಮಾಪನ ಮಾಡದ, ಸುರಕ್ಷಿತ)</item>
+        <item>720p, 1080p (ಡ್ಯುಯಲ್ ಸ್ಕ್ರೀನ್)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ಆಫ್</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ಆಫ್</item>
+        <item>ಪ್ರತಿ ಲಾಗ್ ಬಫರ್‌ಗೆ 64K</item>
+        <item>ಪ್ರತಿ ಲಾಗ್ ಬಫರ್‌ಗೆ 256K</item>
+        <item>ಪ್ರತಿ ಲಾಗ್ ಬಫರ್‌ಗೆ 1M</item>
+        <item>ಪ್ರತಿ ಲಾಗ್ ಬಫರ್‌ಗೆ 4M</item>
+        <item>ಪ್ರತಿ ಲಾಗ್ ಬಫರ್‌ಗೆ 8M</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ಆಫ್</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ಆಫ್ ಆಗಿದೆ</item>
+        <item>ಎಲ್ಲಾ ಲಾಗ್ ಬಫರ್‌ಗಳು</item>
+        <item>ಎಲ್ಲಾ ಆದರೆ ರೇಡಿಯೊ ಲಾಗ್ ಬಫರ್‌ಗಳು</item>
+        <item>ಕೆರ್ನಲ್ ಲಾಗ್ ಬಫರ್ ಮಾತ್ರ</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ಆಫ್</item>
+        <item>ಎಲ್ಲಾ</item>
+        <item>ಎಲ್ಲಾ ಆದರೆ ರೇಡಿಯೊ</item>
+        <item>ಕೆರ್ನಲ್ ಮಾತ್ರ</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ಆಫ್</item>
+        <item>ಆಯತಾಕಾರವಲ್ಲದ ಕ್ಲಿಪ್‌ ಸ್ಥಳವನ್ನು ನೀಲಿಯಲ್ಲಿ ಡ್ರಾ ಮಾಡಿ</item>
+        <item>ಪರೀಕ್ಷಿತ ಚಿತ್ರ ಆದೇಶವನ್ನು ಹಸಿರಿನಲ್ಲಿ ಹೈಲೈಟ್‌ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>ಲಭ್ಯವಿಲ್ಲ</item>
+        <item>ಆಫ್ ಮಾಡಿ</item>
+        <item>ಆನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ಆಫ್</item>
+        <item>ಪರದೆಯ ಮೇಲಿನ ಪಟ್ಟಿಗಳು</item>
+        <item>adb shell dumpsys gfxinfo ರಲ್ಲಿ</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ಆನಿಮೇಶನ್ ಆಫ್</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ .5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 1x</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 1.5x</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 2x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ತುಂಬಾ ನಿಧಾನ</item>
+        <item>ನಿಧಾನ</item>
+        <item>ಸಾಮಾನ್ಯ</item>
+        <item>ವೇಗ</item>
+        <item>ಕ್ಷಿಪ್ರ</item>
+        <item>ಅತ್ಯಂತ ವೇಗ</item>
+        <item>ತ್ವರಿತ</item>
+        <item>ಅತ್ಯಂತ ತ್ವರಿತ</item>
+        <item>ಅತಿ ಕ್ಷಿಪ್ರ</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ</item>
+        <item>MTP (ಮೀಡಿಯಾ ಟ್ರಾನ್ಸ್‌ಫರ್ ಪ್ರೊಟೋಕಾಲ್)</item>
+        <item>PTP (ಪಿಕ್ಚರ್ ಟ್ರಾನ್ಸ್‌ಫರ್ ಪ್ರೊಟೋಕಾಲ್)</item>
+        <item>RNDIS (USB ಇಥರ್ನೆಟ್)</item>
+        <item>ಆಡಿಯೊ ಮೂಲ</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಸಂಪರ್ಕಪಡಿಸಲಾಗುತ್ತಿದೆ...</item>
+        <item>ಪ್ರಮಾಣೀಕರಿಸಲಾಗುತ್ತಿದೆ...</item>
+        <item>IP ವಿಳಾಸವನ್ನು ಪಡೆಯಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಸಂಪರ್ಕಗೊಂಡಿದೆ</item>
+        <item>ತಡೆಹಿಡಿಯಲಾಗಿದೆ</item>
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗುತ್ತಿದೆ...</item>
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗಿದೆ</item>
+        <item>ಯಶಸ್ವಿಯಾಗಲಿಲ್ಲ</item>
+        <item>ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</item>
+        <item>ಕಳಪೆ ಸಂಪರ್ಕವನ್ನು ತಾತ್ಕಾಲಿಕವಾಗಿ ತಡೆಗಟ್ಟಲಾಗುತ್ತಿದೆ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</item>
+        <item>%1$s ಗೆ ಸಂಪರ್ಕಪಡಿಸಲಾಗುತ್ತಿದೆ…</item>
+        <item>%1$s ಜೊತೆ ಪ್ರಮಾಣೀಕರಿಸಲಾಗುತ್ತಿದೆ…</item>
+        <item>%1$s ನಿಂದ IP ವಿಳಾಸವನ್ನು ಪಡೆಯಲಾಗುತ್ತಿದೆ…</item>
+        <item>%1$s ಗೆ ಸಂಪರ್ಕಪಡಿಸಲಾಗಿದೆ</item>
+        <item>ತಡೆಹಿಡಿಯಲಾಗಿದೆ</item>
+        <item>%1$s ನಿಂದ ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗಿದೆ</item>
+        <item>ಯಶಸ್ವಿಯಾಗಲಿಲ್ಲ</item>
+        <item>ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</item>
+        <item>ಕಳಪೆ ಸಂಪರ್ಕವನ್ನು ತಾತ್ಕಾಲಿಕವಾಗಿ ತಡೆಗಟ್ಟಲಾಗುತ್ತಿದೆ</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಕನೆಕ್ಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</item>
+        <item>ದೃಢೀಕರಿಸಲಾಗುತ್ತಿದೆ…</item>
+        <item>IP ವಿಳಾಸವನ್ನು ಪಡೆಯಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಕನೆಕ್ಟ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item>ಅಮಾನತುಗೊಳಿಸಲಾಗಿದೆ</item>
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗುತ್ತಿದೆ…</item>
+        <item>ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗಿದೆ</item>
+        <item>ವಿಫಲವಾಗಿದೆ</item>
+        <item>ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</item>
+        <item>ಕಳಪೆ ಗುಣಮಟ್ಟದ ಕನೆಕ್ಷನ್ ಅನ್ನು ತಾತ್ಕಾಲಿಕವಾಗಿ ತಡೆಗಟ್ಟಲಾಗುತ್ತಿದೆ</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ಆನಿಮೇಶನ್ ಆಫ್</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ .5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 1x</item>
+        <item>ಅನಿಮೇಶನ್‌‌ ಮಾಪಕ 1.5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 2x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 5x</item>
+        <item>ಆನಿಮೇಶನ್ ಮಾಪಕ 10x</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <solid android:color="?android:^attr-private/colorPopupBackground" />
+    <corners android:topLeftRadius="?android:dialogCornerRadius" android:topRightRadius="?android:dialogCornerRadius" android:bottomLeftRadius="?android:dialogCornerRadius" android:bottomRightRadius="?android:dialogCornerRadius" />
+</shape>

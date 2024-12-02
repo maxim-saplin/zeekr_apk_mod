@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/control_spinner_padding_horizontal" android:paddingVertical="@dimen/control_spinner_padding_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/app_icon" android:layout_width="@dimen/controls_header_app_icon_size" android:layout_height="@dimen/controls_header_app_icon_size" android:contentDescription="@null" android:layout_marginEnd="10.0dip" />
+        <TextView android:layout_gravity="center" android:id="@id/controls_spinner_item" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Control.Spinner.Item" />
+    </LinearLayout>
+</LinearLayout>

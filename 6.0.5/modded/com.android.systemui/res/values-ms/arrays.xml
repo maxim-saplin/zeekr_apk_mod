@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animasi dimatikan</item>
+        <item>Skala animasi .5x</item>
+        <item>Skala animasi 1x</item>
+        <item>Skala animasi 1.5x</item>
+        <item>Skala animasi 2x</item>
+        <item>Skala animasi 5x</item>
+        <item>Skala animasi 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Had standard</item>
+        <item>Tiada proses latar belakang</item>
+        <item>Paling banyak 1 proses</item>
+        <item>Paling banyak 2 proses</item>
+        <item>Paling banyak 3 proses</item>
+        <item>Paling banyak 4 proses</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Sentiasa tunjukkan peratusan</item>
+        <item>Tunjukkan peratusan semasa mengecas (lalai)</item>
+        <item>Jangan tunjukkan ikon ini</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Gunakan Pilihan Sistem (Lalai)</item>
+        <item>16 bit/sampel</item>
+        <item>24 bit/sampel</item>
+        <item>32 bit/sampel</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Gunakan Pilihan Sistem (Lalai)</item>
+        <item>16 bit/sampel</item>
+        <item>24 bit/sampel</item>
+        <item>32 bit/sampel</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Gunakan Pilihan Sistem (Lalai)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Gunakan Pilihan Sistem (Lalai)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Dioptimumkan untuk Kualiti Audio</item>
+        <item>Audio Seimbang dan Kualiti Sambungan</item>
+        <item>Dioptimumkan untuk Kualiti Sambungan</item>
+        <item>Usaha Terbaik (Kadar Bit Mudah Suai)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Dioptimumkan untuk Kualiti Audio (990kbps/909kbps)</item>
+        <item>Audio Seimbang dan Kualiti Sambungan (660kbps/606kbps)</item>
+        <item>Dioptimumkan untuk Kualiti Sambungan (330kbps/303kbps)</item>
+        <item>Usaha Terbaik (Kadar Bit Mudah Suai)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Gunakan Pilihan Sistem (Lalai)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Gunakan Pilihan Sistem (Lalai)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Gunakan Pilihan Sistem (Lalai)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Audio Qualcomm® aptX™</item>
+        <item>Audio Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Gunakan Pilihan Sistem (Lalai)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Audio Qualcomm® aptX™</item>
+        <item>Audio Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktif</item>
+        <item>, aktif (media)</item>
+        <item>, aktif (telefon)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (Lalai)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Lalai)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Dilumpuhkan</item>
+        <item>Didayakan Ditapis</item>
+        <item>Didayakan</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Tunjukkan jam, minit dan saat</item>
+        <item>Tunjukkan jam dan minit (lalai)</item>
+        <item>Jangan tunjukkan ikon ini</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Warna dipertingkat</item>
+        <item>Warna semula jadi seperti yang dilihat oleh mata</item>
+        <item>Warna dioptimumkan untuk kandungan digital</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Terang (lalai)</item>
+        <item>Semula Jadi</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Mati</item>
+        <item>Tunjukkan kawasan lebih lukis</item>
+        <item>Tunjukkan kawasan untuk Deuteranomaly</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Tiada</item>
+        <item>Logcat</item>
+        <item>Systrace (Grafik)</item>
+        <item>Tindanan panggilan pada glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Jangan sekali-kali gunakan penyemakan HDCP</item>
+        <item>Gunakan penyemakan HDCP untuk kandungan DRM sahaja</item>
+        <item>Sentiasa gunakan penyemakan HDCP</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Jangan sekali-kali semak</item>
+        <item>Semak kandungan DRM sahaja</item>
+        <item>Sentiasa semak</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Papan Keratan</item>
+        <item>Kod Kunci</item>
+        <item>Pengesahan putaran, penukar papan kekunci</item>
+        <item>Tiada</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Biasa</item>
+        <item>Sarat</item>
+        <item>Jajar ke kiri</item>
+        <item>Jajar ke kanan</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Tiada</item>
+        <item>480p</item>
+        <item>480p (selamat)</item>
+        <item>720p</item>
+        <item>720p (selamat)</item>
+        <item>1080p</item>
+        <item>1080p (selamat)</item>
+        <item>4K</item>
+        <item>4K (selamat)</item>
+        <item>4K (dipertingkat)</item>
+        <item>4K (dipertingkat, selamat)</item>
+        <item>720p, 1080p (dua skrin)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Mati</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Mati</item>
+        <item>64K per penimbal log</item>
+        <item>256K per penimbal log</item>
+        <item>1M per penimbal log</item>
+        <item>4M per penimbal log</item>
+        <item>8M per penimbal log</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Mati</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Mati</item>
+        <item>Semua penimbal log</item>
+        <item>Semua kecuali penimbal log radio</item>
+        <item>penimbal log inti sahaja</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Mati</item>
+        <item>Semua</item>
+        <item>Sma kcli radio</item>
+        <item>inti sahaja</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Mati</item>
+        <item>Lukis keratan bukan segi empat tepat biru</item>
+        <item>Serlahkan perintah lukisan diuji hijau</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Tidak tersedia</item>
+        <item>Mati</item>
+        <item>Hidup</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Mati</item>
+        <item>Pada skrin sebagai bar</item>
+        <item>Dalam adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animasi dimatikan</item>
+        <item>Skala animasi .5x</item>
+        <item>Skala animasi 1x</item>
+        <item>Skala animasi 1.5x</item>
+        <item>Skala animasi 2x</item>
+        <item>Skala animasi 5x</item>
+        <item>Skala animasi 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Sangat perlahan</item>
+        <item>Perlahan</item>
+        <item>Biasa</item>
+        <item>Laju</item>
+        <item>Lebih laju</item>
+        <item>Sangat laju</item>
+        <item>Pantas</item>
+        <item>Sangat pantas</item>
+        <item>Paling laju</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Mengecas</item>
+        <item>MTP (Protokol Pindahan Media)</item>
+        <item>PTP (Protokol Pindahan Gambar)</item>
+        <item>RNDIS (Ethernet USB)</item>
+        <item>Sumber Audio</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Mengimbas...</item>
+        <item>Menyambung...</item>
+        <item>Mengesahkan...</item>
+        <item>Mendapatkan alamat IP...</item>
+        <item>Disambungkan</item>
+        <item>Digantung</item>
+        <item>Memutuskan sambungan...</item>
+        <item>Diputuskan sambungan</item>
+        <item>Tidak berjaya</item>
+        <item>Disekat</item>
+        <item>Mengelakkan sambungan lemah buat sementara</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Mengimbas...</item>
+        <item>Menyambung kepada %1$s...</item>
+        <item>Mengesahkan dengan %1$s...</item>
+        <item>Mendapatkan alamat IP dari %1$s...</item>
+        <item>Disambungkan kepada %1$s</item>
+        <item>Digantung</item>
+        <item>Memutuskan sambungan dari %1$s...</item>
+        <item>Diputuskan sambungan</item>
+        <item>Tidak berjaya</item>
+        <item>Disekat</item>
+        <item>Mengelakkan sambungan lemah buat sementara</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Mengimbas…</item>
+        <item>Menyambung…</item>
+        <item>Mengesahkan…</item>
+        <item>Mendapatkan alamat IP…</item>
+        <item>Disambungkan</item>
+        <item>Digantung</item>
+        <item>Memutuskan sambungn…</item>
+        <item>Diputuskan sambungan</item>
+        <item>Tidak berjaya</item>
+        <item>Disekat</item>
+        <item>Mengelakkan sambungan lemah buat sementara waktu</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animasi dimatikan</item>
+        <item>Skala animasi .5x</item>
+        <item>Skala animasi 1x</item>
+        <item>Skala animasi 1.5x</item>
+        <item>Skala animasi 2x</item>
+        <item>Skala animasi 5x</item>
+        <item>Skala animasi 10x</item>
+    </string-array>
+</resources>

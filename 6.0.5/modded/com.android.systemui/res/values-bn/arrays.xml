@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>অ্যানিমেশন বন্ধ করুন</item>
+        <item>অ্যানিমেশন স্কেল .৫x</item>
+        <item>অ্যানিমেশন স্কেল ১x</item>
+        <item>অ্যানিমেশন স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল ২x</item>
+        <item>অ্যানিমেশন স্কেল 5x</item>
+        <item>অ্যানিমেশন স্কেল ১০x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>মানক সীমা</item>
+        <item>কোন ব্যাকগ্রাউন্ড প্রক্রিয়া নেই</item>
+        <item>১টি প্রক্রিয়ার বেশি নয়</item>
+        <item>২টি প্রক্রিয়ার বেশী নয়</item>
+        <item>৩টি প্রক্রিয়ার বেশি নয়</item>
+        <item>৪টি প্রক্রিয়ার বেশি নয়</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>০%</item>
+        <item>৫০%</item>
+        <item>১০০%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>সর্বদা শতাংশ দেখান</item>
+        <item>চার্জ করার সময় শতাংশ দেখান (ডিফল্ট)</item>
+        <item>এই আইকনটি দেখাবেন না</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>সিস্টেমের নির্বাচন ব্যবহার করুন (ডিফল্ট)</item>
+        <item>১৬ বিট/নমুনা</item>
+        <item>২৪ বিট/নমুনা</item>
+        <item>৩২ বিট/নমুনা</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>সিস্টেমের নির্বাচন ব্যবহার করুন (ডিফল্ট)</item>
+        <item>১৬ বিট/নমুনা</item>
+        <item>২৪ বিট/নমুনা</item>
+        <item>৩২ বিট/নমুনা</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>সিস্টেমের নির্বাচন ব্যবহার করুন (ডিফল্ট)</item>
+        <item>মোনো</item>
+        <item>স্টিরিও</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>সিস্টেমের নির্বাচন ব্যবহার করুন (ডিফল্ট)</item>
+        <item>মোনো</item>
+        <item>স্টিরিও</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>অডিও গুণমানের জন্য অপ্টিমাইজ করা হয়েছে</item>
+        <item>সন্তুলিত গুণমানের অডিও এবং কানেকশন</item>
+        <item>সংযোগের গুণমানের জন্য অপটিমাইজ করা হয়েছে</item>
+        <item>সেরা প্রচেষ্টা (অ্যাডাপ্টিভ বিট রেট)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>অডিও গুণমানের জন্য অপ্টিমাইজ করা হয়েছে (৯৯০kbps/৯০৯kbps)</item>
+        <item>সন্তুলিত গুণমানের অডিও এবং কানেকশন (660kbps/606kbps)</item>
+        <item>সংযোগের গুণমানের জন্য অপটিমাইজ করা হয়েছে (৩৩০kbps/৩০৩kbps)</item>
+        <item>সেরা প্রচেষ্টা (অ্যাডাপ্টিভ বিট রেট)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>সিস্টেমের নির্বাচন ব্যবহার করুন (ডিফল্ট)</item>
+        <item>৪৪.১ kHz</item>
+        <item>৪৮.০ kHz</item>
+        <item>৮৮.২ kHz</item>
+        <item>৯৬.০ kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>সিস্টেমের নির্বাচন ব্যবহার করুন (ডিফল্ট)</item>
+        <item>৪৪.১ kHz</item>
+        <item>৪৮.০ kHz</item>
+        <item>৮৮.২ kHz</item>
+        <item>৯৬.০ kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>সিস্টেমের নির্বাচন ব্যবহার করুন (ডিফল্ট)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ অডিও</item>
+        <item>Qualcomm® aptX™ HD অডিও</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>সিস্টেমের নির্বাচন ব্যবহার করুন (ডিফল্ট)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ অডিও</item>
+        <item>Qualcomm® aptX™ HD অডিও</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, চালু আছে</item>
+        <item>, চালু আছে (মিডিয়া)</item>
+        <item>, চালু আছে (ফোন)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (ডিফল্ট)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ডিফল্ট)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>বন্ধ করা আছে</item>
+        <item>ফিল্টার করা চালু আছে</item>
+        <item>চালু করা আছে</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>ঘণ্টা, মিনিট, এবং সেকেন্ড দেখান</item>
+        <item>ঘণ্টা এবং মিনিট দেখান (ডিফল্ট)</item>
+        <item>এই আইকনটি দেখাবেন না</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>উন্নত রঙ</item>
+        <item>স্বাভাবিক ভাবে আমরা চোখে যেমনটি দেখি সেইরূপ প্রাকৃতিক রঙ</item>
+        <item>ডিজিট্যাল সামগ্রীর জন্য অপ্টিমাইজ করা রঙগুলি</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>ভাইব্রেন্ট (ডিফল্ট)</item>
+        <item>প্রাকৃতিক</item>
+        <item>সাধারণ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>বন্ধ করুন</item>
+        <item>অতিবর্ণনা এলাকা দেখান</item>
+        <item>বর্ণান্ধতার জন্য এলাকা দেখান</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>কোনো কিছুই নয়</item>
+        <item>Logcat</item>
+        <item>Systrace (গ্রাফিক্স)</item>
+        <item>glGetError উপরে স্ট্যাক কল করুন</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP পরীক্ষণ কখনও ব্যবহার করবেন না</item>
+        <item>"শুধুমাত্র 'DRM কন্টেন্টের জন্য HDCP চেক' চালু করুন"</item>
+        <item>সর্বদা HDCP পরীক্ষণ ব্যবহার করুন</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>কখনই চেক করবেন না</item>
+        <item>শুধুমাত্র DRM সামগ্রীর জন্য HDCP চেক করুন</item>
+        <item>সর্বদা চেক করুন</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>ক্লিপবোর্ড</item>
+        <item>কীকোড</item>
+        <item>ঘোরানো নিশ্চিত করুন, কীবোর্ডের ভাষা বদলানোর সুবিধা</item>
+        <item>কোনো কিছুই নয়</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>সাধারণ</item>
+        <item>অবিস্তৃত</item>
+        <item>বাঁদিক ঘেঁষা</item>
+        <item>ডানদিক ঘেঁষা</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>কোনো কিছুই নয়</item>
+        <item>480p</item>
+        <item>480p (নিরাপদ)</item>
+        <item>720p</item>
+        <item>720p (নিরাপদ)</item>
+        <item>1080p</item>
+        <item>1080p (নিরাপদ)</item>
+        <item>4K</item>
+        <item>4K (নিরাপদ)</item>
+        <item>4K (সম্পন্ন)</item>
+        <item>4K (সম্পন্ন, নিরাপদ)</item>
+        <item>720p, 1080p (ডুয়েল স্ক্রিন)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>বন্ধ আছে</item>
+        <item>৬৪K</item>
+        <item>২৫৬K</item>
+        <item>১M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>বন্ধ আছে</item>
+        <item>লগ বাফার প্রতি ৬৪K</item>
+        <item>লগ বাফার প্রতি ২৫৬K</item>
+        <item>লগ বাফার প্রতি ১M</item>
+        <item>লগ বাফার প্রতি ৪M</item>
+        <item>প্রতিটি লগ বাফার ৮এম</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>বন্ধ আছে</item>
+        <item>৬৪K</item>
+        <item>২৫৬K</item>
+        <item>১M</item>
+        <item>৪M</item>
+        <item>৮এম</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>বন্ধ আছে</item>
+        <item>সমস্ত লগ বাফার</item>
+        <item>সমস্ত কিন্তু রেডিও লগ বাফারগুলি</item>
+        <item>শুধুমাত্র কার্নেল লগ বাফার</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>বন্ধ আছে</item>
+        <item>সমস্ত</item>
+        <item>সমস্ত কিন্তু রেডিও</item>
+        <item>শুধুমাত্র কার্নেল</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>বন্ধ করুন</item>
+        <item>নীল বঙের অ-আয়তক্ষেত্রাকার ক্লিপ অঞ্চল অঙ্কন করুন</item>
+        <item>সবুজ রঙে অঙ্কন করা পরীক্ষিত কমান্ডগুলি হাইলাইট করুন</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>উপলভ্য নেই</item>
+        <item>বন্ধ আছে</item>
+        <item>চালু আছে</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>বন্ধ করুন</item>
+        <item>দন্ড হিসেবে স্ক্রীনে</item>
+        <item>adb shell dumpsys gfxinfo এ</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>অ্যানিমেশন বন্ধ করুন</item>
+        <item>অ্যানিমেশন স্কেল .৫x</item>
+        <item>অ্যানিমেশন স্কেল ১x</item>
+        <item>অ্যানিমেশন স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল ২x</item>
+        <item>অ্যানিমেশন স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল ১০x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>অত্যন্ত ধীরে</item>
+        <item>ধীর</item>
+        <item>স্বাভাবিক</item>
+        <item>দ্রুত</item>
+        <item>আরো দ্রুত</item>
+        <item>খুব দ্রুত</item>
+        <item>দ্রুত</item>
+        <item>খুব দ্রুত</item>
+        <item>দ্রুততম</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>চার্জ হচ্ছে</item>
+        <item>MTP (মিডিয়া ট্রান্সফার প্রোটোকল)</item>
+        <item>PTP (পিকচার ট্রান্সফার প্রোটোকল)</item>
+        <item>RNDIS (USB ইথারনেট)</item>
+        <item>অডিও উৎস</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>স্ক্যান করা হচ্ছে…</item>
+        <item>কানেক্ট হচ্ছে...</item>
+        <item>যাচাইকরণ হচ্ছে...</item>
+        <item>আইপি অ্যাড্রেস প্রাপ্ত করা হচ্ছে...</item>
+        <item>কানেক্ট হয়েছে</item>
+        <item>স্থগিত করা হয়েছে</item>
+        <item>ডিসকানেক্ট হচ্ছে...</item>
+        <item>ডিসকানেক্ট করা হয়েছে</item>
+        <item>অসফল</item>
+        <item>ব্লক করা</item>
+        <item>সাময়িকরূপে দুর্বল কানেকশন এড়ানো হচ্ছে</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>স্ক্যান করা হচ্ছে…</item>
+        <item>%1$s এর সাথে কানেক্ট হচ্ছে…</item>
+        <item>%1$s দিয়ে যাচাইকরণ করা হচ্ছে...</item>
+        <item>%1$s থেকে আইপি অ্যাড্রেস জানা হচ্ছে…</item>
+        <item>%1$s-এ কানেক্ট হয়েছে</item>
+        <item>স্থগিত করা হয়েছে</item>
+        <item>%1$s থেকে ডিসকানেক্ট হচ্ছে…</item>
+        <item>ডিসকানেক্ট করা হয়েছে</item>
+        <item>অসফল</item>
+        <item>অবরুদ্ধ</item>
+        <item>সাময়িকরূপে দুর্বল কানেকশন এড়ানো হচ্ছে</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>স্ক্যান করা হচ্ছে…</item>
+        <item>কানেক্ট করা হচ্ছে…</item>
+        <item>যাচাই করা হচ্ছে…</item>
+        <item>আইপি অ্যাড্রেস সংগ্রহ করা হচ্ছে…</item>
+        <item>কানেক্ট করা আছে</item>
+        <item>সাসপেন্ড করা আছে</item>
+        <item>ডিসকানেক্ট করা হচ্ছে…</item>
+        <item>ডিসকানেক্ট করা হয়েছে</item>
+        <item>হয়নি</item>
+        <item>ব্লক করা হয়েছে</item>
+        <item>সাময়িকভাবে খারাপ কানেকশনে কানেক্ট করা হচ্ছে না</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>অ্যানিমেশন বন্ধ করুন</item>
+        <item>অ্যানিমেশন স্কেল .৫x</item>
+        <item>অ্যানিমেশন স্কেল ১x</item>
+        <item>অ্যানিমেশন স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল ২x</item>
+        <item>অ্যানিমেশন স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল ১০x</item>
+    </string-array>
+</resources>

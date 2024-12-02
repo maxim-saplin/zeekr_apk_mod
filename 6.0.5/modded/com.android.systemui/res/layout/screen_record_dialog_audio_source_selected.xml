@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/screenrecord_audio_label" android:fontFamily="@android:string/config_dozeTapSensorType" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/screen_recording_dialog_source_text" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

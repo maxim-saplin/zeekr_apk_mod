@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="@dimen/car_bottom_navigation_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_temp_down" android:layout_width="104.0dip" android:layout_height="@dimen/car_bottom_navigation_bar_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_temp_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_left_arrow_default_day" android:stateListAnimator="@animator/animator_dock_scale" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_temp" android:layout_width="176.0dip" android:layout_height="fill_parent" app:layout_constraintLeft_toRightOf="@id/fl_temp_down" app:layout_constraintRight_toLeftOf="@id/fl_temp_up">
+        <TextView android:textSize="64.0sp" android:gravity="center" android:id="@id/tv_temp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerInParent="true" android:stateListAnimator="@animator/animator_dock_scale" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/fl_temp_up" android:layout_width="104.0dip" android:layout_height="@dimen/car_bottom_navigation_bar_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_temp_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_right_arrow_default_day" android:stateListAnimator="@animator/animator_dock_scale" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

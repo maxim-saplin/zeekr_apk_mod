@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/TextAppearance.QSEdit" android:gravity="center" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/qs_customize_header_min_height" android:text="@string/drag_to_rearrange_tiles"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

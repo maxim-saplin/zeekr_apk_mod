@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="400" android:drawable="@drawable/ic_status_satellite_level_dark_0" />
+    <item android:duration="400" android:drawable="@drawable/ic_status_satellite_level_dark_1" />
+    <item android:duration="400" android:drawable="@drawable/ic_status_satellite_level_dark_2" />
+    <item android:duration="400" android:drawable="@drawable/ic_status_satellite_level_dark_3" />
+    <item android:duration="400" android:drawable="@drawable/ic_status_satellite_level_dark_4" />
+</animation-list>

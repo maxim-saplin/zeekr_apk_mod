@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">pred %d dňami</item>
+        <item quantity="one">pred %d dňom</item>
+        <item quantity="few">pred %d dňami</item>
+        <item quantity="many">pred %d dňa</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">pred %d min</item>
+        <item quantity="one">pred %d min</item>
+        <item quantity="few">pred %d min</item>
+        <item quantity="many">pred %d min</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">pred %d rokmi</item>
+        <item quantity="one">pred %d rokom</item>
+        <item quantity="few">pred %d rokmi</item>
+        <item quantity="many">pred %d roka</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Bolo pridaných %s ovládacích prvkov.</item>
+        <item quantity="one">Bol pridaný %s ovládací prvok.</item>
+        <item quantity="few">Boli pridané %s ovládacie prvky.</item>
+        <item quantity="many">%s controls added.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Zadajte kód PIN SIM karty. Zostáva vám %d pokusov.</item>
+        <item quantity="one">Zadajte kód PIN SIM karty. Zostáva vám %d pokus, potom budete musieť kontaktovať svojho operátora, aby zariadenie odomkol.</item>
+        <item quantity="few">Zadajte kód PIN SIM karty. Zostávajú vám %d pokusy.</item>
+        <item quantity="many">Enter SIM PIN. You have %d remaining attempts.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM karta je deaktivovaná. Pokračujte zadaním kódu PUK. Zostáva vám %d pokusov, potom sa SIM karta natrvalo zablokuje. Podrobnosti vám poskytne operátor.</item>
+        <item quantity="one">SIM karta je deaktivovaná. Pokračujte zadaním kódu PUK. Zostáva vám %d pokus, potom sa SIM karta natrvalo zablokuje. Podrobnosti vám poskytne operátor.</item>
+        <item quantity="few">SIM karta je deaktivovaná. Pokračujte zadaním kódu PUK. Zostávajú vám %d pokusy, potom sa SIM karta natrvalo zablokuje. Podrobnosti vám poskytne operátor.</item>
+        <item quantity="many">SIM karta je deaktivovaná. Pokračujte zadaním kódu PUK. Zostáva vám %d pokusu, potom sa SIM karta natrvalo zablokuje. Podrobnosti vám poskytne operátor.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Nesprávny kód PIN SIM karty. Zostáva vám %d pokusov.</item>
+        <item quantity="one">Nesprávny kód PIN SIM karty. Zostáva vám %d pokus. Potom budete musieť kontaktovať operátora, aby vám odomkol zariadenie.</item>
+        <item quantity="few">Nesprávny kód PIN SIM karty. Zostávajú vám %d pokusy.</item>
+        <item quantity="many">Nesprávny kód PIN SIM karty. Zostáva vám %d pokusu.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Nesprávny kód PUK SIM karty. Zostáva vám %d pokusov. Potom sa SIM karta natrvalo zablokuje.</item>
+        <item quantity="one">Nesprávny kód PUK SIM karty. Zostáva vám %d pokus. Potom sa vaša SIM karta natrvalo zablokuje.</item>
+        <item quantity="few">Nesprávny kód PUK SIM karty. Zostávajú vám %d pokusy. Potom sa SIM karta natrvalo zablokuje.</item>
+        <item quantity="many">Nesprávny kód PUK SIM karty. Zostáva vám %d pokusu. Potom sa SIM karta natrvalo zablokuje.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Skúste to znova o %d sekúnd.</item>
+        <item quantity="one">Skúste to znova o 1 sekundu.</item>
+        <item quantity="few">Skúste to znova o %d sekundy.</item>
+        <item quantity="many">Skúste to znova o %d sekundy.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových upozornení</item>
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Skupina obsahuje ešte %s upozornení.</item>
+        <item quantity="one">Skupina obsahuje ešte %s upozornenie.</item>
+        <item quantity="few">Skupina obsahuje ešte %s upozornenia.</item>
+        <item quantity="many">Skupina obsahuje ešte %s upozornenia.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d zariadení</item>
+        <item quantity="one">%d zariadenie</item>
+        <item quantity="few">%d zariadenia</item>
+        <item quantity="many">%d zariadenia</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d hodín</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodiny</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minút</item>
+        <item quantity="one">%d minúta</item>
+        <item quantity="few">%d minúty</item>
+        <item quantity="many">%d minúty</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Môžete pridať maximálne %d používateľov.</item>
+        <item quantity="one">Môžete vytvoriť iba jedného používateľa.</item>
+        <item quantity="few">Môžete pridať maximálne %d používateľov.</item>
+        <item quantity="many">You can add up to %d users.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d pripojených zariadení</item>
+        <item quantity="one">%1$d pripojené zariadenie</item>
+        <item quantity="few">%1$d pripojené zariadenia</item>
+        <item quantity="many">%1$d pripojeného zariadenia</item>
+    </plurals>
+</resources>

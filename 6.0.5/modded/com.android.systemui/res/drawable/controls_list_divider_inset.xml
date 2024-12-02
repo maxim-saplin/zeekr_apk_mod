@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/controls_list_divider" android:insetLeft="@dimen/control_spinner_padding_horizontal" android:insetRight="@dimen/control_spinner_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

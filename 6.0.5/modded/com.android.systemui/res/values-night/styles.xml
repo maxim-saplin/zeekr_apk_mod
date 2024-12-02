@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="InternetDialog.Divider.Active" parent="@style/InternetDialog.Divider">
+        <item name="android:background">?android:textColorSecondaryInverse</item>
+    </style>
+    <style name="LongScreenshotActivity" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:textColorSecondary">?android:textColorPrimaryInverse</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">?android:colorBackgroundFloating</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="Screenshot" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:textColorPrimary">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="TextAppearance.InternetDialog.Active" parent="@style/TextAppearance.InternetDialog">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:fontFamily">@android:string/config_dozeTapSensorType</item>
+        <item name="android:textDirection">locale</item>
+    </style>
+    <style name="TextAppearance.InternetDialog.Secondary.Active" parent="@style/TextAppearance.InternetDialog.Secondary">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+    </style>
+    <style name="TextAppearance.QS.Status" parent="@style/TextAppearance.QS.TileLabel.Secondary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">@android:string/config_companionDeviceManagerPackage</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="Theme.Material3.DayNight" parent="@style/Theme.Material3.Dark" />
+    <style name="Theme.Material3.DayNight.BottomSheetDialog" parent="@style/Theme.Material3.Dark.BottomSheetDialog" />
+    <style name="Theme.Material3.DayNight.Dialog" parent="@style/Theme.Material3.Dark.Dialog" />
+    <style name="Theme.Material3.DayNight.Dialog.Alert" parent="@style/Theme.Material3.Dark.Dialog.Alert" />
+    <style name="Theme.Material3.DayNight.Dialog.MinWidth" parent="@style/Theme.Material3.Dark.Dialog.MinWidth" />
+    <style name="Theme.Material3.DayNight.DialogWhenLarge" parent="@style/Theme.Material3.Dark.DialogWhenLarge" />
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="@style/Theme.Material3.Dark.NoActionBar" />
+    <style name="Theme.Material3.DayNight.SideSheetDialog" parent="@style/Theme.Material3.Dark.SideSheetDialog" />
+    <style name="Theme.Material3.DynamicColors.DayNight" parent="@style/Theme.Material3.DynamicColors.Dark" />
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog" />
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="@style/Theme.MaterialComponents.Dialog" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="@style/Theme.MaterialComponents.Dialog.Alert" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Alert.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="@style/Theme.MaterialComponents.Dialog.FixedSize" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="@style/Theme.MaterialComponents.Dialog.FixedSize.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="@style/Theme.MaterialComponents.Dialog.MinWidth" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="@style/Theme.MaterialComponents.Dialog.MinWidth.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="@style/Theme.MaterialComponents.DialogWhenLarge" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="@style/Theme.MaterialComponents.NoActionBar.Bridge" />
+    <style name="Theme.PeopleTileConfigActivity" parent="@style/Theme.SystemUI">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.SystemUI.DayNightDialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
+    <style name="Theme.SystemUI.Dialog.Alert" parent="@android:style/Theme.DeviceDefault.Dialog.Alert" />
+    <style name="Theme.SystemUI.Dialog.GlobalActions" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="@style/ThemeOverlay.AppCompat.Dark" />
+    <style name="ThemeOverlay.Material3.DynamicColors.DayNight" parent="@style/ThemeOverlay.Material3.DynamicColors.Dark" />
+    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="@style/Widget.MaterialComponents.ActionBar.Surface" />
+    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.AppBarLayout.Surface" />
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomAppBar" />
+    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomNavigationView" />
+    <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface" parent="@style/Widget.MaterialComponents.NavigationRailView" />
+    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.TabLayout" />
+    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="@style/Widget.MaterialComponents.Toolbar.Surface" />
+    <style name="ZeekrTheme26" parent="@style/Base.ZeekrTheme">
+        <item name="android:colorBackground">@color/md_theme_dark_background</item>
+        <item name="android:statusBarColor">@color/md_theme_dark_background</item>
+        <item name="android:navigationBarColor">@color/md_theme_dark_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="colorActionSheet">@color/md_theme_dark_colorActionSheet</item>
+        <item name="colorCardSegment">@color/md_theme_dark_colorCardSegment</item>
+        <item name="colorCardSegmentBackground">@color/md_theme_dark_colorCardSegmentBackground</item>
+        <item name="colorError">@color/md_theme_dark_error</item>
+        <item name="colorErrorDisabled">@color/md_theme_dark_colorErrorDisabled</item>
+        <item name="colorErrorPress">@color/md_theme_dark_colorErrorPress</item>
+        <item name="colorFrameBackground">@color/md_theme_dark_colorFrameCardBg</item>
+        <item name="colorGhostButtonDisabled">@color/md_theme_dark_colorGhostDisabled</item>
+        <item name="colorGhostButtonPress">@color/md_theme_dark_colorGhostPress</item>
+        <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>
+        <item name="colorOnPrimaryDisabled">@color/md_theme_dark_onPrimary_disabled</item>
+        <item name="colorPrimary">@color/md_theme_dark_primary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_dark_primaryContainer</item>
+        <item name="colorPrimaryDisabled">@color/md_theme_dark_primary_disabled</item>
+        <item name="colorPrimaryHost">@color/md_theme_dark_primary_host</item>
+        <item name="colorPrimaryInverse">@color/md_theme_dark_primaryInverse</item>
+        <item name="colorPrimaryInverseDisabled">@color/md_theme_dark_primaryInverseDisabled</item>
+        <item name="colorPrimarySummary">@color/md_theme_dark_primary_summary</item>
+        <item name="colorPrimarySurface">@color/md_theme_dark_primarySurface</item>
+        <item name="colorPrimaryToast">@color/md_theme_dark_primary_toast</item>
+        <item name="colorProgressBar">@color/md_theme_dark_colorProgressBar</item>
+        <item name="colorRealButtonDisabled">@color/md_theme_dark_colorRealDisabled</item>
+        <item name="colorRealButtonPress">@color/md_theme_dark_colorRealPress</item>
+        <item name="colorRuling">@color/md_theme_dark_colorRuling</item>
+        <item name="colorSecondary">@color/md_theme_dark_secondary</item>
+        <item name="colorSecondaryButton">@color/md_theme_dark_colorSecondaryButton</item>
+        <item name="colorSecondaryContainer">@color/md_theme_dark_secondaryContainer</item>
+        <item name="colorSecondaryDisabled">@color/md_theme_dark_colorSecondaryDisabled</item>
+        <item name="colorSecondaryPress">@color/md_theme_dark_colorSecondaryPress</item>
+        <item name="colorSecondaryVariant">@color/md_theme_dark_secondaryVariant</item>
+        <item name="colorSecondaryVariantDisabled">@color/md_theme_dark_secondaryVariantDisabled</item>
+        <item name="colorSliderInactive">@color/md_theme_dark_sliderInverse</item>
+        <item name="colorSplashScreenBackground">@color/md_theme_dark_colorSplashScreenBackground</item>
+        <item name="colorSplashScreenIconPath1">@color/md_theme_dark_colorSplashScreenIconPath1</item>
+        <item name="colorSplashScreenIconPath2">@color/md_theme_dark_colorSplashScreenIconPath2</item>
+        <item name="colorSplashWindowBackground">@color/md_theme_dark_colorSplashWindowBackground</item>
+        <item name="colorSurface">@color/md_theme_dark_surface</item>
+        <item name="colorSurfaceInverse">@color/md_theme_dark_surfaceInverse</item>
+        <item name="colorSurfaceVariant">@color/md_theme_dark_surfaceVariant</item>
+        <item name="colorTertiary">@color/md_theme_dark_tertiary</item>
+        <item name="colorTertiaryDisabled">@color/md_theme_dark_colorTertiaryDisabled</item>
+        <item name="colorTertiaryPress">@color/md_theme_dark_colorTertiaryPress</item>
+        <item name="colorTogglePress">@color/md_theme_dark_colorTogglePress</item>
+        <item name="colorTransparent">@color/md_theme_dark_colorTransparent</item>
+        <item name="dialogColorBackground">@color/md_theme_dark_colorDialogBackground</item>
+        <item name="elevationOverlayColor">?colorSecondary</item>
+        <item name="elevationOverlayEnabled">false</item>
+    </style>
+</resources>

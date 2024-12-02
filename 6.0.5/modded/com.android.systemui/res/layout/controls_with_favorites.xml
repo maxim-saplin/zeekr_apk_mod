@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/controls_top_margin" android:layout_marginBottom="@dimen/controls_header_bottom_margin">
+        <Space android:id="@id/controls_spacer" android:visibility="gone" android:layout_width="@dimen/controls_header_menu_size" android:layout_height="1.0dip" />
+        <ImageView android:id="@id/controls_close" android:background="?android:selectableItemBackgroundBorderless" android:padding="12.0dip" android:visibility="gone" android:layout_width="@dimen/controls_header_menu_size" android:layout_height="@dimen/controls_header_menu_size" android:src="@drawable/ic_close" android:tint="@color/control_primary_text" android:contentDescription="@string/accessibility_desc_close" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/controls_header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="48.0dip" android:layout_weight="1.0">
+            <TextView android:layout_gravity="center" android:id="@id/app_or_structure_spinner" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Control.Spinner.Header" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/controls_more" android:background="?android:selectableItemBackgroundBorderless" android:padding="12.0dip" android:layout_width="@dimen/controls_header_menu_size" android:layout_height="@dimen/controls_header_menu_size" android:src="@drawable/ic_more_vert" android:tint="@color/control_more_vert" android:contentDescription="@string/accessibility_menu" />
+    </LinearLayout>
+    <include layout="@layout/global_actions_controls_list_view" />
+</merge>

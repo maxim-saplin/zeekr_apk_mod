@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/control_detail_root" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip">
+        <ImageView android:id="@id/control_detail_close" android:background="?android:selectableItemBackgroundBorderless" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_arrow_back" android:tint="@color/control_primary_text" android:contentDescription="@string/accessibility_desc_close" />
+        <Space android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/control_detail_open_in_app" android:background="?android:selectableItemBackgroundBorderless" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_open_in_new" android:tint="@color/control_primary_text" android:contentDescription="@string/controls_open_app" />
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/controls_activity_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSContainerImpl android:id="@id/quick_settings_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.qs.NonInterceptingScrollView android:id="@id/expanded_qs_scroll_view" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:importantForAccessibility="no" android:elevation="4.0dip">
+        <com.android.systemui.qs.QSPanel android:id="@id/quick_settings_panel" android:background="@android:color/transparent" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:accessibilityTraversalBefore="@android:id/edit">
+            <include layout="@layout/qs_footer_impl" />
+        </com.android.systemui.qs.QSPanel>
+    </com.android.systemui.qs.NonInterceptingScrollView>
+    <include layout="@layout/quick_status_bar_expanded_header" />
+    <include android:id="@id/qs_detail" layout="@layout/qs_detail" />
+    <include android:id="@id/qs_customize" android:visibility="gone" layout="@layout/qs_customize_panel" />
+</com.android.systemui.qs.QSContainerImpl>

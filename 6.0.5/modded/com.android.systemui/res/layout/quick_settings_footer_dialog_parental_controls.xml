@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="?android:dialogPreferredPadding" android:paddingTop="?android:dialogPreferredPadding" android:paddingRight="?android:dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/parental_controls_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/parental_controls_disclosures" android:paddingBottom="?android:dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/parental_controls_title" android:paddingBottom="@dimen/qs_footer_dialog_subtitle_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/monitoring_title_device_owned" style="@style/DeviceManagementDialogTitle" />
+            <TextView android:textAppearance="@style/TextAppearance.DeviceManagementDialog.Content" android:id="@id/parental_controls_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/monitoring_description_parental_controls" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

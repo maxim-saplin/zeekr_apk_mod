@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <set>
+            <objectAnimator android:interpolator="@interpolator/control_state" android:duration="50" android:valueTo="0.97" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@interpolator/control_state" android:duration="50" android:valueTo="0.97" android:valueType="floatType" android:propertyName="scaleY" />
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:interpolator="@interpolator/control_state" android:duration="250" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@interpolator/control_state" android:duration="250" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+        </set>
+    </item>
+</selector>

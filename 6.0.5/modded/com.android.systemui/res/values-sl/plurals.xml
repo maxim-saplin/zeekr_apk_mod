@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">pred %d dnevi</item>
+        <item quantity="one">pred %d dnem</item>
+        <item quantity="two">pred %d dnevoma</item>
+        <item quantity="few">pred %d dnevi</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">pred %d minutami</item>
+        <item quantity="one">pred %d minuto</item>
+        <item quantity="two">pred %d minutama</item>
+        <item quantity="few">pred %d minutami</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">pred %d leti</item>
+        <item quantity="one">pred %d letom</item>
+        <item quantity="two">pred %d letoma</item>
+        <item quantity="few">pred %d leti</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s kontrolnikov dodanih.</item>
+        <item quantity="one">%s kontrolnik dodan.</item>
+        <item quantity="two">%s kontrolnika dodana.</item>
+        <item quantity="few">%s kontrolniki dodani.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Vnesite kodo PIN kartice SIM. Na voljo imate še %d poskusov.</item>
+        <item quantity="one">Vnesite kodo PIN kartice SIM. Na voljo imate še %d poskus.</item>
+        <item quantity="two">Vnesite kodo PIN kartice SIM. Na voljo imate še %d poskusa.</item>
+        <item quantity="few">Vnesite kodo PIN kartice SIM. Na voljo imate še %d poskuse.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Kartica SIM je zdaj onemogočena. Če želite nadaljevati, vnesite kodo PUK. Na voljo imate še %d poskusov. Potem bo kartica SIM postala trajno neuporabna. Za podrobnosti se obrnite na operaterja.</item>
+        <item quantity="one">Kartica SIM je zdaj onemogočena. Če želite nadaljevati, vnesite kodo PUK. Na voljo imate še %d poskus. Potem bo kartica SIM postala trajno neuporabna. Za podrobnosti se obrnite na operaterja.</item>
+        <item quantity="two">Kartica SIM je zdaj onemogočena. Če želite nadaljevati, vnesite kodo PUK. Na voljo imate še %d poskusa. Potem bo kartica SIM postala trajno neuporabna. Za podrobnosti se obrnite na operaterja.</item>
+        <item quantity="few">Kartica SIM je zdaj onemogočena. Če želite nadaljevati, vnesite kodo PUK. Na voljo imate še %d poskuse. Potem bo kartica SIM postala trajno neuporabna. Za podrobnosti se obrnite na operaterja.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Napačna koda PIN kartice SIM. Na voljo imate še %d poskusov.</item>
+        <item quantity="one">Napačna koda PIN kartice SIM. Na voljo imate še %d poskus.</item>
+        <item quantity="two">Napačna koda PIN kartice SIM. Na voljo imate še %d poskusa.</item>
+        <item quantity="few">Napačna koda PIN kartice SIM. Na voljo imate še %d poskuse.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Napačna koda PUK kartice SIM. Na voljo imate še %d poskusov. Potem bo kartica SIM postala trajno neuporabna.</item>
+        <item quantity="one">Napačna koda PUK kartice SIM. Na voljo imate še %d poskus. Potem bo kartica SIM postala trajno neuporabna.</item>
+        <item quantity="two">Napačna koda PUK kartice SIM. Na voljo imate še %d poskusa. Potem bo kartica SIM postala trajno neuporabna.</item>
+        <item quantity="few">Napačna koda PUK kartice SIM. Na voljo imate še %d poskuse. Potem bo kartica SIM postala trajno neuporabna.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Poskusite znova čez %d sekund.</item>
+        <item quantity="one">Poskusite znova čez %d sekundo.</item>
+        <item quantity="two">Poskusite znova čez %d sekundi.</item>
+        <item quantity="few">Poskusite znova čez %d sekunde.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obvestil</item>
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Notri je še %s obvestil.</item>
+        <item quantity="one">Notri je še %s obvestilo.</item>
+        <item quantity="two">Notri sta še %s obvestili.</item>
+        <item quantity="few">Notri so še %s obvestila.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d naprav</item>
+        <item quantity="one">%d naprava</item>
+        <item quantity="two">%d napravi</item>
+        <item quantity="few">%d naprave</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ur</item>
+        <item quantity="one">%d ura</item>
+        <item quantity="two">%d uri</item>
+        <item quantity="few">%d ure</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">%d minuti</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Dodate lahko do %d uporabnikov.</item>
+        <item quantity="one">Dodate lahko do %d uporabnika.</item>
+        <item quantity="two">Dodate lahko do %d uporabnika.</item>
+        <item quantity="few">Dodate lahko do %d uporabnike.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Povezanih je %1$d naprav</item>
+        <item quantity="one">Povezana je %1$d naprava</item>
+        <item quantity="two">Povezani sta %1$d napravi</item>
+        <item quantity="few">Povezane so %1$d naprave</item>
+    </plurals>
+</resources>

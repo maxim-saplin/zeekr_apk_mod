@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">දින %dකට පෙර</item>
+        <item quantity="one">දින %dකට පෙර</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">මිනි %dකට පෙර</item>
+        <item quantity="one">මිනි %dකට පෙර</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">වසර %dකට පෙර</item>
+        <item quantity="one">වසර %dකට පෙර</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">පාලන %sක් එක් කරන ලදී.</item>
+        <item quantity="one">පාලන %sක් එක් කරන ලදී.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN ඇතුළු කරන්න, ඔබ සතුව උත්සාහයන් %dක් ඉතිරිව ඇත.</item>
+        <item quantity="one">SIM PIN ඇතුළු කරන්න, ඔබ සතුව උත්සාහයන් %dක් ඉතිරිව ඇත.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM දැන් අබල කර ඇත. දිගටම කරගෙන යාමට PUK කේතය ඇතුළු කරන්න. SIM ස්ථිරවම භාවිත කළ නොහැකි බවට පත් වීමට පෙර ඔබ සතුව උත්සාහයන් %dක් ඉතිරිව ඇත. විස්තර සඳහා වාහක සම්බන්ධ කර ගන්න.</item>
+        <item quantity="one">SIM දැන් අබල කර ඇත. දිගටම කරගෙන යාමට PUK කේතය ඇතුළු කරන්න. SIM ස්ථිරවම භාවිත කළ නොහැකි බවට පත් වීමට පෙර ඔබ සතුව උත්සාහයන් %dක් ඉතිරිව ඇත. විස්තර සඳහා වාහක සම්බන්ධ කර ගන්න.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">වැරදී SIM PIN කේතයකි, ඔබගේ දුරකථනයේ අගුල හැරීමට ඔබගේ වාහකයා සම්බන්ධ කරගැනීමට පෙර ඔබ සතුව තවත් උත්සාහයන් %dක් ඉතිරිව ඇත.</item>
+        <item quantity="one">වැරදී SIM PIN කේතයකි, ඔබගේ දුරකථනයේ අඟුල හැරීමට ඔබගේ වාහකයා සම්බන්ධ කරගැනීමට පෙර ඔබ සතුව තවත් උත්සාහයන් %dක් ඉතිරිව ඇත.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">වැරදි SIM PUK කේතයකි, SIM කාඩ්පත ස්ථිරවම භාවිත කළ නොහැකි බවට පත්වීමට පෙර ඔබට තවත් උත්සාහයන් %dක් ඉතිරිව ඇත.</item>
+        <item quantity="one">වැරදි SIM PUK කේතයකි, SIM කාඩ්පත ස්ථිරවම භාවිත කළ නොහැකි බවට පත්වීමට පෙර ඔබට තවත් උත්සාහයන් %dක් ඉතිරිව ඇත.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">තත්පර %dකින් නැවත උත්සාහ කරන්න.</item>
+        <item quantity="one">තත්පර %dකින් නැවත උත්සාහ කරන්න.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">නව දැනුම්දීම් %dක්</item>
+        <item quantity="one">නව දැනුම්දීම් %dක්</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ඇතුළත තව දැනුම්දීම් %sක් ඇත.</item>
+        <item quantity="one">ඇතුළත තව දැනුම්දීම් %sක් ඇත.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">උපාංග %d</item>
+        <item quantity="one">උපාංග %d</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">පැය %d</item>
+        <item quantity="one">පැය %d</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">මිනිත්තු %d</item>
+        <item quantity="one">මිනිත්තු %d</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">ඔබට පරිශීලකයින් %dක් දක්වා එක් කළ හැකිය.</item>
+        <item quantity="one">ඔබට පරිශීලකයින් %dක් දක්වා එක් කළ හැකිය.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">උපාංග %1$dක් සම්බන්ධ කරන ලදී</item>
+        <item quantity="one">උපාංග %1$dක් සම්බන්ධ කරන ලදී</item>
+    </plurals>
+</resources>

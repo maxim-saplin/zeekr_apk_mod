@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$unlocked_to_aod_lock__0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="_R_G_L_2_G_D_0_P_0" android:animation="@drawable/$unlocked_to_aod_lock__1" />
+    <target android:name="_R_G_L_2_G_D_0_P_0" android:animation="@drawable/$unlocked_to_aod_lock__3" />
+    <target android:name="_R_G_L_2_G_T_1" android:animation="@drawable/$unlocked_to_aod_lock__7" />
+    <target android:name="_R_G_L_2_G_T_1" android:animation="@drawable/$unlocked_to_aod_lock__9" />
+    <target android:name="_R_G_L_2_G_T_1" android:animation="@drawable/$unlocked_to_aod_lock__11" />
+    <target android:name="_R_G_L_1_G_D_0_P_0" android:animation="@drawable/$unlocked_to_aod_lock__14" />
+    <target android:name="_R_G_L_1_G_D_0_P_0" android:animation="@drawable/$unlocked_to_aod_lock__16" />
+    <target android:name="_R_G_L_0_G_D_0_P_0" android:animation="@drawable/$unlocked_to_aod_lock__18" />
+    <target android:name="time_group" android:animation="@drawable/$unlocked_to_aod_lock__20" />
+</animated-vector>

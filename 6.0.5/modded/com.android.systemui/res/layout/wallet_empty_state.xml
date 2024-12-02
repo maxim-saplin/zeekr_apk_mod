@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:theme="@style/Wallet.Theme" android:orientation="vertical" android:id="@id/wallet_empty_state" android:background="@drawable/wallet_empty_state_bg" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="48.0dip" android:layout_marginHorizontal="48.0dip" android:paddingVertical="52.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/empty_state_icon" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginBottom="8.0dip" android:scaleType="fitCenter" android:tint="?android:^attr-private/clickColor" android:contentDescription="@null" />
+        <TextView android:layout_gravity="center" android:id="@id/empty_state_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Wallet.TextAppearance" />
+    </LinearLayout>
+</merge>

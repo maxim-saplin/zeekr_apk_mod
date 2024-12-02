@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@android:style/Theme.Material.Dialog" android:id="@id/sleep_warning_dialog_container" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="?android:backgroundDimAmount" />
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:background="@drawable/rounded_bg_full" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+        <TextView android:textAppearance="@android:style/TextAppearance.Material.Large" android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/inattentive_sleep_warning_title" />
+        <TextView android:textAppearance="@android:style/TextAppearance.Material" android:textColor="?android:textColorSecondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/inattentive_sleep_warning_message" />
+    </LinearLayout>
+</FrameLayout>

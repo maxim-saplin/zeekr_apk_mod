@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="65.0dip" android:width="46.0dip" android:viewportWidth="46.0" android:viewportHeight="65.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="_R_G">
+        <group android:name="_R_G_L_1_G" android:translateX="3.75" android:translateY="8.25">
+            <path android:name="_R_G_L_1_G_D_0_P_0" android:pathData=" M30.64 30.14 C30.64,30.14 30.64,38.14 30.64,38.14 C30.64,38.77 30.36,39.32 29.91,39.69 C29.57,39.97 29.12,40.14 28.64,40.14 C28.64,40.14 10.14,40.14 10.14,40.14 C9.04,40.14 8.14,39.25 8.14,38.14 C8.14,38.14 8.14,30.14 8.14,30.14 " android:strokeColor="#ff000000" android:strokeWidth="2.0" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="1.0" />
+            <path android:name="_R_G_L_1_G_D_1_P_0" android:pathData=" M19.42 31.53 C18.15,31.52 18.11,30.33 18.11,30.33 C18.11,29.59 18.66,28.98 19.4,28.98 C20.13,28.98 20.69,29.59 20.69,30.33 C20.69,30.33 20.69,30.37 20.69,30.37 C20.69,30.64 20.49,30.87 20.25,30.87 C20.07,30.87 19.91,30.74 19.84,30.55 C19.84,30.55 19.69,30.14 19.69,30.14 C19.63,29.94 19.46,29.82 19.28,29.82 C19.04,29.82 18.61,30.02 18.61,30.29 C18.61,30.43 18.6,30.75 18.76,31.03 C18.87,31.21 19.21,31.77 19.96,31.41 C20.69,31.01 20.69,30.34 20.69,30.34 " android:strokeColor="#ff000000" android:strokeWidth="2.0" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="0.0" />
+            <path android:name="_R_G_L_1_G_D_2_P_0" android:pathData=" M8.14 30.22 C8.14,30.22 8.14,22.22 8.14,22.22 C8.14,21.71 8.33,21.25 8.64,20.9 C9,20.48 9.54,20.22 10.14,20.22 C10.14,20.22 28.64,20.22 28.64,20.22 C29.75,20.22 30.64,21.11 30.64,22.22 C30.64,22.22 30.64,30.14 30.64,30.14 " android:strokeColor="#ff000000" android:strokeWidth="2.0" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="1.0" />
+            <path android:name="_R_G_L_1_G_D_3_P_0" android:pathData=" M37.91 20.05 C37.91,20.05 37.89,14.16 37.89,14.16 C37.89,10.79 35.15,8.05 31.86,8.03 C28.46,8.01 25.61,10.77 25.61,14.15 C25.61,14.15 25.62,20.04 25.62,20.04 " android:strokeColor="#ff000000" android:strokeWidth="2.0" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="1.0" />
+        </group>
+        <group android:name="_R_G_L_0_G" android:pivotX="2.75" android:pivotY="2.75" android:scaleX="1.0" android:scaleY="1.0" android:translateX="20.357" android:translateY="35.75">
+            <path android:name="_R_G_L_0_G_D_0_P_0" android:fillColor="#ff000000" android:pathData=" M2.75 5.25 C4.13,5.25 5.25,4.13 5.25,2.75 C5.25,1.37 4.13,0.25 2.75,0.25 C1.37,0.25 0.25,1.37 0.25,2.75 C0.25,4.13 1.37,5.25 2.75,5.25c " android:fillAlpha="1.0" android:fillType="nonZero" />
+        </group>
+    </group>
+    <group android:name="time_group" />
+</vector>

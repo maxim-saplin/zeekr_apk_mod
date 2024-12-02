@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animacioni është i çaktivizuar</item>
+        <item>Shkalla e animacionit 0,5x</item>
+        <item>Shkalla e aminacionit 1x</item>
+        <item>Shkalla e animacionit 1,5x</item>
+        <item>Shkalla e animacionit 2x</item>
+        <item>Shkalla e animacionit 5x</item>
+        <item>Shkalla e animacionit 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Kufizim standard</item>
+        <item>Nuk ka procese në sfond</item>
+        <item>Maksimumi 1 proces</item>
+        <item>Maksimumi 2 procese</item>
+        <item>Maksimumi 3 procese</item>
+        <item>Maksimumi 4 procese</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Shfaq gjithmonë përqindjen</item>
+        <item>Shfaq përqindjen gjatë ngarkimit (e parazgjedhur)</item>
+        <item>Mos e shfaq këtë ikonë</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Përdor përzgjedhjen e sistemit (e parazgjedhur)</item>
+        <item>16 bite/shembull</item>
+        <item>24 bite/shembull</item>
+        <item>32 bite/shembull</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Përdor përzgjedhjen e sistemit (e parazgjedhur)</item>
+        <item>16 bite/shembull</item>
+        <item>24 bite/shembull</item>
+        <item>32 bite/shembull</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Përdor përzgjedhjen e sistemit (e parazgjedhur)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Përdor përzgjedhjen e sistemit (e parazgjedhur)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimizuar për cilësi audioje</item>
+        <item>Cilësi e balancuar e audios dhe e lidhjes</item>
+        <item>Optimizuar për cilësi lidhjeje</item>
+        <item>Përpjekja më e mirë (shpejtësia me përshtatje e bitëve)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimizuar për cilësi audioje (990 kbps/909 kbps)</item>
+        <item>Cilësi e balancuar e audios dhe e lidhjes (660 kbps/606 kbps)</item>
+        <item>Optimizuar për cilësi lidhjeje (330 kbps/303 kbps)</item>
+        <item>Përpjekja më e mirë (shpejtësia me përshtatje e bitëve)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Përdor përzgjedhjen e sistemit (e parazgjedhur)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Përdor përzgjedhjen e sistemit (e parazgjedhur)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Përdor përzgjedhjen e sistemit (e parazgjedhur)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Audioja e Qualcomm® aptX™</item>
+        <item>Audioja e Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Përdor përzgjedhjen e sistemit (e parazgjedhur)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Audioja e Qualcomm® aptX™</item>
+        <item>Audioja e Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktiv</item>
+        <item>, aktiv (media)</item>
+        <item>, aktiv (telefoni)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (I parazgjedhur)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (parazgjedhja)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Joaktiv</item>
+        <item>Të aktivizuara të filtruara</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Shfaq orët, minutat dhe sekondat</item>
+        <item>Shfaq orët dhe minutat (e parazgjedhur)</item>
+        <item>Mos e shfaq këtë ikonë</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Ngjyra të përmirësuara</item>
+        <item>Ngjyra natyrale siç shikohen me sy të lirë</item>
+        <item>Ngjyra të optimizuara për përmbajtjet dixhitale</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Të gjalla (parazgjedhja)</item>
+        <item>Natyrale</item>
+        <item>Standarde</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Çaktivizuar</item>
+        <item>Shfaq zonat e konfliktit</item>
+        <item>Shfaq zonat për deuteranomalinë</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Asnjë</item>
+        <item>Logcat</item>
+        <item>Systrace (grafika)</item>
+        <item>Stiva në glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Mos e përdor asnjëherë kontrollin e HDCP-së</item>
+        <item>Përdor kontrollin e HDCP-së vetëm për përmbajtjet DRM</item>
+        <item>Përdor gjithmonë kontrollin e HDCP-së</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Mos kontrollo asnjëherë</item>
+        <item>Kontrollo vetëm për përmbajtje DRM</item>
+        <item>Kontrollo gjithmonë</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Kujtesa e fragmenteve</item>
+        <item>Kodi i tasteve</item>
+        <item>Konfirmimi i rrotullimit, ndërruesi i tastierës</item>
+        <item>Asnjë</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normale</item>
+        <item>Kompakte</item>
+        <item>Me prirje majtas</item>
+        <item>Me prirje djathtas</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Asnjë</item>
+        <item>480p</item>
+        <item>480p (i sigurt)</item>
+        <item>720p</item>
+        <item>720p (i sigurt)</item>
+        <item>1080p</item>
+        <item>1080p (i sigurt)</item>
+        <item>4K</item>
+        <item>4K (i sigurt)</item>
+        <item>4K (i përshkallëzuar)</item>
+        <item>4K (i përshkallëzuar, i sigurt)</item>
+        <item>720p, 1080p (në dy ekrane)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Joaktiv</item>
+        <item>64 mijë</item>
+        <item>256 mijë</item>
+        <item>1 milion</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Joaktiv</item>
+        <item>64 mijë/memorie regjistrimi</item>
+        <item>256 mijë/memorie regjistrimi</item>
+        <item>1 milion/memorie regjistrimi</item>
+        <item>4 milionë/memorie regjistrimi</item>
+        <item>8 MB për ndërmemorien e evidencës</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Joaktiv</item>
+        <item>64 mijë</item>
+        <item>256 mijë</item>
+        <item>1 milion</item>
+        <item>4 milionë</item>
+        <item>8 MB</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Joaktive</item>
+        <item>Të gjitha memoriet e regjistrit</item>
+        <item>Të gjitha memoriet e regjistrit, përveç atyre radio</item>
+        <item>vetëm memoria e regjistrimit të bërthamës</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Joaktive</item>
+        <item>Të gjitha</item>
+        <item>Të gjitha përveç atyre radio</item>
+        <item>vetëm bërthama</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Çaktivizuar</item>
+        <item>Vizatoje klipin në të kaltër</item>
+        <item>Thekso komandat në të gjelbër</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Nuk ofrohet</item>
+        <item>Joaktive</item>
+        <item>Aktive</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Nuk ofrohet</item>
+        <item>Joaktive</item>
+        <item>Aktive</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Nuk ofrohet</item>
+        <item>Joaktive</item>
+        <item>Aktive</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Nuk ofrohet</item>
+        <item>Joaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Çaktivizuar</item>
+        <item>Në ekran si shirita</item>
+        <item>Në adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animacioni është joaktiv</item>
+        <item>Shkalla e animacionit 0,5x</item>
+        <item>Shkalla e aminacionit 1x</item>
+        <item>Shkalla e animacionit 1,5x</item>
+        <item>Shkalla e animacionit 2x</item>
+        <item>Shkalla e animacionit 5x</item>
+        <item>Shkalla e animacionit 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Shumë e ulët</item>
+        <item>E ngadaltë</item>
+        <item>Normale</item>
+        <item>E shpejtë</item>
+        <item>Më e shpejtë</item>
+        <item>Shumë e shpejtë</item>
+        <item>E shpejtë</item>
+        <item>Shumë e shpejtë</item>
+        <item>Më e shpejta</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Po karikohet</item>
+        <item>MTP (Protokolli i Transferimit të Medias)</item>
+        <item>PTP (Protokolli i Transferimit të Fotografive)</item>
+        <item>RNDIS (Ethernet me USB)</item>
+        <item>Burimi i audios</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Po skanon...</item>
+        <item>Po lidhet...</item>
+        <item>Po vërteton…</item>
+        <item>Po merr adresën IP…</item>
+        <item>I lidhur</item>
+        <item>I pezulluar</item>
+        <item>Po shkëputet...</item>
+        <item>I shkëputur</item>
+        <item>I pasuksesshëm</item>
+        <item>I bllokuar</item>
+        <item>Po shmang përkohësisht lidhje të dobët</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Po skanon...</item>
+        <item>Po lidhet me %1$s…</item>
+        <item>Po kryen vërtetimin me %1$s…</item>
+        <item>Po merr adresën IP nga %1$s…</item>
+        <item>I lidhur me %1$s</item>
+        <item>I pezulluar</item>
+        <item>I shkëputur nga %1$s</item>
+        <item>I shkëputur</item>
+        <item>I pasuksesshëm</item>
+        <item>I bllokuar</item>
+        <item>Përkohësisht duke shmangur një lidhje të dobët</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Po skanon…</item>
+        <item>Po lidhet…</item>
+        <item>Po vërtetohet…</item>
+        <item>Po merr adresën IP…</item>
+        <item>Lidhur</item>
+        <item>Pezulluar</item>
+        <item>Po shkëputet…</item>
+        <item>Shkëputur</item>
+        <item>Pa sukses</item>
+        <item>Bllokuar</item>
+        <item>Po shmang përkohësisht një lidhje të dobët</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animacioni është i çaktivizuar</item>
+        <item>Shkalla e animacionit 0,5x</item>
+        <item>Shkalla e aminacionit 1x</item>
+        <item>Shkalla e animacionit 1,5x</item>
+        <item>Shkalla e animacionit 2x</item>
+        <item>Shkalla e animacionit 5x</item>
+        <item>Shkalla e animacionit 10x</item>
+    </string-array>
+</resources>

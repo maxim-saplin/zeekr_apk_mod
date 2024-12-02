@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.AlphaOptimizedLinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/mobile_combo" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="17.0dip">
+        <ImageView android:id="@id/mobile_in" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_activity_down" android:paddingEnd="2.0dip" />
+        <ImageView android:id="@id/mobile_out" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_activity_up" android:paddingEnd="2.0dip" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/mobile_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="1.0dip" android:paddingEnd="2.0dip" />
+    <Space android:id="@id/mobile_roaming_space" android:visibility="gone" android:layout_width="@dimen/roaming_icon_start_padding" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.systemui.statusbar.AnimatedImageView android:id="@id/mobile_signal" android:layout_width="@dimen/qs_header_mobile_icon_size" android:layout_height="@dimen/qs_header_mobile_icon_size" systemui:hasOverlappingRendering="false" />
+        <ImageView android:id="@id/mobile_roaming" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_roaming" android:contentDescription="@string/data_connection_roaming" />
+    </FrameLayout>
+    <ImageView android:id="@id/mobile_roaming_large" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_roaming_large" android:contentDescription="@string/data_connection_roaming" />
+</com.android.keyguard.AlphaOptimizedLinearLayout>

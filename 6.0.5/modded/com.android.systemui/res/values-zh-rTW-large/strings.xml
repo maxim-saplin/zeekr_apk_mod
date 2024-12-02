@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">輕按這裡即可重新開啟通知。</string>
+    <string name="notifications_off_title">關閉通知</string>
+    <string name="status_bar_clear_all_button">全部清除</string>
+</resources>

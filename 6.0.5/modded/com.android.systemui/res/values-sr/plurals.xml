@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">пре %d дана</item>
+        <item quantity="one">пре %d дан</item>
+        <item quantity="few">пре %d дана</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">пре %d мин</item>
+        <item quantity="one">пре %d мин</item>
+        <item quantity="few">пре %d мин</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">пре %d год</item>
+        <item quantity="one">пре %d год</item>
+        <item quantity="few">пре %d год</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s контрола је додато.</item>
+        <item quantity="one">%s контрола је додата.</item>
+        <item quantity="few">%s контроле су додате.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Унесите PIN за SIM. Имате још %d покушаја.</item>
+        <item quantity="one">Унесите PIN за SIM. Имате још %d покушај.</item>
+        <item quantity="few">Унесите PIN за SIM. Имате још %d покушаја.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM је сада онемогућен. Унесите PUK кôд да бисте наставили. Имате још %d покушаја пре него што SIM постане трајно неупотребљив. Детаљне информације потражите од мобилног оператера.</item>
+        <item quantity="one">SIM је сада онемогућен. Унесите PUK кôд да бисте наставили. Имате још %d покушај пре него што SIM постане трајно неупотребљив. Детаљне информације потражите од мобилног оператера.</item>
+        <item quantity="few">SIM је сада онемогућен. Унесите PUK кôд да бисте наставили. Имате још %d покушаја пре него што SIM постане трајно неупотребљив. Детаљне информације потражите од мобилног оператера.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Нетачан PIN кôд за SIM. Имате још %d покушаја.</item>
+        <item quantity="one">Нетачан PIN кôд за SIM. Имате још %d покушај.</item>
+        <item quantity="few">Нетачан PIN кôд за SIM. Имате још %d покушаја.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Нетачан PUK кôд за SIM. Имате још %d покушаја пре него што SIM картица постане трајно неупотребљива.</item>
+        <item quantity="one">Нетачан PUK кôд за SIM. Имате још %d покушај пре него што SIM картица постане трајно неупотребљива.</item>
+        <item quantity="few">Нетачан PUK кôд за SIM. Имате још %d покушаја пре него што SIM картица постане трајно неупотребљива.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Пробајте поново за %d секунди.</item>
+        <item quantity="one">Пробајте поново за %d секунду.</item>
+        <item quantity="few">Пробајте поново за %d секунде.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нових обавештења</item>
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Још %s обавештења у групи.</item>
+        <item quantity="one">Још %s обавештење у групи.</item>
+        <item quantity="few">Још %s обавештења у групи.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d уређаја</item>
+        <item quantity="one">%d уређај</item>
+        <item quantity="few">%d уређаја</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d сати</item>
+        <item quantity="one">%d сат</item>
+        <item quantity="few">%d сата</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d минута</item>
+        <item quantity="one">%d минут</item>
+        <item quantity="few">%d минута</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Можете да додате највише %d корисника.</item>
+        <item quantity="one">Можете да додате највише %d корисника.</item>
+        <item quantity="few">Можете да додате највише %d корисника.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Повезано је %1$d уређаја</item>
+        <item quantity="one">Повезан је %1$d уређај</item>
+        <item quantity="few">Повезана су %1$d уређаја</item>
+    </plurals>
+</resources>

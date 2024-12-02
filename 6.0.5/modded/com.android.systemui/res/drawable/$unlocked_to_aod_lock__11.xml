@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@drawable/$unlocked_to_aod_lock__12" android:duration="333" android:startOffset="0" android:valueFrom="1.02" android:valueTo="0.72" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$unlocked_to_aod_lock__13" android:duration="333" android:startOffset="0" android:valueFrom="1.02" android:valueTo="0.72" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

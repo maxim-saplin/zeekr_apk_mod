@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Toque aqui para ativar as notificações novamente.</string>
+    <string name="notifications_off_title">Notificações desativadas</string>
+    <string name="status_bar_clear_all_button">Limpar tudo</string>
+</resources>

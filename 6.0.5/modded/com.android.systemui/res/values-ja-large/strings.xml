@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">通知を再度ONにするにはここをタップします。</string>
+    <string name="notifications_off_title">通知OFF</string>
+    <string name="status_bar_clear_all_button">すべて消去</string>
+</resources>

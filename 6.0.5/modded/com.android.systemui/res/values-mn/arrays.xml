@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Дүрс амилуулалт идэвхгүй</item>
+        <item>Дүрс амилуулах далайц .5x</item>
+        <item>Дүрс амилуулах далайц 1x</item>
+        <item>Дүрс амилуулах далайц 1.5x</item>
+        <item>Дүрс амилуулалтын далайц 2x</item>
+        <item>Дүрс амилуулалтын далайц 5x</item>
+        <item>Дүрс амилуулалтын далайц 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Стандарт хязгаар</item>
+        <item>Далд процесс байхгүй</item>
+        <item>Хамгийн ихдээ 1 процесс</item>
+        <item>Хамгийн ихдээ 2 процесс</item>
+        <item>Хамгийн ихдээ 3 процесс</item>
+        <item>Хамгийн ихдээ 4 процесс</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Хувийг тогтмол харуулах</item>
+        <item>Цэнэглэх үед хувийг тогтмол харуулах (өгөгдмөл)</item>
+        <item>Энэ дүрс тэмдгийг бүү харуул</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Системийн сонголтыг ашиглах (Өгөгдмөл)</item>
+        <item>16 бит/жишээ</item>
+        <item>24 бит/жишээ</item>
+        <item>32 бит/жишээ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Системийн сонголтыг ашиглах (Өгөгдмөл)</item>
+        <item>16 бит/жишээ</item>
+        <item>24 бит/жишээ</item>
+        <item>32 бит/жишээ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Системийн сонголтыг ашиглах (Өгөгдмөл)</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Системийн сонголтыг ашиглах (Өгөгдмөл)</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Аудио чанарт тааруулсан</item>
+        <item>Аудио, холболтын чанарыг тэнцүүлсэн</item>
+        <item>Холболтын чанарт тааруулсан</item>
+        <item>Шилдэг оролдлого (Тохируулж болох битийн хурд)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Аудио чанарт тааруулсан (990кб/цаг/909кб/цаг)</item>
+        <item>Аудио, холболтын чанарыг тэнцүүлсэн (660кб/цаг/606кб/цаг)</item>
+        <item>Холболтын чанарт тааруулсан (330кб/цаг/303кб/цаг)</item>
+        <item>Шилдэг оролдлого (Тохируулж болох битийн хурд)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Системийн сонголтыг ашиглах (Өгөгдмөл)</item>
+        <item>44.1 кГц</item>
+        <item>48.0 кГц</item>
+        <item>88.2 кГц</item>
+        <item>96.0 кГц</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Системийн сонголтыг ашиглах (Өгөгдмөл)</item>
+        <item>44.1 кГц</item>
+        <item>48.0 кГц</item>
+        <item>88.2 кГц</item>
+        <item>96.0 кГц</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Системийн сонголтыг ашиглах (Өгөгдмөл)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ аудио</item>
+        <item>Qualcomm® aptX™ HD аудио</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Системийн сонголтыг ашиглах (Өгөгдмөл)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ аудио</item>
+        <item>Qualcomm® aptX™ HD аудио</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, идэвхтэй</item>
+        <item>, идэвхтэй (медиа)</item>
+        <item>, идэвхтэй (утас)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (Өгөгдмөл)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (өгөгдмөл)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Идэвхгүй болгосон</item>
+        <item>Идэвхжүүлсэн Шүүсэн</item>
+        <item>Идэвхжүүлсэн</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Цаг, минут, секундийг харуулах</item>
+        <item>Цаг, минутыг харуулах (өгөгдмөл)</item>
+        <item>Энэ дүрс тэмдгийг бүү харуул</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Сайжруулсан өнгө</item>
+        <item>Нүдээр харж болох байгалийн өнгө</item>
+        <item>Дижитал агуулгад зориулан тааруулсан өнгө</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Хурц (үндсэн)</item>
+        <item>Байгалийн</item>
+        <item>Стандарт</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Идэвхгүй</item>
+        <item>Давхар дүрслэлтэй хэсгийг харуулах</item>
+        <item>Өнгө үл ялгагчид зориулсан бүсүүдийг харуулах</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Алийг нь ч биш</item>
+        <item>Logcat</item>
+        <item>Systrace (График)</item>
+        <item>Стекийг glGetError дээр дуудах</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP шалгахыг хэзээ ч ашиглахгүй</item>
+        <item>HDCP шалгахыг зөвхөн DRM контентэд ашиглах</item>
+        <item>Байнга HDCP шалгахыг ашиглах</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Хэзээ ч шалгахгүй</item>
+        <item>Зөвхөн DRM агуулгыг шалгах</item>
+        <item>Байнга шалгах</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Түр санах ой</item>
+        <item>Түлхүүр код</item>
+        <item>Эргүүлэхийг баталгаажуулах, гар солигч</item>
+        <item>Хоосон</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Энгийн</item>
+        <item>Нягтшил сайтай</item>
+        <item>Зүүн налуу</item>
+        <item>Баруун налуу</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Байхгүй</item>
+        <item>480пиксель</item>
+        <item>480пиксель (найдвартай)</item>
+        <item>720пиксель</item>
+        <item>720пиксель (найдвартай)</item>
+        <item>1080пиксель</item>
+        <item>1080пиксель (найдвартай)</item>
+        <item>4К</item>
+        <item>4К (найдвартай)</item>
+        <item>4К (өндөр чанартай)</item>
+        <item>4К (өндөр чанартай, найдвартай)</item>
+        <item>720пиксель, 1080пиксель (хос дэлгэц)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Идэвхгүй</item>
+        <item>64000</item>
+        <item>256000</item>
+        <item>1 сая</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Идэвхгүй</item>
+        <item>лог буфер бүрд 64K</item>
+        <item>лог буфер бүрд 256K</item>
+        <item>лог буфер бүрд 1M</item>
+        <item>лог буфер бүрд 4M</item>
+        <item>Лог буфер бүрд 8 сая</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Идэвхгүй</item>
+        <item>64000</item>
+        <item>256000</item>
+        <item>1 сая</item>
+        <item>4 сая</item>
+        <item>8 сая</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Идэвхгүй</item>
+        <item>Бүх логийн хамгаалалт</item>
+        <item>Радиогоос бусад бүх логийн хамгаалалт</item>
+        <item>зөвхөн үйлдлийн системийн төв логийн хамгаалалтад</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Идэвхгүй</item>
+        <item>Бүгд</item>
+        <item>Радиогоос бусад бүх</item>
+        <item>зөвхөн төвд</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Идэвхгүй</item>
+        <item>Тэгш өнцөгт бус клипийн бүсийг цэнхэрээр зурах</item>
+        <item>Шалгасан зурах командуудыг ногоон өнгөөр тэмдэглэх</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Боломжгүй</item>
+        <item>Унтраалттай</item>
+        <item>Асаалттай</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Идэвхгүй</item>
+        <item>Дэлгэц дээр савхаар</item>
+        <item>adb shell dumpsys gfxinfo-д</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Дүрс амилуулалт идэвхгүй</item>
+        <item>Дүрс амилуулах далайц .5x</item>
+        <item>Дүрс амилуулах далайц 1x</item>
+        <item>Дүрс амилуулах далайц 1.5x</item>
+        <item>Дүрс амилуулалтын далайц 2x</item>
+        <item>Дүрс амилуулалтын далайц 5x</item>
+        <item>Дүрс амилуулалтын далайц 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Маш удаан</item>
+        <item>Удаан</item>
+        <item>Хэвийн</item>
+        <item>Хурдан</item>
+        <item>Илүү хурдан</item>
+        <item>Маш хурдан</item>
+        <item>Түргэн</item>
+        <item>Маш түргэн</item>
+        <item>Хамгийн хурдан</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Цэнэглэж байна</item>
+        <item>MTP (Медиа дамжуулах протокол)</item>
+        <item>PTP (Зураг Дамжуулах Протокол)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Аудио эх сурвалж</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Скан хийж байна…</item>
+        <item>Холбогдож байна...</item>
+        <item>Гэрчлэж байна</item>
+        <item>IP хаягийг авч байна…</item>
+        <item>Холбогдсон</item>
+        <item>Түр хаасан</item>
+        <item>Салгаж байна…</item>
+        <item>Салгагдсан</item>
+        <item>Амжилтгүй</item>
+        <item>Хориглогдсон</item>
+        <item>Муу холболтоос түр зайлсхийж байна</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Скан хийж байна…</item>
+        <item>%1$s руу холбогдож байна…</item>
+        <item>%1$s-тай гэрчилж байна…</item>
+        <item>%1$s-с IP хаягийг авч байна…</item>
+        <item>%1$s-д холбогдсон</item>
+        <item>Түр хаасан</item>
+        <item>%1$s-с салгагдаж байна…</item>
+        <item>Салгагдсан</item>
+        <item>Амжилтгүй</item>
+        <item>Хориглогдсон</item>
+        <item>Муу холболтоос түр зайлсхийж байна</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Скан хийж байна…</item>
+        <item>Холбогдож байна…</item>
+        <item>Баталгаажуулж байна…</item>
+        <item>IP хаягийг авч байна…</item>
+        <item>Холбогдсон</item>
+        <item>Түр хаасан</item>
+        <item>Салгаж байна…</item>
+        <item>Салгасан</item>
+        <item>Амжилтгүй боллоо</item>
+        <item>Блоклосон</item>
+        <item>Сул холболтоос түр зайлсхийж байна</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Дүрс амилуулалт идэвхгүй</item>
+        <item>Дүрс амилуулах далайц .5x</item>
+        <item>Дүрс амилуулах далайц 1x</item>
+        <item>Дүрс амилуулах далайц 1.5x</item>
+        <item>Дүрс амилуулалтын далайц 2x</item>
+        <item>Дүрс амилуулалтын далайц 5x</item>
+        <item>Дүрс амилуулалтын далайц 10x</item>
+    </string-array>
+</resources>

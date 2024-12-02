@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.car.ui.CarSystemBarView android:orientation="horizontal" android:id="@id/car_bottom_bar" android:background="@drawable/bottom_navigation_bar_bg_day" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/car_bottom_navigation_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

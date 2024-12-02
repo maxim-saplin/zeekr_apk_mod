@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_rotation_locked">स्क्रीन अभी लैंडस्केप दिशा में लॉक है.</string>
+</resources>

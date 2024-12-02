@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="bg_bottom_status_bar">#ff231f1f</item>
+    <item type="drawable" name="bg_drop_down_content">#e5121212</item>
+    <item type="drawable" name="bg_slider_window_content">#e5121212</item>
+    <item type="drawable" name="bg_top_status_bar">#ff1b2024</item>
+    <item type="drawable" name="forced_resizable_background">#59000000</item>
+    <item type="drawable" name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</item>
+    <item type="drawable" name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</item>
+    <item type="drawable" name="notification_number_text_color">#ffffffff</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="system_bar_background">@color/system_bar_background_opaque</item>
+    <item type="drawable" name="transparent">#80000000</item>
+</resources>

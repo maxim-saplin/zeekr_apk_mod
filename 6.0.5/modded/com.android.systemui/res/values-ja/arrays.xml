@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>アニメーションオフ</item>
+        <item>アニメーションスケール.5x</item>
+        <item>アニメーションスケール1x</item>
+        <item>アニメーションスケール1.5x</item>
+        <item>アニメーションスケール2x</item>
+        <item>アニメーションスケール5x</item>
+        <item>アニメーションスケール10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>標準の上限</item>
+        <item>バックグラウンドプロセスを使用しない</item>
+        <item>プロセスの上限: 1</item>
+        <item>プロセスの上限: 2</item>
+        <item>プロセスの上限: 3</item>
+        <item>プロセスの上限: 4</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>常に割合を表示</item>
+        <item>変更時に割合を表示（デフォルト）</item>
+        <item>このアイコンを表示しない</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>システムの選択（デフォルト）を使用</item>
+        <item>16 ビット / サンプル</item>
+        <item>24 ビット / サンプル</item>
+        <item>32 ビット / サンプル</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>システムの選択（デフォルト）を使用</item>
+        <item>16 ビット / サンプル</item>
+        <item>24 ビット / サンプル</item>
+        <item>32 ビット / サンプル</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>システムの選択（デフォルト）を使用</item>
+        <item>モノラル</item>
+        <item>ステレオ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>システムの選択（デフォルト）を使用</item>
+        <item>モノラル</item>
+        <item>ステレオ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>音質重視で最適化</item>
+        <item>音質と接続の品質のバランスを確保</item>
+        <item>接続の品質重視で最適化</item>
+        <item>ベスト エフォート（アダプティブ ビットレート）</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>音質重視で最適化（990 kbps / 909 kbps）</item>
+        <item>音質と接続の品質のバランスを確保（660 kbps / 606 kbps）</item>
+        <item>接続の品質重視で最適化（330 kbps / 303 kbps）</item>
+        <item>ベスト エフォート（アダプティブ ビットレート）</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>システムの選択（デフォルト）を使用</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>システムの選択（デフォルト）を使用</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>システムの選択（デフォルト）を使用</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ オーディオ</item>
+        <item>Qualcomm® aptX™ HD オーディオ</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>システムの選択（デフォルト）を使用</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ オーディオ</item>
+        <item>Qualcomm® aptX™ HD オーディオ</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>、有効</item>
+        <item>、有効（メディア）</item>
+        <item>、有効（スマートフォン）</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5（デフォルト）</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2（デフォルト）</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>無効</item>
+        <item>有効（フィルタ済み）</item>
+        <item>有効</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>時間、分、秒を表示</item>
+        <item>時間、分を表示（デフォルト）</item>
+        <item>このアイコンを表示しない</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>拡張色</item>
+        <item>目に自然な色</item>
+        <item>デジタルコンテンツに最適な色</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>鮮やか（既定）</item>
+        <item>自然</item>
+        <item>標準</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>OFF</item>
+        <item>オーバードロー領域の表示</item>
+        <item>第二色弱の方向けの領域の表示</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>なし</item>
+        <item>Logcat</item>
+        <item>Systrace（画像）</item>
+        <item>glGetErrorでのスタック呼び出し</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP チェックを使用しない</item>
+        <item>DRM コンテンツにのみ HDCP チェックを使用する</item>
+        <item>HDCP チェックを常に使用する</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>チェックしない</item>
+        <item>DRMコンテンツのみをチェック</item>
+        <item>常にチェック</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>クリップボード</item>
+        <item>キーコード</item>
+        <item>回転して確認、キーボードの切り替え</item>
+        <item>なし</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>標準</item>
+        <item>コンパクト</item>
+        <item>左寄り</item>
+        <item>右寄り</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>なし</item>
+        <item>480p</item>
+        <item>480p（セキュア）</item>
+        <item>720p</item>
+        <item>720p（セキュア）</item>
+        <item>1080p</item>
+        <item>1080p（セキュア）</item>
+        <item>4K</item>
+        <item>4K（セキュア）</item>
+        <item>4K（アップスケール）</item>
+        <item>4K（アップスケール、セキュア）</item>
+        <item>720p、1080p（デュアルスクリーン）</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>OFF</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>OFF</item>
+        <item>64 K / ログバッファ</item>
+        <item>256 K / ログバッファ</item>
+        <item>1 M / ログバッファ</item>
+        <item>4 M / ログバッファ</item>
+        <item>8 M / ログバッファ</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>OFF</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>8 M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>OFF</item>
+        <item>すべてのログバッファ</item>
+        <item>ラジオ ログバッファ以外すべて</item>
+        <item>カーネル ログ バッファのみ</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>OFF</item>
+        <item>すべて</item>
+        <item>ラジオ以外すべて</item>
+        <item>カーネルのみ</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>OFF</item>
+        <item>非矩形クリップ領域を青で描画</item>
+        <item>テスト済み描画コマンドを緑でハイライト表示</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>使用不可</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>OFF</item>
+        <item>棒グラフとして画面に表示</item>
+        <item>adb shell dumpsys gfxinfo 内</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>アニメーションオフ</item>
+        <item>アニメーションスケール.5x</item>
+        <item>アニメーションスケール1x</item>
+        <item>アニメーションスケール1.5x</item>
+        <item>アニメーションスケール2x</item>
+        <item>アニメーションスケール5x</item>
+        <item>アニメーションスケール10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>非常に遅い</item>
+        <item>遅い</item>
+        <item>標準</item>
+        <item>速い</item>
+        <item>より速い</item>
+        <item>非常に速い</item>
+        <item>高速</item>
+        <item>非常に高速</item>
+        <item>最高速</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>充電</item>
+        <item>MTP（Media Transfer Protocol）</item>
+        <item>PTP（Picture Transfer Protocol）</item>
+        <item>RNDIS（USBイーサネット）</item>
+        <item>オーディオソース</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>スキャン中...</item>
+        <item>接続処理中...</item>
+        <item>認証中...</item>
+        <item>IPアドレスを取得中...</item>
+        <item>接続済み</item>
+        <item>保留中</item>
+        <item>切断中...</item>
+        <item>切断されました</item>
+        <item>失敗しました</item>
+        <item>ブロック中</item>
+        <item>接続不良により一時的に無効</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>スキャン中...</item>
+        <item>%1$sに接続中...</item>
+        <item>%1$sによる認証中...</item>
+        <item>IPアドレスを%1$sから取得中...</item>
+        <item>%1$s に接続済み</item>
+        <item>保留中</item>
+        <item>%1$sから切断中...</item>
+        <item>切断されました</item>
+        <item>失敗しました</item>
+        <item>ブロック中</item>
+        <item>接続不良により一時的に無効</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>スキャン中…</item>
+        <item>接続中…</item>
+        <item>認証中…</item>
+        <item>IP アドレスを取得中…</item>
+        <item>接続済み</item>
+        <item>停止中</item>
+        <item>切断中…</item>
+        <item>未接続</item>
+        <item>エラー</item>
+        <item>ブロック済み</item>
+        <item>接続不良により一時的に無効</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>アニメーションオフ</item>
+        <item>アニメーションスケール.5x</item>
+        <item>アニメーションスケール1x</item>
+        <item>アニメーションスケール1.5x</item>
+        <item>アニメーションスケール2x</item>
+        <item>アニメーションスケール5x</item>
+        <item>アニメーションスケール10x</item>
+    </string-array>
+</resources>

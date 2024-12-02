@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/car_top_navigation_bar_height" android:paddingHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_hotspot" android:visibility="gone" android:layout_width="@dimen/status_bar_single_icon_width" android:layout_height="@dimen/status_bar_single_icon_width" android:src="@drawable/drawable_status_bar_hotspot" android:scaleType="fitCenter" android:paddingHorizontal="12.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_wifi" android:visibility="visible" android:layout_width="@dimen/status_bar_single_icon_width" android:layout_height="@dimen/status_bar_single_icon_width" android:src="@drawable/drawable_wifi_0" android:scaleType="fitCenter" android:paddingHorizontal="12.0dip" />
+</FrameLayout>

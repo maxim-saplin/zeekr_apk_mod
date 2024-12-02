@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Pirms %d dienām</item>
+        <item quantity="zero">Pirms %d dienām</item>
+        <item quantity="one">Pirms %d dienas</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Pirms %d minūtēm</item>
+        <item quantity="zero">Pirms %d minūtēm</item>
+        <item quantity="one">Pirms %d minūtes</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Pirms %d gadiem</item>
+        <item quantity="zero">Pirms %d gadiem</item>
+        <item quantity="one">Pirms %d gada</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Pievienotas %s vadīklas.</item>
+        <item quantity="zero">Pievienotas %s vadīklas.</item>
+        <item quantity="one">Pievienota %s vadīkla.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Ievadiet SIM kartes PIN. Varat mēģināt vēl %d reizes.</item>
+        <item quantity="zero">Ievadiet SIM kartes PIN. Varat mēģināt vēl %d reizes.</item>
+        <item quantity="one">Ievadiet SIM kartes PIN. Varat mēģināt vēl %d reizi.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM karte tagad ir atspējota. Ievadiet PUK kodu, lai turpinātu. Varat mēģināt vēl %d reizes. Kļūdas gadījumā SIM karti vairs nevarēs izmantot. Lai iegūtu detalizētu informāciju, sazinieties ar mobilo sakaru operatoru.</item>
+        <item quantity="zero">SIM karte tagad ir atspējota. Ievadiet PUK kodu, lai turpinātu. Varat mēģināt vēl %d reizes. Kļūdas gadījumā SIM karti vairs nevarēs izmantot. Lai iegūtu detalizētu informāciju, sazinieties ar mobilo sakaru operatoru.</item>
+        <item quantity="one">SIM karte tagad ir atspējota. Ievadiet PUK kodu, lai turpinātu. Varat mēģināt vēl %d reizi. Kļūdas gadījumā SIM karti vairs nevarēs izmantot. Lai iegūtu detalizētu informāciju, sazinieties ar mobilo sakaru operatoru.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Nepareizs SIM kartes PIN kods. Varat mēģināt vēl %d reizes.</item>
+        <item quantity="zero">Nepareizs SIM kartes PIN kods. Varat mēģināt vēl %d reizes.</item>
+        <item quantity="one">Nepareizs SIM kartes PIN kods. Varat mēģināt vēl %d reizi.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Nepareizs SIM kartes PUK kods. Varat mēģināt vēl %d reizes. Ja pēdējais mēģinājums būs kļūdains, SIM karti vairs nevarēs izmantot.</item>
+        <item quantity="zero">Nepareizs SIM kartes PUK kods. Varat mēģināt vēl %d reizes. Ja pēdējais mēģinājums būs kļūdains, SIM karti vairs nevarēs izmantot.</item>
+        <item quantity="one">Nepareizs SIM kartes PUK kods. Varat mēģināt vēl %d reizi. Ja pēdējais mēģinājums būs kļūdains, SIM karti vairs nevarēs izmantot.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Mēģiniet vēlreiz pēc %d sekundēm.</item>
+        <item quantity="zero">Mēģiniet vēlreiz pēc %d sekundēm.</item>
+        <item quantity="one">Mēģiniet vēlreiz pēc %d sekundes.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d jauni paziņojumi</item>
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Vēl %s paziņojumi grupā.</item>
+        <item quantity="zero">Vēl %s paziņojumi grupā.</item>
+        <item quantity="one">Vēl %s paziņojums grupā.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d ierīces</item>
+        <item quantity="zero">%d ierīču</item>
+        <item quantity="one">%d ierīce</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d stundas</item>
+        <item quantity="zero">%d stundas</item>
+        <item quantity="one">%d stunda</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minūtes</item>
+        <item quantity="zero">%d minūtes</item>
+        <item quantity="one">%d minūte</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Varat pievienot ne vairāk kā %d lietotājus.</item>
+        <item quantity="zero">Varat pievienot ne vairāk kā %d lietotājus.</item>
+        <item quantity="one">Varat pievienot ne vairāk kā %d lietotāju.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Pievienotas %1$d ierīces</item>
+        <item quantity="zero">Pievienotas %1$d ierīces</item>
+        <item quantity="one">Pievienota %1$d ierīce</item>
+    </plurals>
+</resources>

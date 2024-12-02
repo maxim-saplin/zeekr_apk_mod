@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>እነማ ጠፍቷል</item>
+        <item>የእነማ ልኬት ለውጥ .5x</item>
+        <item>የእነማ ልኬት ለውጥ 1x</item>
+        <item>የእነማ ልኬት ለውጥ 1.5x</item>
+        <item>የእነማ ልኬት ለውጥ 2x</item>
+        <item>የእነማ ልኬት ለውጥ 5x</item>
+        <item>የእነማ ልኬት ለውጥ 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>መደበኛ ወሰኖች</item>
+        <item>ምንም የዳራ ሂደቶች የሉም</item>
+        <item>"ቢበዛ 1  ሂደት"</item>
+        <item>"ቢበዛ 2  ሂደቶች"</item>
+        <item>"ቢበዛ 3  ሂደቶች"</item>
+        <item>"ቢበዛ 4  ሂደቶች"</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>ሁልጊዜ መቶኛ አሳይ</item>
+        <item>የባትሪ ኃይል በሚሞላበት ጊዜ መቶኛ አሳይ (ነባሪ)</item>
+        <item>ይህን አዶ አታሳይ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>የስርዓቱን ምርጫ (ነባሪ) ተጠቀም</item>
+        <item>16 ቢት/ናሙና</item>
+        <item>24 ቢት/ናሙና</item>
+        <item>32 ቢት/ናሙና</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>የስርዓቱን ምርጫ (ነባሪ) ተጠቀም</item>
+        <item>16 ቢት/ናሙና</item>
+        <item>24 ቢት/ናሙና</item>
+        <item>32 ቢት/ናሙና</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>የስርዓቱን ምርጫ (ነባሪ) ተጠቀም</item>
+        <item>ሞኖ</item>
+        <item>ስቲሪዮ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>የስርዓቱን ምርጫ (ነባሪ) ተጠቀም</item>
+        <item>ሞኖ</item>
+        <item>ስቲሪዮ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>ለኦዲዮ ጥራት ተብቷል</item>
+        <item>የተመጣጠነ የኦዲዮ እና ግንኙነት ጥራት</item>
+        <item>ለግንኙነት ጥራት ተብቷል</item>
+        <item>የተሻለው ጥረት (ተለማማጅ የቢት ፍጥነት)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>ለኦዲዮ ጥራት ተብቷል (990 ኪቢ/ሴ / 909 ኪቢ/ሴ)</item>
+        <item>ለኦዲዮ ጥራት አትባ (660 ኪቢ/ሴ / 606 ኪቢ/ሴ)</item>
+        <item>ለግንኙነት ጥራት ተብቷል (330 ኪቢ/ሴ / 303 ኪቢ/ሴ)</item>
+        <item>የተሻለው ጥረት (ተለማማጅ የቢት ፍጥነት)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>የስርዓቱን ምርጫ (ነባሪ) ተጠቀም</item>
+        <item>44.1 ኪኸ</item>
+        <item>48.0 ኪኸ</item>
+        <item>88.2 ኪኸ</item>
+        <item>96.0 ኪኸ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>የስርዓቱን ምርጫ (ነባሪ) ተጠቀም</item>
+        <item>44.1 ኪኸ</item>
+        <item>48.0 ኪኸ</item>
+        <item>88.2 ኪኸ</item>
+        <item>96.0 ኪኸ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>የስርዓቱን ምርጫ (ነባሪ) ተጠቀም</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ኦዲዮ</item>
+        <item>Qualcomm® aptX™ HD ኦዲዮ</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>የስርዓቱን ምርጫ (ነባሪ) ተጠቀም</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ኦዲዮ</item>
+        <item>Qualcomm® aptX™ HD ኦዲዮ</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>፣ ገቢር</item>
+        <item>፣ ገቢር (ሚዲያ)</item>
+        <item>፣ ገቢር (ስልክ)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (ነባሪ)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ነባሪ)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>ተሰናክሏል</item>
+        <item>ማጣሪያን አንቃ</item>
+        <item>ነቅቷል</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>ሰዓቶችን፣ ደቂቃዎችን፣ ሴኮንዶችን አሳይ</item>
+        <item>ሰዓቶችን እና ደቂቃዎችን አሳይ (ነባሪ)</item>
+        <item>ይህን አዶ አታሳይ</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>የበለጸጉ ቀለማት</item>
+        <item>ልክ በዓይን እንደሚታዩት የተፈጥሮ ቀለማት</item>
+        <item>ለዲጂታል ይዘት የላቁ ቀለማት</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>ነዛሪ (ነባሪ)</item>
+        <item>ተፈጥሯዊ</item>
+        <item>መደበኛ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ጠፍቷል</item>
+        <item>ስዕሉ አልፎ የፈሰሰባቸው አካባቢዎችን አሳይ</item>
+        <item>ቀይ እና አረንጓዴ የማይለይባቸው ቦታዎች አሳይ</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ምንም</item>
+        <item>Logcat</item>
+        <item>Systrace (ግራፊክስ)</item>
+        <item>የጥሪ ቁልል በ glGetError ላይ</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>በፍፁም HDCP ምልከታ አትጠቀም</item>
+        <item>"ለDRM ይዘት ብቻ HDCP  ምልከታን ተጠቀም"</item>
+        <item>ሁልጊዜ የHDCP ምልከታ ተጠቀም</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>በፍፁም አትመልከት</item>
+        <item>የDRM ይዘት ብቻ ተመልከት</item>
+        <item>ሁልጊዜ ተመልከት</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>የቅንጥብ ሰሌዳ</item>
+        <item>የቁልፍ ኮድ</item>
+        <item>ማሽከርከር ያረጋግጡ፣ ቁልፍ ሰሌዳ መቀየሪያ</item>
+        <item>ምንም የለም</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>መደበኛ</item>
+        <item>እምቅ</item>
+        <item>ወደ ግራ ያዘነበለ</item>
+        <item>ወደ ቀኝ ያዘነበለ</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ምንም የለም</item>
+        <item>480ፒክሰል</item>
+        <item>480ፒ (የተጠበቀ)</item>
+        <item>720ፒ</item>
+        <item>720ፒ (የተጠበቀ)</item>
+        <item>1080ፒ</item>
+        <item>1080ፒ (የተጠበቀ)</item>
+        <item>4ኬ</item>
+        <item>4ኬ (የተጠበቀ)</item>
+        <item>4ኬ (ከፍ ተድርጎ የተመጣጠነ)</item>
+        <item>4ኬ (ከፍ ተድርጎ የተመጣጠነ፣ የተጠበቀ)</item>
+        <item>720ፒ፣ 1080ፒ (ሁለትዮሽ ማያ ገጽ)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ጠፍቷል</item>
+        <item>64 ኪባ</item>
+        <item>256 ኪባ</item>
+        <item>1 ሜባ</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ጠፍቷል</item>
+        <item>64 ኪባ በምዝግብ ማስታወሻ ቋጥ</item>
+        <item>256 ኪባ በምዝግብ ማስታወሻ ቋጥ</item>
+        <item>1 ሜ በምዝግብ ማስታወሻ ቋጥ</item>
+        <item>4 ሜ በምዝግብ ማስታወሻ ቋጥ</item>
+        <item>8 ሜ በምዝግብ ማስታወሻ ቋጥ</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ጠፍቷል</item>
+        <item>64 ኪባ</item>
+        <item>256 ኪባ</item>
+        <item>1 ሜባ</item>
+        <item>4 ሜባ</item>
+        <item>8 ሜ</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ጠፍቷል</item>
+        <item>የሁሉም ምዝግብ ማስታወሻ ቋቶች</item>
+        <item>ከሬዲዮ ምዝግብ ማስታወሻ ቋቶች በስተቀር ሁሉም</item>
+        <item>የአውራ ከዋኝ ምዝግብ ማስታወሻ ቋት ብቻ</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ጠፍቷል</item>
+        <item>ሁሉም</item>
+        <item>ከሬዲዮ በስተቀር ሁሉም</item>
+        <item>አውራ ከዋኝ ብቻ</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ጠፍቷል</item>
+        <item>አራት ማእዘን ያልሆነ የቅንጥብ ክልልን በሰማያዊ ይሳሉ</item>
+        <item>የተሞከሩ የስእል ትእዛዞችን በአረንጓዴ ያድምቁ</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>አይገኝም</item>
+        <item>ጠፍቷል</item>
+        <item>በርቷል</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ጠፍቷል</item>
+        <item>ማያ ገጽ ላይ እንደ አሞሌዎች</item>
+        <item>በadb shell dumpsys gfxinfo ውስጥ</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>እነማ ጠፍቷል</item>
+        <item>የእነማ ልኬት ለውጥ.5x</item>
+        <item>የእነማ ልኬት ለውጥ1x</item>
+        <item>"የእነማ  ልኬት ለውጥ1.5x"</item>
+        <item>የእነማ ልኬት ለውጥ2x</item>
+        <item>የእነማ ልኬት ለውጥ5x</item>
+        <item>የእነማ ልኬት ለውጥ10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>በጣም ቀርፋፋ</item>
+        <item>ቀርፋፋ</item>
+        <item>መደበኛ</item>
+        <item>ፈጣን</item>
+        <item>በጣም ፈጣን</item>
+        <item>እጅግ በጣም ፈጣን</item>
+        <item>ቀልጣፋ</item>
+        <item>በጣም ቀልጣፋ</item>
+        <item>እጅግ በጣም ቀልጣፋ</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>ኃይል በመሙላት ላይ</item>
+        <item>MTP (የሚዲያ ማስተላለፍ ፕሮቶኮል)</item>
+        <item>PTP (የስዕል ማስተላለፍ ፕሮቶኮል)</item>
+        <item>RNDIS (ዩኤስቢ ኤተርኔት)</item>
+        <item>የኦዲዮ ምንጭ</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>በመቃኘት ላይ.....</item>
+        <item>በማገናኘት ላይ…</item>
+        <item>በማረጋገጥ ላይ....</item>
+        <item>የIP አድራሻ በማግኘት ላይ...</item>
+        <item>ተገናኝቷል</item>
+        <item>ታግዷል</item>
+        <item>በማለያየት ላይ....</item>
+        <item>ተለያየ</item>
+        <item>አልተሳካም</item>
+        <item>ታግዷል</item>
+        <item>ለጊዜያዊነት ከደካማ ግኑኝነት በመታቀብ ላይ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>በመቃኘት ላይ.....</item>
+        <item>%1$s በማያያዝ ላይ...</item>
+        <item>በ%1$s በማረጋገጥ ላይ...</item>
+        <item>" ከ%1$s የIP አድራሻ በማግኘት ላይ..."</item>
+        <item>ለ%1$s የተገናኘ</item>
+        <item>ታግዷል</item>
+        <item>ከ%1$s በማለያየት ላይ....</item>
+        <item>ተለያየ</item>
+        <item>አልተሳካም</item>
+        <item>ታግዷል</item>
+        <item>ለጊዜያዊነት ከደካማ ግኑኝነት በመታቀብ ላይ</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>በመቃኘት ላይ…</item>
+        <item>በመገናኘት ላይ…</item>
+        <item>በማረጋገጥ ላይ…</item>
+        <item>የአይፒ አድራሻን በማግኘት ላይ…</item>
+        <item>ተገናኝቷል</item>
+        <item>ታግዷል</item>
+        <item>ግንኝነት በማቋረጥ ላይ…</item>
+        <item>ተቋርጧል</item>
+        <item>አልተሳካም</item>
+        <item>ታግዷል</item>
+        <item>ለጊዜው ከደካማ ግንኙነት በመታቀብ ላይ</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>እነማ ጠፍቷል</item>
+        <item>የእነማ ልኬት ለውጥ.5x</item>
+        <item>የእነማ ልኬት ለውጥ1x</item>
+        <item>የእነማ ልኬት ለውጥ1.5x</item>
+        <item>የእነማ ልኬት ለውጥ2x</item>
+        <item>የእነማ ልኬት ለውጥ5x</item>
+        <item>የእነማ ልኬት ለውጥ10x</item>
+    </string-array>
+</resources>

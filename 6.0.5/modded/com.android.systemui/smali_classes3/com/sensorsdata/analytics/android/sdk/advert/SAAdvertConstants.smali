@@ -1,0 +1,18 @@
+.class public Lcom/sensorsdata/analytics/android/sdk/advert/SAAdvertConstants;
+.super Ljava/lang/Object;
+.source "SAAdvertConstants.java"
+
+
+# static fields
+.field public static final TAG:Ljava/lang/String; = "SA.Advert"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 20
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

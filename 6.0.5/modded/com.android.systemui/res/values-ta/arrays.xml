@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>அனிமேஷனை முடக்கு</item>
+        <item>அனிமேஷன் வேகம் .5x</item>
+        <item>அனிமேஷன் வேகம் 1x</item>
+        <item>அனிமேஷன் வேகம் 1.5x</item>
+        <item>அனிமேஷன் வேகம் 2x</item>
+        <item>அனிமேஷன் வேகம் 5x</item>
+        <item>அனிமேஷன் வேகம் 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>நிலையான வரம்பு</item>
+        <item>பின்புலச் செயல்முறைகள் இல்லை</item>
+        <item>அதிகபட்சமாக 1 செயல்முறை</item>
+        <item>அதிகபட்சமாக 2 செயல்முறைகள்</item>
+        <item>அதிகபட்சமாக 3 செயல்முறைகள்</item>
+        <item>அதிகபட்சமாக 4 செயல்முறைகள்</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>எப்போதும் சதவீதத்தைக் காட்டு</item>
+        <item>சார்ஜ் செய்யும் போது சதவீதத்தைக் காட்டு (இயல்பு)</item>
+        <item>இந்த ஐகானைக் காட்டாதே</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>சாதனத் தேர்வைப் பயன்படுத்து (இயல்பு)</item>
+        <item>16 பிட்கள்/சாம்பிள்</item>
+        <item>24 பிட்கள்/சாம்பிள்</item>
+        <item>32 பிட்கள்/சாம்பிள்</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>சாதனத் தேர்வைப் பயன்படுத்து (இயல்பு)</item>
+        <item>16 பிட்கள்/சாம்பிள்</item>
+        <item>24 பிட்கள்/சாம்பிள்</item>
+        <item>32 பிட்கள்/சாம்பிள்</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>சாதனத் தேர்வைப் பயன்படுத்து (இயல்பு)</item>
+        <item>மோனோ</item>
+        <item>ஸ்டீரியோ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>சாதனத் தேர்வைப் பயன்படுத்து (இயல்பு)</item>
+        <item>மோனோ</item>
+        <item>ஸ்டீரியோ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>ஆடியோ தரத்திற்காக மேம்படுத்தியது</item>
+        <item>சமன்படுத்தப்பட்ட ஆடியோ மற்றும் இணைப்புத் தரம்</item>
+        <item>இணைப்புத் தரத்திற்காக மேம்படுத்தியது</item>
+        <item>சிறந்த முறை (அடாப்டிவ் பிட் வீதம்)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>ஆடியோ தரத்திற்காக மேம்படுத்தியது (990kbps/909kbps)</item>
+        <item>சமன்படுத்தப்பட்ட ஆடியோ மற்றும் இணைப்புத் தரம் (660kbps/606kbps)</item>
+        <item>இணைப்புத் தரத்திற்காக மேம்படுத்தியது (330kbps/303kbps)</item>
+        <item>சிறந்த முறை (அடாப்டிவ் பிட் வீதம்)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>சாதனத் தேர்வைப் பயன்படுத்து (இயல்பு)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>சாதனத் தேர்வைப் பயன்படுத்து (இயல்பு)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>சாதனத் தேர்வைப் பயன்படுத்து (இயல்பு)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ஆடியோ</item>
+        <item>Qualcomm® aptX™ HD ஆடியோ</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>சாதனத் தேர்வைப் பயன்படுத்து (இயல்பு)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ஆடியோ</item>
+        <item>Qualcomm® aptX™ HD ஆடியோ</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, செயலில் உள்ளது</item>
+        <item>, செயலில் உள்ளது (மீடியா)</item>
+        <item>, செயலில் உள்ளது (மொபைல்)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (இயல்பு)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (இயல்பாக)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>முடக்கப்பட்டது</item>
+        <item>இயக்கப்பட்டு வடிகட்டப்பட்டது</item>
+        <item>இயக்கப்பட்டது</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>மணிநேரம், நிமிடங்கள், வினாடிகளைக் காட்டு</item>
+        <item>மணிநேரம், நிமிடங்களைக் காட்டு (இயல்பு)</item>
+        <item>இந்த ஐகானைக் காட்டாதே</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>மேம்படுத்தப்பட்ட வண்ணங்கள்</item>
+        <item>கண்களால் பார்ப்பதைப் போலவே இயற்கையான வண்ணங்கள்</item>
+        <item>டிஜிட்டல் உள்ளடக்கத்திற்கு ஏற்ப மேம்படுத்தப்பட்ட வண்ணங்கள்</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>வைபிரன்ட் (இயல்பு)</item>
+        <item>இயற்கை வண்ணம்</item>
+        <item>இயல்புநிலை</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ஆஃப்</item>
+        <item>ஓவர்டிரா பகுதிகளைக் காட்டு</item>
+        <item>நிறக்குருடின் பகுதிகளைக் காட்டு</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ஏதுமில்லை</item>
+        <item>Logcat</item>
+        <item>Systrace (கிராஃபிக்ஸ்)</item>
+        <item>glGetError இல் அழைப்பின் அடுக்கு</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP சரிபார்ப்பை எப்போதும் பயன்படுத்தாதே</item>
+        <item>DRM உள்ளடக்கத்திற்கு மட்டும் HDCP சோதனையைப் பயன்படுத்து</item>
+        <item>HDCP சரிபார்ப்பை எப்போதும் பயன்படுத்து</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>எப்போதும் சரிபார்க்க வேண்டாம்</item>
+        <item>DRM உள்ளடக்கத்தை மட்டும் சரிபார்</item>
+        <item>எப்போதும் சரிபார்</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>கிளிப்போர்டு</item>
+        <item>விசைக்குறியீடு</item>
+        <item>சுழற்ற உறுதிப்படுத்து, கீபோர்டு மாற்றி</item>
+        <item>ஏதுமில்லை</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>சராசரி</item>
+        <item>சுருக்கமானது</item>
+        <item>இடப்புறம் சாய்ந்தது</item>
+        <item>வலப்புறம் சாய்ந்தது</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ஏதுமில்லை</item>
+        <item>480பி</item>
+        <item>480பி (பாதுகாப்பானது)</item>
+        <item>720பி</item>
+        <item>720பி (பாதுகாப்பானது)</item>
+        <item>1080பி</item>
+        <item>1080பி (பாதுகாப்பானது)</item>
+        <item>4K</item>
+        <item>4K (பாதுகாப்பானது)</item>
+        <item>4K (மேம்படுத்தப்பட்டது)</item>
+        <item>4K (மேம்படுத்தப்பட்டது, பாதுகாப்பானது)</item>
+        <item>720பி, 1080பி (இரட்டைத் திரை)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ஆஃப்</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ஆஃப்</item>
+        <item>64K / லாக் பஃபர்</item>
+        <item>256K / லாக் பஃபர்</item>
+        <item>1M / லாக் பஃபர்</item>
+        <item>4M / லாக் பஃபர்</item>
+        <item>8 மெ.பை / லாக் பஃபர்</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ஆஃப்</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8 மெ.பை</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ஆஃப்</item>
+        <item>தற்காலிகமாகச் சேமித்த எல்லா பதிவுகளும்</item>
+        <item>எல்லாம் (தற்காலிகமாகச் சேமித்த ரேடியோ பதிவுகள் தவிர்த்து)</item>
+        <item>கெர்னல் லாக் பஃபர் மட்டும்</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ஆஃப்</item>
+        <item>எல்லாம்</item>
+        <item>எல்லாம் (ரேடியோ தவிர்த்து)</item>
+        <item>கெர்னல் மட்டும்</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ஆஃப்</item>
+        <item>செவ்வகம் அல்லாத கிளிப் பகுதியை நீல நிறத்தில் வரையவும்</item>
+        <item>சோதிக்கப்பட்ட வரைதல் கட்டளைகளைப் பச்சை நிறத்தில் தனிப்படுத்தவும்</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>கிடைக்கவில்லை</item>
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>இயக்கப்பட்டுள்ளது</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ஆஃப்</item>
+        <item>திரையில் பட்டிகளாக</item>
+        <item>adb shell dumpsys gfxinfo இல்</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>அனிமேஷனை முடக்கு</item>
+        <item>அனிமேஷன் வேகம் .5x</item>
+        <item>அனிமேஷன் வேகம் 1x</item>
+        <item>அனிமேஷன் வேகம் 1.5x</item>
+        <item>அனிமேஷன் வேகம் 2x</item>
+        <item>அனிமேஷன் வேகம் 5x</item>
+        <item>அனிமேஷன் வேகம் 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>மிகவும் மெதுவாக</item>
+        <item>மெதுவாக</item>
+        <item>இயல்பு</item>
+        <item>வேகமாக</item>
+        <item>மிக வேகமாக</item>
+        <item>அதிவேகமாக</item>
+        <item>அதிக வேகமாக</item>
+        <item>மிக அதிக வேகமாக</item>
+        <item>அதிகபட்ச வேகம்</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>சார்ஜ் ஆகிறது</item>
+        <item>MTP (மீடியா பரிமாற்ற நெறிமுறை)</item>
+        <item>PTP (படப் பரிமாற்ற நெறிமுறை)</item>
+        <item>RNDIS (USB ஈத்தர்நெட்)</item>
+        <item>ஆடியோ மூலம்</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>தேடுகிறது...</item>
+        <item>இணைக்கிறது...</item>
+        <item>அங்கீகரிக்கிறது...</item>
+        <item>IP முகவரியைப் பெறுகிறது…</item>
+        <item>இணைக்கப்பட்டது</item>
+        <item>இடைநீக்கப்பட்டது</item>
+        <item>துண்டிக்கிறது...</item>
+        <item>தொடர்பு துண்டிக்கப்பட்டது</item>
+        <item>தோல்வி</item>
+        <item>தடுக்கப்பட்டது</item>
+        <item>வேகம் குறைந்த இணைப்பைத் தற்காலிகமாகத் தவிர்க்கிறது</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>தேடுகிறது...</item>
+        <item>%1$s இல் இணைக்கிறது…</item>
+        <item>%1$s உடன் அங்கீகரிக்கிறது…</item>
+        <item>%1$s இலிருந்து IP முகவரியைப் பெறுகிறது…</item>
+        <item>%1$s உடன் இணைக்கப்பட்டது</item>
+        <item>இடைநீக்கப்பட்டது</item>
+        <item>%1$s இலிருந்து தொடர்பு துண்டிக்கப்படுகிறது…</item>
+        <item>தொடர்பு துண்டிக்கப்பட்டது</item>
+        <item>தோல்வி</item>
+        <item>தடுக்கப்பட்டது</item>
+        <item>வேகம் குறைந்த இணைப்பைத் தற்காலிகமாகத் தவிர்க்கிறது</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>தேடுகிறது…</item>
+        <item>இணைக்கிறது…</item>
+        <item>அங்கீகரிக்கிறது…</item>
+        <item>IP முகவரியைப் பெறுகிறது…</item>
+        <item>இணைக்கப்பட்டது</item>
+        <item>இடைநிறுத்தப்பட்டது</item>
+        <item>துண்டிக்கிறது…</item>
+        <item>தொடர்பு துண்டிக்கப்பட்டது</item>
+        <item>தோல்வி</item>
+        <item>தடுக்கப்பட்டது</item>
+        <item>வேகம் குறைவான இணைப்பைத் தற்காலிகமாகத் தவிர்க்கிறது</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>அனிமேஷனை முடக்கு</item>
+        <item>அனிமேஷன் வேகம் .5x</item>
+        <item>அனிமேஷன் வேகம் 1x</item>
+        <item>அனிமேஷன் வேகம் 1.5x</item>
+        <item>அனிமேஷன் வேகம் 2x</item>
+        <item>அனிமேஷன் வேகம் 5x</item>
+        <item>அனிமேஷன் வேகம் 10x</item>
+    </string-array>
+</resources>

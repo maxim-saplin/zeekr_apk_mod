@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animazioa desaktibatuta</item>
+        <item>Animazio-eskala: 0,5x</item>
+        <item>Animazio-eskala: 1x</item>
+        <item>Animazio-eskala: 1,5x</item>
+        <item>Animazio-eskala: 2x</item>
+        <item>Animazio-eskala: 5x</item>
+        <item>Animazio-eskala: 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Muga estandarra</item>
+        <item>Ez dago atzeko planoko prozesurik</item>
+        <item>1 prozesu gehienez</item>
+        <item>2 prozesu gehienez</item>
+        <item>3 prozesu gehienez</item>
+        <item>4 prozesu gehienez</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>% 0</item>
+        <item>% 50</item>
+        <item>% 100</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Erakutsi beti ehunekoa</item>
+        <item>Erakutsi ehunekoa kargatu bitartean (balio lehenetsia)</item>
+        <item>Ez erakutsi ikonoa</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Erabili sistema-hautapena (lehenetsia)</item>
+        <item>16 bit lagin bakoitzeko</item>
+        <item>24 bit lagin bakoitzeko</item>
+        <item>32 bit lagin bakoitzeko</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Erabili sistema-hautapena (lehenetsia)</item>
+        <item>16 bit lagin bakoitzeko</item>
+        <item>24 bit lagin bakoitzeko</item>
+        <item>32 bit lagin bakoitzeko</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Erabili sistema-hautapena (lehenetsia)</item>
+        <item>Monoa</item>
+        <item>Estereoa</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Erabili sistema-hautapena (lehenetsia)</item>
+        <item>Monoa</item>
+        <item>Estereoa</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Audioaren kalitatea areagotzeko optimizatua</item>
+        <item>Orekatu audioaren eta konexioaren kalitateak</item>
+        <item>Konexioaren kalitatea areagotzeko optimizatua</item>
+        <item>Emaitzarik onenak (bit-abiadura egokitua)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Audioaren kalitatea areagotzeko optimizatua (990 Kb/s / 909 Kb/s)</item>
+        <item>Audioaren eta konexioaren kalitate orekatua (660 Kb/s / 606 Kb/s)</item>
+        <item>Konexioaren kalitatea areagotzeko optimizatua (330 Kb/s / 303 Kb/s)</item>
+        <item>Emaitzarik onenak (bit-abiadura egokitua)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Erabili sistema-hautapena (lehenetsia)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Erabili sistema-hautapena (lehenetsia)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Erabili sistema-hautapena (lehenetsia)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audioa</item>
+        <item>Qualcomm® aptX™ HD audioa</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Erabili sistema-hautapena (lehenetsia)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audioa</item>
+        <item>Qualcomm® aptX™ HD audioa</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktibo</item>
+        <item>, aktibo (multimedia-edukia)</item>
+        <item>, aktibo (telefonoa)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (lehenetsia)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>1.2 MAPa (lehenetsia)</item>
+        <item>1.3 MAPa</item>
+        <item>1.4 MAPa</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Desgaituta</item>
+        <item>Gaituta baina iragazita</item>
+        <item>Gaituta</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Erakutsi orduak, minutuak eta segundoak</item>
+        <item>Erakutsi orduak eta minutuak (balio lehenetsia)</item>
+        <item>Ez erakutsi ikonoa</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Kolore hobetuak</item>
+        <item>Kolore naturalak, bizitza errealean bezala</item>
+        <item>Eduki digitalerako optimizatutako koloreak</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Bizia (balio lehenetsia)</item>
+        <item>Naturala</item>
+        <item>Estandarra</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Desaktibatuta</item>
+        <item>Erakutsi gainidatzi diren eremuak</item>
+        <item>Erakutsi daltonismorako eremuak</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Bat ere ez</item>
+        <item>Logcat-a</item>
+        <item>Systrace (grafikoak)</item>
+        <item>Dei-pila glGetError funtzioan</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Ez erabili inoiz HDCP egiaztapena</item>
+        <item>Erabili HDCP egiaztapena DRM edukirako soilik</item>
+        <item>Erabili beti HDCP egiaztapena</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Ez egiaztatu inoiz</item>
+        <item>Egiaztatu DRM edukirako soilik</item>
+        <item>Egiaztatu beti</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Arbela</item>
+        <item>Tekla-kodea</item>
+        <item>Biratu berresteko, teklatu-aldatzailea</item>
+        <item>Bat ere ez</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normala</item>
+        <item>Trinkoa</item>
+        <item>Ezkerraldekoa</item>
+        <item>Eskuinaldekoa</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Bat ere ez</item>
+        <item>480p</item>
+        <item>480p (segurua)</item>
+        <item>720p</item>
+        <item>720p (segurua)</item>
+        <item>1080p</item>
+        <item>1080p (segurua)</item>
+        <item>4K</item>
+        <item>4K (segurua)</item>
+        <item>4K (hobetua)</item>
+        <item>4K (hobetua, segurua)</item>
+        <item>720p, 1080p (bi pantaila)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Desaktibatuta</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Desaktibatuta</item>
+        <item>64 K erregistroen bufferreko</item>
+        <item>256 K erregistroen bufferreko</item>
+        <item>1 M erregistroen bufferreko</item>
+        <item>4 M erregistroen bufferreko</item>
+        <item>8 M erregistroen bufferreko</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Desaktibatuta</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>8 M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Desaktibatuta</item>
+        <item>Erregistroen buffer guztiak</item>
+        <item>Erregistroen buffer guztiak, irratiarenak izan ezik</item>
+        <item>kernel-aren erregistroaren bufferra soilik</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Desaktibatuta</item>
+        <item>Guztiak</item>
+        <item>Guztiak, irratiarenak izan ezik</item>
+        <item>kernel-a soilik</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Desaktibatuta</item>
+        <item>Marraztu ez-angeluzuzena urdinez</item>
+        <item>Nabarmendu agindu probatuak berdez</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Ez dago erabilgarri</item>
+        <item>Desaktibatuta</item>
+        <item>Aktibatuta</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Desaktibatuta</item>
+        <item>Pantailan barra gisa</item>
+        <item>Hemen: adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animazioa desaktibatuta</item>
+        <item>Animazio-eskala: 0,5x</item>
+        <item>Animazio-eskala: 1x</item>
+        <item>Animazio-eskala: 1,5x</item>
+        <item>Animazio-eskala: 2x</item>
+        <item>Animazio-eskala: 5x</item>
+        <item>Animazio-eskala: 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Oso motela</item>
+        <item>Motela</item>
+        <item>Normala</item>
+        <item>Bizkorra</item>
+        <item>Bizkorragoa</item>
+        <item>Oso bizkorra</item>
+        <item>Bizkorra</item>
+        <item>Oso bizkorra</item>
+        <item>Bizkorrena</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Kargatzen</item>
+        <item>MTP (multimedia-edukia transferitzeko protokoloa)</item>
+        <item>PTP (irudiak transferitzeko protokoloa)</item>
+        <item>RNDIS (USB bidezko Ethernet konexioa)</item>
+        <item>Audio-iturburua</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Bilatzen…</item>
+        <item>Konektatzen…</item>
+        <item>Autentifikatzen…</item>
+        <item>IP helbidea lortzen…</item>
+        <item>Konektatuta</item>
+        <item>Etenda</item>
+        <item>Deskonektatzen…</item>
+        <item>Deskonektatuta</item>
+        <item>Ezin izan da konektatu</item>
+        <item>Blokeatuta</item>
+        <item>Konexio ahula aldi baterako saihesten</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Bilatzen…</item>
+        <item>%1$s sarera konektatzen…</item>
+        <item>%1$s sarearekin autentifikatzen…</item>
+        <item>%1$s sarearen IP helbidea lortzen…</item>
+        <item>%1$s sarera konektatuta</item>
+        <item>Etenda</item>
+        <item>%1$s saretik deskonektatzen…</item>
+        <item>Deskonektatuta</item>
+        <item>Ezin izan da konektatu</item>
+        <item>Blokeatuta</item>
+        <item>Konexio ahula aldi baterako saihesten</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Bilatzen…</item>
+        <item>Konektatzen…</item>
+        <item>Autentifikatzen…</item>
+        <item>IP helbidea lortzen…</item>
+        <item>Konektatuta</item>
+        <item>Etenda</item>
+        <item>Deskonektatzen…</item>
+        <item>Deskonektatuta</item>
+        <item>Huts egin du</item>
+        <item>Blokeatuta</item>
+        <item>Konexio ahula aldi baterako saihesten</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animazioa desaktibatuta</item>
+        <item>Animazio-eskala: 0,5x</item>
+        <item>Animazio-eskala: 1x</item>
+        <item>Animazio-eskala: 1,5x</item>
+        <item>Animazio-eskala 2x</item>
+        <item>Animazio-eskala: 5x</item>
+        <item>Animazio-eskala: 10x</item>
+    </string-array>
+</resources>

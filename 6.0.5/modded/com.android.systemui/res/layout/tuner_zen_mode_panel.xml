@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.tuner.TunerZenModePanel android:orientation="vertical" android:id="@id/tuner_zen_mode_panel" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/zen_embedded_divider" android:background="@color/qs_tile_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" />
+    <include android:id="@id/tuner_zen_switch" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginStart="16.0dip" layout="@layout/qs_detail_header" />
+    <include layout="@layout/zen_mode_panel" />
+    <include android:id="@id/tuner_zen_buttons" layout="@layout/qs_detail_buttons" />
+</com.android.systemui.tuner.TunerZenModePanel>

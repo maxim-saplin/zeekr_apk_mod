@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d дня тому</item>
+        <item quantity="one">%d день тому</item>
+        <item quantity="few">%d дні тому</item>
+        <item quantity="many">%d днів тому</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d хвилини тому</item>
+        <item quantity="one">%d хвилину тому</item>
+        <item quantity="few">%d хвилини тому</item>
+        <item quantity="many">%d хвилин тому</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d року тому</item>
+        <item quantity="one">%d рік тому</item>
+        <item quantity="few">%d роки тому</item>
+        <item quantity="many">%d років тому</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Додано %s елемента керування.</item>
+        <item quantity="one">Додано %s елемент керування.</item>
+        <item quantity="few">Додано %s елементи керування.</item>
+        <item quantity="many">Додано %s елементів керування.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Введіть PIN-код SIM-карти. Залишилося %d спроби.</item>
+        <item quantity="one">Введіть PIN-код SIM-карти. Залишилася %d спроба.</item>
+        <item quantity="few">Введіть PIN-код SIM-карти. Залишилося %d спроби.</item>
+        <item quantity="many">Введіть PIN-код SIM-карти. Залишилося %d спроб.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM-карту заблоковано. Щоб продовжити, введіть PUK-код. Залишилося %d спроби. Після цього SIM-карту буде назавжди заблоковано. Щоб дізнатися більше, зверніться до свого оператора.</item>
+        <item quantity="one">SIM-карту заблоковано. Щоб продовжити, введіть PUK-код. Залишилася %d спроба. Після цього SIM-карту буде назавжди заблоковано. Щоб дізнатися більше, зверніться до свого оператора.</item>
+        <item quantity="few">SIM-карту заблоковано. Щоб продовжити, введіть PUK-код. Залишилося %d спроби. Після цього SIM-карту буде назавжди заблоковано. Щоб дізнатися більше, зверніться до свого оператора.</item>
+        <item quantity="many">SIM-карту заблоковано. Щоб продовжити, введіть PUK-код. Залишилося %d спроб. Після цього SIM-карту буде назавжди заблоковано. Щоб дізнатися більше, зверніться до свого оператора.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Неправильний PIN-код SIM-карти. У вас залишилося %d спроби.</item>
+        <item quantity="one">Неправильний PIN-код SIM-карти. У вас залишилася %d спроба.</item>
+        <item quantity="few">Неправильний PIN-код SIM-карти. У вас залишилося %d спроби.</item>
+        <item quantity="many">Неправильний PIN-код SIM-карти. У вас залишилося %d спроб.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Неправильний PUK-код SIM-карти. У вас залишилося %d спроби. Після цього SIM-карту буде назавжди заблоковано.</item>
+        <item quantity="one">Неправильний PUK-код SIM-карти. У вас залишилася %d спроба. Після цього SIM-карту буде назавжди заблоковано.</item>
+        <item quantity="few">Неправильний PUK-код SIM-карти. У вас залишилося %d спроби. Після цього SIM-карту буде назавжди заблоковано.</item>
+        <item quantity="many">Неправильний PUK-код SIM-карти. У вас залишилося %d спроб. Після цього SIM-карту буде назавжди заблоковано.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Повторіть спробу через %d секунди.</item>
+        <item quantity="one">Повторіть спробу через %d секунду.</item>
+        <item quantity="few">Повторіть спробу через %d секунди.</item>
+        <item quantity="many">Повторіть спробу через %d секунд.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового сповіщення</item>
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Ще %s сповіщення в групі.</item>
+        <item quantity="one">Ще %s сповіщення в групі.</item>
+        <item quantity="few">Ще %s сповіщення в групі.</item>
+        <item quantity="many">Ще %s сповіщень у групі.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d пристрою</item>
+        <item quantity="one">%d пристрій</item>
+        <item quantity="few">%d пристрої</item>
+        <item quantity="many">%d пристроїв</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d години</item>
+        <item quantity="one">%d година</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d хвилини</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Можна додати до %d користувача.</item>
+        <item quantity="one">Можна додати до %d користувача.</item>
+        <item quantity="few">Можна додати до %d користувачів.</item>
+        <item quantity="many">Можна додати до %d користувачів.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Під’єднано %1$d пристрою</item>
+        <item quantity="one">Під’єднано %1$d пристрій</item>
+        <item quantity="few">Під’єднано %1$d пристрої</item>
+        <item quantity="many">Під’єднано %1$d пристроїв</item>
+    </plurals>
+</resources>

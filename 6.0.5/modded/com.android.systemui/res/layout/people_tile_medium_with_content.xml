@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@android:style/Theme.DeviceDefault.DayNight" android:layout_gravity="center" android:orientation="vertical" android:id="@android:id/background" android:background="@drawable/people_space_tile_view_card" android:layout_width="fill_parent" android:layout_height="fill_parent" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/people_tile_punctuation_background_medium" />
+        <include layout="@layout/people_tile_emoji_background_medium" />
+        <include layout="@layout/people_status_scrim_layout" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/content" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:gravity="start" android:id="@id/person_icon" android:layout_width="52.0dip" android:layout_height="52.0dip" />
+                <ImageView android:id="@id/availability" android:background="@drawable/availability_dot_10dp" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginStart="-2.0dip" />
+                <LinearLayout android:gravity="start|center|top" android:orientation="vertical" android:id="@id/medium_content" android:paddingBottom="@dimen/medium_content_padding_above_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip">
+                    <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.ListItemSecondary" android:textSize="12.0sp" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/subtext" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/empty_user_name" android:singleLine="true" />
+                    <ImageView android:gravity="center" android:id="@id/image" android:background="@drawable/people_space_content_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:clipToOutline="true" />
+                    <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.ListItemSecondary" android:textSize="@dimen/content_text_size_for_medium" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/text_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/empty_status" android:maxLines="2" android:singleLine="false" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="18.0dip" android:clipToOutline="true">
+                <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.ListItemSecondary" android:textSize="@dimen/name_text_size_for_medium_content" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="start|center" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_user_name" android:singleLine="true" android:paddingEnd="8.0dip" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.ListItemSecondary" android:textSize="14.0sp" android:textColor="?android:^attr-private/pointerIconZoomOut" android:ellipsize="end" android:gravity="end" android:id="@id/messages_count" android:background="@drawable/people_space_messages_count_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="-32.0dip" />
+                <ImageView android:gravity="end|center" android:id="@id/predefined_icon" android:layout_width="@dimen/regular_predefined_icon" android:layout_height="@dimen/regular_predefined_icon" android:tint="?android:textColorSecondary" android:layout_marginStart="-24.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

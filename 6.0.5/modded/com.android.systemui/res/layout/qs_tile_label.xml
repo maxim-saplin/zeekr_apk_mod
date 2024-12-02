@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.tileimpl.IgnorableChildLinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/qs_label_container_margin" android:layout_marginEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.QS.TileLabel" android:ellipsize="marquee" android:gravity="start" android:id="@id/tile_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="1" android:textDirection="locale" />
+    <TextView android:textAppearance="@style/TextAppearance.QS.TileLabel.Secondary" android:textColor="?android:textColorSecondary" android:ellipsize="marquee" android:gravity="start" android:id="@id/app_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="1" android:textDirection="locale" />
+</com.android.systemui.qs.tileimpl.IgnorableChildLinearLayout>

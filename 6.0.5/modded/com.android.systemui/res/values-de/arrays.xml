@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationsfaktor: 0,5x</item>
+        <item>Animationsfaktor: 1x</item>
+        <item>Animationsfaktor: 1,5x</item>
+        <item>Animationsfaktor: 2x</item>
+        <item>Animationsfaktor: 5x</item>
+        <item>Animationsfaktor: 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standardlimit</item>
+        <item>Keine Hintergrundprozesse</item>
+        <item>Höchstens 1 Prozess</item>
+        <item>Höchstens 2 Prozesse</item>
+        <item>Höchstens 3 Prozesse</item>
+        <item>Höchstens 4 Prozesse</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Prozentwert immer anzeigen</item>
+        <item>Prozentwert beim Laden anzeigen (Standardeinstellung)</item>
+        <item>Dieses Symbol nicht anzeigen</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>16 Bits pro Sample</item>
+        <item>24 Bits pro Sample</item>
+        <item>32 Bits pro Sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>16 Bits pro Sample</item>
+        <item>24 Bits pro Sample</item>
+        <item>32 Bits pro Sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Für Audioqualität optimiert</item>
+        <item>Ausgeglichene Audio- und Verbindungsqualität</item>
+        <item>Für Verbindungsqualität optimiert</item>
+        <item>Bestmöglich (adaptive Bitrate)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Für Audioqualität optimiert (990 kbit/s/909 kbit/s)</item>
+        <item>Ausgeglichene Audio- und Verbindungsqualität (660 kbit/s/606 kbit/s)</item>
+        <item>Für Verbindungsqualität optimiert (330 kbit/s/303 kbit/s)</item>
+        <item>Bestmöglich (adaptive Bitrate)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>44,1 kHz</item>
+        <item>48 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>44,1 kHz</item>
+        <item>48 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™-Audio</item>
+        <item>Qualcomm® aptX™ HD-Audio</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Systemauswahl verwenden (Standard)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™-Audio</item>
+        <item>Qualcomm® aptX™ HD-Audio</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktiv</item>
+        <item>, aktiv (Medien)</item>
+        <item>, aktiv (Telefon)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (Standard)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Standard)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Deaktiviert</item>
+        <item>Filter aktiviert</item>
+        <item>Aktiviert</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Stunden, Minuten und Sekunden anzeigen</item>
+        <item>Stunden und Minuten anzeigen (Standardeinstellung)</item>
+        <item>Dieses Symbol nicht anzeigen</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Verstärkte Farben</item>
+        <item>Natürliche Farben wie vom Auge wahrgenommen</item>
+        <item>Für digitale Inhalte optimierte Farben</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Brillant (Standardeinstellung)</item>
+        <item>Natürlich</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Aus</item>
+        <item>Überschneidungsbereiche anzeigen</item>
+        <item>Bereiche für Deuteranomalie anzeigen</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Keine</item>
+        <item>Logcat</item>
+        <item>Systrace (Grafik)</item>
+        <item>Aufrufliste für glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP-Prüfung nie verwenden</item>
+        <item>HDCP-Prüfung nur für DRM-Inhalte verwenden</item>
+        <item>HDCP-Prüfung immer verwenden</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nie prüfen</item>
+        <item>Nur auf DRM-Inhalte prüfen</item>
+        <item>Immer prüfen</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Zwischenablage</item>
+        <item>Keycode</item>
+        <item>Drehen bestätigen, Tastaturwechsler</item>
+        <item>Keine</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Mittig</item>
+        <item>Kompakt</item>
+        <item>Links­bün­dig</item>
+        <item>Rechtsbündig</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Keine</item>
+        <item>480p</item>
+        <item>480p (sicher)</item>
+        <item>720p</item>
+        <item>720p (sicher)</item>
+        <item>1080p</item>
+        <item>1080p (sicher)</item>
+        <item>4K</item>
+        <item>4K (sicher)</item>
+        <item>4K (hochskaliert)</item>
+        <item>4K (hochskaliert, sicher)</item>
+        <item>720p, 1080p (Dual-Screen)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Aus</item>
+        <item>64.000</item>
+        <item>256.000</item>
+        <item>1 Mio.</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Aus</item>
+        <item>64.000 pro Puffer</item>
+        <item>256.000 pro Puffer</item>
+        <item>1 Mio. pro Puffer</item>
+        <item>4 Mio. pro Puffer</item>
+        <item>8 MB pro Zwischenspeicher</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Aus</item>
+        <item>64.000</item>
+        <item>256.000</item>
+        <item>1 Mio.</item>
+        <item>4 Mio.</item>
+        <item>8 MB</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Aus</item>
+        <item>Alle Protokollzwischenspeicher</item>
+        <item>Alle Protokollzwischenspeicher außer Funkschnittstelle</item>
+        <item>Nur Kernelprotokoll-Zwischenspeicher</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Aus</item>
+        <item>Alle</item>
+        <item>Alle außer Funkschnittstelle</item>
+        <item>Nur Kernel</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Aus</item>
+        <item>Nicht rechteckigen Clipbereich blau zeichnen</item>
+        <item>Getestete Zeichenbefehle grün hervorheben</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Aus</item>
+        <item>Auf Bildschirm als Balken</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationsfaktor: 0,5x</item>
+        <item>Animationsfaktor: 1x</item>
+        <item>Animationsfaktor: 1,5x</item>
+        <item>Animationsfaktor: 2x</item>
+        <item>Animationsfaktor: 5x</item>
+        <item>Animationsfaktor: 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Sehr langsam</item>
+        <item>Langsam</item>
+        <item>Mittel</item>
+        <item>Schnell</item>
+        <item>Schneller</item>
+        <item>Sehr schnell</item>
+        <item>Schnell</item>
+        <item>Sehr schnell</item>
+        <item>Am schnellsten</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Wird aufgeladen</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB-Ethernet)</item>
+        <item>Audioquelle</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scan läuft…</item>
+        <item>Verbindung wird hergestellt...</item>
+        <item>Authentifizierung...</item>
+        <item>IP-Adresse wird abgerufen...</item>
+        <item>Verbunden</item>
+        <item>Angehalten</item>
+        <item>Verbindung wird getrennt...</item>
+        <item>Nicht verbunden</item>
+        <item>Nicht erfolgreich</item>
+        <item>Blockiert</item>
+        <item>Schlechte Internetverbindung wird vorübergehend vermieden.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scan läuft…</item>
+        <item>Verbindung mit %1$s wird hergestellt...</item>
+        <item>Authentifizierung mit %1$s...</item>
+        <item>IP-Adresse wird von %1$s abgerufen...</item>
+        <item>Verbunden mit %1$s</item>
+        <item>Angehalten</item>
+        <item>Verbindung mit %1$s wird getrennt...</item>
+        <item>Nicht verbunden</item>
+        <item>Nicht erfolgreich</item>
+        <item>Blockiert</item>
+        <item>Schlechte Internetverbindung wird vorübergehend vermieden.</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Wird gescannt…</item>
+        <item>Verbindung wird hergestellt…</item>
+        <item>Wird authentifiziert…</item>
+        <item>IP-Adresse wird abgerufen…</item>
+        <item>Verbunden</item>
+        <item>Gesperrt</item>
+        <item>Verbindung wird getrennt…</item>
+        <item>Nicht verbunden</item>
+        <item>Fehlgeschlagen</item>
+        <item>Blockiert</item>
+        <item>Schlechte Internetverbindung wird vorübergehend vermieden</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationsfaktor: 0,5x</item>
+        <item>Animationsfaktor: 1x</item>
+        <item>Animationsfaktor: 1,5x</item>
+        <item>Animationsfaktor: 2x</item>
+        <item>Animationsfaktor: 5x</item>
+        <item>Animationsfaktor: 10x</item>
+    </string-array>
+</resources>

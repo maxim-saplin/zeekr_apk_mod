@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>සජිවිකරණය අක්‍රිය කිරීම</item>
+        <item>සජීවීකරණ පරිමාණය .5x</item>
+        <item>සජීවීකරණ පරිමාණය 1x</item>
+        <item>සජීවීකරණ පරිමාණය 1.5x</item>
+        <item>සජිවිකරණ පරාසය 2x</item>
+        <item>සජීවිකරණ පරිමාණය 5x</item>
+        <item>සජිවිකරණ පරාසය 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>සම්මත සීමාව</item>
+        <item>පසුබිම් ක්‍රියාවලි නොමැත</item>
+        <item>උපරිම වශයෙන් 1 ක්‍රියාවලියක්</item>
+        <item>උපරිම ලෙස ක්‍රියාවලි 2 කි</item>
+        <item>උපරිම ලෙස ක්‍රියාවලි 3 කි</item>
+        <item>උපරිම ලෙස ක්‍රියාවලි 4 කි</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>සෑම විටම ප්‍රතිශතය පෙන්වන්න</item>
+        <item>ආරෝපණය වන විට ප්‍රතිශතය පෙන්වන්න (පෙරනිමි)</item>
+        <item>මෙම නිරූපකය නොපෙන්වන්න</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>පද්ධති තේරීම භාවිත කරන්න (පෙරනිමි)</item>
+        <item>බිටු 16/නියැදිය</item>
+        <item>බිටු 24/නියැදිය</item>
+        <item>බිටු 32/නියැදිය</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>පද්ධති තේරීම භාවිත කරන්න (පෙරනිමි)</item>
+        <item>බිටු 16/නියැදිය</item>
+        <item>බිටු 24/නියැදිය</item>
+        <item>බිටු 32/නියැදිය</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>පද්ධති තේරීම භාවිත කරන්න (පෙරනිමි)</item>
+        <item>ඒකල</item>
+        <item>ස්ටීරියෝ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>පද්ධති තේරීම භාවිත කරන්න (පෙරනිමි)</item>
+        <item>ඒකල</item>
+        <item>ස්ටීරියෝ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>ශ්‍රව්‍ය ගුණත්වය සඳහා ප්‍රශස්ත කරන ලදී</item>
+        <item>සමබර ශ්‍රව්‍ය සහ සබැඳුම් ගුණත්වය</item>
+        <item>සබැඳුම් ගුණත්වය සඳහා ප්‍රශස්ත කරන ලදී</item>
+        <item>හොඳම වෑයම (අනුවර්තී බිට් අනුපාතය)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>ශ්‍රව්‍ය ගුණත්වය සඳහා ප්‍රශස්ත කරන ලදී (990kbps/909kbps)</item>
+        <item>සමබර ශ්‍රව්‍ය සහ සබැඳුම් ගුණත්වය (660kbps/606kbps)</item>
+        <item>සබැඳුම් ගුණත්වය සඳහා ප්‍රශස්ත කරන ලදී (330kbps/303kbps)</item>
+        <item>හොඳම වෑයම (අනුවර්තී බිට් අනුපාතය)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>පද්ධති තේරීම භාවිත කරන්න (පෙරනිමි)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>පද්ධති තේරීම භාවිත කරන්න (පෙරනිමි)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>පද්ධති තේරීම භාවිත කරන්න (පෙරනිමි)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ශ්‍රව්‍යය</item>
+        <item>Qualcomm® aptX™ HD ශ්‍රව්‍යය</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>පද්ධති තේරීම භාවිත කරන්න (පෙරනිමි)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ශ්‍රව්‍යය</item>
+        <item>Qualcomm® aptX™ HD ශ්‍රව්‍යය</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, ක්‍රියාකාරී</item>
+        <item>, ක්‍රියාකාරී (මාධ්‍ය)</item>
+        <item>, ක්‍රියාකාරී (දුරකථන)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (පෙරනිමි)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (පෙරනිමි)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>අබලයි</item>
+        <item>සබල පෙරහන් කළ</item>
+        <item>සබලයි</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>පැය, මිනිත්තු, සහ තත්පර පෙන්වන්න</item>
+        <item>පැය සහ මිනිත්තු පෙන්වන්න (පෙරනිමි)</item>
+        <item>මෙම නිරූපකය නොපෙන්වන්න</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>වැඩිදියුණු කරන ලද වර්ණ</item>
+        <item>ඇස දකින ස්වභාවික වර්ණ</item>
+        <item>ඩිජිටල් අන්තර්ගතය සඳහා වර්ණ ප්‍රශස්ත කරන ලද</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>දීප්තිමත් (පෙරනිමිය)</item>
+        <item>ස්වභාවික</item>
+        <item>සම්මත</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>අක්‍රියයි</item>
+        <item>වැඩිකොට දක්වනවා ඇති ප්‍රදේශ පෙන්වන්න</item>
+        <item>අපවිෂවීම සඳහා ප්‍රදේශ පෙන්වන්න</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>කිසිවක් නැත</item>
+        <item>Logcat</item>
+        <item>Systrace (චිත්‍රක)</item>
+        <item>glGetError මත ඇමතීමේ අට්ටිය</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>කිසිවිටෙකත් HDCP පරීක්ෂාකිරීම භාවිතා නොකරන්න</item>
+        <item>DRM අන්තර්ගත සඳහා පමණක් HDCP පරික්ෂාව භාවිතා කරන්න</item>
+        <item>සැමවිටම HDCP පිරික්සුම භාවිතා කරන්න</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>කිසිදා පරික්ෂා නොකරන්න</item>
+        <item>DRM අන්තර්ගතය සඳහා පමණක් පිරික්සන්න</item>
+        <item>සැමවිටම පරික්ෂා කරන්න</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>පසුරු පුවරුව</item>
+        <item>යතුරු කේතය</item>
+        <item>තහවුරු කිරීම කරකවන්න, යතුරු පුවරු මාරුව</item>
+        <item>කිසිවක් නැත</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>සාමාන්‍ය</item>
+        <item>සංයුක්ත</item>
+        <item>වමට-හැරුණු</item>
+        <item>දකුණට-හැරුණු</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>කිසිවක් නැත</item>
+        <item>480p</item>
+        <item>480p (ආරක්ෂිත)</item>
+        <item>720p</item>
+        <item>720p (ආරක්ෂිත)</item>
+        <item>1080p</item>
+        <item>1080p (ආරක්ෂිත)</item>
+        <item>4K</item>
+        <item>4K (ආරක්ෂිත)</item>
+        <item>4K (පරිමාණය වැඩි කළ)</item>
+        <item>4K (පරිමාණය වැඩි කළ, ආරක්ෂිත)</item>
+        <item>720p, 1080p (ද්විත්ව තිරය)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ක්‍රියාවිරහිතය</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ක්‍රියාවිරහිතය</item>
+        <item>ලොග අන්තරාවකට 64K</item>
+        <item>ලොග අන්තරාවකට 256K</item>
+        <item>ලොග අන්තරාවකට 1M</item>
+        <item>ලොග අන්තරාවකට 4M</item>
+        <item>ලොග අන්තරාවකට 8M</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ක්‍රියාවිරහිතය</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ක්‍රියාවිරහිතයි</item>
+        <item>සියලු ලොග අන්තරාචය</item>
+        <item>සියලු නමුත් රේඩියෝ ලොග අන්තරාචය</item>
+        <item>කර්නල ලොග් අන්තරාචය පමණි</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ක්‍රියාවිරහිතය</item>
+        <item>සියලු</item>
+        <item>සැම වුවද රේඩි.</item>
+        <item>කර්නල පමණි</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>අක්‍රියව ඇත</item>
+        <item>ඍජුකෝණාස‍්‍ර-නොවන ක්ලිප් ප්‍රදේශය නිල් පාටින් අදින්න</item>
+        <item>පරික්ෂා කරන ලද ඇඳීමේ විධාන කොළ පැහැයෙන් ඉස්මතු කරන්න</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>නොමැත</item>
+        <item>අක්‍රියයි</item>
+        <item>සක්‍රියයි</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>අක්‍රියයි</item>
+        <item>තිරයෙහි පටි ලෙස</item>
+        <item>adb shell dumpsys gfxinfo තුළ</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>සජීවිකරණ අක්‍රියයි</item>
+        <item>සජීවීකරණ පරිමාණය .5x</item>
+        <item>සජීවීකරණ පරිමාණය 1x</item>
+        <item>සජීවීකරණ පරිමාණය 1.5x</item>
+        <item>සජිවිකරණ පරාසය 2x</item>
+        <item>සජීවිකරණ පරිමාණය 5x</item>
+        <item>සජීවිතා පරාසය 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ඉතා මන්දගාමී</item>
+        <item>මන්දගාමී</item>
+        <item>සාමාන්‍ය</item>
+        <item>වේගවත්</item>
+        <item>වේශවත්</item>
+        <item>ඉතා වේගවත්</item>
+        <item>ශීඝ්‍ර</item>
+        <item>ඉතා ශීඝ්‍ර</item>
+        <item>ඉතාම වේගවත්</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>ආරෝපණය වෙමින්</item>
+        <item>MTP (මාධ්‍ය මාරු කිරීමේ ප්‍රොටෝකෝලය)</item>
+        <item>PTP (පින්තූර මාරු කිරීමේ ප්‍රොටෝකෝලය)</item>
+        <item>RNDIS (USB ඊතර නෙට්)</item>
+        <item>ශ්‍රව්‍ය මූලය</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>පරිලෝකනය කරමින්…</item>
+        <item>සම්බන්ධ වෙමින්…</item>
+        <item>සත්‍යාපනය වෙමින්…</item>
+        <item>IP ලිපිනය ලබාගනිමින්…</item>
+        <item>සම්බන්ධිතයි</item>
+        <item>අත්හිටුවන ලදි</item>
+        <item>විසන්ධි වෙමින්…</item>
+        <item>විසන්ධි වුණි</item>
+        <item>අසාර්ථකයි</item>
+        <item>අවහිර කරන ලදි</item>
+        <item>දුර්වල සම්බන්ධතාවය තාවකාලිකව මඟහරිමින්</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>පරිලෝකනය කරමින්…</item>
+        <item>%1$s වෙත සම්බන්ධ වෙමින්…</item>
+        <item>%1$s සමග සත්‍යාපනය කරමින්…</item>
+        <item>%1$s මගින් IP ලිපිනය ලබා ගනිමින්</item>
+        <item>%1$s වෙත සම්බන්ධ වුණි</item>
+        <item>අත්හිටුවන ලදි</item>
+        <item>%1$s වෙතින් විසන්ධි වෙමින්…</item>
+        <item>විසන්ධි විය</item>
+        <item>අසාර්ථකයි</item>
+        <item>අවහිර කරන ලදි</item>
+        <item>දුර්වල සම්බන්ධතාවය තාවකාලිකව මඟහරිමින්</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>ස්කෑන් කරමින්…</item>
+        <item>සබැඳෙමින්…</item>
+        <item>සත්‍යාපනය කරමින්…</item>
+        <item>IP ලිපිනය ලබා ගනිමින්…</item>
+        <item>සම්බන්ධිතයි</item>
+        <item>තහනම් කරන ලදි</item>
+        <item>විසන්ධි වෙමින්…</item>
+        <item>විසන්ධි විය</item>
+        <item>අසාර්ථකයි</item>
+        <item>අවහිරයි</item>
+        <item>දුර්වල සම්බන්ධතාව තාවකාලිකව මග හරිමින්</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>සජිවිකරණය අක්‍රිය කිරීම</item>
+        <item>සජීවීකරණ පරිමාණය .5x</item>
+        <item>සජීවීකරණ පරිමාණය 1x</item>
+        <item>සජීවීකරණ පරිමාණය 1.5x</item>
+        <item>සජීවීකරණ පරිමාණය 2x</item>
+        <item>සජීවිකරණ පරිමාණය 5x</item>
+        <item>සජීවිතා පරාසය 10x</item>
+    </string-array>
+</resources>

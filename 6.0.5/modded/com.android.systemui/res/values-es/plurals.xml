@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">hace %d días</item>
+        <item quantity="one">hace %d día</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">hace %d minutos</item>
+        <item quantity="one">hace %d minuto</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">hace %d años</item>
+        <item quantity="one">hace %d año</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Se han añadido %s controles.</item>
+        <item quantity="one">Se ha añadido %s control.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Introduce el PIN de la tarjeta SIM. Te quedan %d intentos.</item>
+        <item quantity="one">Introduce el PIN de la tarjeta SIM. Te queda %d intento para tener que ponerte en contacto con tu operador para desbloquear el dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">La tarjeta SIM está inhabilitada. Introduce el código PUK para continuar. Te quedan %d intentos para que la tarjeta SIM quede inservible de forma permanente. Ponte en contacto con tu operador para obtener más información.</item>
+        <item quantity="one">La tarjeta SIM está inhabilitada. Introduce el código PUK para continuar. Te queda %d intento para que la tarjeta SIM quede inservible de forma permanente. Ponte en contacto con tu operador para obtener más información.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">El código PIN de la tarjeta SIM es incorrecto. Quedan %d intentos.</item>
+        <item quantity="one">El código PIN de la tarjeta SIM es incorrecto. Queda %d intento para tener que ponerte en contacto con tu operador para desbloquear el dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">El código PUK de la tarjeta SIM es incorrecto. Quedan %d intentos paraa que la tarjeta SIM no se pueda utilizar de forma permanente.</item>
+        <item quantity="one">El código PUK de la tarjeta SIM es incorrecto. Queda %d intento para que la tarjeta SIM no se pueda utilizar de forma permanente.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Vuelve a intentarlo en %d segundos.</item>
+        <item quantity="one">Vuelve a intentarlo en 1 segundo.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificaciones nuevas</item>
+        <item quantity="one">%d notificación nueva</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s notificaciones más dentro.</item>
+        <item quantity="one">%s notificación más dentro.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d dispositivos</item>
+        <item quantity="one">%d dispositivo</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Puedes añadir hasta %d usuarios.</item>
+        <item quantity="one">Solo se puede crear un usuario.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d dispositivos conectados</item>
+        <item quantity="one">%1$d dispositivo conectado</item>
+    </plurals>
+</resources>

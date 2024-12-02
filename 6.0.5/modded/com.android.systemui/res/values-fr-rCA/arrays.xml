@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animation désactivée</item>
+        <item>"Échelle d'animation 0,5x"</item>
+        <item>"Échelle d'animation 1x"</item>
+        <item>"Échelle d'animation 1,5x"</item>
+        <item>"Échelle d'animation 2x"</item>
+        <item>"Échelle d'animation 5x"</item>
+        <item>"Échelle d'animation 10x"</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Limite standard</item>
+        <item>Aucun processus en arrière-plan</item>
+        <item>Un processus maximum</item>
+        <item>Deux processus maximum</item>
+        <item>Trois processus maximum</item>
+        <item>Quatre processus maximum</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Toujours afficher le pourcentage</item>
+        <item>Montrer le pourcentage durant la charge (par défaut)</item>
+        <item>Ne pas afficher cette icône</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Utiliser sélect. du système (par défaut)</item>
+        <item>16 bits par échantillon</item>
+        <item>24 bits par échantillon</item>
+        <item>32 bits par échantillon</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Utiliser sélect. du système (par défaut)</item>
+        <item>16 bits par échantillon</item>
+        <item>24 bits par échantillon</item>
+        <item>32 bits par échantillon</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Utiliser sélect. du système (par défaut)</item>
+        <item>Mono</item>
+        <item>Stéréo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Utiliser sélect. du système (par défaut)</item>
+        <item>Mono</item>
+        <item>Stéréo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimisé pour la qualité audio</item>
+        <item>Qualité audio et de la connexion équilibrée</item>
+        <item>Optimisé pour la qualité de connexion</item>
+        <item>Meilleur effort (débit adaptatif)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimisé pour la qualité audio (990 kbps/909 kbps)</item>
+        <item>Qualité audio et de la connexion équilibrée (660 kbps/606 kbps)</item>
+        <item>Optimisé pour la qualité de connexion (330 kbps/303 kbps)</item>
+        <item>Meilleur effort (débit adaptatif)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Utiliser sélect. du système (par défaut)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Utiliser sélect. du système (par défaut)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Utiliser sélect. du système (par défaut)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Audio Qualcomm® aptX™</item>
+        <item>Audio Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Utiliser sélect. du système (par défaut)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Audio Qualcomm® aptX™</item>
+        <item>Audio Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, actif</item>
+        <item>, actif (média)</item>
+        <item>, actif (téléphone)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (par défaut)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (valeur par défaut)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Désactivé</item>
+        <item>Filtres activés</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Afficher les heures, les minutes et les secondes</item>
+        <item>Afficher les heures et les minutes (par défaut)</item>
+        <item>Ne pas afficher cette icône</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Couleurs améliorées</item>
+        <item>"Couleurs naturelles, comme l'œil les voit"</item>
+        <item>Couleurs optimisées pour le contenu numérique</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Vibrantes (par défaut)</item>
+        <item>Naturelles</item>
+        <item>Standards</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Désactivé</item>
+        <item>Afficher les zones de conflit</item>
+        <item>Afficher les zones de deutéranomalie</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Aucun</item>
+        <item>Logcat</item>
+        <item>Systrace (graphismes)</item>
+        <item>Appeler une pile sur glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Ne jamais utiliser la vérification HDCP</item>
+        <item>Utiliser la vérification HDCP uniquement pour le contenu GDN</item>
+        <item>Toujours utiliser la vérification HDCP</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Ne jamais vérifier</item>
+        <item>Vérifier le contenu GDN uniquement</item>
+        <item>Toujours vérifier</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Presse-papiers</item>
+        <item>Code de touche</item>
+        <item>Confirmation de rotation, changeur de clavier</item>
+        <item>Aucun</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normale</item>
+        <item>Compacte</item>
+        <item>Alignée à gauche</item>
+        <item>Alignée à droite</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Aucun</item>
+        <item>480p</item>
+        <item>480p (sécurisé)</item>
+        <item>720p</item>
+        <item>720p (sécurisé)</item>
+        <item>1080p</item>
+        <item>1080p (sécurisé)</item>
+        <item>4K</item>
+        <item>4K (sécurisé)</item>
+        <item>4K (adapté à la haute résolution)</item>
+        <item>4K (adapté haute rés., sécurisé)</item>
+        <item>720p, 1080p (double écran)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Désactivé</item>
+        <item>64 ko</item>
+        <item>256 ko</item>
+        <item>1 Mo</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Désactivé</item>
+        <item>64 ko/tampon journal</item>
+        <item>256 Ko/tampon journal</item>
+        <item>1 Mo/tampon journal</item>
+        <item>4 Mo/tampon journal</item>
+        <item>8 Mo par tampon journal</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Désactivé</item>
+        <item>64 ko</item>
+        <item>256 ko</item>
+        <item>1 Mo</item>
+        <item>4 Mo</item>
+        <item>8 Mo</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Désactivé</item>
+        <item>Tous les tampons de journal</item>
+        <item>Tous les tampons de journal sauf celui de la radio</item>
+        <item>tampon journal du noyau uniquement</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Désactivé</item>
+        <item>Tous</item>
+        <item>Tous sauf radio</item>
+        <item>noyau uniquement</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Désactivé</item>
+        <item>Dessiner zone de découpage non rectangulaire en bleu</item>
+        <item>Surligner en vert les commandes de dessin testées</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Non disponible</item>
+        <item>Désactivée</item>
+        <item>Activée</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Non disponible</item>
+        <item>Désactivée</item>
+        <item>Activée</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Non disponible</item>
+        <item>Désactivées</item>
+        <item>Activées</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Non disponible</item>
+        <item>Désactivées</item>
+        <item>Activées</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Non disponible</item>
+        <item>Désactivée</item>
+        <item>Activée</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Non disponible</item>
+        <item>Désactivée</item>
+        <item>Activée</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Non disponible</item>
+        <item>Désactivée</item>
+        <item>Activée</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Non disponible</item>
+        <item>Désactivée</item>
+        <item>Activée</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Non disponible</item>
+        <item>Désactivée</item>
+        <item>Activée</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Non disponible</item>
+        <item>Désactivé</item>
+        <item>Activé</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Désactivé</item>
+        <item>"À l'écran sous forme de barres"</item>
+        <item>Dans adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animation désactivée</item>
+        <item>"Échelle d'animation 0,5x"</item>
+        <item>"Échelle d'animation 1x"</item>
+        <item>"Échelle d'animation 1,5x"</item>
+        <item>"Échelle d'animation 2x"</item>
+        <item>"Échelle d'animation 5x"</item>
+        <item>"Échelle d'animation 10x"</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Très lente</item>
+        <item>Lente</item>
+        <item>Normale</item>
+        <item>Rapide</item>
+        <item>Plus rapide</item>
+        <item>Très rapide</item>
+        <item>Rapide</item>
+        <item>Très rapide</item>
+        <item>La plus rapide</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Charge en cours</item>
+        <item>MTP (Media Transfer Protocol, protocole de transfert de fichiers multimédias)</item>
+        <item>"PTP (Picture Transfer Protocol, protocole de transfert d'images)"</item>
+        <item>RNDIS (Ethernet USB)</item>
+        <item>Source audio</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Recherche…</item>
+        <item>Connexion en cours…</item>
+        <item>Authentification en cours…</item>
+        <item>"Récupération de l'adresse IP…"</item>
+        <item>Connecté</item>
+        <item>Suspendu</item>
+        <item>Déconnexion…</item>
+        <item>Déconnecté</item>
+        <item>Échec</item>
+        <item>Bloqué</item>
+        <item>Mauvaise connexion évitée momentanément</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Recherche…</item>
+        <item>Connexion à %1$s…</item>
+        <item>Authentification avec %1$s…</item>
+        <item>"Obtention de l'adresse IP à partir de %1$s…"</item>
+        <item>Connecté à %1$s</item>
+        <item>Suspendu</item>
+        <item>Déconnexion de %1$s…</item>
+        <item>Déconnecté</item>
+        <item>Échec</item>
+        <item>Bloqué</item>
+        <item>Mauvaise connexion évitée momentanément</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Recherche en cours…</item>
+        <item>Connexion en cours…</item>
+        <item>Authentification en cours…</item>
+        <item>"Récupération de l'adresse IP en cours…"</item>
+        <item>Connecté</item>
+        <item>Suspendu</item>
+        <item>Déconnexion en cours…</item>
+        <item>Déconnecté</item>
+        <item>Échec</item>
+        <item>Bloqué</item>
+        <item>Rejet temporaire des mauvaises connexions</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animation désactivée</item>
+        <item>"Échelle d'animation 0,5x"</item>
+        <item>"Échelle d'animation 1x"</item>
+        <item>"Échelle d'animation 1,5x"</item>
+        <item>"Échelle d'animation 2x"</item>
+        <item>"Échelle d'animation 5x"</item>
+        <item>"Échelle d'animation 10x"</item>
+    </string-array>
+</resources>

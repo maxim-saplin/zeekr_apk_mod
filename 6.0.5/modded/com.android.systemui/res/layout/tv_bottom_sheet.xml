@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bottom_sheet_min_height" android:paddingHorizontal="@dimen/bottom_sheet_padding_horizontal" android:paddingVertical="@dimen/bottom_sheet_padding_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="80.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/bottom_sheet_icon" android:layout_width="@dimen/bottom_sheet_icon_size" android:layout_height="@dimen/bottom_sheet_icon_size" android:tint="@color/bottom_sheet_icon_color" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/bottom_sheet_second_icon" android:layout_width="@dimen/bottom_sheet_icon_size" android:layout_height="@dimen/bottom_sheet_icon_size" android:tint="@color/bottom_sheet_icon_color" android:layout_marginStart="@dimen/bottom_sheet_icon_margin" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/bottom_sheet_padding_horizontal">
+        <TextView android:textAppearance="@style/BottomSheet.TitleText" android:id="@id/bottom_sheet_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_sheet_title_margin_bottom" />
+        <TextView android:textAppearance="@style/BottomSheet.BodyText" android:id="@id/bottom_sheet_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_sheet_details_margin_bottom" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/bottom_sheet_actions_width" android:layout_height="fill_parent">
+        <Button android:id="@id/bottom_sheet_positive_button" style="@style/BottomSheet.ActionItem" />
+        <Space android:layout_width="0.0dip" android:layout_height="@dimen/bottom_sheet_actions_spacing" />
+        <Button android:id="@id/bottom_sheet_negative_button" style="@style/BottomSheet.ActionItem" />
+    </LinearLayout>
+</LinearLayout>

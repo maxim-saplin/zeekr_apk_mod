@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_wifi" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/status_bar_popupwindow_padding_horizontal" android:paddingVertical="17.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/layoutbg" android:background="@drawable/ic_icon_bt_bg_day" android:layout_width="88.0px" android:layout_height="88.0px">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_item_wifi_level" android:layout_width="56.0px" android:layout_height="56.0px" android:src="@drawable/drawable_wifi_0" />
+    </FrameLayout>
+    <TextView android:textSize="36.0px" android:textColor="#ff383a3d" android:id="@id/tv_item_wifi_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="XiaoMi" android:layout_marginStart="36.0px" />
+</LinearLayout>

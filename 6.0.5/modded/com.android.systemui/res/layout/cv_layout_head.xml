@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="664.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pick_left_press" android:layout_width="144.0dip" android:layout_height="144.0dip" android:layout_alignParentTop="true" android:layout_marginStart="36.0dip" android:layout_alignParentStart="true">
+        <ImageView android:layout_gravity="center" android:id="@id/pick_left" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_calendar_left" />
+    </FrameLayout>
+    <TextView android:textSize="48.0sp" android:textColor="@color/calendar_black" android:gravity="center_horizontal" android:id="@id/title" android:paddingTop="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="2023年5月" android:includeFontPadding="false" android:layout_centerHorizontal="true" android:importantForAccessibility="no" android:paddingHorizontal="3.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/title" android:layout_centerHorizontal="true">
+        <TextView android:textSize="28.0sp" android:textColor="@color/calendar_sub_title" android:gravity="center" android:id="@id/lunar_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="癸卯兔年" android:importantForAccessibility="no" />
+        <TextView android:textSize="28.0sp" android:textColor="@color/calendar_sub_title" android:gravity="center" android:id="@id/lunar_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 三月廿九" android:importantForAccessibility="no" android:layout_marginStart="28.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/pick_right_press" android:layout_width="144.0dip" android:layout_height="144.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="36.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/pick_right" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_calendar_right" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Tik hier om kennisgewings weer aan te skakel.</string>
+    <string name="notifications_off_title">Kennisgewings af</string>
+    <string name="status_bar_clear_all_button">Vee alles uit</string>
+</resources>

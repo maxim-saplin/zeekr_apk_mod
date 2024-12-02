@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Tryk her for at slå meddelelser til igen.</string>
+    <string name="notifications_off_title">Meddelelser: fra</string>
+    <string name="status_bar_clear_all_button">Ryd alt</string>
+</resources>

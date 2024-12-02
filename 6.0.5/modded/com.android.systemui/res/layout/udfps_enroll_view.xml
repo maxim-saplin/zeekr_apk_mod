@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.biometrics.UdfpsEnrollView android:id="@id/udfps_animation_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/udfps_enroll_accessibility_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/accessibility_fingerprint_label" />
+    <ImageView android:id="@id/udfps_enroll_animation_fp_progress_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/udfps_enroll_animation_fp_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.systemui.biometrics.UdfpsEnrollView>

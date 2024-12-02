@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$ic_device_blinds_on_anim__6" android:duration="67" android:startOffset="0" android:valueFrom="M7.78 -2 C7.78,-2 -7.75,-2 -7.75,-2 C-7.75,-2 -7.75,12.15 -7.75,12.15 C-7.75,12.15 7.78,12.15 7.78,12.15 C7.78,12.15 7.78,-2 7.78,-2c " android:valueTo="M7.78 -2 C7.78,-2 -7.75,-2 -7.75,-2 C-7.75,-2 -7.75,12.15 -7.75,12.15 C-7.75,12.15 7.78,12.15 7.78,12.15 C7.78,12.15 7.78,-2 7.78,-2c " android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@drawable/$ic_device_blinds_on_anim__7" android:duration="433" android:startOffset="67" android:valueFrom="M7.78 -2 C7.78,-2 -7.75,-2 -7.75,-2 C-7.75,-2 -7.75,12.15 -7.75,12.15 C-7.75,12.15 7.78,12.15 7.78,12.15 C7.78,12.15 7.78,-2 7.78,-2c " android:valueTo="M7.78 -7 C7.78,-7 -7.75,-7 -7.75,-7 C-7.75,-7 -7.75,7.15 -7.75,7.15 C-7.75,7.15 7.78,7.15 7.78,7.15 C7.78,7.15 7.78,-7 7.78,-7c " android:valueType="pathType" android:propertyName="pathData" />
+</set>

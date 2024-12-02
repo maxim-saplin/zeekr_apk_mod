@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/btn_borderless_rect" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/qs_detail_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@android:id/icon" android:layout_width="@dimen/qs_detail_item_icon_width" android:layout_height="@dimen/qs_detail_item_icon_size" android:tint="?android:textColorPrimary" android:layout_marginStart="@dimen/qs_detail_item_icon_marginStart" android:layout_marginEnd="@dimen/qs_detail_item_icon_marginEnd" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.QS.DetailItemPrimary" android:ellipsize="end" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" />
+        <TextView android:textAppearance="@style/TextAppearance.QS.DetailItemSecondary" android:id="@android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:textDirection="locale" />
+    </LinearLayout>
+    <ImageView android:id="@android:id/icon2" android:focusable="true" android:clickable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="center" android:tint="?android:textColorPrimary" android:contentDescription="@android:string/keyboardview_keycode_shift" style="@style/QSBorderlessButton" />
+</LinearLayout>

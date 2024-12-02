@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Докоснете тук, за да включите отново известията.</string>
+    <string name="notifications_off_title">Известията са изключени</string>
+    <string name="status_bar_clear_all_button">Изчистване</string>
+</resources>

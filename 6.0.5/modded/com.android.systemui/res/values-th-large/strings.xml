@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">แตะที่นี่เพื่อเปิดการแจ้งเตือนอีกครั้ง</string>
+    <string name="notifications_off_title">การแจ้งเตือนปิดอยู่</string>
+    <string name="status_bar_clear_all_button">ล้างทั้งหมด</string>
+</resources>

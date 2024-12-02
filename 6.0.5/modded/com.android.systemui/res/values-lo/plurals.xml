@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d ມື້ກ່ອນ</item>
+        <item quantity="one">%d ມື້ກ່ອນ</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d ນທ ກ່ອນ</item>
+        <item quantity="one">%d ນທ ກ່ອນ</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d ປີກ່ອນ</item>
+        <item quantity="one">%d ປີກ່ອນ</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">ເພີ່ມ %s ການຄວບຄຸມແລ້ວ.</item>
+        <item quantity="one">ເພີ່ມ %s ການຄວບຄຸມແລ້ວ.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">ລະຫັດ SIM PIN ບໍ່ຖືກຕ້ອງ. ທ່ານສາມາດລອງໄດ້ອີກ %d ເທື່ອ.</item>
+        <item quantity="one">ໃສ່ລະຫັດ SIM PIN. ທ່ານສາມາດລອງໄດ້ອີກ %d ເທື່ອກ່ອນທີ່ຈະຕ້ອງຕິດຕໍ່ຜູ້ໃຫ້ບໍລິການເພື່ອປົດລັອກ.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">ຕອນນີ້ປິດການນຳໃຊ້ SIM ແລ້ວ. ໃສ່ລະຫັດ PUK ເພື່ອດຳເນີນການຕໍ່. ທ່ານສາມາດລອງໄດ້ອີກ %d ເທື່ອກ່ອນທີ່ SIM ຈະບໍ່ສາມາດໃຊ້ໄດ້ຖາວອນ. ກະລຸນາຕິດຕໍ່ຜູ້ໃຫ້ບໍລິການສຳລັບລາຍລະອຽດ.</item>
+        <item quantity="one">ຕອນນີ້ປິດການນຳໃຊ້ SIM ແລ້ວ. ໃສ່ລະຫັດ PUK ເພື່ອດຳເນີນການຕໍ່. ທ່ານສາມາດລອງໄດ້ອີກ %d ເທື່ອກ່ອນທີ່ SIM ຈະບໍ່ສາມາດໃຊ້ໄດ້ຖາວອນ. ກະລຸນາຕິດຕໍ່ຜູ້ໃຫ້ບໍລິການສຳລັບລາຍລະອຽດ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ລະຫັດ SIM PIN ບໍ່ຖືກຕ້ອງ, ທ່ານຍັງພະຍາຍາມໄດ້ອີກ %d ຄັ້ງ.</item>
+        <item quantity="one">ລະຫັດ PIN ຂອງ SIM ບໍ່ຖືກຕ້ອງ, ທ່ານສາມາດລອງໄດ້ອີກ %d ເທື່ອກ່ອນທີ່ທ່ານຈະຕ້ອງຕິດຕໍ່ຫາຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ເພື່ອປົດລັອກອຸປະກອນຂອງທ່ານ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ລະຫັດ PUK ຂອງ SIM ບໍ່ຖືກຕ້ອງ, ທ່ານສາມາດລອງໄດ້ອີກ %d ເທື່ອກ່ອນທີ່ SIM ຂອງທ່ານຈະໃຊ້ບໍ່ໄດ້ຢ່າງຖາວອນ.</item>
+        <item quantity="one">ລະຫັດ PUK ຂອງ SIM ບໍ່ຖືກຕ້ອງ, ທ່ານສາມາດລອງໄດ້ອີກ %d ເທື່ອກ່ອນທີ່ SIM ຂອງທ່ານຈະໃຊ້ບໍ່ໄດ້ຢ່າງຖາວອນ.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">ລອງໃໝ່ໃນອີກ %d ວິນາທີ.</item>
+        <item quantity="one">ລອງໃໝ່ໃນອີກ 1 ວິນາທີ.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ການແຈ້ງເຕືອນໃໝ່</item>
+        <item quantity="one">%d ການແຈ້ງເຕືອນໃໝ່</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ມີ %s ການແຈ້ງເຕືອນເພີ່ມເຕີມຢູ່ທາງໃນ.</item>
+        <item quantity="one">ມີ %s ການແຈ້ງເຕືອນເພີ່ມເຕີມຢູ່ທາງໃນ.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d ອຸປະກອນ</item>
+        <item quantity="one">%d ອຸປະກອນ</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ຊົ່ວໂມງ</item>
+        <item quantity="one">%d ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d ນາທີ</item>
+        <item quantity="one">%d ນາທີ</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">ທ່ານສາມາດເພີ່ມໄດ້ສູງສຸດ %d ຄົນ.</item>
+        <item quantity="one">ສາມາດສ້າງໄດ້ໜຶ່ງຜູ້ໃຊ້ເທົ່ານັ້ນ.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">ເຊື່ອມຕໍ່ %1$d ອຸປະກອນແລ້ວ</item>
+        <item quantity="one">ເຊື່ອມຕໍ່ %1$d ອຸປະກອນແລ້ວ</item>
+    </plurals>
+</resources>

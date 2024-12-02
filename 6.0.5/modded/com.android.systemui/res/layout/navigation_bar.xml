@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.navigationbar.NavigationBarView android:id="@id/navigation_bar_view" android:background="@drawable/system_bar_background" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.navigationbar.NavigationBarInflaterView android:id="@id/navigation_inflater" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.systemui.navigationbar.NavigationBarView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d दिवसांपूर्वी</item>
+        <item quantity="one">%d दिवसापूर्वी</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d मिनिटांपूर्वी</item>
+        <item quantity="one">%d मिनिटापूर्वी</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d वर्षांपूर्वी</item>
+        <item quantity="one">%d वर्षापूर्वी</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s नियंत्रणे जोडली.</item>
+        <item quantity="one">%s नियंत्रण जोडले.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">सिम पिन एंटर करा, तुमच्याकडे %d प्रयत्न शिल्लक आहेत.</item>
+        <item quantity="one">सिम पिन एंटर करा. तुम्ही तुमचे डिव्‍हाइस अनलॉक करण्‍यासाठी तुमच्या वाहकाशी संपर्क साधण्‍यापूर्वी, तुमच्याकडे %d प्रयत्न शिल्लक आहे.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">सिम आता बंद केलेले आहे. सुरू ठेवण्यासाठी PUK कोड टाका. सिम कायमचे बंद होण्याआधी तुमच्याकडे %d प्रयत्न शिल्लक आहेत. तपशीलांसाठी वाहकाशी संपर्क साधा.</item>
+        <item quantity="one">सिम आता बंद केलेले आहे. सुरू ठेवण्यासाठी PUK कोड टाका. सिम कायमचे बंद होण्याआधी तुमच्याकडे %d प्रयत्न शिल्लक आहे. तपशीलांसाठी वाहकाशी संपर्क साधा.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">चुकीचा सिम पिन कोड, तुमच्याकडे %d प्रयत्न शिल्लक आहेत.</item>
+        <item quantity="one">चुकीचा सिम पिन कोड, तुमचे डिव्हाइस अनलॉक करण्‍यासाठी तुमच्या वाहकाशी संपर्क साधण्‍यापूर्वी तुमच्याकडे %d प्रयत्न शिल्लक आहेत.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">चुकीचा सिम PUK कोड, सिम कायमचे निरुपयोगी होण्यापूर्वी आपल्याकडे %d प्रयत्न शिल्लक आहेत.</item>
+        <item quantity="one">चुकीचा सिम PUK कोड, सिम कायमचे निरुपयोगी होण्यापूर्वी आपल्याकडे %d प्रयत्न शिल्लक आहे.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d सेकंदांत पुन्हा प्रयत्न करा.</item>
+        <item quantity="one">एका सेकंदात पुन्‍हा प्रयत्न करा.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d नवीन सूचना</item>
+        <item quantity="one">%d नवीन सूचना</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">आत आणखी %s सूचना.</item>
+        <item quantity="one">आत आणखी %s सूचना.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d डिव्हाइस</item>
+        <item quantity="one">%d डिव्हाइस</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d तास</item>
+        <item quantity="one">%d तास</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d मिनिटे</item>
+        <item quantity="one">%d मिनिट</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">तुम्ही %d वापरकर्त्यांपर्यंत जोडू शकता.</item>
+        <item quantity="one">फक्त एक वापरकर्ता तयार केला जाऊ शकतो.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d डिव्हाइस कनेक्ट केली आहेत</item>
+        <item quantity="one">%1$d डिव्हाइस कनेक्ट केले आहे</item>
+    </plurals>
+</resources>

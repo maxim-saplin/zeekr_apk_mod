@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Teatiste uuesti sisselülitamiseks koputage siia.</string>
+    <string name="notifications_off_title">Teatised väljas</string>
+    <string name="status_bar_clear_all_button">Kust. kõik</string>
+</resources>

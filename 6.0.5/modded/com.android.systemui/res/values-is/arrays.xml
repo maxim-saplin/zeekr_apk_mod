@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Slökkva á hreyfiáhrifum</item>
+        <item>Lengd hreyfiáhrifa 0,5x</item>
+        <item>Lengd hreyfiáhrifa 1x</item>
+        <item>Lengd hreyfiáhrifa 1,5x</item>
+        <item>Lengd hreyfiáhrifa 2x</item>
+        <item>Lengd hreyfiáhrifa 5x</item>
+        <item>Lengd hreyfiáhrifa 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Venjulegt hámark</item>
+        <item>Engar bakgrunnsvinnslur</item>
+        <item>Að hámarki 1 vinnsla</item>
+        <item>Að hámarki 2 vinnslur</item>
+        <item>Að hámarki 3 vinnslur</item>
+        <item>Að hámarki 4 vinnslur</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Sýna alltaf hlutfall</item>
+        <item>Sýna hlutfall meðan á hleðslu stendur (sjálfgefið)</item>
+        <item>Ekki sýna þetta tákn</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Nota val kerfisins (sjálfgefið)</item>
+        <item>16 bitar/úrtak</item>
+        <item>24 bitar/úrtak</item>
+        <item>32 bitar/úrtak</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Nota val kerfisins (sjálfgefið)</item>
+        <item>16 bitar/úrtak</item>
+        <item>24 bitar/úrtak</item>
+        <item>32 bitar/úrtak</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Nota val kerfisins (sjálfgefið)</item>
+        <item>Einóma</item>
+        <item>Víðóma</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Nota val kerfisins (sjálfgefið)</item>
+        <item>Einóma</item>
+        <item>Víðóma</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Fínstillt fyrir hljóðgæði</item>
+        <item>Jafnvægi á milli gæða hljóðs og tengingar</item>
+        <item>Fínstillt fyrir gæði tengingar</item>
+        <item>Bestu mögulegu gæði (breytilegur bitahraði)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Fínstillt fyrir hljóðgæði (990kbps/909kbps)</item>
+        <item>Jafnvægi á milli gæða hljóðs og tengingar (660 kbps / 606 kbps)</item>
+        <item>Fínstillt fyrir gæði tengingar (330kbps/303kbps)</item>
+        <item>Bestu mögulegu gæði (breytilegur bitahraði)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Nota val kerfisins (sjálfgefið)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Nota val kerfisins (sjálfgefið)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Nota val kerfisins (sjálfgefið)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ hljóð</item>
+        <item>Qualcomm® aptX™ HD hljóð</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Nota val kerfisins (sjálfgefið)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ hljóð</item>
+        <item>Qualcomm® aptX™ HD hljóð</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, virkt</item>
+        <item>, virkt (hljóð- og myndefni)</item>
+        <item>, virkt (sími)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (sjálfgefið)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (sjálfgefið)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Slökkt</item>
+        <item>Kveikt á síuðu</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Sýna klukkustundir, mínútur og sekúndur</item>
+        <item>Sýna klukkustundir og mínútur (sjálfgefið)</item>
+        <item>Ekki sýna þetta tákn</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Áhrifaríkir litir</item>
+        <item>Náttúrulegir litir eins og augað nemur þá</item>
+        <item>Litir sérhannaðir fyrir stafrænt efni</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Líflegir (sjálfgefið)</item>
+        <item>Náttúrulegir</item>
+        <item>Hefðbundnir</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Slökkt</item>
+        <item>Sýna yfirteiknuð svæði</item>
+        <item>Sýna svæði fyrir litblinda</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ekkert</item>
+        <item>Logcat</item>
+        <item>Systrace (grafík)</item>
+        <item>Kallastafli á glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nota aldrei HDCP-eftirlit</item>
+        <item>Nota HDCP-athugun aðeins fyrir höfundarréttarvarið efni</item>
+        <item>Nota alltaf HDCP-eftirlit</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Athuga aldrei</item>
+        <item>Athuga aðeins höfundarréttarvarið efni</item>
+        <item>Athuga alltaf</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Klippiborð</item>
+        <item>Lykilkóði</item>
+        <item>Snúa til að staðfesta, lyklaborðsval</item>
+        <item>Ekkert</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Venjulegt</item>
+        <item>Þjappað</item>
+        <item>Hallar til vinstri</item>
+        <item>Hallar til hægri</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ekkert</item>
+        <item>480p</item>
+        <item>480p (öruggt)</item>
+        <item>720p</item>
+        <item>720p (öruggt)</item>
+        <item>1080p</item>
+        <item>1080p (öruggt)</item>
+        <item>4K</item>
+        <item>4K (öruggt)</item>
+        <item>4K (stækkað)</item>
+        <item>4K (stækkað, öruggt)</item>
+        <item>720p, 1080p (tvískiptur skjár)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Slökkt</item>
+        <item>64 k</item>
+        <item>256 k</item>
+        <item>1 M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Slökkt</item>
+        <item>64 k/biðminni</item>
+        <item>256 k/biðminni</item>
+        <item>1 M/biðminni</item>
+        <item>4 M/biðminni</item>
+        <item>8 M/biðminni</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Slökkt</item>
+        <item>64 k</item>
+        <item>256 k</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>8 M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Slökkt</item>
+        <item>Allt biðminni</item>
+        <item>Allt nema útvarpsbiðminni</item>
+        <item>einungis kjarnaannálabiðminni</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Slökkt</item>
+        <item>Allt</item>
+        <item>Allt n. útvarp</item>
+        <item>einungis kjarni</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Slökkt</item>
+        <item>Teikna klippt svæði sem ekki er rétthyrnt með bláu</item>
+        <item>Auðkenna prófaðar teikniskipanir með grænu</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Ekki í boði</item>
+        <item>Slökkt</item>
+        <item>Kveikt</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Slökkt</item>
+        <item>Á skjánum sem stikur</item>
+        <item>Í adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Slökkt á hreyfiáhrifum</item>
+        <item>Lengd hreyfiáhrifa 5x</item>
+        <item>Lengd hreyfiáhrifa 1x</item>
+        <item>Lengd hreyfiáhrifa 1,5x</item>
+        <item>Lengd hreyfiáhrifa 2x</item>
+        <item>Lengd hreyfiáhrifa 5x</item>
+        <item>Lengd hreyfiáhrifa 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Mjög hægt</item>
+        <item>Hægt</item>
+        <item>Venjulegt</item>
+        <item>Hratt</item>
+        <item>Hraðar</item>
+        <item>Mjög hratt</item>
+        <item>Leifturhratt</item>
+        <item>Næsthraðast</item>
+        <item>Hraðast</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Í hleðslu</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Audio Source</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Leitar…</item>
+        <item>Tengist…</item>
+        <item>Auðkennir…</item>
+        <item>Sækir IP-tölu…</item>
+        <item>Tengt</item>
+        <item>Lokað</item>
+        <item>Aftengist…</item>
+        <item>Aftengt</item>
+        <item>Mistókst</item>
+        <item>Læst</item>
+        <item>Forðast lélega tengingu tímabundið</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Leitar…</item>
+        <item>Tengist %1$s…</item>
+        <item>Auðkennir á %1$s…</item>
+        <item>Sækir IP-tölu frá %1$s…</item>
+        <item>Tengt við %1$s</item>
+        <item>Lokað</item>
+        <item>Aftengist %1$s…</item>
+        <item>Aftengt</item>
+        <item>Mistókst</item>
+        <item>Læst</item>
+        <item>Forðast lélega tengingu tímabundið</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Leitar…</item>
+        <item>Tengist…</item>
+        <item>Auðkennir…</item>
+        <item>Sækir IP-tölu…</item>
+        <item>Tengt</item>
+        <item>Í bið</item>
+        <item>Aftengist…</item>
+        <item>Aftengt</item>
+        <item>Mistókst</item>
+        <item>Lokað</item>
+        <item>Forðast lélega tengingu tímabundið</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Slökkt á hreyfiáhrifum</item>
+        <item>Lengd hreyfiáhrifa 5x</item>
+        <item>Lengd hreyfiáhrifa 1x</item>
+        <item>Lengd hreyfiáhrifa 1,5x</item>
+        <item>Lengd hreyfiáhrifa 2x</item>
+        <item>Lengd hreyfiáhrifa 5x</item>
+        <item>Lengd hreyfiáhrifa 10x</item>
+    </string-array>
+</resources>

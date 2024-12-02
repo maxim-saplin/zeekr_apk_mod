@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_account" android:layout_width="104.0px" android:layout_height="104.0px" android:src="@drawable/icon_user_nologin_day" />
+    <TextView android:textSize="32.0px" android:id="@id/tv_account" android:layout_width="wrap_content" android:layout_height="48.0px" android:text="未登录" android:layout_toRightOf="@id/layout_account" android:layout_marginStart="32.0px" app:layout_constraintBottom_toTopOf="@id/tv_car_owner" app:layout_constraintLeft_toRightOf="@id/iv_account" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="28.0px" android:textColor="@color/white" android:id="@id/tv_car_owner" android:background="@drawable/bg_user_account_car_owner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0px" android:text="@string/status_bar_user_car_owner" android:paddingHorizontal="14.0px" android:paddingVertical="4.0px" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/tv_account" app:layout_constraintLeft_toRightOf="@id/iv_account" app:layout_constraintTop_toBottomOf="@id/tv_account" />
+</androidx.constraintlayout.widget.ConstraintLayout>

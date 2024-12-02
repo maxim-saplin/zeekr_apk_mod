@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">알림을 다시 사용하려면 여기를 터치하세요.</string>
+    <string name="notifications_off_title">알림 사용 안함</string>
+    <string name="status_bar_clear_all_button">모두 지우기</string>
+</resources>

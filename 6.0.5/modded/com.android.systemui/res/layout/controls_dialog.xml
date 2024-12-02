@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center_horizontal" android:id="@id/control" android:layout_width="@dimen/controls_dialog_control_width" android:layout_height="@dimen/control_height" android:layout_marginTop="@dimen/controls_dialog_padding" android:layout_marginBottom="@dimen/controls_dialog_padding" layout="@layout/controls_base_item" />
+</FrameLayout>

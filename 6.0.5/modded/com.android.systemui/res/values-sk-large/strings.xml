@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Klepnutím sem upozornenia znova povolíte.</string>
+    <string name="notifications_off_title">Upozornenia sú vypnuté</string>
+    <string name="status_bar_clear_all_button">Vymazať všetko</string>
+</resources>

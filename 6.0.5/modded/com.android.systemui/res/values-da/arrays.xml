@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animation fra</item>
+        <item>Animationsskala 0,5x</item>
+        <item>Animationsskala 1x</item>
+        <item>Animationsskala 1,5x</item>
+        <item>Animationsskala 2x</item>
+        <item>Animationsskala 5x</item>
+        <item>Animationsskala 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standardgrænse</item>
+        <item>Ingen baggrundsprocesser</item>
+        <item>Højst 1 proces</item>
+        <item>Højst 2 processer</item>
+        <item>Højst 3 processer</item>
+        <item>Højst 4 processer</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Vis altid procent</item>
+        <item>Vis procent ved opladning (standard)</item>
+        <item>Vis ikke dette ikon</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Brug systemvalg (standard)</item>
+        <item>16 bit pr. eksempel</item>
+        <item>24 bit pr. eksempel</item>
+        <item>32 bit pr. eksempel</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Brug systemvalg (standard)</item>
+        <item>16 bit pr. eksempel</item>
+        <item>24 bit pr. eksempel</item>
+        <item>32 bit pr. eksempel</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Brug systemvalg (standard)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Brug systemvalg (standard)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimeret til lydkvalitet</item>
+        <item>Afbalancer lyd- og forbindelseskvalitet</item>
+        <item>Optimeret til forbindelseskvalitet</item>
+        <item>Bedste resultat (tilpasset bithastighed)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimeret til lydkvalitet (990 kbps/909 kbps)</item>
+        <item>Afbalancer lyd- og forbindelseskvalitet (660 kbps/606 kbps)</item>
+        <item>Optimeret til forbindelseskvalitet (330 kbps/303 kbps)</item>
+        <item>Bedste resultat (tilpasset bithastighed)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Brug systemvalg (standard)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Brug systemvalg (standard)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Brug systemvalg (standard)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™-lyd</item>
+        <item>Qualcomm® aptX™ HD-lyd</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Brug systemvalg (standard)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™-lyd</item>
+        <item>Qualcomm® aptX™ HD-lyd</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktiv</item>
+        <item>, aktiv (medier)</item>
+        <item>, aktiv (telefon)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (standard)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (standard)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Deaktiveret</item>
+        <item>Filtreret er aktiveret</item>
+        <item>Aktiveret</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Vis timer, minutter og sekunder</item>
+        <item>Vis timer og minutter (standard)</item>
+        <item>Vis ikke dette ikon</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Forbedrede farver</item>
+        <item>Naturlige farver, som øjet opfatter dem</item>
+        <item>Farver, der er optimeret til digitalt indhold</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Klare (standard)</item>
+        <item>Naturlige</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Fra</item>
+        <item>Vis områder med overlap</item>
+        <item>Vis områder for deuteranomali</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ingen</item>
+        <item>Logcat</item>
+        <item>Systrace (grafik)</item>
+        <item>Kaldestak på glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Brug aldrig HDCP-kontrol</item>
+        <item>Brug kun HDCP-kontrol ved DRM-indhold</item>
+        <item>Brug altid HDCP-kontrol</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Tjek aldrig</item>
+        <item>Tjek kun for DRM-indhold</item>
+        <item>Tjek altid</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Udklipsholder</item>
+        <item>Tastekode</item>
+        <item>Rotationsbekræftelse, tastaturskifter</item>
+        <item>Ingen</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normal</item>
+        <item>Kompakt</item>
+        <item>Venstreorienteret</item>
+        <item>Højreorienteret</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ingen</item>
+        <item>480p</item>
+        <item>480p (sikker)</item>
+        <item>720p</item>
+        <item>720p (sikker)</item>
+        <item>1080p</item>
+        <item>1080p (sikker)</item>
+        <item>4K</item>
+        <item>4K (sikker)</item>
+        <item>4K (opskaleret)</item>
+        <item>4K (opskaleret, sikker)</item>
+        <item>720p, 1080p (dobbelt skærm)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Fra</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Fra</item>
+        <item>64 kB pr. logbuffer</item>
+        <item>256 kB pr. logbuffer</item>
+        <item>1 MB pr. logbuffer</item>
+        <item>4 MB pr. logbuffer</item>
+        <item>8 MB pr. logbuffer</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Fra</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>8 MB</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Fra</item>
+        <item>Alle logbuffere</item>
+        <item>Alle undtagen radiologbuffere</item>
+        <item>kun logbuffer for kerne</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Fra</item>
+        <item>Alle</item>
+        <item>Radio undtaget</item>
+        <item>kun kerne</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Fra</item>
+        <item>Tegn ikke-rektangulært klippeområde med blåt</item>
+        <item>Fremhæv testede tegnekommandoer med grønt</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Ikke tilgængelig</item>
+        <item>Fra</item>
+        <item>Til</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Fra</item>
+        <item>På skærmen som søjler</item>
+        <item>I adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animation fra</item>
+        <item>Animationsskala 0,5x</item>
+        <item>Animationsskala 1x</item>
+        <item>Animationsskala 1,5x</item>
+        <item>Animationsskala 2x</item>
+        <item>Animationsskala 5x</item>
+        <item>Animationsskala 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Meget langsom</item>
+        <item>Langsom</item>
+        <item>Normal</item>
+        <item>Hurtig</item>
+        <item>Hurtigere</item>
+        <item>Meget hurtig</item>
+        <item>Lynhurtig</item>
+        <item>Ekstra lynhurtig</item>
+        <item>Hurtigst</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Oplader</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Lydkilde</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scanner ...</item>
+        <item>Opretter forbindelse...</item>
+        <item>Godkender...</item>
+        <item>Henter IP-adresse…</item>
+        <item>Tilsluttet</item>
+        <item>Sat på pause</item>
+        <item>Afbryder ...</item>
+        <item>Afbrudt</item>
+        <item>Mislykkedes</item>
+        <item>Blokeret</item>
+        <item>Undgår midlertidigt dårlig forbindelse</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scanner ...</item>
+        <item>Opretter forbindelse til %1$s ...</item>
+        <item>Godkender med %1$s ...</item>
+        <item>Henter IP-adresse fra %1$s ...</item>
+        <item>Forbundet til %1$s</item>
+        <item>Sat på pause</item>
+        <item>Afbryder fra %1$s ...</item>
+        <item>Afbrudt</item>
+        <item>Mislykkedes</item>
+        <item>Blokeret</item>
+        <item>Undgår midlertidigt dårlig forbindelse</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Søger…</item>
+        <item>Opretter forbindelse…</item>
+        <item>Godkender…</item>
+        <item>Henter IP-adresse…</item>
+        <item>Forbundet</item>
+        <item>Suspenderet</item>
+        <item>Afbryder…</item>
+        <item>Afbrudt</item>
+        <item>Mislykkedes</item>
+        <item>Blokeret</item>
+        <item>Undgår midlertidigt dårlig forbindelse</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animation fra</item>
+        <item>Animationsskala 0,5x</item>
+        <item>Animationsskala 1x</item>
+        <item>Animationsskala 1,5x</item>
+        <item>Animationsskala 2x</item>
+        <item>Animationsskala 5x</item>
+        <item>Animationsskala 10x</item>
+    </string-array>
+</resources>

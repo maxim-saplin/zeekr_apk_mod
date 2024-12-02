@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$face_dialog_error_to_idle__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="_R_G_L_0_G_D_0_P_0" android:animation="@drawable/$face_dialog_error_to_idle__1" />
+    <target android:name="_R_G_L_0_G_D_1_P_0" android:animation="@drawable/$face_dialog_error_to_idle__4" />
+    <target android:name="_R_G_L_0_G_D_1_P_0" android:animation="@drawable/$face_dialog_error_to_idle__7" />
+    <target android:name="_R_G_L_0_G_D_1_P_0" android:animation="@drawable/$face_dialog_error_to_idle__9" />
+    <target android:name="_R_G_L_0_G_D_1_P_0" android:animation="@drawable/$face_dialog_error_to_idle__11" />
+    <target android:name="_R_G_L_0_G_D_1_P_0" android:animation="@drawable/$face_dialog_error_to_idle__13" />
+    <target android:name="_R_G_L_0_G_D_2_P_0" android:animation="@drawable/$face_dialog_error_to_idle__15" />
+    <target android:name="_R_G_L_0_G_D_2_P_0_G_0_T_0" android:animation="@drawable/$face_dialog_error_to_idle__18" />
+    <target android:name="_R_G_L_0_G_D_2_P_0_G_0_T_0" android:animation="@drawable/$face_dialog_error_to_idle__21" />
+    <target android:name="_R_G_L_0_G_D_3_P_0" android:animation="@drawable/$face_dialog_error_to_idle__26" />
+    <target android:name="_R_G_L_0_G_D_3_P_0_G_0_T_0" android:animation="@drawable/$face_dialog_error_to_idle__29" />
+    <target android:name="_R_G_L_0_G_D_3_P_0_G_0_T_0" android:animation="@drawable/$face_dialog_error_to_idle__32" />
+    <target android:name="_R_G_L_0_G_D_4_P_0" android:animation="@drawable/$face_dialog_error_to_idle__37" />
+    <target android:name="_R_G_L_0_G_D_4_P_0_G_0_T_0" android:animation="@drawable/$face_dialog_error_to_idle__40" />
+    <target android:name="_R_G_L_0_G_D_4_P_0" android:animation="@drawable/$face_dialog_error_to_idle__42" />
+    <target android:name="time_group" android:animation="@drawable/$face_dialog_error_to_idle__45" />
+</animated-vector>

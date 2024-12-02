@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d დღის წინ</item>
+        <item quantity="one">%d დღის წინ</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d წუთის წინ</item>
+        <item quantity="one">%d წუთის წინ</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d წლის წინ</item>
+        <item quantity="one">%d წლის წინ</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">დაემატა %s მართვის საშუალება.</item>
+        <item quantity="one">დაემატა %s მართვის საშუალება.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">შეიყვანეთ SIM ბარათის PIN-კოდი. თქვენ დაგრჩათ %d მცდელობა.</item>
+        <item quantity="one">შეიყვანეთ SIM ბარათის PIN-კოდი. თქვენ დაგრჩათ %d მცდელობა, რომლის შემდეგაც მოწყობილობის განსაბლოკად დაგჭირდებათ თქვენს ოპერატორთან დაკავშირება.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM ბარათი ახლა დეაქტივირებულია. გასაგრძელებლად შეიყვანეთ PUK-კოდი. თქვენ დაგრჩათ %d მცდელობა, სანამ SIM სამუდამოდ გამოუსადეგარი გახდება. დეტალური ინფორმაციისთვის დაუკავშირდით თქვენს ოპერატორს.</item>
+        <item quantity="one">SIM ბარათი ახლა დეაქტივირებულია. გასაგრძელებლად შეიყვანეთ PUK-კოდი. თქვენ დაგრჩათ %d მცდელობა, სანამ SIM სამუდამოდ გამოუსადეგარი გახდება. დეტალური ინფორმაციისთვის დაუკავშირდით თქვენს ოპერატორს.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM ბარათის PIN-კოდი არასწორია. თქვენ დაგრჩათ %d მცდელობა.</item>
+        <item quantity="one">SIM ბარათის PIN-კოდი არასწორია. თქვენ დაგრჩათ %d მცდელობა, რომლის შემდეგაც თქვენი მოწყობილობის განსაბლოკად თქვენს ოპერატორთან დაკავშირება მოგიწევთ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM ბარათის PUK-კოდი არასწორია. თქვენ დაგრჩათ %d მცდელობა, რომელთა შემდეგაც თქვენი SIM სამუდამოდ გამოუსადეგარი გახდება.</item>
+        <item quantity="one">SIM ბარათის PUK-კოდი არასწორია. თქვენ დაგრჩათ %d მცდელობა, რომლის შემდეგაც თქვენი SIM სამუდამოდ გამოუსადეგარი გახდება.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">ცადეთ ხელახლა %d წამში.</item>
+        <item quantity="one">ცადეთ ხელახლა 1 წამში.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ახალი შეტყობინება</item>
+        <item quantity="one">%d ახალი შეტყობინება</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">კიდევ %s შეტყობინება ჯგუფში.</item>
+        <item quantity="one">კიდევ %s შეტყობინება ჯგუფში.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d მოწყობილობა</item>
+        <item quantity="one">%d მოწყობილობა</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d საათი</item>
+        <item quantity="one">%d საათი</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d წუთი</item>
+        <item quantity="one">%d წუთი</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">შესაძლებელია %d-მდე მომხმარებლის დამატება.</item>
+        <item quantity="one">შესაძლებელია მხოლოდ ერთი მომხმარებლის შექმნა.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">დაკავშირებულია %1$d მოწყობილობა</item>
+        <item quantity="one">დაკავშირებულია %1$d მოწყობილობა</item>
+    </plurals>
+</resources>

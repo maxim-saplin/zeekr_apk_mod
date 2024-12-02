@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@drawable/$lock_ls_to_aod__10" android:duration="333" android:startOffset="0" android:valueFrom="M5.88 -3.87 C5.88,-3.87 5.88,-10.2 5.88,-10.2 C5.88,-13.54 3.08,-16.25 -0.37,-16.25 C-3.83,-16.25 -6.62,-13.54 -6.62,-10.2 C-6.62,-10.2 -6.62,-3.87 -6.62,-3.87 " android:valueTo="M4.38 -2.62 C4.38,-2.62 4.38,-7.1 4.38,-7.1 C4.38,-9.46 2.42,-11.37 0,-11.37 C-2.42,-11.37 -4.37,-9.46 -4.37,-7.1 C-4.37,-7.1 -4.37,-2.62 -4.37,-2.62 " android:valueType="pathType" android:propertyName="pathData" />
+</set>

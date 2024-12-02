@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d дня таму</item>
+        <item quantity="one">%d дзень таму</item>
+        <item quantity="few">%d дні таму</item>
+        <item quantity="many">%d дзён таму</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d хвіліны таму</item>
+        <item quantity="one">%d хвіліну таму</item>
+        <item quantity="few">%d хвіліны таму</item>
+        <item quantity="many">%d хвілін таму</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d года таму</item>
+        <item quantity="one">%d год таму</item>
+        <item quantity="few">%d гады таму</item>
+        <item quantity="many">%d гадоў таму</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Дададзена %s элемента кіравання.</item>
+        <item quantity="one">Дададзены %s элемент кіравання.</item>
+        <item quantity="few">Дададзена %s элементы кіравання.</item>
+        <item quantity="many">Дададзена %s элементаў кіравання.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Увядзіце PIN-код SIM-карты. У вас засталося %d спробы.</item>
+        <item quantity="one">Увядзіце PIN-код SIM-карты. У вас засталася %d спроба.</item>
+        <item quantity="few">Увядзіце PIN-код SIM-карты. У вас засталося %d спробы.</item>
+        <item quantity="many">Увядзіце PIN-код SIM-карты. У вас засталося %d спроб.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM-карта заблакіравана. Каб працягнуць, увядзіце PUK-код. У вас ёсць яшчэ %d спробы, пасля чаго SIM-карта будзе заблакіравана назаўсёды. Звярніцеся да аператара, каб даведацца больш.</item>
+        <item quantity="one">SIM-карта заблакіравана. Каб працягнуць, увядзіце PUK-код. У вас ёсць яшчэ %d спроба, пасля чаго SIM-карта будзе заблакіравана назаўсёды. Звярніцеся да аператара, каб даведацца больш.</item>
+        <item quantity="few">SIM-карта заблакіравана. Каб працягнуць, увядзіце PUK-код. У вас ёсць яшчэ %d спробы, пасля чаго SIM-карта будзе заблакіравана назаўсёды. Звярніцеся да аператара, каб даведацца больш.</item>
+        <item quantity="many">SIM-карта заблакіравана. Каб працягнуць, увядзіце PUK-код. У вас ёсць яшчэ %d спроб, пасля чаго SIM-карта будзе заблакіравана назаўсёды. Звярніцеся да аператара, каб даведацца больш.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Няправільны PIN-код SIM-карты, у вас засталіся %d спробы.</item>
+        <item quantity="one">Няправільны PIN-код SIM-карты, у вас засталася %d спроба.</item>
+        <item quantity="few">Няправільны PIN-код SIM-карты, у вас засталіся %d спробы.</item>
+        <item quantity="many">Няправільны PIN-код SIM-карты, у вас засталіся %d спроб.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Няправільны PUK-код SIM-карты, у вас засталіся %d спробы перад тым, як SIM-карта перастане працаваць назаўжды.</item>
+        <item quantity="one">Няправільны PUK-код SIM-карты, у вас засталася %d спроба перад тым, як SIM-карта перастане працаваць назаўжды.</item>
+        <item quantity="few">Няправільны PUK-код SIM-карты, у вас засталіся %d спробы перад тым, як SIM-карта перастане працаваць назаўжды.</item>
+        <item quantity="many">Няправільны PUK-код SIM-карты, у вас засталіся %d спроб перад тым, як SIM-карта перастане працаваць назаўжды.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Паўтарыце спробу праз %d секунды.</item>
+        <item quantity="one">Паўтарыце спробу праз %d секунду.</item>
+        <item quantity="few">Паўтарыце спробу праз %d секунды.</item>
+        <item quantity="many">Паўтарыце спробу праз %d секунд.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d новага апавяшчэння</item>
+        <item quantity="one">%d новае апавяшчэнне</item>
+        <item quantity="few">%d новыя апавяшчэнні</item>
+        <item quantity="many">%d новых апавяшчэнняў</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Яшчэ %s апавяшчэння ўнутры.</item>
+        <item quantity="one">Яшчэ %s апавяшчэнне ўнутры.</item>
+        <item quantity="few">Яшчэ %s апавяшчэнні ўнутры.</item>
+        <item quantity="many">Яшчэ %s апавяшчэнняў унутры.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d прылады</item>
+        <item quantity="one">%d прылада</item>
+        <item quantity="few">%d прылады</item>
+        <item quantity="many">%d прылад</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d гадзіны</item>
+        <item quantity="one">%d гадзіна</item>
+        <item quantity="few">%d гадзіны</item>
+        <item quantity="many">%d гадзін</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d хвіліны</item>
+        <item quantity="one">%d хвіліна</item>
+        <item quantity="few">%d хвіліны</item>
+        <item quantity="many">%d хвілін</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Можна дадаць %d карыстальніка.</item>
+        <item quantity="one">Можна дадаць %d карыстальніка.</item>
+        <item quantity="few">Можна дадаць %d карыстальнікаў.</item>
+        <item quantity="many">Можна дадаць %d карыстальнікаў.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d прылады падключана</item>
+        <item quantity="one">%1$d прылада падключана</item>
+        <item quantity="few">%1$d прылады падключаны</item>
+        <item quantity="many">%1$d прылад падключана</item>
+    </plurals>
+</resources>

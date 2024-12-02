@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d dagar sedan</item>
+        <item quantity="one">%d dag sedan</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d minuter sedan</item>
+        <item quantity="one">%d minut sedan</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d år sedan</item>
+        <item quantity="one">%d år sedan</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s kontroller har lagts till.</item>
+        <item quantity="one">%s kontroll har lagts till.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Ange pinkod för SIM-kortet. %d försök återstår.</item>
+        <item quantity="one">Ange pinkod för SIM-kortet. %d försök återstår innan du måste kontakta operatören för att låsa upp enheten.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM-kortet är inaktiverat. Ange PUK-koden om du vill fortsätta. %d försök återstår innan SIM-kortet blir obrukbart. Kontakta operatören för mer information.</item>
+        <item quantity="one">SIM-kortet är inaktiverat. Ange PUK-koden om du vill fortsätta. %d försök återstår innan SIM-kortet blir obrukbart. Kontakta operatören för mer information.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Du angav fel pinkod för SIM-kortet. %d försök återstår.</item>
+        <item quantity="one">Du angav fel pinkod för SIM-kortet. %d försök återstår innan du måste kontakta operatören för att låsa upp enheten.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Du angav fel PUK-kod för SIM-kortet. %d försök återstår innan SIM-kortet blir obrukbart.</item>
+        <item quantity="one">Du angav fel PUK-kod för SIM-kortet. %d försök återstår innan SIM-kortet blir obrukbart.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Försök igen om %d sekunder.</item>
+        <item quantity="one">Försök igen om 1 sekund.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s fler aviseringar i gruppen.</item>
+        <item quantity="one">%s till avisering i gruppen.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d enheter</item>
+        <item quantity="one">%d enhet</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d timmar</item>
+        <item quantity="one">%d timme</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Det går att lägga till upp till %d användare.</item>
+        <item quantity="one">Det går bara att skapa en användare.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d enheter är anslutna</item>
+        <item quantity="one">%1$d enhet är ansluten</item>
+    </plurals>
+</resources>

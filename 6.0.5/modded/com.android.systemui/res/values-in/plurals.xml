@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d hari lalu</item>
+        <item quantity="one">%d hari lalu</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d menit lalu</item>
+        <item quantity="one">%d menit lalu</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d tahun lalu</item>
+        <item quantity="one">%d tahun lalu</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s kontrol ditambahkan.</item>
+        <item quantity="one">%s kontrol ditambahkan.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Masukkan PIN SIM. Tersisa %d percobaan.</item>
+        <item quantity="one">Masukkan PIN SIM. Tersisa %d percobaan sebelum Anda harus menghubungi operator untuk membuka kunci perangkat.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM kini dinonaktifkan. Masukkan kode PUK untuk melanjutkan. Tersisa %d percobaan sebelum SIM tidak dapat digunakan secara permanen. Hubungi operator untuk mengetahui detailnya.</item>
+        <item quantity="one">SIM kini dinonaktifkan. Masukkan kode PUK untuk melanjutkan. Tersisa %d percobaan sebelum SIM tidak dapat digunakan secara permanen. Hubungi operator untuk mengetahui detailnya.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Kode PIN SIM salah, sisa, sisa %d percobaan.</item>
+        <item quantity="one">Kode PIN SIM salah, sisa %d percobaan sebelum Anda harus menghubungi operator untuk membuka kunci perangkat.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Kode PUK SIM salah, sisa %d percobaan sebelum SIM tidak dapat digunakan selamanya.</item>
+        <item quantity="one">Kode PUK SIM salah, sisa %d percobaan sebelum SIM tidak dapat digunakan selamanya.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Coba %d detik lagi.</item>
+        <item quantity="one">Coba 1 detik lagi.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notifikasi baru</item>
+        <item quantity="one">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s notifikasi lainnya di dalam.</item>
+        <item quantity="one">%s notifikasi lainnya di dalam.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d perangkat</item>
+        <item quantity="one">%d perangkat</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">%d jam</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d menit</item>
+        <item quantity="one">%d menit</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Anda dapat menambahkan hingga %d pengguna.</item>
+        <item quantity="one">Hanya dapat membuat satu pengguna.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d perangkat terhubung</item>
+        <item quantity="one">%1$d perangkat terhubung</item>
+    </plurals>
+</resources>

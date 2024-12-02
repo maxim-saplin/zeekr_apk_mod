@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardHostView android:id="@id/keyguard_host_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <com.android.keyguard.KeyguardSecurityContainer android:layout_gravity="center" android:id="@id/keyguard_security_container" android:padding="0.0dip" android:fitsSystemWindows="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.keyguard.KeyguardSecurityViewFlipper android:gravity="center" android:layout_gravity="center" android:id="@id/view_flipper" android:paddingTop="@dimen/keyguard_security_view_top_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/keyguard_security_view_lateral_margin" android:paddingEnd="@dimen/keyguard_security_view_lateral_margin" />
+    </com.android.keyguard.KeyguardSecurityContainer>
+</com.android.keyguard.KeyguardHostView>

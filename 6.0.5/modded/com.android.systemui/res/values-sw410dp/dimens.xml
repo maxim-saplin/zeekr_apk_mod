@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="global_actions_grid_horizontal_padding">4.0dip</dimen>
+    <dimen name="global_actions_grid_item_side_margin">12.0dip</dimen>
+    <dimen name="global_actions_grid_vertical_padding">8.0dip</dimen>
+    <dimen name="qs_detail_items_padding_top">16.0dip</dimen>
+</resources>

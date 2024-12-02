@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextClock android:textColor="?wallpaperTextColor" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/lock_screen_clock" android:paddingBottom="@dimen/widget_vertical_padding_clock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:format12Hour="@string/keyguard_widget_12_hours_format" android:format24Hour="@string/keyguard_widget_24_hours_format" android:elegantTextHeight="false" android:letterSpacing="0.03" style="@style/widget_small_bold" />
+</FrameLayout>

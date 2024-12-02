@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.carrier.QSCarrier android:gravity="start|center" android:orientation="horizontal" android:id="@id/linear_carrier" android:background="@android:color/transparent" android:focusable="true" android:clickable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.util.AutoMarqueeTextView android:textAppearance="@style/TextAppearance.QS.Status.Carriers" android:id="@id/qs_carrier_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="7" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" android:textDirection="locale" />
+    <View android:id="@id/spacer" android:visibility="gone" android:layout_width="@dimen/qs_carrier_margin_width" android:layout_height="fill_parent" />
+    <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/qs_carrier_margin_width" layout="@layout/mobile_signal_group" />
+</com.android.systemui.qs.carrier.QSCarrier>

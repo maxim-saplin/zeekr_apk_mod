@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animasiya qapalıdır</item>
+        <item>Animasiya miqyası .5x</item>
+        <item>Animasiya miqyası 1x</item>
+        <item>Animasiya miqyası 1.5x</item>
+        <item>2x miqyaslı animasiya</item>
+        <item>Animasiya miqyası 1.5x</item>
+        <item>10x miqyaslı animasiya</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standart limit</item>
+        <item>Fon proses yoxdur</item>
+        <item>Ən çox 1 proses</item>
+        <item>Ən çox 2 proses</item>
+        <item>Ən çox 3 proses</item>
+        <item>Ən çox 4 proses</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Faizi həmişə göstərin</item>
+        <item>Enerji dolan zaman faizi göstərin (defolt)</item>
+        <item>Bu piktoqramı göstərməyin</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Sistem Seçimini istifadə edin (Defolt)</item>
+        <item>16 bit/nümunə</item>
+        <item>24 bit/nümunə</item>
+        <item>32 bit/nümunə</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Sistem Seçimini istifadə edin (Defolt)</item>
+        <item>16 bit/nümunə</item>
+        <item>24 bit/nümunə</item>
+        <item>32 bit/nümunə</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Sistem Seçimini istifadə edin (Defolt)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Sistem Seçimini istifadə edin (Defolt)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Audio Keyfiyyəti üçün optimallaşdırıldı</item>
+        <item>Balanslı Audio və Bağlantı Keyfiyyəti</item>
+        <item>Bağlantı Keyfiyyəti üçün optimallaşdırıldı</item>
+        <item>Yüksək Cəhd (Adaptiv Bit Ölçüsü)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Audio Keyfiyyəti üçün optimallaşdırıldı (990kbps/909kbps)</item>
+        <item>Balanslı Audio və Bağlantı Keyfiyyəti (660kbps/606kbps)</item>
+        <item>Bağlantı Keyfiyyəti üçün optimallaşdırıldı (330kbps/303kbps)</item>
+        <item>Yüksək Cəhd (Adaptiv Bit Ölçüsü)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Sistem Seçimini istifadə edin (Defolt)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Sistem Seçimini istifadə edin (Defolt)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Sistem Seçimini istifadə edin (Defolt)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Sistem Seçimini istifadə edin (Defolt)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktiv</item>
+        <item>, aktiv (media)</item>
+        <item>, aktiv (telefon)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (Defolt)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Defolt)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Deaktivdir</item>
+        <item>Filtrləmə aktivdir</item>
+        <item>Aktivdir</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Saat, dəqiqə və saniyəni göstərin</item>
+        <item>Saat və dəqiqəni göstərin (defolt)</item>
+        <item>Bu piktoqramı göstərməyin</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Artırılmış rənglər</item>
+        <item>Gözlə göründüyü kimi təbii rənglər</item>
+        <item>Rəqəmsal məzmun üçün optimallaşdırılan rənglər</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Canlı (defolt)</item>
+        <item>Təbii</item>
+        <item>Standart</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Deaktiv</item>
+        <item>Böyütmə sahələrini göstər</item>
+        <item>Daltonizm üçün sahələri göstərin</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Heç biri</item>
+        <item>Logcat</item>
+        <item>Systrace (Qrafika)</item>
+        <item>GlGetError üzərində zəng yğını</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP yoxlanılmasın</item>
+        <item>Yalnız DRM kontenti oxumaq üçün HDCP istifadə edilsin</item>
+        <item>HDCP yoxlanılsın</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Heç vaxt yoxlama</item>
+        <item>Yalnız DRM kontent üçün yoxlayın</item>
+        <item>Həmişə yoxlayın</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Mübadilə buferi</item>
+        <item>Açar kodu</item>
+        <item>Çevirin, klaviatura dəyişdirici</item>
+        <item>Heç bir</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normal</item>
+        <item>Yığcam</item>
+        <item>Sola əyilmiş</item>
+        <item>Sağa əyilmiş</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Heç biri</item>
+        <item>480p</item>
+        <item>480p (güvənli)</item>
+        <item>720p</item>
+        <item>720p (güvənli)</item>
+        <item>1080p</item>
+        <item>1080p (güvənli)</item>
+        <item>4K</item>
+        <item>4K (güvənli)</item>
+        <item>4K (geniş miqyaslı)</item>
+        <item>4K (geniş miqyaslı, güvənli)</item>
+        <item>720p, 1080p (ikili ekran)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Deaktiv</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Deaktiv</item>
+        <item>Bufer. Maks: 64K</item>
+        <item>Bufer. Maks: 256K</item>
+        <item>Bufer. Maks: 1M</item>
+        <item>Bufer. Maks: 4M</item>
+        <item>Bufer. Maks: 8M</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Deaktiv</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Qeyri-aktiv</item>
+        <item>Bütün jurnal buferləri</item>
+        <item>Sistem jurnalı buferindən başqa hamısı</item>
+        <item>yalnız nüvə jurnalı buferi</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Deaktiv</item>
+        <item>Bütün</item>
+        <item>Radiodan başqa hamısı</item>
+        <item>yalnız kernel</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Deaktiv</item>
+        <item>Qeyri-düzbucaqlı regionu mavi rəngdə çəkin</item>
+        <item>Testdən keçmiş çəkmə əmrlərini yaşıl rəng ilə vurğulayın</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Əlçatan deyil</item>
+        <item>Deaktiv</item>
+        <item>Aktiv</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Deaktiv</item>
+        <item>Ekranda panel şəklində</item>
+        <item>adb shell dumpsys gfxinfo üzrə</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animasiya qapalıdır</item>
+        <item>Animasiya miqyası .5 x</item>
+        <item>Animasiya miqyası 1x</item>
+        <item>Animasiya miqyası 1.5x</item>
+        <item>2x miqyaslı animasiya</item>
+        <item>5x miqyaslı animasiya</item>
+        <item>Animasiya miqyası 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Çox yavaş</item>
+        <item>Yavaş</item>
+        <item>Normal</item>
+        <item>Sürətli</item>
+        <item>Daha sürətli</item>
+        <item>Çox sürətli</item>
+        <item>Tez</item>
+        <item>Çox tez</item>
+        <item>Ən sürətli</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Qidalanır</item>
+        <item>MTP (Media Transfer Protokolu)</item>
+        <item>PTP (Şəkil Transfer Protokolu)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Audio Mənbə</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Skan edilir ...</item>
+        <item>Qoşulur ...</item>
+        <item>Autentifikasiya edilir...</item>
+        <item>IP ünvanı əldə edilir...</item>
+        <item>Qoşulu</item>
+        <item>Durdurulmuş</item>
+        <item>Ayrılır ...</item>
+        <item>Əlaqə kəsildi</item>
+        <item>Uğursuz</item>
+        <item>Bloklanıb</item>
+        <item>Keyfiyyətsiz bağlantıdan müvəqqəti qaçış</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skan edilir...</item>
+        <item>%1$s qoşulur…</item>
+        <item>%1$s ilə autentifikasiya edilir...</item>
+        <item>%1$s şəbəkəsindən IP ünvan əldə olunur...</item>
+        <item>%1$s qoşuldu</item>
+        <item>Dayandırılıb</item>
+        <item>%1$s şəbəkəsindən ayrılır...</item>
+        <item>Bağlantı kəsildi</item>
+        <item>Uğursuz</item>
+        <item>Bloklanıb</item>
+        <item>Zəif bağlantı müvəqqəti aradan qaldırılır</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Skan edilir…</item>
+        <item>Qoşulur…</item>
+        <item>Doğrulanır…</item>
+        <item>IP ünvanı əldə edilir…</item>
+        <item>Qoşulub</item>
+        <item>Dayandırılıb</item>
+        <item>Bağlantı kəsilir…</item>
+        <item>Bağlantı kəsildi</item>
+        <item>Uğursuz</item>
+        <item>Bloklanıb</item>
+        <item>Zəif bağlantı müvəqqəti olaraq aradan qaldırılır</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animasiya deaktiv</item>
+        <item>Animasiya miqyası .5 x</item>
+        <item>Animasiya miqyası 1x</item>
+        <item>Animasiya miqyası 1.5x</item>
+        <item>2x miqyaslı animasiya</item>
+        <item>5x miqyaslı animasiya</item>
+        <item>Animasiya miqyası 10x</item>
+    </string-array>
+</resources>

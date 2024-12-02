@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/nav_content_padding" android:paddingEnd="@dimen/nav_content_padding" android:layout_marginStart="@dimen/rounded_corner_content_padding" android:layout_marginEnd="@dimen/rounded_corner_content_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <com.android.systemui.navigationbar.buttons.NearestTouchFrame android:id="@id/nav_buttons" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" systemui:isVertical="false">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ends_group" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/center_group" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </com.android.systemui.navigationbar.buttons.NearestTouchFrame>
+</FrameLayout>

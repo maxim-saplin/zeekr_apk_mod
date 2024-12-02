@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/settings_title_panel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settings_title_template" android:paddingTop="@android:dimen/day_picker_padding_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:dialogPreferredPadding" android:paddingEnd="?android:dialogPreferredPadding">
+        <ImageView android:id="@id/settings_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="12.0dip" />
+        <TextView android:ellipsize="end" android:id="@id/settings_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="center" style="?android:windowTitleStyle" />
+    </LinearLayout>
+    <Space android:id="@id/settings_title_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@android:dimen/day_picker_padding_top" />
+</LinearLayout>

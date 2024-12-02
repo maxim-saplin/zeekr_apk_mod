@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@anim/$lock_lock_circular__6" android:duration="450" android:startOffset="0" android:valueFrom="1" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@anim/$lock_lock_circular__7" android:duration="450" android:startOffset="0" android:valueFrom="1" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@anim/$lock_lock_circular__8" android:duration="83" android:startOffset="450" android:valueFrom="1" android:valueTo="1.05" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@anim/$lock_lock_circular__9" android:duration="83" android:startOffset="450" android:valueFrom="1" android:valueTo="1.05" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@anim/$lock_lock_circular__10" android:duration="100" android:startOffset="533" android:valueFrom="1.05" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@anim/$lock_lock_circular__11" android:duration="100" android:startOffset="533" android:valueFrom="1.05" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

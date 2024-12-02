@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/internet_connectivity_dialog" android:layout_width="@dimen/large_dialog_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="@dimen/internet_dialog_network_layout_margin" style="@style/Widget.SliceView.Panel">
+        <TextView android:textAppearance="@style/TextAppearance.InternetDialog" android:textSize="24.0sp" android:ellipsize="end" android:gravity="center" android:id="@id/internet_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="@style/TextAppearance.InternetDialog.Secondary" android:ellipsize="end" android:gravity="center" android:id="@id/internet_dialog_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/internet_dialog_progress_bar_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/internet_dialog_network_layout_margin">
+        <View android:layout_gravity="center" android:id="@id/divider" android:background="?android:^attr-private/colorSurfaceHeader" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/wifi_searching_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TrimmedHorizontalProgressBar" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/scroll_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@id/ethernet_layout" android:background="@drawable/settingslib_switch_bar_bg_on" android:visibility="gone" style="@style/InternetDialog.Network">
+                    <FrameLayout android:layout_gravity="start|center" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip">
+                        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_ethernet_fully" android:tint="@color/connected_network_primary_color" android:autoMirrored="true" />
+                    </FrameLayout>
+                    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <TextView android:text="@string/ethernet_label" style="@style/InternetDialog.NetworkTitle.Active" />
+                        <TextView android:text="@string/to_switch_networks_disconnect_ethernet" style="@style/InternetDialog.NetworkSummary.Active" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@id/mobile_network_layout" style="@style/InternetDialog.Network">
+                    <FrameLayout android:layout_gravity="start|center" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip">
+                        <ImageView android:layout_gravity="center" android:id="@id/signal_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:autoMirrored="true" />
+                    </FrameLayout>
+                    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <TextView android:id="@id/mobile_title" android:maxLines="1" style="@style/InternetDialog.NetworkTitle" />
+                        <TextView android:id="@id/mobile_summary" style="@style/InternetDialog.NetworkSummary" />
+                        <TextView android:id="@id/airplane_mode_summary" android:visibility="gone" android:text="@string/airplane_mode" style="@style/InternetDialog.NetworkSummary" />
+                    </LinearLayout>
+                    <View android:layout_gravity="center_vertical" android:id="@id/mobile_toggle_divider" android:background="?android:textColorSecondary" android:layout_width="1.0dip" android:layout_height="28.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="16.0dip" />
+                    <FrameLayout android:layout_gravity="end|center" android:layout_width="@dimen/settingslib_switch_track_width" android:layout_height="48.0dip">
+                        <Switch android:theme="@style/MainSwitch.Settingslib" android:layout_gravity="center" android:id="@id/mobile_toggle" android:layout_width="@dimen/settingslib_switch_track_width" android:layout_height="fill_parent" android:thumb="@drawable/settingslib_thumb_selector" android:contentDescription="@string/mobile_data_settings_title" android:track="@drawable/settingslib_track_selector" android:switchMinWidth="@dimen/settingslib_switch_track_width" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/turn_on_wifi_layout" android:focusable="false" android:clickable="false" android:layout_height="@dimen/internet_dialog_wifi_network_height" style="@style/InternetDialog.Network">
+                    <FrameLayout android:orientation="vertical" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <TextView android:textAppearance="@style/TextAppearance.InternetDialog" android:gravity="start|center" android:id="@id/wifi_toggle_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/turn_on_wifi" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="@dimen/settingslib_switch_track_width" android:layout_height="48.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+                        <Switch android:theme="@style/MainSwitch.Settingslib" android:layout_gravity="center" android:id="@id/wifi_toggle" android:layout_width="@dimen/settingslib_switch_track_width" android:layout_height="fill_parent" android:thumb="@drawable/settingslib_thumb_selector" android:contentDescription="@string/turn_on_wifi" android:track="@drawable/settingslib_track_selector" android:switchMinWidth="@dimen/settingslib_switch_track_width" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@id/wifi_connected_layout" android:background="@drawable/settingslib_switch_bar_bg_on" android:visibility="gone" android:layout_height="@dimen/internet_dialog_wifi_network_height" android:paddingStart="20.0dip" android:paddingEnd="24.0dip" style="@style/InternetDialog.Network">
+                    <FrameLayout android:layout_gravity="start|center" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip">
+                        <ImageView android:layout_gravity="center" android:id="@id/wifi_connected_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/internet_dialog_wifi_network_height" android:layout_weight="1.0" android:layout_marginEnd="30.0dip">
+                        <TextView android:textSize="14.0sp" android:id="@id/wifi_connected_title" style="@style/InternetDialog.NetworkTitle.Active" />
+                        <TextView android:id="@id/wifi_connected_summary" style="@style/InternetDialog.NetworkSummary.Active" />
+                    </LinearLayout>
+                    <FrameLayout android:gravity="center" android:layout_gravity="end|center" android:clickable="false" android:layout_width="24.0dip" android:layout_height="fill_parent">
+                        <ImageView android:layout_gravity="end|center" android:id="@id/wifi_settings_icon" android:layout_width="24.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_settings_24dp" />
+                    </FrameLayout>
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/wifi_list_layout" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/see_all_layout" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="64.0dip" android:paddingStart="22.0dip" android:paddingEnd="22.0dip">
+                <FrameLayout android:layout_gravity="start|center" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="@dimen/internet_dialog_network_layout_margin">
+                    <ImageView android:layout_gravity="center" android:id="@id/arrow_forward" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_forward" />
+                </FrameLayout>
+                <FrameLayout android:orientation="vertical" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/internet_dialog_network_layout_margin">
+                    <TextView android:textAppearance="@style/TextAppearance.InternetDialog" android:textSize="14.0sp" android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/see_all_networks" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/wifi_scan_notify_layout" android:paddingBottom="4.0dip" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_height="wrap_content" style="@style/InternetDialog.Network">
+                <LinearLayout android:gravity="start|center|top" android:orientation="horizontal" android:paddingTop="16.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="56.0dip" android:paddingEnd="12.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_info_outline" android:tint="?android:textColorTertiary" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textColor="?android:textColorSecondary" android:id="@id/wifi_scan_notify_text" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/button_layout" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="@dimen/dialog_bottom_padding" android:layout_marginStart="@dimen/dialog_side_padding" android:layout_marginEnd="@dimen/dialog_side_padding">
+                <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <Button android:ellipsize="end" android:id="@id/apm_button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/turn_off_airplane_mode" android:maxLines="1" style="@style/Widget.Dialog.Button.BorderButton" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip">
+                    <Button android:ellipsize="end" android:id="@id/done_button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/inline_done_button" android:maxLines="1" style="@style/Widget.Dialog.Button" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

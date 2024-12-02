@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animaatio pois käytöstä</item>
+        <item>Animaatioasteikko 0,5-kertainen</item>
+        <item>Animaatioasteikko 1-kertainen</item>
+        <item>Animaatioasteikko 1,5-kertainen</item>
+        <item>Animaatioasteikko 2-kertainen</item>
+        <item>Animaatioasteikko 5-kertainen</item>
+        <item>Animaatioasteikko 10-kertainen</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Vakioraja</item>
+        <item>Ei taustaprosesseja</item>
+        <item>Enintään 4 prosessia</item>
+        <item>Enintään 2 prosessia</item>
+        <item>Enintään 3 prosessia</item>
+        <item>Enintään 4 prosessia</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Näytä prosenttiluku aina</item>
+        <item>Näytä prosenttiluku latauksen aikana (oletus)</item>
+        <item>Älä näytä tätä kuvaketta</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>16 bittiä/näyte</item>
+        <item>24 bittiä/näyte</item>
+        <item>32 bittiä/näyte</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>16 bittiä/näyte</item>
+        <item>24 bittiä/näyte</item>
+        <item>32 bittiä/näyte</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimoi äänenlaatu</item>
+        <item>Tasapainoinen yhteyden ja äänenlaadun optimointi</item>
+        <item>Optimoi yhteyden laatu</item>
+        <item>Paras mahdollinen (mukautuva siirtonopeus)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimoi äänenlaatu (990 kb/s / 909 kb/s)</item>
+        <item>Tasapainoinen yhteyden ja äänenlaadun optimointi (660 kb/s / 606 kb/s)</item>
+        <item>Optimoi yhteyden laatu (330 kb/s / 303 kb/s)</item>
+        <item>Paras mahdollinen (mukautuva siirtonopeus)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ‑ääni</item>
+        <item>Qualcomm® aptX™ HD ‑ääni</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Käytä järjestelmän valintaa (oletus)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ‑ääni</item>
+        <item>Qualcomm® aptX™ HD ‑ääni</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktiivinen</item>
+        <item>, aktiivinen (media)</item>
+        <item>, aktiivinen (puhelin)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (oletus)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (oletus)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Ei käytössä</item>
+        <item>Suodatus käytössä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Näytä tunnit, minuutit ja sekunnit</item>
+        <item>Näytä tunnit ja minuutit (oletus)</item>
+        <item>Älä näytä tätä kuvaketta</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Tehostetut värit</item>
+        <item>Ihmissilmän näkemät luonnolliset värit</item>
+        <item>Digitaaliselle sisällölle parhaiten sopivat värit</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Voimakas (oletus)</item>
+        <item>Luonnollinen</item>
+        <item>Normaali</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Ei päällä</item>
+        <item>Näytä päällekkäiset alueet</item>
+        <item>Näytä alueet puna-vihersokeille näkyvinä</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ei mitään</item>
+        <item>Logcat</item>
+        <item>Systrace (grafiikka)</item>
+        <item>Kutsu pinoa, jos glGetError tapaht.</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Älä koskaan käytä HDCP-tarkistusta</item>
+        <item>Käytä HDCP-tarkistusta vain DRM-suojatulle sisällölle</item>
+        <item>Käytä aina HDCP-tarkistusta</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Älä tarkista koskaan</item>
+        <item>Tarkista vain DRM-suojattu sisältö</item>
+        <item>Tarkista aina</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Leikepöytä</item>
+        <item>Näppäinkoodi</item>
+        <item>Vahvista kiertäminen, vaihda näppäimistöä</item>
+        <item>Ei mitään</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normaali</item>
+        <item>Kompakti</item>
+        <item>Vasemmanpuoleinen</item>
+        <item>Oikeanpuoleinen</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ei mitään</item>
+        <item>480p</item>
+        <item>480p (turvallinen)</item>
+        <item>720p</item>
+        <item>720p (turvallinen)</item>
+        <item>1080p</item>
+        <item>1080p (turvallinen)</item>
+        <item>4K</item>
+        <item>4K (turvallinen)</item>
+        <item>4K (skaalattu)</item>
+        <item>4K (skaalattu, turvallinen)</item>
+        <item>720p, 1080p (kaksoisnäyttö)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Ei päällä</item>
+        <item>64 kt</item>
+        <item>256 kt</item>
+        <item>1 Mt</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Ei päällä</item>
+        <item>64 kt / lokipuskuri</item>
+        <item>256 kt / lokipuskuri</item>
+        <item>1 Mt / lokipuskuri</item>
+        <item>4 Mt / lokipuskuri</item>
+        <item>8 megatavua / lokipuskuri</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Ei päällä</item>
+        <item>64 kt</item>
+        <item>256 kt</item>
+        <item>1 Mt</item>
+        <item>4 Mt</item>
+        <item>8 megatavua</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Ei päällä</item>
+        <item>Kaikki lokipuskurit</item>
+        <item>Kaikki paitsi radiolokipuskurit</item>
+        <item>vain kernel-lokipuskuri</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Ei päällä</item>
+        <item>Kaikki</item>
+        <item>Kaikki paitsi radio</item>
+        <item>vain kernel</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Pois</item>
+        <item>Piirrä ei-suorakulm. leikealue sinisellä</item>
+        <item>Korosta testatut piirtokom. vihreällä</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Ei saatavilla</item>
+        <item>Poissa päältä</item>
+        <item>Päällä</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Pois päältä</item>
+        <item>Ruudulla palkkeina</item>
+        <item>Kohteessa adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animaatio pois käytöstä</item>
+        <item>Animaatioasteikko 0,5-kertainen</item>
+        <item>Animaatioasteikko 1-kertainen</item>
+        <item>Animaatioasteikko 0,5-kertainen</item>
+        <item>Animaatioasteikko 2-kertainen</item>
+        <item>Animaatioasteikko 5-kertainen</item>
+        <item>Animaatioasteikko 10-kertainen</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Hyvin hidas</item>
+        <item>Hidas</item>
+        <item>Normaali</item>
+        <item>Nopea</item>
+        <item>Nopeampi</item>
+        <item>Hyvin nopea</item>
+        <item>Vauhdikas</item>
+        <item>Erittäin vauhdikas</item>
+        <item>Nopein</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Lataaminen</item>
+        <item>MTP (median siirtoprotokolla)</item>
+        <item>PTP (kuvan siirtoprotokolla)</item>
+        <item>RNDIS (USB-ethernet)</item>
+        <item>Äänilähde</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Etsitään...</item>
+        <item>Yhdistetään…</item>
+        <item>Varmennetaan…</item>
+        <item>Haetaan IP-osoitetta...</item>
+        <item>Yhdistetty</item>
+        <item>Pidätetty</item>
+        <item>Katkaistaan yhteyttä...</item>
+        <item>Yhteys katkaistu</item>
+        <item>Epäonnistui</item>
+        <item>Estetty</item>
+        <item>Vältetään huonoa yhteyttä tilapäisesti</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Etsitään...</item>
+        <item>Yhdistetään verkkoon %1$s...</item>
+        <item>Varmennetaan verkkoon %1$s...</item>
+        <item>Haetaan IP-osoitetta verkosta %1$s...</item>
+        <item>Yhdistetty verkkoon %1$s</item>
+        <item>Pidätetty</item>
+        <item>Katkaistaan yhteys verkosta %1$s…</item>
+        <item>Yhteys katkaistu</item>
+        <item>Epäonnistui</item>
+        <item>Estetty</item>
+        <item>Vältetään huonoa yhteyttä tilapäisesti</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Etsitään…</item>
+        <item>Yhdistetään…</item>
+        <item>Todennetaan…</item>
+        <item>Haetaan IP-osoitetta…</item>
+        <item>Yhdistetty</item>
+        <item>Jäädytetty</item>
+        <item>Katkaistaan yhteyttä…</item>
+        <item>Yhteys katkaistu</item>
+        <item>Epäonnistui</item>
+        <item>Estetty</item>
+        <item>Vältetään huonoa yhteyttä tilapäisesti</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animaatio pois käytöstä</item>
+        <item>Animaatioasteikko 0,5-kertainen</item>
+        <item>Animaatioasteikko 1-kertainen</item>
+        <item>Animaatioasteikko 1,5-kertainen</item>
+        <item>Animaatioasteikko 2-kertainen</item>
+        <item>Animaatioasteikko 5-kertainen</item>
+        <item>Animaatioasteikko 10-kertainen</item>
+    </string-array>
+</resources>

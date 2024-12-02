@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/volume_seekbar_progress_solid">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/volume_dialog_slider_width" />
+            <solid android:color="@color/tv_volume_dialog_seek_bar_fill" />
+            <corners android:radius="@dimen/volume_dialog_slider_width" />
+        </shape>
+    </item>
+</layer-list>

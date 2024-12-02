@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>ଆନିମେଶନ୍ ବନ୍ଦ</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ .5x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 1x</item>
+        <item>ଆନିମେଶନ୍ ସ୍କେଲ୍ 1.5x</item>
+        <item>ଆନିମେଶନ୍ ସ୍କେଲ୍ 2x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 5x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ମାନକ ସୀମା</item>
+        <item>କୌଣସି ବ୍ୟାକ୍‌ଗ୍ରାଉଣ୍ଡ ପ୍ରୋସେସ୍ ଚାଲୁନାହିଁ</item>
+        <item>ସର୍ବାଧିକ 1ଟି ପ୍ରକ୍ରିୟା</item>
+        <item>ସର୍ବାଧିକ 2 ଟି ପ୍ରକ୍ରିୟା</item>
+        <item>ଅତିବେଶୀରେ 3ଟି ପ୍ରକ୍ରିୟା</item>
+        <item>ସର୍ବାଧିକ 4 ଟି ପ୍ରକ୍ରିୟା</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>ସର୍ବଦା ଶତକଡ଼ା ଦେଖାନ୍ତୁ</item>
+        <item>ଚାର୍ଜ କରାଯିବାବେଳେ ଶତକଡ଼ା ଦେଖାନ୍ତୁ (ଡିଫଲ୍ଟ)</item>
+        <item>ଏହି ଆଇକନ୍‍ ଦେଖାନ୍ତୁ ନାହିଁ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>ସିଷ୍ଟମ୍‌ ମନୋନୟନ (ଡିଫଲ୍ଟ) ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>୧୬ ବିଟସ୍‌/ନମୁନା</item>
+        <item>24 ବିଟସ୍‌/ନମୂନା</item>
+        <item>32 ବିଟସ୍‌/ନମୁନା</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>ସିଷ୍ଟମ୍‌ର ଚୟନ (ଡିଫଲ୍ଟ୍) ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>16 ବିଟ୍ସ/ସାମ୍ପଲ୍‌</item>
+        <item>24 ବିଟ୍ସ/ନମୁନା</item>
+        <item>32 ବିଟସ୍‌/ନମୂନା</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>ସିଷ୍ଟମ୍ ଚୟନ ବ୍ୟବହାର କରନ୍ତୁ(ଡିଫଲ୍ଟ୍)</item>
+        <item>ମୋନୋ</item>
+        <item>ଷ୍ଟେରିଓ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>ସିଷ୍ଟମ୍ ଚୟନ ବ୍ୟବହାର କରନ୍ତୁ (ଡିଫଲ୍ଟ)</item>
+        <item>ମୋନୋ</item>
+        <item>ଷ୍ଟେରିଓ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>ଅଡିଓର ଗୁଣବତ୍ତା ପାଇଁ ଅନୁକୂଳିତ</item>
+        <item>ସନ୍ତୁଳିତ ଅଡିଓ ଓ ସଂଯୋଗ କ୍ୱାଲିଟୀ</item>
+        <item>ସଂଯୋଗର ଗୁଣବତ୍ତା ପାଇଁ ଅନୁକୂଳିତ</item>
+        <item>ସର୍ବୋତ୍ତମ ପ୍ରୟାସ (ଅନୁକୂଳ ବିଟ୍‌ ରେଟ୍‌)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>ଅଡିଓ ଗୁଣବତ୍ତା ପାଇଁ ଅନୁକୂଳିତ(990kbps/909kbps)</item>
+        <item>ସନ୍ତୁଳିତ ଅଡିଓ ଓ ସଂଯୋଗ ଗୁଣବତ୍ତା (660kbps/606kbps)</item>
+        <item>ସଂଯୋଗର ଗୁଣବତ୍ତା (330kbps/303kbps) ପାଇଁ ଉପଯୁକ୍ତ କରାଯାଇଛି</item>
+        <item>ସର୍ବୋତ୍ତମ ପ୍ରୟାସ (ଅନୁକୁଳ ବିଟ୍‌ ରେଟ୍‌)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>ସିଷ୍ଟମ୍‌ ଚୟନ ବ୍ୟବହାର କରନ୍ତୁ (ଡିଫଲ୍ଟ୍)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>ସିଷ୍ଟମ୍‌ର ଚୟନ (ଡିଫଲ୍ଟ୍) ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>ସିଷ୍ଟମ୍‌ର ଚୟନ (ଡିଫଲ୍ଟ୍) ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ଅଡିଓ</item>
+        <item>Qualcomm® aptX™ HD ଅଡିଓ</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>ସିଷ୍ଟମ୍ ଚୟନ ବ୍ୟବହାର କରନ୍ତୁ (ଡିଫଲ୍ଟ)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ଅଡିଓ</item>
+        <item>Qualcomm® aptX™ HD ଅଡିଓ</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, ସକ୍ରିୟ</item>
+        <item>, ସକ୍ରିୟ (ମିଡିଆ)</item>
+        <item>, ସକ୍ରିୟ (ଫୋନ୍)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (ଡିଫଲ୍ଟ)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ଡିଫଲ୍ଟ)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>ଅକ୍ଷମ କରାଯାଇଛି</item>
+        <item>ଫିଲ୍ଟର୍‌କୁ ସକ୍ଷମ କରାଯାଇଛି</item>
+        <item>ସକ୍ଷମ କରାଯାଇଛି</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>ଘଣ୍ଟା, ମିନିଟ୍‍ ଏବଂ ସେକେଣ୍ଡ ଦେଖାନ୍ତୁ</item>
+        <item>ଘଣ୍ଟା ଏବଂ ମିନିଟ୍‍ ଦେଖାନ୍ତୁ (ଡିଫଲ୍ଟ)</item>
+        <item>ଏହି ଆଇକନ୍‍ ଦେଖାନ୍ତୁ ନାହିଁ</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>ବର୍ଦ୍ଧିତ ରଙ୍ଗ</item>
+        <item>ଆଖି ଦ୍ୱାରା ଦେଖାଯାଇଥିବା ପରି ପ୍ରାକୃତିକ ରଙ୍ଗ</item>
+        <item>ଡିଜିଟାଲ୍‌ କଣ୍ଟେଣ୍ଟ ପାଇଁ ରଙ୍ଗଗୁଡ଼ିକ ଅନୁକୂଳିତ ହୋଇଛି</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>ଜୀବନ୍ତ (ପୂର୍ବ-ନିର୍ଦ୍ଧାରିତ)</item>
+        <item>ପ୍ରାକୃତିକ</item>
+        <item>ମାନକ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ବନ୍ଦ</item>
+        <item>ଓଭର୍‌ ଡ୍ର କ୍ଷେତ୍ରଗୁଡ଼ିକୁ ଦେଖାଅ</item>
+        <item>ଡିଉଟେରାନୋମାଲୀ ପାଇଁ କ୍ଷେତ୍ର ଦେଖନ୍ତୁ</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>କିଛିନାହିଁ</item>
+        <item>Logcat</item>
+        <item>Systrace (ଗ୍ରାଫିକ୍ସ)</item>
+        <item>glGetError ରେ କଲ୍‌ ଷ୍ଟାକ୍</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>କଦାପି HDCP ଯାଞ୍ଚ କରିବା ବ୍ୟବହାର କରନ୍ତୁ ନାହିଁ</item>
+        <item>କେବଳ DRM କଣ୍ଟେଣ୍ଟ ପାଇଁ HDCP ଯାଞ୍ଚ ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>ସର୍ବଦା HDCP ଯାଞ୍ଚ ବ୍ୟବହାର କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ଆଦୌ ଯାଞ୍ଚ କରନାହିଁ</item>
+        <item>କେବଳ DRM କଣ୍ଟେଣ୍ଟ ଠାବ କର</item>
+        <item>ସର୍ବଦା ଠାବ କର</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>କ୍ଲିପ୍‌ବୋର୍ଡ</item>
+        <item>"କୀ'କୋଡ୍‍"</item>
+        <item>ଘୁରାଇବା ସୁନିଶ୍ଚିତ କରନ୍ତୁ, କୀ’ବୋର୍ଡର ଭାଷା ପରିବର୍ତ୍ତନ ସୁବିଧା</item>
+        <item>କିଛି ନାହିଁ</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>ସାମାନ୍ୟ</item>
+        <item>କମ୍ପାକ୍ଟ</item>
+        <item>ବାମକୁ-ଆଉଜେଇବା</item>
+        <item>ଡାହାଣକୁ-ଆଉଜେଇବା</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>କିଛି ନାହିଁ</item>
+        <item>480p</item>
+        <item>480p (ସୁରକ୍ଷିତ)</item>
+        <item>p</item>
+        <item>720p (ସୁରକ୍ଷିତ)</item>
+        <item>1080p</item>
+        <item>1080p (ସୁରକ୍ଷିତ)</item>
+        <item>4K</item>
+        <item>4K (ସୁରକ୍ଷିତ)</item>
+        <item>4K (ଅପ୍‌ସ୍କେଲ୍‌ କରାଯାଇଛି)</item>
+        <item>4K (ଉତ୍ତମ, ସୁରକ୍ଷିତ)</item>
+        <item>720p, 1080p (ଡୁଆଲ୍ ସ୍କ୍ରୀନ୍‌)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ବନ୍ଦ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ବନ୍ଦ</item>
+        <item>64K ପିଛା ଲଗ୍‌ ବଫର୍‌</item>
+        <item>256K ଲଗ୍‌ ପ୍ରତି ବଫର୍‌</item>
+        <item>1M ପ୍ରତି ଲଗ୍‌ ବଫର୍‌</item>
+        <item>ଲଗ୍‌ ବଫର୍‌ ପ୍ରତି 4M</item>
+        <item>ଲଗ୍ ବଫର୍ ପ୍ରତି 8M</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ବନ୍ଦ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ବନ୍ଦ</item>
+        <item>ସମସ୍ତ ଲଗ୍‌ ବଫର୍‌</item>
+        <item>ରେଡିଓ ଲଗ୍‌ ବଫର୍‌‌ଗୁଡିକ ଛଡ଼ା ଅନ୍ୟ ସବୁ</item>
+        <item>କେବଳ କର୍ନେଲ୍‌ ଲଗ୍‌ ବଫର୍‌</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ବନ୍ଦ</item>
+        <item>ସମସ୍ତ</item>
+        <item>ରେଡିଓ ଛଡ଼ା ଅନ୍ୟ ସବୁ</item>
+        <item>କେବଳ କର୍ନେଲ୍</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ବନ୍ଦ</item>
+        <item>ଅଣ-ଆୟତାକାର କ୍ଲିପ୍ କ୍ଷେତ୍ର ନୀଳ ରଙ୍ଗରେ ଆଙ୍କନ୍ତୁ</item>
+        <item>ଟେଷ୍ଟ ହୋଇଥିବା ଅଙ୍କନ କମାଣ୍ଡଗୁଡ଼ିକୁ ସବୁଜରେ ଚିହ୍ନିତ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>ଉପଲବ୍ଧ ନାହିଁ</item>
+        <item>ବନ୍ଦ ଅଛି</item>
+        <item>ଚାଲୁ ଅଛି</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ବନ୍ଦ</item>
+        <item>ସ୍କ୍ରୀନ୍‌ରେ ବାର୍‌ ପରି</item>
+        <item>ରେ adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ଆନିମେଶନ୍‌ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ .5x</item>
+        <item>ଆନିମେସନ୍‌ ସ୍କେଲ୍‌ 1x</item>
+        <item>ଆନିମେସନ୍‌ ସ୍କେଲ 1.5x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 2x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 5x</item>
+        <item>ଆନିମେସନ୍‌ ସ୍କେଲ୍‌ 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ବହୁତ ମନ୍ଥର</item>
+        <item>ମନ୍ଥର</item>
+        <item>ସାମାନ୍ୟ</item>
+        <item>ଦ୍ରୁତ</item>
+        <item>ଦ୍ରୁତତର</item>
+        <item>ଅତି ଦ୍ରୁତ</item>
+        <item>ଦ୍ରୁତ</item>
+        <item>ଅତି ତୀବ୍ର</item>
+        <item>ଦ୍ରୁତତ୍ତମ</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>ଚାର୍ଜ ହେଉଛି</item>
+        <item>MTP (ମିଡିଆ ସ୍ଥାନାନ୍ତର ପ୍ରୋଟୋକଲ୍‌)</item>
+        <item>PTP (ପିକଚର୍‌ ଟ୍ରାନ୍ସଫର୍‌ ପ୍ରୋଟୋକଲ୍‌)</item>
+        <item>RNDIS (USB ଏଥରନେଟ)</item>
+        <item>ଅଡିଓ ଉତ୍ସ</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>ସ୍କାନ୍‌ କରୁଛି…</item>
+        <item>ସଂଯୋଗ କରୁଛି…</item>
+        <item>ପ୍ରାମାଣିକୀକରଣ କରାଯାଉଛି…</item>
+        <item>IP ଠିକଣା ପ୍ରାପ୍ତ କରୁଛି…</item>
+        <item>ସଂଯୁକ୍ତ</item>
+        <item>ନିଲମ୍ବିତ</item>
+        <item>ବିଚ୍ଛିନ୍ନ ହେଉଛି…</item>
+        <item>ବିଚ୍ଛିନ୍ନ</item>
+        <item>ଅସଫଳ</item>
+        <item>ଅବରୋଧିତ</item>
+        <item>ସାମୟିକ ଭାବେ ଖରାପ ସଂଯୋଜନାକୁ ଏଡାଉଛି</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ସ୍କାନ୍‌ କରୁଛି…</item>
+        <item>%1$sକୁ ସଂଯୋଗ କରାଯାଉଛି…</item>
+        <item>%1$s ସହ ପ୍ରମାଣିତ ହେଉଛି…</item>
+        <item>%1$sରୁ IP ଠିକଣା ହାସଲ କରୁଛି…</item>
+        <item>%1$s ସହ ସଂଯୁକ୍ତ</item>
+        <item>କଟିଯାଇଛି</item>
+        <item>%1$sରୁ ବିଚ୍ଛିନ୍ନ ହେଉଛି…</item>
+        <item>ସଂଯୁକ୍ତ ନାହିଁ</item>
+        <item>ଅସଫଳ</item>
+        <item>ଅବରୋଧିତ</item>
+        <item>ଦୁର୍ବଳ ସଂଯୋଗକୂ ସାମୟିକ ଭାବେ ଏଡ଼ାଉଛି</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>ସ୍କାନ୍ କରାଯାଉଛି…</item>
+        <item>ସଂଯୋଗ ହେଉଛି…</item>
+        <item>ପ୍ରାମାଣିକରଣ କରାଯାଉଛି…</item>
+        <item>IP ଠିକଣା ପ୍ରାପ୍ତ କରୁଛି…</item>
+        <item>ସଂଯୋଗ ହୋଇଛି</item>
+        <item>ସାମୟିକ ଭାବରେ ବନ୍ଦ କରାଯାଇଛି</item>
+        <item>ବିଚ୍ଛିନ୍ନ କରାଯାଉଛି…</item>
+        <item>ବିଚ୍ଛିନ୍ନ କରାଯାଇଛି</item>
+        <item>ଅସଫଳ</item>
+        <item>ବ୍ଲକ୍ କରାଯାଇଛି</item>
+        <item>ଦୁର୍ବଳ ସଂଯୋଗକୁ ସାମୟିକ ଭାବେ ଏଡ଼ାଉଛି</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ଆନିମେଶନ୍‌ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>ଆନିମେଶନ ସ୍କେଲ .5x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 1x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 1.5x</item>
+        <item>ଆନିମେଶନ ସ୍କେଲ 2x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 5x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 10x</item>
+    </string-array>
+</resources>

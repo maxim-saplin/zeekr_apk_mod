@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.window.StatusBarWindowView android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sysui="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/status_bar_launch_animation_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/status_bar_container" android:background="@drawable/system_bar_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.android.systemui.statusbar.window.StatusBarWindowView>

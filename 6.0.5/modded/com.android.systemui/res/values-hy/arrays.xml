@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Անջատել շարժապատկերը</item>
+        <item>Շարժապատկերի սանդղակը .5x</item>
+        <item>Շարժապատկերի սանդղակը` 1x</item>
+        <item>Շարժապատկերի սանդղակը 1.5x</item>
+        <item>Շարժապատկերի սանդղակը` 2x</item>
+        <item>Շարժանկարի սանդղակը` 5x</item>
+        <item>Շարժապատկերի սանդղակը` 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Սովորական</item>
+        <item>Հետնաշերտում գործողություններ չկան</item>
+        <item>Առավելագույնը 1 գործընթաց</item>
+        <item>Առավելագույնը 2 գործընթաց</item>
+        <item>"Առավելագույնը 3  գործընթաց"</item>
+        <item>Ամենաշատը 4 գործընթաց</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Միշտ ցույց տալ տոկոսը</item>
+        <item>Ցույց տալ տոկոսը լիցքավորելու ժամանակ (կանխադրված է)</item>
+        <item>Ցույց չտալ այս պատկերակը</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Օգտագործել համակարգի կարգավորումը (կանխադրված)</item>
+        <item>16 բիթ/նմուշ</item>
+        <item>24 բիթ/նմուշ</item>
+        <item>32 բիթ/նմուշ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Օգտագործել համակարգի կարգավորումը (կանխադրված)</item>
+        <item>16 բիթ/նմուշ</item>
+        <item>24 բիթ/նմուշ</item>
+        <item>32 բիթ/նմուշ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Օգտագործել համակարգի կարգավորումը (կանխադրված)</item>
+        <item>Մոնո</item>
+        <item>Ստերեո</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Օգտագործել համակարգի կարգավորումը (կանխադրված)</item>
+        <item>Մոնո</item>
+        <item>Ստերեո</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Օպտիմալացված ձայնի որակի համար</item>
+        <item>Ձայնի և կապի հավասարակշռված որակ</item>
+        <item>Օպտիմալացված կապի որակի համար</item>
+        <item>Հնարավորներից լավագույնը (բիթերի փոխանցման հարմարեցվող արագություն)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Օպտիմալացված ձայնի որակի համար (990 կբ/վ / 909 կբ/վ)</item>
+        <item>Ձայնի և կապի հավասարակշռված որակ (660 կբ/վ / 606 կբ/վ)</item>
+        <item>Օպտիմալացված կապի որակի համար (330 կբ/վ / 303 կբ/վ)</item>
+        <item>Հնարավորներից լավագույնը (բիթերի փոխանցման հարմարեցվող արագություն)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Օգտագործել համակարգի կարգավորումը (կանխադրված)</item>
+        <item>44,1 կՀց</item>
+        <item>48,0 կՀց</item>
+        <item>88,2 կՀց</item>
+        <item>96,0 կՀց</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Օգտագործել համակարգի կարգավորումը (կանխադրված)</item>
+        <item>44,1 կՀց</item>
+        <item>48,0 կՀց</item>
+        <item>88,2 կՀց</item>
+        <item>96,0 կՀց</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Օգտագործել համակարգի կարգավորումը (կանխադրված)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ աուդիո</item>
+        <item>Qualcomm® aptX™ HD աուդիո</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Օգտագործել համակարգի կարգավորումը (կանխադրված)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ աուդիո</item>
+        <item>Qualcomm® aptX™ HD աուդիո</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, ակտիվ է</item>
+        <item>, ակտիվ է (մեդիա)</item>
+        <item>, ակտիվ է (հեռախոս)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (կանխադրված)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (կանխադրված)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Անջատված է</item>
+        <item>Միացված է զտիչներով</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Ցույց տալ ժամերը, րոպեները և վայրկյանները</item>
+        <item>Ցույց տալ ժամերը և րոպեները (կանխադրված է)</item>
+        <item>Ցույց չտալ այս պատկերակը</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Բարելավված գույներ</item>
+        <item>Բնական գույներ</item>
+        <item>Թվային բովանդակության համար հարմարեցված գույներ</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Պայծառ (կանխադրված)</item>
+        <item>Բնական</item>
+        <item>Սովորական</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Անջատված է</item>
+        <item>Ցույց տալ գերազանցված հատվածները</item>
+        <item>Ցույց տալ դալտոնիզմի ոլորտները</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ոչ մեկը</item>
+        <item>Logcat</item>
+        <item>Համակարգային հետագիծ (գծապատկերներ)</item>
+        <item>glGetError կանչերի ցուցակ</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Երբեք չօգտագործել HDCP ստուգումը</item>
+        <item>Օգտագործել HDCP-ը՝ միայն DRM-ի բովանդակությունը ստուգելու համար</item>
+        <item>Միշտ օգտագործել HDCP ստուգումը</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Երբեք չստուգել</item>
+        <item>Ստուգել միայն DRM բովանդակությունը</item>
+        <item>Միշտ ստուգել</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Սեղմատախտակ</item>
+        <item>Ստեղնային կոդ</item>
+        <item>Հաստատել պտտումը, ստեղնաշարի փոխարկիչ</item>
+        <item>Չկան</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Սովորական</item>
+        <item>Սեղմ</item>
+        <item>Ձախակողմյան</item>
+        <item>Աջակողմյան</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ոչ մեկը</item>
+        <item>480p</item>
+        <item>480p (ապահով)</item>
+        <item>720p</item>
+        <item>720p (ապահով)</item>
+        <item>1080p</item>
+        <item>1080p (ապահով)</item>
+        <item>4K</item>
+        <item>4K (ապահով)</item>
+        <item>4K (մասշտաբավորված)</item>
+        <item>4K (մասշտաբավորված, ապահով)</item>
+        <item>720p, 1080p (երկէկրան)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Անջատված է</item>
+        <item>64ԿԲ</item>
+        <item>256ԿԲ</item>
+        <item>1ՄԲ</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Անջատված է</item>
+        <item>Բուֆեր՝ առավ. 64ԿԲ</item>
+        <item>Բուֆեր՝ առավ. 256ԿԲ</item>
+        <item>Բուֆեր՝ առավ. 1ՄԲ</item>
+        <item>Բուֆեր՝ առավ. 4ՄԲ</item>
+        <item>Բուֆեր՝ առավելագույնը 8 ՄԲ</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Անջատված է</item>
+        <item>64ԿԲ</item>
+        <item>256ԿԲ</item>
+        <item>1ՄԲ</item>
+        <item>4ՄԲ</item>
+        <item>8 ՄԲ</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Անջատված է</item>
+        <item>Մատյանի բոլոր բուֆերները</item>
+        <item>Մատյանի բոլոր բուֆերները, ռադիո բուֆերներից բացի</item>
+        <item>միայն միջուկի մատյանի պահնակը</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Անջատված է</item>
+        <item>Բոլորը</item>
+        <item>Բոլորը, ռադիոյից բացի</item>
+        <item>միայն միջուկը</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Անջատված</item>
+        <item>Ներկել ոչ ուղղանկյունային կտրվածքի տարածքը կապույտով</item>
+        <item>Փորձարկված թեստի գունանշումը կանաչով</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Հասանելի չէ</item>
+        <item>Անջատված է</item>
+        <item>Միացված է</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Անջատել</item>
+        <item>Էկրանի վրա որպես գոտիներ</item>
+        <item>adb shell dumpsys gfxinfo-ից</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Անջատել շարժապատկերը</item>
+        <item>Շարժապատկերի սանդղակը` .5x</item>
+        <item>Շարժապատկերի սանդղակը` 1x</item>
+        <item>Շարժապատկերի սանդղակը` 1.5x</item>
+        <item>Շարժապատկերի սանդղակը` 2x</item>
+        <item>Շարժապատկերի սանդղակը` 5x</item>
+        <item>Շարժապատկերի սանդղակը` 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Շատ դանդաղ</item>
+        <item>Դանդաղ</item>
+        <item>Սովորական</item>
+        <item>Արագ</item>
+        <item>Ավելի արագ</item>
+        <item>Շատ արագ</item>
+        <item>Սրընթաց</item>
+        <item>Չափազանց արագ</item>
+        <item>Ամենաարագ</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Լիցքավորում</item>
+        <item>MTP (Մեդիա ֆայլերի փոխանցման հաղորդակարգ)</item>
+        <item>PTP (Նկարների փոխանցման հաղորդակարգ)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Ձայնի աղբյուրը</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Սկանավորում…</item>
+        <item>Միանում է...</item>
+        <item>Նույնականացում…</item>
+        <item>IP հասցեի ստացում…</item>
+        <item>Միացված է</item>
+        <item>Կասեցված է</item>
+        <item>Անջատվում է…</item>
+        <item>Անջատված է</item>
+        <item>Անհաջող</item>
+        <item>Արգելափակված</item>
+        <item>Ժամանակավորապես խուսափելով թույլ կապից</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Սկանավորում....</item>
+        <item>Միանում է %1$s-ին…</item>
+        <item>Նույնականացում %1$s-ի հետ…</item>
+        <item>IP հասցեի ստացում %1$s-ից…</item>
+        <item>Միացված է %1$s-ին</item>
+        <item>Անջատված</item>
+        <item>Անջատվում է %1$s-ից…</item>
+        <item>Անջատված է</item>
+        <item>Անհաջող</item>
+        <item>Արգելափակված</item>
+        <item>Վատ ցանցից ժամանակավոր խուսափում</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Որոնում…</item>
+        <item>Միացում…</item>
+        <item>Նույնականացում…</item>
+        <item>IP հասցեի ստացում…</item>
+        <item>Միացած է</item>
+        <item>Կասեցված է</item>
+        <item>Անջատվում է…</item>
+        <item>Կապը չեղարկված է</item>
+        <item>Չհաջողվեց միանալ</item>
+        <item>Արգելափակված է</item>
+        <item>Անջատվել է վատ կապի պատճառով</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Անջատել շարժապատկերը</item>
+        <item>Շարժապատկերի սանդղակը` .5x</item>
+        <item>Շարժապատկերի սանդղակը` 1x</item>
+        <item>Շարժապատկերի սանդղակը` 1.5x</item>
+        <item>Շարժապատկերի սանդղակը` 2x</item>
+        <item>Շարժապատկերի սանդղակը` 5x</item>
+        <item>Շարժապատկերի սանդղակը` 10x</item>
+    </string-array>
+</resources>

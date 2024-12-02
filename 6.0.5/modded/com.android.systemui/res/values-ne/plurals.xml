@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d दिनअघि</item>
+        <item quantity="one">%d दिनअघि</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d मिनेटअघि</item>
+        <item quantity="one">%d मिनेटअघि</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d वर्षअघि</item>
+        <item quantity="one">%d वर्षअघि</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s वटा नियन्त्र थपियो।</item>
+        <item quantity="one">%s नियन्त्र थपियो</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM को PIN प्रविष्टि गर्नुहोस्। तपाईंसँग %d  प्रयासहरू बाँकी छन्।</item>
+        <item quantity="one">SIM को PIN प्रविष्टि गर्नुहोस्। तपाईंसँग %d प्रयास बाँकी छ, त्यसपछि भने आफ्नो डिभाइस अनलक गर्नका लागि तपाईंले अनिवार्य रूपमा आफ्नो सेवा प्रदायकलाई सम्पर्क गर्नु पर्ने हुन्छ।</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM लाई असक्षम पारिएको छ। जारी राख्न PUK कोड प्रविष्टि गर्नुहोस्। तपाईंसँग %d प्रयासहरू बाँकी छन्, त्यसपछि SIM सदाका लागि प्रयोग गर्न नमिल्ने हुन्छ। विवरणहरूका लागि सेवा प्रदायकलाई सम्पर्क गर्नुहोस्।</item>
+        <item quantity="one">SIM लाई असक्षम पारिएको छ। जारी राख्न PUK कोड प्रविष्टि गर्नुहोस्। तपाईंसँग %d प्रयास बाँकी छ, त्यसपछि SIM सदाका लागि प्रयोग गर्न नमिल्ने हुन्छ। विवरणहरूका लागि सेवा प्रदायकलाई सम्पर्क गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM को PIN कोड गलत छ, तपाईं अझै %d पटक प्रयास गर्न सक्नुहुन्छ।</item>
+        <item quantity="one">SIM को PIN कोड गलत छ,तपाईंले आफ्नो डिभाइस अनलक गर्न आफ्नो सेवा प्रदायकलाई सम्पर्क गर्नैपर्ने अवस्था आउनु अघि तपाईं अझै %d पटक प्रयास गर्न सक्नुहुन्छ।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM को PUK कोड गलत छ, SIM सदाका लागि काम नलाग्ने हुनु अघि तपाईं अझै %d पटक प्रयास गर्न सक्नुहुन्छ।</item>
+        <item quantity="one">SIM को PUK कोड गलत छ, SIM सदाका लागि काम नलाग्ने हुनु अघि तपाईं अझै %d पटक प्रयास गर्न सक्नुहुन्छ।</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d सेकेन्डपछि फेरि प्रयास गर्नुहोस्।</item>
+        <item quantity="one">१ सेकेन्डपछि फेरि प्रयास गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d नयाँ सूचनाहरू</item>
+        <item quantity="one">%d नयाँ सूचना</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">भित्र थप %s सूचनाहरू छन्।</item>
+        <item quantity="one">भित्र थप %s सूचना छ।</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d यन्त्रहरू</item>
+        <item quantity="one">%d यन्त्र</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d घन्टा</item>
+        <item quantity="one">%d घन्टा</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d मिनेट</item>
+        <item quantity="one">%d मिनेट</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">तपाईं अधिकतम %d प्रयोगहरू मात्र थप्न सक्नुहुन्छ।</item>
+        <item quantity="one">एउटा प्रयोगकर्ता मात्र सिर्जना गर्न सकिन्छ।</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d डिभाइस कनेक्ट गरिएको छ</item>
+        <item quantity="one">%1$d यन्त्र जडान गरियो</item>
+    </plurals>
+</resources>

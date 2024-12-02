@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top_level" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <TextView android:textAppearance="@android:style/SegmentedButton" android:textSize="24.0sp" android:textColor="?android:textColorPrimary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/select_conversation_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_conversation_title" />
+    <TextView android:textAppearance="@android:style/SegmentedButton" android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/select_conversation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/select_conversation_text" android:paddingHorizontal="48.0dip" android:paddingVertical="24.0dip" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/scroll_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/priority" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip">
+                <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.ListItemSecondary" android:textSize="14.0sp" android:textColor="?android:^attr-private/closeItemLayout" android:id="@id/priority_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/priority_conversations" android:paddingStart="16.0dip" />
+                <LinearLayout android:orientation="vertical" android:id="@id/priority_tiles" android:background="@drawable/rounded_bg_full_large_radius" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:clipToOutline="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/recent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.ListItemSecondary" android:textSize="14.0sp" android:textColor="?android:^attr-private/closeItemLayout" android:gravity="start" android:id="@id/recent_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recent_conversations" android:paddingStart="16.0dip" />
+                <LinearLayout android:orientation="vertical" android:id="@id/recent_tiles" android:background="@drawable/rounded_bg_full_large_radius" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:clipToOutline="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

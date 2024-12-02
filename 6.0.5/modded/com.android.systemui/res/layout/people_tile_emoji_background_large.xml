@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@android:style/Theme.DeviceDefault.DayNight" android:id="@id/emojis" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/SegmentedButton" android:textSize="34.0sp" android:id="@id/emoji1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:alpha="0.2" android:paddingStart="40.0dip" />
+    <TextView android:textAppearance="@android:style/SegmentedButton" android:textSize="34.0sp" android:id="@id/emoji2" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:alpha="0.2" android:paddingStart="27.0dip" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="@android:style/SegmentedButton" android:textSize="34.0sp" android:id="@id/emoji3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentBottom="true" android:alpha="0.2" android:paddingEnd="25.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

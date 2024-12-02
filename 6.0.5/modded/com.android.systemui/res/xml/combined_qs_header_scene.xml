@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition android:id="@id/header_transition" app:constraintSetEnd="@id/qs_header_constraint" app:constraintSetStart="@id/qqs_header_constraint">
+        <KeyFrameSet>
+            <KeyPosition app:framePosition="50" app:keyPositionType="pathRelative" app:motionTarget="@id/date" app:percentX="0.0" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition android:id="@id/split_header_transition" app:constraintSetEnd="@id/split_header_constraint" app:constraintSetStart="@id/split_header_constraint" />
+    <ConstraintSet android:id="@id/qqs_header_constraint" />
+    <ConstraintSet android:id="@id/qs_header_constraint" />
+    <ConstraintSet android:id="@id/split_header_constraint" />
+</MotionScene>

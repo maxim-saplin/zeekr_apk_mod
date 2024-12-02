@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Анимацията е изключена</item>
+        <item>Скала на анимацията .5x</item>
+        <item>Скала на анимацията 1x</item>
+        <item>Скала на анимацията 1.5x</item>
+        <item>Скала на анимацията 2x</item>
+        <item>Скала на анимацията 5x</item>
+        <item>Скала на анимацията 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Стандартно ограничение</item>
+        <item>Няма процеси на заден план</item>
+        <item>Най-много 1 процес</item>
+        <item>Най-много 2 процеса</item>
+        <item>Най-много 3 процеса</item>
+        <item>Най-много 4 процеса</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Процентът винаги да се показва</item>
+        <item>Процентът да се показва при зареждане (по подразбиране)</item>
+        <item>Тази икона да не се показва</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>16 бита/дискрет</item>
+        <item>24 бита/дискрет</item>
+        <item>32 бита/дискрет</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>16 бита/дискрет</item>
+        <item>24 бита/дискрет</item>
+        <item>32 бита/дискрет</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Оптимизирано за качество на звука</item>
+        <item>Балансирано качество на звука и връзката</item>
+        <item>Оптимизирано за качество на връзката</item>
+        <item>Възможно най-добро качество (адаптивна скорост на предаване)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Оптимизирано за качество на звука (990 или 909 кб/сек)</item>
+        <item>Балансирано качество на звука и връзката (660 или 606 кб/сек)</item>
+        <item>Оптимизирано за качество на връзката (330 или 303 кб/сек)</item>
+        <item>Възможно най-добро качество (адаптивна скорост на предаване)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>44,1 кХц</item>
+        <item>48 кХц</item>
+        <item>88,2 кХц</item>
+        <item>96 кХц</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>44,1 кХц</item>
+        <item>48 кХц</item>
+        <item>88,2 кХц</item>
+        <item>96 кХц</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>SBC</item>
+        <item>Разширено аудиокодиране (AAC)</item>
+        <item>Аудио: aptX™ от Qualcomm®</item>
+        <item>Аудио: aptX™ HD от Qualcomm®</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>SBC</item>
+        <item>Разширено аудиокодиране (AAC)</item>
+        <item>Аудио: aptX™ от Qualcomm®</item>
+        <item>Аудио: aptX™ HD от Qualcomm®</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>– активно</item>
+        <item>– активно (мултимедия)</item>
+        <item>– активно (телефон)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (основно)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (по подразбиране)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Деактивирано</item>
+        <item>Филтрирането е активирано</item>
+        <item>Активирано</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Показване на часовете, минутите и секундите</item>
+        <item>Показване на часовете и минутите (по подразбиране)</item>
+        <item>Тази икона да не се показва</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Подобрени цветове</item>
+        <item>Естествени цветове, без подобрения</item>
+        <item>Цветове, оптимизирани за дигитално съдържание</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Ярък (по подразбиране)</item>
+        <item>Естествен</item>
+        <item>Стандартен</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Изключено</item>
+        <item>Области за преизчертаване: Показв.</item>
+        <item>Показване на областите за деутеранопия</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Без</item>
+        <item>Logcat</item>
+        <item>Systrace (Графика)</item>
+        <item>Извикване на стека при glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Никога да не се използва проверка с HDCP</item>
+        <item>Да се използва проверка с HDCP само за DRM съдържание</item>
+        <item>Винаги да се използва проверка с HDCP</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Никога да не се проверява</item>
+        <item>Проверка само за DRM съдържание</item>
+        <item>Винаги да се проверява</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Буферна памет</item>
+        <item>Клавишен код</item>
+        <item>Потвърждаване на завъртането, превключвател за клавиатурата</item>
+        <item>Няма</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Нормално</item>
+        <item>Компактно</item>
+        <item>Лява ориентация</item>
+        <item>Дясна ориентация</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Няма</item>
+        <item>480p</item>
+        <item>480p (сигурно)</item>
+        <item>720p</item>
+        <item>720p (сигурно)</item>
+        <item>1080p</item>
+        <item>1080p (сигурно)</item>
+        <item>4K</item>
+        <item>4K (сигурно)</item>
+        <item>4K (с увеличен мащаб)</item>
+        <item>4K (с увеличен мащаб, сигурно)</item>
+        <item>720p, 1080p (двоен екран)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Изключено</item>
+        <item>64 КБ</item>
+        <item>256 КБ</item>
+        <item>1 МБ</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Изключено</item>
+        <item>Рег. буфер – 64 КБ</item>
+        <item>Рег. буфер – 256 КБ</item>
+        <item>Рег. буфер – 1 МБ</item>
+        <item>Рег. буфер – 4 МБ</item>
+        <item>Регистрационен буфер – 8 МБ</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Изключено</item>
+        <item>64 КБ</item>
+        <item>256 КБ</item>
+        <item>1 МБ</item>
+        <item>4 МБ</item>
+        <item>8 МБ</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Изкл.</item>
+        <item>Всички регистрационни буфери</item>
+        <item>Всички регистрационни буфери освен тези за радиото</item>
+        <item>само регистрационния буфер на ядрото</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Изкл.</item>
+        <item>Всички</item>
+        <item>Вс. без радио</item>
+        <item>само ядрото</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Изключено</item>
+        <item>Начертаване в синьо на неправоъгълна област</item>
+        <item>Зелено за тествани команди за начертаване</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Изкл.</item>
+        <item>На екрана като чертички</item>
+        <item>След adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Анимацията е изключена</item>
+        <item>Скала на анимацията .5x</item>
+        <item>Скала на анимацията 1x</item>
+        <item>Скала на анимацията 1.5x</item>
+        <item>Скала на анимацията 2x</item>
+        <item>Скала на анимацията 5x</item>
+        <item>Скала на анимацията 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Много бавна</item>
+        <item>Бавна</item>
+        <item>Нормална</item>
+        <item>Бърза</item>
+        <item>По-бърза</item>
+        <item>Много бърза</item>
+        <item>Изключително бърза</item>
+        <item>Свръхбърза</item>
+        <item>Най-бърза</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Зареждане</item>
+        <item>MTP (протокол за пренос на мултимедия)</item>
+        <item>PTP (протокол за пренос на картини)</item>
+        <item>RNDIS (Ethernet през USB)</item>
+        <item>Аудиоизточник</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Сканира се...</item>
+        <item>Установява се връзка…</item>
+        <item>Удостоверява се...</item>
+        <item>Получава се IP адрес</item>
+        <item>Установена е връзка</item>
+        <item>Прекъсната</item>
+        <item>Изключва се...</item>
+        <item>Изкл.</item>
+        <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Временно се избягва лоша връзка</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Сканира се...</item>
+        <item>Установява се връзка с/ъс %1$s...</item>
+        <item>Удостоверява се с/ъс %1$s...</item>
+        <item>IP адресът от %1$s се получава...</item>
+        <item>Установена е връзка с(ъс) %1$s</item>
+        <item>Прекъсната</item>
+        <item>Изключва се от %1$s...</item>
+        <item>Изкл.</item>
+        <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Временно се избягва лоша връзка</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Сканира се…</item>
+        <item>Установява се връзка…</item>
+        <item>Удостоверява се…</item>
+        <item>IP адресът се извлича…</item>
+        <item>Установена е връзка</item>
+        <item>Спряно</item>
+        <item>Връзката се прекратява…</item>
+        <item>Няма връзка</item>
+        <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Временно се избягва лоша връзка</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Анимацията е изключена</item>
+        <item>Скала на анимацията .5x</item>
+        <item>Скала на анимацията 1x</item>
+        <item>Скала на анимацията 1.5x</item>
+        <item>Скала на анимацията 2x</item>
+        <item>Скала на анимацията 5x</item>
+        <item>Скала на анимацията 10x</item>
+    </string-array>
+</resources>

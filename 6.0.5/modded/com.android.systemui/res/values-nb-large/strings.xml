@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Trykk her for å aktivere varslinger på nytt.</string>
+    <string name="notifications_off_title">Varslinger er deaktivert</string>
+    <string name="status_bar_clear_all_button">Tøm alle</string>
+</resources>

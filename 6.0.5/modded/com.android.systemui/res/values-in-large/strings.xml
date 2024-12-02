@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Ketuk di sini untuk menghidupkan pemberitahuan lagi.</string>
+    <string name="notifications_off_title">Pemberitahuan mati</string>
+    <string name="status_bar_clear_all_button">Hapus semua</string>
+</resources>

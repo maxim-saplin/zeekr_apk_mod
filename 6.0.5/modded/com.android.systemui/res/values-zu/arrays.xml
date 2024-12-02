@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Isithombe esinyakazayo sivaliwe</item>
+        <item>Isilinganiso sesithombe esinyakazayo ngu-05x</item>
+        <item>Isilinganiso sesithombe esinyakazayo ngu-1x</item>
+        <item>Isilinganiso sesithombe esinyakazayo ngu-1.5x</item>
+        <item>Isilinganiso sesithombe esinyakazayo ngu-2x</item>
+        <item>Isilinganisi sesithombe esinyakazayo 5x</item>
+        <item>Isilinganiso sesithombe esinyakazayo 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Isilanganiso esivamile</item>
+        <item>Azikho izinqubo zesizinda</item>
+        <item>Inqubo engezansi kweyodwa ngokwesilinganiso</item>
+        <item>Izinqubo ezingaba ngu-2 ngokwesilinganiso esiphazulu</item>
+        <item>Izinqubo okungenani ezingu-3</item>
+        <item>Izinguquko ezingingadluli ezingu-4</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Njlalo bonisa iphesentheji</item>
+        <item>Bonisa iphesentheji uma ishaja (okuzenzakalelayo)</item>
+        <item>Ungabonisi lesi sithonjana</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Sebenzisa ukukhetha kwesistimu (Okuzenzakalelayo)</item>
+        <item>16 bits/isampula</item>
+        <item>24 bits/isampula</item>
+        <item>32 bits/isampula</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Sebenzisa ukukhetha kwesistimu (Okuzenzakalelayo)</item>
+        <item>16 bits/isampula</item>
+        <item>24 bits/isampula</item>
+        <item>32 bits/isampula</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Sebenzisa ukukhetha kwesistimu (Okuzenzakalelayo)</item>
+        <item>Okukodwa</item>
+        <item>I-Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Sebenzisa ukukhetha kwesistimu (Okuzenzakalelayo)</item>
+        <item>Okukodwa</item>
+        <item>I-Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Kuthuthukiselwe ikhwalithi yomsebenzisi</item>
+        <item>Umsindo obhalansile nekhwalithi yoxhumo</item>
+        <item>Kuthuthukiselwe ikhwalithi yoxhumo</item>
+        <item>Amandla amahle (Adaptive Bit Rate)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Kuthuthukiselwe ikhwalithi yomsindo (990kbps/909kbps)</item>
+        <item>Umsindo obhalansile nekhwalithi yoxhumo (660kbps/606kbps)</item>
+        <item>Kuthuthukiselwe ikhwalithi yoxhumo (330kbps/303kbps)</item>
+        <item>Amandla amahle (Adaptive Bit Rate)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Sebenzisa ukukhetha kwesistimu (Okuzenzakalelayo)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Sebenzisa ukukhetha kwesistimu (Okuzenzakalelayo)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Sebenzisa ukukhetha kwesistimu (Okuzenzakalelayo)</item>
+        <item>SBC</item>
+        <item>I-AAC</item>
+        <item>Qualcomm® aptX™ umsindo</item>
+        <item>Qualcomm® aptX™ HD umsindo</item>
+        <item>I-LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Sebenzisa ukukhetha kwesistimu (Okuzenzakalelayo)</item>
+        <item>SBC</item>
+        <item>I-AAC</item>
+        <item>Qualcomm® aptX™ umsindo</item>
+        <item>Qualcomm® aptX™ HD umsindo</item>
+        <item>I-LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, iyasebenza</item>
+        <item>, iyasebenza (imidiya)</item>
+        <item>, iyasebenza (ifoni)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>I-avrcp15</item>
+        <item>I-avrcp13</item>
+        <item>I-avrcp14</item>
+        <item>I-avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>I-AVRCP 1.5 (Okuzenzakalelayo)</item>
+        <item>I-AVRCP 1.3</item>
+        <item>I-AVRCP 1.4</item>
+        <item>I-AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>Imephu12</item>
+        <item>Imephu13</item>
+        <item>Imephu14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>IMEPHU 1.2 (Okuzenzakalelayo)</item>
+        <item>IMEPHU 1.3</item>
+        <item>IMEPHU 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Kukhutshaziwe</item>
+        <item>Okuhlungiwe okunikwe amandla</item>
+        <item>Kunikwe amandla</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Bonisa amahora, amaminithi, namasekhondi</item>
+        <item>Bonisa amahora namaminithi (okuzenzakalelayo)</item>
+        <item>Ungabonisi lesi sithonjana</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Imibala ethuthukisiwe</item>
+        <item>Imibala yemvelo njengoba ibonwa yilihlo</item>
+        <item>Imibala elungiselelwe yokuqukethwe kwedijithali</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Dlidlizela (okuzenzakalelayo)</item>
+        <item>Kwemvelo</item>
+        <item>Okujwayelekile</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Valiwe</item>
+        <item>Bonisa izindawo zokukhipha okungaphezulu</item>
+        <item>Bonisa izindawo ze-Deuteranomaly</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Akunalutho</item>
+        <item>i-Logcat</item>
+        <item>i-Systrace (izithombe)</item>
+        <item>Isitaki socingo ku-glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Ungasoze wasebenzisa ukuhlola kwe-HDCP</item>
+        <item>Sebenzisa ukuhlola kwe-HDCP kokuqukethwe i-DRM kuphela</item>
+        <item>Sebenzisa njalo ukuhlola kwe-HDPC</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Akusoze kuhlole</item>
+        <item>Hlola okuqukethwe kwe-DRM kuphela</item>
+        <item>Hlola njalo</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Ibhodi lokumanathisela</item>
+        <item>Ikhodi yokhiye</item>
+        <item>Qinisekisa ukuzungezisa, isishintshi sekhibhodi</item>
+        <item>Akunalutho</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Okujwayelekile</item>
+        <item>Xinene</item>
+        <item>Ukuncika ngakwesokunxele</item>
+        <item>Ukuncika ngakwesokudla</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Akunalutho</item>
+        <item>480p</item>
+        <item>480p (kuphephile)</item>
+        <item>720p</item>
+        <item>720p (kuphephile)</item>
+        <item>1080p</item>
+        <item>1080p (kuphephile)</item>
+        <item>4K</item>
+        <item>4K (kuphephile)</item>
+        <item>4K (isikali esiphezulu)</item>
+        <item>4K (isikali esiphezulu, kuphephile)</item>
+        <item>720p, 1080p (isikrini esihamba ngokubili)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Valiwe</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Valiwe</item>
+        <item>64K ngebhafa yelogu ngayinye</item>
+        <item>256K ngebhafa yelogu ngayinye</item>
+        <item>1M ngebhafa yelogu ngayi</item>
+        <item>4M ngebhafa yelogu ngayinye</item>
+        <item>8M ngebhafa yelogu ngayinye</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Valiwe</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Valiwe</item>
+        <item>Onke amabhafa elogi</item>
+        <item>Konke ngaphandle kwamabhafa elogi yerediyo</item>
+        <item>ilogi ye-kernel kuphela</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Valiwe</item>
+        <item>Konke</item>
+        <item>Konke ngaphandle kwerediyo</item>
+        <item>i-kernel kuphela</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Valiwe</item>
+        <item>Dweba indawo yesiqeshana engesiyena unxantathu ngokuphuzi okwesibhakabhaka</item>
+        <item>Beka obala iziqondiso ezihloliwe zokudwebela ngokuphuzi</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Akutholakali</item>
+        <item>Valiwe</item>
+        <item>Vuliwe</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Valiwe</item>
+        <item>Kusikrini njengamabha</item>
+        <item>Ku-adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Isithombe esinyakazayo sivaliwe</item>
+        <item>Isilinganiso sesithombe esinyakazayo ngu-.5x</item>
+        <item>Isilinganiso sesithombe ngu-1x</item>
+        <item>Isilinganiso sesithombe esinyakazayo ngu-1.5x</item>
+        <item>Isilinganiso sesithombe esinyakazayo ngu-2x</item>
+        <item>Isilinganisi sesithombe esinyakazayo 5x</item>
+        <item>Isilinganiso sesithombe esinyakazayo</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Phansi kakhulu</item>
+        <item>Phansi</item>
+        <item>Okujwayelekile</item>
+        <item>Sheshayo</item>
+        <item>Ngokushesha</item>
+        <item>Kushesha kakhulu</item>
+        <item>Esheshisayo</item>
+        <item>Esheshisa kakhulu</item>
+        <item>Esheshisa kakhulukhulu</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Iyashaja</item>
+        <item>I-MTP (Iphrothokholi Yokudlulisa Imidiya)</item>
+        <item>I-PTP (Iphrothokholi Yokudlulisa Izithombe)</item>
+        <item>I-RNDIS (USB Ethernet)</item>
+        <item>Umthombo Womsindo</item>
+        <item>I-MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Iyathwebula...</item>
+        <item>Iyaxhuma kwi-inthanethi...</item>
+        <item>Iyaqinisekisa...</item>
+        <item>Ithola ikheli le-IP...</item>
+        <item>Ixhunyiwe kwi-inthanethi</item>
+        <item>Kumiswe okwesikhashana</item>
+        <item>Inqamula uxhumano kwi-inthanethi...</item>
+        <item>Ayixhunyiwe</item>
+        <item>Akuphumelelanga</item>
+        <item>Uvinjelwe</item>
+        <item>Okwesikhashana ivikela ukuxhumana okungaqinile</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Iyathwebula...</item>
+        <item>Ixhuma ku-%1$s...</item>
+        <item>Iqinisekisa nge %1$s...</item>
+        <item>Ithola ikheli le-IP kusuka %1$s...</item>
+        <item>Ixhumeke ku-%1$s</item>
+        <item>Kumiswe okwesikhashana</item>
+        <item>Inqamula kusuka %1$s…</item>
+        <item>Ayixhunyiwe kwi-inthanethi</item>
+        <item>Akuphumelelanga</item>
+        <item>Uvinjelwe</item>
+        <item>Okwesikhashana ivikela ukuxhumana okungaqinile</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Iyaskena…</item>
+        <item>Iyaxhuma…</item>
+        <item>Iyaqinisekisa…</item>
+        <item>Ithola ikheli lasesizindeni se-inthanethi…</item>
+        <item>Ixhunyiwe</item>
+        <item>Kumiswe okwesikhashana</item>
+        <item>Iyanqamula…</item>
+        <item>Inqamukile</item>
+        <item>Akuphumelelanga</item>
+        <item>Ivinjiwe</item>
+        <item>Okwesikhashana ivikela ukuxhumana okungaqinile</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Isithombe esinyakazayo sivliwe</item>
+        <item>Isilinganiso sesithombe esinyakazayo ngu-05x</item>
+        <item>Isilinganiso sesithombe esinyakazayo ngu-1x</item>
+        <item>Isilinganiso sesithombe esinyakazayo</item>
+        <item>Isilinganiso sesithombe esinyakazayo ngu-2x</item>
+        <item>Isilinganiso sesithombe esinyakazayo</item>
+        <item>Isilinganiso sesithombe esinyakazayo ngu-10x</item>
+    </string-array>
+</resources>

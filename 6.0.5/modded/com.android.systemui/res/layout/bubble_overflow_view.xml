@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bubble_overflow_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.wm.shell.bubbles.BadgedImageView android:layout_gravity="center" android:id="@id/bubble_view" android:layout_width="@dimen/bubble_size" android:layout_height="@dimen/bubble_size"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <TextView android:textAppearance="@android:style/SegmentedButton" android:textSize="13.0sp" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/bubble_view_name" android:paddingTop="@dimen/bubble_overflow_text_padding" android:layout_width="@dimen/bubble_name_width" android:layout_height="wrap_content" android:maxLines="1" android:lines="2" android:paddingStart="@dimen/bubble_overflow_text_padding" android:paddingEnd="@dimen/bubble_overflow_text_padding" />
+</LinearLayout>

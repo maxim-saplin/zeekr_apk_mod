@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">vor %d Tagen</item>
+        <item quantity="one">vor %d Tag</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">vor %d Min.</item>
+        <item quantity="one">vor %d Min.</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">vor %d Jahren</item>
+        <item quantity="one">vor %d Jahr</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s Steuerelemente hinzugefügt.</item>
+        <item quantity="one">%s Steuerelement hinzugefügt.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Gib die PIN für die SIM-Karte ein. Du hast noch %d Versuche.</item>
+        <item quantity="one">Gib die PIN für die SIM-Karte ein. Du hast noch %d Versuch, bevor das Gerät nur noch vom Mobilfunkanbieter entsperrt werden kann.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Die SIM-Karte ist jetzt deaktiviert. Gib den PUK-Code ein, um fortzufahren. Du hast noch %d Versuche, bevor die SIM-Karte endgültig gesperrt wird. Weitere Informationen erhältst du von deinem Mobilfunkanbieter.</item>
+        <item quantity="one">Die SIM-Karte ist jetzt deaktiviert. Gib den PUK-Code ein, um fortzufahren. Du hast noch %d Versuch, bevor die SIM-Karte endgültig gesperrt wird. Weitere Informationen erhältst du von deinem Mobilfunkanbieter.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Falscher PIN-Code der SIM-Karte. Du hast noch %d Versuche.</item>
+        <item quantity="one">Falscher PIN-Code der SIM-Karte. Du hast noch %d Versuch, bevor du das Gerät von deinem Mobilfunkanbieter entsperren lassen musst.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Falscher PUK-Code der SIM-Karte. Du hast noch %d Versuche, bevor deine SIM-Karte endgültig gesperrt wird.</item>
+        <item quantity="one">Falscher PUK-Code der SIM-Karte. Du hast noch %d Versuch, bevor deine SIM-Karte endgültig gesperrt wird.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">In %d Sekunden noch einmal versuchen.</item>
+        <item quantity="one">In 1 Sekunde noch einmal versuchen.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d neue Benachrichtigungen</item>
+        <item quantity="one">%d neue Benachrichtigung</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s weitere Benachrichtigungen vorhanden.</item>
+        <item quantity="one">%s weitere Benachrichtigung vorhanden.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d Geräte</item>
+        <item quantity="one">%d Gerät</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d Stunden</item>
+        <item quantity="one">%d Stunde</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d Minuten</item>
+        <item quantity="one">%d Minute</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Du kannst bis zu %d Nutzer hinzufügen.</item>
+        <item quantity="one">Es kann nur ein Nutzer erstellt werden.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d Geräte verbunden</item>
+        <item quantity="one">%1$d Gerät verbunden</item>
+    </plurals>
+</resources>

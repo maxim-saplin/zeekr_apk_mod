@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">For %d dager siden</item>
+        <item quantity="one">For %d dag siden</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">For %d min. siden</item>
+        <item quantity="one">For %d min. siden</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">For %d år siden</item>
+        <item quantity="one">For %d år siden</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s kontroller er lagt til.</item>
+        <item quantity="one">%s kontroll er lagt til.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Skriv inn PIN-koden for SIM-kortet. Du har %d forsøk igjen.</item>
+        <item quantity="one">Skriv inn PIN-koden for SIM-kortet. Du har %d forsøk igjen før du må kontakte operatøren din for å låse opp enheten.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM-kortet er deaktivert nå. Skriv inn PUK-koden for å fortsette. Du har %d forsøk igjen før SIM-kortet blir permanent ubrukelig. Kontakt operatøren for å få vite mer.</item>
+        <item quantity="one">SIM-kortet er deaktivert nå. Skriv inn PUK-koden for å fortsette. Du har %d forsøk igjen før SIM-kortet blir permanent ubrukelig. Kontakt operatøren for å få vite mer.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen.</item>
+        <item quantity="one">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen før du må kontakte operatøren din for å låse opp enheten.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Feil PUK-kode for SIM-kortet. Du har %d forsøk igjen før SIM-kortet blir permanent ubrukelig.</item>
+        <item quantity="one">Feil PUK-kode for SIM-kortet. Du har %d forsøk igjen før SIM-kortet blir permanent ubrukelig.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Prøv på nytt om %d sekunder.</item>
+        <item quantity="one">Prøv på nytt om ett sekund.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s andre varsler i gruppen.</item>
+        <item quantity="one">%s annet varsel i gruppen.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d enheter</item>
+        <item quantity="one">%d enhet</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minutt</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Du kan legge til opptil %d brukere.</item>
+        <item quantity="one">Du kan bare opprette én bruker.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d enheter er tilkoblet</item>
+        <item quantity="one">%1$d enhet er tilkoblet</item>
+    </plurals>
+</resources>

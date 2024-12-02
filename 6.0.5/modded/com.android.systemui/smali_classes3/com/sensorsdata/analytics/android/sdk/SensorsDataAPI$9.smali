@@ -1,0 +1,114 @@
+.class Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI$9;
+.super Ljava/lang/Object;
+.source "SensorsDataAPI.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI;->track(Ljava/lang/String;Lorg/json/JSONObject;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI;
+
+.field final synthetic val$cloneProperties:Lorg/json/JSONObject;
+
+.field final synthetic val$eventName:Ljava/lang/String;
+
+
+# direct methods
+.method constructor <init>(Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI;Ljava/lang/String;Lorg/json/JSONObject;)V
+    .locals 0
+
+    .line 1027
+    iput-object p1, p0, Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI$9;->this$0:Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI;
+
+    iput-object p2, p0, Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI$9;->val$eventName:Ljava/lang/String;
+
+    iput-object p3, p0, Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI$9;->val$cloneProperties:Lorg/json/JSONObject;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 4
+
+    .line 1030
+    invoke-static {}, Lcom/sensorsdata/analytics/android/sdk/core/mediator/SAModuleManager;->getInstance()Lcom/sensorsdata/analytics/android/sdk/core/mediator/SAModuleManager;
+
+    move-result-object v0
+
+    const/4 v1, 0x2
+
+    new-array v1, v1, [Ljava/lang/Object;
+
+    iget-object v2, p0, Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI$9;->val$eventName:Ljava/lang/String;
+
+    const/4 v3, 0x0
+
+    aput-object v2, v1, v3
+
+    iget-object v2, p0, Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI$9;->val$cloneProperties:Lorg/json/JSONObject;
+
+    const/4 v3, 0x1
+
+    aput-object v2, v1, v3
+
+    const-string v2, "sensors_analytics_module_advertisement"
+
+    const-string v3, "mergeChannelEventProperties"
+
+    invoke-virtual {v0, v2, v3, v1}, Lcom/sensorsdata/analytics/android/sdk/core/mediator/SAModuleManager;->invokeModuleFunction(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lorg/json/JSONObject;
+
+    if-nez v0, :cond_0
+
+    .line 1033
+    iget-object v0, p0, Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI$9;->val$cloneProperties:Lorg/json/JSONObject;
+
+    .line 1035
+    :cond_0
+    iget-object v1, p0, Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI$9;->this$0:Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI;
+
+    iget-object v1, v1, Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI;->mSAContextManager:Lcom/sensorsdata/analytics/android/sdk/core/SAContextManager;
+
+    new-instance v2, Lcom/sensorsdata/analytics/android/sdk/core/event/InputData;
+
+    invoke-direct {v2}, Lcom/sensorsdata/analytics/android/sdk/core/event/InputData;-><init>()V
+
+    iget-object p0, p0, Lcom/sensorsdata/analytics/android/sdk/SensorsDataAPI$9;->val$eventName:Ljava/lang/String;
+
+    invoke-virtual {v2, p0}, Lcom/sensorsdata/analytics/android/sdk/core/event/InputData;->setEventName(Ljava/lang/String;)Lcom/sensorsdata/analytics/android/sdk/core/event/InputData;
+
+    move-result-object p0
+
+    sget-object v2, Lcom/sensorsdata/analytics/android/sdk/internal/beans/EventType;->TRACK:Lcom/sensorsdata/analytics/android/sdk/internal/beans/EventType;
+
+    invoke-virtual {p0, v2}, Lcom/sensorsdata/analytics/android/sdk/core/event/InputData;->setEventType(Lcom/sensorsdata/analytics/android/sdk/internal/beans/EventType;)Lcom/sensorsdata/analytics/android/sdk/core/event/InputData;
+
+    move-result-object p0
+
+    invoke-virtual {p0, v0}, Lcom/sensorsdata/analytics/android/sdk/core/event/InputData;->setProperties(Lorg/json/JSONObject;)Lcom/sensorsdata/analytics/android/sdk/core/event/InputData;
+
+    move-result-object p0
+
+    invoke-virtual {v1, p0}, Lcom/sensorsdata/analytics/android/sdk/core/SAContextManager;->trackEvent(Lcom/sensorsdata/analytics/android/sdk/core/event/InputData;)V
+
+    return-void
+.end method

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:color="@color/bottom_sheet_button_background_color_focused" />
+    <item android:color="@color/bottom_sheet_button_background_color_unfocused" />
+</selector>

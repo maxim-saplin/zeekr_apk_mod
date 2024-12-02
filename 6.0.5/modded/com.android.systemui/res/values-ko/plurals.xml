@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d일 전</item>
+        <item quantity="one">%d일 전</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d분 전</item>
+        <item quantity="one">%d분 전</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d년 전</item>
+        <item quantity="one">%d년 전</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">제어 기능 %s개가 추가되었습니다.</item>
+        <item quantity="one">제어 기능 %s개가 추가되었습니다.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN을 입력하세요. 입력은 %d번 더 시도할 수 있습니다.</item>
+        <item quantity="one">SIM PIN을 입력하세요. 입력에 %d번 더 실패하면 이동통신사에 문의하여 기기를 잠금 해제해야 합니다.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM이 사용 중지되었습니다. 계속하려면 PUK 코드를 입력하세요. %d번 더 실패하면 SIM을 완전히 사용할 수 없게 됩니다. 자세한 내용은 이동통신사에 문의하세요.</item>
+        <item quantity="one">SIM이 사용 중지되었습니다. 계속하려면 PUK 코드를 입력하세요. %d번 더 실패하면 SIM을 완전히 사용할 수 없게 됩니다. 자세한 내용은 이동통신사에 문의하세요.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">잘못된 SIM PIN 코드입니다. 입력을 %d번 더 시도할 수 있습니다.</item>
+        <item quantity="one">잘못된 SIM PIN 코드입니다. 입력에 %d번 더 실패할 경우 이동통신사에 문의하여 기기를 잠금 해제해야 합니다.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">잘못된 SIM PUK 코드입니다. 입력에 %d번 더 실패할 경우 SIM이 영구적으로 사용 중지됩니다.</item>
+        <item quantity="one">잘못된 SIM PUK 코드입니다. 입력에 %d번 더 실패할 경우 SIM이 영구적으로 사용 중지됩니다.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d초 후에 다시 시도하세요.</item>
+        <item quantity="one">1초 후에 다시 시도하세요.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s개 알림 더보기</item>
+        <item quantity="one">%s개 알림 더보기</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">기기 %d대</item>
+        <item quantity="one">기기 %d대</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">%d시간</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d분</item>
+        <item quantity="one">%d분</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">사용자를 %d명까지 추가할 수 있습니다.</item>
+        <item quantity="one">사용자를 한 명만 만들 수 있습니다.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">기기 %1$d개 연결됨</item>
+        <item quantity="one">기기 %1$d개 연결됨</item>
+    </plurals>
+</resources>

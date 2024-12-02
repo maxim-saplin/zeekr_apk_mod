@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="volume_dialog_background_blur_radius">31.0dip</dimen>
+    <dimen name="volume_dialog_panel_transparent_padding">24.0dip</dimen>
+    <dimen name="volume_dialog_panel_width">48.0dip</dimen>
+    <dimen name="volume_dialog_panel_width_half">24.0dip</dimen>
+    <item type="dimen" name="volume_dialog_slider_corner_radius">@dimen/volume_dialog_slider_width</item>
+    <dimen name="volume_dialog_slider_width">4.0dip</dimen>
+    <dimen name="volume_tool_tip_right_margin">136.0dip</dimen>
+    <dimen name="tv_volume_dialog_bubble_size">36.0dip</dimen>
+    <dimen name="tv_volume_dialog_row_padding">6.0dip</dimen>
+    <dimen name="tv_volume_icons_size">20.0dip</dimen>
+    <dimen name="tv_volume_number_text_size">16.0sp</dimen>
+    <dimen name="tv_volume_seek_bar_thumb_diameter">24.0dip</dimen>
+    <dimen name="tv_volume_seek_bar_thumb_focus_ring_width">8.0dip</dimen>
+    <item type="dimen" name="tv_volume_seek_bar_thumb_shadow_dy">4.0</item>
+    <item type="dimen" name="tv_volume_seek_bar_thumb_shadow_radius">4.0</item>
+    <dimen name="volume_dialog_panel_height">190.0dip</dimen>
+</resources>

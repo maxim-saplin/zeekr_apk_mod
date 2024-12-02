@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Pieskarieties šeit, lai atkal ieslēgtu paziņojumus.</string>
+    <string name="notifications_off_title">Paziņojumi ir izslēgti.</string>
+    <string name="status_bar_clear_all_button">Notīr.visu</string>
+</resources>

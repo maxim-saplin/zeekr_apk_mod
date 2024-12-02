@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d ਦਿਨ ਪਹਿਲਾਂ</item>
+        <item quantity="one">%d ਦਿਨ ਪਹਿਲਾਂ</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d ਮਿੰਟ ਪਹਿਲਾਂ</item>
+        <item quantity="one">%d ਮਿੰਟ ਪਹਿਲਾਂ</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d ਸਾਲ ਪਹਿਲਾਂ</item>
+        <item quantity="one">%d ਸਾਲ ਪਹਿਲਾਂ</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s ਕੰਟਰੋਲ ਸ਼ਾਮਲ ਕੀਤੇ ਗਏ।</item>
+        <item quantity="one">%s ਕੰਟਰੋਲ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ।</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">ਸਿਮ ਪਿੰਨ ਦਾਖਲ ਕਰੋ। ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਿਸ਼ਾਂ ਬਾਕੀ ਹਨ।</item>
+        <item quantity="one">ਸਿਮ ਪਿੰਨ ਦਾਖਲ ਕਰੋ। ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਿਸ਼ ਬਾਕੀ ਹੈ।</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">"ਸਿਮ ਹੁਣ ਬੰਦ ਹੋ ਗਿਆ ਹੈ। ਜਾਰੀ ਰੱਖਣ ਲਈ PUK ਕੋਡ ਦਾਖਲ ਕਰੋ। ਸਿਮ ਦੇ ਪੱਕੇ ਤੌਰ 'ਤੇ ਬੇਕਾਰ ਹੋ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਿਸ਼ਾਂ ਬਾਕੀ ਹਨ। ਵੇਰਵਿਆਂ ਲਈ ਕੈਰੀਅਰ ਨੂੰ ਸੰਪਰਕ ਕਰੋ।"</item>
+        <item quantity="one">"ਸਿਮ ਹੁਣ ਬੰਦ ਹੋ ਗਿਆ ਹੈ। ਜਾਰੀ ਰੱਖਣ ਲਈ PUK ਕੋਡ ਦਾਖਲ ਕਰੋ। ਸਿਮ ਦੇ ਪੱਕੇ ਤੌਰ 'ਤੇ ਬੇਕਾਰ ਹੋ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਿਸ਼ ਬਾਕੀ ਹੈ। ਵੇਰਵਿਆਂ ਲਈ ਕੈਰੀਅਰ ਨੂੰ ਸੰਪਰਕ ਕਰੋ।"</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ਗਲਤ ਸਿਮ ਪਿੰਨ ਕੋਡ, ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਿਸ਼ ਬਾਕੀ ਹੈ।</item>
+        <item quantity="one">ਗਲਤ ਸਿਮ ਪਿੰਨ ਕੋਡ, ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਿਸ਼ ਬਾਕੀ ਹੈ।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">"ਗਲਤ ਸਿਮ PUK ਕੋਡ, ਇਸਤੋਂ ਪਹਿਲਾਂ ਕਿ ਸਿਮ ਸਥਾਈ ਤੌਰ 'ਤੇ ਵਰਤਣਯੋਗ ਨਾ ਰਹੇ, ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਿਸ਼ਾਂ ਬਾਕੀ ਹਨ।"</item>
+        <item quantity="one">"ਗਲਤ ਸਿਮ PUK ਕੋਡ, ਇਸਤੋਂ ਪਹਿਲਾਂ ਕਿ ਸਿਮ ਸਥਾਈ ਤੌਰ 'ਤੇ ਵਰਤਣਯੋਗ ਨਾ ਰਹੇ, ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਿਸ਼ ਬਾਕੀ ਹੈ।"</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d ਸਕਿੰਟ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item quantity="one">%d ਸਕਿੰਟ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ਨਵੀਆਂ ਸੂਚਨਾਵਾਂ</item>
+        <item quantity="one">%d ਨਵੀਂ ਸੂਚਨਾ</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ਅੰਦਰ %s ਹੋਰ ਸੂਚਨਾਵਾਂ।</item>
+        <item quantity="one">ਅੰਦਰ %s ਹੋਰ ਸੂਚਨਾਵਾਂ।</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d ਡੀਵਾਈਸਾਂ</item>
+        <item quantity="one">%d ਡੀਵਾਈਸ</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ਘੰਟੇ</item>
+        <item quantity="one">%d ਘੰਟਾ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d ਮਿੰਟ</item>
+        <item quantity="one">%d ਮਿੰਟ</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">ਤੁਸੀਂ %d ਤੱਕ ਵਰਤੋਂਕਾਰਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰ ਸਕਦੇ ਹੋ।</item>
+        <item quantity="one">ਤੁਸੀਂ %d ਤੱਕ ਵਰਤੋਂਕਾਰ ਸ਼ਾਮਲ ਕਰ ਸਕਦੇ ਹੋ।</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d ਡੀਵਾਈਸ ਕਨੈਕਟ ਕੀਤੇ ਗਏ</item>
+        <item quantity="one">%1$d ਡੀਵਾਈਸ ਕਨੈਕਟ ਕੀਤਾ ਗਿਆ</item>
+    </plurals>
+</resources>

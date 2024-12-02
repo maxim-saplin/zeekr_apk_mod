@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>إيقاف الرسوم المتحركة</item>
+        <item>‏حجم الرسوم المتحركة ‎.5x</item>
+        <item>‏حجم الرسوم المتحركة 1x</item>
+        <item>‏حجم الرسوم المتحركة 1.5x</item>
+        <item>‏حجم الرسوم المتحركة 2x</item>
+        <item>‏حجم الرسوم المتحركة 5x</item>
+        <item>‏حجم الرسوم المتحركة 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>الحدّ العادي</item>
+        <item>ليست هناك عمليات بالخلفية</item>
+        <item>عملية واحدة بحد أقصى</item>
+        <item>عمليتان بحد أقصى</item>
+        <item>3 عمليات بحد أقصى</item>
+        <item>٤ عمليات بحد أقصى</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>٠‏٪</item>
+        <item>٥٠٪</item>
+        <item>٪۱۰۰</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>عرض النسبة المئوية دائمًا</item>
+        <item>عرض النسبة المئوية عند الشحن (تلقائي)</item>
+        <item>عدم عرض هذا الرمز</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>استخدام اختيار النظام (تلقائي)</item>
+        <item>16 بت لكل عيّنة</item>
+        <item>24 بت لكل عيّنة</item>
+        <item>32 بت لكل عيّنة</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>استخدام اختيار النظام (تلقائي)</item>
+        <item>16 بت لكل عيّنة</item>
+        <item>24 بت لكل عيّنة</item>
+        <item>32 بت لكل عيّنة</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>استخدام اختيار النظام (التلقائي)</item>
+        <item>أحادي</item>
+        <item>استريو</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>استخدام اختيار النظام (تلقائي)</item>
+        <item>أحادي</item>
+        <item>استريو</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>تحسين جودة الصوت</item>
+        <item>جودة متوازنة للصوت والاتصال</item>
+        <item>تحسين جودة الاتصال</item>
+        <item>أفضل جهد (معدل نقل البيانات التكيُّفي)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>تحسين جودة الصوت (٩٩٠ كيلوبت في الثانية / ٩٠٩ كيلوبت في الثانية)</item>
+        <item>جودة متوازنة للصوت والاتصال (660 كيلوبت في الثانية/606 كيلوبت في الثانية)</item>
+        <item>تحسين جودة الاتصال (٣٣٠ كيلوبت في الثانية / ٣٠٣ كيلوبت في الثانية)</item>
+        <item>أفضل جهد (معدل نقل البيانات التكيُّفي)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>استخدام اختيار النظام (تلقائي)</item>
+        <item>44.1 كيلو هرتز</item>
+        <item>48.0 كيلو هرتز</item>
+        <item>88.2 كيلو هرتز</item>
+        <item>96.0 كيلو هرتز</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>استخدام اختيار النظام (تلقائي)</item>
+        <item>44.1 كيلو هرتز</item>
+        <item>48.0 كيلو هرتز</item>
+        <item>88.2 كيلو هرتز</item>
+        <item>96.0 كيلو هرتز</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>استخدام اختيار النظام (تلقائي)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>صوت Qualcomm® aptX™</item>
+        <item>صوت Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>استخدام اختيار النظام (تلقائي)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>صوت Qualcomm® aptX™</item>
+        <item>صوت Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>، مُفعَّل</item>
+        <item>، مُفعَّل (وسائط)</item>
+        <item>، مُفعَّل (هاتف)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>‏AVRCP 1.5 (تلقائي)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>‏MAP 1.2 (تلقائي)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>غير مفعّل</item>
+        <item>تمّ تفعيل التصفية</item>
+        <item>مفعّل</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>عرض الساعات والدقائق والثواني</item>
+        <item>عرض الساعات والدقائق (تلقائي)</item>
+        <item>عدم عرض هذا الرمز</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>ألوان محسَّنة</item>
+        <item>الألوان الطبيعية تراها العين</item>
+        <item>الألوان المحسَّنة للمحتوى الرقمي</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>نابض بالحياة (تلقائي)</item>
+        <item>طبيعية</item>
+        <item>عادي</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>إيقاف</item>
+        <item>عرض مناطق تجاوز الحد</item>
+        <item>عرض مناطق العجز في رؤية اللونين الأخضر والأحمر</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>بدون</item>
+        <item>Logcat</item>
+        <item>‏Systrace (رسومات)</item>
+        <item>‏تكدس الاستدعاءات في دالة glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>‏عدم استخدام التحقق من HDCP مطلقًا</item>
+        <item>‏استخدام التحقق من HDCP لمحتوى DRM فقط</item>
+        <item>‏استخدام التحقق من HDCP دومًا</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>عدم التحقق مطلقًا</item>
+        <item>‏التحقق من محتوى DRM فقط</item>
+        <item>التحقق دومًا</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>الحافظة</item>
+        <item>رمز المفتاح</item>
+        <item>تأكيد التدوير، مفتاح تبديل لوحة المفاتيح</item>
+        <item>بدون</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>عادي</item>
+        <item>مكثف</item>
+        <item>مائل لليسار</item>
+        <item>مائل لليمين</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>بدون محاكاة</item>
+        <item>480 بكسل</item>
+        <item>480 بكسل (العرض آمن)</item>
+        <item>720 بكسل</item>
+        <item>720 بكسل (العرض آمن)</item>
+        <item>1080 بكسل</item>
+        <item>1080 بكسل (العرض آمن)</item>
+        <item>4K</item>
+        <item>‏4K (العرض آمن)</item>
+        <item>‏4K (تمت زيادة دقة العرض)</item>
+        <item>‏4K (تمت زيادة الدقة، والعرض آمن)</item>
+        <item>720 بكسل، 1080 بكسل (شاشة مزدوجة)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>إيقاف</item>
+        <item>٦٤ كيلوبايت</item>
+        <item>٢٥٦ كيلوبايت</item>
+        <item>1 ميغابايت</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>إيقاف</item>
+        <item>٦٤ كيلوبايت لكل ذاكرة تخزين مؤقت للتسجيل</item>
+        <item>٢٥٦ كيلوبايت لكل ذاكرة تخزين مؤقت للتسجيل</item>
+        <item>1 ميغابايت لكل ذاكرة تخزين مؤقت للتسجيل</item>
+        <item>٤ ميغابايت لكل ذاكرة تخزين مؤقت للتسجيل</item>
+        <item>8 ميغابايت لكل مخزن مؤقت للتسجيل</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>إيقاف</item>
+        <item>٦٤ كيلوبايت</item>
+        <item>٢٥٦ كيلوبايت</item>
+        <item>1 ميغابايت</item>
+        <item>٤ ميغابايت</item>
+        <item>8 ميغابايت</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>إيقاف</item>
+        <item>كل المخازن المؤقتة للسجلات</item>
+        <item>كل المخازن المؤقتة باستثناء مخازن سجلات اللاسلكي</item>
+        <item>‏التخزين المؤقت لسجل kernel فقط</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>إيقاف</item>
+        <item>الكل</item>
+        <item>الكل بدون اللاسلكي</item>
+        <item>‏kernel فقط</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>إيقاف</item>
+        <item>رسم منطقة قصاصة غير مستطيلة بالأزرق</item>
+        <item>إبراز أوامر رسم تم اختبارها بالأخضر</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>الميزة غير متاحة</item>
+        <item>الميزة غير مفعّلة</item>
+        <item>الميزة مفعّلة</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>إيقاف</item>
+        <item>على الشاشة كأشرطة</item>
+        <item>في غضون adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>إيقاف الرسوم المتحركة</item>
+        <item>‏حجم الرسوم المتحركة 5x.</item>
+        <item>‏حجم الرسوم المتحركة 1x</item>
+        <item>‏حجم الرسوم المتحركة 1.5x</item>
+        <item>‏حجم الرسوم المتحركة 2x</item>
+        <item>‏حجم الرسوم المتحركة 5x</item>
+        <item>‏حجم الرسوم المتحركة 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>بطيء جدًا</item>
+        <item>بطيء</item>
+        <item>عادي</item>
+        <item>سريع</item>
+        <item>أسرع</item>
+        <item>سريع جدًا</item>
+        <item>خاطف</item>
+        <item>خاطف جدًا</item>
+        <item>الأسرع</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>الشحن</item>
+        <item>‏بروتوكول نقل الوسائط (MTP)</item>
+        <item>‏بروتوكول نقل الصور (PTP)</item>
+        <item>‏RNDIS ‏(USB إيثرنت)‎</item>
+        <item>مصدر الصوت</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>البحث عن الشبكات...</item>
+        <item>جارٍ الاتصال…</item>
+        <item>جارٍ المصادقة…</item>
+        <item>‏جارٍ الحصول على عنوان IP…</item>
+        <item>متصل</item>
+        <item>معلق</item>
+        <item>جارٍ فصل الاتصال...</item>
+        <item>غير متصل</item>
+        <item>غير ناجح</item>
+        <item>تم حظرها</item>
+        <item>يتم تجنب الاتصال الضعيف مؤقتًا</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>البحث عن الشبكات...</item>
+        <item>جارٍ الاتصال بجهاز %1$s…</item>
+        <item>جارٍ المصادقة مع %1$s…</item>
+        <item>‏جارٍ الحصول على عنوان IP من %1$s…</item>
+        <item>متصل بـ %1$s</item>
+        <item>معلق</item>
+        <item>جارٍ قطع الاتصال بـ %1$s…</item>
+        <item>غير متصل</item>
+        <item>غير ناجح</item>
+        <item>تم حظرها</item>
+        <item>يتم تجنب الاتصال الضعيف مؤقتًا</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>جارٍ البحث عن الشبكات…</item>
+        <item>جارٍ الاتصال بالإنترنت…</item>
+        <item>جارٍ مصادقة الشبكة…</item>
+        <item>‏جارٍ الحصول على عنوان IP…</item>
+        <item>متصلة</item>
+        <item>معلّقة</item>
+        <item>جارٍ قطع الاتصال بالشبكة…</item>
+        <item>غير متصلة</item>
+        <item>تعذّر الاتصال بالشبكة.</item>
+        <item>محظورة</item>
+        <item>يتم مؤقتًا تجنب الاتصال الضعيف بالإنترنت</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>إيقاف الرسوم المتحركة</item>
+        <item>‏حجم الرسوم المتحركة 0.5x</item>
+        <item>‏حجم الرسوم المتحركة 1x</item>
+        <item>‏حجم الرسوم المتحركة 1.5x</item>
+        <item>‏حجم الرسوم المتحركة 2x</item>
+        <item>‏حجم الرسوم المتحركة 5x</item>
+        <item>‏حجم الرسوم المتحركة 10x</item>
+    </string-array>
+</resources>

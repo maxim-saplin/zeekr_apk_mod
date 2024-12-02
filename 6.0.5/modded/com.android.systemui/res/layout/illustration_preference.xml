@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="horizontal" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:id="@id/illustration_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/settingslib_illustration_padding">
+        <ImageView android:layout_gravity="center" android:id="@id/background_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/protection_background" android:adjustViewBounds="true" />
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/lottie_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="@dimen/settingslib_illustration_width" android:maxHeight="@dimen/settingslib_illustration_height" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/middleground_layout" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

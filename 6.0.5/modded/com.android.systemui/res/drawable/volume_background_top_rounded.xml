@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <item>
+        <shape>
+            <size android:width="@dimen/volume_dialog_panel_width" />
+            <solid android:color="?android:^attr-private/colorPopupBackground" />
+            <corners android:topLeftRadius="@dimen/volume_dialog_panel_width_half" android:topRightRadius="@dimen/volume_dialog_panel_width_half" android:bottomLeftRadius="@dimen/volume_dialog_panel_width_half" android:bottomRightRadius="@dimen/volume_dialog_panel_width_half" />
+        </shape>
+    </item>
+</layer-list>

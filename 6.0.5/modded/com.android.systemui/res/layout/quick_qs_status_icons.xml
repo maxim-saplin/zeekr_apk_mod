@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.SystemUI.QuickSettings.Header" android:id="@id/quick_qs_status_icons" android:focusable="true" android:clickable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@android:dimen/notification_big_picture_max_width_low_ram" android:minHeight="@dimen/qs_header_row_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:layout_gravity="start|center" android:orientation="horizontal" android:id="@id/clock_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.android.systemui.statusbar.policy.Clock android:textAppearance="@style/TextAppearance.QS.Status" android:gravity="start|center" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="@dimen/qs_header_row_min_height" android:singleLine="true" android:paddingStart="@dimen/status_bar_left_clock_starting_padding" android:paddingEnd="@dimen/status_bar_left_clock_end_padding" />
+        <com.android.systemui.statusbar.policy.VariableDateView android:textAppearance="@style/TextAppearance.QS.Status" android:gravity="start|center" android:id="@id/date_clock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_marginStart="@dimen/status_bar_left_clock_end_padding" systemui:longDatePattern="@string/abbrev_wday_month_day_no_year_alarm" systemui:shortDatePattern="@string/abbrev_month_day_no_year" />
+    </LinearLayout>
+    <include android:layout_gravity="end|center" android:id="@id/carrier_group" android:focusable="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minWidth="48.0dip" android:minHeight="@dimen/qs_header_row_min_height" android:layout_weight="1.0" android:layout_marginStart="8.0dip" layout="@layout/qs_carrier_group" />
+    <View android:layout_gravity="center" android:id="@id/separator" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <FrameLayout android:gravity="end" android:id="@id/rightLayout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.android.systemui.statusbar.phone.StatusIconContainer android:id="@id/statusIcons" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="@dimen/signal_cluster_battery_padding" />
+            <com.android.systemui.battery.BatteryMeterView android:id="@id/batteryRemainingIcon" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingEnd="2.0dip" systemui:textAppearance="@style/TextAppearance.QS.Status" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/car_top_navigation_bar_height" android:paddingHorizontal="@dimen/car_status_bar_user_padding_left"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zeekr.systemui.statusbar.pma.view.UserAccountView android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ll_user_account" android:layout_width="wrap_content" android:layout_height="64.0dip" android:paddingHorizontal="10.0dip">
+        <ImageView android:id="@id/iv_userHead" android:background="@drawable/drawable_status_bar_user_head" android:layout_width="@dimen/car_top_user_width" android:layout_height="@dimen/car_top_user_width" android:scaleType="fitCenter" />
+        <TextView android:textSize="@dimen/statue_bar_icon_text_size" android:textColor="@color/status_bar_dialog_title_day" android:ellipsize="end" android:id="@id/tv_userName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:maxWidth="@dimen/car_top_user_name_max_width" android:text="@string/status_bar_unlogin_status_display" android:singleLine="true" android:includeFontPadding="false" />
+    </com.zeekr.systemui.statusbar.pma.view.UserAccountView>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/zeekr_list_card_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.ZeekrComponent.ListCard" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:id="@id/zeekr_list_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="Main text" android:layout_marginStart="40.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="?textAppearanceLabelMedium" android:id="@id/zeekr_list_item_paraText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="text" app:layout_constraintStart_toStartOf="@id/zeekr_list_item_text" app:layout_constraintTop_toBottomOf="@id/zeekr_list_item_text" />
+    <ImageView android:id="@id/zeekr_list_item_list_icon_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/zeekr_list_item_list_icon_two" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/zeekr_list_item_list_icon_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/zeekr_list_item_list_icon_three" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/zeekr_list_item_list_icon_three" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

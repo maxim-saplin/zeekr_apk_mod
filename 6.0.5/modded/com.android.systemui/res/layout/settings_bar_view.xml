@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bar_view" android:layout_height="wrap_content" style="@style/SettingsBarChartBar" />
+    <ImageView android:id="@id/icon_view" style="@style/SettingsBarChartBarIcon" />
+    <TextView android:id="@id/bar_title" style="@style/SettingsBarChartBarTitle" />
+    <TextView android:id="@id/bar_summary" style="@style/SettingsBarChartBarSummary" />
+</LinearLayout>

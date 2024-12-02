@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:lb="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/mediaRowSeparator" style="?playbackMediaItemSeparatorStyle" />
+    <FrameLayout android:id="@id/background" style="?playbackMediaItemRowStyle">
+        <androidx.leanback.widget.MediaRowFocusView android:id="@id/mediaRowSelector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:alpha="0.0" />
+        <LinearLayout android:id="@id/mediaItemRow" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/mediaItemDetails" style="?playbackMediaItemDetailsStyle">
+                <ViewFlipper android:id="@id/mediaItemNumberViewFlipper" style="?playbackMediaItemNumberViewFlipperStyle" />
+                <TextView android:id="@id/mediaItemName" style="?playbackMediaItemNameStyle" />
+                <TextView android:id="@id/mediaItemDuration" style="?playbackMediaItemDurationStyle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/mediaItemActionsContainer" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="16.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

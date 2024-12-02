@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="volume_dialog_background_color">#e61f232b</color>
+    <color name="volume_dialog_background_color_above_blur">#c71f232b</color>
+    <color name="bottom_sheet_background_color">#ff1f232c</color>
+    <color name="bottom_sheet_background_color_with_blur">#aa1a2734</color>
+    <color name="bottom_sheet_body_color">#ffd2e3fc</color>
+    <color name="bottom_sheet_button_background_color_focused">#ffe8f0fe</color>
+    <color name="bottom_sheet_button_background_color_unfocused">#0fe8eaed</color>
+    <color name="bottom_sheet_button_text_color_focused">#db202124</color>
+    <color name="bottom_sheet_button_text_color_unfocused">#b5e8eaed</color>
+    <color name="bottom_sheet_icon_color">#ffd2e3fc</color>
+    <color name="bottom_sheet_title_color">#ffe8f0fe</color>
+    <color name="privacy_chip_dot_bg_tint">#66000000</color>
+    <color name="privacy_circle">#ff5bb974</color>
+    <color name="privacy_icon_tint">#ff30302a</color>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$face_dialog_wink_from_dark__7" android:duration="433" android:startOffset="0" android:valueFrom="0" android:valueTo="-14" android:valueType="floatType" android:propertyName="rotation" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_wink_from_dark__8" android:duration="317" android:startOffset="433" android:valueFrom="-14" android:valueTo="0" android:valueType="floatType" android:propertyName="rotation" />
+</set>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>បិទ​ចលនា</item>
+        <item>មាត្រដ្ឋាន​ចលនា .5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 1x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 1.5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 2x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ដែន​កំណត់​ស្តង់ដារ</item>
+        <item>គ្មាន​ដំណើរការ​​ក្នុង​ផ្ទៃ​ខាង​ក្រោយ</item>
+        <item>ជិត ១ ដំណើរការ</item>
+        <item>ដំណើរការ​ច្រើន​បំផុត​ ២</item>
+        <item>ដំណើរ​ការ​ច្រើន​បំផុត ៣</item>
+        <item>ជិត ៤​ ដំណើរ​ការ</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>បង្ហាញភាគរយជានិច្ច</item>
+        <item>បង្ហាញភាគរយនៅពេលសាកថ្ម (លំនាំដើម)</item>
+        <item>កុំបង្ហាញរូបតំណាងនេះ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>ប្រើ​ការ​ជ្រើសរើស​ប្រព័ន្ធ (លំនាំ​ដើម)</item>
+        <item>16 ប៊ីត​/​គំរូ</item>
+        <item>24 ប៊ីត​/​គំរូ</item>
+        <item>32 ប៊ីត​/​គំរូ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>ប្រើ​ការ​ជ្រើសរើស​ប្រព័ន្ធ (លំនាំ​ដើម)</item>
+        <item>16 ប៊ីត​/​គំរូ</item>
+        <item>24 ប៊ីត​/​គំរូ</item>
+        <item>32 ប៊ីត​/​គំរូ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>ប្រើ​ការ​ជ្រើសរើស​ប្រព័ន្ធ (លំនាំ​ដើម)</item>
+        <item>ម៉ូ​ណូ</item>
+        <item>ស្តេរ៉េអូ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>ប្រើ​ការ​ជ្រើសរើស​ប្រព័ន្ធ (លំនាំ​ដើម)</item>
+        <item>ម៉ូ​ណូ</item>
+        <item>ស្តេរ៉េអូ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>បាន​បង្កើន​ប្រសិទ្ធភាពសម្រាប់​​គុណភាព​សំឡេង</item>
+        <item>សំឡេង​ដែល​មាន​តុល្យភាព និង​គុណភាព​នៃ​ការ​តភ្ជាប់</item>
+        <item>បាន​បង្កើន​ប្រសិទ្ធភាព​​សម្រាប់គុណភាព​នៃ​ការ​ត​ភ្ជាប់</item>
+        <item>កម្រិតល្អបំផុត (កម្រិតប៊ីតដែលអាចប្រែប្រួល)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>បាន​បង្កើន​ប្រសិទ្ធភាព​​សម្រាប់​គុណភាព​សំឡេង (990kbps/909kbps)</item>
+        <item>សំឡេង​ដែល​មាន​តុល្យភាព និង​គុណភាព​នៃ​ការ​ត​ភ្ជាប់ (660kbps/606kbps)</item>
+        <item>បាន​បង្កើន​ប្រសិទ្ធភាព​សម្រាប់​គុណភាព​​នៃ​ការ​ត​ភ្ជាប់ (330kbps/303kbps)</item>
+        <item>កម្រិតល្អបំផុត (កម្រិតប៊ីតដែលអាចប្រែប្រួល)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>ប្រើ​ការ​ជ្រើសរើស​ប្រព័ន្ធ (លំនាំ​ដើម)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>ប្រើ​ការ​ជ្រើសរើស​ប្រព័ន្ធ (លំនាំ​ដើម)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>ប្រើ​ការ​ជ្រើសរើស​ប្រព័ន្ធ (លំនាំ​ដើម)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm®សំឡេង aptX™</item>
+        <item>Qualcomm®សំឡេង aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>ប្រើ​ការ​ជ្រើសរើស​ប្រព័ន្ធ (លំនាំ​ដើម)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm®សំឡេង aptX™</item>
+        <item>Qualcomm®សំឡេង aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>សកម្ម</item>
+        <item>សកម្ម (មេឌៀ)</item>
+        <item>សកម្ម (ទូរសព្ទ)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (លំនាំដើម)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (លំនាំដើម)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>បាន​បិទ</item>
+        <item>បានបើក​ការត្រង</item>
+        <item>បាន​បើក</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>បង្ហាញម៉ោង នាទី និងវិនាទី</item>
+        <item>បង្ហាញម៉ោង នាទី (លំនាំដើម)</item>
+        <item>កុំបង្ហាញរូបតំណាងនេះ</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>ពណ៌ដែលធ្វើឲ្យប្រសើរជាងមុន</item>
+        <item>ពណ៌ធម្មជាតិដូចដែលបានឃើញដោយភ្នែក</item>
+        <item>ពណ៌ដែលបានសម្រួលសម្រាប់មាតិកាឌីជីថល</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>រស់រវើក (លំនាំដើម)</item>
+        <item>ធម្មជាតិ</item>
+        <item>ស្តង់ដារ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>បិទ</item>
+        <item>បង្ហាញ​តំបន់​​ដែល​លើស</item>
+        <item>បង្ហាញ​តំបន់​សម្រាប់ Deuteranomaly</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>គ្មាន</item>
+        <item>Logcat</item>
+        <item>Systrace (ក្រាហ្វិក)</item>
+        <item>លំដាប់​ហៅ​លើ glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>កុំ​ប្រើ​ការ​ពិនិត្យ HDCP</item>
+        <item>ប្រើ​ការ​ពិនិត្យ HDCP សម្រាប់​តែ​ខ្លឹមសារ DRM ប៉ុណ្ណោះ</item>
+        <item>ប្រើ​ការ​ពិនិត្យ HDCP ជា​និច្ច</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>កុំ​ពិនិត្យមើល</item>
+        <item>ពិនិត្យ​តែ​មាតិកា DRM</item>
+        <item>ពិនិត្យ​ជា​និច្ច</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>អង្គចងចាំ</item>
+        <item>លេខកូដ​គ្រាប់ចុច</item>
+        <item>ការបញ្ជាក់ការ​បង្វិល កម្មវិធី​ប្ដូរ​ក្ដារចុច</item>
+        <item>គ្មាន</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>ធម្មតា</item>
+        <item>តូច</item>
+        <item>ផ្អៀង​ទៅ​ឆ្វេង</item>
+        <item>ផ្អៀង​ទៅ​ស្តាំ</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>គ្មាន</item>
+        <item>480p</item>
+        <item>480p (សុវត្ថិភាព)</item>
+        <item>720p</item>
+        <item>720p (សុវត្ថិភាព)</item>
+        <item>1080p</item>
+        <item>1080p (សុវត្ថិភាព)</item>
+        <item>4K</item>
+        <item>4K (សុវត្ថិភាព)</item>
+        <item>4K (បង្កើនគុណភាព)</item>
+        <item>4K (បង្កើនគុណភាព, សុវត្ថិភាព)</item>
+        <item>720p, 1080p (អេក្រង់ទ្វេ)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>បិទ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>បិទ</item>
+        <item>64K per log buffer</item>
+        <item>256K per log buffer</item>
+        <item>1M ក្នុងមួយ​ឡុកបាហ្វើ</item>
+        <item>4M per log buffer</item>
+        <item>8M ក្នុងកន្លែងផ្ទុក​កំណត់ហេតុ​នីមួយៗ</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>បិទ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>បិទ</item>
+        <item>ឡុកបាហ្វើទាំងអស់</item>
+        <item>ទាំងអស់ក្រៅពីអង្គចងចាំកំណត់ហេតុវិទ្យុបណ្តោះអាសន្ន</item>
+        <item>អង្គចងចាំបណ្ដោះអាសន្នកំណត់ហេតុ kernel តែប៉ុណ្ណោះ</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>បិទ</item>
+        <item>ទាំង​អស់</item>
+        <item>ទាំងអស់ក្រៅពីវិទ្យុ</item>
+        <item>kernel តែប៉ុណ្ណោះ</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>បិទ</item>
+        <item>គូរ​តំបន់​កាត់​មិនមែន​រាង​ចតុកោណ​ជា​ពណ៌​ខៀវ</item>
+        <item>រំលេច​ពាក្យ​បញ្ជា​គូរ​បាន​សាកល្បង​ជា​ពណ៌​បៃតង</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>មិនមានទេ</item>
+        <item>បិទ</item>
+        <item>បើក</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>បិទ</item>
+        <item>លើ​អេក្រង់​ជា​របារ</item>
+        <item>ក្នុងរយៈពេល adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>បិទ​ចលនា</item>
+        <item>មាត្រដ្ឋាន​ចលនា .5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 1x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 1.5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 2x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>យឺតខ្លាំង</item>
+        <item>យឺត</item>
+        <item>ធម្មតា</item>
+        <item>លឿន</item>
+        <item>លឿនជាង</item>
+        <item>លឿនខ្លាំង</item>
+        <item>រហ័ស</item>
+        <item>រហ័សខ្លាំង</item>
+        <item>លឿនបំផុត</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>កំពុងសាកថ្ម</item>
+        <item>MTP (ពិធីការផ្ទេរមេឌៀ)</item>
+        <item>PTP (ពិធីការ​ផ្ទេរ​រូបភាព)</item>
+        <item>RNDIS (អ៊ីសឺណិត​យូអេសប៊ី)</item>
+        <item>ប្រភព​អូឌីយ៉ូ</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>កំពុង​វិភាគ​រក…</item>
+        <item>កំពុង​ត​ភ្ជាប់​…</item>
+        <item>កំពុង​ផ្ទៀងផ្ទាត់...</item>
+        <item>កំពុង​ទទួល​អាសយដ្ឋាន IP…</item>
+        <item>បាន​តភ្ជាប់</item>
+        <item>បាន​ពន្យារ​ពេល</item>
+        <item>កំពុង​ផ្ដាច់…</item>
+        <item>បាន​ផ្ដាច់</item>
+        <item>មិន​ជោគជ័យ</item>
+        <item>បាន​ទប់​ស្កាត់</item>
+        <item>ជៀសវាង​ការ​តភ្ជាប់​ដែល​ខ្សោយ​ជា​បណ្ដោះ​អាសន្ន</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>កំពុង​វិភាគ​រក…</item>
+        <item>កំពុង​តភ្ជាប់​ទៅ %1$s…</item>
+        <item>កំពុង​ផ្ទៀងផ្ទាត់​ជា​មួយ %1$s…</item>
+        <item>កំពុង​យក​អាសយដ្ឋាន IP ពី %1$s…</item>
+        <item>បាន​តភ្ជាប់​ទៅ %1$s</item>
+        <item>បាន​ផ្អាក</item>
+        <item>កំពុង​ផ្ដាច់​ពីរ %1$s…</item>
+        <item>បាន​ផ្ដាច់</item>
+        <item>មិន​ជោគជ័យ</item>
+        <item>បាន​ទប់ស្កាត់</item>
+        <item>ជៀសវាង​ការ​តភ្ជាប់​​ខ្សោយ​ជា​បណ្ដោះអាសន្ន</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>កំពុងស្កេន…</item>
+        <item>កំពុងភ្ជាប់…</item>
+        <item>កំពុង​ផ្ទៀងផ្ទាត់…</item>
+        <item>កំពុង​ទទួល​អាសយដ្ឋាន IP…</item>
+        <item>បានភ្ជាប់</item>
+        <item>បាន​ផ្អាក</item>
+        <item>កំពុង​ផ្ដាច់…</item>
+        <item>បាន​ផ្ដាច់</item>
+        <item>មិន​ជោគជ័យ</item>
+        <item>បាន​ទប់ស្កាត់</item>
+        <item>កំពុង​ជៀសវាង​ការតភ្ជាប់​ខ្សោយ​ជា​បណ្ដោះអាសន្ន</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>បិទ​ចលនា</item>
+        <item>មាត្រដ្ឋាន​ចលនា .5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 1x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 1.5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 2x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 10x</item>
+    </string-array>
+</resources>

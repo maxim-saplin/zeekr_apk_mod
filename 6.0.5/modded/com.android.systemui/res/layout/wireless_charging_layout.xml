@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.charging.ChargingRippleView android:id="@id/wireless_charging_ripple" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/wireless_charging_text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center" android:id="@id/reverse_wireless_charging_percentage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/reverse_wireless_charging_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_reverse_charging" />
+        <TextView android:layout_gravity="center" android:id="@id/wireless_charging_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

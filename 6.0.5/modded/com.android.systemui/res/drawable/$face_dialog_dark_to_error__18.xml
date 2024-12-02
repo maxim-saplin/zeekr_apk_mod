@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$face_dialog_dark_to_error__19" android:duration="67" android:startOffset="0" android:propertyName="translateXY" android:pathData="M 41.1,23.8C 40.547981774806985,23.08834635019302 38.34001822519301,20.24165364980698 37.788,19.53" android:propertyXName="translateX" android:propertyYName="translateY" />
+</set>

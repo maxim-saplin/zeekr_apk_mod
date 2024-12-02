@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/car_top_navigation_bar_height" android:paddingHorizontal="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_battery_content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_battery_low" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:scaleType="fitCenter" android:paddingHorizontal="12.0dip" />
+        <ImageView android:id="@id/iv_battery" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/drawable_status_bar_battery_normal_day_3" android:scaleType="fitCenter" android:paddingHorizontal="12.0dip" />
+        <TextView android:textSize="@dimen/statue_bar_icon_text_size" android:textColor="@color/status_bar_dialog_title_day" android:gravity="center_vertical" android:id="@id/tv_battery" android:layout_width="@dimen/status_bar_battery_percentage_width" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

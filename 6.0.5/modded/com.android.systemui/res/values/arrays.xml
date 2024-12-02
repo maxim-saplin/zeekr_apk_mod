@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="air_car_pm_level">
+        <item>@drawable/icon_air_car_pm_level_1</item>
+        <item>@drawable/icon_air_car_pm_level_2</item>
+        <item>@drawable/icon_air_car_pm_level_3</item>
+        <item>@drawable/icon_air_car_pm_level_4</item>
+        <item>@drawable/icon_air_car_pm_level_5</item>
+        <item>@drawable/icon_air_car_pm_level_6</item>
+        <item>@drawable/icon_air_car_pm_level_0</item>
+    </array>
+    <array name="air_icon_dark">
+        <item>@drawable/drawable_aps_select_off_dark</item>
+        <item>@drawable/drawable_aps_select_on_dark</item>
+    </array>
+    <array name="air_icon_day">
+        <item>@drawable/drawable_aps_select_off</item>
+        <item>@drawable/drawable_aps_select_on</item>
+    </array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standard limit</item>
+        <item>No background processes</item>
+        <item>At most 1 process</item>
+        <item>At most 2 processes</item>
+        <item>At most 3 processes</item>
+        <item>At most 4 processes</item>
+    </string-array>
+    <string-array name="app_process_limit_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <array name="background_style1">
+        <item>@drawable/rounded_ripple</item>
+    </array>
+    <array name="background_style2">
+        <item>@drawable/left_rounded_ripple</item>
+        <item>@drawable/right_rounded_ripple</item>
+    </array>
+    <array name="background_style3">
+        <item>@drawable/left_rounded_ripple</item>
+        <item>@drawable/square_ripple</item>
+        <item>@drawable/right_rounded_ripple</item>
+    </array>
+    <array name="background_style4">
+        <item>@drawable/left_rounded_ripple</item>
+        <item>@drawable/square_ripple</item>
+        <item>@drawable/square_ripple</item>
+        <item>@drawable/right_rounded_ripple</item>
+    </array>
+    <array name="battery_charging_dark">
+        <item>@drawable/drawable_status_bar_battery_charging_dark_0</item>
+        <item>@drawable/drawable_status_bar_battery_charging_dark_1</item>
+        <item>@drawable/drawable_status_bar_battery_charging_dark_2</item>
+        <item>@drawable/drawable_status_bar_battery_charging_dark_3</item>
+        <item>@drawable/drawable_status_bar_battery_charging_dark_4</item>
+        <item>@drawable/drawable_status_bar_battery_charging_dark_5</item>
+        <item>@drawable/drawable_status_bar_battery_charging_dark_6</item>
+        <item>@drawable/drawable_status_bar_battery_charging_dark_7</item>
+        <item>@drawable/drawable_status_bar_battery_charging_dark_8</item>
+        <item>@drawable/drawable_status_bar_battery_charging_dark_9</item>
+        <item>@drawable/drawable_status_bar_battery_charging_dark_10</item>
+    </array>
+    <array name="battery_charging_day">
+        <item>@drawable/drawable_status_bar_battery_charging_day_0</item>
+        <item>@drawable/drawable_status_bar_battery_charging_day_1</item>
+        <item>@drawable/drawable_status_bar_battery_charging_day_2</item>
+        <item>@drawable/drawable_status_bar_battery_charging_day_3</item>
+        <item>@drawable/drawable_status_bar_battery_charging_day_4</item>
+        <item>@drawable/drawable_status_bar_battery_charging_day_5</item>
+        <item>@drawable/drawable_status_bar_battery_charging_day_6</item>
+        <item>@drawable/drawable_status_bar_battery_charging_day_7</item>
+        <item>@drawable/drawable_status_bar_battery_charging_day_8</item>
+        <item>@drawable/drawable_status_bar_battery_charging_day_9</item>
+        <item>@drawable/drawable_status_bar_battery_charging_day_10</item>
+    </array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <array name="battery_normal_dark">
+        <item>@drawable/drawable_status_bar_battery_normal_dark_0</item>
+        <item>@drawable/drawable_status_bar_battery_normal_dark_1</item>
+        <item>@drawable/drawable_status_bar_battery_normal_dark_2</item>
+        <item>@drawable/drawable_status_bar_battery_normal_dark_3</item>
+        <item>@drawable/drawable_status_bar_battery_normal_dark_4</item>
+        <item>@drawable/drawable_status_bar_battery_normal_dark_5</item>
+        <item>@drawable/drawable_status_bar_battery_normal_dark_6</item>
+        <item>@drawable/drawable_status_bar_battery_normal_dark_7</item>
+        <item>@drawable/drawable_status_bar_battery_normal_dark_8</item>
+        <item>@drawable/drawable_status_bar_battery_normal_dark_9</item>
+        <item>@drawable/drawable_status_bar_battery_normal_dark_10</item>
+    </array>
+    <array name="battery_normal_day">
+        <item>@drawable/drawable_status_bar_battery_normal_day_0</item>
+        <item>@drawable/drawable_status_bar_battery_normal_day_1</item>
+        <item>@drawable/drawable_status_bar_battery_normal_day_2</item>
+        <item>@drawable/drawable_status_bar_battery_normal_day_3</item>
+        <item>@drawable/drawable_status_bar_battery_normal_day_4</item>
+        <item>@drawable/drawable_status_bar_battery_normal_day_5</item>
+        <item>@drawable/drawable_status_bar_battery_normal_day_6</item>
+        <item>@drawable/drawable_status_bar_battery_normal_day_7</item>
+        <item>@drawable/drawable_status_bar_battery_normal_day_8</item>
+        <item>@drawable/drawable_status_bar_battery_normal_day_9</item>
+        <item>@drawable/drawable_status_bar_battery_normal_day_10</item>
+    </array>
+    <string-array name="battery_options">
+        <item>Always show percentage</item>
+        <item>Show percentage when charging (default)</item>
+        <item>"Don't show this icon"</item>
+    </string-array>
+    <integer-array name="batterymeter_bolt_points">
+        <item>73</item>
+        <item>0</item>
+        <item>392</item>
+        <item>0</item>
+        <item>201</item>
+        <item>259</item>
+        <item>442</item>
+        <item>259</item>
+        <item>4</item>
+        <item>703</item>
+        <item>157</item>
+        <item>334</item>
+        <item>0</item>
+        <item>334</item>
+    </integer-array>
+    <integer-array name="batterymeter_color_levels">
+        <item>15</item>
+        <item>100</item>
+    </integer-array>
+    <array name="batterymeter_color_values">
+        <item>?android:colorError</item>
+        <item>@android:color/white</item>
+    </array>
+    <integer-array name="batterymeter_plus_points">
+        <item>3</item>
+        <item>0</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>3</item>
+        <item>8</item>
+        <item>3</item>
+        <item>8</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>8</item>
+        <item>3</item>
+        <item>8</item>
+        <item>3</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>16 bits/sample</item>
+        <item>24 bits/sample</item>
+        <item>32 bits/sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Use System Selection (Default)</item>
+        <item>16 bits/sample</item>
+        <item>24 bits/sample</item>
+        <item>32 bits/sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Use System Selection (Default)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimized for Audio Quality</item>
+        <item>Balanced Audio And Connection Quality</item>
+        <item>Optimized for Connection Quality</item>
+        <item>Best Effort (Adaptive Bit Rate)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimized for Audio Quality (990kbps/909kbps)</item>
+        <item>Balanced Audio And Connection Quality (660kbps/606kbps)</item>
+        <item>Optimized for Connection Quality (330kbps/303kbps)</item>
+        <item>Best Effort (Adaptive Bit Rate)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_values">
+        <item>1000</item>
+        <item>1001</item>
+        <item>1002</item>
+        <item>1003</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Use System Selection (Default)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Use System Selection (Default)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_values">
+        <item>1000000</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, active</item>
+        <item>, active (media)</item>
+        <item>, active (phone)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (Default)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Default)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <integer-array name="branch_integer_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </integer-array>
+    <string-array name="branch_string_array">
+        <item>Xin</item>
+        <item>Xu</item>
+        <item>Hai</item>
+        <item>Zi</item>
+        <item>Chou</item>
+        <item>Yin</item>
+        <item>Mao</item>
+        <item>Chen</item>
+        <item>Si</item>
+        <item>Wu</item>
+        <item>Wei</item>
+        <item>Shen</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Disabled</item>
+        <item>Enabled Filtered</item>
+        <item>Enabled</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_values">
+        <item>disabled</item>
+        <item>filtered</item>
+        <item>full</item>
+    </string-array>
+    <array name="bt_icon_bg_colors">
+        <item>@color/bt_color_bg_1</item>
+        <item>@color/bt_color_bg_2</item>
+        <item>@color/bt_color_bg_3</item>
+        <item>@color/bt_color_bg_4</item>
+        <item>@color/bt_color_bg_5</item>
+        <item>@color/bt_color_bg_6</item>
+        <item>@color/bt_color_bg_7</item>
+    </array>
+    <array name="bt_icon_fg_colors">
+        <item>@color/bt_color_icon_1</item>
+        <item>@color/bt_color_icon_2</item>
+        <item>@color/bt_color_icon_3</item>
+        <item>@color/bt_color_icon_4</item>
+        <item>@color/bt_color_icon_5</item>
+        <item>@color/bt_color_icon_6</item>
+        <item>@color/bt_color_icon_7</item>
+    </array>
+    <string-array name="cached_apps_freezer_entries">
+        <item>@string/cached_apps_freezer_device_default</item>
+        <item>@string/cached_apps_freezer_enabled</item>
+        <item>@string/cached_apps_freezer_disabled</item>
+    </string-array>
+    <string-array name="cached_apps_freezer_values">
+        <item>device_default</item>
+        <item>enabled</item>
+        <item>disabled</item>
+    </string-array>
+    <string-array name="chinese_zodiac_array">
+        <item>Cock</item>
+        <item>Dog</item>
+        <item>Boar</item>
+        <item>Rat</item>
+        <item>Ox</item>
+        <item>Tiger</item>
+        <item>Hare</item>
+        <item>Dragon</item>
+        <item>Snake</item>
+        <item>Horse</item>
+        <item>Sheep</item>
+        <item>Monkey</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Show hours, minutes, and seconds</item>
+        <item>Show hours and minutes (default)</item>
+        <item>"Don't show this icon"</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Enhanced colors</item>
+        <item>Natural colors as seen by the eye</item>
+        <item>Colors optimized for digital content</item>
+    </string-array>
+    <integer-array name="color_mode_ids">
+        <item>0</item>
+        <item>-1</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="color_mode_names">
+        <item>Vibrant (default)</item>
+        <item>Natural</item>
+        <item>Standard</item>
+    </string-array>
+    <integer-array name="config_cameraLaunchGestureVibePattern">
+        <item>0</item>
+        <item>400</item>
+    </integer-array>
+    <string-array name="config_carSystemUIOverlayViewsMediators">
+        <item>@string/config_notificationPanelViewMediator</item>
+    </string-array>
+    <array name="config_controlsPreferredPackages" />
+    <integer-array name="config_doze_brightness_sensor_to_brightness">
+        <item>-1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>27</item>
+        <item>28</item>
+    </integer-array>
+    <integer-array name="config_doze_brightness_sensor_to_scrim_opacity">
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <array name="config_face_auth_props" />
+    <integer-array name="config_notification_snooze_times">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </integer-array>
+    <string-array name="config_pluginWhitelist">
+        <item>com.android.systemui</item>
+    </string-array>
+    <string-array name="config_quickSettingsAutoAdd">
+        <item>accessibility_display_inversion_enabled:inversion</item>
+    </string-array>
+    <array name="config_roundedCornerBottomDrawableArray">
+        <item>@drawable/rounded_corner_bottom</item>
+        <item>@drawable/rounded_corner_bottom_secondary</item>
+    </array>
+    <array name="config_roundedCornerDrawableArray">
+        <item>@drawable/rounded</item>
+        <item>@drawable/rounded_secondary</item>
+    </array>
+    <array name="config_roundedCornerMultipleRadiusArray">
+        <item>@bool/config_roundedCornerMultipleRadius</item>
+        <item>@bool/config_roundedCornerMultipleRadiusSecondary</item>
+    </array>
+    <array name="config_roundedCornerTopDrawableArray">
+        <item>@drawable/rounded_corner_top</item>
+        <item>@drawable/rounded_corner_top_secondary</item>
+    </array>
+    <array name="config_statusBarIconsToExclude">
+        <item>@android:string/policylab_limitPassword</item>
+        <item>@android:string/policydesc_limitPassword</item>
+    </array>
+    <string-array name="config_systemUIServiceComponents">
+        <item>com.android.systemui.util.NotificationChannels</item>
+        <item>com.android.systemui.keyguard.KeyguardViewMediator</item>
+        <item>com.android.systemui.recents.Recents</item>
+        <item>com.android.systemui.volume.VolumeUI</item>
+        <item>com.android.systemui.statusbar.phone.StatusBar</item>
+        <item>com.android.systemui.usb.StorageNotification</item>
+        <item>com.android.systemui.power.PowerUI</item>
+        <item>com.android.systemui.media.RingtonePlayer</item>
+        <item>com.android.systemui.keyboard.KeyboardUI</item>
+        <item>com.android.systemui.shortcut.ShortcutKeyDispatcher</item>
+        <item>@string/config_systemUIVendorServiceComponent</item>
+        <item>com.android.systemui.util.leak.GarbageMonitor$Service</item>
+        <item>com.android.systemui.LatencyTester</item>
+        <item>com.android.systemui.globalactions.GlobalActionsComponent</item>
+        <item>com.android.systemui.ScreenDecorations</item>
+        <item>com.android.systemui.biometrics.AuthController</item>
+        <item>com.android.systemui.SliceBroadcastRelayHandler</item>
+        <item>com.android.systemui.statusbar.notification.InstantAppNotifier</item>
+        <item>com.android.systemui.theme.ThemeOverlayController</item>
+        <item>com.android.systemui.accessibility.WindowMagnification</item>
+        <item>com.android.systemui.accessibility.SystemActions</item>
+        <item>com.android.systemui.toast.ToastUI</item>
+        <item>com.android.systemui.wmshell.WMShell</item>
+    </string-array>
+    <string-array name="config_systemUIServiceComponentsExclude">
+        <item>com.android.systemui.util.NotificationChannels</item>
+        <item>com.android.systemui.volume.VolumeUI</item>
+        <item>com.android.systemui.power.PowerUI</item>
+        <item>com.android.systemui.media.RingtonePlayer</item>
+        <item>com.android.systemui.keyboard.KeyboardUI</item>
+        <item>com.android.systemui.shortcut.ShortcutKeyDispatcher</item>
+        <item>com.android.systemui.globalactions.GlobalActionsComponent</item>
+        <item>com.android.systemui.recents.Recents</item>
+        <item>com.android.systemui.LatencyTester</item>
+        <item>com.android.systemui.SliceBroadcastRelayHandler</item>
+        <item>com.android.systemui.statusbar.notification.InstantAppNotifier</item>
+        <item>com.android.systemui.accessibility.WindowMagnification</item>
+        <item>com.android.systemui.accessibility.SystemActions</item>
+        <item>com.android.systemui.statusbar.phone.StatusBar</item>
+    </string-array>
+    <string-array name="config_systemUIServiceComponentsInclude">
+        <item>com.zeekr.systemui.statusbar.pma.StatusBarForPMA</item>
+        <item>com.android.car.window.SystemUiOverlayWindowManager</item>
+        <item>com.zeekr.systemui.statusbar.multi.MultiScreenDock</item>
+    </string-array>
+    <string-array name="config_systemUIServiceComponentsPerUser">
+        <item>com.android.systemui.util.NotificationChannels</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Off</item>
+        <item>Show overdraw areas</item>
+        <item>Show areas for Deuteranomaly</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_values">
+        <item>false</item>
+        <item>show</item>
+        <item>show_deuteranomaly</item>
+    </string-array>
+    <array name="doze_brightness_sensor_name_posture_mapping" />
+    <integer-array name="doze_single_tap_uses_prox_posture_mapping">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <array name="dvr_state_icon">
+        <item>@drawable/drawable_dvr_select_stop</item>
+        <item>@drawable/drawable_dvr_select_start</item>
+        <item>@drawable/drawable_dvr_select_stop</item>
+        <item>@drawable/drawable_dvr_select_ergent</item>
+        <item>@drawable/drawable_dvr_select_error</item>
+        <item>@drawable/drawable_dvr_select_prepare</item>
+    </array>
+    <array name="dvr_state_icon_dark">
+        <item>@drawable/drawable_dvr_select_stop_dark</item>
+        <item>@drawable/drawable_dvr_select_start_dark</item>
+        <item>@drawable/drawable_dvr_select_stop_dark</item>
+        <item>@drawable/drawable_dvr_select_ergent_dark</item>
+        <item>@drawable/drawable_dvr_select_error_dark</item>
+        <item>@drawable/drawable_dvr_select_prepare_dark</item>
+    </array>
+    <string-array name="dvr_tips">
+        <item>Video capture system failed!</item>
+        <item>Recording failed. DVR cannot record and take pictures!</item>
+        <item>AVM error. DVR cannot save panoramic image!</item>
+        <item>Slow DVR U disk write speed. It is recommended to format to recover the speed</item>
+        <item>DVR cannot work because U disk is not inserted.</item>
+        <item>DVR cannot work because U disk cannot be written. Please replace U disk</item>
+        <item>U disk does not meet the requirements of the DVR. Please use U disk with storage capacity >128GB and speed >10Mb/s</item>
+        <item>Available space of DVR is less than 64G. DVR cannot record or take photos. Please clear excess private space</item>
+        <item>Please wait Check recording</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>None</item>
+        <item>Logcat</item>
+        <item>Systrace (Graphics)</item>
+        <item>Call stack on glGetError</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_values">
+        <item>0</item>
+        <item>1</item>
+        <item>systrace</item>
+        <item>error</item>
+    </string-array>
+    <string-array name="event_track_scene_mode">
+        <item>Rest mode</item>
+        <item>Car wash mode</item>
+        <item>Pet mode</item>
+        <item>Camp mode</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Never use HDCP checking</item>
+        <item>Use HDCP checking for DRM content only</item>
+        <item>Always use HDCP checking</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Never check</item>
+        <item>Check for DRM content only</item>
+        <item>Always check</item>
+    </string-array>
+    <string-array name="hdcp_checking_values">
+        <item>never</item>
+        <item>drm-only</item>
+        <item>always</item>
+    </string-array>
+    <string-array name="lockscreen_num_pad_klondike">
+        <item>+</item>
+        <item></item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+    </string-array>
+    <string-array name="lunar_first_of_month">
+        <item>Spring Festival</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>Eleventh lunar month</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="lunar_str">
+        <item>The 1st day of a lunar month</item>
+        <item>The 2nd day of a lunar month</item>
+        <item>The 3rd day of a lunar month</item>
+        <item>The 4th day of a lunar month</item>
+        <item>The 5th day of a lunar month</item>
+        <item>The 6th day of a lunar month</item>
+        <item>The 7th day of a lunar month</item>
+        <item>The 8th day of a lunar month</item>
+        <item>The 9th day of a lunar month</item>
+        <item>The 10th day of a lunar month</item>
+        <item>The 11th day of a lunar month</item>
+        <item>The 12th day of a lunar month</item>
+        <item>The 13th day of a lunar month</item>
+        <item>The 14th day of a lunar month</item>
+        <item>The 15th day of a lunar month</item>
+        <item>The 16th day of a lunar month</item>
+        <item>The 17th day of a lunar month</item>
+        <item>The 18th day of a lunar month</item>
+        <item>The 19th day of a lunar month</item>
+        <item>The 20th day of a lunar month</item>
+        <item>The 21st day of a lunar month</item>
+        <item>The 22nd day of a lunar month</item>
+        <item>The 23rd day of a lunar month</item>
+        <item>The 24th day of a lunar month</item>
+        <item>The 25th day of a lunar month</item>
+        <item>The 26th day of a lunar month</item>
+        <item>The 27th day of a lunar month</item>
+        <item>The 28th day of a lunar month</item>
+        <item>The 29th day of a lunar month</item>
+        <item>The 30th day of a lunar month</item>
+    </string-array>
+    <string-array name="month_string_array">
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </string-array>
+    <string-array name="nav_bar_button_values">
+        <item>clipboard</item>
+        <item>key</item>
+        <item>menu_ime</item>
+        <item>space</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Clipboard</item>
+        <item>Keycode</item>
+        <item>Rotate confirm, keyboard switcher</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normal</item>
+        <item>Compact</item>
+        <item>Left-leaning</item>
+        <item>Right-leaning</item>
+    </string-array>
+    <string-array name="nav_bar_layouts_values">
+        <item>default</item>
+        <item>left;back,home,recent;right</item>
+        <item>left,back,home,recent,right;space;space</item>
+        <item>space;space;left,back,home,recent,right</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>None</item>
+        <item>480p</item>
+        <item>480p (secure)</item>
+        <item>720p</item>
+        <item>720p (secure)</item>
+        <item>1080p</item>
+        <item>1080p (secure)</item>
+        <item>4K</item>
+        <item>4K (secure)</item>
+        <item>4K (upscaled)</item>
+        <item>4K (upscaled, secure)</item>
+        <item>720p, 1080p (dual screen)</item>
+    </string-array>
+    <string-array name="overlay_display_devices_values">
+        <item></item>
+        <item>720x480/142</item>
+        <item>720x480/142,secure</item>
+        <item>1280x720/213</item>
+        <item>1280x720/213,secure</item>
+        <item>1920x1080/320</item>
+        <item>1920x1080/320,secure</item>
+        <item>3840x2160/320</item>
+        <item>3840x2160/320,secure</item>
+        <item>1920x1080/320|3840x2160/640</item>
+        <item>1920x1080/320|3840x2160/640,secure</item>
+        <item>1280x720/213;1920x1080/320</item>
+    </string-array>
+    <array name="proximity_sensor_posture_mapping" />
+    <array name="proximity_sensor_secondary_posture_mapping" />
+    <array name="satellite_icon_signal_dark">
+        <item>@drawable/ic_status_satellite_state_sleep_dark</item>
+        <item>@drawable/ic_status_satellite_level_dark_1</item>
+        <item>@drawable/ic_status_satellite_level_dark_2</item>
+        <item>@drawable/ic_status_satellite_level_dark_3</item>
+        <item>@drawable/ic_status_satellite_level_dark_4</item>
+        <item>@drawable/ic_status_satellite_state_error_dark</item>
+    </array>
+    <array name="satellite_icon_signal_day">
+        <item>@drawable/ic_status_satellite_state_sleep</item>
+        <item>@drawable/ic_status_satellite_level_1</item>
+        <item>@drawable/ic_status_satellite_level_2</item>
+        <item>@drawable/ic_status_satellite_level_3</item>
+        <item>@drawable/ic_status_satellite_level_4</item>
+        <item>@drawable/ic_status_satellite_state_error</item>
+    </array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Off</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Off</item>
+        <item>64K per log buffer</item>
+        <item>256K per log buffer</item>
+        <item>1M per log buffer</item>
+        <item>4M per log buffer</item>
+        <item>8M per log buffer</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Off</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logd_size_values">
+        <item>32768</item>
+        <item>65536</item>
+        <item>262144</item>
+        <item>1048576</item>
+        <item>4194304</item>
+        <item>8388608</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Off</item>
+        <item>All log buffers</item>
+        <item>All but radio log buffers</item>
+        <item>kernel log buffer only</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Off</item>
+        <item>All</item>
+        <item>All but radio</item>
+        <item>kernel only</item>
+    </string-array>
+    <string-array name="select_logpersist_values">
+        <item></item>
+        <item>all</item>
+        <item>default,security,kernel</item>
+        <item>kernel</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Off</item>
+        <item>Draw non-rectangular clip region in blue</item>
+        <item>Highlight tested drawing commands in green</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_values">
+        <item>hide</item>
+        <item>region</item>
+        <item>highlight</item>
+    </string-array>
+    <array name="signal_icon_2g_dark">
+        <item>@drawable/ic_connectivity_signalstrength_2g_0_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_2g_1_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_2g_2_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_2g_3_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_2g_4_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_no_dark</item>
+    </array>
+    <array name="signal_icon_2g_day">
+        <item>@drawable/ic_connectivity_signalstrength_2g_0_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_2g_1_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_2g_2_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_2g_3_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_2g_4_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_no_day</item>
+    </array>
+    <array name="signal_icon_3g_dark">
+        <item>@drawable/ic_connectivity_signalstrength_3g_0_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_3g_1_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_3g_2_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_3g_3_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_3g_4_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_no_dark</item>
+    </array>
+    <array name="signal_icon_3g_day">
+        <item>@drawable/ic_connectivity_signalstrength_3g_0_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_3g_1_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_3g_2_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_3g_3_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_3g_4_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_no_day</item>
+    </array>
+    <array name="signal_icon_4g_dark">
+        <item>@drawable/ic_connectivity_signalstrength_4g_0_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_1_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_2_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_3_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_4_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_no_dark</item>
+    </array>
+    <array name="signal_icon_4g_day">
+        <item>@drawable/ic_connectivity_signalstrength_4g_0_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_1_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_2_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_3_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_4_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_no_day</item>
+    </array>
+    <array name="signal_icon_4g_plus_dark">
+        <item>@drawable/ic_connectivity_signalstrength_4g_plus_0_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_plus_1_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_plus_2_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_plus_3_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_plus_4_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_no_dark</item>
+    </array>
+    <array name="signal_icon_4g_plus_day">
+        <item>@drawable/ic_connectivity_signalstrength_4g_plus_0_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_plus_1_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_plus_2_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_plus_3_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_4g_plus_4_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_no_day</item>
+    </array>
+    <array name="signal_icon_5g_dark">
+        <item>@drawable/ic_connectivity_signalstrength_5g_0_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_5g_1_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_5g_2_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_5g_3_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_5g_4_dark</item>
+        <item>@drawable/ic_connectivity_signalstrength_no_dark</item>
+    </array>
+    <array name="signal_icon_5g_day">
+        <item>@drawable/ic_connectivity_signalstrength_5g_0_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_5g_1_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_5g_2_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_5g_3_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_5g_4_day</item>
+        <item>@drawable/ic_connectivity_signalstrength_no_day</item>
+    </array>
+    <string-array name="simulate_color_space_entries">
+        <item>@string/daltonizer_mode_disabled</item>
+        <item>@string/daltonizer_mode_monochromacy</item>
+        <item>@string/daltonizer_mode_deuteranomaly</item>
+        <item>@string/daltonizer_mode_protanomaly</item>
+        <item>@string/daltonizer_mode_tritanomaly</item>
+    </string-array>
+    <string-array name="simulate_color_space_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="solar_festival">
+        <item>"0101 New Year's Day"</item>
+        <item>"0214 Valentine's Day"</item>
+        <item>"0308 Women' Day"</item>
+        <item>0312 Tree Planting Day</item>
+        <item>0315 World Consumer Rights Day</item>
+        <item>"0401 April Fool's Day"</item>
+        <item>0422 Earth Day</item>
+        <item>0501 May Day</item>
+        <item>0504 Youth Day</item>
+        <item>"0601 Children's Day"</item>
+        <item>"0701 Party's Day"</item>
+        <item>0801 Army Day</item>
+        <item>"0910 Teachers' Day"</item>
+        <item>1001 National Day</item>
+        <item>1031 Halloween</item>
+        <item>1224 Christmas Eve</item>
+        <item>1225 Christmas</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>Spring Equinox</item>
+        <item>Fresh Green</item>
+        <item>Grain Rain</item>
+        <item>Beginning of Summer</item>
+        <item>Lesser Fullness of Grain</item>
+        <item>Grain in Ear</item>
+        <item>Summer Solstice</item>
+        <item>Lesser Heat</item>
+        <item>Greater Heat</item>
+        <item>Beginning of Autumn</item>
+        <item>End of Heat</item>
+        <item>White Dew</item>
+        <item>Autumn Equinox</item>
+        <item>Cold Dew</item>
+        <item>"Frost's Descent"</item>
+        <item>Beginning of Winter</item>
+        <item>Lesser Snow</item>
+        <item>Greater Snow</item>
+        <item>Winter Solstice</item>
+        <item>Lesser Cold</item>
+        <item>Greater Cold</item>
+        <item>Beginning of Spring</item>
+        <item>Rain Water</item>
+        <item>Waking of Insects</item>
+    </string-array>
+    <string-array name="special_festivals">
+        <item>"Mother' Day"</item>
+        <item>"Father' Day"</item>
+        <item>Thanksgiving Day</item>
+    </string-array>
+    <string-array name="status_bar_air_quality">
+        <item>优</item>
+        <item>良</item>
+        <item>轻度污染</item>
+        <item>中度污染</item>
+        <item>重度污染</item>
+        <item>严重污染</item>
+        <item>不可用</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_default">
+        <item>@string/tile_unavailable</item>
+        <item>@string/switch_bar_off</item>
+        <item>@string/switch_bar_on</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Unavailable</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Off</item>
+        <item>On screen as bars</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="track_frame_time_values">
+        <item>false</item>
+        <item>visual_bars</item>
+        <item>true</item>
+    </string-array>
+    <string-array name="tradition_festival">
+        <item>New Year’s Eve</item>
+        <item>0101 Spring Festival</item>
+        <item>0115 The Lantern Festival</item>
+        <item>0505 Dragon Boat Festival</item>
+        <item>0707 The Qi Xi Festival</item>
+        <item>0815 Mid-Autumn Festival</item>
+        <item>0909 Double Ninth Festival</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <integer-array name="trunk_integer_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    <string-array name="trunk_string_array">
+        <item>Xin</item>
+        <item>Ren</item>
+        <item>Gui</item>
+        <item>Jia</item>
+        <item>Yi</item>
+        <item>Bing</item>
+        <item>Ding</item>
+        <item>Wu</item>
+        <item>Ji</item>
+        <item>Geng</item>
+    </string-array>
+    <string-array name="tts_demo_string_langs">
+        <item>eng</item>
+        <item>fra</item>
+        <item>deu</item>
+        <item>ita</item>
+        <item>spa</item>
+        <item>kor</item>
+    </string-array>
+    <string-array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+        <item>이것은 한국어 음성 합성의 예입니다.</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Faster</item>
+        <item>Very fast</item>
+        <item>Rapid</item>
+        <item>Very rapid</item>
+        <item>Fastest</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Charging</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Audio Source</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="usb_configuration_values">
+        <item>none</item>
+        <item>mtp</item>
+        <item>ptp</item>
+        <item>rndis</item>
+        <item>audio_source</item>
+        <item>midi</item>
+    </string-array>
+    <string-array name="week_string_array">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Connected</item>
+        <item>Suspended</item>
+        <item>Disconnecting…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting to %1$s…</item>
+        <item>Authenticating with %1$s…</item>
+        <item>Obtaining IP address from %1$s…</item>
+        <item>Connected to %1$s</item>
+        <item>Suspended</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Connected</item>
+        <item>Suspended</item>
+        <item>Disconnecting…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="window_animation_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="year_view_week_string_array">
+        <item>S</item>
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+    </string-array>
+</resources>

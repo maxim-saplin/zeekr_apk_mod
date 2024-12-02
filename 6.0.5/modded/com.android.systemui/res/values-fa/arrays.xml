@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>پویانمایی خاموش</item>
+        <item>مقیاس پویانمایی 0.5 برابر</item>
+        <item>مقیاس پویانمایی 1 برابر</item>
+        <item>مقیاس پویانمایی 1.5 برابر</item>
+        <item>مقیاس پویانمایی 2 برابر</item>
+        <item>مقیاس پویانمایی 5 برابر</item>
+        <item>مقیاس پویانمایی 10 برابر</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>حد استاندارد</item>
+        <item>بدون پردازش در پس‌زمینه</item>
+        <item>حداکثر 1 پردازش</item>
+        <item>حداکثر 2 پردازش</item>
+        <item>حداکثر 3 پردازش</item>
+        <item>حداکثر 4 پردازش</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>٪۰</item>
+        <item>۵۰٪</item>
+        <item>۱۰۰٪</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>همیشه درصد نشان داده شود</item>
+        <item>هنگام شارژ شدن درصد نشان داده شود (پیش‌فرض)</item>
+        <item>این نماد نشان داده نشود</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>استفاده از انتخاب سیستم (پیش‌فرض)</item>
+        <item>۱۶ بیت در هر نمونه</item>
+        <item>۲۴ بیت در هر نمونه</item>
+        <item>۳۲ بیت در هر نمونه</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>استفاده از انتخاب سیستم (پیش‌فرض)</item>
+        <item>۱۶ بیت در هر نمونه</item>
+        <item>۲۴ بیت در هر نمونه</item>
+        <item>۳۲ بیت در هر نمونه</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>استفاده از انتخاب سیستم (پیش‌فرض)</item>
+        <item>مونو</item>
+        <item>استریو</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>استفاده از انتخاب سیستم (پیش‌فرض)</item>
+        <item>مونو</item>
+        <item>استریو</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>بهینه‌شده برای کیفیت صوت</item>
+        <item>کیفیت متعادل صوت و اتصال</item>
+        <item>بهینه‌شده برای کیفیت اتصال</item>
+        <item>بهترین حالت (نرخ بیت تطبیقی)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>بهینه‌شده برای کیفیت صوت (۹۹۰ کیلوبیت در ثانیه/۹۰۹ کیلوبیت در ثانیه)</item>
+        <item>کیفیت متعادل صوت و اتصال (۶۶۰ کیلوبیت در ثانیه/۶۰۶ کیلوبیت در ثانیه)</item>
+        <item>بهینه‌شده برای کیفیت اتصال (۳۳۰ کیلوبیت در ثانیه/۳۰۳ کیلوبیت در ثانیه)</item>
+        <item>بهترین حالت (نرخ بیت تطبیقی)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>استفاده از انتخاب سیستم (پیش‌فرض)</item>
+        <item>۴۴٫۱ کیلوهرتز</item>
+        <item>۴۸٫۰ کیلوهرتز</item>
+        <item>۸۸٫۲ کیلوهرتز</item>
+        <item>۹۶٫۰ کیلوهرتز</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>استفاده از انتخاب سیستم (پیش‌فرض)</item>
+        <item>۴۴٫۱ کیلوهرتز</item>
+        <item>۴۸٫۰ کیلوهرتز</item>
+        <item>۸۸٫۲ کیلوهرتز</item>
+        <item>۹۶٫۰ کیلوهرتز</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>استفاده از انتخاب سیستم (پیش‌فرض)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>صوت Qualcomm® aptX™</item>
+        <item>صوت Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>استفاده از انتخاب سیستم (پیش‌فرض)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>صوت Qualcomm® aptX™</item>
+        <item>صوت Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>، فعال</item>
+        <item>، فعال (رسانه)</item>
+        <item>، فعال (تلفن)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>‏avrcp نسخه ۱۴</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>‏AVRCP نسخه ۱.۵ (پیش‌فرض)</item>
+        <item>AVRCP 1.3</item>
+        <item>‏AVRCP نسخه ۱.۴</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>‏MAP نسخه ۱.۲ (پیش‌فرض)</item>
+        <item>‏MAP نسخه ۱.۳</item>
+        <item>‏MAP نسخه ۱.۴</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>غیرفعال</item>
+        <item>فیلترشده فعال شده است</item>
+        <item>فعال</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>ساعت، دقیقه و ثانیه نشان داده شود</item>
+        <item>ساعت و دقیقه نشان داده شود (پیش‌فرض)</item>
+        <item>این نماد نشان داده نشود</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>رنگ‌های پیشرفته</item>
+        <item>رنگ‌های طبیعی به‌همان صورتی که با چشم دیده می‌شوند</item>
+        <item>رنگ‌های بهینه‌شده برای محتوای دیجیتالی</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>پرطروات (پیش‌فرض)</item>
+        <item>طبیعی</item>
+        <item>استاندارد</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>غیرفعال</item>
+        <item>نمایش نواحی بازنویسی</item>
+        <item>نمایش مناطق برای مبتلایان به سبزدشواربینی</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>خالی</item>
+        <item>Logcat</item>
+        <item>‏Systrace (تصاویر گرافیکی)</item>
+        <item>‏فراخوانی پشته در glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>‏هرگز از بررسی HDCP استفاده نشود</item>
+        <item>‏استفاده از بررسی HDCP فقط برای محتوای DRM</item>
+        <item>‏همیشه از بررسی HDCP استفاده شود</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>هرگز بررسی نشود</item>
+        <item>‏فقط بررسی محتوای DRM</item>
+        <item>همیشه بررسی شود</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>بریده‌دان</item>
+        <item>کد کلید</item>
+        <item>تأیید چرخش، تغییردهنده صفحه‌کلید</item>
+        <item>هیچ‌کدام</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>معمولی</item>
+        <item>فشرده</item>
+        <item>متمایل به چپ</item>
+        <item>متمایل به راست</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>خالی</item>
+        <item>480p</item>
+        <item>‏480p (ایمن)</item>
+        <item>720p</item>
+        <item>‏720p (ایمن)</item>
+        <item>1080p</item>
+        <item>‏1080p (ایمن)</item>
+        <item>4K</item>
+        <item>‏4K (ایمن)</item>
+        <item>‏4K (ارتقا یافته)</item>
+        <item>‏4K (ارتقا یافته، ایمن)</item>
+        <item>‏720p،‏ 1080p (صفحه‌نمایش دوتایی)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>خاموش</item>
+        <item>۶۴ هزار</item>
+        <item>۲۵۶ هزار</item>
+        <item>۱ میلیون</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>خاموش</item>
+        <item>۶۴ هزار در هر بافر گزارش</item>
+        <item>۲۵۶ هزار در هر بافر گزارش</item>
+        <item>۱ میلیون در هر بافر گزارش</item>
+        <item>۴ میلیون در هر بافر گزارش</item>
+        <item>۸ مگابایت در هر میان‌گیری گزارش</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>خاموش</item>
+        <item>۶۴ هزار</item>
+        <item>۲۵۶ هزار</item>
+        <item>۱ میلیون</item>
+        <item>۴ میلیون</item>
+        <item>۸ مگابایت</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>خاموش</item>
+        <item>همه بافرهای گزارش</item>
+        <item>همه به‌جز بافرهای گزارش رادیو</item>
+        <item>فقط بافر گزارش هسته اصلی</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>خاموش</item>
+        <item>همه</item>
+        <item>همه به‌جز رادیو</item>
+        <item>فقط هسته اصلی</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>غیرفعال</item>
+        <item>کشیدن کلیپ قسمت غیر مربعی آبی</item>
+        <item>هایلایت کردن دستورات کشیدن تست‌شده به رنگ سبز</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>دردسترس نیست</item>
+        <item>خاموش</item>
+        <item>روشن</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>خاموش</item>
+        <item>روی صفحه نمایش به‌صورت میله‌ای</item>
+        <item>در adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>پویانمایی خاموش</item>
+        <item>‏مقیاس پویانمایی 0.5x</item>
+        <item>‏مقیاس پویانمایی 1x</item>
+        <item>‏مقیاس پویانمایی 1.5x</item>
+        <item>‏مقیاس پویانمایی 2x</item>
+        <item>‏مقیاس پویانمایی 5x</item>
+        <item>‏مقیاس پویانمایی 10X</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>بسیار آهسته</item>
+        <item>آهسته</item>
+        <item>معمولی</item>
+        <item>سریع</item>
+        <item>سریع‌تر</item>
+        <item>خیلی سریع</item>
+        <item>تند</item>
+        <item>خیلی تند</item>
+        <item>سریع‌ترین</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>در حال شارژ شدن</item>
+        <item>‏MTP (پروتکل انتقال رسانه)</item>
+        <item>‏PTP (پروتکل انتقال تصویر)</item>
+        <item>‏RNDIS (اترنت USB)</item>
+        <item>منبع صوتی</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>اسکن کردن...</item>
+        <item>در حال اتصال…</item>
+        <item>در حال راستی‌آزمایی...</item>
+        <item>‏درحال دریافت نشانی IP…</item>
+        <item>متصل</item>
+        <item>معلق</item>
+        <item>در حال قطع اتصال...</item>
+        <item>اتصال قطع شد</item>
+        <item>ناموفق</item>
+        <item>مسدود شده</item>
+        <item>جلوگیری موقت از اتصال ضعیف</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>اسکن کردن...</item>
+        <item>در حال اتصال به %1$s…</item>
+        <item>در حال راستی‌آزمایی با %1$s...</item>
+        <item>‏درحال دریافت نشانی IP از %1$s…</item>
+        <item>به %1$s متصل شد</item>
+        <item>معلق</item>
+        <item>اتصال قطع شد از %1$s...</item>
+        <item>اتصال قطع شد</item>
+        <item>ناموفق</item>
+        <item>مسدود شده</item>
+        <item>جلوگیری موقت از اتصال ضعیف</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>درحال اسکن کردن…</item>
+        <item>درحال اتصال…</item>
+        <item>درحال راستی‌آزمایی…</item>
+        <item>‏درحال دریافت نشانی IP…</item>
+        <item>متصل</item>
+        <item>معلق</item>
+        <item>درحال قطع اتصال…</item>
+        <item>اتصال قطع شد</item>
+        <item>ناموفق</item>
+        <item>مسدود</item>
+        <item>اجتناب موقت از اتصال ضعیف</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>پویانمایی خاموش</item>
+        <item>‏مقیاس پویانمایی 0.5x</item>
+        <item>‏مقیاس پویانمایی 1x</item>
+        <item>‏مقیاس پویانمایی 1.5x</item>
+        <item>‏مقیاس پویانمایی 2x</item>
+        <item>‏مقیاس پویانمایی 5x</item>
+        <item>‏مقیاس پویانمایی 10X</item>
+    </string-array>
+</resources>

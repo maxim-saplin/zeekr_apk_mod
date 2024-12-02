@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="@dimen/car_bottom_navigation_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/button_single_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:stateListAnimator="@animator/animator_dock_scale" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/iv_indicator" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" android:src="@drawable/ic_dock_indicator" android:layout_centerHorizontal="true" android:paddingHorizontal="7.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/button_single_icon" app:layout_constraintStart_toStartOf="@id/button_single_icon" app:layout_constraintTop_toBottomOf="@id/button_single_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:layout_gravity="center" android:id="@id/global_actions_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.systemui.globalactions.GlobalActionsLayoutLite android:orientation="vertical" android:id="@id/global_actions_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="horizontal" android:id="@android:id/list" android:background="@drawable/global_actions_lite_background" android:padding="@dimen/global_actions_lite_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:translationZ="@dimen/global_actions_translate">
+            <androidx.constraintlayout.helper.widget.Flow android:id="@id/list_flow" android:layout_width="fill_parent" android:layout_height="wrap_content" app:flow_horizontalGap="@dimen/global_actions_lite_padding" app:flow_horizontalStyle="packed" app:flow_maxElementsWrap="2" app:flow_verticalGap="@dimen/global_actions_lite_padding" app:flow_wrapMode="chain" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.android.systemui.globalactions.GlobalActionsLayoutLite>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>ਐਨੀਮੇਸ਼ਨ ਬੰਦ</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ .5x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 1x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 1.5x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 2x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 5x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ਮਿਆਰੀ ਸੀਮਾ</item>
+        <item>ਕੋਈ ਪਿਛੋਕੜ ਪ੍ਰਕਿਰਿਆਵਾਂ ਨਹੀਂ</item>
+        <item>ਵੱਧ ਤੋਂ ਵੱਧ 1 ਪ੍ਰਕਿਰਿਆ</item>
+        <item>ਵੱਧ ਤੋਂ ਵੱਧ 2 ਪ੍ਰਕਿਰਿਆਵਾਂ</item>
+        <item>ਵੱਧ ਤੋਂ ਵੱਧ 3 ਪ੍ਰਕਿਰਿਆਵਾਂ</item>
+        <item>ਵੱਧ ਤੋਂ ਵੱਧ 4 ਪ੍ਰਕਿਰਿਆਵਾਂ</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>"ਹਮੇਸ਼ਾਂ ਫ਼ੀਸਦ  ਦਿਖਾਓ"</item>
+        <item>ਚਾਰਜਿੰਗ ਦੌਰਾਨ ਫ਼ੀਸਦ ਦਿਖਾਓ (ਪੂਰਵ-ਨਿਰਧਾਰਤ)</item>
+        <item>ਇਸ ਪ੍ਰਤੀਕ ਨੂੰ ਨਾ ਦਿਖਾਓ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>ਸਿਸਟਮ ਚੋਣ ਦੀ ਵਰਤੋਂ ਕਰੋ (ਪੂਰਵ-ਨਿਰਧਾਰਿਤ)</item>
+        <item>16 ਬਿਟਾਂ/ਨਮੂਨਾ</item>
+        <item>24 ਬਿਟਾਂ/ਨਮੂਨਾ</item>
+        <item>32 ਬਿਟਾਂ/ਨਮੂਨਾ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>ਸਿਸਟਮ ਚੋਣ ਦੀ ਵਰਤੋਂ ਕਰੋ (ਪੂਰਵ-ਨਿਰਧਾਰਿਤ)</item>
+        <item>16 ਬਿਟਾਂ/ਨਮੂਨਾ</item>
+        <item>24 ਬਿਟਾਂ/ਨਮੂਨਾ</item>
+        <item>32 ਬਿਟਾਂ/ਨਮੂਨਾ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>ਸਿਸਟਮ ਚੋਣ ਦੀ ਵਰਤੋਂ ਕਰੋ (ਪੂਰਵ-ਨਿਰਧਾਰਿਤ)</item>
+        <item>ਮੋਨੋ</item>
+        <item>ਸਟੀਰੀਓ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>ਸਿਸਟਮ ਚੋਣ ਦੀ ਵਰਤੋਂ ਕਰੋ (ਪੂਰਵ-ਨਿਰਧਾਰਿਤ)</item>
+        <item>ਮੋਨੋ</item>
+        <item>ਸਟੀਰੀਓ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>" ਆਡੀਓ  ਗੁਣਵੱਤਾ ਲਈ ਸੁਯੋਗ ਬਣਾਇਆ ਗਿਆ"</item>
+        <item>"ਸੰਤੁਲਿਤ  ਆਡੀਓ  ਅਤੇ ਕਨੈਕਸ਼ਨ ਗੁਣਵੱਤਾ"</item>
+        <item>ਕਨੈਕਸ਼ਨ ਗੁਣਵੱਤਾ ਲਈ ਸੁਯੋਗ ਬਣਾਇਆ ਗਿਆ</item>
+        <item>ਸਰਵੋਤਮ ਕੋਸ਼ਿਸ਼ (ਅਨੁਕੂਲਨਕਾਰੀ ਬਿਟ ਰੇਟ)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>" ਆਡੀਓ  ਗੁਣਵੱਤਾ ਲਈ ਸੁਯੋਗ ਬਣਾਇਆ ਗਿਆ (990kbps/909kbps)"</item>
+        <item>"ਸੰਤੁਲਿਤ  ਆਡੀਓ  ਅਤੇ ਕਨੈਕਸ਼ਨ ਗੁਣਵੱਤਾ (660kbps/606kbps)"</item>
+        <item>ਕਨੈਕਸ਼ਨ ਗੁਣਵੱਤਾ ਲਈ ਸੁਯੋਗ ਬਣਾਇਆ ਗਿਆ (330kbps/303kbps)</item>
+        <item>ਸਰਵੋਤਮ ਕੋਸ਼ਿਸ਼ (ਅਨੁਕੂਲਨਕਾਰੀ ਬਿਟ ਰੇਟ)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>ਸਿਸਟਮ ਚੋਣ ਦੀ ਵਰਤੋਂ ਕਰੋ (ਪੂਰਵ-ਨਿਰਧਾਰਿਤ)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>ਸਿਸਟਮ ਚੋਣ ਦੀ ਵਰਤੋਂ ਕਰੋ (ਪੂਰਵ-ਨਿਰਧਾਰਿਤ)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>ਸਿਸਟਮ ਚੋਣ ਦੀ ਵਰਤੋਂ ਕਰੋ (ਪੂਰਵ-ਨਿਰਧਾਰਿਤ)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ਆਡੀਓ</item>
+        <item>Qualcomm® aptX™ HD ਆਡੀਓ</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>ਸਿਸਟਮ ਚੋਣ ਦੀ ਵਰਤੋਂ ਕਰੋ (ਪੂਰਵ-ਨਿਰਧਾਰਿਤ)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ਆਡੀਓ</item>
+        <item>Qualcomm® aptX™ HD ਆਡੀਓ</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, ਕਿਰਿਆਸ਼ੀਲ</item>
+        <item>, ਕਿਰਿਆਸ਼ੀਲ (ਮੀਡੀਆ)</item>
+        <item>, ਕਿਰਿਆਸ਼ੀਲ (ਫ਼ੋਨ)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (ਪੂਰਵ-ਨਿਰਧਾਰਿਤ)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ਪੂਰਵ-ਨਿਰਧਾਰਿਤ)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>ਬੰਦ</item>
+        <item>ਫਿਲਟਰ ਕੀਤਿਆਂ ਨੂੰ ਚਾਲੂ ਕੀਤਾ ਗਿਆ</item>
+        <item>ਚਾਲੂ</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>"ਘੰਟੇ, ਮਿੰਟ, ਅਤੇ ਸਕਿੰਟ  ਦਿਖਾਓ"</item>
+        <item>ਘੰਟੇ ਅਤੇ ਮਿੰਟ ਦਿਖਾਓ (ਪੂਰਵ-ਨਿਰਧਾਰਤ)</item>
+        <item>ਇਸ ਪ੍ਰਤੀਕ ਨੂੰ ਨਾ ਦਿਖਾਓ</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>ਵਿਸਤ੍ਰਿਤ ਰੰਗ</item>
+        <item>ਕੁਦਰਤੀ ਰੰਗ ਜਿਵੇਂ ਅੱਖ ਰਾਹੀਂ ਦੇਖੇ ਜਾਂਦੇ ਹਨ</item>
+        <item>ਡਿਜੀਟਲ ਸਮੱਗਰੀ ਲਈ ਰੰਗ ਅਨੁਕੂਲ ਕੀਤੇ</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>ਚਮਕੀਲਾ (ਪੂਰਵ-ਨਿਰਧਾਰਤ)</item>
+        <item>ਕੁਦਰਤੀ</item>
+        <item>ਸਟੈਂਡਰਡ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ਬੰਦ</item>
+        <item>ਓਵਰਡ੍ਰਾ ਖੇਤਰ ਦਿਖਾਓ</item>
+        <item>Deuteranomaly ਲਈ ਖੇਤਰ ਦਿਖਾਓ</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ਕੋਈ ਨਹੀਂ</item>
+        <item>Logcat</item>
+        <item>Systrace (ਗ੍ਰਾਫਿਕਸ)</item>
+        <item>glGetError ਤੇ ਕਾਲ ਸਟੈਕ</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>ਕਦੇ ਵੀ HDCP ਜਾਂਚ ਨਾ ਵਰਤੋ</item>
+        <item>ਸਿਰਫ਼ DRM ਸਮੱਗਰੀ ਲਈ HDCP ਜਾਂਚ ਦੀ ਵਰਤੋਂ ਕਰੋ</item>
+        <item>ਹਮੇਸਾਂ HDCP ਜਾਂਚ ਵਰਤੋ</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ਕਦੇ ਵੀ ਜਾਂਚ ਨਾ ਕਰੋ</item>
+        <item>ਸਿਰਫ਼ DRM ਸਮੱਗਰੀ ਲਈ ਜਾਂਚ ਕਰੋ</item>
+        <item>ਹਮੇਸ਼ਾਂ ਜਾਂਚ ਕਰੋ</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>ਕਲਿੱਪਬੋਰਡ</item>
+        <item>ਕੀ-ਕੋਡ</item>
+        <item>ਘੁਮਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ, ਕੀ-ਬੋਰਡ ਸਵਿੱਚਰ</item>
+        <item>ਕੋਈ ਨਹੀਂ</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>ਸਧਾਰਨ</item>
+        <item>ਸੰਖਿਪਤ</item>
+        <item>ਖੱਬੇ-ਉਲਾਰ</item>
+        <item>ਸੱਜੇ-ਉਲਾਰ</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ਕੋਈ ਨਹੀਂ</item>
+        <item>480p</item>
+        <item>480p (ਸੁਰੱਖਿਅਤ)</item>
+        <item>720p</item>
+        <item>720p (ਸੁਰੱਖਿਅਤ)</item>
+        <item>1080p</item>
+        <item>1080p (ਸੁਰੱਖਿਅਤ)</item>
+        <item>4K</item>
+        <item>4K (ਸੁਰੱਖਿਅਤ)</item>
+        <item>4K (ਪੂਰਾ ਕੀਤਾ)</item>
+        <item>4K (ਪੂਰਾ ਕੀਤਾ, ਸੁਰੱਖਿਅਤ)</item>
+        <item>720p, 1080p (ਦੂਹਰੀ ਸਕ੍ਰੀਨ)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ਬੰਦ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ਬੰਦ</item>
+        <item>64K ਪ੍ਰਤੀ ਲੌਗ ਬਫ਼ਰ</item>
+        <item>256K ਪ੍ਰਤੀ ਲੌਗ ਬਫ਼ਰ</item>
+        <item>1M ਪ੍ਰਤੀ ਲੌਗ ਬਫ਼ਰ</item>
+        <item>4M ਪ੍ਰਤੀ ਲੌਗ ਬਫ਼ਰ</item>
+        <item>8M ਪ੍ਰਤੀ ਲੌਗ ਬਫ਼ਰ</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ਬੰਦ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ਬੰਦ</item>
+        <item>ਸਭ ਲੌਗ ਬਫ਼ਰ</item>
+        <item>ਸਭ ਪਰ ਰੇਡੀਓ ਲੌਗ ਬਫ਼ਰ</item>
+        <item>ਸਿਰਫ਼ ਕਰਨਲ ਲੌਗ ਬਫ਼ਰ</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ਬੰਦ</item>
+        <item>ਸਭ</item>
+        <item>ਸਭ ਪਰ ਰੇਡੀਓ</item>
+        <item>ਸਿਰਫ਼ ਕਰਨਲ</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ਬੰਦ</item>
+        <item>ਨੀਲੇ ਵਿੱਚ ਗ਼ੈਰ-ਆਇਤਾਕਾਰ ਕਲਿਪ ਖੇਤਰ ਡ੍ਰਾ ਕਰੋ</item>
+        <item>ਜਾਂਚ ਕੀਤੀਆਂ ਡ੍ਰਾਇੰਗ ਕਮਾਂਡਾਂ ਹਰੇ ਵਿੱਚ ਉਜਾਗਰ ਕਰੋ</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>ਅਣਉਪਲਬਧ ਹੈ</item>
+        <item>ਬੰਦ ਹੈ</item>
+        <item>ਚਾਲੂ ਹੈ</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ਬੰਦ</item>
+        <item>ਬਾਰਸ ਦੇ ਤੌਰ ਤੇ ਸਕ੍ਰੀਨ ਤੇ</item>
+        <item>adb shell dumpsys gfxinfo ਵਿੱਚ</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ਐਨੀਮੇਸ਼ਨ ਬੰਦ</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ .5x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 1x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 1.5x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 2x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 5x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ਬਹੁਤ ਹੌਲੀ</item>
+        <item>ਹੌਲੀ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਤੇਜ਼</item>
+        <item>ਵੱਧ ਤੇਜ਼</item>
+        <item>ਬਹੁਤ ਤੇਜ਼</item>
+        <item>ਤੇਜ਼</item>
+        <item>ਬਹੁਤ ਤੇਜ਼</item>
+        <item>ਸਭ ਤੋਂ ਵੱਧ ਤੇਜ਼</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>ਚਾਰਜਿੰਗ</item>
+        <item>MTP (ਮੀਡੀਆ ਟ੍ਰਾਂਸਫਰ ਪ੍ਰੋਟੋਕੋਲ)</item>
+        <item>PTP (ਪਿਕਚਰ ਟ੍ਰਾਂਸਫਰ ਪ੍ਰੋਟੋਕੋਲ)</item>
+        <item>RNDIS (USB ਈਥਰਨੈਟ)</item>
+        <item>" ਆਡੀਓ  ਸਰੋਤ"</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>ਸਕੈਨ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...</item>
+        <item>ਕਨੈਕਟ ਕਰ ਰਿਹਾ ਹੈ…</item>
+        <item>ਪ੍ਰਮਾਣਿਤ ਕਰ ਰਿਹਾ ਹੈ…</item>
+        <item>IP ਪਤਾ ਪ੍ਰਾਪਤ ਕਰ ਰਿਹਾ ਹੈ...</item>
+        <item>ਕਨੈਕਟ ਕੀਤਾ</item>
+        <item>ਮੁਅੱਤਲ ਕੀਤਾ</item>
+        <item>ਡਿਸਕਨੈਕਟ ਕਰ ਰਿਹਾ ਹੈ...</item>
+        <item>ਡਿਸਕਨੈਕਟ ਕੀਤਾ</item>
+        <item>ਅਸਫਲ</item>
+        <item>ਬਲੌਕ ਕੀਤਾ</item>
+        <item>ਅਸਥਾਈ ਤੌਰ ਤੇ ਖ਼ਰਾਬ ਕਨੈਕਸ਼ਨ ਤੋਂ ਬਚਣ ਲਈ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ਸਕੈਨ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...</item>
+        <item>%1$s ਨਾਲ ਕਨੈਕਟ ਕਰ ਰਿਹਾ ਹੈ…</item>
+        <item>%1$s ਨਾਲ ਪ੍ਰਮਾਣਿਤ ਕਰ ਰਿਹਾ ਹੈ…</item>
+        <item>%1$s ਤੋਂ IP ਪਤਾ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</item>
+        <item>%1$s ਨਾਲ ਕਨੈਕਟ ਕੀਤਾ</item>
+        <item>ਮੁਅੱਤਲ ਕੀਤਾ</item>
+        <item>%1$s ਤੋਂ ਡਿਸਕਨੈਕਟ ਕਰ ਰਿਹਾ ਹੈ…</item>
+        <item>ਡਿਸਕਨੈਕਟ ਕੀਤਾ</item>
+        <item>ਅਸਫਲ</item>
+        <item>ਬਲੌਕ ਕੀਤਾ</item>
+        <item>ਅਸਥਾਈ ਤੌਰ ਤੇ ਖ਼ਰਾਬ ਕਨੈਕਸ਼ਨ ਤੋਂ ਬਚਣ ਲਈ</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>ਸਕੈਨ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</item>
+        <item>ਕਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</item>
+        <item>ਪ੍ਰਮਾਣਿਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</item>
+        <item>IP ਪਤਾ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</item>
+        <item>ਕਨੈਕਟ ਹੈ</item>
+        <item>ਮੁਅੱਤਲ ਕੀਤਾ</item>
+        <item>ਡਿਸਕਨੈਕਟ ਹੋ ਰਿਹਾ ਹੈ…</item>
+        <item>ਡਿਸਕਨੈਕਟ ਕੀਤਾ</item>
+        <item>ਅਸਫਲ</item>
+        <item>ਬਲਾਕ ਕੀਤਾ ਗਿਆ</item>
+        <item>"ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਖਰਾਬ ਕਨੈਕਸ਼ਨ ਤੋਂ ਬਚਣ ਲਈ"</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ਐਨੀਮੇਸ਼ਨ ਬੰਦ</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ .5x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 1x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 1.5x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 2x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 5x</item>
+        <item>ਐਨੀਮੇਸ਼ਨ ਸਕੇਲ 10x</item>
+    </string-array>
+</resources>

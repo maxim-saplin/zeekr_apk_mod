@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/settingslib_switchbar_margin" android:minHeight="@dimen/settingslib_min_switch_bar_height" android:paddingStart="@dimen/settingslib_switchbar_padding_left" android:paddingEnd="@dimen/settingslib_switchbar_padding_right">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/switch_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/settingslib_switch_title_margin" android:layout_marginVertical="@dimen/settingslib_switch_title_margin" style="@style/MainSwitchText.Settingslib" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/restricted_icon" android:visibility="gone" android:layout_width="@dimen/settingslib_restricted_icon_size" android:layout_height="@dimen/settingslib_restricted_icon_size" android:src="@android:drawable/ic_info" android:tint="?android:colorAccent" android:layout_marginEnd="@dimen/settingslib_restricted_icon_margin_end" />
+        <Switch android:theme="@style/Switch.SettingsLib" android:layout_gravity="center_vertical" android:id="@android:id/switch_widget" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="48.0dip" />
+    </LinearLayout>
+</LinearLayout>

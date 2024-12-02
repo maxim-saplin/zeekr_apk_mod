@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d 天前</item>
+        <item quantity="one">%d 天前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d 分鐘前</item>
+        <item quantity="one">%d 分鐘前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d 年前</item>
+        <item quantity="one">%d 年前</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">已新增 %s 個控制項。</item>
+        <item quantity="one">已新增 %s 個控制項。</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">輸入 SIM 卡的 PIN，您還可以再試 %d 次。</item>
+        <item quantity="one">輸入 SIM 卡的 PIN，您還可以再試 %d 次。如果仍然輸入錯誤，您必須聯絡流動網絡供應商解鎖您的裝置。</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM 卡已停用。請輸入 PUK 碼以繼續進行。您還可以再試 %d 次。如果仍然輸入錯誤，SIM 卡將永久無法使用。詳情請與流動網絡供應商聯絡。</item>
+        <item quantity="one">SIM 卡已停用。請輸入 PUK 碼以繼續進行。您還可以再試 %d 次。如果仍然輸入錯誤，SIM 卡將永久無法使用。詳情請與流動網絡供應商聯絡。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM 卡的 PIN 碼不正確，您還有 %d 次輸入機會。</item>
+        <item quantity="one">SIM 卡的 PIN 碼不正確，您還有 %d 次輸入機會。如果仍然輸入錯誤，您必須聯絡流動網絡供應商為您的裝置解鎖。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM 卡的 PUK 碼不正確，您還有 %d 次輸入機會。如果仍然輸入錯誤，SIM 卡將永久無法使用。</item>
+        <item quantity="one">SIM 卡的 PUK 碼不正確，您還有 %d 次輸入機會。如果仍然輸入錯誤，SIM 卡將永久無法使用。</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">請在 %d 秒後再試一次。</item>
+        <item quantity="one">請在 1 秒後再試一次。</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 個新通知</item>
+        <item quantity="one">%d 個新通知</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">裡面還有 %s 個通知。</item>
+        <item quantity="one">裡面還有 %s 個通知。</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d 部裝置</item>
+        <item quantity="one">%d 部裝置</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d 個小時</item>
+        <item quantity="one">%d 個小時</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">%d 分鐘</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">您可以加入多達 %d 個使用者。</item>
+        <item quantity="one">只可以建立一個使用者。</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d 部已連線的裝置</item>
+        <item quantity="one">%1$d 部已連線的裝置</item>
+    </plurals>
+</resources>

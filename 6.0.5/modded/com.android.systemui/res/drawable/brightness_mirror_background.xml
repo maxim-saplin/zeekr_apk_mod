@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?underSurfaceColor" />
+    <corners android:radius="@dimen/rounded_slider_background_rounded_corner" />
+</shape>

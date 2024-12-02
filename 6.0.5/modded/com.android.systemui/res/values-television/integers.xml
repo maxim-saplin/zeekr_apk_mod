@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_dialogHideAnimationDurationMs">400</integer>
+    <integer name="config_dialogShowAnimationDurationMs">600</integer>
+    <integer name="privacy_chip_animation_millis">300</integer>
+    <integer name="recents_svelte_level">3</integer>
+</resources>

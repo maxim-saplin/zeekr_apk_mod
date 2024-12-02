@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d రోజుల క్రితం</item>
+        <item quantity="one">%d రోజు క్రితం</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d నిమి క్రితం</item>
+        <item quantity="one">%d నిమి క్రితం</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d సం క్రితం</item>
+        <item quantity="one">%d సం క్రితం</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s కంట్రోల్‌లు యాడ్ అయ్యాయి.</item>
+        <item quantity="one">%s కంట్రోల్ యాడ్ అయింది.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM పిన్‌ని నమోదు చేయండి. మీకు %d ప్రయత్నలు మిగిలి ఉన్నాయి.</item>
+        <item quantity="one">SIM పిన్‌ని నమోదు చేయండి, మీరు మీ పరికరాన్ని అన్‌లాక్ చేయడానికి తప్పనిసరిగా మీ క్యారియర్‌ను సంప్రదించడానికి ముందు మీకు %d ప్రయత్నం మిగిలి ఉంది.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM ఇప్పుడు నిలిపివేయబడింది. PUK కోడ్‌ను నమోదు చేయండి. SIM శాశ్వతంగా నిరుపయోగం కాకుండా ఉండటానికి మీకు %d ప్రయత్నాలు మిగిలి ఉన్నాయి. వివరాల కోసం కారియర్‌ను సంప్రదించండి.</item>
+        <item quantity="one">SIM ఇప్పుడు నిలిపివేయబడింది. PUK కోడ్‌ను నమోదు చేయండి. SIM శాశ్వతంగా నిరుపయోగం కాకుండా ఉండటానికి మీకు %d ప్రయత్నం మిగిలి ఉంది వివరాల కోసం కారియర్‌ను సంప్రదించండి.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM పిన్ కోడ్ తప్పు, మీకు మరో %d ప్రయత్నాలు మిగిలి ఉన్నాయి.</item>
+        <item quantity="one">SIM పిన్ కోడ్ తప్పు, మీకు మరో %d ప్రయత్నం మిగిలి ఉంది, ఆ తర్వాత మీ డివైజ్‌ను అన్‌లాక్ చేయాలంటే, మీరు తప్పనిసరిగా మీ క్యారియర్‌ని సంప్రదించాలి.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PUK కోడ్ తప్పు, మీకు మరో %d ప్రయత్నాలు మిగిలి ఉన్నాయి, ఆ తర్వాత SIM శాశ్వతంగా నిరుపయోగకరంగా మారుతుంది.</item>
+        <item quantity="one">SIM PUK కోడ్ తప్పు, మీకు మరో %d ప్రయత్నం మిగిలి ఉంది, ఆ తర్వాత SIM శాశ్వతంగా నిరుపయోగకరంగా మారుతుంది.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d సెకన్లలో మళ్లీ ప్రయత్నించండి.</item>
+        <item quantity="one">1 సెకనులో మళ్లీ ప్రయత్నించండి.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d కొత్త నోటిఫికేషన్‌లు</item>
+        <item quantity="one">%d కొత్త నోటిఫికేషన్</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">లోపల మరో %s నోటిఫికేషన్‌లు ఉన్నాయి.</item>
+        <item quantity="one">లోపల మరో %s నోటిఫికేషన్ ఉంది.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d పరికరాలు</item>
+        <item quantity="one">%d పరికరం</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="one">%d గంట</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="one">%d నిమిషం</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">మీరు %d వినియోగదారుల వరకు జోడించవచ్చు.</item>
+        <item quantity="one">ఒక్క వినియోగదారుని మాత్రమే సృష్టించవచ్చు.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d పరికరాలు కనెక్ట్ చేయబడ్డాయి</item>
+        <item quantity="one">%1$d పరికరం కనెక్ట్ చేయబడింది</item>
+    </plurals>
+</resources>

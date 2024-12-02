@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>యానిమేషన్ ఆఫ్‌లో ఉంది</item>
+        <item>యానిమేషన్ ప్రమాణం .5x</item>
+        <item>యానిమేషన్ ప్రమాణం 1x</item>
+        <item>యానిమేషన్ ప్రమాణం 1.5x</item>
+        <item>యానిమేషన్ ప్రమాణం 2x</item>
+        <item>యానిమేషన్ ప్రమాణం 5x</item>
+        <item>యానిమేషన్ ప్రమాణం 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>స్టాండర్డ్ పరిమితి</item>
+        <item>నేపథ్య ప్రాసెస్‌లు లేవు</item>
+        <item>గరిష్టంగా 1 ప్రాసెస్</item>
+        <item>గరిష్టంగా 2 ప్రాసెస్‌లు</item>
+        <item>గరిష్టంగా 3 ప్రాసెస్‌లు</item>
+        <item>గరిష్టంగా 4 ప్రాసెస్‌లు</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>ఎల్లప్పుడూ శాతాన్ని చూపు</item>
+        <item>ఛార్జ్ అవుతున్నప్పుడు శాతాన్ని చూపు (ఆటోమేటిక్)</item>
+        <item>ఈ చిహ్నాన్ని చూపవద్దు</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>సిస్టమ్ ఎంపికను ఉపయోగించండి (ఆటోమేటిక్)</item>
+        <item>16 బిట్‌లు/నమూనా</item>
+        <item>24 బిట్‌లు/నమూనా</item>
+        <item>32 బిట్‌లు/నమూనా</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>సిస్టమ్ ఎంపికను ఉపయోగించండి (ఆటోమేటిక్)</item>
+        <item>16 బిట్‌లు/నమూనా</item>
+        <item>24 బిట్‌లు/నమూనా</item>
+        <item>32 బిట్‌లు/నమూనా</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>సిస్టమ్ ఎంపికను ఉపయోగించండి (ఆటోమేటిక్)</item>
+        <item>మోనో</item>
+        <item>స్టీరియో</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>సిస్టమ్ ఎంపికను ఉపయోగించండి (ఆటోమేటిక్)</item>
+        <item>మోనో</item>
+        <item>స్టీరియో</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>ఆడియో క్వాలిటీ కోసం అనుకూలీకరించబడింది</item>
+        <item>సమతుల్య ఆడియో మరియు కనెక్షన్ క్వాలిటీ</item>
+        <item>కనెక్షన్ క్వాలిటీ కోసం అనుకూలీకరించబడింది</item>
+        <item>ఉత్తమ కృషి (అనుకూల బిట్ రేట్)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>ఆడియో క్వాలిటీ (990kbps/909kbps) కోసం అనుకూలీకరించబడింది</item>
+        <item>సమతుల్య ఆడియో మరియు కనెక్షన్ క్వాలిటీ (660kbps/606kbps)</item>
+        <item>కనెక్షన్ క్వాలిటీ (330kbps/303kbps) కోసం అనుకూలీకరించబడింది</item>
+        <item>ఉత్తమ కృషి (అనుకూల బిట్ రేట్)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>సిస్టమ్ ఎంపికను ఉపయోగించండి (ఆటోమేటిక్)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>సిస్టమ్ ఎంపికను ఉపయోగించండి (ఆటోమేటిక్)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>సిస్టమ్ ఎంపికను ఉపయోగించండి (ఆటోమేటిక్)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ఆడియో</item>
+        <item>Qualcomm® aptX™ HD ఆడియో</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>సిస్టమ్ ఎంపికను ఉపయోగించండి (ఆటోమేటిక్)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ఆడియో</item>
+        <item>Qualcomm® aptX™ HD ఆడియో</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, సక్రియంగా ఉంది</item>
+        <item>, (మీడియా) సక్రియంగా ఉంది</item>
+        <item>, (ఫోన్) సక్రియంగా ఉంది</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (ఆటోమేటిక్ సెట్టింగ్)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ఆటోమేటిక్)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>డిజేబుల్ చేయబడింది</item>
+        <item>ప్రారంభించబడింది ఫిల్టర్ చేయబడింది</item>
+        <item>ప్రారంభించబడింది</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>గంటలు, నిమిషాలు మరియు సెకన్లను చూపు</item>
+        <item>గంటలు, నిమిషాలను చూపు (ఆటోమేటిక్)</item>
+        <item>ఈ చిహ్నాన్ని చూపవద్దు</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>మెరుగైన రంగులు</item>
+        <item>కంటికి కనిపించే విధంగా సహజమైన రంగులు</item>
+        <item>డిజిటల్ కంటెంట్ కోసం అనుకూలీకరించిన రంగులు</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>వైబ్రంట్ (ఆటోమేటిక్)</item>
+        <item>సహజం</item>
+        <item>స్టాండర్డ్</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ఆఫ్</item>
+        <item>ఓవర్‌డ్రా ప్రాంతాలను చూపండి</item>
+        <item>డ్యూటెరానోమలీ కోసం ప్రాంతాలను చూపండి</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ఏదీ వద్దు</item>
+        <item>లాగ్‌క్యాట్</item>
+        <item>సిస్‌ట్రేస్ (గ్రాఫిక్స్)</item>
+        <item>glGetError సందర్భంలో స్టాక్‌ను కాల్ చేయి</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>ఎప్పటికీ HDCP తనిఖీని ఉపయోగించవద్దు</item>
+        <item>DRM కంటెంట్‌కు మాత్రమే HDCP చెకింగ్‌ను ఉపయోగించండి</item>
+        <item>ఎప్పటికీ HDCP తనిఖీని ఉపయోగించు</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ఎప్పటికీ తనిఖీ చేయవద్దు</item>
+        <item>DRM కంటెంట్‌కు మాత్రమే తనిఖీ చేయండి</item>
+        <item>ఎల్లప్పుడూ తనిఖీ చేయండి</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>క్లిప్‌బోర్డ్</item>
+        <item>కీకోడ్</item>
+        <item>భ్రమణం నిర్ధారణ, కీబోర్డ్ స్విచర్</item>
+        <item>ఏదీ వద్దు</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>సాధారణం</item>
+        <item>సంక్షిప్తమైనది</item>
+        <item>ఎడమవైపుకు వాలుగా</item>
+        <item>కుడివైపుకు వాలుగా</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ఏదీ వద్దు</item>
+        <item>480p</item>
+        <item>480p (సురక్షితం)</item>
+        <item>720p</item>
+        <item>720p (సురక్షితం)</item>
+        <item>1080p</item>
+        <item>1080p (సురక్షితం)</item>
+        <item>4K</item>
+        <item>4K (సురక్షితం)</item>
+        <item>4K (రిజల్యూషన్ పెంచబడింది)</item>
+        <item>4K (రిజల్యూ. పెంచబడింది, సురక్షితం)</item>
+        <item>720p, 1080p (డ్యూయల్ స్క్రీన్)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ఆఫ్</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ఆఫ్ చేయబడింది</item>
+        <item>లాగ్ బఫర్‌కి 64K</item>
+        <item>లాగ్ బఫర్‌కి 256K</item>
+        <item>లాగ్ బఫర్‌కి 1M</item>
+        <item>లాగ్ బఫర్‌కి 4M</item>
+        <item>లాగ్ బఫర్‌కి 8M</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ఆఫ్</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ఆఫ్</item>
+        <item>అన్ని లాగ్ బఫర్‌లు</item>
+        <item>అన్నీ కానీ రేడియో లాగ్ బఫర్‌లు</item>
+        <item>కెర్నెల్ లాగ్ బఫర్ మాత్రమే</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ఆఫ్ చేయి</item>
+        <item>అన్నీ</item>
+        <item>అన్నీ కానీ రేడియో</item>
+        <item>కెర్నెల్ మాత్రమే</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>దీర్ఘచతురస్రం కాని క్లిప్ ప్రాంతాన్ని నీలి రంగులో గీయండి</item>
+        <item>పరీక్షించబడిన డ్రాయింగ్ ఆదేశాలను పచ్చ రంగులో హైలైట్ చేయండి</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>అందుబాటులో లేదు</item>
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>ఆన్‌లో ఉంది</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ఆఫ్‌లో ఉంది</item>
+        <item>స్క్రీన్‌లో పట్టీలుగా</item>
+        <item>adb shell dumpsys gfxinfoలో</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>యానిమేషన్ ఆఫ్‌లో ఉంది</item>
+        <item>యానిమేషన్ ప్రమాణం .5x</item>
+        <item>యానిమేషన్ ప్రమాణం 1x</item>
+        <item>యానిమేషన్ ప్రమాణం 1.5x</item>
+        <item>యానిమేషన్ ప్రమాణం 2x</item>
+        <item>యానిమేషన్ ప్రమాణం 5x</item>
+        <item>యానిమేషన్ ప్రమాణం 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>చాలా నెమ్మది</item>
+        <item>నెమ్మది</item>
+        <item>సాధారణం</item>
+        <item>వేగవంతం</item>
+        <item>అధిక వేగవంతం</item>
+        <item>చాలా వేగవంతం</item>
+        <item>అధిక వేగం</item>
+        <item>అత్యంత వేగం</item>
+        <item>అత్యంత వేగవంతం</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>ఛార్జింగ్</item>
+        <item>MTP (మీడియా బదిలీ ప్రోటోకాల్)</item>
+        <item>PTP (చిత్రం బదిలీ ప్రోటోకాల్)</item>
+        <item>RNDIS (USB ఈథర్‌నెట్)</item>
+        <item>ఆడియో మూలం</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>స్కాన్ చేస్తోంది…</item>
+        <item>కనెక్ట్ చేస్తోంది...</item>
+        <item>ప్రామాణీకరిస్తోంది…</item>
+        <item>IP అడ్రస్‌ను పొందుతోంది…</item>
+        <item>కనెక్ట్ చేయబడింది</item>
+        <item>తాత్కాలికంగా రద్దు చేయబడింది</item>
+        <item>డిస్‌కనెక్ట్ చేస్తోంది...</item>
+        <item>డిస్‌కనెక్ట్ చేయబడింది</item>
+        <item>విఫలమైంది</item>
+        <item>బ్లాక్ చేయబడింది</item>
+        <item>బలహీన కనెక్షన్‌ను తాత్కాలికంగా నివారిస్తోంది</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>స్కాన్ చేస్తోంది…</item>
+        <item>%1$sకి కనెక్ట్ చేస్తోంది…</item>
+        <item>%1$sతో ప్రామాణీకరిస్తోంది…</item>
+        <item>%1$s నుండి IP అడ్రస్‌ను పొందుతోంది…</item>
+        <item>%1$sకి కనెక్ట్ చేయబడింది</item>
+        <item>తాత్కాలికంగా రద్దు చేయబడింది</item>
+        <item>%1$s నుండి డిస్‌కనెక్ట్ చేస్తోంది…</item>
+        <item>డిస్‌కనెక్ట్ చేయబడింది</item>
+        <item>విఫలమైంది</item>
+        <item>బ్లాక్ చేయబడింది</item>
+        <item>బలహీన కనెక్షన్‌ను తాత్కాలికంగా నివారిస్తోంది</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>స్కాన్ చేస్తోంది…</item>
+        <item>కనెక్ట్ అవుతోంది…</item>
+        <item>ప్రామాణీకరిస్తోంది…</item>
+        <item>IP అడ్రస్‌ను పొందుతోంది…</item>
+        <item>కనెక్ట్ అయింది</item>
+        <item>సస్పెండ్ చేయబడింది</item>
+        <item>డిస్‌కనెక్ట్ అవుతోంది…</item>
+        <item>డిస్‌కనెక్ట్ అయింది</item>
+        <item>విఫలమైంది</item>
+        <item>బ్లాక్ చేయబడింది</item>
+        <item>బలహీన కనెక్షన్‌ను తాత్కాలికంగా నివారిస్తుంది</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>యానిమేషన్ ఆఫ్‌లో ఉంది</item>
+        <item>యానిమేషన్ ప్రమాణం .5x</item>
+        <item>యానిమేషన్ ప్రమాణం 1x</item>
+        <item>యానిమేషన్ ప్రమాణం 1.5x</item>
+        <item>యానిమేషన్ ప్రమాణం 2x</item>
+        <item>యానిమేషన్ ప్రమాణం 5x</item>
+        <item>యానిమేషన్ ప్రమాణం 10x</item>
+    </string-array>
+</resources>

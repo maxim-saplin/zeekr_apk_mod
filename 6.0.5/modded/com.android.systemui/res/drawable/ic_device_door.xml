@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:id="@id/off" android:drawable="@drawable/ic_device_door_off" />
+    <item android:state_enabled="true" android:id="@id/on" android:drawable="@drawable/ic_device_door_on" />
+</selector>

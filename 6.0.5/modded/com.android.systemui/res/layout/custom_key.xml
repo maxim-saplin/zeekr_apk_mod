@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.navigationbar.buttons.KeyButtonView android:layout_width="@dimen/navigation_side_padding" android:layout_height="fill_parent" android:scaleType="center" android:tint="@android:color/white" android:layout_weight="0.0" android:contentDescription="@string/accessibility_key"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto" />

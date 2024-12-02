@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/customizer_transparent_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/qs_header_system_icons_area_height" />
+    <com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="vertical" android:id="@id/customize_container" android:background="@drawable/qs_customizer_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/qs_customize_internal_side_paddings" android:paddingEnd="@dimen/qs_customize_internal_side_paddings">
+        <Toolbar android:id="@id/action_bar" android:background="@drawable/qs_customizer_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:navigationContentDescription="@android:string/accessibility_system_action_dpad_down_label" style="@style/QSCustomizeToolbar" />
+        <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:paddingBottom="28.0dip" android:scrollbars="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:importantForAccessibility="auto" android:paddingStart="@dimen/qs_customize_internal_side_paddings" android:paddingEnd="@dimen/qs_customize_internal_side_paddings" android:scrollIndicators="top" />
+    </com.android.keyguard.AlphaOptimizedLinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/nav_bar_background" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="@dimen/navigation_bar_size" />
+</merge>

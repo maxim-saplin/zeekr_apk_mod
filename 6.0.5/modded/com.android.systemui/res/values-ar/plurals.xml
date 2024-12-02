@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">قبل %d يوم</item>
+        <item quantity="zero">قبل %d يوم</item>
+        <item quantity="one">قبل %d يوم</item>
+        <item quantity="two">قبل يومين (%d)</item>
+        <item quantity="few">قبل %d أيام</item>
+        <item quantity="many">قبل %d يومًا</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">قبل %d دقيقة</item>
+        <item quantity="zero">قبل %d دقيقة</item>
+        <item quantity="one">قبل %d دقيقة</item>
+        <item quantity="two">قبل دقيقتين (%d)</item>
+        <item quantity="few">قبل %d دقائق</item>
+        <item quantity="many">قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">قبل %d سنة</item>
+        <item quantity="zero">قبل %d سنة</item>
+        <item quantity="one">قبل %d سنة</item>
+        <item quantity="two">قبل سنتين (%d)</item>
+        <item quantity="few">قبل %d سنوات</item>
+        <item quantity="many">قبل %d سنة</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">تمت إضافة %s عنصر تحكّم.</item>
+        <item quantity="zero">تمت إضافة %s عنصر تحكّم.</item>
+        <item quantity="one">تمت إضافة عنصر تحكّم واحد (%s).</item>
+        <item quantity="two">تمت إضافة عنصرَي تحكّم (%s).</item>
+        <item quantity="few">تمت إضافة %s عناصر تحكّم.</item>
+        <item quantity="many">تمت إضافة %s عنصر تحكّم.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">‏أدخل رقم التعريف الشخصي لشريحة SIM. تتبقى لديك %d محاولة.</item>
+        <item quantity="zero">‏أدخل رقم التعريف الشخصي لشريحة SIM. تتبقى لديك %d محاولة.</item>
+        <item quantity="one">‏أدخل رقم التعريف الشخصي لشريحة SIM. تتبقى لديك محاولة واحدة (%d) يجب أن تتصل بعدها بمشغّل شبكة الجوّال لفتح الجهاز.</item>
+        <item quantity="two">‏أدخل رقم التعريف الشخصي لشريحة SIM. تتبقى لديك محاولتان (%d).</item>
+        <item quantity="few">‏أدخل رقم التعريف الشخصي لشريحة SIM. تتبقى لديك %d محاولات.</item>
+        <item quantity="many">‏أدخل رقم التعريف الشخصي لشريحة SIM. تتبقى لديك %d محاولة.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">‏تم إيقاف شريحة SIM الآن. أدخل رمز PUK للمتابعة، وتتبقى لديك %d محاولة قبل أن تصبح شريحة SIM غير صالحة للاستخدام نهائيًا. ويمكنك الاتصال بمشغل شبكة الجوّال لمعرفة التفاصيل.</item>
+        <item quantity="zero">‏تم إيقاف شريحة SIM الآن. أدخل رمز PUK للمتابعة، وتتبقى لديك %d محاولة قبل أن تصبح شريحة SIM غير صالحة للاستخدام نهائيًا. ويمكنك الاتصال بمشغل شبكة الجوّال لمعرفة التفاصيل.</item>
+        <item quantity="one">‏تم إيقاف شريحة SIM الآن. أدخل رمز PUK للمتابعة، وتتبقى لديك محاولة واحدة (%d) قبل أن تصبح شريحة SIM غير صالحة للاستخدام نهائيًا. ويمكنك الاتصال بمشغل شبكة الجوّال لمعرفة التفاصيل.</item>
+        <item quantity="two">‏تم إيقاف شريحة SIM الآن. أدخل رمز PUK للمتابعة، وتتبقى لديك محاولتان (%d) قبل أن تصبح شريحة SIM غير صالحة للاستخدام نهائيًا. ويمكنك الاتصال بمشغل شبكة الجوّال لمعرفة التفاصيل.</item>
+        <item quantity="few">‏تم إيقاف شريحة SIM الآن. أدخل رمز PUK للمتابعة، وتتبقى لديك %d محاولات قبل أن تصبح شريحة SIM غير صالحة للاستخدام نهائيًا. ويمكنك الاتصال بمشغل شبكة الجوّال لمعرفة التفاصيل.</item>
+        <item quantity="many">‏تم إيقاف شريحة SIM الآن. أدخل رمز PUK للمتابعة، وتتبقى لديك %d محاولة قبل أن تصبح شريحة SIM غير صالحة للاستخدام نهائيًا. ويمكنك الاتصال بمشغل شبكة الجوّال لمعرفة التفاصيل.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">‏رمز رقم التعريف الشخصي لشريحة SIM غير صحيح، ويتبقى لديك %d محاولة.</item>
+        <item quantity="zero">‏رمز رقم التعريف الشخصي لشريحة SIM غير صحيح، ولم تتبق لديك أي محاولات (%d).</item>
+        <item quantity="one">‏رمز \"رقم التعريف الشخصي\" لشريحة SIM غير صحيح، ويتبقى لديك محاولة واحدة (%d) يتعين عليك بعدها الاتصال بمشغّل شبكة الجوّال لإلغاء قفل الجهاز.</item>
+        <item quantity="two">‏رمز رقم التعريف الشخصي لشريحة SIM غير صحيح، ويتبقى لديك محاولتان (%d).</item>
+        <item quantity="few">‏رمز رقم التعريف الشخصي لشريحة SIM غير صحيح، ويتبقى لديك %d محاولات.</item>
+        <item quantity="many">‏رمز رقم التعريف الشخصي لشريحة SIM غير صحيح، ويتبقى لديك %d محاولة.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">‏رمز PUK لشريحة SIM غير صحيح، ويتبقى لديك %d من المحاولات تصبح بعدها شريحة SIM غير صالحة للاستخدام بشكل دائم.</item>
+        <item quantity="zero">‏رمز PUK لشريحة SIM غير صحيح، ولم تتبق لديك أي محاولات (%d) تصبح بعدها شريحة SIM غير صالحة للاستخدام بشكل دائم.</item>
+        <item quantity="one">‏رمز PUK لشريحة SIM غير صالح، ويتبقى لديك محاولة واحدة (%d)، تصبح بعدها شريحة SIM غير صالحة للاستخدام بشكل دائم.</item>
+        <item quantity="two">‏رمز PUK لشريحة SIM غير صحيح، ويتبقى لديك محاولتان (%d) تصبح بعدها شريحة SIM غير صالحة للاستخدام بشكل دائم.</item>
+        <item quantity="few">‏رمز PUK لشريحة SIM غير صحيح، ويتبقى لديك %d محاولات تصبح بعدها شريحة SIM غير صالحة للاستخدام بشكل دائم.</item>
+        <item quantity="many">‏رمز PUK لشريحة SIM غير صحيح، ويتبقى لديك %d محاولة تصبح بعدها شريحة SIM غير صالحة للاستخدام بشكل دائم.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">حاول مرة أخرى خلال %d ثانية.</item>
+        <item quantity="zero">حاول مرة أخرى خلال %d ثانية.</item>
+        <item quantity="one">حاول مرة أخرى خلال ثانية واحدة.</item>
+        <item quantity="two">حاول مرة أخرى خلال ثانيتين (%d).</item>
+        <item quantity="few">حاول مرة أخرى خلال %d ثوانٍ.</item>
+        <item quantity="many">حاول مرة أخرى خلال %d ثانية.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s إشعار آخر بداخل المجموعة.</item>
+        <item quantity="zero">%s إشعار آخر بداخل المجموعة.</item>
+        <item quantity="one">%s إشعار آخر بداخل المجموعة.</item>
+        <item quantity="two">إشعاران (%s) آخران بداخل المجموعة.</item>
+        <item quantity="few">%s إشعارات أخرى بداخل المجموعة.</item>
+        <item quantity="many">%s إشعارًا آخر بداخل المجموعة.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">‏%d جهاز</item>
+        <item quantity="zero">‏%d جهاز</item>
+        <item quantity="one">‏جهاز واحد (%d)</item>
+        <item quantity="two">‏جهازان (%d)</item>
+        <item quantity="few">‏%d أجهزة</item>
+        <item quantity="many">‏%d جهازًا</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">‏%d ساعة</item>
+        <item quantity="zero">‏%d ساعة</item>
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="two">‏ساعتان (%d)</item>
+        <item quantity="few">‏%d ساعات</item>
+        <item quantity="many">‏%d ساعة</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">‏%d دقيقة</item>
+        <item quantity="zero">‏%d دقيقة</item>
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="two">‏دقيقتان (%d)</item>
+        <item quantity="few">‏%d دقائق</item>
+        <item quantity="many">‏%d دقيقة</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">يمكنك إضافة ما يصل إلى %d مستخدم.</item>
+        <item quantity="zero">يمكنك إضافة ما يصل إلى %d مستخدم.</item>
+        <item quantity="one">يمكن إنشاء مستخدم واحد فقط.</item>
+        <item quantity="two">يمكنك إضافة ما يصل إلى مستخدمينِ (%d).</item>
+        <item quantity="few">يمكنك إضافة ما يصل إلى %d مستخدمين.</item>
+        <item quantity="many">يمكنك إضافة ما يصل إلى %d مستخدمًا.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">‏عدد الأجهزة المتصلة ‎%1$d</item>
+        <item quantity="zero">‏عدد الأجهزة المتصلة ‎%1$d</item>
+        <item quantity="one">‏عدد الأجهزة المتصلة ‎%1$d</item>
+        <item quantity="two">‏عدد الأجهزة المتصلة ‎%1$d</item>
+        <item quantity="few">‏عدد الأجهزة المتصلة ‎%1$d</item>
+        <item quantity="many">‏عدد الأجهزة المتصلة ‎%1$d</item>
+    </plurals>
+</resources>

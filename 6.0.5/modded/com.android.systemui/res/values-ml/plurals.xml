@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d ദിവസം മുൻപ്</item>
+        <item quantity="one">%d ദിവസം മുൻപ്</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d മിനിറ്റ് മുൻപ്</item>
+        <item quantity="one">%d മിനിറ്റ് മുൻപ്</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d വർഷം മുൻപ്</item>
+        <item quantity="one">%d വർഷം മുൻപ്</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s നിയന്ത്രണങ്ങൾ ചേർത്തു.</item>
+        <item quantity="one">%s നിയന്ത്രണം ചേർത്തു.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">സിം പിൻ നൽകുക. നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ കൂടി ശേഷിക്കുന്നു.</item>
+        <item quantity="one">സിം പിൻ നൽകുക. ഉപകരണം അൺലോക്ക് ചെയ്യാൻ കാരിയറുമായി ബന്ധപ്പെടേണ്ടിവരുന്നതിന് മുമ്പ് %d ശ്രമം കൂടി ശേഷിക്കുന്നു.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">സിം ഇപ്പോൾ പ്രവർത്തനരഹിതമാക്കി. തുടരുന്നതിന് PUK കോഡ് നൽകുക. സിം ശാശ്വതമായി ഉപയോഗശൂന്യമാകുന്നതിന് മുമ്പായി %d ശ്രമങ്ങൾ കൂടി ശേഷിക്കുന്നു. വിശദാംശങ്ങൾക്ക് കാരിയറുമായി ബന്ധപ്പെടുക.</item>
+        <item quantity="one">സിം ഇപ്പോൾ പ്രവർത്തനരഹിതമാക്കി. തുടരുന്നതിന് PUK കോഡ് നൽകുക. സിം ശാശ്വതമായി ഉപയോഗശൂന്യമാകുന്നതിന് മുമ്പായി %d ശ്രമം കൂടി ശേഷിക്കുന്നു. വിശദാംശങ്ങൾക്ക് കാരിയറുമായി ബന്ധപ്പെടുക.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">സിം പിൻ കോഡ് തെറ്റാണ്, നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ കൂടി ശേഷിക്കുന്നു.</item>
+        <item quantity="one">സിം പിൻ കോഡ് തെറ്റാണ്, ഉപകരണം അൺലോക്കുചെയ്യാൻ സേവനദാതാവുമായി ബന്ധപ്പെടേണ്ടിവരുന്നതിനു മുമ്പായി നിങ്ങൾക്ക് %d ശ്രമം കൂടി ശേഷിക്കുന്നു.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">സിം PUK കോഡ് തെറ്റാണ്, സിം ശാശ്വതമായി ഉപയോഗശൂന്യമാകുന്നതിന് മുമ്പായി നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ കൂടി ശേഷിക്കുന്നു.</item>
+        <item quantity="one">സിം PUK കോഡ് തെറ്റാണ്, സിം ശാശ്വതമായി ഉപയോഗശൂന്യമാകുന്നതിന് മുമ്പായി നിങ്ങൾക്ക് %d ശ്രമം കൂടി ശേഷിക്കുന്നു.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d സെക്കൻഡുകൾക്കുള്ളിൽ വീണ്ടും ശ്രമിക്കുക.</item>
+        <item quantity="one">ഒരു സെക്കൻഡിനുള്ളിൽ വീണ്ടും ശ്രമിക്കുക.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d പുതിയ അറിയിപ്പുകൾ</item>
+        <item quantity="one">%d പുതിയ അറിയിപ്പ്</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ഉള്ളിൽ %s അറിയിപ്പുകൾ കൂടിയുണ്ട്.</item>
+        <item quantity="one">ഉള്ളിൽ %s അറിയിപ്പ് കൂടിയുണ്ട്.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d ഉപകരണങ്ങൾ</item>
+        <item quantity="one">%d ഉപകരണം</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d മണിക്കൂർ</item>
+        <item quantity="one">%d മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d മിനിറ്റ്</item>
+        <item quantity="one">%d മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">നിങ്ങൾക്ക് %d ഉപയോക്താക്കളെ വരെ ചേർക്കാനാവും.</item>
+        <item quantity="one">ഒരു ഉപയോക്താവിന് മാത്രമേ സൃഷ്‌ടിക്കാനാവൂ.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d ഉപകരണങ്ങൾ കണക്‌റ്റ് ചെയ്‌തു</item>
+        <item quantity="one">%1$d ഉപകരണം കണക്‌റ്റ് ചെയ്‌തു</item>
+    </plurals>
+</resources>

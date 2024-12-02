@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$ic_device_blinds_off_anim__6" android:duration="67" android:startOffset="0" android:valueFrom="M10.68 2.46 C10.68,2.46 -10.19,2.46 -10.19,2.46 C-10.19,2.46 -10.19,20.26 -10.19,20.26 C-10.19,20.26 10.68,20.26 10.68,20.26 C10.68,20.26 10.68,2.46 10.68,2.46c " android:valueTo="M10.68 2.46 C10.68,2.46 -10.19,2.46 -10.19,2.46 C-10.19,2.46 -10.19,20.26 -10.19,20.26 C-10.19,20.26 10.68,20.26 10.68,20.26 C10.68,20.26 10.68,2.46 10.68,2.46c " android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@drawable/$ic_device_blinds_off_anim__7" android:duration="433" android:startOffset="67" android:valueFrom="M10.68 2.46 C10.68,2.46 -10.19,2.46 -10.19,2.46 C-10.19,2.46 -10.19,20.26 -10.19,20.26 C-10.19,20.26 10.68,20.26 10.68,20.26 C10.68,20.26 10.68,2.46 10.68,2.46c " android:valueTo="M10.68 -7.87 C10.68,-7.87 -10.19,-7.87 -10.19,-7.87 C-10.19,-7.87 -10.19,9.92 -10.19,9.92 C-10.19,9.92 10.68,9.92 10.68,9.92 C10.68,9.92 10.68,-7.87 10.68,-7.87c " android:valueType="pathType" android:propertyName="pathData" />
+</set>

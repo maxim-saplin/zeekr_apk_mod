@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$ic_volume_collapse_animation__19" android:duration="250" android:startOffset="0" android:propertyName="translateXY" android:pathData="M 0,-3.585C 0,-2.3787500476837202 0,2.4457500476837204 0,3.652" android:propertyXName="translateX" android:propertyYName="translateY" />
+</set>

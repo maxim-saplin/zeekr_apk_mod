@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Fa %d dies</item>
+        <item quantity="one">Fa %d dia</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Fa %d min</item>
+        <item quantity="one">Fa %d min</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Fa %d anys</item>
+        <item quantity="one">Fa %d any</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">"S'han afegit %s controls."</item>
+        <item quantity="one">"S'ha afegit %s control."</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Introdueix el PIN de la SIM. Et queden %d intents.</item>
+        <item quantity="one">"Introdueix el PIN de la SIM. Et queda %d intent; si no l'encertes, contacta amb l'operador de telefonia mòbil per desbloquejar el dispositiu."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">"La targeta SIM s'ha desactivat. Introdueix el codi PUK per continuar. Et queden %d intents; si no l'encertes, la SIM no es podrà tornar a fer servir. Contacta amb l'operador de telefonia mòbil per obtenir-ne més informació."</item>
+        <item quantity="one">"La targeta SIM s'ha desactivat. Introdueix el codi PUK per continuar. Et queda %d intent; si no l'encertes, la SIM no es podrà tornar a fer servir. Contacta amb l'operador de telefonia mòbil per obtenir-ne més informació."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">El codi PIN de la SIM no és correcte. Et queden %d intents.</item>
+        <item quantity="one">"El codi PIN de la SIM no és correcte. Et queda %d intent; si no l'encertes, contacta amb l'operador de telefonia mòbil per desbloquejar el dispositiu."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">El codi PUK de la SIM no és correcte. Et queden %d intents; si els esgotes tots, la SIM no es podrà tornar a fer servir.</item>
+        <item quantity="one">"El codi PUK de la SIM no és correcte. Et queda %d intent; si no l'encertes, la SIM no es podrà tornar a fer servir."</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">"Torna-ho a provar d'aquí a %d segons."</item>
+        <item quantity="one">"Torna-ho a provar d'aquí a 1 segon."</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificacions noves</item>
+        <item quantity="one">%d notificació nova</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">"%s notificacions més a l'interior."</item>
+        <item quantity="one">"%s notificació més a l'interior."</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d dispositius</item>
+        <item quantity="one">%d dispositiu</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d hores</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minuts</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Pots afegir fins a %d usuaris.</item>
+        <item quantity="one">Només es pot crear un usuari.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d dispositius connectats</item>
+        <item quantity="one">%1$d dispositiu connectat</item>
+    </plurals>
+</resources>

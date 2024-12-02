@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">hai %d días</item>
+        <item quantity="one">hai %d día</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">hai %d min</item>
+        <item quantity="one">hai %d min</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">hai %d anos</item>
+        <item quantity="one">hai %d ano</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Engadíronse %s controis.</item>
+        <item quantity="one">Engadiuse %s control.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Introduce o código PIN da SIM. Quédanche %d intentos.</item>
+        <item quantity="one">Introduce o código PIN da SIM. Quédache %d intento antes de que teñas que contactar co operador para desbloquear o dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">A SIM está desactivada. Introduce o código PUK para continuar. Quédanche %d intentos antes de que a SIM quede inutilizable para sempre. Contacta co operador para obter información.</item>
+        <item quantity="one">A SIM está desactivada. Introduce o código PUK para continuar. Quédache %d intento antes de que a SIM quede inutilizable para sempre. Contacta co operador para obter información.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">O código PIN da SIM é incorrecto. Quédanche %d intentos.</item>
+        <item quantity="one">O código PIN da SIM é incorrecto. Quédache %d intento antes de que teñas que contactar co operador para desbloquear o dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">O código PUK da SIM é incorrecto. Quédanche %d intentos antes de que a SIM quede inutilizable para sempre.</item>
+        <item quantity="one">O código PUK da SIM non é correcto. Quédache %d intento antes de que a SIM quede inutilizable para sempre.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Téntao de novo dentro de %d segundos.</item>
+        <item quantity="one">Téntao de novo dentro de 1 segundo.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificacións novas</item>
+        <item quantity="one">%d notificación nova</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s notificacións máis no grupo.</item>
+        <item quantity="one">%s notificación máis no grupo.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d dispositivos</item>
+        <item quantity="one">%d dispositivo</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Podes engadir ata %d usuarios.</item>
+        <item quantity="one">Só se pode crear un usuario.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d dispositivos conectados</item>
+        <item quantity="one">%1$d dispositivo conectado</item>
+    </plurals>
+</resources>

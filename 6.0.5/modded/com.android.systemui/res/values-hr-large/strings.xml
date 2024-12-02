@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Dotaknite ovdje da biste ponovo uključili obavijesti.</string>
+    <string name="notifications_off_title">Obavijesti isključene</string>
+    <string name="status_bar_clear_all_button">Obriši sve</string>
+</resources>

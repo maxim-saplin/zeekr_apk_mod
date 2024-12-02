@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/scrim_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/status_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <ImageView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.2" />
+        <ImageView android:background="@drawable/people_tile_status_scrim" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" android:layout_weight="0.8" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <ImageView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.66" />
+        <ImageView android:background="@drawable/people_tile_status_scrim" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.33" />
+    </LinearLayout>
+</RelativeLayout>

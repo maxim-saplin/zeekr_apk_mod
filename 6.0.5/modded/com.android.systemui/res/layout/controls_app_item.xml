@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="start|center|top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:orientation="horizontal" android:id="@id/icon_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="@dimen/controls_app_icon_frame_side_padding">
+            <ImageView android:layout_gravity="start|center" android:id="@android:id/icon" android:layout_width="@dimen/controls_app_icon_size" android:layout_height="@dimen/controls_app_icon_size" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/TextAppearance.Control.Management.Subtitle" android:ellipsize="end" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:id="@id/favorites" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom|center" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="@dimen/controls_app_divider_height" />
+</FrameLayout>

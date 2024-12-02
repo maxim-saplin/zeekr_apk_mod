@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d izinsuku ezedlule</item>
+        <item quantity="one">%d izinsuku ezedlule</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d iminithi eledlule</item>
+        <item quantity="one">%d iminithi eledlule</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d unyaka owedlule</item>
+        <item quantity="one">%d unyaka owedlule</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s ukulawulwa okwengeziwe.</item>
+        <item quantity="one">%s ukulawulwa okwengeziwe.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Faka i-PIN ye-SIM, unemizamo engu-%d esele.</item>
+        <item quantity="one">Faka i-PIN ye-SIM, unemizamo engu-%d esele.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">I-SIM manje ikhutshaziwe. Faka ikhodi ye-PUK ukuze uqhubeke. Unemizamo engu-%d esele ngaphambi kokuthi i-SIM ingasebenziseki unaphakade. Xhumana nenkampani yenethiwekhi ngemininingwane.</item>
+        <item quantity="one">I-SIM manje ikhutshaziwe. Faka ikhodi ye-PUK ukuze uqhubeke. Unemizamo engu-%d esele ngaphambi kokuthi i-SIM ingasebenziseki unaphakade. Xhumana nenkampani yenethiwekhi ngemininingwane.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Ikhodi engalungile yephinikhodi ye-SIM, unemizamo engu-%d esele.</item>
+        <item quantity="one">Ikhodi engalungile yephinikhodi ye-SIM, unemizamo engu-%d esele.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Ikhodi ye-PUK ye-SIM engalungile, unemizamo engu-%d esele ngaphambi kokuthi i-SIM ingasasebenziseki unaphakade.</item>
+        <item quantity="one">Ikhodi ye-PUK ye-SIM engalungile, unemizamo engu-%d esele ngaphambi kokuthi i-SIM ingasasebenziseki unaphakade.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Zama futhi kumasekhondi angu-%d.</item>
+        <item quantity="one">Zama futhi kumasekhondi angu-%d.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d izaziso ezintsha</item>
+        <item quantity="one">%d izaziso ezintsha</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s izaziso eziningi ngaphakathi.</item>
+        <item quantity="one">%s izaziso eziningi ngaphakathi.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d amadivayisi</item>
+        <item quantity="one">%d amadivayisi</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d amahora</item>
+        <item quantity="one">%d amahora</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d amaminithi</item>
+        <item quantity="one">%d amaminithi</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Ungangeza kufikela kubasebenzisi abangu-%d.</item>
+        <item quantity="one">Ungangeza kufikela kubasebenzisi abangu-%d.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d amadivayisi axhunyiwe</item>
+        <item quantity="one">%1$d amadivayisi axhunyiwe</item>
+    </plurals>
+</resources>

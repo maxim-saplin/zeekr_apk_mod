@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d دن پہلے</item>
+        <item quantity="one">%d دن پہلے</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d منٹ پہلے</item>
+        <item quantity="one">%d منٹ پہلے</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d سال پہلے</item>
+        <item quantity="one">%d سال پہلے</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s کنٹرولز شامل کر دیے گئے۔</item>
+        <item quantity="one">%s کنٹرول شامل کر دیا گیا۔</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">‏SIM کا PIN درج کریں، آپ کے پاس %d کوششیں بچی ہیں۔</item>
+        <item quantity="one">‏SIM کا PIN درج کریں، آپ کے پاس %d کوشش بچی ہے، اس کے بعد آپ کو اپنا آلہ غیر مقفل کرنے کے لیے اپنے کیریئر سے رابطہ کرنا ہوگا۔</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">‏SIM اب غیر فعال ہے۔ جاری رکھنے کیلئے PUK کوڈ درج کریں۔ SIM کے مستقل طور پر ناقابل استعمال ہونے سے پہلے آپ کے پاس %d کوششیں بچی ہیں۔ تفصیلات کیلئے کیریئر سے رابطہ کریں۔</item>
+        <item quantity="one">‏SIM اب غیر فعال ہے۔ جاری رکھنے کیلئے PUK کوڈ درج کریں۔ SIM کے مستقل طور پر ناقابل استعمال ہونے سے پہلے آپ کے پاس %d کوشش بچی ہے۔ تفصیلات کیلئے کیریئر سے رابطہ کریں۔</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">‏غلط SIM PIN کوڈ، آپ کے پاس %d کوششیں بچی ہیں۔</item>
+        <item quantity="one">‏غلط SIM PIN کوڈ، آپ کے پاس %d کوشش بچی ہے، اس کے بعد آپ کو اپنا آلہ غیر مقفل کرنے کیلئے اپنے کیریئر سے رابطہ کرنا ہوگا۔</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">‏غلط SIM PUK کوڈ، آپ کے پاس %d کوششیں بچی ہیں، اس کے بعد SIM مستقل طور پر ناقابل استعمال ہو جائے گا۔</item>
+        <item quantity="one">‏غلط SIM PUK کوڈ، آپ کے پاس %d کوشش بچی ہے، اس کے بعد SIM مستقل طور پر ناقابل استعمال ہو جائے گا۔</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d سیکنڈز میں دوبارہ کوشش کریں۔</item>
+        <item quantity="one">1 سیکنڈ میں دوبارہ کوشش کریں۔</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d نئی اطلاعات</item>
+        <item quantity="one">%d نئی اطلاع</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">اندر %s مزید اطلاعات ہیں۔</item>
+        <item quantity="one">اندر %s مزید اطلاع ہے۔</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">‏%d آلات</item>
+        <item quantity="one">‏%d آلہ</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">‏‎%d گھنٹے</item>
+        <item quantity="one">‏‎%d گھنٹہ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">‏‎%d منٹ</item>
+        <item quantity="one">‏‎%d منٹ</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">صرف %d صارفین بنائے جا سکتے ہیں۔</item>
+        <item quantity="one">صرف ایک صارف بنایا جا سکتا ہے۔</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">‏%1$d آلات منسلک ہیں</item>
+        <item quantity="one">‏%1$d آلہ منسلک ہے</item>
+    </plurals>
+</resources>

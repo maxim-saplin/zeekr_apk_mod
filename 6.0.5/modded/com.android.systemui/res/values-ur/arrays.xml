@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>انیمیشن آف ہے</item>
+        <item>‏انیمیشن اسکیل 5x.</item>
+        <item>‏انیمیشن اسکیل 1x</item>
+        <item>‏انیمیشن اسکیل 1.5x</item>
+        <item>‏انیمیشن اسکیل 2x</item>
+        <item>‏اینیمیشن اسکیل 5x</item>
+        <item>‏انیمیشن اسکیل 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>معیاری حد</item>
+        <item>کوئی پس منظر والے پروسیسز نہیں ہیں</item>
+        <item>زیادہ سے زیادہ 1 پروسیس</item>
+        <item>زیادہ سے زیادہ 2 پروسیسز</item>
+        <item>زیادہ سے زیادہ 3 پروسیسز</item>
+        <item>زیادہ سے زیادہ 4 پروسیسز</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>ہمیشہ شرح فیصد دکھائیں</item>
+        <item>چارج ہوتے وقت فیصد دکھائیں (ڈیفالٹ)</item>
+        <item>یہ آئیکن نہ دکھائیں</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)</item>
+        <item>16 بٹس/نمونہ</item>
+        <item>24 بٹس/نمونہ</item>
+        <item>32 بٹس/نمونہ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)</item>
+        <item>16 بٹس/نمونہ</item>
+        <item>24 بٹس/نمونہ</item>
+        <item>32 بٹس/نمونہ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)</item>
+        <item>مونو</item>
+        <item>اسٹیریو</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)</item>
+        <item>مونو</item>
+        <item>اسٹیریو</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>آڈیو کے معیار کیلئے بہتر بنایا گيا</item>
+        <item>متوازن آڈیو اور کنکشن کا معیار</item>
+        <item>کنکشن کے معیار کیلئے بہتر بنایا گيا</item>
+        <item>بہترین کوشش (اڈاپٹیو بٹ ریٹ)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>‏آڈیو کے معیار کیلئے بہتر بنایا گيا (990kbps/909kbps)</item>
+        <item>‏متوازن آڈیو اور کنکشن کا معیار (660kbps/606kbps)</item>
+        <item>‏کنکشن کے معیار کیلئے بہتر بنایا گيا (330kbps/303kbps)</item>
+        <item>بہترین کوشش (اڈاپٹیو بٹ ریٹ)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ آڈیو</item>
+        <item>Qualcomm® aptX™ HD آڈیو</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ آڈیو</item>
+        <item>Qualcomm® aptX™ HD آڈیو</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>، فعال</item>
+        <item>، فعال (میڈیا)</item>
+        <item>، فعال (فون)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>‏AVRCP 1.5 (ڈیفالٹ)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>‏MAP 1.2 ‏(ڈیفالٹ)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>غیر فعال</item>
+        <item>فعال کردہ فلٹر کردہ</item>
+        <item>فعال</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>گھنٹے، منٹ اور سیکنڈ دکھائیں</item>
+        <item>گھنٹے اور منٹ دکھائیں (ڈیفالٹ)</item>
+        <item>یہ آئیکن نہ دکھائیں</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>بہتر رنگ</item>
+        <item>آنکھ سے نظر آنے والے قدرتی رنگ</item>
+        <item>ڈیجیٹیل مواد کیلئے بہترین کردہ رنگ</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>پرجوش (ڈیفالٹ)</item>
+        <item>قدرتی</item>
+        <item>معیاری</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>آف</item>
+        <item>اوور ڈرا والے حصے دکھائیں</item>
+        <item>‏Deuteranomaly کیلئے حصے دکھائیں</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>کوئی نہیں</item>
+        <item>Logcat</item>
+        <item>‏Systrace (گرافکس)</item>
+        <item>‏glGetError پر کال کا انبار</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>‏کبھی بھی HDCP چیکنگ استعمال نہ کریں</item>
+        <item>‏HDCP چیکنگ صرف DRM مواد کیلئے استعمال کریں</item>
+        <item>‏ہمیشہ HDCP چیکنگ استعمال کریں</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>کبھی چیک نہ کریں</item>
+        <item>‏صرف DRM مواد چیک کریں</item>
+        <item>ہمیشہ چیک کریں</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>کلپ بورڈ</item>
+        <item>کی کوڈ</item>
+        <item>گردش کی تصدیق، کی بورڈ سوئچر</item>
+        <item>کوئی نہیں</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>حسب معمول</item>
+        <item>مختصر</item>
+        <item>بائیں جانب جھکاؤ</item>
+        <item>دائیں جانب جھکاؤ</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>کوئی نہیں</item>
+        <item>480p</item>
+        <item>‏480p (محفوظ)</item>
+        <item>720p</item>
+        <item>‏720p (محفوظ)</item>
+        <item>1080p</item>
+        <item>‏1080p (محفوظ)</item>
+        <item>4K</item>
+        <item>‏4K (محفوظ)</item>
+        <item>‏4K (اعلی سکیل شدہ)</item>
+        <item>‏4K (اعلی سکیل شدہ، محفوظ)</item>
+        <item>‏720p, 1080p (دوہری سکرین)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>آف</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>آف</item>
+        <item>‏64K فی لاگ بفر</item>
+        <item>‏256K فی لاگ بفر</item>
+        <item>‏1M فی لاگ بفر</item>
+        <item>‏4M فی لاگ بفر</item>
+        <item>‏8M فی لاگ بفر</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>آف</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>آف</item>
+        <item>تمام لاگ بفرز</item>
+        <item>ریڈیو لاگ بفرز کے سوا تمام</item>
+        <item>صرف کرنل لاگ بفر</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>آف</item>
+        <item>تمام</item>
+        <item>ریڈیو کے سوا تمام</item>
+        <item>صرف کرنل</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>آف</item>
+        <item>نیلا غیر مستطیل نما کلپ خطہ بنائیں</item>
+        <item>سبز رنگ میں آزمودہ ڈرائنگ کمانڈز کو نمایاں کریں</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>دستیاب نہیں ہے</item>
+        <item>آف ہے</item>
+        <item>آن ہے</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>آف</item>
+        <item>بارز کے بطور اسکرین پر</item>
+        <item>adb shell dumpsys gfxinfo میں</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>اینیمیشن آف ہے</item>
+        <item>‏اینیمیشن اسکیل ‎.5x</item>
+        <item>‏اینیمیشن اسکیل 1x</item>
+        <item>‏اینیمیشن اسکیل 1.5x</item>
+        <item>‏اینیمیشن اسکیل 2x</item>
+        <item>‏اینیمیشن اسکیل 5x</item>
+        <item>‏اینیمیشن اسکیل 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>بہت سست</item>
+        <item>سست</item>
+        <item>عام</item>
+        <item>تیز</item>
+        <item>تیز تر</item>
+        <item>بہت تیز</item>
+        <item>تیز</item>
+        <item>کافی تیز</item>
+        <item>تیز ترین</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>چارجنگ</item>
+        <item>‏MTP (میڈیا کی منتقلی کا پروٹوکول)</item>
+        <item>‏PTP (تصویر کی منتقلی کا پروٹوکول)</item>
+        <item>‏RNDIS ‏(USB ایتھرنیٹ)‎</item>
+        <item>آڈیو ماخذ</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>اسکین کر رہا ہے…</item>
+        <item>مربوط ہو رہا ہے…</item>
+        <item>توثیق ہو رہی ہے…</item>
+        <item>‏IP پتہ حاصل کر رہا ہے…</item>
+        <item>منسلک</item>
+        <item>معطل شدہ</item>
+        <item>منقطع کیا جارہا ہے…</item>
+        <item>منقطع ہو گیا</item>
+        <item>ناکام</item>
+        <item>مسدود</item>
+        <item>عارضی طور پر خراب کنکشن سے اجتناب کر رہا ہے</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>اسکین کر رہا ہے…</item>
+        <item>%1$s سے مربوط ہو رہا ہے…</item>
+        <item>%1$s کے ساتھ توثیق ہو رہی ہے…</item>
+        <item>‏%1$s سے IP پتہ حاصل کر رہا ہے…</item>
+        <item>%1$s سے مربوط ہو گیا</item>
+        <item>معطل شدہ</item>
+        <item>%1$s سے منقطع ہو رہا ہے…</item>
+        <item>منقطع ہو گیا</item>
+        <item>ناکام</item>
+        <item>مسدود ہے</item>
+        <item>عارضی طور پر خراب کنکشن سے اجتناب کر رہا ہے</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>اسکین ہو رہا ہے…</item>
+        <item>منسلک ہو رہا ہے…</item>
+        <item>توثیق ہو رہی ہے…</item>
+        <item>‏IP پتہ حاصل کر رہا ہے…</item>
+        <item>منسلک</item>
+        <item>معطل</item>
+        <item>غیر منسلک ہو رہا ہے…</item>
+        <item>غیر منسلک</item>
+        <item>ناکام</item>
+        <item>مسدود</item>
+        <item>عارضی طور پر خراب کنکشن سے اجتناب کر رہا ہے</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>اینیمیشن آف ہے</item>
+        <item>‏اینیمیشن اسکیل ‎.5x</item>
+        <item>‏اینیمیشن اسکیل 1x</item>
+        <item>‏اینیمیشن اسکیل 1.5x</item>
+        <item>‏اینیمیشن اسکیل 2x</item>
+        <item>‏اینیمیشن اسکیل 5x</item>
+        <item>‏اینیمیشن اسکیل 10x</item>
+    </string-array>
+</resources>

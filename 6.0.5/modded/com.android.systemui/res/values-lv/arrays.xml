@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animācija izslēgta</item>
+        <item>Animācijas mērogs: 0,5x</item>
+        <item>Animācijas mērogs: 1x</item>
+        <item>Animācijas mērogs: 1,5x</item>
+        <item>Animācijas mērogs: 2x</item>
+        <item>Animācijas mērogs: 5x</item>
+        <item>Animācijas mērogs: 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standarta ierobežojums</item>
+        <item>Nav fona procesu</item>
+        <item>Ne vairāk kā 1 process</item>
+        <item>Ne vairāk kā 2 procesi</item>
+        <item>Ne vairāk kā 3 procesi</item>
+        <item>Ne vairāk kā 4 procesi</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Vienmēr rādīt procentuālo vērtību</item>
+        <item>Rādīt procentuālo vērtību uzlādes laikā (noklusējums)</item>
+        <item>Nerādīt šo ikonu</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Sistēmas atlases izmantošana (nokl.)</item>
+        <item>16 biti iztvērumā</item>
+        <item>24 biti iztvērumā</item>
+        <item>32 biti iztvērumā</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Sistēmas atlases izmantošana (nokl.)</item>
+        <item>16 biti iztvērumā</item>
+        <item>24 biti iztvērumā</item>
+        <item>32 biti iztvērumā</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Sistēmas atlases izmantošana (nokl.)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Sistēmas atlases izmantošana (nokl.)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Audio kvalitātes optimizēšana</item>
+        <item>Samērīga audio un savienojuma kvalitāte</item>
+        <item>Savienojuma kvalitātes optimizēšana</item>
+        <item>Labākais rezultāts (adaptīvs bitu pārraides ātrums)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Audio kvalitātes optimizēšana (990 Kb/s/909 Kb/s)</item>
+        <item>Samērīga audio un savienojuma kvalitāte (660 Kb/s/606 Kb/s)</item>
+        <item>Savienojuma kvalitātes optimizēšana (330 Kb/s/303 Kb/s)</item>
+        <item>Labākais rezultāts (adaptīvs bitu pārraides ātrums)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Sistēmas atlases izmantošana (nokl.)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Sistēmas atlases izmantošana (nokl.)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Sistēmas atlases izmantošana (nokl.)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Sistēmas atlases izmantošana (nokl.)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktīva</item>
+        <item>, aktīva (multivide)</item>
+        <item>, aktīva (tālrunis)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>AVRCP15</item>
+        <item>avrcp13</item>
+        <item>AVRCP14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (noklusējums)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (noklusējums)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Atspējots</item>
+        <item>Iespējot filtrētos</item>
+        <item>Iespējots</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Rādīt stundas, minūtes un sekundes</item>
+        <item>Rādīt stundas un minūtes (noklusējums)</item>
+        <item>Nerādīt šo ikonu</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Uzlabotas krāsas</item>
+        <item>Dabiskas krāsas</item>
+        <item>Digitālajam saturam optimizētas krāsas</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Spilgts (noklusējums)</item>
+        <item>Dabisks</item>
+        <item>Standarta</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Izslēgta</item>
+        <item>Rādīt apgab., kur pārsn. kapacitāte</item>
+        <item>Rādīt laukumus deiteranomālijai</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Nav</item>
+        <item>Logcat</item>
+        <item>Systrace (grafika)</item>
+        <item>glGetError: zvanu kaskāde</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nekad neizmantot HDCP pārbaudi</item>
+        <item>Izmantot HDCP pārbaudi tikai DRM saturam</item>
+        <item>Vienmēr izmantot HDCP pārbaudi</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nekad nepārbaudīt</item>
+        <item>Pārbaudīt tikai DRM saturu</item>
+        <item>Vienmēr pārbaudīt</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Starpliktuve</item>
+        <item>Taustiņu kods</item>
+        <item>Apstiprināt pagriežot, tastatūras pārslēdzējs</item>
+        <item>Neviens</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normāls</item>
+        <item>Kompakts</item>
+        <item>Novirzīts pa kreisi</item>
+        <item>Novirzīts pa labi</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Nav</item>
+        <item>480p</item>
+        <item>480p (drošs)</item>
+        <item>720p</item>
+        <item>720p (drošs)</item>
+        <item>1080p</item>
+        <item>1080p (drošs)</item>
+        <item>4 KB videoklipi</item>
+        <item>4 KB (drošs)</item>
+        <item>4 KB (mērogots)</item>
+        <item>4 KB (mērogots, drošs)</item>
+        <item>720p, 1080p (dubults ekrāns)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Izslēgts</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Izslēgts</item>
+        <item>64 KB vienam žurnāla buferim</item>
+        <item>256 KB vienam žurnāla buferim</item>
+        <item>1 MB vienam žurnāla buferim</item>
+        <item>4 MB vienam žurnāla buferim</item>
+        <item>8 MB vienam žurnāla buferim</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Izslēgts</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>8 MB</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Izslēgts</item>
+        <item>Visi reģistra buferi</item>
+        <item>Visi, izņemot radio reģistra buferus</item>
+        <item>tikai kodola žurnāla buferī</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Izslēgts</item>
+        <item>Visi</item>
+        <item>Visi, izņemot radio</item>
+        <item>tikai kodolā</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Izslēgts</item>
+        <item>Lieko daļu iekrāsot zilā krāsā</item>
+        <item>Pārb. zīmēš. kom. iezīmēt zaļu</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Nav pieejama</item>
+        <item>Izslēgta</item>
+        <item>Ieslēgta</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Nav pieejama</item>
+        <item>Izslēgta</item>
+        <item>Ieslēgta</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Nav pieejami</item>
+        <item>Izslēgti</item>
+        <item>Ieslēgti</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Nav pieejamas</item>
+        <item>Izslēgtas</item>
+        <item>Ieslēgtas</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Nav pieejama</item>
+        <item>Izslēgta</item>
+        <item>Ieslēgta</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Nav pieejama</item>
+        <item>Izslēgta</item>
+        <item>Ieslēgta</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Nav pieejama</item>
+        <item>Izslēgta</item>
+        <item>Ieslēgta</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Nav pieejama</item>
+        <item>Izslēgta</item>
+        <item>Ieslēgta</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Nav pieejama</item>
+        <item>Izslēgta</item>
+        <item>Ieslēgta</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Nav pieejama</item>
+        <item>Izslēgta</item>
+        <item>Ieslēgta</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Nav pieejams</item>
+        <item>Izslēgts</item>
+        <item>Ieslēgts</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Izslēgta</item>
+        <item>Ekrānā kā joslas</item>
+        <item>Pēc adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animācija ir izslēgta</item>
+        <item>Animācijas mērogs: 0,5x</item>
+        <item>Animācijas mērogs: 1x</item>
+        <item>Animācijas mērogs: 1,5x</item>
+        <item>Animācijas mērogs: 2x</item>
+        <item>Animācijas mērogs: 5x</item>
+        <item>Animācijas mērogs: 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Ļoti lēni</item>
+        <item>Lēni</item>
+        <item>Normāli</item>
+        <item>Ātri</item>
+        <item>Ātrāk</item>
+        <item>Ļoti ātri</item>
+        <item>Raiti</item>
+        <item>Ļoti raiti</item>
+        <item>Visātrāk</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Notiek uzlāde</item>
+        <item>MTP (satura pārsūtīšanas protokols)</item>
+        <item>PTP (attēlu pārsūtīšanas protokols)</item>
+        <item>RNDIS (USB tīkls Ethernet)</item>
+        <item>Audio avots</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Notiek skenēšana...</item>
+        <item>Notiek savienojuma izveide…</item>
+        <item>Notiek autentificēšana...</item>
+        <item>Notiek IP adreses iegūšana…</item>
+        <item>Izveidots savienojums</item>
+        <item>Atlikts</item>
+        <item>Notiek atvienošana...</item>
+        <item>Atvienots</item>
+        <item>Neizdevās</item>
+        <item>Bloķēts</item>
+        <item>Pagaidām netiek izmantots vājš savienojums.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Notiek skenēšana...</item>
+        <item>Notiek savienojuma izveide ar %1$s…</item>
+        <item>Notiek autentificēšana ar %1$s…</item>
+        <item>Notiek IP adreses iegūšana no %1$s…</item>
+        <item>Savienots ar %1$s</item>
+        <item>Atlikts</item>
+        <item>Notiek atvienošana no %1$s…</item>
+        <item>Atvienots</item>
+        <item>Neizdevās</item>
+        <item>Bloķēts</item>
+        <item>Pagaidām netiek izmantots vājš savienojums.</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Notiek meklēšana…</item>
+        <item>Notiek savienojuma izveide…</item>
+        <item>Notiek autentificēšana…</item>
+        <item>Notiek IP adreses iegūšana…</item>
+        <item>Izveidots savienojums</item>
+        <item>Apturēta darbība</item>
+        <item>Notiek savienojuma pārtraukšana…</item>
+        <item>Savienojums pārtraukts</item>
+        <item>Neizdevās</item>
+        <item>Bloķēts</item>
+        <item>Pagaidām netiek izmantots vājš savienojums.</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animācija ir izslēgta</item>
+        <item>Animācijas mērogs: 0,5x</item>
+        <item>Animācijas mērogs: 1x</item>
+        <item>Animācijas mērogs: 1,5x</item>
+        <item>Animācijas mērogs: 2x</item>
+        <item>Animācijas mērogs: 5x</item>
+        <item>Animācijas mērogs: 10x</item>
+    </string-array>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d วันที่แล้ว</item>
+        <item quantity="one">%d วันที่แล้ว</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d นาทีที่แล้ว</item>
+        <item quantity="one">%d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d ปีที่แล้ว</item>
+        <item quantity="one">%d ปีที่แล้ว</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">เพิ่มตัวควบคุม %s ตัวแล้ว</item>
+        <item quantity="one">เพิ่มตัวควบคุม %s ตัวแล้ว</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">โปรดป้อน PIN ของซิม คุณพยายามได้อีก %d ครั้ง</item>
+        <item quantity="one">โปรดป้อน PIN ของซิม คุณพยายามได้อีก %d ครั้งก่อนที่จะต้องติดต่อผู้ให้บริการเพื่อปลดล็อกอุปกรณ์</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">ซิมถูกปิดใช้งานในขณะนี้ โปรดป้อนรหัส PUK เพื่อทำต่อ คุณพยายามได้อีก %d ครั้งก่อนที่ซิมจะไม่สามารถใช้งานได้อย่างถาวร โปรดติดต่อสอบถามรายละเอียดจากผู้ให้บริการ</item>
+        <item quantity="one">ซิมถูกปิดใช้งานในขณะนี้ โปรดป้อนรหัส PUK เพื่อทำต่อ คุณพยายามได้อีก %d ครั้งก่อนที่ซิมจะไม่สามารถใช้งานได้อย่างถาวร โปรดติดต่อสอบถามรายละเอียดจากผู้ให้บริการ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">รหัส PIN ของซิมไม่ถูกต้อง คุณพยายามได้อีก %d ครั้ง</item>
+        <item quantity="one">รหัส PIN ของซิมไม่ถูกต้อง คุณพยายามได้อีก %d ครั้งก่อนที่จะต้องติดต่อผู้ให้บริการเพื่อปลดล็อกอุปกรณ์ของคุณ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">รหัส PUK ของซิมไม่ถูกต้อง คุณพยายามได้อีก %d ครั้งก่อนที่ซิมจะไม่สามารถใช้งานได้อย่างถาวร</item>
+        <item quantity="one">รหัส PUK ของซิมไม่ถูกต้อง คุณพยายามได้อีก %d ครั้งก่อนที่ซิมจะไม่สามารถใช้งานได้อย่างถาวร</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">ลองอีกครั้งใน %d วินาที</item>
+        <item quantity="one">ลองอีกครั้งใน 1 วินาที</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">มีการแจ้งเตือนอีก %s รายการด้านใน</item>
+        <item quantity="one">มีการแจ้งเตือนอีก %s รายการด้านใน</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">อุปกรณ์ %d เครื่อง</item>
+        <item quantity="one">อุปกรณ์ %d เครื่อง</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ชั่วโมง</item>
+        <item quantity="one">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">%d นาที</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">คุณเพิ่มผู้ใช้ได้สูงสุด %d คน</item>
+        <item quantity="one">สร้างผู้ใช้ได้เพียง 1 คนเท่านั้น</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">มีอุปกรณ์ที่เชื่อมต่อ %1$d เครื่อง</item>
+        <item quantity="one">มีอุปกรณ์ที่เชื่อมต่อ %1$d เครื่อง</item>
+    </plurals>
+</resources>

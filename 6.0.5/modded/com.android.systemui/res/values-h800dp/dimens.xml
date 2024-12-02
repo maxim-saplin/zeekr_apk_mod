@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyguard_clock_top_margin">38.0dip</dimen>
+    <dimen name="keyguard_large_clock_top_margin">-112.0dip</dimen>
+    <dimen name="large_clock_text_size">200.0dip</dimen>
+</resources>

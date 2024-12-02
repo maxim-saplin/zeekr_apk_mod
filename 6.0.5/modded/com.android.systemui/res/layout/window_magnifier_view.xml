@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:screenReaderFocusable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/magnification_outer_border_margin" android:importantForAccessibility="no" />
+    <View android:background="@color/magnification_border_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/magnification_inner_border_margin" android:importantForAccessibility="no" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="noHideDescendants">
+        <View android:id="@id/left_handle" android:layout_width="@dimen/magnification_border_drag_size" android:layout_height="fill_parent" android:layout_above="@id/bottom_handle" />
+        <View android:id="@id/top_handle" android:layout_width="fill_parent" android:layout_height="@dimen/magnification_border_drag_size" android:layout_alignParentTop="true" />
+        <View android:id="@id/right_handle" android:layout_width="@dimen/magnification_border_drag_size" android:layout_height="fill_parent" android:layout_above="@id/bottom_handle" android:layout_alignParentEnd="true" />
+        <View android:id="@id/bottom_handle" android:layout_width="fill_parent" android:layout_height="@dimen/magnification_border_drag_size" android:layout_alignParentBottom="true" />
+        <SurfaceView android:id="@id/surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/magnification_mirror_surface_margin" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/drag_handle" android:paddingBottom="@dimen/magnifier_drag_handle_padding" android:layout_width="@dimen/magnification_drag_view_size" android:layout_height="@dimen/magnification_drag_view_size" android:layout_margin="@dimen/magnification_inner_border_margin" android:src="@drawable/ic_move_magnification" android:scaleType="center" android:importantForAccessibility="no" android:paddingEnd="@dimen/magnifier_drag_handle_padding" />
+</FrameLayout>

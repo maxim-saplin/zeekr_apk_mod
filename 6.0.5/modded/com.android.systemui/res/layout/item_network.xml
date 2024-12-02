@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/layout_network" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="112.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="36.0px" android:id="@id/tv_item_network_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="局域网" />
+</LinearLayout>

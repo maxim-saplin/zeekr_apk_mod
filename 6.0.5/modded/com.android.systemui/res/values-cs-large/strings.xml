@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Chcete-li oznámení znovu zapnout, klepněte sem.</string>
+    <string name="notifications_off_title">Oznámení jsou vypnuta</string>
+    <string name="status_bar_clear_all_button">Smazat vše</string>
+</resources>

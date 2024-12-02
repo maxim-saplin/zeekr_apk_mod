@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d நாளுக்கு முன்</item>
+        <item quantity="one">%d நாளுக்கு முன்</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d நிமி. முன்</item>
+        <item quantity="one">%d நிமி. முன்</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d ஆண்டிற்கு முன்</item>
+        <item quantity="one">%d ஆண்டிற்கு முன்</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s கட்டுப்பாடுகள் சேர்க்கப்பட்டன.</item>
+        <item quantity="one">%s கட்டுப்பாடு சேர்க்கப்பட்டது.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">சிம் பின்னை உள்ளிடவும். மேலும், %d வாய்ப்புகள் மீதமுள்ளன.</item>
+        <item quantity="one">சிம் பின்னை உள்ளிடவும். மீதமுள்ள %d வாய்ப்பில் தவறுதலான பின் உள்ளிடப்பட்டால், உங்கள் தொலைத்தொடர்பு நிறுவனத்தைத் தொடர்பு கொண்டு மட்டுமே சாதனத்தை அன்லாக் செய்ய முடியும்.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">சிம் தற்போது முடக்கப்பட்டுள்ளது. தொடர்வதற்கு, PUK குறியீட்டை உள்ளிடவும். நீங்கள் %d முறை மட்டுமே முயற்சிக்க முடியும். அதன்பிறகு சிம் நிரந்தரமாக முடக்கப்படும். விவரங்களுக்கு, மொபைல் நிறுவனத்தைத் தொடர்புகொள்ளவும்.</item>
+        <item quantity="one">சிம் தற்போது முடக்கப்பட்டுள்ளது. தொடர்வதற்கு, PUK குறியீட்டை உள்ளிடவும். நீங்கள் %d முறை மட்டுமே முயற்சிக்க முடியும். அதன்பிறகு சிம் நிரந்தரமாக முடக்கப்படும். விவரங்களுக்கு, மொபைல் நிறுவனத்தைத் தொடர்புகொள்ளவும்.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">சிம்மின் பின் குறியீடு தவறானது, இன்னும் நீங்கள் %d முறை முயலலாம்.</item>
+        <item quantity="one">சிம்மின் பின் குறியீடு தவறானது, மேலும் %d முயற்சிகளுக்குப் பின்னர், உங்கள் தொலைத்தொடர்பு நிறுவனத்தைத் தொடர்பு கொண்டு மட்டுமே சாதனத்தை அன்லாக் செய்ய முடியும்.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">சிம்மின் PUK குறியீடு தவறானது, மேலும் %d முறை முயலலாம். தொடர்ந்து தவறான குறியீடு உள்ளிடப்பட்டால், அதன் பிறகு சிம்மை நிரந்தரமாகப் பயன்படுத்த முடியாமல் போகும்.</item>
+        <item quantity="one">சிம்மின் PUK குறியீடு தவறானது, மேலும் %d முறை முயலலாம். தொடர்ந்து தவறான குறியீடு உள்ளிடப்பட்டால், அதன் பிறகு சிம்மை நிரந்தரமாகப் பயன்படுத்த முடியாமல் போகும்.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d வினாடிகளுக்குப் பிறகு முயலவும்.</item>
+        <item quantity="one">1 வினாடிக்குப் பிறகு முயலவும்.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d புதிய அறிவிப்புகள்</item>
+        <item quantity="one">%d புதிய அறிவிப்பு</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">உள்ளே மேலும் %s அறிவிப்புகள் உள்ளன.</item>
+        <item quantity="one">உள்ளே மேலும் %s அறிவிப்பு உள்ளது.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d சாதனங்கள்</item>
+        <item quantity="one">%d சாதனம்</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d மணிநேரம்</item>
+        <item quantity="one">%d மணிநேரம்</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d நிமிடங்கள்</item>
+        <item quantity="one">%d நிமிடம்</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">%d பயனர்கள் வரை சேர்க்க முடியும்.</item>
+        <item quantity="one">ஒரு பயனரை மட்டுமே சேர்க்க முடியும்.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d சாதனங்கள் இணைக்கப்பட்டன</item>
+        <item quantity="one">%1$d சாதனம் இணைக்கப்பட்டது</item>
+    </plurals>
+</resources>

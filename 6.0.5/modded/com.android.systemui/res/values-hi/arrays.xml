@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>एनिमेशन बंद</item>
+        <item>एनिमेशन स्‍केल .5x</item>
+        <item>एनिमेशन स्‍केल 1x</item>
+        <item>एनिमेशन स्‍केल 1.5x</item>
+        <item>एनिमेशन स्‍केल 2x</item>
+        <item>एनिमेशन स्‍केल 5x</item>
+        <item>एनिमेशन स्‍केल 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>मानक सीमा</item>
+        <item>कोई पृष्ठभूमि प्रक्रियाएं नहीं</item>
+        <item>अधिकतम 1 प्रक्रिया</item>
+        <item>अधिकतम 2 प्रक्रियाएं</item>
+        <item>अधिकतम 3 प्रक्रियाएं</item>
+        <item>अधिकतम 4 प्रक्रियाएं</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>हमेशा प्रतिशत दिखाएं</item>
+        <item>चार्ज होते समय प्रतिशत दिखाएं (डिफ़ॉल्ट)</item>
+        <item>इस आइकॉन को ना दिखाएं</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>सिस्टम से चुने जाने का उपयोग करें (डिफ़ॉल्ट)</item>
+        <item>16 बिट/नमूना</item>
+        <item>24 बिट/नमूना</item>
+        <item>32 बिट/नमूना</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>सिस्टम से चुने जाने का उपयोग करें (डिफ़ॉल्ट)</item>
+        <item>16 बिट/नमूना</item>
+        <item>24 बिट/नमूना</item>
+        <item>32 बिट/नमूना</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>सिस्टम चुनाव का उपयोग करें (डिफ़ॉल्ट)</item>
+        <item>मोनो</item>
+        <item>स्टीरियो</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>सिस्टम से चुने जाने का उपयोग करें (डिफ़ॉल्ट)</item>
+        <item>मोनो</item>
+        <item>स्टीरियो</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>ऑडियो की गुणवत्ता के लिए अनुकूलित किया गया</item>
+        <item>संतुलित ऑडियो और कनेक्शन गुणवत्ता</item>
+        <item>कनेक्शन की गुणवत्ता के लिए अनुकूलित किया गया</item>
+        <item>सबसे अच्छी क्वालिटी में चलाएं (अनुकूल बिट रेट)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>ऑडियो की गुणवत्ता के लिए अनुकूलित किया गया (990kbps/909kbps)</item>
+        <item>संतुलित ऑडियो और कनेक्शन गुणवत्ता (660kbps/606kbps)</item>
+        <item>कनेक्शन की गुणवत्ता के लिए अनुकूलित किया गया (330kbps/303kbps)</item>
+        <item>सबसे अच्छी क्वालिटी में चलाएं (अनुकूल बिट रेट)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>सिस्टम से चुने जाने का उपयोग करें (डिफ़ॉल्ट)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>सिस्टम से चुने जाने का उपयोग करें (डिफ़ॉल्ट)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>सिस्टम से चुने जाने का उपयोग करें (डिफ़ॉल्ट)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ऑडियो</item>
+        <item>Qualcomm® aptX™ HD ऑडियो</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>सिस्टम से चुने जाने का उपयोग करें (डिफ़ॉल्ट)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ऑडियो</item>
+        <item>Qualcomm® aptX™ HD ऑडियो</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, चालू है</item>
+        <item>, चालू है (सिर्फ़ मीडिया के लिए)</item>
+        <item>, चालू है (सिर्फ़ फ़ोन के लिए)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>एवीआरसीपी15</item>
+        <item>avrcp13</item>
+        <item>एवीआरसीपी14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>एवीआरसीपी 1.5 (डिफ़ॉल्ट)</item>
+        <item>AVRCP 1.3</item>
+        <item>एवीआरसीपी 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (डिफ़ॉल्ट)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>बंद है</item>
+        <item>चालू और फ़िल्टर किया गया</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>घंटे, मिनट और सेकंड दिखाएं</item>
+        <item>घंटे और मिनट दिखाएं (डिफ़ॉल्ट)</item>
+        <item>इस आइकॉन को ना दिखाएं</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>बेहतर रंग</item>
+        <item>आंखों को दिखाई देने वाले प्राकृतिक रंग</item>
+        <item>डिजिटल सामग्री के लिए ऑप्टिमाइज़़ किए गए रंग</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>चमकीला (डिफ़ॉल्ट)</item>
+        <item>स्वाभाविक</item>
+        <item>मानक</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>बंद</item>
+        <item>ओवरड्रॉ क्षेत्रों को दिखाएं</item>
+        <item>हरा रंग पहचानने में कमी के क्षेत्र दिखाएं</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>कोई नहीं</item>
+        <item>Logcat</item>
+        <item>Systrace (ग्राफ़िक)</item>
+        <item>glGetError पर कॉल स्टैक</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>कभी भी HDCP जाँच का उपयोग न करें</item>
+        <item>HDCP जांच का उपयोग सिर्फ़ डीआरएम कॉन्टेंट के लिए करें</item>
+        <item>हमेशा HDCP जाँच का उपयोग करें</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>कभी नही जाँचें</item>
+        <item>केवल DRM सामग्री जाँचें</item>
+        <item>हमेशा जाँचें</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>क्लिपबोर्ड</item>
+        <item>कुंजी कोड</item>
+        <item>घुमाए जाने की पुष्टि करें, कीबोर्ड की भाषा बदलने की सुविधा</item>
+        <item>कोई नहीं</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>सामान्य</item>
+        <item>संक्षिप्त</item>
+        <item>बाएं झुका हुआ</item>
+        <item>दाएं झुका हुआ</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>कोई नहीं</item>
+        <item>480p</item>
+        <item>480p (सुरक्षित)</item>
+        <item>720p</item>
+        <item>720p (सुरक्षित)</item>
+        <item>1080p</item>
+        <item>1080p (सुरक्षित)</item>
+        <item>4K</item>
+        <item>4K (सुरक्षित)</item>
+        <item>4K (बेहतर)</item>
+        <item>4K (बेहतर, सुरक्षित)</item>
+        <item>720p, 1080p (ड्यूअल स्‍क्रीन)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>बंद</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>बंद</item>
+        <item>64K प्रति लॉग बफ़र</item>
+        <item>256K प्रति लॉग बफ़र</item>
+        <item>1 एमबी प्रति लॉग बफ़र</item>
+        <item>4M प्रति लॉग बफ़र</item>
+        <item>8 एमबी प्रति लॉग बफ़र</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>बंद</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8 एमबी</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>बंद</item>
+        <item>सभी लॉग बफ़र</item>
+        <item>रेडियो लॉग बफ़र को छोड़कर सभी</item>
+        <item>केवल कर्नल लॉग बफ़र</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>बंद</item>
+        <item>सभी</item>
+        <item>रेडियो छोड़कर सभी</item>
+        <item>केवल कर्नल</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>बंद</item>
+        <item>गैर-आयताकार क्लिप क्षेत्र नीले रंग से बनाएं</item>
+        <item>परीक्षित ड्रॉइंग आदेशों को हरे रंग से हाइलाइट करें</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>उपलब्ध नहीं है</item>
+        <item>बंद है</item>
+        <item>चालू है</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>बंद</item>
+        <item>बार के रूप में स्‍क्रीन पर</item>
+        <item>adb shell dumpsys gfxinfo में</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>एनिमेशन बंद</item>
+        <item>एनिमेशन स्‍केल .5x</item>
+        <item>एनिमेशन स्‍केल 1x</item>
+        <item>एनिमेशन स्‍केल 1.5x</item>
+        <item>एनिमेशन स्‍केल 2x</item>
+        <item>एनिमेशन स्‍केल 5x</item>
+        <item>एनिमेशन स्‍केल 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>अत्‍यधिक धीमा</item>
+        <item>धीमा</item>
+        <item>सामान्य</item>
+        <item>तेज़</item>
+        <item>ज़्यादा तेज़</item>
+        <item>अत्‍यधिक तेज़</item>
+        <item>त्वरित</item>
+        <item>अत्यधिक तीव्र</item>
+        <item>सबसे तेज़</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>चार्ज हो रहा है</item>
+        <item>MTP (मीडिया ट्रांसफर प्रोटोकॉल)</item>
+        <item>PTP (पिक्चर ट्रांसफर प्रोटोकॉल)</item>
+        <item>RNDIS (USB ईथरनेट)</item>
+        <item>ऑडियो स्रोत</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>स्‍कैन कर रहा है…</item>
+        <item>कनेक्ट हो रहा है...</item>
+        <item>प्रमाणीकरण कर रहा है…</item>
+        <item>आईपी पता ले रहा है…</item>
+        <item>कनेक्ट किया गया</item>
+        <item>निलंबित</item>
+        <item>डिस्‍कनेक्‍ट हो रहा है...</item>
+        <item>डिसकनेक्ट किया गया</item>
+        <item>असफल</item>
+        <item>अवरोधित</item>
+        <item>खराब कनेक्शन को अस्थायी रूप से अनदेखा कर रहा है</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>स्‍कैन कर रहा है…</item>
+        <item>%1$s से कनेक्‍ट कर रहा है…</item>
+        <item>%1$s के साथ प्रमाणीकरण कर रहा है…</item>
+        <item>%1$s से आईपी पता ले रहा है...</item>
+        <item>%1$s से कनेक्‍ट किया गया</item>
+        <item>निलंबित</item>
+        <item>%1$s से डिस्‍कनेक्‍ट कर रहा है…</item>
+        <item>डिसकनेक्ट किया गया</item>
+        <item>असफल</item>
+        <item>अवरोधित</item>
+        <item>खराब कनेक्शन को अस्थायी रूप से अनदेखा कर रहा है</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>स्कैन किया जा रहा है…</item>
+        <item>कनेक्ट हो रहा है…</item>
+        <item>पुष्टि की जा रही है…</item>
+        <item>आईपी पते की जानकारी ली जा रही है…</item>
+        <item>कनेक्ट हो गया</item>
+        <item>कुछ समय के लिए वाई-फ़ाई बंद किया गया</item>
+        <item>डिसकनेक्ट किया जा रहा है…</item>
+        <item>डिसकनेक्ट किया गया</item>
+        <item>वाई-फ़ाई से कनेक्ट नहीं हो सका</item>
+        <item>ब्लॉक किया गया</item>
+        <item>खराब कनेक्शन की वजह से, कुछ समय के लिए वाई-फ़ाई बंद किया जा रहा है</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>एनिमेशन बंद</item>
+        <item>एनिमेशन स्‍केल .5x</item>
+        <item>एनिमेशन स्‍केल 1x</item>
+        <item>एनिमेशन स्‍केल 1.5x</item>
+        <item>एनिमेशन स्‍केल 2x</item>
+        <item>एनिमेशन स्‍केल 5x</item>
+        <item>एनिमेशन स्‍केल 10x</item>
+    </string-array>
+</resources>

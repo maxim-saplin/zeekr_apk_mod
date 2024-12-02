@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>ანიმაციის გარეშე</item>
+        <item>ანიმაციის სიჩქარე .5x</item>
+        <item>ანიმაციის მასშტაბი 1x</item>
+        <item>ანიმაციის სიჩქარე 1.5x</item>
+        <item>ანიმაციის მასშტაბი: 2x</item>
+        <item>ანიმაცია (მასშტაბი 5x)</item>
+        <item>ანიმაციის მასშტაბი: 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>სტანდარტული ლიმიტი</item>
+        <item>ფონური პროცესები არ არის</item>
+        <item>არაუმეტეს 1 პროცესისა</item>
+        <item>არა უმეტეს 2 პროცესისა</item>
+        <item>არა უმეტეს 3 პროცესისა</item>
+        <item>არაუმეტეს 4 პროცესისა</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>პროცენტულობის ყოველთვის ჩვენება</item>
+        <item>პროცენტულობის დატენვისას ჩვენება (ნაგულისხმევი)</item>
+        <item>აღარ მაჩვენო ეს ხატულა</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>სისტემის არჩეულის გამოყენება (ნაგულისხმევი)</item>
+        <item>16 ბიტი/ნიმუში</item>
+        <item>24 ბიტი/ნიმუში</item>
+        <item>32 ბიტი/ნიმუში</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>სისტემის არჩეულის გამოყენება (ნაგულისხმევი)</item>
+        <item>16 ბიტი/ნიმუში</item>
+        <item>24 ბიტი/ნიმუში</item>
+        <item>32 ბიტი/ნიმუში</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>სისტემის არჩეულის გამოყენება (ნაგულისხმევი)</item>
+        <item>მონო</item>
+        <item>სტერეო</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>სისტემის არჩეულის გამოყენება (ნაგულისხმევი)</item>
+        <item>მონო</item>
+        <item>სტერეო</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>აუდიოს ხარისხისთვის ოპტიმიზებული</item>
+        <item>აუდიოსა და კავშირის დაბალანსებული ხარისხი</item>
+        <item>კავშირის ხარისხისთვის ოპტიმიზებული</item>
+        <item>შეძლებისდაგვარად მაღალი (ადაპტირებადი ბიტური სიხშირე)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>აუდიოს ხარისხისთვის ოპტიმიზებული (990/909 კბიტი/წმ)</item>
+        <item>აუდიოსა და კავშირის დაბალანსებული ხარისხი (660/606 კბიტი/წმ)</item>
+        <item>კავშირის ხარისხისთვის ოპტიმიზებული (330/303 კბიტი/წმ)</item>
+        <item>შეძლებისდაგვარად მაღალი (ადაპტირებადი ბიტური სიხშირე)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>სისტემის არჩეულის გამოყენება (ნაგულისხმევი)</item>
+        <item>44,1 კჰც</item>
+        <item>48,0 კჰც</item>
+        <item>88,2 კჰც</item>
+        <item>96,0 კჰც</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>სისტემის არჩეულის გამოყენება (ნაგულისხმევი)</item>
+        <item>44,1 კჰც</item>
+        <item>48,0 კჰც</item>
+        <item>88,2 კჰც</item>
+        <item>96,0 კჰც</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>სისტემის არჩეულის გამოყენება (ნაგულისხმევი)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ აუდიო</item>
+        <item>Qualcomm® aptX™ HD აუდიო</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>სისტემის არჩეულის გამოყენება (ნაგულისხმევი)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ აუდიო</item>
+        <item>Qualcomm® aptX™ HD აუდიო</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, აქტიური</item>
+        <item>, აქტიური (მედია)</item>
+        <item>, აქტიური (ტელეფონი)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (ნაგულისხმევი)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ნაგულისხმევი)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>გათიშულია</item>
+        <item>გაფილტრულის ჩართვა</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>საათების, წუთებისა და წამების ჩვენება</item>
+        <item>საათებისა და წუთების ჩვენება (ნაგულისხმევი)</item>
+        <item>აღარ მაჩვენო ეს ხატულა</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>გაჯერებული ფერები</item>
+        <item>თვალისთვის ხილული ბუნებრივი ფერები</item>
+        <item>ციფრული კონტენტისთვის ოპტიმიზებული ფერები</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>მკვეთრი (ნაგულისხმევი)</item>
+        <item>ბუნებრივი</item>
+        <item>სტანდარტული</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>გამორთვა</item>
+        <item>overdraw არეების ჩვენება</item>
+        <item>დეუტერანომალიის არეების ჩვენება</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>არცერთი</item>
+        <item>Logcat</item>
+        <item>Systrace (გრაფიკა)</item>
+        <item>გამოძახებების სია glGetError-ზე</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>არასდროს გამოიყენო HDCP შემოწმება</item>
+        <item>HDCP შემოწმების გამოყენება მხოლოდ DRM კონტენტის შემთხვევაში</item>
+        <item>ყოველთვის გამოიყენე HDCP შემოწმება</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>არასდროს შეამოწმო</item>
+        <item>შემოწმდეს მხოლოდ DRM კონტენტი</item>
+        <item>შემოწმება ყოველთვის</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>გაცვლის ბუფერი</item>
+        <item>კლავიშის კოდი</item>
+        <item>შეტრიალების დადასტურება, კლავიატურის გადამრთველი</item>
+        <item>არცერთი</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>ჩვეულებრივი</item>
+        <item>კომპაქტური</item>
+        <item>მარცხნივ გადახრილი</item>
+        <item>მარჯვნივ გადახრილი</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>არც ერთი</item>
+        <item>480p</item>
+        <item>480p (დაცული)</item>
+        <item>720p</item>
+        <item>720p (დაცული)</item>
+        <item>1080p</item>
+        <item>1080p (დაცული)</item>
+        <item>4K</item>
+        <item>4K (დაცული)</item>
+        <item>4K (გადიდებული მასშტაბით)</item>
+        <item>4K (გადიდებული მასშტაბით, დაცული)</item>
+        <item>720p, 1080p (ორმაგი ეკრანი)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>გამორთული</item>
+        <item>64 კბაიტი</item>
+        <item>256 კბაიტი</item>
+        <item>1 მბაიტი</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>გამორთული</item>
+        <item>64 კბაიტი / ჟურნალის ბუფერი</item>
+        <item>256 კბაიტი / ჟურნალის ბუფერი</item>
+        <item>1 მბაიტი / ჟურნალის ბუფერი</item>
+        <item>4 მბაიტი / ჟურნალის ბუფერი</item>
+        <item>8 მბაიტი / ჟურნალის ბუფერი</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>გამორთული</item>
+        <item>64 კბაიტი</item>
+        <item>256 კბაიტი</item>
+        <item>1 მბაიტი</item>
+        <item>4 მბაიტი</item>
+        <item>8 მბაიტი</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>გამორთული</item>
+        <item>ჟურნალების ყველა ბუფერი</item>
+        <item>რადიოჟურნალების ბუფერების გარდა ყველა</item>
+        <item>მხოლოდ ბირთვის ჟურნალის ბუფერი</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>გამორთული</item>
+        <item>ყველა</item>
+        <item>რადიოს გარდა ყველა</item>
+        <item>მხოლოდ ბირთვი</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>გამორთული</item>
+        <item>დახატე არა მართკუთხა მოჭრის რეგიონი ლურჯად</item>
+        <item>ხატვის ტესტირებული ბრძანების მწვანე ფერით მონიშვნა</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>მიუწვდომელია</item>
+        <item>გამორთულია</item>
+        <item>ჩართულია</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>გამორთვა</item>
+        <item>ეკრანზე ზოლების სახით</item>
+        <item>ბრძანებაში „adb shell dumpsys gfxinfo“</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ანიმაციის გამორთვა</item>
+        <item>ანიმაცია (მასშტაბი - .5x)</item>
+        <item>ანიმაცია (მასშტაბი 1x)</item>
+        <item>ანიმაცია (მასშტაბი 1.5x)</item>
+        <item>ანიმაციის მასშტაბი: 2x</item>
+        <item>ანიმაციის მასშტაბი 5x</item>
+        <item>ანიმაციის მასშტაბი 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ძალიან ნელი</item>
+        <item>ნელი</item>
+        <item>ჩვეულებრივი</item>
+        <item>სწრაფი</item>
+        <item>უფრო სწრაფი</item>
+        <item>ძალიან სწრაფი</item>
+        <item>ჩქარი</item>
+        <item>ძალიან ჩქარი</item>
+        <item>უსწრაფესი</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>იტენება</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>აუდიო წყარo</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>სკანირება…</item>
+        <item>დაკავშირება…</item>
+        <item>ავტორიზაცია…</item>
+        <item>IP მისამართის მიღება…</item>
+        <item>დაკავშირებულია</item>
+        <item>შეწყვეტილია</item>
+        <item>კავშირის გაწყვეტა…</item>
+        <item>არ არის ხაზზე</item>
+        <item>ვერ მოხერხდა</item>
+        <item>დაბლოკილი</item>
+        <item>ცუდი კავშირის დროებით თავიდან აცილება</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>სკანირება…</item>
+        <item>მიმდინარეობს დაკავშირება %1$s-თან…</item>
+        <item>ავთენტიფიკაცია %1$s-ში…</item>
+        <item>IP მისამართის მოპოვება %1$s-დან…</item>
+        <item>დაკავშირებულია %1$s-თან</item>
+        <item>შეჩერებული</item>
+        <item>კავშირის გაწყვეტა %1$s-თან…</item>
+        <item>კავშირი გაწყვეტილია</item>
+        <item>ვერ მოხერხდა</item>
+        <item>დაბლოკილი</item>
+        <item>ცუდი კავშირის დროებით თავიდან აცილება</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>მიმდინარეობს სკანირება…</item>
+        <item>მიმდინარეობს დაკავშირება…</item>
+        <item>მიმდინარეობს ავთენტიკაცია…</item>
+        <item>მიმდინარეობს IP მისამართის მიღება…</item>
+        <item>დაკავშირებული</item>
+        <item>შეჩერებული</item>
+        <item>კავშირი წყდება…</item>
+        <item>კავშირი გაწყვეტილია</item>
+        <item>ვერ განხორციელდა</item>
+        <item>დაბლოკილი</item>
+        <item>სუსტი კავშირის დროებით თავიდან აცილება</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ანიმაციის გამორთვა</item>
+        <item>ანიმაციის სიჩქარე .5x</item>
+        <item>ანიმაციის სიჩქარე 1x</item>
+        <item>ანიმაციის სიჩქარე 1.5x</item>
+        <item>ანიმაციის მასშტაბი 2x</item>
+        <item>ანიმაციის მასშტაბი 5x</item>
+        <item>ანიმაციის მასშტაბი 10x</item>
+    </string-array>
+</resources>

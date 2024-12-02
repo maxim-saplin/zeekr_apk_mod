@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@android:style/Theme.DeviceDefault.Light" android:gravity="center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/screen_pinning_request_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="360.0dip" android:layout_height="@dimen/screen_pinning_request_width" layout="@layout/screen_pinning_request_text_area" />
+    <include android:layout_width="wrap_content" android:layout_height="@dimen/screen_pinning_request_width" layout="@layout/screen_pinning_request_buttons_land" />
+</LinearLayout>

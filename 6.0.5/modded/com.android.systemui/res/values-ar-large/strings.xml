@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">انقر هنا لإعادة تشغيل التنبيهات.</string>
+    <string name="notifications_off_title">إيقاف التنبيهات</string>
+    <string name="status_bar_clear_all_button">محو الكل</string>
+</resources>

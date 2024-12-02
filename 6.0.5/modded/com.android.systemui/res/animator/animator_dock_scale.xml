@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <set>
+            <objectAnimator android:interpolator="@android:interpolator/overshoot" android:duration="@integer/dock_scale_animator_duration" android:pivotX="50.0%" android:pivotY="50.0%" android:valueTo="1.2" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@android:interpolator/overshoot" android:duration="@integer/dock_scale_animator_duration" android:pivotX="50.0%" android:pivotY="50.0%" android:valueTo="1.2" android:valueType="floatType" android:propertyName="scaleY" />
+        </set>
+    </item>
+    <item android:state_pressed="false">
+        <set>
+            <objectAnimator android:interpolator="@android:interpolator/overshoot" android:duration="@integer/dock_scale_animator_duration" android:pivotX="50.0%" android:pivotY="50.0%" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@android:interpolator/overshoot" android:duration="@integer/dock_scale_animator_duration" android:pivotX="50.0%" android:pivotY="50.0%" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+        </set>
+    </item>
+</selector>

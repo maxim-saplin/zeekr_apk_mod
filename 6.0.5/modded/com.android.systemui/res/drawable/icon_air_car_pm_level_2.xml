@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="250.0dip" android:width="126.0dip" android:viewportWidth="126.0" android:viewportHeight="250.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$icon_air_car_pm_level_2__0" android:pathData="M63.33,250C93.12,250 117.57,226.44 118.68,196.67L123.96,54.87C125.07,24.9 101.08,0 71.09,0L55.1,0C25.04,0 1.02,25.02 2.23,55.05L7.99,196.86C9.2,226.55 33.62,250 63.33,250Z" android:strokeAlpha="0.6" android:fillAlpha="0.6" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$icon_air_car_pm_level_2__1" android:pathData="M65.78,195.39C89.12,195.39 108.17,176.7 108.6,153.36L110.39,57.28C110.83,33.32 91.53,13.65 67.57,13.65L58.43,13.65C34.47,13.65 15.16,33.32 15.61,57.28L17.4,153.36C17.83,176.7 36.88,195.39 60.22,195.39L65.78,195.39Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" android:fillType="evenOdd" />
+</vector>

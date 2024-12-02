@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/tv_pip_menu" android:background="#cc000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tv_pip_menu_action_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="350.0dip" android:alpha="0.0">
+        <com.android.wm.shell.pip.tv.TvPipMenuActionButton android:id="@id/tv_pip_menu_fullscreen_button" android:layout_width="@dimen/picture_in_picture_button_width" android:layout_height="wrap_content" android:src="@drawable/pip_ic_fullscreen_white" android:text="@string/pip_fullscreen" />
+        <com.android.wm.shell.pip.tv.TvPipMenuActionButton android:id="@id/tv_pip_menu_close_button" android:layout_width="@dimen/picture_in_picture_button_width" android:layout_height="wrap_content" android:src="@drawable/pip_ic_close_white" android:text="@string/pip_close" android:layout_marginStart="@dimen/picture_in_picture_button_start_margin" />
+    </LinearLayout>
+</FrameLayout>

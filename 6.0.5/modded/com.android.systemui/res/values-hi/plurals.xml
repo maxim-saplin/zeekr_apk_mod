@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d दिन पहले</item>
+        <item quantity="one">%d दिन पहले</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d मिनट पहले</item>
+        <item quantity="one">%d मिनट पहले</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d साल पहले</item>
+        <item quantity="one">%d साल पहले</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s कंट्रोल जोड़े गए.</item>
+        <item quantity="one">%s कंट्रोल जोड़ा गया.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">सिम का पिन डालें. आपके पास %d मौके बचे हैं.</item>
+        <item quantity="one">सिम का पिन डालें. आपके पास %d मौके बचे हैं.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">सिम बंद कर दिया गया है. जारी रखने के लिए PUK कोड डालें. आपके पास %d मौके बचे हैं, उसके बाद, सिम हमेशा के लिए काम करना बंद कर देगा. जानकारी के लिए, मोबाइल और इंटरनेट सेवा देने वाली कंपनी से संपर्क करें.</item>
+        <item quantity="one">सिम बंद कर दिया गया है. जारी रखने के लिए PUK कोड डालें. आपके पास %d मौके बचे हैं, उसके बाद, सिम हमेशा के लिए काम करना बंद कर देगा. जानकारी के लिए, मोबाइल और इंटरनेट सेवा देने वाली कंपनी से संपर्क करें.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">गलत सिम पिन कोड, आप %d बार और कोशिश कर सकते हैं.</item>
+        <item quantity="one">गलत सिम पिन कोड, आप %d बार और कोशिश कर सकते हैं.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PUK कोड गलत है, SIM के हमेशा के लिए बेकार हो जाने से पहले आप %d बार और कोशिश कर सकते हैं.</item>
+        <item quantity="one">SIM PUK कोड गलत है, SIM के हमेशा के लिए बेकार हो जाने से पहले आप %d बार और कोशिश कर सकते हैं.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d सेकंड में फिर से कोशिश करें.</item>
+        <item quantity="one">%d सेकंड में फिर से कोशिश करें.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d नई सूचनाएं</item>
+        <item quantity="one">%d नई सूचनाएं</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">इसमें %s और सूचनाएं हैं.</item>
+        <item quantity="one">इसमें %s और सूचनाएं हैं.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d डिवाइस</item>
+        <item quantity="one">%d डिवाइस</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d घंटे</item>
+        <item quantity="one">%d घंटे</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d मिनट</item>
+        <item quantity="one">%d मिनट</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">आप ज़्यादा से ज़्यादा %d उपयोगकर्ता जोड़ सकते हैं.</item>
+        <item quantity="one">आप ज़्यादा से ज़्यादा %d उपयोगकर्ता जोड़ सकते हैं.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d डिवाइस जुड़े हैं</item>
+        <item quantity="one">%1$d डिवाइस जुड़ा है</item>
+    </plurals>
+</resources>

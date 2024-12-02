@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d kun oldin</item>
+        <item quantity="one">%d kun oldin</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d daqiqa oldin</item>
+        <item quantity="one">%d daqiqa oldin</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d yil oldin</item>
+        <item quantity="one">%d yil oldin</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s ta nazorat kiritilgan.</item>
+        <item quantity="one">%s ta nazorat kiritilgan.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN kodini kiriting, sizda %d ta urinish bor.</item>
+        <item quantity="one">SIM PIN kodini kiriting, qurilmani qulfdan chiqarish uchun sizda %d ta urinish bor.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM karta faolsizlantirildi. Davom etish uchun PUK kodni kiriting. Yana %d marta xato qilsangiz, SIM kartangiz butunlay qulflanadi. Batafsil axborot olish uchun tarmoq operatoriga murojaat qiling.</item>
+        <item quantity="one">SIM karta faolsizlantirildi. Davom etish uchun PUK kodni kiriting. Yana %d marta xato qilsangiz, SIM kartangiz butunlay qulflanadi. Batafsil axborot olish uchun tarmoq operatoriga murojaat qiling.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM kartaning PIN kodi noto‘g‘ri. Sizda yana %d ta urinish qoldi.</item>
+        <item quantity="one">SIM karta PIN kodi noto‘g‘ri terildi, yana %d marta uirinib ko‘rishingiz mumkin, urinishlar tugagandan keyin qurilmangizni qulfdan chiqarish uchun aloqa operatoringiz bilan bog‘lanishingiz kerak.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM kartaning PUK kodi noto‘g‘ri kiritildi. Yana %d ta muvaffaqiyatsiz urinishdan keyin SIM karta butunlay ishdan chiqadi.</item>
+        <item quantity="one">SIM karta PUK kodi noto‘g‘ri terildi, yana %d marta urinib ko‘rganingizdan keyin SIM kartadan umuman foydalanib bo‘lmaydi.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d soniyadan keyin qaytadan urining.</item>
+        <item quantity="one">1 soniyadan keyin qaytadan urining.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ta yangi bildirishnoma</item>
+        <item quantity="one">%d ta yangi bildirishnoma</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Guruhda yana %s ta bildirishnoma.</item>
+        <item quantity="one">Guruhda yana %s ta bildirishnoma.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d ta qurilma</item>
+        <item quantity="one">%d ta qurilma</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d soat</item>
+        <item quantity="one">%d soat</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d daqiqa</item>
+        <item quantity="one">%d daqiqa</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">%d tagacha foydalanuvchi qo‘shish mumkin.</item>
+        <item quantity="one">Faqat bitta foydalanuvchi yaratish mumkin.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d ta qurilma ulangan</item>
+        <item quantity="one">%1$d ta qurilma ulangan</item>
+    </plurals>
+</resources>

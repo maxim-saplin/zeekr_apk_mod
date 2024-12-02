@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/ic_status_wifi_disabled_day_0" />
+    <item android:drawable="@drawable/ic_status_wifi_default_day_0" />
+</selector>

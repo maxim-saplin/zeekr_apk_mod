@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/volume_dialog_theme" android:tag="row" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="@dimen/volume_dialog_panel_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:padding="@dimen/tv_volume_dialog_row_padding" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/tv_volume_number_text_size" android:textColor="@color/tv_volume_dialog_accent" android:gravity="center" android:id="@id/volume_number" android:background="@drawable/tv_volume_dialog_circle" android:layout_width="@dimen/tv_volume_dialog_bubble_size" android:layout_height="@dimen/tv_volume_dialog_bubble_size" android:maxLength="2" android:fontFeatureSettings="tnum" />
+        <TextView android:textAppearance="@style/TextAppearance.Volume.Header" android:textColor="?android:colorControlNormal" android:ellipsize="end" android:id="@id/volume_row_header" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="10" />
+        <FrameLayout android:id="@id/volume_row_slider_frame" android:layout_width="fill_parent" android:layout_height="@dimen/volume_dialog_panel_height">
+            <SeekBar android:layout_gravity="center" android:id="@id/volume_row_slider" android:clickable="false" android:layout_width="@dimen/volume_dialog_panel_height" android:layout_height="fill_parent" android:maxHeight="@dimen/volume_dialog_slider_width" android:progressDrawable="@drawable/volume_row_seekbar" android:minHeight="@dimen/volume_dialog_slider_width" android:thumb="@drawable/tv_volume_row_seek_thumb" android:rotation="270.0" android:layoutDirection="ltr" android:splitTrack="false" />
+        </FrameLayout>
+        <com.android.keyguard.AlphaOptimizedImageButton android:id="@id/volume_row_icon" android:background="@drawable/tv_volume_dialog_circle" android:layout_width="@dimen/tv_volume_dialog_bubble_size" android:layout_height="@dimen/tv_volume_dialog_bubble_size" android:tint="@color/accent_tint_color_selector" android:soundEffectsEnabled="false" style="@style/VolumeButtons" />
+    </LinearLayout>
+    <include layout="@layout/volume_dnd_icon" />
+</FrameLayout>

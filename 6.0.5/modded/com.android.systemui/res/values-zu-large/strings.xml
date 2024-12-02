@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Thepha lana ukuvula futhi izaziso.</string>
+    <string name="notifications_off_title">Izaziso zivaliwe</string>
+    <string name="status_bar_clear_all_button">Sula konke</string>
+</resources>

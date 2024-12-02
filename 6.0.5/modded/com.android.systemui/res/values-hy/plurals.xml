@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d օր առաջ</item>
+        <item quantity="one">%d օր առաջ</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d րոպե առաջ</item>
+        <item quantity="one">%d րոպե առաջ</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d տարի առաջ</item>
+        <item quantity="one">%d տարի առաջ</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Ավելացվեց կառավարման %s տարր։</item>
+        <item quantity="one">Ավելացվեց կառավարման %s տարր։</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Մուտքագրեք SIM քարտի PIN կոդը: Մնացել է %d փորձ:</item>
+        <item quantity="one">Մուտքագրեք SIM քարտի PIN կոդը: Մնացել է %d փորձ:</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM քարտն անջատված է: Շարունակելու համար մուտքագրեք PUK կոդը: Մնացել է %d փորձ, որից հետո SIM քարտն այլևս հնարավոր չի լինի օգտագործել: Մանրամասների համար դիմեք օպերատորին:</item>
+        <item quantity="one">SIM քարտն անջատված է: Շարունակելու համար մուտքագրեք PUK կոդը: Մնացել է %d փորձ, որից հետո SIM քարտն այլևս հնարավոր չի լինի օգտագործել: Մանրամասների համար դիմեք օպերատորին:</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN կոդը սխալ է: Մնաց %d փորձ:</item>
+        <item quantity="one">SIM PIN կոդը սխալ է: Մնաց %d փորձ, որից հետո պետք է դիմեք ձեր օպերատորին՝ սարքն արգելահանելու համար:</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PUK կոդը սխալ է: Մնաց %d փորձ, որից հետո SIM քարտն այլևս հնարավոր չի լինի օգտագործել:</item>
+        <item quantity="one">SIM PUK կոդը սխալ է: Մնաց %d փորձ, որից հետո SIM քարտն այլևս հնարավոր չի լինի օգտագործել:</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Փորձեք %d վայրկյանից:</item>
+        <item quantity="one">Փորձեք %d վայրկյանից:</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d նոր ծանուցում</item>
+        <item quantity="one">%d նոր ծանուցում</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Ներսում ևս %s ծանուցում կա:</item>
+        <item quantity="one">Ներսում ևս %s ծանուցում կա:</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d սարք</item>
+        <item quantity="one">%d սարք</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ժամ</item>
+        <item quantity="one">%d ժամ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d րոպե</item>
+        <item quantity="one">%d րոպե</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Հնարավոր է ավելացնել առավելագույնը %d օգտատեր։</item>
+        <item quantity="one">Հնարավոր է ավելացնել առավելագույնը %d օգտատեր։</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Միացված է %1$d սարք</item>
+        <item quantity="one">Միացված է %1$d սարք</item>
+    </plurals>
+</resources>

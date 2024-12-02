@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animáció ki</item>
+        <item>Animáció tempója: 0,5x</item>
+        <item>Animáció tempója: 1x</item>
+        <item>Animáció tempója: 1,5x</item>
+        <item>Animáció tempója: 2x</item>
+        <item>Animáció tempója: 5x</item>
+        <item>Animáció tempója: 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Normál korlátozás</item>
+        <item>Nincsenek háttérfolyamatok</item>
+        <item>Legfeljebb 1 folyamat</item>
+        <item>Legfeljebb 2 folyamat</item>
+        <item>Legfeljebb 3 folyamat</item>
+        <item>Legfeljebb 4 folyamat</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Százalékos érték mindig látható</item>
+        <item>Százalékos érték töltés közben látható (alapértelmezett)</item>
+        <item>Ne jelenjen meg ez az ikon</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Rendszerérték (alapértelmezett)</item>
+        <item>16 bit/minta</item>
+        <item>24 bit/minta</item>
+        <item>32 bit/minta</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Rendszerérték (alapértelmezett)</item>
+        <item>16 bit/minta</item>
+        <item>24 bit/minta</item>
+        <item>32 bit/minta</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Rendszerérték (alapértelmezett)</item>
+        <item>Monó</item>
+        <item>Sztereó</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Rendszerérték (alapértelmezett)</item>
+        <item>Monó</item>
+        <item>Sztereó</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimális hangminőség</item>
+        <item>Kiegyensúlyozott hang- és kapcsolatminőség</item>
+        <item>Optimális kapcsolatminőség</item>
+        <item>A legjobb eredmény (adaptív bitsebesség)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimális hangminőség (990 kbps/909 kbps)</item>
+        <item>Kiegyensúlyozott hang- és kapcsolatminőség (660 kbps/606 kbps)</item>
+        <item>Optimális kapcsolatminőség (330 kbps/303 kbps)</item>
+        <item>A legjobb eredmény (adaptív bitsebesség)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Rendszerérték (alapértelmezett)</item>
+        <item>44,1 kHz</item>
+        <item>48 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Rendszerérték (alapértelmezett)</item>
+        <item>44,1 kHz</item>
+        <item>48 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Rendszerérték (alapértelmezett)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Hang: Qualcomm® aptX™</item>
+        <item>Hang: Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Rendszerérték (alapértelmezett)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Hang: Qualcomm® aptX™</item>
+        <item>Hang: Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktív</item>
+        <item>, aktív (média)</item>
+        <item>, aktív (telefon)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (alapértelmezett)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Alapértelmezett)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Letiltva</item>
+        <item>Szűrtek engedélyezve</item>
+        <item>Engedélyezve</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Óra, perc és másodperc megjelenítése</item>
+        <item>Óra és perc megjelenítése (alapértelmezett)</item>
+        <item>Ne jelenjen meg ez az ikon</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Erős színek</item>
+        <item>Természetes színek, ahogyan azt az emberi szem is látja</item>
+        <item>Digitális tartalomhoz optimalizált színek</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Élénk (alapértelmezett)</item>
+        <item>Természetes</item>
+        <item>Normál</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Ki</item>
+        <item>Tartalom-felülírási területek mutatása</item>
+        <item>A deuteranomália területeinek megjelenítése</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Semelyik</item>
+        <item>Logcat</item>
+        <item>Systrace (grafika)</item>
+        <item>Verem meghívása glGetError esetén</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Soha ne használjon HDCP ellenőrzést</item>
+        <item>Csak DRM-tartalomhoz használjon HDCP ellenőrzést</item>
+        <item>Mindig használjon HDCP ellenőrzést</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Soha ne ellenőrizze</item>
+        <item>Csak DRM-tartalom ellenőrzése</item>
+        <item>Mindig ellenőrizze</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Vágólap</item>
+        <item>Billentyűkód</item>
+        <item>Forgatás megerősítése, billentyűzetváltó</item>
+        <item>Nincs</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normál</item>
+        <item>Kompakt</item>
+        <item>Bal oldali</item>
+        <item>Jobb oldali</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Egyik sem</item>
+        <item>480p</item>
+        <item>480p (biztonságos)</item>
+        <item>720p</item>
+        <item>720p (biztonságos)</item>
+        <item>1080p</item>
+        <item>1080p (biztonságos)</item>
+        <item>4K</item>
+        <item>4K (biztonságos)</item>
+        <item>4K (felskálázott)</item>
+        <item>4K (felskálázott, biztonságos)</item>
+        <item>720p, 1080p (két képernyő)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Ki</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Ki</item>
+        <item>64 KB/naplópuffer</item>
+        <item>256 KB/naplópuffer</item>
+        <item>1 MB/naplópuffer</item>
+        <item>4 MB/naplópuffer</item>
+        <item>8 MB/naplópuffer</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Ki</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>8 MB</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Kikapcsolva</item>
+        <item>Minden naplópuffer</item>
+        <item>A rádiónapló-pufferen kívül mindegyik</item>
+        <item>csak kernelnaplópuffer</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Kikapcsolva</item>
+        <item>Összes</item>
+        <item>Rádiót kivéve</item>
+        <item>csak kernel</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Kikapcsolva</item>
+        <item>Nem négyzetes kivágás kékkel</item>
+        <item>Tesztelt rajzolási parancsok kiemelése zölddel</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Nem áll rendelkezésre</item>
+        <item>Ki</item>
+        <item>Be</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Ki</item>
+        <item>A képernyőn sávként</item>
+        <item>adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animáció ki</item>
+        <item>Animáció tempója: 0,5x</item>
+        <item>Animáció tempója: 1x</item>
+        <item>Animáció tempója: 1,5x</item>
+        <item>Animáció tempója: 2x</item>
+        <item>Animáció tempója: 5x</item>
+        <item>Animáció tempója: 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Nagyon lassú</item>
+        <item>Lassú</item>
+        <item>Normál</item>
+        <item>Gyors</item>
+        <item>Gyorsabb</item>
+        <item>Nagyon gyors</item>
+        <item>Igen gyors</item>
+        <item>Rendkívül gyors</item>
+        <item>Leggyorsabb</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Töltés</item>
+        <item>MTP (Media Transfer Protocol, médiaátviteli protokoll)</item>
+        <item>PTP (Picture Transfer Protocol, képátviteli protokoll)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Hangforrás</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Keresés...</item>
+        <item>Kapcsolódás…</item>
+        <item>Hitelesítés...</item>
+        <item>IP-cím lekérése...</item>
+        <item>Csatlakozva</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása...</item>
+        <item>Nincs kapcsolat</item>
+        <item>Sikertelen</item>
+        <item>Letiltva</item>
+        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Keresés...</item>
+        <item>Csatlakozás a(z) %1$s hálózathoz...</item>
+        <item>Hitelesítés a(z) %1$s hálózaton...</item>
+        <item>IP-cím lekérése a(z) %1$s hálózattól...</item>
+        <item>Kapcsolódva a(z) %1$s hálózathoz</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása %1$s hálózattal...</item>
+        <item>Nincs kapcsolat</item>
+        <item>Sikertelen</item>
+        <item>Letiltva</item>
+        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Keresés…</item>
+        <item>Csatlakozás…</item>
+        <item>Hitelesítés…</item>
+        <item>IP-cím lekérése…</item>
+        <item>Csatlakoztatva</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása…</item>
+        <item>Szétkapcsolva</item>
+        <item>Sikertelen</item>
+        <item>Letiltva</item>
+        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animáció ki</item>
+        <item>Animáció tempója: 0,5x</item>
+        <item>Animáció tempója: 1x</item>
+        <item>Animáció tempója: 1,5x</item>
+        <item>Animáció tempója: 2x</item>
+        <item>Animáció tempója: 5x</item>
+        <item>Animáció tempója: 10x</item>
+    </string-array>
+</resources>

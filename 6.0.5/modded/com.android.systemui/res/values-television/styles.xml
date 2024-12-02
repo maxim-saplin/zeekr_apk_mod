@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Animation.ShutdownUi" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
+    <style name="Theme.SystemUI.Dialog.Alert" parent="@android:style/Theme.DeviceDefault.Dialog.Alert" />
+    <style name="volume_dialog_theme" parent="@style/Theme.SystemUI">
+        <item name="android:textColorPrimaryInverse">@color/tv_volume_dialog_accent</item>
+        <item name="android:colorAccent">@color/tv_volume_dialog_accent</item>
+        <item name="android:dialogCornerRadius">@dimen/volume_dialog_panel_width_half</item>
+    </style>
+    <style name="BottomSheet" parent="@style/Theme.Leanback">
+        <item name="android:backgroundDimAmount">0.2</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+    <style name="BottomSheet.ActionItem" parent="@style/BottomSheet">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/bottom_sheet_button_text_color</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:background">@drawable/bottom_sheet_button_background</item>
+        <item name="android:layout_width">@dimen/bottom_sheet_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:stateListAnimator">@anim/tv_bottom_sheet_button_state_list_animator</item>
+        <item name="android:paddingHorizontal">@dimen/bottom_sheet_button_padding_horizontal</item>
+        <item name="android:paddingVertical">@dimen/bottom_sheet_button_padding_vertical</item>
+    </style>
+    <style name="BottomSheet.BodyText" parent="@style/BottomSheet">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/bottom_sheet_body_color</item>
+    </style>
+    <style name="BottomSheet.TitleText" parent="@style/BottomSheet">
+        <item name="android:textSize">28.0sp</item>
+        <item name="android:textColor">@color/bottom_sheet_title_color</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="?android:listPreferredItemPaddingStart" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+        <ImageView android:id="@id/sensor_use_camera_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@android:drawable/maps_google_logo" android:tint="?android:colorAccent" />
+        <ImageView android:id="@id/sensor_use_microphone_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@android:drawable/menu_dropdown_panel_holo_dark" android:tint="?android:colorAccent" />
+    </LinearLayout>
+    <com.android.internal.widget.DialogTitle android:id="@id/sensor_use_started_title_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="center" style="@android:style/TextAppearance.DeviceDefault.WindowTitle" />
+</LinearLayout>

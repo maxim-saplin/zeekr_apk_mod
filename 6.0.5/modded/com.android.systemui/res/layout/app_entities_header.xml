@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/app_entities_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/AppEntitiesHeader.Text.HeaderTitle" android:gravity="center" android:id="@id/header_title" android:layout_width="wrap_content" android:layout_height="48.0dip" />
+    <LinearLayout android:gravity="center" android:id="@id/app_views_container" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/app1_view" layout="@layout/app_view" />
+        <include android:id="@id/app2_view" layout="@layout/app_view" />
+        <include android:id="@id/app3_view" layout="@layout/app_view" />
+    </LinearLayout>
+    <Button android:gravity="center" android:id="@id/header_details" android:layout_width="wrap_content" android:layout_height="48.0dip" style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored" />
+    <TextView android:textAppearance="@style/AppEntitiesHeader.Text.Summary" android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="106.0dip" />
+</LinearLayout>

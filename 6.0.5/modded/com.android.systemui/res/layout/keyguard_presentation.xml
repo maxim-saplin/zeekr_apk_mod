@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/presentation" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.keyguard.KeyguardStatusView android:orientation="vertical" android:id="@id/clock" android:layout_width="410.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/keyguard_clock_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/keyguard_clock_switch" />
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:src="@drawable/kg_security_lock_normal" />
+        </LinearLayout>
+    </com.android.keyguard.KeyguardStatusView>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.QS.UserSwitcher" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/kg_user_switcher_text_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:fontFamily">@android:string/config_dozeTapSensorType</item>
+    </style>
+    <style name="UserDetailView">
+        <item name="numColumns">4</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

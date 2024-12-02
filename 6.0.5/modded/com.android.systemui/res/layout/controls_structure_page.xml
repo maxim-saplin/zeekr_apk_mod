@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/listAll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/controls_management_favorites_top_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

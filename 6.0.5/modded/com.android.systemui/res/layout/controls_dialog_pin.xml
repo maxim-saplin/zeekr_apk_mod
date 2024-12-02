@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="?android:dialogPreferredPadding" android:paddingRight="?android:dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/controls_pin_input" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:inputType="numberPassword" android:textAlignment="viewStart" />
+    <CheckBox android:id="@id/controls_pin_use_alpha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:minHeight="48.0dip" android:text="@string/controls_pin_use_alphanumeric" />
+</LinearLayout>

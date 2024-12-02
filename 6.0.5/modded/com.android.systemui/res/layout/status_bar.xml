@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.PhoneStatusBarView android:orientation="vertical" android:id="@id/status_bar" android:focusable="false" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_height" android:accessibilityPaneTitle="@string/status_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <ImageView android:id="@id/notification_lights_out" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="@dimen/status_bar_icon_size" android:layout_height="fill_parent" android:src="@drawable/ic_sysbar_lights_out_dot_small" android:scaleType="center" android:paddingStart="@dimen/status_bar_padding_start" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/status_bar_contents" android:paddingTop="@dimen/status_bar_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/status_bar_padding_start" android:paddingEnd="@dimen/status_bar_padding_end">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <include layout="@layout/heads_up_status_bar_layout" />
+            <LinearLayout android:id="@id/status_bar_left_side" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ViewStub android:id="@id/operator_name" android:layout="@layout/operator_name" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                <com.android.systemui.statusbar.policy.Clock android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:gravity="start|center" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:paddingStart="@dimen/status_bar_left_clock_starting_padding" android:paddingEnd="@dimen/status_bar_left_clock_end_padding" />
+                <include layout="@layout/ongoing_call_chip" />
+                <com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:orientation="horizontal" android:id="@id/notification_icon_area" android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+        </FrameLayout>
+        <android.widget.Space android:gravity="center" android:id="@id/cutout_space_view" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+        <com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:gravity="center" android:orientation="horizontal" android:id="@id/centered_icon_area" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/system_icon_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <include layout="@layout/system_icons" />
+        </com.android.keyguard.AlphaOptimizedLinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/emergency_cryptkeeper_text" android:layout="@layout/emergency_cryptkeeper_text" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</com.android.systemui.statusbar.phone.PhoneStatusBarView>

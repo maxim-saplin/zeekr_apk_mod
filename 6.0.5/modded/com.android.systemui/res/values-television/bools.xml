@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_changeVolumeRowTintWhenInactive">false</bool>
+    <bool name="config_showLowMediaVolumeIcon">true</bool>
+    <bool name="config_volumeDialogUseBackgroundBlur">true</bool>
+</resources>

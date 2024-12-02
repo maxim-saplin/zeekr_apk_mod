@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyguard_security_height">470.0dip</dimen>
+    <item type="dimen" name="mr_dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="mr_dialog_fixed_width_minor">70.00001%</item>
+    <dimen name="settingslib_switchbar_subsettings_margin_end">80.0dip</dimen>
+    <dimen name="status_bar_icon_padding">1.0dip</dimen>
+    <dimen name="widget_big_font_size">100.0dip</dimen>
+</resources>

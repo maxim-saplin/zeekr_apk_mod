@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Jei norite įjungti pranešimus, palieskite čia.</string>
+    <string name="notifications_off_title">Pranešimai išjungti</string>
+    <string name="status_bar_clear_all_button">Išv. viską</string>
+</resources>

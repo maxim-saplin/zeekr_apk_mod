@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@anim/$lock_unlock_filled__9" android:duration="67" android:startOffset="0" android:valueFrom="M-3 13.04 C-3,13.04 -3,9.04 -3,9.04 C-3,6.83 -1.03,5.04 0.91,5 C3.12,4.96 5,6.79 5,9 C5,9 5,13 5,13 " android:valueTo="M-3 6.73 C-3,5.62 -2.56,4.67 -1.84,4 C-1.11,3.32 -0.09,2.93 1.06,2.94 C3.27,2.96 5,4.54 5,6.75 C5,6.75 5,13 5,13 " android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@anim/$lock_unlock_filled__10" android:duration="183" android:startOffset="67" android:valueFrom="M-3 6.73 C-3,5.62 -2.56,4.67 -1.84,4 C-1.11,3.32 -0.09,2.93 1.06,2.94 C3.27,2.96 5,4.54 5,6.75 C5,6.75 5,13 5,13 " android:valueTo="M13 9 C13,7.9 12.55,6.9 11.83,6.17 C11.1,5.45 10.11,5 9,5 C6.79,5 5,6.79 5,9 C5,9 5,13 5,13 " android:valueType="pathType" android:propertyName="pathData" />
+</set>

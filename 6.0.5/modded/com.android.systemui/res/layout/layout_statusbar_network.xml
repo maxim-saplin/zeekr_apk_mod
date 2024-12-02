@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="@dimen/car_top_navigation_bar_height" android:minWidth="96.0dip" android:paddingHorizontal="28.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_mobile_signal" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <TextView android:textSize="36.0sp" android:textColor="#ff383a3d" android:layout_gravity="center" android:id="@id/tv_network_none" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无服务" android:layout_marginStart="5.0dip" />
+</LinearLayout>

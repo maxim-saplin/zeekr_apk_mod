@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/passenger_temp_slider_content" android:clipChildren="false" android:layout_width="@dimen/dock_passenger_temp_slider_width" android:layout_height="186.0px">
+        <com.zeekr.systemui.statusbar.pma.view.TemperatureSeekbar android:id="@id/passenger_temp_seekbar" android:layout_width="740.0px" android:layout_height="166.0px" android:layout_marginTop="28.0dip" android:layout_marginHorizontal="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

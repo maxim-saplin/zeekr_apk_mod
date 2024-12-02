@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSFooterView android:id="@id/qs_footer" android:background="@android:color/transparent" android:clickable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/qs_footer_height" android:layout_marginBottom="@dimen/qs_footers_margin_bottom" android:baselineAligned="false" android:layout_marginStart="@dimen/qs_footer_margin" android:layout_marginEnd="@dimen/qs_footer_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <TextView android:textAppearance="@style/TextAppearance.QS.Status.Build" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/build" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:paddingStart="@dimen/qs_tile_margin_horizontal" android:paddingEnd="4.0dip" />
+            <com.android.systemui.qs.PageIndicator android:layout_gravity="center_vertical" android:id="@id/footer_page_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <include android:id="@id/qs_footer_actions" layout="@layout/footer_actions" />
+    </LinearLayout>
+</com.android.systemui.qs.QSFooterView>

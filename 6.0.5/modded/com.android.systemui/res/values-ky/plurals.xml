@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d күн мурун</item>
+        <item quantity="one">%d күн мурун</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d мүн. мурун</item>
+        <item quantity="one">%d мүн. мурун</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d жыл мурун</item>
+        <item quantity="one">%d жыл мурун</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s башкаруу элементи кошулду.</item>
+        <item quantity="one">%s башкаруу элементи кошулду.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM-картанын PIN кодун киргизиңиз. Сизде %d аракет калды.</item>
+        <item quantity="one">SIM-картанын PIN кодун киргизиңиз. Сизде %d аракет калды, андан кийин түзмөктү бөгөттөн чыгаруу үчүн байланыш операторуна кайрылышыңыз керек болот.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM-карта азыр жарактан чыкты. Улантуу үчүн PUK-кодду киргизиңиз. SIM-картанын биротоло жарактан чыгарына %d аракет калды. Чоо-жайын билүү үчүн байланыш операторуна кайрылыңыз.</item>
+        <item quantity="one">SIM-карта азыр жарактан чыкты. Улантуу үчүн PUK-кодду киргизиңиз. SIM-картанын биротоло жарактан чыгаарына %d аракет калды. Чоо-жайын билүү үчүн байланыш операторуна кайрылыңыз.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM-картанын PIN-коду туура эмес, сизде %d аракет калды.</item>
+        <item quantity="one">SIM-картанын PIN-коду туура эмес, сизде %d аракет калды. Болбосо, түзмөктү бөгөттөн чыгаруу үчүн байланыш операторуңузга кайрылышыңыз керек.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM-картанын PUK-коду туура эмес, SIM-картанын биротоло жарактан чыгаарына %d аракет калды.</item>
+        <item quantity="one">SIM-картанын PUK-коду туура эмес, SIM-картанын биротоло жарактан чыгаарына %d аракет калды.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d секунддан кийин кайталаңыз.</item>
+        <item quantity="one">1 секунддан кийин кайталаңыз.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d жаңы билдирме</item>
+        <item quantity="one">%d жаңы билдирме</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Дагы %s эскертме бар.</item>
+        <item quantity="one">Дагы %s эскертме бар.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d түзмөк</item>
+        <item quantity="one">%d түзмөк</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d саат</item>
+        <item quantity="one">%d саат</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d мүнөт</item>
+        <item quantity="one">%d мүнөт</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">%d колдонуучуга чейин кошууга болот.</item>
+        <item quantity="one">Бир колдонуучуну гана кошууга болот.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d түзмөк туташып турат</item>
+        <item quantity="one">%1$d түзмөк туташып турат</item>
+    </plurals>
+</resources>

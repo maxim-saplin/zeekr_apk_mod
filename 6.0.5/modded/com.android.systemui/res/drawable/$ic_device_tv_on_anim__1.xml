@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$ic_device_tv_on_anim__2" android:duration="500" android:startOffset="0" android:valueFrom="M11.94 11.56 C11.94,11.38 11.75,11.38 11.75,11.38 C11.75,11.38 11.94,11.37 11.94,11.19 C11.94,11.37 12.13,11.38 12.13,11.38 C12.13,11.38 11.94,11.38 11.94,11.56c " android:valueTo="M11.94 32.38 C11.74,11.73 -9.06,11.38 -9.06,11.38 C-9.06,11.38 11.64,11.11 11.94,-9.62 C11.85,11.21 32.94,11.38 32.94,11.38 C32.94,11.38 11.74,11.52 11.94,32.38c " android:valueType="pathType" android:propertyName="pathData" />
+</set>

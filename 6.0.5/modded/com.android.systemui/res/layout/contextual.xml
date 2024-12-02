@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/menu_container" android:focusable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/navigation_key_width" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <com.android.systemui.navigationbar.buttons.KeyButtonView android:id="@id/menu" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:layout_weight="0.0" android:contentDescription="@string/accessibility_menu" android:paddingStart="@dimen/navigation_key_padding" android:paddingEnd="@dimen/navigation_key_padding" systemui:keyCode="82" systemui:playSound="false" />
+    <include android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ime_switcher" />
+    <include android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/rotate_suggestion" />
+    <com.android.systemui.navigationbar.buttons.KeyButtonView android:id="@id/accessibility_button" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:layout_weight="0.0" android:contentDescription="@string/accessibility_accessibility_button" android:paddingStart="@dimen/navigation_key_padding" android:paddingEnd="@dimen/navigation_key_padding" />
+</FrameLayout>

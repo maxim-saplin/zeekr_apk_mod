@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animation avstängd</item>
+        <item>Animation i skala 0,5x</item>
+        <item>Animation i skala 1x</item>
+        <item>Animation i skala 1,5x</item>
+        <item>Animation i skala 2x</item>
+        <item>Animation i skala 5x</item>
+        <item>Animation i skala 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standardgräns</item>
+        <item>Inga bakgrundsprocesser</item>
+        <item>Högst 1 process</item>
+        <item>Högst 2 processer</item>
+        <item>Högst 3 processer</item>
+        <item>Högst 4 processer</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Visa alltid procent</item>
+        <item>Visa procent under laddning (standard)</item>
+        <item>Visa inte den här ikonen</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Använd systemval (standardinställning)</item>
+        <item>16 bitar/sampling</item>
+        <item>24 bitar/sampling</item>
+        <item>32 bitar/sampling</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Använd systemval (standardinställning)</item>
+        <item>16 bitar/sampling</item>
+        <item>24 bitar/sampling</item>
+        <item>32 bitar/sampling</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Använd systemval (standardinställning)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Använd systemval (standardinställning)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimerad för ljudkvalitet</item>
+        <item>Balanserad ljud- och anslutningskvalitet</item>
+        <item>Optimerad för anslutningskvalitet</item>
+        <item>Bästa möjliga kvalitet (anpassad bithastighet)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimerad för ljudkvalitet (990 kbit/s eller 909 kbit/s)</item>
+        <item>Balanserad ljud- och anslutningskvalitet (660 kbit/s/606 kbit/s)</item>
+        <item>Optimerad för anslutningskvalitet (330 kbit/s eller 303 kbit/s)</item>
+        <item>Bästa möjliga kvalitet (anpassad bithastighet)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Använd systemval (standardinställning)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Använd systemval (standardinställning)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Använd systemval (standardinställning)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™-ljud</item>
+        <item>Qualcomm® aptX™ HD-ljud</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Använd systemval (standardinställning)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™-ljud</item>
+        <item>Qualcomm® aptX™ HD-ljud</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktiv</item>
+        <item>, aktiv (media)</item>
+        <item>, aktiv (telefon)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (standard)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (standard)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Inaktiverat</item>
+        <item>Filtrering har aktiverats</item>
+        <item>Aktiverad</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Visa timmar, minuter och sekunder</item>
+        <item>Visa timmar och minuter (standard)</item>
+        <item>Visa inte den här ikonen</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Berikade färger</item>
+        <item>Naturliga färger så som ögat ser dem</item>
+        <item>Färger som har anpassats för digitalt innehåll</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Starka (standard)</item>
+        <item>Naturliga</item>
+        <item>Standardfärger</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Av</item>
+        <item>Visa överritningsområden</item>
+        <item>Visa områden för deuteranomali</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Inga</item>
+        <item>Logcat</item>
+        <item>Systrace (grafik)</item>
+        <item>Anropsstacken på glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Använd aldrig HDCP-kontroll</item>
+        <item>Använd bara HDCP-kontroll för DRM-innehåll</item>
+        <item>Använd alltid HDCP-kontroll</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Kontrollera aldrig</item>
+        <item>Kontrollera bara DRM-innehåll</item>
+        <item>Kontrollera alltid</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Urklipp</item>
+        <item>Tangentkod</item>
+        <item>Bekräfta rotation, byt mellan meny/tangentbord</item>
+        <item>Ingen</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normal</item>
+        <item>Kompakt</item>
+        <item>Lutande åt vänster</item>
+        <item>Lutande åt höger</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Inga</item>
+        <item>480 p</item>
+        <item>480 p (säkert)</item>
+        <item>720 p</item>
+        <item>720 p (säkert)</item>
+        <item>1080 p</item>
+        <item>1080 p (säkert)</item>
+        <item>4K</item>
+        <item>4K (säkert)</item>
+        <item>4K (uppskalat)</item>
+        <item>4K (uppskalat, säkert)</item>
+        <item>720 p, 1080 p (dubbla skärmar)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Av</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Av</item>
+        <item>64 kB/loggbuffert</item>
+        <item>256 kB/loggbuffert</item>
+        <item>1 MB/loggbuffert</item>
+        <item>4 MB/loggbuffert</item>
+        <item>8 MB/loggbuffert</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Av</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>8 MB</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Av</item>
+        <item>Alla loggbuffertar</item>
+        <item>Alla loggbuffertar utom för radio</item>
+        <item>endast buffert av kernellogg</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Av</item>
+        <item>Alla</item>
+        <item>Alla utom radio</item>
+        <item>endast kernel</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Av</item>
+        <item>Rita icke-rektangulära urklippsavsnitt i blått</item>
+        <item>Markera testade ritningskommandon i grönt</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Inte tillgängligt</item>
+        <item>Av</item>
+        <item>På</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Av</item>
+        <item>På skärmen som fält</item>
+        <item>Om adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animation avstängd</item>
+        <item>Animation i skala 0,5x</item>
+        <item>Animation i skala 1x</item>
+        <item>Animation i skala 1,5x</item>
+        <item>Animation i skala 2x</item>
+        <item>Animation i skala 5x</item>
+        <item>Animation i skala 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Mycket långsam</item>
+        <item>Långsam</item>
+        <item>Normal</item>
+        <item>Snabb</item>
+        <item>Snabbare</item>
+        <item>Mycket snabb</item>
+        <item>Supersnabb</item>
+        <item>Turbosnabb</item>
+        <item>Snabbast</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Laddar</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB-ethernet)</item>
+        <item>Ljudkälla</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Skannar…</item>
+        <item>Ansluter…</item>
+        <item>Autentiserar…</item>
+        <item>Erhåller IP-adress…</item>
+        <item>Ansluten</item>
+        <item>Pausad</item>
+        <item>Kopplar ifrån…</item>
+        <item>Frånkopplad</item>
+        <item>Misslyckades</item>
+        <item>Blockerat</item>
+        <item>Undviker just nu dålig anslutning</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skannar…</item>
+        <item>Ansluter till %1$s…</item>
+        <item>Autentiserar med %1$s…</item>
+        <item>Hämtar IP-adress från %1$s…</item>
+        <item>Ansluten till: %1$s</item>
+        <item>Pausad</item>
+        <item>Kopplar ifrån %1$s…</item>
+        <item>Frånkopplad</item>
+        <item>Misslyckades</item>
+        <item>Blockerat</item>
+        <item>Undviker just nu dålig anslutning</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Söker …</item>
+        <item>Ansluter …</item>
+        <item>Autentiserar …</item>
+        <item>Hämtar IP-adress …</item>
+        <item>Ansluten</item>
+        <item>Avstängt</item>
+        <item>Kopplar från …</item>
+        <item>Frånkopplad</item>
+        <item>Misslyckades</item>
+        <item>Blockerat</item>
+        <item>Undviker just nu dålig anslutning</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animation avstängd</item>
+        <item>Animation i skala 0,5x</item>
+        <item>Animation i skala 1x</item>
+        <item>Animation i skala 1,5x</item>
+        <item>Animation i skala 2x</item>
+        <item>Animation i skala 5x</item>
+        <item>Animation i skala 10x</item>
+    </string-array>
+</resources>

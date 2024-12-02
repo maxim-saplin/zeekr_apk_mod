@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/menu_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:accessibilityTraversalAfter="@id/dismiss" android:forceHasOverlappingRendering="false">
+        <FrameLayout android:id="@id/expand_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/expand_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/pip_expand_action_size" android:layout_height="@dimen/pip_expand_action_size" android:src="@drawable/pip_expand" android:contentDescription="@string/pip_phone_expand" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/actions_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/pip_action_size">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/actions_group" android:layout_width="wrap_content" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:showDividers="middle" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="end|center|top" android:orientation="horizontal" android:id="@id/top_end_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:gravity="center" android:layout_gravity="start|center|top" android:id="@id/settings" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/pip_action_size" android:layout_height="@dimen/pip_action_size" android:src="@drawable/pip_ic_settings" android:contentDescription="@string/pip_phone_settings" />
+        <ImageButton android:gravity="center" android:layout_gravity="start|center|top" android:id="@id/enter_split" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/pip_split_icon_size" android:layout_height="@dimen/pip_split_icon_size" android:layout_margin="@dimen/pip_split_icon_margin" android:src="@drawable/pip_split" android:contentDescription="@string/pip_phone_enter_split" />
+    </LinearLayout>
+    <ImageButton android:layout_gravity="start|center|top" android:id="@id/resize_handle" android:background="?android:selectableItemBackgroundBorderless" android:padding="@dimen/pip_resize_handle_padding" android:layout_width="@dimen/pip_resize_handle_size" android:layout_height="@dimen/pip_resize_handle_size" android:layout_margin="@dimen/pip_resize_handle_margin" android:src="@drawable/pip_resize_handle" />
+    <ImageButton android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/dismiss" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/pip_action_size" android:layout_height="@dimen/pip_action_size" android:src="@drawable/pip_ic_close_white" android:contentDescription="@string/pip_phone_close" />
+</FrameLayout>

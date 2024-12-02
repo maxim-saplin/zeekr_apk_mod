@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>关闭动画</item>
+        <item>动画缩放 0.5x</item>
+        <item>动画缩放 1x</item>
+        <item>动画缩放 1.5x</item>
+        <item>动画缩放 2x</item>
+        <item>动画缩放 5x</item>
+        <item>动画缩放 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>标准限制</item>
+        <item>不允许后台进程</item>
+        <item>不得超过1个进程</item>
+        <item>不得超过2个进程</item>
+        <item>不得超过3个进程</item>
+        <item>不得超过4个进程</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>一律显示百分比</item>
+        <item>充电时显示百分比（默认）</item>
+        <item>不显示此图标</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>使用系统选择（默认）</item>
+        <item>16 位/样本</item>
+        <item>24 位/样本</item>
+        <item>32 位/样本</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>使用系统选择（默认）</item>
+        <item>16 位/样本</item>
+        <item>24 位/样本</item>
+        <item>32 位/样本</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>使用系统选择（默认）</item>
+        <item>单声道</item>
+        <item>立体声</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>使用系统选择（默认）</item>
+        <item>单声道</item>
+        <item>立体声</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>偏重音频质量</item>
+        <item>兼顾音频和连接质量</item>
+        <item>偏重连接质量</item>
+        <item>尽可能提供更佳音质（自适应比特率）</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>偏重音频质量 (990kbps/909kbps)</item>
+        <item>兼顾音频和连接质量 (660kbps/606kbps)</item>
+        <item>偏重连接质量 (330kbps/303kbps)</item>
+        <item>尽可能提供更佳音质（自适应比特率）</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>使用系统选择（默认）</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>使用系统选择（默认）</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>使用系统选择（默认）</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ 音频</item>
+        <item>Qualcomm® aptX™ HD 音频</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>使用系统选择（默认）</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ 音频</item>
+        <item>Qualcomm® aptX™ HD 音频</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>，使用中</item>
+        <item>，使用中（媒体）</item>
+        <item>，使用中（手机）</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5（默认）</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2（默认）</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <integer-array name="branch_integer_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </integer-array>
+    <string-array name="branch_string_array">
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>已停用</item>
+        <item>已启用“已过滤”</item>
+        <item>已启用</item>
+    </string-array>
+    <string-array name="chinese_zodiac_array">
+        <item>鸡</item>
+        <item>狗</item>
+        <item>猪</item>
+        <item>鼠</item>
+        <item>牛</item>
+        <item>虎</item>
+        <item>兔</item>
+        <item>龙</item>
+        <item>蛇</item>
+        <item>马</item>
+        <item>羊</item>
+        <item>猴</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>显示小时、分钟和秒</item>
+        <item>显示小时和分钟（默认）</item>
+        <item>不显示此图标</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>增强的颜色</item>
+        <item>肉眼所看到的自然颜色</item>
+        <item>针对数字内容优化的颜色</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>鲜亮（默认）</item>
+        <item>自然</item>
+        <item>标准</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>关闭</item>
+        <item>显示过度绘制区域</item>
+        <item>显示适合绿色弱视患者查看的区域</item>
+    </string-array>
+    <string-array name="dvr_tips">
+        <item>视频采集系统故障！</item>
+        <item>录像失败，行车记录仪无法进行录像和拍照！</item>
+        <item>全景影像错误，行车记录仪无法保存全景影像！</item>
+        <item>行车记录仪U盘写速度慢，建议格式化恢复速度</item>
+        <item>U盘未插入，行车记录仪无法工作</item>
+        <item>U盘无法写入，行车记录仪无法工作，请更换U盘</item>
+        <item>U盘不符合行车记录仪要求，请使用128GB及以上且写入速度10Mb/s以上</item>
+        <item>行车记录仪使用空间不足64G，无法进行任何录像和拍照，请删除多余私有文件</item>
+        <item>请稍后校核录像</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>无</item>
+        <item>Logcat</item>
+        <item>Systrace（图形）</item>
+        <item>glGetError 上的调用堆栈</item>
+    </string-array>
+    <string-array name="event_track_scene_mode">
+        <item>休憩模式</item>
+        <item>洗车模式</item>
+        <item>宠物模式</item>
+        <item>营地模式</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>一律不使用 HDCP 检查</item>
+        <item>仅使用 HDCP 检查 DRM 内容</item>
+        <item>始终使用 HDCP 检查</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>永不检查</item>
+        <item>仅检查 DRM 内容</item>
+        <item>总是检查</item>
+    </string-array>
+    <string-array name="lunar_first_of_month">
+        <item>春节</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="lunar_str">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+        <item>三十</item>
+    </string-array>
+    <string-array name="month_string_array">
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>剪贴板</item>
+        <item>键码</item>
+        <item>确认旋转、键盘切换器</item>
+        <item>无</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>一般</item>
+        <item>紧凑</item>
+        <item>靠左</item>
+        <item>靠右</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>无</item>
+        <item>480p</item>
+        <item>480p（安全）</item>
+        <item>720p</item>
+        <item>720p（安全）</item>
+        <item>1080p</item>
+        <item>1080p（安全）</item>
+        <item>4K</item>
+        <item>4K（安全）</item>
+        <item>4K（画质提升）</item>
+        <item>4K（画质提升、安全）</item>
+        <item>720p，1080p（双屏）</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>关闭</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>已关闭</item>
+        <item>每个日志缓冲区 64K</item>
+        <item>每个日志缓冲区 256K</item>
+        <item>每个日志缓冲区 1M</item>
+        <item>每个日志缓冲区 4M</item>
+        <item>每个日志缓冲区 8M</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>关闭</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>已关闭</item>
+        <item>所有日志缓冲区</item>
+        <item>所有非无线电日志缓冲区</item>
+        <item>仅限内核日志缓冲区</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>关闭</item>
+        <item>全部</item>
+        <item>所有非无线电</item>
+        <item>仅限内核</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>关闭</item>
+        <item>以蓝色填充非矩形剪裁区域</item>
+        <item>以绿色突出显示测试绘制命令</item>
+    </string-array>
+    <string-array name="solar_festival">
+        <item>0101元旦</item>
+        <item>0214情人节</item>
+        <item>0308妇女节</item>
+        <item>0312植树节</item>
+        <item>0315消权日</item>
+        <item>0401愚人节</item>
+        <item>0422地球日</item>
+        <item>0501劳动节</item>
+        <item>0504青年节</item>
+        <item>0601儿童节</item>
+        <item>0701建党节</item>
+        <item>0801建军节</item>
+        <item>0910教师节</item>
+        <item>1001国庆节</item>
+        <item>1031万圣节</item>
+        <item>1224平安夜</item>
+        <item>1225圣诞节</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+    </string-array>
+    <string-array name="special_festivals">
+        <item>母亲节</item>
+        <item>父亲节</item>
+        <item>感恩节</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>不可用</item>
+        <item>已关闭</item>
+        <item>已开启</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>关闭</item>
+        <item>在屏幕上显示为条形图</item>
+        <item>在 adb shell dumpsys gfxinfo 中</item>
+    </string-array>
+    <string-array name="tradition_festival">
+        <item>除夕</item>
+        <item>0101春节</item>
+        <item>0115元宵</item>
+        <item>0505端午</item>
+        <item>0707七夕</item>
+        <item>0815中秋</item>
+        <item>0909重阳</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>关闭动画</item>
+        <item>动画缩放 0.5x</item>
+        <item>动画缩放 1x</item>
+        <item>动画缩放 1.5x</item>
+        <item>动画缩放 2x</item>
+        <item>动画缩放 5x</item>
+        <item>动画缩放 10x</item>
+    </string-array>
+    <integer-array name="trunk_integer_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    <string-array name="trunk_string_array">
+        <item>辛</item>
+        <item>壬</item>
+        <item>癸</item>
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>己</item>
+        <item>庚</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>很慢</item>
+        <item>慢</item>
+        <item>正常</item>
+        <item>快</item>
+        <item>较快</item>
+        <item>非常快</item>
+        <item>超快</item>
+        <item>极快</item>
+        <item>最快</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>充电</item>
+        <item>MTP（媒体传输协议）</item>
+        <item>PTP（图片传输协议）</item>
+        <item>RNDIS（USB 以太网）</item>
+        <item>音频来源</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="week_string_array">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>正在扫描...</item>
+        <item>正在连接...</item>
+        <item>正在验证身份…</item>
+        <item>正在获取IP地址...</item>
+        <item>已连接</item>
+        <item>已暂停</item>
+        <item>正在断开连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已停用</item>
+        <item>暂时关闭（网络状况不佳）</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>正在扫描...</item>
+        <item>正在连接到 %1$s...</item>
+        <item>正在通过 %1$s 进行身份验证...</item>
+        <item>正在从%1$s获取IP地址...</item>
+        <item>已连接到“%1$s”</item>
+        <item>已暂停</item>
+        <item>正在断开与 %1$s 的连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已停用</item>
+        <item>暂时关闭（网络状况不佳）</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>正在扫描…</item>
+        <item>正在连接…</item>
+        <item>正在验证身份…</item>
+        <item>正在获取 IP 地址…</item>
+        <item>已连接</item>
+        <item>已暂停</item>
+        <item>正在断开连接…</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已屏蔽</item>
+        <item>连接状况不佳，暂时停用</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>关闭动画</item>
+        <item>动画缩放 0.5x</item>
+        <item>动画缩放 1x</item>
+        <item>动画缩放 1.5x</item>
+        <item>动画缩放 2x</item>
+        <item>动画缩放 5x</item>
+        <item>动画缩放 10x</item>
+    </string-array>
+    <string-array name="year_view_week_string_array">
+        <item>S</item>
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+    </string-array>
+</resources>

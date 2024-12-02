@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.wm.shell.compatui.CompatUILayout android:gravity="end|bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/size_compat_hint" layout="@layout/compat_mode_hint" />
+    <ImageButton android:id="@id/size_compat_restart_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/compat_button_margin" android:src="@drawable/size_compat_restart_button_ripple" android:contentDescription="@string/restart_button_description" android:layout_marginEnd="@dimen/compat_button_margin" />
+</com.android.wm.shell.compatui.CompatUILayout>

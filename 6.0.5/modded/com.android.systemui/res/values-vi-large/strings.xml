@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Chạm vào đây để bật lại thông báo.</string>
+    <string name="notifications_off_title">Tắt thông báo</string>
+    <string name="status_bar_clear_all_button">Xóa tất cả</string>
+</resources>

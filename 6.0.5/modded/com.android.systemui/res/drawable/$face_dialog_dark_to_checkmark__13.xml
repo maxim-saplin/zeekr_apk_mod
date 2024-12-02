@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$face_dialog_dark_to_checkmark__14" android:duration="33" android:startOffset="0" android:valueFrom="0.08" android:valueTo="0.08" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_dark_to_checkmark__15" android:duration="33" android:startOffset="0" android:valueFrom="0.08" android:valueTo="0.08" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_dark_to_checkmark__16" android:duration="167" android:startOffset="33" android:valueFrom="0.08" android:valueTo="0.12789" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_dark_to_checkmark__17" android:duration="167" android:startOffset="33" android:valueFrom="0.08" android:valueTo="0.12789" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_dark_to_checkmark__18" android:duration="100" android:startOffset="200" android:valueFrom="0.12789" android:valueTo="0.12241" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_dark_to_checkmark__19" android:duration="100" android:startOffset="200" android:valueFrom="0.12789" android:valueTo="0.12241" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_dark_to_checkmark__20" android:duration="67" android:startOffset="300" android:valueFrom="0.12241" android:valueTo="0.125" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_dark_to_checkmark__21" android:duration="67" android:startOffset="300" android:valueFrom="0.12241" android:valueTo="0.125" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

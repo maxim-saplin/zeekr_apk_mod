@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$face_dialog_wink_from_dark__2" android:duration="433" android:startOffset="0" android:valueFrom="1" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_wink_from_dark__3" android:duration="433" android:startOffset="0" android:valueFrom="1" android:valueTo="0.26" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_wink_from_dark__4" android:duration="317" android:startOffset="433" android:valueFrom="1" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$face_dialog_wink_from_dark__5" android:duration="317" android:startOffset="433" android:valueFrom="0.26" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

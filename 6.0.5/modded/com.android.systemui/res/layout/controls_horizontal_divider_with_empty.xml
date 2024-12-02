@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/control_height" />
+    <View android:id="@id/divider" android:background="#4dffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/controls_management_editing_divider_margin" android:layout_marginBottom="@dimen/controls_management_editing_divider_margin" />
+</LinearLayout>

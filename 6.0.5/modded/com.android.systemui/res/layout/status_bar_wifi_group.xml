@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.StatusBarWifiView android:gravity="center_vertical" android:id="@id/wifi_combo" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="center_vertical" android:id="@id/wifi_group" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="2.5dip">
+        <FrameLayout android:gravity="center_vertical" android:id="@id/inout_container" android:layout_width="wrap_content" android:layout_height="17.0dip">
+            <ImageView android:id="@id/wifi_in" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_activity_down" android:paddingEnd="2.0dip" />
+            <ImageView android:id="@id/wifi_out" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_activity_up" android:paddingEnd="2.0dip" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center_vertical" android:id="@id/wifi_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.android.systemui.statusbar.AlphaOptimizedImageView android:id="@id/wifi_signal" android:layout_width="@dimen/status_bar_wifi_signal_size" android:layout_height="@dimen/status_bar_wifi_signal_size" />
+        </FrameLayout>
+        <View android:id="@id/wifi_signal_spacer" android:visibility="gone" android:layout_width="@dimen/status_bar_wifi_signal_spacer_width" android:layout_height="4.0dip" />
+        <ViewStub android:id="@id/connected_device_signals_stub" android:layout="@layout/connected_device_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:id="@id/wifi_airplane_spacer" android:visibility="gone" android:layout_width="@dimen/status_bar_airplane_spacer_width" android:layout_height="4.0dip" />
+    </com.android.keyguard.AlphaOptimizedLinearLayout>
+</com.android.systemui.statusbar.StatusBarWifiView>

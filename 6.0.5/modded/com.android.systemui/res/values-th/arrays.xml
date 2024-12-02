@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>ปิดภาพเคลื่อนไหว</item>
+        <item>อัตราการเคลื่อนไหว 0.5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 1 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 1.5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 2 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 10 เท่า</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ขีดจำกัดมาตรฐาน</item>
+        <item>ไม่มีกระบวนการพื้นหลัง</item>
+        <item>มากที่สุด 1 กระบวนการ</item>
+        <item>มากที่สุด 2 กระบวนการ</item>
+        <item>มากที่สุด 3 กระบวนการ</item>
+        <item>มากที่สุด 4 กระบวนการ</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>แสดงเปอร์เซ็นต์เสมอ</item>
+        <item>แสดงเปอร์เซ็นต์เมื่อชาร์จ (ค่าเริ่มต้น)</item>
+        <item>อย่าแสดงไอคอนนี้</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>16 บิต/ตัวอย่าง</item>
+        <item>24 บิต/ตัวอย่าง</item>
+        <item>32 บิต/ตัวอย่าง</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>16 บิต/ตัวอย่าง</item>
+        <item>24 บิต/ตัวอย่าง</item>
+        <item>32 บิต/ตัวอย่าง</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>โมโน</item>
+        <item>สเตอริโอ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>โมโน</item>
+        <item>สเตอริโอ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>เพิ่มประสิทธิภาพเพื่อคุณภาพเสียง</item>
+        <item>คุณภาพเสียงและการเชื่อมต่อที่สมดุล</item>
+        <item>เพิ่มประสิทธิภาพเพื่อคุณภาพการเชื่อมต่อ</item>
+        <item>ดีที่สุดเท่าที่ทำได้ (ปรับอัตราบิตอัตโนมัติ)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>เพิ่มประสิทธิภาพเพื่อคุณภาพเสียง (990 kbps/909 kbps)</item>
+        <item>คุณภาพเสียงและการเชื่อมต่อที่สมดุล (660 kbps/606 kbps)</item>
+        <item>เพิ่มประสิทธิภาพเพื่อคุณภาพการเชื่อมต่อ (330 kbps/303 kbps)</item>
+        <item>ดีที่สุดเท่าที่ทำได้ (ปรับอัตราบิตอัตโนมัติ)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>เสียง Qualcomm® aptX™</item>
+        <item>เสียง Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>ใช้การเลือกของระบบ (ค่าเริ่มต้น)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>เสียง Qualcomm® aptX™</item>
+        <item>เสียง Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>ใช้งานอยู่</item>
+        <item>ใช้งานอยู่ (สื่อ)</item>
+        <item>ใช้งานอยู่ (โทรศัพท์)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (ค่าเริ่มต้น)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ค่าเริ่มต้น)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>ปิดใช้</item>
+        <item>เปิดใช้รายการที่กรอง</item>
+        <item>เปิดใช้</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>แสดงชั่วโมง นาที และวินาที</item>
+        <item>แสดงชั่วโมงและนาที (ค่าเริ่มต้น)</item>
+        <item>อย่าแสดงไอคอนนี้</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>สีที่ได้รับการปรับปรุง</item>
+        <item>สีธรรมชาติตามที่ดวงตามองเห็น</item>
+        <item>สีที่เหมาะกับเนื้อหาดิจิทัล</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>สด (ค่าเริ่มต้น)</item>
+        <item>ธรรมชาติ</item>
+        <item>มาตรฐาน</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ปิด</item>
+        <item>แสดงพื้นที่การวาดทับ</item>
+        <item>แสดงพื้นที่สำหรับคนตาบอดสีเขียว</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ไม่มี</item>
+        <item>Logcat</item>
+        <item>Systrace (กราฟิก)</item>
+        <item>ชุดรายการเรียกใน glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>ห้ามใช้การตรวจสอบ HDCP</item>
+        <item>ใช้การตรวจสอบ HDCP สำหรับเนื้อหา DRM เท่านั้น</item>
+        <item>ใช้การตรวจสอบ HDCP เสมอ</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ไม่ต้องตรวจสอบ</item>
+        <item>ตรวจสอบเนื้อหา DRM เท่านั้น</item>
+        <item>ตรวจสอบทุกครั้ง</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>คลิปบอร์ด</item>
+        <item>Keycode</item>
+        <item>การยืนยันการหมุน, ปุ่มสลับแป้นพิมพ์</item>
+        <item>ไม่มี</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>ปกติ</item>
+        <item>กะทัดรัด</item>
+        <item>เอนไปทางซ้าย</item>
+        <item>เอนไปทางขวา</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ไม่มี</item>
+        <item>480p</item>
+        <item>480p (ปลอดภัย)</item>
+        <item>720p</item>
+        <item>720p (ปลอดภัย)</item>
+        <item>1080p</item>
+        <item>1080p (ปลอดภัย)</item>
+        <item>4K</item>
+        <item>4K (ปลอดภัย)</item>
+        <item>4K (เพิ่มความละเอียด)</item>
+        <item>4K (เพิ่มความละเอียด ปลอดภัย)</item>
+        <item>720p, 1080p (หน้าจอคู่)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ปิด</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ปิด</item>
+        <item>64 K ต่อบัฟเฟอร์ไฟล์บันทึก</item>
+        <item>256 K ต่อบัฟเฟอร์ไฟล์บันทึก</item>
+        <item>1 M ต่อบัฟเฟอร์ไฟล์บันทึก</item>
+        <item>4 M ต่อบัฟเฟอร์ไฟล์บันทึก</item>
+        <item>8 M ต่อบัฟเฟอร์ไฟล์บันทึก</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ปิด</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>8 M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ปิด</item>
+        <item>บัฟเฟอร์บันทึกทั้งหมด</item>
+        <item>ทั้งหมดยกเว้นบัฟเฟอร์บันทึกวิทยุ</item>
+        <item>เฉพาะบัฟเฟอร์ไฟล์บันทึกเคอร์เนล</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ปิด</item>
+        <item>ทั้งหมด</item>
+        <item>ทั้งหมดเว้นวิทยุ</item>
+        <item>เฉพาะเคอร์เนล</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ปิด</item>
+        <item>วาดคลิปที่ไม่ใช่สี่เหลี่ยมด้วยสีฟ้า</item>
+        <item>ไฮไลต์คำสั่งวาดที่ทดสอบด้วยสีเขียว</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>ไม่พร้อมใช้งาน</item>
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ปิด</item>
+        <item>เป็นแถบบนหน้าจอ</item>
+        <item>ใน adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ปิดภาพเคลื่อนไหว</item>
+        <item>อัตราการเคลื่อนไหว 0.5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 1 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 1.5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 2 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 10 เท่า</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ช้ามาก</item>
+        <item>ช้า</item>
+        <item>ปกติ</item>
+        <item>เร็ว</item>
+        <item>เร็วขึ้น</item>
+        <item>เร็วมาก</item>
+        <item>เร็ว</item>
+        <item>เร็วมาก</item>
+        <item>เร็วที่สุด</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>การชาร์จ</item>
+        <item>MTP (โปรโตคอลการโอนสื่อ)</item>
+        <item>PTP (โปรโตคอลการโอนรูปภาพ)</item>
+        <item>RNDIS (อีเทอร์เน็ต USB)</item>
+        <item>แหล่งที่มาของเสียง</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>กำลังสแกน...</item>
+        <item>กำลังเชื่อมต่อ…</item>
+        <item>กำลังตรวจสอบความถูกต้อง…</item>
+        <item>กำลังรับที่อยู่ IP…</item>
+        <item>เชื่อมต่อแล้ว</item>
+        <item>ระงับไว้</item>
+        <item>กำลังตัดการเชื่อมต่อ...</item>
+        <item>ตัดการเชื่อมต่อ</item>
+        <item>ไม่สำเร็จ</item>
+        <item>ถูกบล็อก</item>
+        <item>หลีกเลี่ยงการเชื่อมต่อกับสัญญาณที่ไม่แรงพอชั่วคราว</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>กำลังสแกน...</item>
+        <item>กำลังเชื่อมต่อไปยัง %1$s...</item>
+        <item>กำลังตรวจสอบสิทธิ์กับ%1$s...</item>
+        <item>กำลังรับที่อยู่ IP จาก %1$s…</item>
+        <item>เชื่อมต่อกับ %1$s แล้ว</item>
+        <item>ระงับไว้</item>
+        <item>กำลังตัดการเชื่อมต่อจาก %1$s</item>
+        <item>ตัดการเชื่อมต่อ</item>
+        <item>ไม่สำเร็จ</item>
+        <item>ถูกบล็อก</item>
+        <item>หลีกเลี่ยงการเชื่อมต่อกับสัญญาณที่ไม่แรงพอชั่วคราว</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>กำลังสแกน…</item>
+        <item>กำลังเชื่อมต่อ…</item>
+        <item>กำลังตรวจสอบสิทธิ์…</item>
+        <item>กำลังรับที่อยู่ IP…</item>
+        <item>เชื่อมต่อแล้ว</item>
+        <item>ถูกระงับ</item>
+        <item>กำลังยกเลิกการเชื่อมต่อ…</item>
+        <item>เลิกเชื่อมต่อแล้ว</item>
+        <item>ไม่สำเร็จ</item>
+        <item>ถูกบล็อก</item>
+        <item>หลีกเลี่ยงการเชื่อมต่อกับสัญญาณที่ไม่แรงพอชั่วคราว</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ปิดภาพเคลื่อนไหว</item>
+        <item>อัตราการเคลื่อนไหว 0.5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 1 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 1.5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 2 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 5 เท่า</item>
+        <item>อัตราการเคลื่อนไหว 10 เท่า</item>
+    </string-array>
+</resources>

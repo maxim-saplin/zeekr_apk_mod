@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/controls_no_favorites_group" android:background="@drawable/control_no_favorites_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_actions_side_margin" android:layout_marginTop="@dimen/controls_setup_top_margin" android:layout_marginRight="@dimen/global_actions_side_margin" android:paddingVertical="@dimen/controls_setup_vertical_padding">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/controls_icon_row" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+        <TextView android:layout_gravity="center" android:id="@id/controls_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_controls_title" style="@style/TextAppearance.ControlSetup.Title" />
+        <TextView android:layout_gravity="center" android:id="@id/controls_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" style="@style/TextAppearance.ControlSetup.Subtitle" />
+    </LinearLayout>
+</merge>

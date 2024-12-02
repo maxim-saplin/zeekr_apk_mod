@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetTop="@dimen/qs_footer_action_inset" android:insetBottom="@dimen/qs_footer_action_inset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ripple android:height="44.0dip" android:color="?android:colorControlHighlight">
+        <item android:id="@android:id/mask">
+            <shape android:shape="rectangle">
+                <solid android:color="@android:color/white" />
+                <corners android:radius="@dimen/qs_footer_action_corner_radius" />
+            </shape>
+        </item>
+        <item>
+            <shape android:shape="rectangle">
+                <solid android:color="?underSurfaceColor" />
+                <corners android:radius="@dimen/qs_footer_action_corner_radius" />
+            </shape>
+        </item>
+        <item>
+            <shape android:shape="rectangle">
+                <stroke android:width="1.0dip" android:color="?android:colorBackground" />
+                <corners android:radius="@dimen/qs_footer_action_corner_radius" />
+            </shape>
+        </item>
+    </ripple>
+</inset>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.notification.row.FeedbackInfo android:orientation="vertical" android:id="@id/feedback_info" android:background="?android:colorBackground" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/notification_shade_content_margin_horizontal" android:paddingEnd="@dimen/notification_shade_content_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/header" android:paddingTop="@dimen/notification_guts_header_top_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/pkg_icon" android:layout_width="@dimen/notification_guts_conversation_icon_size" android:layout_height="@dimen/notification_guts_conversation_icon_size" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/names" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/notification_guts_conversation_icon_size" android:layout_weight="1.0" android:layout_centerVertical="true" android:layout_toEndOf="@id/pkg_icon" android:layout_alignEnd="@id/pkg_icon">
+            <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:ellipsize="end" android:id="@id/pkg_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="locale" style="@style/TextAppearance.NotificationImportanceApp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@android:dimen/leanback_setup_alpha_activity_out_bkg_start" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notification_guts_button_spacing" android:layout_marginBottom="@dimen/notification_guts_button_spacing">
+        <TextView android:gravity="center" android:id="@id/yes" android:background="@drawable/ripple_drawable" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="48.0dip" android:text="Yes" android:layout_marginStart="8.0dip" android:layout_marginEnd="-8.0dip" style="@style/TextAppearance.NotificationInfo.Button" />
+        <TextView android:gravity="center" android:id="@id/no" android:background="@drawable/ripple_drawable" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="48.0dip" android:text="No" android:layout_marginStart="8.0dip" android:layout_marginEnd="-8.0dip" style="@style/TextAppearance.NotificationInfo.Button" />
+    </LinearLayout>
+</com.android.systemui.statusbar.notification.row.FeedbackInfo>

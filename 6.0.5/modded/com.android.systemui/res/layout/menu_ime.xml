@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/menu_container" android:layout_width="@dimen/navigation_side_padding" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <com.android.systemui.navigationbar.buttons.KeyButtonView android:id="@id/menu" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@string/accessibility_menu" systemui:keyCode="82" systemui:playSound="false" />
+    <include android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" layout="@layout/ime_switcher" />
+    <com.android.systemui.navigationbar.buttons.KeyButtonView android:id="@id/rotate_suggestion" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@string/accessibility_rotate_button" />
+    <com.android.systemui.navigationbar.buttons.KeyButtonView android:id="@id/accessibility_button" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@string/accessibility_accessibility_button" />
+</FrameLayout>

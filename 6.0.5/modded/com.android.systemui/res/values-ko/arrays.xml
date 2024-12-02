@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>애니메이션 사용 안함</item>
+        <item>애니메이션 배율 .5x</item>
+        <item>애니메이션 배율 1x</item>
+        <item>애니메이션 배율 1.5x</item>
+        <item>애니메이션 배율 2x</item>
+        <item>애니메이션 배율 5x</item>
+        <item>애니메이션 배율 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>표준 제한</item>
+        <item>백그라운드 프로세스 없음</item>
+        <item>최대 1개 프로세스</item>
+        <item>최대 2개 프로세스</item>
+        <item>최대 3개 프로세스</item>
+        <item>최대 4개 프로세스</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>항상 퍼센트 표시</item>
+        <item>충전할 때 퍼센트 표시(기본값)</item>
+        <item>이 아이콘 표시 안함</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>시스템 설정 사용(기본)</item>
+        <item>16비트/샘플</item>
+        <item>24비트/샘플</item>
+        <item>32비트/샘플</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>시스템 설정 사용(기본)</item>
+        <item>16비트/샘플</item>
+        <item>24비트/샘플</item>
+        <item>32비트/샘플</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>시스템 설정 사용(기본)</item>
+        <item>모노</item>
+        <item>스테레오</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>시스템 설정 사용(기본)</item>
+        <item>모노</item>
+        <item>스테레오</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>오디오 품질에 최적화됨</item>
+        <item>오디오 및 연결 품질의 균형 유지</item>
+        <item>연결 품질에 최적화됨</item>
+        <item>최선의 결과(비트 전송률 자동 조절)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>오디오 품질(990kbps/909kbps)에 최적화됨</item>
+        <item>오디오 및 연결 품질의 균형 유지(660Kbps/606Kbps)</item>
+        <item>연결 품질(330kbps/303kbps)에 최적화됨</item>
+        <item>최선의 결과(비트 전송률 자동 조절)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>시스템 설정 사용(기본)</item>
+        <item>44.1kHz</item>
+        <item>48.0kHz</item>
+        <item>88.2kHz</item>
+        <item>96.0kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>시스템 설정 사용(기본)</item>
+        <item>44.1kHz</item>
+        <item>48.0kHz</item>
+        <item>88.2kHz</item>
+        <item>96.0kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>시스템 설정 사용(기본)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ 오디오</item>
+        <item>Qualcomm® aptX™ HD 오디오</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>시스템 설정 사용(기본)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ 오디오</item>
+        <item>Qualcomm® aptX™ HD 오디오</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, 활성</item>
+        <item>, 활성(미디어)</item>
+        <item>, 활성(휴대전화)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5(기본값)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2(기본)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>사용 중지됨</item>
+        <item>필터링 사용 설정됨</item>
+        <item>사용 설정됨</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>시간, 분, 초 표시</item>
+        <item>시간, 분 표시(기본값)</item>
+        <item>이 아이콘 표시 안함</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>보정 색상</item>
+        <item>눈으로 보는 듯한 내츄럴 색상</item>
+        <item>디지털 콘텐츠에 최적화된 색상</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>생동감(기본값)</item>
+        <item>내츄럴</item>
+        <item>표준</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>사용 안함</item>
+        <item>오버드로 영역 표시</item>
+        <item>녹색약 영역 표시</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>없음</item>
+        <item>Logcat</item>
+        <item>Systrace(그래픽)</item>
+        <item>glGetError의 스택 호출</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP 확인 사용 안함</item>
+        <item>DRM 콘텐츠에 대해서만 HDCP 확인 사용</item>
+        <item>항상 HDCP 확인 사용</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>확인 안함</item>
+        <item>DRM 콘텐츠만 확인</item>
+        <item>항상 확인</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>클립보드</item>
+        <item>키 코드</item>
+        <item>회전 확인, 키보드 전환 도구</item>
+        <item>없음</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>보통</item>
+        <item>작게</item>
+        <item>왼쪽으로 기울기</item>
+        <item>오른쪽으로 기울기</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>없음</item>
+        <item>480p</item>
+        <item>480p(보안)</item>
+        <item>720p</item>
+        <item>720p(보안)</item>
+        <item>1080p</item>
+        <item>1080p(보안)</item>
+        <item>4K</item>
+        <item>4K(보안)</item>
+        <item>4K(업스케일됨)</item>
+        <item>4K(업스케일됨, 보안)</item>
+        <item>720p, 1080p(듀얼 화면)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>사용 안함</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>사용 안함</item>
+        <item>로그 버퍼당 64K</item>
+        <item>로그 버퍼당 256K</item>
+        <item>로그 버퍼당 1M</item>
+        <item>로그 버퍼당 4M</item>
+        <item>로그 버퍼당 8MB</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>사용 안함</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8MB</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>사용 안함</item>
+        <item>모든 로그 버퍼</item>
+        <item>라디오 로그 버퍼를 제외한 모든 버퍼</item>
+        <item>커널 로그 버퍼만</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>사용 안함</item>
+        <item>전체</item>
+        <item>라디오 외 모두</item>
+        <item>커널만</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>사용 안함</item>
+        <item>사각형이 아닌 클립 영역을 파란색으로 그립니다.</item>
+        <item>테스트한 그림 그리기 명령을 초록색으로 강조표시합니다.</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>이용 불가</item>
+        <item>사용 안함</item>
+        <item>사용</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>이용 불가</item>
+        <item>꺼짐</item>
+        <item>켜짐</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>사용 안함</item>
+        <item>화면에 막대로 표시</item>
+        <item>설정: adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>애니메이션 사용 안함</item>
+        <item>애니메이션 배율 .5x</item>
+        <item>애니메이션 배율 1x</item>
+        <item>애니메이션 배율 1.5x</item>
+        <item>애니메이션 배율 2x</item>
+        <item>애니메이션 배율 5x</item>
+        <item>애니메이션 배율 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>매우 느리게</item>
+        <item>느리게</item>
+        <item>보통</item>
+        <item>빠르게</item>
+        <item>더 빠르게</item>
+        <item>매우 빠르게</item>
+        <item>상당히 빠르게</item>
+        <item>굉장히 빠르게</item>
+        <item>가장 빠르게</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>충전</item>
+        <item>MTP(Media Transfer Protocol)</item>
+        <item>PTP(Picture Transfer Protocol)</item>
+        <item>RNDIS(USB 이더넷)</item>
+        <item>오디오 소스</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>검색 중...</item>
+        <item>연결 중…</item>
+        <item>인증하는 중...</item>
+        <item>IP 주소를 가져오는 중...</item>
+        <item>연결됨</item>
+        <item>일시 정지됨</item>
+        <item>연결 해제 중…</item>
+        <item>연결 끊김</item>
+        <item>실패</item>
+        <item>차단됨</item>
+        <item>연결 불량 일시적으로 방지</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>검색 중...</item>
+        <item>%1$s에 연결 중...</item>
+        <item>%1$s에서 인증하는 중...</item>
+        <item>%1$s에서 IP 주소를 가져오는 중...</item>
+        <item>%1$s에 연결됨</item>
+        <item>일시 정지됨</item>
+        <item>%1$s에서 연결을 끊는 중...</item>
+        <item>연결 끊김</item>
+        <item>실패</item>
+        <item>차단됨</item>
+        <item>연결 상태 불량 일시적으로 방지</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>검색 중…</item>
+        <item>연결 중…</item>
+        <item>인증 중…</item>
+        <item>IP 주소를 가져오는 중…</item>
+        <item>연결됨</item>
+        <item>정지됨</item>
+        <item>연결 해제 중…</item>
+        <item>연결 해제됨</item>
+        <item>실패</item>
+        <item>차단됨</item>
+        <item>신호가 약한 네트워크에 일시적으로 연결하지 않음</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>애니메이션 사용 안함</item>
+        <item>애니메이션 배율 .5x</item>
+        <item>애니메이션 배율 1x</item>
+        <item>애니메이션 배율 1.5x</item>
+        <item>애니메이션 배율 2x</item>
+        <item>애니메이션 배율 5x</item>
+        <item>애니메이션 배율 10x</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/tv_volume_icons_size" android:width="@dimen/tv_volume_icons_size" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="-4.0">
+        <path android:fillColor="@color/tv_volume_dialog_accent" android:pathData="M14,8.83v6.34L11.83,13H9v-2h2.83L14,8.83M16,4l-5,5H7v6h4l5,5V4z" />
+    </group>
+</vector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?android:colorControlNormal" />
+    <corners android:radius="@dimen/people_space_widget_background_padding" />
+    <padding android:left="@dimen/people_space_widget_background_padding" android:top="@dimen/people_space_widget_background_padding" android:right="@dimen/people_space_widget_background_padding" android:bottom="@dimen/people_space_widget_background_padding" />
+</shape>

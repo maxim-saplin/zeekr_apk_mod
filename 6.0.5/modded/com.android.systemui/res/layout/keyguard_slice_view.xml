@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardSliceView android:layout_gravity="start" android:orientation="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/below_clock_padding_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:theme="@style/TextAppearance.Keyguard" android:textColor="?wallpaperTextColor" android:id="@id/title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <view android:gravity="start" android:orientation="horizontal" android:id="@id/row" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.android.keyguard.KeyguardSliceView$Row" />
+</com.android.keyguard.KeyguardSliceView>

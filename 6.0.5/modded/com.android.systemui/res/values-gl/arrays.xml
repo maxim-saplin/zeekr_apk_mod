@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animación desactivada</item>
+        <item>Escala de animación de 0,5x</item>
+        <item>Escala de animación de 1x</item>
+        <item>Escala de animación de 1,5x</item>
+        <item>Escala de animación de 2x</item>
+        <item>Escala de animación de 5x</item>
+        <item>Escala de animación de 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Límite estándar</item>
+        <item>Ningún proceso en segundo plano</item>
+        <item>Como moito 1 proceso</item>
+        <item>Como moito 2 procesos</item>
+        <item>Como moito 3 procesos</item>
+        <item>Como moito 4 procesos</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Mostrar sempre porcentaxe</item>
+        <item>Mostrar porcentaxe durante a carga (predeterminado)</item>
+        <item>Non mostrar esta icona</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Usa a selección do sistema (predeterminado)</item>
+        <item>16 bits/mostra</item>
+        <item>24 bits/mostra</item>
+        <item>32 bits/mostra</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Usar selección do sistema (predeterminado)</item>
+        <item>16 bits/mostra</item>
+        <item>24 bits/mostra</item>
+        <item>32 bits/mostra</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Usa a selección do sistema (predeterminado)</item>
+        <item>Mono</item>
+        <item>Estéreo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Usar selección do sistema (predeterminado)</item>
+        <item>Mono</item>
+        <item>Estéreo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimizado para a calidade do audio</item>
+        <item>Calidade equilibrada do audio e da conexión</item>
+        <item>Optimizado para a calidade da conexión</item>
+        <item>Máxima (taxa de bits adaptable)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimizado para a calidade do audio (990 kb/s ou 909 kb/s)</item>
+        <item>Calidade equilibrada do audio e da conexión (660 kb/s ou 606 kb/s)</item>
+        <item>Optimizado para a calidade da conexión (330 kb/s ou 303 kb/s)</item>
+        <item>Máxima (taxa de bits adaptable)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Usa a selección do sistema (predeterminado)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Usar selección do sistema (predeterminado)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Usa a selección do sistema (predeterminado)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Audio Qualcomm® aptX™</item>
+        <item>Audio Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Usar selección do sistema (predeterminado)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Audio Qualcomm® aptX™</item>
+        <item>Audio Qualcomm® aptX™ HD</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, activo</item>
+        <item>, activo (contido multimedia)</item>
+        <item>, activo (teléfono)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (predeterminado)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (predeterminada)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Desactivado</item>
+        <item>Está activado o filtrado</item>
+        <item>Activada</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Mostrar horas, minutos e segundos</item>
+        <item>Mostrar horas e minutos (predeterminado)</item>
+        <item>Non mostrar esta icona</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Cores melloradas</item>
+        <item>Cores naturais tal e o como se ven</item>
+        <item>Cores optimizadas para contido dixital</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Brillante (predeterminado)</item>
+        <item>Naturais</item>
+        <item>Estándar</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Desactivado</item>
+        <item>Mostrar áreas superpostas</item>
+        <item>Mostrar áreas de deuteranomalía</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ningún</item>
+        <item>Logcat</item>
+        <item>Systrace (gráficos)</item>
+        <item>Pilla de chamadas en glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Non utilizar nunca a comprobación HDCP</item>
+        <item>Utiliza a comprobación HDCP só para contido DRM</item>
+        <item>Utilizar sempre a comprobación HDCP</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Non comprobar nunca</item>
+        <item>Comprobar só contidos DRM</item>
+        <item>Comprobar sempre</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>Portapapeis</item>
+        <item>Código de teclas</item>
+        <item>Confirmación de xiro, conmutador de teclados</item>
+        <item>Ningún</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normal</item>
+        <item>Compacto</item>
+        <item>Á esquerda</item>
+        <item>Á dereita</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ningunha</item>
+        <item>480p</item>
+        <item>480p (seguro)</item>
+        <item>720p</item>
+        <item>720p (seguro)</item>
+        <item>1080p</item>
+        <item>1080p (seguro)</item>
+        <item>4K</item>
+        <item>4K (seguro)</item>
+        <item>4K (mellorado)</item>
+        <item>4K (mellorado e seguro)</item>
+        <item>720p, 1080p (pantalla dual)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Desactivado</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Desactivado</item>
+        <item>64 K por búfer de rexistro</item>
+        <item>256 K por búfer de rexistro</item>
+        <item>1 M por búfer de rexistro</item>
+        <item>4 M por búfer de rexistro</item>
+        <item>8 MB por búfer de rexistro</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Desactivado</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>8 MB</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Desactivado</item>
+        <item>Todos os búfers de rexistro</item>
+        <item>Todo agás os búfers de rexistro de radio</item>
+        <item>só búfer do rexistro do kernel</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Desactivado</item>
+        <item>Todo</item>
+        <item>Agás radio</item>
+        <item>só kernel</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Desactivado</item>
+        <item>Área recorte non rectangular azul</item>
+        <item>Resaltar comandos debuxo en verde</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Non dispoñible</item>
+        <item>Non</item>
+        <item>Si</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Desactivado</item>
+        <item>En pantalla en forma de barras</item>
+        <item>En adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animación desactivada</item>
+        <item>Escala de animación 0,5x</item>
+        <item>Escala de animación de 1x</item>
+        <item>Escala de animación 1,5x</item>
+        <item>Escala de animación 2x</item>
+        <item>Escala de animación de 5x</item>
+        <item>Escala de animación de 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Moi lento</item>
+        <item>Lento</item>
+        <item>Normal</item>
+        <item>Rápido</item>
+        <item>Máis rápido</item>
+        <item>Moi rápido</item>
+        <item>Rápido</item>
+        <item>Moi rápido</item>
+        <item>O máis rápido</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Cargando</item>
+        <item>MTP (protocolo de transferencia multimedia)</item>
+        <item>PTP (protocolo de transferencia de imaxes)</item>
+        <item>RNDIS (Ethernet USB)</item>
+        <item>Fonte de audio</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Buscando...</item>
+        <item>Conectando...</item>
+        <item>Autenticando…</item>
+        <item>Obtendo enderezo IP...</item>
+        <item>Conectada</item>
+        <item>Suspendida</item>
+        <item>Desconectando...</item>
+        <item>Desconectada</item>
+        <item>Incorrecta</item>
+        <item>Bloqueada</item>
+        <item>Evitando conexión deficiente temporalmente</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Buscando...</item>
+        <item>Conectando con %1$s…</item>
+        <item>Autenticando con %1$s…</item>
+        <item>Obtendo enderezo IP de %1$s…</item>
+        <item>Conectado a %1$s</item>
+        <item>Suspendida</item>
+        <item>Desconectando de %1$s…</item>
+        <item>Desconectada</item>
+        <item>Incorrecta</item>
+        <item>Bloqueada</item>
+        <item>Evitando conexión deficiente temporalmente</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Buscando…</item>
+        <item>Conectando…</item>
+        <item>Autenticando…</item>
+        <item>Obtendo enderezo IP…</item>
+        <item>Conectada</item>
+        <item>Suspendida</item>
+        <item>Desconectando…</item>
+        <item>Desconectada</item>
+        <item>Produciuse un erro</item>
+        <item>Bloqueada</item>
+        <item>Evitando conexión deficiente temporalmente</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animación desactivada</item>
+        <item>Escala de animación 0,5x</item>
+        <item>Escala de animación de 1x</item>
+        <item>Escala de animación 1,5x</item>
+        <item>Escala de animación 2x</item>
+        <item>Escala de animación 5x</item>
+        <item>Escala de animación 10x</item>
+    </string-array>
+</resources>

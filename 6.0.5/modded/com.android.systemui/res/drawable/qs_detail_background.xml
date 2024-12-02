@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset>
+            <shape>
+                <solid android:color="@color/qs_detail_transition" />
+                <corners android:radius="@dimen/qs_footer_action_corner_radius" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset>
+            <shape>
+                <solid android:color="?android:colorBackgroundFloating" />
+                <corners android:radius="@dimen/qs_footer_action_corner_radius" />
+            </shape>
+        </inset>
+    </item>
+</transition>

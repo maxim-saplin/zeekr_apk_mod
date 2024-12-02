@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/frameContent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="28.0dip">
+        <com.zeekr.systemui.statusbar.pma.view.popupwindow.statusbar.calendar.MonthViewPager android:id="@id/vp_month" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="41.0dip" />
+        <com.zeekr.systemui.statusbar.pma.view.popupwindow.statusbar.calendar.WeekViewPager android:id="@id/vp_week" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="41.0dip" />
+        <View android:id="@id/line" android:background="#ffcfcfcf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="16.0dip" />
+    </FrameLayout>
+    <com.zeekr.systemui.statusbar.pma.view.popupwindow.statusbar.calendar.YearViewPager android:id="@id/selectLayout" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

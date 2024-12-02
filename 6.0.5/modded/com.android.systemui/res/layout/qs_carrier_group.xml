@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.carrier.QSCarrierGroup android:gravity="end|center" android:orientation="horizontal" android:id="@id/qs_mobile" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.util.AutoMarqueeTextView android:textAppearance="@style/TextAppearance.QS.Status.Carriers.NoCarrierText" android:gravity="center_vertical" android:id="@id/no_carrier_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="48.0dip" android:minHeight="48.0dip" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textDirection="locale" />
+    <include android:id="@id/carrier1" android:layout_weight="1.0" layout="@layout/qs_carrier" />
+    <View android:id="@id/qs_carrier_divider1" android:visibility="gone" android:layout_width="@dimen/qs_header_carrier_separator_width" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <include android:id="@id/carrier2" android:visibility="gone" android:layout_weight="1.0" layout="@layout/qs_carrier" />
+    <View android:id="@id/qs_carrier_divider2" android:visibility="gone" android:layout_width="@dimen/qs_header_carrier_separator_width" android:layout_height="fill_parent" android:layout_weight="1.0" android:importantForAccessibility="no" />
+    <include android:id="@id/carrier3" android:visibility="gone" android:layout_weight="1.0" layout="@layout/qs_carrier" />
+</com.android.systemui.qs.carrier.QSCarrierGroup>

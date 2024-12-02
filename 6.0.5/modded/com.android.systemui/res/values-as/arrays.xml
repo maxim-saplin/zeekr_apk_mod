@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>এনিমেশ্বন অফ অৱস্থাত আছে</item>
+        <item>এনিমেশ্বন স্কেল .৫গুণ</item>
+        <item>এনিমেশ্বন স্কেল ১গুণ</item>
+        <item>এনিমেশ্বন স্কেল ১.৫গুণ</item>
+        <item>এনিমেশ্বন স্কেল ২গুণ</item>
+        <item>এনিমেশ্বন স্কেল ৫গুণ</item>
+        <item>এনিমেশ্বন স্কেল ১০গুণ</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>মান্য সীমা</item>
+        <item>নেপথ্যত কোনো প্ৰক্ৰিয়া চলি থকা নাই</item>
+        <item>সৰ্বাধিক ১টা প্ৰক্ৰিয়া</item>
+        <item>সৰ্বাধিক ২টা প্ৰক্ৰিয়া</item>
+        <item>সৰ্বাধিক ৩টা প্ৰক্ৰিয়া</item>
+        <item>সৰ্বাধিক ৪টা প্ৰক্ৰিয়া</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>০%</item>
+        <item>৫০%</item>
+        <item>১০০%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>সদায় শতাংশত দেখুৱাব</item>
+        <item>"চ্চাৰ্জ কৰি থকাৰ সময়ত শতাংশ দেখুৱাওক (ডিফ'ল্ট)"</item>
+        <item>এই আইকনটো নেদেখুৱাব</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>ছিষ্টেমৰ বাছনি ব্যৱহাৰ কৰক (ডিফ’ল্ট)</item>
+        <item>১৬ বিট/নমুনা</item>
+        <item>২৪ বিট/নমুনা</item>
+        <item>৩২ বিট/নমুনা</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>"ছিষ্টেমৰ বাছনি ব্যৱহাৰ কৰক (ডিফ'ল্ট)"</item>
+        <item>১৬ বিট/নমুনা</item>
+        <item>২৪ বিট/নমুনা</item>
+        <item>৩২ বিট/নমুনা</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>"ছিষ্টেমৰ বাছনি ব্যৱহাৰ কৰক (ডিফ'ল্ট)"</item>
+        <item>"ম'ন'"</item>
+        <item>"ষ্টেৰিঅ'"</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>"ছিষ্টেমৰ বাছনি ব্যৱহাৰ কৰক (ডিফ'ল্ট)"</item>
+        <item>"ম'ন'"</item>
+        <item>"ষ্টেৰিঅ'"</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>"অডিঅ' গুণমানৰ বাবে অপ্টিমাইজ কৰা হৈছে"</item>
+        <item>ধ্বনি আৰু সংযোগৰ সন্তুলিত গুণগত মান</item>
+        <item>সংযোগৰ ক্ষমতা অনুযায়ী সৰ্বোত্তম</item>
+        <item>উত্তম প্ৰচেষ্টা (অভিযোজিত বিট ৰেইট)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>ধ্বনিৰ মানৰ বাবে অপ্টিমাইজ কৰা হৈছে (৯৯০কি.বা.প্ৰ.ছে./৯০৯কি.বা.প্ৰ.ছে.)</item>
+        <item>ধ্বনি আৰু সংযোগৰ সন্তুলিত গুণগত মান (৬৬০কে.বি.প্ৰ.ছে./৬০৬কে.বি.প্ৰ.ছে.</item>
+        <item>সংযোগৰ ক্ষমতা অনুযায়ী সৰ্বোত্তম (৩৩০কে.বি.প্ৰ.ছে/৩০৩কে.বি.প্ৰ.ছে)</item>
+        <item>উত্তম প্ৰচেষ্টা (অভিযোজিত বিট ৰেইট)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>ছিষ্টেমৰ বাছনি ব্যৱহাৰ কৰক (ডিফ’ল্ট)</item>
+        <item>৪৪.১ কিল’হাৰ্টজ</item>
+        <item>৪৮.০ কিল’হাৰ্টজ</item>
+        <item>"৮৮.২ কিল'হাৰ্টজ"</item>
+        <item>৯৬.০ কিল’হাৰ্টজ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>"ছিষ্টেমৰ বাছনি ব্যৱহাৰ কৰক (ডিফ'ল্ট)"</item>
+        <item>"৪৪.১ কিল'হাৰ্টজ"</item>
+        <item>৪৮.০ কিল’হাৰ্টজ</item>
+        <item>"৮৮.২ কিল'হাৰ্টজ"</item>
+        <item>৯৬.০ কিল’হাৰ্টজ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>"ছিষ্টেমৰ বাছনি ব্যৱহাৰ কৰক (ডিফ'ল্ট)"</item>
+        <item>এছবিচি</item>
+        <item>এএচি</item>
+        <item>Qualcomm® aptX™ অডিঅ’</item>
+        <item>Qualcomm® aptX™ HD অডিঅ’</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>"ছিষ্টেমৰ বাছনি ব্যৱহাৰ কৰক (ডিফ'ল্ট)"</item>
+        <item>এছবিচি</item>
+        <item>এএচি</item>
+        <item>"Qualcomm® aptX™ অডিঅ'"</item>
+        <item>Qualcomm® aptX™ HD অডিঅ’</item>
+        <item>LDAC</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, সক্ৰিয়</item>
+        <item>, সক্ৰিয় (মিডিয়া)</item>
+        <item>", সক্ৰিয় (ফ'ন)"</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp১৩</item>
+        <item>avrcp14</item>
+        <item>avrcp১৬</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (ডিফ’ল্ট)</item>
+        <item>AVRCP ১.৩</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP ১.৬</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ডিফ’ল্ট)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>অক্ষম আছে</item>
+        <item>সক্ষম কৰাবিলাক ফিল্টাৰ কৰা হৈছে</item>
+        <item>সক্ষম কৰা আছে</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>ঘন্টা, মিনিট আৰু ছেকেণ্ড দেখুৱাওক</item>
+        <item>"ঘন্টা আৰু মিনিট দেখুৱাওক (ডিফ'ল্ট)"</item>
+        <item>এই আইকনটো নেদেখুৱাব</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>বৰ্ধিত ৰং</item>
+        <item>চকুৱে দেখা পোৱা ধৰণৰ প্ৰাকৃতিক ৰং</item>
+        <item>ডিজিটেল সমলৰ বাবে ৰং অপ্টিমাইজ কৰা হৈছে</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>"জীৱন্ত (ডিফ'ল্ট)"</item>
+        <item>প্ৰাকৃতিক</item>
+        <item>মানক</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>অফ কৰক</item>
+        <item>পিক্সেল একাধিকবাৰ ব্যৱহৃত অংশসমূহ দেখুৱাওক</item>
+        <item>"ডিউটাৰএন'মেলীৰ অংশসমূহ দেখুৱাওক"</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>নাই</item>
+        <item>লগকেট</item>
+        <item>ছিছট্ৰেইচ (গ্ৰাফিক্স)</item>
+        <item>glGetErrorত কলৰ খাপ</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>কেতিয়াও HDCP পৰীক্ষণ ব্যৱহাৰ নকৰিব</item>
+        <item>কেৱল DRM সমলৰ বাবে HDCP পৰীক্ষণ ব্যৱহাৰ কৰক</item>
+        <item>সদায় HDCP পৰীক্ষণ ব্যৱহাৰ কৰক</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>কেতিয়াও পৰীক্ষা নকৰিব</item>
+        <item>কেৱল DRM সমলৰ বাবে পৰীক্ষা কৰক</item>
+        <item>সদায় পৰীক্ষা কৰক</item>
+    </string-array>
+    <string-array name="nav_bar_buttons">
+        <item>"ক্লিপব'ৰ্ড"</item>
+        <item>"কীক'ড"</item>
+        <item>"ঘূৰ্ণন নিশ্চিতি, কীব'ৰ্ড সলনিৰ সুবিধা"</item>
+        <item>একো নাই</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>সাধাৰণ</item>
+        <item>ঘন</item>
+        <item>বাওঁফালে হালি যোৱা</item>
+        <item>সোঁফালে হালি যোৱা</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>নাই</item>
+        <item>৪৮০পি.</item>
+        <item>৪৮০পি. (সুৰক্ষিত)</item>
+        <item>৭২০পি.</item>
+        <item>৭২০পি. (সুৰক্ষিত)</item>
+        <item>১০৮০পি.</item>
+        <item>১০৮০পি. (সুৰক্ষিত)</item>
+        <item>4K</item>
+        <item>৪কে. (সুৰক্ষিত)</item>
+        <item>৪কে. (বৰ্ধিত)</item>
+        <item>৪কে. (বৰ্ধিত, সুৰক্ষিত)</item>
+        <item>৭২০পি., ১০৮০পি. (দ্বৈত স্ক্ৰীন)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>অফ কৰক</item>
+        <item>৬৪কে.</item>
+        <item>২৫৬কে.</item>
+        <item>১মি.</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>অফ কৰক</item>
+        <item>প্ৰতিটো লগ বাফাৰত ৬৪কে.</item>
+        <item>প্ৰতি লগ বাফাৰত 256K</item>
+        <item>প্ৰতিটো লগ বাফাৰত ১মি.</item>
+        <item>প্ৰতিটো লগ বাফাৰত ৪মি.</item>
+        <item>প্ৰতিটো লগ বাফাৰত ৮ এমবি</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>অফ কৰক</item>
+        <item>৬৪কে.</item>
+        <item>২৫৬কে.</item>
+        <item>১মি.</item>
+        <item>4M</item>
+        <item>৮ এমবি</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>অফ কৰক</item>
+        <item>আটাইবোৰ লগ বাফাৰ</item>
+        <item>"ৰেডিঅ' লগ বাফাৰৰ বাহিৰে আটাইবোৰ"</item>
+        <item>কেৱল কাৰ্ণেল লগ বাফাৰ</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>অফ অৱস্থাত আছে</item>
+        <item>আটাইবোৰ</item>
+        <item>"ৰেডিঅ'ৰ বাহিৰে আটাইবোৰ"</item>
+        <item>কেৱল কাৰ্ণেল</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>অফ কৰক</item>
+        <item>আয়তাকাৰ নোহোৱা ক্লিপ অঞ্চল নীলাৰে আঁকক</item>
+        <item>পৰীক্ষণ কৰা চিত্ৰাংকণ কমাণ্ডবোৰ সেউজীয়া ৰঙত হাইলাইট কৰক</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_night">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>উপলব্ধ নহয়</item>
+        <item>অফ আছে</item>
+        <item>অন কৰা আছে</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>অফ হৈ আছে</item>
+        <item>স্ক্ৰীনত দণ্ড হিচাপে</item>
+        <item>adb shell dumpsys gfxinfoত</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>এনিমেশ্বন অফ</item>
+        <item>এনিমেশ্বন স্কেল .৫গুণ</item>
+        <item>এনিমেশ্বন স্কেল 1গু</item>
+        <item>এনিমেশ্বন স্কেল .৫গুণ</item>
+        <item>এনিমেশ্বন স্কেল ২গুণ</item>
+        <item>এনিমেশ্বন স্কেল ৫গুণ</item>
+        <item>এনিমেশ্বন স্কেল ১০গুণ</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>অতি লেহেম</item>
+        <item>লেহেমীয়া</item>
+        <item>সাধাৰণ</item>
+        <item>দ্ৰুত</item>
+        <item>দ্ৰুত</item>
+        <item>অতি দ্ৰুত</item>
+        <item>দ্ৰুত</item>
+        <item>অতি দ্ৰুত</item>
+        <item>দ্ৰুততম</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>চ্চাৰ্জ কৰি থকা হৈছে</item>
+        <item>এমটিপি (মিডিয়া ট্ৰান্সফাৰ প্ৰ’ট’কল)</item>
+        <item>পিটিপি (পিকচাৰ ট্ৰান্সফাৰ প্ৰ’ট’কল)</item>
+        <item>RNDIS (USB ইথাৰনেট)</item>
+        <item>ধ্বনিৰ উৎস</item>
+        <item>এমআইডিআই</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>স্কেন কৰি থকা হৈছে…</item>
+        <item>সংযোগ কৰি থকা হৈছে…</item>
+        <item>বিস্বাশযোগ্যতা প্ৰমাণ কৰি থকা হৈছে …</item>
+        <item>আইপি ঠিকনা সংগ্ৰহ কৰি থকা হৈছে…</item>
+        <item>সংযোগ কৰা হ’ল</item>
+        <item>স্থগিত</item>
+        <item>সংযোগ বিচ্ছিন্ন কৰি থকা হৈছে</item>
+        <item>সংযোগ বিচ্ছিন্ন</item>
+        <item>অসফল</item>
+        <item>অৱৰোধিত</item>
+        <item>কিছুসময়ৰ বাবে দুৰ্বল সংযোগ দেখুওৱা হোৱা নাই</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>স্কেন কৰি থকা হৈছে…</item>
+        <item>%1$sৰ সৈতে সংযোগ কৰি থকা হৈছে…</item>
+        <item>%1$sৰ জৰিয়তে সত্যাপন কৰি থকা হৈছে…</item>
+        <item>%1$sৰ আইপি ঠিকনা পৰা সংগ্ৰহ কৰি থকা হৈছে…</item>
+        <item>%1$sৰ সৈতে সংযোগ কৰা হ’ল</item>
+        <item>স্থগিত</item>
+        <item>%1$sৰ পৰা সংযোগ বিচ্ছিন্ন কৰি থকা হৈছে…</item>
+        <item>সংযোগ বিচ্ছিন্ন</item>
+        <item>বিফল হৈছে</item>
+        <item>অৱৰোধিত</item>
+        <item>কিছুসময়ৰ বাবে দুৰ্বল সংযোগ দেখুওৱা হোৱা নাই</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>স্কেন কৰি থকা হৈছে…</item>
+        <item>সংযোগ কৰি থকা হৈছে…</item>
+        <item>বিশ্বাসযোগ্যতা প্ৰমাণীকৰণ কৰি থকা হৈছে…</item>
+        <item>আইপি ঠিকনা সংগ্ৰহ কৰি থকা হৈছে…</item>
+        <item>সংযোজিত</item>
+        <item>নিলম্বন কৰা হৈছে</item>
+        <item>সংযোগ বিচ্ছিন্ন কৰি থকা হৈছে…</item>
+        <item>সংযোগ বিচ্ছিন্ন হৈছে</item>
+        <item>বিফল হৈছে</item>
+        <item>অৱৰোধ কৰা আছে</item>
+        <item>সাময়িকভাৱে দুৰ্বল সংযোগ দেখুওৱা হোৱা নাই</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>এনিমেশ্বন অফ</item>
+        <item>এনিমেশ্বন স্কেল .৫গুণ</item>
+        <item>এনিমেশ্বন স্কেল ১গুণ</item>
+        <item>এনিমেশ্বন স্কেল ১.৫গুণ</item>
+        <item>এনিমেশ্বন স্কেল ২গুণ</item>
+        <item>এনিমেশ্বন স্কেল ৫গুণ</item>
+        <item>এনিমেশ্বন স্কেল ১০গু</item>
+    </string-array>
+</resources>

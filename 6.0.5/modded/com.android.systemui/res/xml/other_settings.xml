@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/other"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sysui="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/tuner_full_importance_settings" android:key="power_notification_controls" android:fragment="com.android.systemui.tuner.PowerNotificationControlsFragment" />
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.AlertDialogLayout android:gravity="center|top" android:orientation="vertical" android:id="@android:id/news" android:paddingTop="@dimen/dialog_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/alert_dialog_title_systemui" />
+    <FrameLayout android:id="@android:id/check" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingStart="@dimen/dialog_side_padding" android:paddingEnd="@dimen/dialog_side_padding">
+        <ScrollView android:id="@android:id/pressed" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Space android:id="@android:id/sms_short_code_remember_choice_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+                <TextView android:id="@android:id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Dialog.Body.Message" />
+                <Space android:id="@android:id/sms_short_code_remember_choice_checkbox" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <FrameLayout android:id="@android:id/content_preview_file_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingStart="@dimen/dialog_side_padding" android:paddingEnd="@dimen/dialog_side_padding">
+        <FrameLayout android:id="@android:id/custom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/alert_dialog_button_bar_systemui" />
+</com.android.internal.widget.AlertDialogLayout>

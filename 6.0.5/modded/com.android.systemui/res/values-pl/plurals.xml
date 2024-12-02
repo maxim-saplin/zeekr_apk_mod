@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d dnia temu</item>
+        <item quantity="one">%d dzień temu</item>
+        <item quantity="few">%d dni temu</item>
+        <item quantity="many">%d dni temu</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d min temu</item>
+        <item quantity="one">%d min temu</item>
+        <item quantity="few">%d min temu</item>
+        <item quantity="many">%d min temu</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d roku temu</item>
+        <item quantity="one">%d rok temu</item>
+        <item quantity="few">%d lata temu</item>
+        <item quantity="many">%d lat temu</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Dodano %s elementu sterującego</item>
+        <item quantity="one">Dodano %s element sterujący</item>
+        <item quantity="few">Dodano %s elementy sterujące</item>
+        <item quantity="many">Dodano %s elementów sterujących</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Wpisz kod PIN karty SIM. Masz jeszcze %d próby.</item>
+        <item quantity="one">Wpisz kod PIN karty SIM. Masz jeszcze %d próbę, zanim będzie trzeba skontaktować się z operatorem, by odblokować to urządzenie.</item>
+        <item quantity="few">Wpisz kod PIN karty SIM. Masz jeszcze %d próby.</item>
+        <item quantity="many">Wpisz kod PIN karty SIM. Masz jeszcze %d prób.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Karta SIM została wyłączona. Wpisz kod PUK, by przejść dalej. Masz jeszcze %d próby, zanim karta SIM zostanie trwale zablokowana. Aby uzyskać szczegółowe informacje, skontaktuj się z operatorem.</item>
+        <item quantity="one">Karta SIM została wyłączona. Wpisz kod PUK, by przejść dalej. Masz jeszcze %d próbę, zanim karta SIM zostanie trwale zablokowana. Aby uzyskać szczegółowe informacje, skontaktuj się z operatorem.</item>
+        <item quantity="few">Karta SIM została wyłączona. Wpisz kod PUK, by przejść dalej. Masz jeszcze %d próby, zanim karta SIM zostanie trwale zablokowana. Aby uzyskać szczegółowe informacje, skontaktuj się z operatorem.</item>
+        <item quantity="many">Karta SIM została wyłączona. Wpisz kod PUK, by przejść dalej. Masz jeszcze %d prób, zanim karta SIM zostanie trwale zablokowana. Aby uzyskać szczegółowe informacje, skontaktuj się z operatorem.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d próby.</item>
+        <item quantity="one">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d próbę, zanim będziesz musiał skontaktować się z operatorem, by odblokował Twoje urządzenie.</item>
+        <item quantity="few">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d próby.</item>
+        <item quantity="many">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d prób.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Nieprawidłowy kod PUK karty SIM. Masz jeszcze %d próby, zanim karta SIM zostanie trwale zablokowana.</item>
+        <item quantity="one">Nieprawidłowy kod PUK karty SIM. Masz jeszcze %d próbę, zanim karta SIM zostanie trwale zablokowana.</item>
+        <item quantity="few">Nieprawidłowy kod PUK karty SIM. Masz jeszcze %d próby, zanim karta SIM zostanie trwale zablokowana.</item>
+        <item quantity="many">Nieprawidłowy kod PUK karty SIM. Masz jeszcze %d prób, zanim karta SIM zostanie trwale zablokowana.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Spróbuj ponownie za %d sekundy.</item>
+        <item quantity="one">Spróbuj ponownie za sekundę</item>
+        <item quantity="few">Spróbuj ponownie za %d sekundy.</item>
+        <item quantity="many">Spróbuj ponownie za %d sekund.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nowego powiadomienia</item>
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Jeszcze %s powiadomienia w grupie.</item>
+        <item quantity="one">Jeszcze %s powiadomienie w grupie.</item>
+        <item quantity="few">Jeszcze %s powiadomienia w grupie.</item>
+        <item quantity="many">Jeszcze %s powiadomień w grupie.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d urządzenia</item>
+        <item quantity="one">%d urządzenie</item>
+        <item quantity="few">%d urządzenia</item>
+        <item quantity="many">%d urządzeń</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d godziny</item>
+        <item quantity="one">%d godzina</item>
+        <item quantity="few">%d godziny</item>
+        <item quantity="many">%d godzin</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minuty</item>
+        <item quantity="one">]%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Możesz dodać maksymalnie %d użytkownika.</item>
+        <item quantity="one">Można utworzyć tylko jednego użytkownika.</item>
+        <item quantity="few">Możesz dodać maksymalnie %d użytkowników.</item>
+        <item quantity="many">Możesz dodać maksymalnie %d użytkowników.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d urządzenia podłączonego</item>
+        <item quantity="one">%1$d urządzenie podłączone</item>
+        <item quantity="few">%1$d urządzenia podłączone</item>
+        <item quantity="many">%1$d urządzeń podłączonych</item>
+    </plurals>
+</resources>

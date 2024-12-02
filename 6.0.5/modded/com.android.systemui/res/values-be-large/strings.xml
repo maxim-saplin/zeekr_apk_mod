@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Націсніце тут, каб зноў уключыць апавяшчэнні.</string>
+    <string name="notifications_off_title">Паведамленні адключаныя</string>
+    <string name="status_bar_clear_all_button">Выдаліць усё</string>
+</resources>

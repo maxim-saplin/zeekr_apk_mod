@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/Theme.SystemUI.QuickSettings" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/brightness_mirror_container" android:background="@drawable/brightness_mirror_background" android:padding="@dimen/rounded_slider_background_padding" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

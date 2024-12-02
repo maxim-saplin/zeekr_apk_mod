@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:clickable="true" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/compat_hint_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/compat_controls_text" android:id="@id/compat_mode_hint_text" android:background="@drawable/compat_hint_bubble" android:padding="16.0dip" android:layout_width="188.0dip" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" android:textAlignment="viewStart" />
+    <ImageView android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/compat_hint_point" android:contentDescription="@null" android:paddingHorizontal="@dimen/compat_hint_corner_radius" />
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d dias atrás</item>
+        <item quantity="one">%d dia atrás</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d min atrás</item>
+        <item quantity="one">%d min atrás</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d anos atrás</item>
+        <item quantity="one">%d ano atrás</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s controles adicionados.</item>
+        <item quantity="one">%s controle adicionado.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Informe o PIN do chip. Você tem %d tentativas restantes.</item>
+        <item quantity="one">Informe o PIN do chip. Você tem %d tentativa restante.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">O chip agora está desativado. Informe o código PUK para continuar. Você tem %d tentativas restantes antes de o chip se tornar permanentemente inutilizável. Entre em contato com a operadora para saber mais detalhes.</item>
+        <item quantity="one">O chip agora está desativado. Informe o código PUK para continuar. Você tem %d tentativa restante antes de o chip se tornar permanentemente inutilizável. Entre em contato com a operadora para saber mais detalhes.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Código PIN do chip incorreto. Tentativas restantes: %d.</item>
+        <item quantity="one">Código PIN do chip incorreto. Tentativas restantes: %d.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Código PUK do chip incorreto. Tentativas restantes: %d. Caso o código correto não seja digitado, o chip se tornará permanentemente inutilizável.</item>
+        <item quantity="one">Código PUK do chip incorreto. Tentativas restantes: %d. Caso o código correto não seja digitado, o chip se tornará permanentemente inutilizável.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Tente novamente em %d segundos.</item>
+        <item quantity="one">Tente novamente em %d segundo.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novas notificações</item>
+        <item quantity="one">%d nova notificação</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Mais %s notificações no grupo.</item>
+        <item quantity="one">Mais %s notificações no grupo.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d dispositivos</item>
+        <item quantity="one">%d dispositivo</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">É possível adicionar até %d usuários.</item>
+        <item quantity="one">É possível adicionar até %d usuário.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d dispositivos conectados</item>
+        <item quantity="one">%1$d dispositivo conectado</item>
+    </plurals>
+</resources>

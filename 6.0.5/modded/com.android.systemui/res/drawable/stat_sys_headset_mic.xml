@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/ic_headset_mic" android:insetLeft="2.5dip" android:insetRight="2.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

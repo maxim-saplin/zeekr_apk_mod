@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.systemui.statusbar.pma.view.popupwindow.statusbar.calendar.CalendarView android:layout_gravity="center_horizontal" android:id="@id/calendar" android:layout_width="664.0dip" android:layout_height="1110.0dip" app:calendar_height="138.0dip" app:current_month_lunar_text_color="@color/calendar_gray" app:current_month_text_color="@color/calendar_black" app:day_text_size="36.0sp" app:lunar_text_size="24.0sp" app:month_view_show_mode="mode_only_current" app:need_show_select_bg="false" />
+</FrameLayout>

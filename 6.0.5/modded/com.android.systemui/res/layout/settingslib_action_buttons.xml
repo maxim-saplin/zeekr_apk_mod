@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:paddingHorizontal="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/button1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/SettingsLibActionButton" />
+    <View android:id="@id/divider1" android:background="?android:colorBackground" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" android:paddingHorizontal="4.0dip" />
+    <Button android:id="@id/button2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/SettingsLibActionButton" />
+    <View android:id="@id/divider2" android:background="?android:colorBackground" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" android:paddingHorizontal="4.0dip" />
+    <Button android:id="@id/button3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/SettingsLibActionButton" />
+    <View android:id="@id/divider3" android:background="?android:colorBackground" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" android:paddingHorizontal="4.0dip" />
+    <Button android:id="@id/button4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/SettingsLibActionButton" />
+</LinearLayout>

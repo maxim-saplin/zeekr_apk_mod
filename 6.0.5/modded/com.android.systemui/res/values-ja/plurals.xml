@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d 日前</item>
+        <item quantity="one">%d 日前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d 分前</item>
+        <item quantity="one">%d 分前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d 年前</item>
+        <item quantity="one">%d 年前</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s 件のコントロールを追加しました。</item>
+        <item quantity="one">%s 件のコントロールを追加しました。</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN を入力してください。入力できるのはあと %d 回です。</item>
+        <item quantity="one">SIM PIN を入力してください。入力できるのはあと %d 回です。この回数を超えた場合は、携帯通信会社にお問い合わせください。</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM が無効になりました。続行するには PUK コードを入力してください。入力できるのはあと %d 回です。この回数を超えると SIM は完全に使用できなくなります。詳しくは携帯通信会社にお問い合わせください。</item>
+        <item quantity="one">SIM が無効になりました。続行するには PUK コードを入力してください。入力できるのはあと %d 回です。この回数を超えると SIM は完全に使用できなくなります。詳しくは携帯通信会社にお問い合わせください。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN コードが無効です。入力できるのはあと %d 回です。</item>
+        <item quantity="one">SIM PIN コードが無効です。入力できるのはあと %d 回です。この回数を超えると、お使いのデバイスをロック解除するのに携帯通信会社にお問い合わせいただく必要があります。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PUK コードが無効です。入力できるのはあと %d 回です。この回数を超えると SIM は完全に使用できなくなります。</item>
+        <item quantity="one">SIM PUK コードが無効です。入力できるのはあと %d 回です。この回数を超えると SIM は完全に使用できなくなります。</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d 秒後にもう一度お試しください。</item>
+        <item quantity="one">1 秒後にもう一度お試しください。</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">他 %s 件の通知</item>
+        <item quantity="one">他 %s 件の通知</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d 台のデバイス</item>
+        <item quantity="one">%d 台のデバイス</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">%d時間</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">最大 %d 人のユーザーを追加できます。</item>
+        <item quantity="one">作成できるユーザーは 1 人のみです。</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d 台のデバイスが接続されています</item>
+        <item quantity="one">%1$d 台のデバイスが接続されています</item>
+    </plurals>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Fyrir %d dögum</item>
+        <item quantity="one">Fyrir %d degi</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Fyrir %d mín.</item>
+        <item quantity="one">Fyrir %d mín.</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Fyrir %d árum</item>
+        <item quantity="one">Fyrir %d ári</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s stýringum bætt við.</item>
+        <item quantity="one">%s stýringu bætt við.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Sláðu inn PIN-númer SIM-korts. Þú átt %d tilraunir eftir.</item>
+        <item quantity="one">Sláðu inn PIN-númer SIM-korts. Þú átt %d tilraun eftir.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM-kortið er nú óvirkt. Sláðu inn PUK-númer til að halda áfram. Það eru %d tilraunir eftir þar til SIM-kortið verður ónothæft til frambúðar. Hafðu samband við símafyrirtækið til að fá upplýsingar.</item>
+        <item quantity="one">SIM-kortið er nú óvirkt. Sláðu inn PUK-númer til að halda áfram. Það er %d tilraun eftir þar til SIM-kortið verður ónothæft til frambúðar. Hafðu samband við símafyrirtækið til að fá upplýsingar.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Rangt PIN-númer SIM-korts. Þú átt %d tilraunir eftir.</item>
+        <item quantity="one">Rangt PIN-númer SIM-korts. Þú átt %d tilraun eftir.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Rangt PUK-númer SIM-korts. Þú átt %d tilraunir eftir áður en SIM-kortið verður ónothæft til frambúðar.</item>
+        <item quantity="one">Rangt PUK-númer SIM-korts. Þú átt %d tilraun eftir áður en SIM-kortið verður ónothæft til frambúðar.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Reyndu aftur eftir %d sekúndur.</item>
+        <item quantity="one">Reyndu aftur eftir %d sekúndu.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nýjar tilkynningar</item>
+        <item quantity="one">%d ný tilkynning</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s tilkynningar í viðbót.</item>
+        <item quantity="one">%s tilkynning í viðbót.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d tæki</item>
+        <item quantity="one">%d tæki</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d klukkustundir</item>
+        <item quantity="one">%d klukkustund</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d mínútur</item>
+        <item quantity="one">%d mínúta</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Þú getur bætt við allt að %d notendum.</item>
+        <item quantity="one">Þú getur bætt við allt að %d notanda.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d tæki tengd</item>
+        <item quantity="one">%1$d tæki tengt</item>
+    </plurals>
+</resources>

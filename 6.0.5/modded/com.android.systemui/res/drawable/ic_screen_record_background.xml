@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:height="@dimen/screenrecord_status_icon_height" android:width="@dimen/screenrecord_status_icon_width" android:color="@color/screenrecord_status_color" />
+    <corners android:radius="@dimen/screenrecord_status_icon_bg_radius" />
+</shape>

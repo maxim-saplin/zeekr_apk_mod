@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="shutdown_scrim_behind_alpha">1.0</item>
+    <dimen name="bottom_sheet_actions_spacing">12.0dip</dimen>
+    <dimen name="bottom_sheet_actions_width">296.0dip</dimen>
+    <dimen name="bottom_sheet_background_blur_radius">37.0dip</dimen>
+    <dimen name="bottom_sheet_button_corner_radius">10.0dip</dimen>
+    <dimen name="bottom_sheet_button_padding_horizontal">20.0dip</dimen>
+    <dimen name="bottom_sheet_button_padding_vertical">16.0dip</dimen>
+    <item type="dimen" name="bottom_sheet_button_selection_scaled">1.1</item>
+    <dimen name="bottom_sheet_button_width">232.0dip</dimen>
+    <dimen name="bottom_sheet_corner_radius">24.0dip</dimen>
+    <dimen name="bottom_sheet_details_margin_bottom">8.0dip</dimen>
+    <dimen name="bottom_sheet_icon_margin">8.0dip</dimen>
+    <dimen name="bottom_sheet_icon_size">42.0dip</dimen>
+    <dimen name="bottom_sheet_margin">24.0dip</dimen>
+    <dimen name="bottom_sheet_min_height">208.0dip</dimen>
+    <dimen name="bottom_sheet_padding_horizontal">32.0dip</dimen>
+    <dimen name="bottom_sheet_padding_vertical">24.0dip</dimen>
+    <dimen name="bottom_sheet_title_margin_bottom">18.0dip</dimen>
+    <dimen name="privacy_chip_dot_bg_height">18.0dip</dimen>
+    <dimen name="privacy_chip_dot_bg_radius">9.0dip</dimen>
+    <dimen name="privacy_chip_dot_bg_width">24.0dip</dimen>
+    <dimen name="privacy_chip_dot_margin_horizontal">8.0dip</dimen>
+    <dimen name="privacy_chip_dot_radius">4.0dip</dimen>
+    <dimen name="privacy_chip_dot_size">8.0dip</dimen>
+    <dimen name="privacy_chip_height">24.0dip</dimen>
+    <dimen name="privacy_chip_icon_margin_in_between">9.0dip</dimen>
+    <dimen name="privacy_chip_icon_size">12.0dip</dimen>
+    <dimen name="privacy_chip_margin">12.0dip</dimen>
+    <dimen name="privacy_chip_min_width">30.0dip</dimen>
+    <dimen name="privacy_chip_padding_horizontal">9.0dip</dimen>
+    <dimen name="privacy_chip_radius">12.0dip</dimen>
+</resources>

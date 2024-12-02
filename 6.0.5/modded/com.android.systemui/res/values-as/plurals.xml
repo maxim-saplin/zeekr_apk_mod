@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%dদিন আগেয়ে</item>
+        <item quantity="one">%d দিন আগেয়ে</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d মিনিট আগেয়ে</item>
+        <item quantity="one">%d মিনিট আগেয়ে</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d বছৰ আগেয়ে</item>
+        <item quantity="one">%d বছৰ আগেয়ে</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s টা নিয়ন্ত্ৰণ যোগ কৰা হ’ল।</item>
+        <item quantity="one">%s টা নিয়ন্ত্ৰণ যোগ কৰা হ’ল।</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">ছিমৰ পিন দিয়ক। আপুনি আৰু %dবাৰ প্ৰয়াস কৰিব পাৰে।</item>
+        <item quantity="one">ছিমৰ পিন দিয়ক। আপুনি আৰু %dবাৰ প্ৰয়াস কৰিব পাৰে।</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">ছিমখন অক্ষম হ’ল। অব্যাহত ৰাখিবলৈ PUK দিয়ক। ছিমখন স্থায়ীভাৱে ব্যৱহাৰৰ অনুপযোগী হোৱাৰ পূৰ্বে আপোনাৰ হাতত %dটা প্ৰয়াস বাকী আছে। সবিশেষ জানিবলৈ বাহকৰ সৈতে যোগাযোগ কৰক।</item>
+        <item quantity="one">ছিমখন অক্ষম হ’ল। অব্যাহত ৰাখিবলৈ PUK দিয়ক। ছিমখন স্থায়ীভাৱে ব্যৱহাৰৰ অনুপযোগী হোৱাৰ পূৰ্বে আপোনাৰ হাতত %dটা প্ৰয়াস বাকী আছে। সবিশেষ জানিবলৈ বাহকৰ সৈতে যোগাযোগ কৰক।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ছিমৰ ভুল পিন ক’ড, আপুনি আৰু %d বাৰ প্ৰয়াস কৰিব পাৰিব।</item>
+        <item quantity="one">ছিমৰ ভুল পিন ক’ড, আপুনি আৰু %d বাৰ প্ৰয়াস কৰিব পাৰিব।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">"ছিমৰ ভুল PUK ক'ড, আপুনি আৰু %d বাৰ ভুল ক’ড দিলে আপোনাৰ ছিম চিৰকালৰ বাবে ব্যৱহাৰৰ অনুপযোগী হ’ব।"</item>
+        <item quantity="one">"ছিমৰ ভুল PUK ক'ড, আপুনি আৰু %d বাৰ ভুল ক’ড দিলে আপোনাৰ ছিম চিৰকালৰ বাবে ব্যৱহাৰৰ অনুপযোগী হ’ব।"</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d ছেকেণ্ডত আকৌ চেষ্টা কৰক।</item>
+        <item quantity="one">%d ছেকেণ্ডত আকৌ চেষ্টা কৰক।</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ভিতৰত আৰু %sটা জাননী আছে।</item>
+        <item quantity="one">ভিতৰত আৰু %sটা জাননী আছে।</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d ডিভাইচ</item>
+        <item quantity="one">%d ডিভাইচ</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ঘণ্টা</item>
+        <item quantity="one">%d ঘণ্টা</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d মিনিট</item>
+        <item quantity="one">%d মিনিট</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">আপুনি %d জনলৈকে ব্যৱহাৰকাৰী যোগ কৰিব পাৰে।</item>
+        <item quantity="one">আপুনি %d জনলৈকে ব্যৱহাৰকাৰী যোগ কৰিব পাৰে।</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$dটা ডিভাইচ সংযোগ হ’ল</item>
+        <item quantity="one">%1$dটা ডিভাইচ সংযোগ হ’ল</item>
+    </plurals>
+</resources>

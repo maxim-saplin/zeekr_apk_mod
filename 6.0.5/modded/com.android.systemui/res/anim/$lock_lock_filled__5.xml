@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@anim/$lock_lock_filled__6" android:duration="400" android:startOffset="0" android:propertyName="translateXY" android:pathData="M 16,25C 16,25.27083334326744 16,25 16,25" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@anim/$lock_lock_filled__7" android:duration="117" android:startOffset="400" android:propertyName="translateXY" android:pathData="M 16,25C 16,25.27083334326744 16,26.625 16,26.625" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@anim/$lock_lock_filled__8" android:duration="117" android:startOffset="517" android:propertyName="translateXY" android:pathData="M 16,26.625C 16,26.625 16,25.27083334326744 16,25" android:propertyXName="translateX" android:propertyYName="translateY" />
+</set>

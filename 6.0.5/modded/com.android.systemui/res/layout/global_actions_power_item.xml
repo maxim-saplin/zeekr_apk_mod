@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.globalactions.GlobalActionsItem android:gravity="bottom|center" android:orientation="vertical" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="@dimen/global_actions_power_dialog_item_width" android:layout_height="@dimen/global_actions_power_dialog_item_height" android:stateListAnimator="@anim/control_state_list_animator"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@android:id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="@dimen/global_actions_power_dialog_item_bottom_margin" android:scaleType="centerInside" android:tint="@color/control_primary_text" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="16.0sp" android:textColor="@color/control_primary_text" android:ellipsize="marquee" android:gravity="center" android:id="@android:id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:maxLines="1" android:marqueeRepeatLimit="marquee_forever" />
+</com.android.systemui.globalactions.GlobalActionsItem>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d ημ. πριν</item>
+        <item quantity="one">%d ημ. πριν</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d λεπ. πριν</item>
+        <item quantity="one">%d λεπ. πριν</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d χρ. πριν</item>
+        <item quantity="one">%d χρ. πριν</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Προστέθηκαν %s στοιχεία ελέγχου.</item>
+        <item quantity="one">Προστέθηκε %s στοιχείο ελέγχου.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Εισαγάγετε τον αριθμό PIN της κάρτας SIM. Απομένουν άλλες %d προσπάθειες.</item>
+        <item quantity="one">Εισαγάγετε τον αριθμό PIN της κάρτας SIM. Απομένει άλλη %d προσπάθεια. Στη συνέχεια, θα πρέπει να επικοινωνήσετε με τον πάροχο κινητής τηλεφωνίας, για να ξεκλειδώσετε τη συσκευή.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Η κάρτα SIM απενεργοποιήθηκε. Καταχωρίστε τον κωδικό PUK, για να συνεχίσετε. Απομένουν %d ακόμη προσπάθειες προτού να μην είναι πλέον δυνατή η χρήση της κάρτας SIM. Επικοινωνήστε με την εταιρεία κινητής τηλεφωνίας για λεπτομέρειες.</item>
+        <item quantity="one">Η κάρτα SIM απενεργοποιήθηκε. Καταχωρίστε τον κωδικό PUK, για να συνεχίσετε. Απομένει %d ακόμη προσπάθεια προτού να μην είναι πλέον δυνατή η χρήση της κάρτας SIM. Επικοινωνήστε με την εταιρεία κινητής τηλεφωνίας για λεπτομέρειες.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Λανθασμένος κωδικός PIN κάρτας SIM. Απομένουν άλλες %d προσπάθειες.</item>
+        <item quantity="one">Λανθασμένος κωδικός PIN κάρτας SIM. Απομένει άλλη %d προσπάθεια. Στη συνέχεια, θα πρέπει να επικοινωνήσετε με την εταιρεία κινητής τηλεφωνίας σας για να ξεκλειδώσετε τη συσκευή σας.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Λανθασμένος κωδικός PUK κάρτας SIM. Απομένουν άλλες %d προσπάθειες προτού να μην είναι πλέον δυνατή η χρήση της κάρτας SIM.</item>
+        <item quantity="one">Λανθασμένος κωδικός PUK κάρτας SIM. Απομένει άλλη %d προσπάθεια προτού να μην είναι πλέον δυνατή η χρήση της κάρτας SIM.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Δοκιμάστε ξανά σε %d δευτερόλεπτα.</item>
+        <item quantity="one">Δοκιμάστε ξανά σε 1 δευτερόλεπτο.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+        <item quantity="one">%d νέα ειδοποίηση</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s επιπλέον ειδοποιήσεις εντός της ομάδας.</item>
+        <item quantity="one">%s επιπλέον ειδοποίηση εντός της ομάδας.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d συσκευές</item>
+        <item quantity="one">%d συσκευή</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Μπορείτε να προσθέσετε έως %d χρήστες.</item>
+        <item quantity="one">Είναι δυνατή η δημιουργία μόνο ενός χρήστη.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d συσκευές συνδέθηκαν</item>
+        <item quantity="one">%1$d συσκευή συνδέθηκε</item>
+    </plurals>
+</resources>

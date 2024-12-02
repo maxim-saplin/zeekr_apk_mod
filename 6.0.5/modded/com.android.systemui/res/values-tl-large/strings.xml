@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">Mag-tap dito upang i-on muli ang mga notification.</string>
+    <string name="notifications_off_title">Naka-off ang mga notification</string>
+    <string name="status_bar_clear_all_button">I-clear</string>
+</resources>

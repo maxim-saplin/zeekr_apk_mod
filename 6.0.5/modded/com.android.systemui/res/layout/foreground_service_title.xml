@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="?android:listPreferredItemPaddingStart" android:paddingBottom="16.0dip" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.internal.widget.DialogTitle android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/running_foreground_services_title" android:singleLine="true" android:textAlignment="viewStart" style="?android:textAppearanceLarge" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/running_foreground_services_msg" android:textAlignment="viewStart" style="?android:textAppearanceSmall" />
+</LinearLayout>

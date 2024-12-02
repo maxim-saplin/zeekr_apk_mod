@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end|center" android:id="@id/container" android:paddingTop="@dimen/status_bar_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end|center" android:id="@id/dot_view" android:visibility="invisible" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/system_animation_ongoing_dot" />
+</FrameLayout>

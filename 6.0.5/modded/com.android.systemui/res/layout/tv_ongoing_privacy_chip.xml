@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:padding="@dimen/privacy_chip_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/chip_drawable" android:layout_width="51.0dip" android:layout_height="@dimen/privacy_chip_height" android:minWidth="@dimen/privacy_chip_dot_bg_width" android:minHeight="@dimen/privacy_chip_dot_bg_height" />
+    <LinearLayout android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/icons_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true" android:paddingHorizontal="@dimen/privacy_chip_padding_horizontal" />
+</FrameLayout>

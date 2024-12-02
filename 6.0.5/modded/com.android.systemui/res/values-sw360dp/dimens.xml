@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="global_actions_side_margin">12.0dip</dimen>
+    <dimen name="navigation_key_width">80.0dip</dimen>
+    <dimen name="navigation_side_padding">40.0dip</dimen>
+    <dimen name="num_pad_key_margin_end">20.0dip</dimen>
+    <dimen name="num_pad_key_width">84.0dip</dimen>
+    <dimen name="num_pad_row_margin_bottom">12.0dip</dimen>
+</resources>

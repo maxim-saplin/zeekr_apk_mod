@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_off_text">点按此处可重新启用通知功能。</string>
+    <string name="notifications_off_title">通知功能已停用</string>
+    <string name="status_bar_clear_all_button">全部清除</string>
+</resources>

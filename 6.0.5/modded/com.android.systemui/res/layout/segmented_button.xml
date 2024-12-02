@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textAppearance="@style/TextAppearance.QS.SegmentedButton" android:textColor="@color/segmented_button_text_selector" android:gravity="center" android:background="@drawable/btn_borderless_rect" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="72.0dip" android:maxLines="2" android:layout_weight="1.0" android:lineSpacingMultiplier="1.05026" android:layout_marginStart="@dimen/segmented_button_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

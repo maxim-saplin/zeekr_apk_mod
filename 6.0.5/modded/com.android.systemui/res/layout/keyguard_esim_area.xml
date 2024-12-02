@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardEsimArea android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/kg_status_line_font_size" android:id="@id/keyguard_disable_esim" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disable_carrier_button_text" android:textAllCaps="@bool/kg_use_all_caps" style="@style/Keyguard.TextView"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
