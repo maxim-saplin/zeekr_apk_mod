@@ -7,7 +7,7 @@
             <shape android:shape="rectangle">
                 <corners android:radius="20.0dip" />
                 <padding android:left="20.0dip" android:right="20.0dip" />
-                <solid android:color="?android:^attr-private/colorPopupBackground" />
+                <solid android:color="?android:attr/windowBackground" />
             </shape>
         </inset>
     </item>

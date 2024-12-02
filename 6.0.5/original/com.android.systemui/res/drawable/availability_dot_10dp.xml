@@ -3,5 +3,5 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
     <size android:height="10.0dip" android:width="10.0dip" />
-    <solid android:color="?android:^attr-private/closeItemLayout" />
+    <solid android:color="?android:attr/colorPrimary" />
 </shape>

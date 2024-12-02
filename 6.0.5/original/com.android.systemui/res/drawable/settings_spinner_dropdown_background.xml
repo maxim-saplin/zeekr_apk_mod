@@ -4,7 +4,7 @@
   xmlns:priv-android="http://schemas.android.com/apk/prv/res/android">
     <item android:id="@*android:id/background">
         <shape>
-            <solid android:color="?android:^attr-private/colorAccentPrimary" />
+            <solid android:color="?android:attr/colorAccent" />
         </shape>
     </item>
 </ripple>

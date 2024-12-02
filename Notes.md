@@ -33,4 +33,16 @@ name="*android:
 
 ="@android:
 ="@*android:
+
+?android:attr/colorAccent
+?android:attr/colorAccent
+
+?android:^attr-private/clickColor
+?android:attr/colorControlHighlight
+
+?android:attr/colorAccentVariant
+?android:attr/colorAccent
+
+?android:^attr-private/colorSurfaceHeader
+?android:attr/colorBackground
 ```

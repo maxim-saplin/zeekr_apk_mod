@@ -2,6 +2,6 @@
 <shape android:shape="rectangle"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
-    <solid android:color="?android:^attr-private/clickColor" />
+    <solid android:color="?android:attr/colorControlHighlight" />
     <corners android:radius="@dimen/accessibility_floating_tooltip_text_corner_radius" />
 </shape>

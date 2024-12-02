@@ -11,7 +11,7 @@
     </item>
     <item android:gravity="center|right" android:id="@id/volume_seekbar_progress_icon" android:height="@dimen/rounded_slider_icon_size" android:width="@dimen/rounded_slider_icon_size" android:right="@dimen/volume_slider_icon_inset">
         <rotate android:fromDegrees="-270.0" android:toDegrees="-270.0">
-            <com.android.systemui.util.AlphaTintDrawableWrapper android:tint="?android:^attr-private/closeItemLayout" android:drawable="@drawable/ic_volume_media" />
+            <com.android.systemui.util.AlphaTintDrawableWrapper android:tint="?android:attr/colorPrimary" android:drawable="@drawable/ic_volume_media" />
         </rotate>
     </item>
 </layer-list>

@@ -2,6 +2,6 @@
 <shape android:shape="rectangle"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
-    <solid android:color="?android:^attr-private/colorPopupBackground" />
+    <solid android:color="?android:attr/windowBackground" />
     <corners android:radius="@dimen/screenshot_action_container_corner_radius" />
 </shape>

@@ -12,7 +12,7 @@
         <item>
             <shape android:shape="rectangle">
                 <corners android:radius="?android:buttonCornerRadius" />
-                <solid android:color="?android:^attr-private/clickColor" />
+                <solid android:color="?android:attr/colorControlHighlight" />
                 <padding android:left="@dimen/dialog_button_horizontal_padding" android:top="@dimen/dialog_button_vertical_padding" android:right="@dimen/dialog_button_horizontal_padding" android:bottom="@dimen/dialog_button_vertical_padding" />
             </shape>
         </item>

@@ -3,6 +3,6 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
     <size android:width="@dimen/volume_dialog_panel_width" />
-    <solid android:color="?android:^attr-private/colorPopupBackground" />
+    <solid android:color="?android:attr/windowBackground" />
     <corners android:bottomLeftRadius="@dimen/volume_dialog_panel_width_half" android:bottomRightRadius="@dimen/volume_dialog_panel_width_half" />
 </shape>

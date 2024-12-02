@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.systemui.statusbar.notification.row.NotificationSnooze android:theme="@style/Theme.SystemUI" android:orientation="vertical" android:background="?android:^attr-private/colorPopupBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+<com.android.systemui.statusbar.notification.row.NotificationSnooze android:theme="@style/Theme.SystemUI" android:orientation="vertical" android:background="?android:attr/windowBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
     <RelativeLayout android:id="@id/notification_snooze" android:layout_width="fill_parent" android:layout_height="@dimen/snooze_snackbar_min_height">

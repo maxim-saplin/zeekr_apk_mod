@@ -7,7 +7,7 @@
             <shape>
                 <size android:height="@dimen/volume_dialog_track_width" />
                 <corners android:radius="@dimen/volume_dialog_track_corner_radius" />
-                <solid android:color="?android:^attr-private/colorAccentPrimaryVariant" />
+                <solid android:color="?android:attr/colorAccentVariant" />
             </shape>
         </inset>
     </item>

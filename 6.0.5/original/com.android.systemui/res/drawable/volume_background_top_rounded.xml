@@ -5,7 +5,7 @@
     <item>
         <shape>
             <size android:width="@dimen/volume_dialog_panel_width" />
-            <solid android:color="?android:^attr-private/colorPopupBackground" />
+            <solid android:color="?android:attr/windowBackground" />
             <corners android:topLeftRadius="@dimen/volume_dialog_panel_width_half" android:topRightRadius="@dimen/volume_dialog_panel_width_half" android:bottomLeftRadius="@dimen/volume_dialog_panel_width_half" android:bottomRightRadius="@dimen/volume_dialog_panel_width_half" />
         </shape>
     </item>

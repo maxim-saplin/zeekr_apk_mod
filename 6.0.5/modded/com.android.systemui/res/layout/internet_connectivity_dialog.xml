@@ -7,7 +7,7 @@
         <TextView android:textAppearance="@style/TextAppearance.InternetDialog.Secondary" android:ellipsize="end" android:gravity="center" android:id="@id/internet_dialog_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" />
     </LinearLayout>
     <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/internet_dialog_progress_bar_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/internet_dialog_network_layout_margin">
-        <View android:layout_gravity="center" android:id="@id/divider" android:background="?android:^attr-private/colorSurfaceHeader" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+        <View android:layout_gravity="center" android:id="@id/divider" android:background="?android:attr/colorBackground" android:layout_width="fill_parent" android:layout_height="4.0dip" />
         <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/wifi_searching_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TrimmedHorizontalProgressBar" />
     </LinearLayout>
     <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">

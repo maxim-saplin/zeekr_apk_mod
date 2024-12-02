@@ -2,6 +2,6 @@
 <shape
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
-    <solid android:color="?android:^attr-private/colorSurfaceHeader" />
+    <solid android:color="?android:attr/colorBackground" />
     <corners android:radius="@dimen/people_space_widget_radius" />
 </shape>

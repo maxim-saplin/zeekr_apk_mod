@@ -7,7 +7,7 @@
             <item android:top="8.0dip" android:bottom="8.0dip">
                 <shape>
                     <corners android:radius="28.0dip" />
-                    <solid android:color="?android:^attr-private/clickColor" />
+                    <solid android:color="?android:attr/colorControlHighlight" />
                     <size android:height="@dimen/spinner_height" />
                 </shape>
             </item>
