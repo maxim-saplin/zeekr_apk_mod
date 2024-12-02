@@ -21,7 +21,7 @@ It includes:
 
 | App | Version | APK | Description |
 | --- | --- | --- | --- |
-| Car Settings | 6.0.5 () | 6.0.5/modded_apks/com.geely.pma.settings_en.apk | Car Settings APP Translated to English |
+| Car Settings | 6.0.5 (Zeekr 007) | 6.0.5/modded_apks/com.geely.pma.settings_en.apk | Car Settings APP Translated to English |
 
 ## Requirements
 
