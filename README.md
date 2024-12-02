@@ -74,6 +74,7 @@ Some of the apps:
     - Check strings.xml, arrays.xml, plurals.xml
 - Pay attention to envoding special chars in XML, e.g. use \' for single quotes
 - Use '[^\x00-\x7F]' RegEx to help find non-ASCII characters
+- Use `validate_resources.py` script to check that the modded resources are not broken and have exactly the same struture as the original one (i.e. you haven't deleted certain key)
 
 ### Build and sign APK
 
