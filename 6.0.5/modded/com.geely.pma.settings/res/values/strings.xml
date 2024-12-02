@@ -2250,7 +2250,7 @@ FUNCTIONS"</string>
     <string name="safety_fatigue_monitor_switch">Driver status monitoring</string>
     <string name="safety_forgot_password">Forgot Password</string>
     <string name="safety_glove_option">Glove box is protected by password</string>
-    <string name="safety_guard_mode">Sentry mode</string>
+    <string name="safety_guard_mode">Sentry</string>
     <string name="safety_guard_mode_tasting_version">Sentry Mode</string>
     <string name="safety_how_exit_rescue_mode">How to Exit Rescue Mode</string>
     <string name="safety_in_calculation">Calculating</string>
@@ -2272,9 +2272,9 @@ FUNCTIONS"</string>
     <string name="safety_memory_card_size_sentinel">Sentry mode</string>
     <string name="safety_mode_car_wash">Car wash mode</string>
     <string name="safety_mode_maintenance">Maintenance mode</string>
-    <string name="safety_open_glove_box">打开手套箱</string>
-    <string name="safety_passenger_airbag">前排乘客安全气囊</string>
-    <string name="safety_passenger_airbag_describe">为确保安全，当前排乘客座椅向后旋转时，前排乘客安全气囊将自动关闭</string>
+    <string name="safety_open_glove_box">Open glove box</string>
+    <string name="safety_passenger_airbag">Front passenger airbag</string>
+    <string name="safety_passenger_airbag_describe">To ensure safety, the front passenger airbag will automatically turn off when the front passenger seat rotates backward</string>
     <string name="safety_passenger_airbag_dialog_content">After deactivation, the safety of the front passenger may not be guaranteed in certain scenarios. Do you want to disable the front passenger airbag?</string>
     <string name="safety_please_input_pwd_again_to_confirm">Please enter the password again to confirm</string>
     <string name="safety_please_open_sentinel_mode_when_the_vehicle_is_in_p_gear">Please activate sentry mode when the vehicle is in P gear</string>

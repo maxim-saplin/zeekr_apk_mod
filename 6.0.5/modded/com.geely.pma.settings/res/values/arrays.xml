@@ -698,10 +698,10 @@
         <item>Vehicle</item>
         <item>Lighting</item>
         <item>Driving</item>
-        <item>ZEEKR AD</item>
-        <item>ZEEKR AI Lab</item>
-        <item>Safety&amp;Maintenance</item>
-        <item>Energy management</item>
+        <item>Active Driving</item>
+        <item>AI Lab</item>
+        <item>Safe&amp;Ready</item>
+        <item>Energy</item>
         <item>Connectivity</item>
         <item>Sound</item>
         <item>Display</item>
@@ -711,9 +711,9 @@
         <item>Vehicle</item>
         <item>Lighting</item>
         <item>Driving</item>
-        <item>ZEEKR AD</item>
-        <item>Safety&amp;Maintenance</item>
-        <item>Energy management</item>
+        <item>Active Driving</item>
+        <item>Safe&amp;Ready</item>
+        <item>Energy</item>
         <item>Connectivity</item>
         <item>Sound</item>
         <item>Display</item>
@@ -724,10 +724,10 @@
         <item>Vehicle</item>
         <item>Lighting</item>
         <item>Driving</item>
-        <item>ZEEKR AD</item>
-        <item>ZEEKR AI Lab</item>
-        <item>Safety&amp;Maintenance</item>
-        <item>Energy management</item>
+        <item>Active Driving</item>
+        <item>AI Lab</item>
+        <item>Safe&amp;Ready</item>
+        <item>Energy</item>
         <item>Connectivity</item>
         <item>Sound</item>
         <item>Display</item>
@@ -818,7 +818,7 @@
         <item>Seat adjustment</item>
     </string-array>
     <string-array name="tank_turn_around_list">
-        <item>持续</item>
+        <item>Continuous</item>
         <item>90°</item>
         <item>180°</item>
         <item>360°</item>
