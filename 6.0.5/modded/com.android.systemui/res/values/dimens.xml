@@ -296,7 +296,7 @@
     <dimen name="control_status_normal">14.0sp</dimen>
     <dimen name="control_status_padding">3.0dip</dimen>
     <dimen name="control_text_size">14.0sp</dimen>
-    <item type="dimen" name="controls_activity_view_corner_radius">@android:dimen/chooser_icon_size</item>
+    <item type="dimen" name="controls_activity_view_corner_radius">@*android:dimen/chooser_icon_size</item>
     <dimen name="controls_app_divider_height">2.0dip</dimen>
     <dimen name="controls_app_icon_frame_side_padding">16.0dip</dimen>
     <dimen name="controls_app_icon_size">24.0dip</dimen>
@@ -489,8 +489,8 @@
     <dimen name="global_screenshot_legacy_bg_padding">20.0dip</dimen>
     <dimen name="global_screenshot_x_scale">80.0dip</dimen>
     <dimen name="go_to_full_shade_appearing_translation">200.0dip</dimen>
-    <item type="dimen" name="group_overflow_number_padding">@android:dimen/kg_small_widget_height</item>
-    <item type="dimen" name="group_overflow_number_size">@android:dimen/lock_pattern_fade_away_gradient_width</item>
+    <item type="dimen" name="group_overflow_number_padding">@*android:dimen/kg_small_widget_height</item>
+    <item type="dimen" name="group_overflow_number_size">@*android:dimen/lock_pattern_fade_away_gradient_width</item>
     <item type="dimen" name="half_opened_bouncer_height_ratio">0.0</item>
     <dimen name="header_icon_size">16.0dip</dimen>
     <dimen name="header_notifications_collide_distance">48.0dip</dimen>
@@ -1421,7 +1421,7 @@
     <dimen name="navigation_bar_deadzone_size_max">32.0dip</dimen>
     <dimen name="navigation_bar_frame_height">104.0dip</dimen>
     <dimen name="navigation_bar_height">104.0dip</dimen>
-    <item type="dimen" name="navigation_bar_size">@android:dimen/keyguard_avatar_name_size</item>
+    <item type="dimen" name="navigation_bar_size">@*android:dimen/keyguard_avatar_name_size</item>
     <dimen name="navigation_edge_action_drag_threshold">16.0dip</dimen>
     <dimen name="navigation_edge_arrow_min_y">64.0dip</dimen>
     <dimen name="navigation_edge_finger_offset">48.0dip</dimen>
@@ -1440,7 +1440,7 @@
     <dimen name="notification_action_text_size">13.0sp</dimen>
     <dimen name="notification_big_circle_margin">12.0dip</dimen>
     <dimen name="notification_children_container_divider_height">0.5dip</dimen>
-    <item type="dimen" name="notification_children_container_margin_top">@android:dimen/kg_status_clock_font_size</item>
+    <item type="dimen" name="notification_children_container_margin_top">@*android:dimen/kg_status_clock_font_size</item>
     <dimen name="notification_children_container_top_padding">8.0dip</dimen>
     <dimen name="notification_children_padding">4.0dip</dimen>
     <dimen name="notification_content_margin_start">0.0dip</dimen>
@@ -1477,7 +1477,7 @@
     <dimen name="notification_menu_icon_padding">20.0dip</dimen>
     <dimen name="notification_menu_icon_size">64.0dip</dimen>
     <dimen name="notification_messaging_actions_min_height">196.0dip</dimen>
-    <item type="dimen" name="notification_min_height">@android:dimen/leanback_setup_translation_forward_in_content_end_v4</item>
+    <item type="dimen" name="notification_min_height">@*android:dimen/leanback_setup_translation_forward_in_content_end_v4</item>
     <dimen name="notification_min_height_before_p">92.0dip</dimen>
     <dimen name="notification_min_height_before_s">106.0dip</dimen>
     <dimen name="notification_min_height_increased">146.0dip</dimen>
@@ -1622,7 +1622,7 @@
     <dimen name="qs_detail_item_primary_text_size">16.0sp</dimen>
     <dimen name="qs_detail_item_secondary_text_size">14.0sp</dimen>
     <dimen name="qs_detail_items_padding_top">4.0dip</dimen>
-    <item type="dimen" name="qs_detail_margin_top">@android:dimen/notification_big_picture_max_width_low_ram</item>
+    <item type="dimen" name="qs_detail_margin_top">@*android:dimen/notification_big_picture_max_width_low_ram</item>
     <dimen name="qs_detail_padding_start">16.0dip</dimen>
     <dimen name="qs_drawable_end_margin">4.0dip</dimen>
     <dimen name="qs_dual_tile_padding_horizontal">6.0dip</dimen>
@@ -1643,7 +1643,7 @@
     <dimen name="qs_header_carrier_separator_width">6.0dip</dimen>
     <item type="dimen" name="qs_header_mobile_icon_size">@dimen/status_bar_icon_drawing_size</item>
     <dimen name="qs_header_row_min_height">48.0dip</dimen>
-    <item type="dimen" name="qs_header_system_icons_area_height">@android:dimen/notification_big_picture_max_width_low_ram</item>
+    <item type="dimen" name="qs_header_system_icons_area_height">@*android:dimen/notification_big_picture_max_width_low_ram</item>
     <dimen name="qs_icon_size">20.0dip</dimen>
     <dimen name="qs_label_container_margin">10.0dip</dimen>
     <dimen name="qs_media_action_margin">12.0dip</dimen>
@@ -1766,7 +1766,7 @@
     <dimen name="settingslib_min_switch_width">52.0dip</dimen>
     <dimen name="settingslib_preferred_minimum_touch_target">48.0dip</dimen>
     <dimen name="settingslib_restricted_icon_margin_end">16.0dip</dimen>
-    <item type="dimen" name="settingslib_restricted_icon_size">@android:dimen/config_restrictedIconSize</item>
+    <item type="dimen" name="settingslib_restricted_icon_size">@*android:dimen/config_restrictedIconSize</item>
     <dimen name="settingslib_switch_bar_radius">28.0dip</dimen>
     <dimen name="settingslib_switch_thumb_margin">4.0dip</dimen>
     <dimen name="settingslib_switch_thumb_size">20.0dip</dimen>
@@ -1806,7 +1806,7 @@
     <dimen name="split_divider_corner_size">42.0dip</dimen>
     <dimen name="split_divider_handle_height">3.0dip</dimen>
     <dimen name="split_divider_handle_width">72.0dip</dimen>
-    <item type="dimen" name="split_shade_header_height">@android:dimen/notification_big_picture_max_width_low_ram</item>
+    <item type="dimen" name="split_shade_header_height">@*android:dimen/notification_big_picture_max_width_low_ram</item>
     <item type="dimen" name="split_shade_header_min_height">@dimen/qs_header_row_min_height</item>
     <dimen name="star_size_max">5.0dip</dimen>
     <dimen name="star_size_min">3.0dip</dimen>
@@ -1851,10 +1851,10 @@
     <dimen name="status_bar_horizontal_padding">2.5dip</dimen>
     <item type="dimen" name="status_bar_icon_drawing_alpha">90.0%</item>
     <dimen name="status_bar_icon_drawing_size">15.0dip</dimen>
-    <item type="dimen" name="status_bar_icon_drawing_size_dark">@android:dimen/leanback_setup_alpha_activity_in_bkg_end</item>
+    <item type="dimen" name="status_bar_icon_drawing_size_dark">@*android:dimen/leanback_setup_alpha_activity_in_bkg_end</item>
     <dimen name="status_bar_icon_padding">0.0dip</dimen>
     <item type="dimen" name="status_bar_icon_scale_factor">1.0</item>
-    <item type="dimen" name="status_bar_icon_size">@android:dimen/notification_top_pad_narrow</item>
+    <item type="dimen" name="status_bar_icon_size">@*android:dimen/notification_top_pad_narrow</item>
     <dimen name="status_bar_left_clock_end_padding">2.0dip</dimen>
     <dimen name="status_bar_left_clock_starting_padding">0.0dip</dimen>
     <dimen name="status_bar_padding_end">8.0dip</dimen>
@@ -1878,7 +1878,7 @@
     <dimen name="status_bar_user_name_width_middle">144.0dip</dimen>
     <dimen name="status_bar_user_no_preference_max">4880.0dip</dimen>
     <dimen name="status_bar_user_preference_max">340.0dip</dimen>
-    <item type="dimen" name="status_bar_wifi_signal_size">@android:dimen/password_keyboard_height</item>
+    <item type="dimen" name="status_bar_wifi_signal_size">@*android:dimen/password_keyboard_height</item>
     <dimen name="status_bar_wifi_signal_spacer_width">2.5dip</dimen>
     <dimen name="sun_size">45.0dip</dimen>
     <dimen name="swipe_helper_falsing_threshold">70.0dip</dimen>

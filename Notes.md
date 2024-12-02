@@ -16,3 +16,18 @@ apktool b 6.0.5/com.android.systemui -o com.android.systemui_en.apk
   '/private/var/user/Documents/Zeekr/APK Mod/6.0.5/com.geely.pma.settings_en_aligned.apk'
 
 adb install -g /private/var/user/Documents/Zeekr/APK\ Mod/6.0.5/com.geely.pma.settings_en_signed.apk
+
+## Fixing error: resource XYZ is private
+
+
+Replace
+```
+<item>@android
+<item>@*android
+
+>@android:
+>@*android:
+
+name="android:
+name="*android:
+```

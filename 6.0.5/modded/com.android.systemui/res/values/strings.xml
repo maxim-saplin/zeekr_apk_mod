@@ -1310,7 +1310,7 @@ If you have questions, contact %2$s."</string>
     <string name="oem_preferred_feedback_reporter" />
     <string name="oem_unlock_enable">OEM unlocking</string>
     <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
-    <string name="ok">@android:string/ok</string>
+    <string name="ok">@*android:string/ok</string>
     <string name="okay">OK</string>
     <string name="one_handed_tutorial_description">To exit, swipe up from the bottom of the screen or tap anywhere above the app</string>
     <string name="one_handed_tutorial_title">Using one-handed mode</string>
@@ -1763,10 +1763,10 @@ If you have questions, contact %2$s."</string>
     <string name="setting">Setting</string>
     <string name="settings_label">Settings</string>
     <string name="settings_package">com.android.settings</string>
-    <string name="settingslib_config_bodyFontFamily">@android:string/config_companionDeviceManagerPackage</string>
-    <string name="settingslib_config_bodyFontFamilyMedium">@android:string/config_controlsPackage</string>
-    <string name="settingslib_config_headlineFontFamily">@android:string/config_dozeTapSensorType</string>
-    <string name="settingslib_config_headlineFontFamilyMedium">@android:string/config_dozeUdfpsLongPressSensorType</string>
+    <string name="settingslib_config_bodyFontFamily">@*android:string/config_companionDeviceManagerPackage</string>
+    <string name="settingslib_config_bodyFontFamilyMedium">@*android:string/config_controlsPackage</string>
+    <string name="settingslib_config_headlineFontFamily">@*android:string/config_dozeTapSensorType</string>
+    <string name="settingslib_config_headlineFontFamilyMedium">@*android:string/config_dozeUdfpsLongPressSensorType</string>
     <string name="settingslib_learn_more_text">Learn more</string>
     <string name="shared_data_delete_failure_text">There was an error deleting the shared data.</string>
     <string name="shared_data_no_accessors_dialog_text">There are no leases acquired for this shared data. Would you like to delete it?</string>
@@ -1900,7 +1900,7 @@ If you have questions, contact %2$s."</string>
     <string name="switch_bar_off">Off</string>
     <string name="switch_bar_on">On</string>
     <string name="system_ui_aod_date_pattern">EEEMMMd</string>
-    <string name="system_ui_date_pattern">@android:string/rating_label</string>
+    <string name="system_ui_date_pattern">@*android:string/rating_label</string>
     <string name="system_ui_tuner">System UI Tuner</string>
     <string name="tap_a_network_to_connect">Tap a network to connect</string>
     <string name="tap_again">Tap again</string>

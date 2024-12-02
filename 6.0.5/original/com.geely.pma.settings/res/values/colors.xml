@@ -10,8 +10,8 @@
     <color name="abc_decor_view_status_guard">#ff000000</color>
     <color name="abc_decor_view_status_guard_light">#ffffffff</color>
     <color name="abc_search_url_text_normal">#ff7fa87f</color>
-    <color name="abc_search_url_text_pressed">@android:color/black</color>
-    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="abc_search_url_text_pressed">@*android:color/black</color>
+    <color name="abc_search_url_text_selected">@*android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="activity_bg">#ff000000</color>
@@ -20,7 +20,7 @@
     <color name="back_withe">#fff7f8f9</color>
     <color name="background_color">#ff141518</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
-    <color name="background_floating_material_light">@android:color/white</color>
+    <color name="background_floating_material_light">@*android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
     <color name="bbtn_bg">#6b11c179</color>
@@ -84,8 +84,8 @@
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
-    <color name="bright_foreground_material_dark">@android:color/white</color>
-    <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="bright_foreground_material_dark">@*android:color/white</color>
+    <color name="bright_foreground_material_light">@*android:color/black</color>
     <color name="bt_status_color_con">#ffbe7153</color>
     <color name="bt_status_color_discon">#ffe1e3e5</color>
     <color name="btn_state_off_text_color">#ffcccccc</color>
@@ -396,10 +396,10 @@
     <color name="common_edit_bg">#b3303030</color>
     <color name="common_enable_false">#80121212</color>
     <color name="common_epb_warning">#ffff0000</color>
-    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_default">@*android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1f000000</color>
-    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
-    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_focused">@*android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@*android:color/white</color>
     <color name="common_google_signin_btn_text_light_default">#90000000</color>
     <color name="common_google_signin_btn_text_light_disabled">#1f000000</color>
     <color name="common_google_signin_btn_text_light_focused">#90000000</color>
@@ -695,7 +695,7 @@
     <color name="design_default_color_secondary">#ff03dac6</color>
     <color name="design_default_color_secondary_variant">#ff018786</color>
     <color name="design_default_color_surface">#ffffffff</color>
-    <color name="design_fab_shadow_end_color">@android:color/transparent</color>
+    <color name="design_fab_shadow_end_color">@*android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
     <color name="design_fab_shadow_start_color">#44000000</color>
     <color name="design_fab_stroke_end_inner_color">#0a000000</color>
@@ -774,8 +774,8 @@
     <color name="float_window_cancel_btn_txt_cs1e">#ff383a3d</color>
     <color name="float_window_hide_btn_shape_cs1e">#ff383a3d</color>
     <color name="float_window_hide_btn_txt_cs1e">#ffe1e3e5</color>
-    <color name="foreground_material_dark">@android:color/white</color>
-    <color name="foreground_material_light">@android:color/black</color>
+    <color name="foreground_material_dark">@*android:color/white</color>
+    <color name="foreground_material_light">@*android:color/black</color>
     <color name="green_bg">#ff1ef1c6</color>
     <color name="gseekbar_bg_gradient_bottom">#0dffffff</color>
     <color name="gseekbar_bg_gradient_top">#26ffffff</color>
@@ -1156,7 +1156,7 @@
     <color name="ppw_bg">#6617161b</color>
     <color name="ppw_overall_bg">#d9000000</color>
     <color name="primary_60_app">#9985898c</color>
-    <color name="primary_dark_material_dark">@android:color/black</color>
+    <color name="primary_dark_material_dark">@*android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
     <color name="primary_material_light">@color/material_grey_100</color>

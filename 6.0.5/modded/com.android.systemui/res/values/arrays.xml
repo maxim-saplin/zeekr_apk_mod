@@ -153,7 +153,7 @@
     </integer-array>
     <array name="batterymeter_color_values">
         <item>?android:colorError</item>
-        <item>@android:color/white</item>
+        <item>@*android:color/white</item>
     </array>
     <integer-array name="batterymeter_plus_points">
         <item>3</item>
@@ -457,8 +457,8 @@
         <item>@drawable/rounded_corner_top_secondary</item>
     </array>
     <array name="config_statusBarIconsToExclude">
-        <item>@android:string/policylab_limitPassword</item>
-        <item>@android:string/policydesc_limitPassword</item>
+        <item>@*android:string/policylab_limitPassword</item>
+        <item>@*android:string/policydesc_limitPassword</item>
     </array>
     <string-array name="config_systemUIServiceComponents">
         <item>com.android.systemui.util.NotificationChannels</item>

@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="InternetDialog.Divider.Active" parent="@style/InternetDialog.Divider">
-        <item name="android:background">?android:textColorSecondaryInverse</item>
+        <item name="*android:background">?android:textColorSecondaryInverse</item>
     </style>
-    <style name="LongScreenshotActivity" parent="@android:style/Theme.DeviceDefault.DayNight">
-        <item name="android:textColorSecondary">?android:textColorPrimaryInverse</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:navigationBarColor">?android:colorBackgroundFloating</item>
-        <item name="android:windowLightStatusBar">false</item>
-        <item name="android:windowLightNavigationBar">false</item>
+    <style name="LongScreenshotActivity" parent="@*android:style/Theme.DeviceDefault.DayNight">
+        <item name="*android:textColorSecondary">?android:textColorPrimaryInverse</item>
+        <item name="*android:windowNoTitle">true</item>
+        <item name="*android:navigationBarColor">?android:colorBackgroundFloating</item>
+        <item name="*android:windowLightStatusBar">false</item>
+        <item name="*android:windowLightNavigationBar">false</item>
     </style>
-    <style name="Screenshot" parent="@android:style/Theme.DeviceDefault.DayNight">
-        <item name="android:textColorPrimary">?android:textColorPrimaryInverse</item>
+    <style name="Screenshot" parent="@*android:style/Theme.DeviceDefault.DayNight">
+        <item name="*android:textColorPrimary">?android:textColorPrimaryInverse</item>
     </style>
     <style name="TextAppearance.InternetDialog.Active" parent="@style/TextAppearance.InternetDialog">
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">?android:textColorPrimaryInverse</item>
-        <item name="android:fontFamily">@android:string/config_dozeTapSensorType</item>
-        <item name="android:textDirection">locale</item>
+        <item name="*android:textSize">16.0sp</item>
+        <item name="*android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="*android:fontFamily">@*android:string/config_dozeTapSensorType</item>
+        <item name="*android:textDirection">locale</item>
     </style>
     <style name="TextAppearance.InternetDialog.Secondary.Active" parent="@style/TextAppearance.InternetDialog.Secondary">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+        <item name="*android:textSize">14.0sp</item>
+        <item name="*android:textColor">?android:textColorSecondaryInverse</item>
     </style>
     <style name="TextAppearance.QS.Status" parent="@style/TextAppearance.QS.TileLabel.Secondary">
-        <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:fontFamily">@android:string/config_companionDeviceManagerPackage</item>
+        <item name="*android:textColor">?android:textColorPrimary</item>
+        <item name="*android:fontFamily">@*android:string/config_companionDeviceManagerPackage</item>
     </style>
     <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
     <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat" />
@@ -60,14 +60,14 @@
     <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar" />
     <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="@style/Theme.MaterialComponents.NoActionBar.Bridge" />
     <style name="Theme.PeopleTileConfigActivity" parent="@style/Theme.SystemUI">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
-        <item name="android:windowLightStatusBar">false</item>
+        <item name="*android:windowNoTitle">true</item>
+        <item name="*android:windowActionBar">false</item>
+        <item name="*android:windowLightStatusBar">false</item>
     </style>
-    <style name="Theme.SystemUI.DayNightDialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
-    <style name="Theme.SystemUI.Dialog.Alert" parent="@android:style/Theme.DeviceDefault.Dialog.Alert" />
-    <style name="Theme.SystemUI.Dialog.GlobalActions" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
-        <item name="android:windowIsFloating">true</item>
+    <style name="Theme.SystemUI.DayNightDialog" parent="@*android:style/Theme.DeviceDefault.Dialog" />
+    <style name="Theme.SystemUI.Dialog.Alert" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert" />
+    <style name="Theme.SystemUI.Dialog.GlobalActions" parent="@*android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="*android:windowIsFloating">true</item>
     </style>
     <style name="ThemeOverlay.AppCompat.DayNight" parent="@style/ThemeOverlay.AppCompat.Dark" />
     <style name="ThemeOverlay.Material3.DynamicColors.DayNight" parent="@style/ThemeOverlay.Material3.DynamicColors.Dark" />
@@ -79,11 +79,11 @@
     <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.TabLayout" />
     <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="@style/Widget.MaterialComponents.Toolbar.Surface" />
     <style name="ZeekrTheme26" parent="@style/Base.ZeekrTheme">
-        <item name="android:colorBackground">@color/md_theme_dark_background</item>
-        <item name="android:statusBarColor">@color/md_theme_dark_background</item>
-        <item name="android:navigationBarColor">@color/md_theme_dark_background</item>
-        <item name="android:windowLightStatusBar">false</item>
-        <item name="android:windowLightNavigationBar">false</item>
+        <item name="*android:colorBackground">@color/md_theme_dark_background</item>
+        <item name="*android:statusBarColor">@color/md_theme_dark_background</item>
+        <item name="*android:navigationBarColor">@color/md_theme_dark_background</item>
+        <item name="*android:windowLightStatusBar">false</item>
+        <item name="*android:windowLightNavigationBar">false</item>
         <item name="colorActionSheet">@color/md_theme_dark_colorActionSheet</item>
         <item name="colorCardSegment">@color/md_theme_dark_colorCardSegment</item>
         <item name="colorCardSegmentBackground">@color/md_theme_dark_colorCardSegmentBackground</item>

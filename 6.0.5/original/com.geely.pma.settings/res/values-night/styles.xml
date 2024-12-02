@@ -42,11 +42,11 @@
     <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.TabLayout" />
     <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="@style/Widget.MaterialComponents.Toolbar.Surface" />
     <style name="ZeekrTheme26" parent="@style/Base.ZeekrTheme">
-        <item name="android:colorBackground">@color/md_theme_dark_background</item>
-        <item name="android:statusBarColor">@color/md_theme_dark_background</item>
-        <item name="android:navigationBarColor">@color/md_theme_dark_background</item>
-        <item name="android:windowLightStatusBar">false</item>
-        <item name="android:windowLightNavigationBar">false</item>
+        <item name="*android:colorBackground">@color/md_theme_dark_background</item>
+        <item name="*android:statusBarColor">@color/md_theme_dark_background</item>
+        <item name="*android:navigationBarColor">@color/md_theme_dark_background</item>
+        <item name="*android:windowLightStatusBar">false</item>
+        <item name="*android:windowLightNavigationBar">false</item>
         <item name="colorActionSheet">@color/md_theme_dark_colorActionSheet</item>
         <item name="colorCardSegment">@color/md_theme_dark_colorCardSegment</item>
         <item name="colorCardSegmentBackground">@color/md_theme_dark_colorCardSegmentBackground</item>

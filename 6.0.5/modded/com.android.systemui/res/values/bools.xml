@@ -10,7 +10,7 @@
     <bool name="car_ui_enable_focus_area_foreground_highlight">false</bool>
     <bool name="car_ui_focus_area_default_focus_overrides_history">false</bool>
     <bool name="config_alwaysExpandNonGroupedNotifications">false</bool>
-    <item type="bool" name="config_automotiveHideNavBarForKeyboard">@android:bool/config_annoy_dianne</item>
+    <item type="bool" name="config_automotiveHideNavBarForKeyboard">@*android:bool/config_annoy_dianne</item>
     <bool name="config_changeVolumeRowTintWhenInactive">true</bool>
     <bool name="config_clipNotificationScrollToTop">true</bool>
     <bool name="config_clipNotificationsToOutline">false</bool>
@@ -24,7 +24,7 @@
     <bool name="config_enableFullscreenUserSwitcher">false</bool>
     <bool name="config_enableHeadsUpNotificationWhenNotificationPanelOpen">true</bool>
     <bool name="config_enableLeftNavigationBar">false</bool>
-    <item type="bool" name="config_enableLockScreenRotation">@android:bool/config_cecRcProfileSourceContentsMenuNotHandled_default</item>
+    <item type="bool" name="config_enableLockScreenRotation">@*android:bool/config_cecRcProfileSourceContentsMenuNotHandled_default</item>
     <bool name="config_enableNonGroupedNotificationExpand">true</bool>
     <bool name="config_enableNotificationShadeDrag">true</bool>
     <bool name="config_enableNotificationsClearAll">true</bool>
@@ -35,7 +35,7 @@
     <bool name="config_enableTopNavigationBar">true</bool>
     <bool name="config_fadeDependingOnAmountSwiped">false</bool>
     <bool name="config_fadeNotificationsOnDismiss">false</bool>
-    <item type="bool" name="config_hideBottomSystemBarForKeyboard">@android:bool/config_annoy_dianne</item>
+    <item type="bool" name="config_hideBottomSystemBarForKeyboard">@*android:bool/config_annoy_dianne</item>
     <bool name="config_hideDividersDuringExpand">true</bool>
     <bool name="config_hideLeftSystemBarForKeyboard">false</bool>
     <bool name="config_hideRightSystemBarForKeyboard">false</bool>

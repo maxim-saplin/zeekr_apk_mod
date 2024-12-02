@@ -40,7 +40,7 @@
     <dimen name="mtrl_calendar_text_input_padding_top">32.0dip</dimen>
     <dimen name="mtrl_calendar_title_baseline_to_top">24.0dip</dimen>
     <dimen name="mtrl_calendar_title_baseline_to_top_fullscreen">32.0dip</dimen>
-    <item type="dimen" name="navigation_bar_size">@android:dimen/keyguard_lockscreen_status_line_clockfont_bottom_margin</item>
+    <item type="dimen" name="navigation_bar_size">@*android:dimen/keyguard_lockscreen_status_line_clockfont_bottom_margin</item>
     <dimen name="num_pad_entry_row_margin_bottom">0.0dip</dimen>
     <dimen name="num_pad_row_margin_bottom">3.0dip</dimen>
     <dimen name="qqs_layout_margin_top">8.0dip</dimen>
@@ -50,7 +50,7 @@
     <dimen name="qs_detail_header_margin_top">14.0dip</dimen>
     <dimen name="qs_footer_padding">14.0dip</dimen>
     <dimen name="qs_security_footer_background_inset">12.0dip</dimen>
-    <item type="dimen" name="qs_security_footer_single_line_height">@android:dimen/notification_big_picture_max_width_low_ram</item>
+    <item type="dimen" name="qs_security_footer_single_line_height">@*android:dimen/notification_big_picture_max_width_low_ram</item>
     <dimen name="split_divider_handle_height">72.0dip</dimen>
     <dimen name="split_divider_handle_width">3.0dip</dimen>
     <dimen name="volume_row_slider_height">128.0dip</dimen>

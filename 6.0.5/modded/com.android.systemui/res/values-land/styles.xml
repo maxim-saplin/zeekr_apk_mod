@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="BrightnessDialogContainer" parent="@style/BaseBrightnessDialogContainer">
-        <item name="android:layout_width">360.0dip</item>
+        <item name="*android:layout_width">360.0dip</item>
     </style>
     <style name="DockedDividerBackground">
-        <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_width">10.0dip</item>
-        <item name="android:layout_height">fill_parent</item>
+        <item name="*android:layout_gravity">center_horizontal</item>
+        <item name="*android:layout_width">10.0dip</item>
+        <item name="*android:layout_height">fill_parent</item>
     </style>
     <style name="DockedDividerHandle">
-        <item name="android:layout_gravity">center</item>
-        <item name="android:layout_width">48.0dip</item>
-        <item name="android:layout_height">96.0dip</item>
+        <item name="*android:layout_gravity">center</item>
+        <item name="*android:layout_width">48.0dip</item>
+        <item name="*android:layout_height">96.0dip</item>
     </style>
     <style name="DockedDividerMinimizedShadow">
-        <item name="android:layout_width">8.0dip</item>
-        <item name="android:layout_height">fill_parent</item>
+        <item name="*android:layout_width">8.0dip</item>
+        <item name="*android:layout_height">fill_parent</item>
     </style>
     <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
         <item name="tabGravity">center</item>
         <item name="tabMode">fixed</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.HeaderSelection" parent="@style/Widget.AppCompat.TextView">
-        <item name="android:textAppearance">?textAppearanceHeadline6</item>
-        <item name="android:textColor">?colorOnPrimary</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:layout_gravity">start|center|top</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:maxLines">@integer/mtrl_calendar_selection_text_lines</item>
+        <item name="*android:textAppearance">?textAppearanceHeadline6</item>
+        <item name="*android:textColor">?colorOnPrimary</item>
+        <item name="*android:ellipsize">end</item>
+        <item name="*android:layout_gravity">start|center|top</item>
+        <item name="*android:layout_width">fill_parent</item>
+        <item name="*android:layout_height">wrap_content</item>
+        <item name="*android:maxLines">@integer/mtrl_calendar_selection_text_lines</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton" parent="@style/Base.Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton">
-        <item name="android:layout_gravity">start|bottom|center</item>
+        <item name="*android:layout_gravity">start|bottom|center</item>
     </style>
 </resources>
