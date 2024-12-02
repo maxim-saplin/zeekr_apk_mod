@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/6d08f093-7016-43b7-b15d-17e855cb13a9)
+
 > ! Use at your own risk! The scripts and binaries are provided as-is and may contain bugs or errors. The author is not responsible for any damage or data loss caused by the use of these scripts.
 
 > ! Take caution, check your version of Zeekr OS before installing any APKs.
