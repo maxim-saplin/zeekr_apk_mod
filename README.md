@@ -84,6 +84,10 @@ E.g. translating Launcher 3D View (with the model of the car in 3D)
 
 #### Making Code Changes (TBD)
 
+#### Updating system apps (e.g. systemui) - TBD
+
+On newer models (007, 001 Restyle) with Zeekr OS 6.x.x Android 12L is used. Some apps are treated as part of OS, reside at /systems-ext/priv-pp and they can not be easily updated using `adb install` or `adb push` (unlike Zeekrs OS 5.x.x which is based on Android 9 and the process is easier).
+
 ### Build and sign APK
 
 Zeekr OS is based on AOSP and uses test keys supplied by Google. I have included .JKS that is used to sign APK to ensure standard signatures are retained. This way apps can be updated inplace.
