@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="400.0dip" android:width="400.0dip" android:viewportWidth="400.0" android:viewportHeight="400.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="ic_zeek_path_bg" android:pathData="M216.0727,245.333 H114.667 V74.666 H285.334 V245.333 H223.493 V184.115 L177.808,137.738 V74.666" android:strokeColor="?colorSplashScreenIconPath1" android:strokeWidth="14.8406" android:trimPathEnd="1.0" />
+    <path android:name="ic_zeek_path_one" android:pathData="M216.0727,245.333 H114.667 V74.666 H285.334 V245.333 H223.493 V184.115 L177.808,137.738 V74.666" android:strokeColor="?colorSplashScreenIconPath2" android:strokeWidth="14.8406" android:trimPathEnd="0.0" />
+    <path android:name="ic_zeek_path_two" android:pathData="M185.2283 74.666 H285.334 V245.333 H114.667 V74.666 H177.808 V137.738 L223.493,184.115 V245.333" android:strokeColor="?colorSplashScreenIconPath1" android:strokeWidth="14.8406" android:trimPathEnd="0.0" />
+</vector>

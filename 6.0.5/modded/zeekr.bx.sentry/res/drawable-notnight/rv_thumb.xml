@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="@dimen/common_dp_4" android:top="64.0dip" android:bottom="39.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/scrollbar_thumb_vertical_color" />
+            <corners android:radius="@dimen/common_dp_10" />
+        </shape>
+    </item>
+</layer-list>

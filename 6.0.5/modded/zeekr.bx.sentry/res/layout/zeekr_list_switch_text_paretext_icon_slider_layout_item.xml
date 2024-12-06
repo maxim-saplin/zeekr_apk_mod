@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/zeekr_list_card_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.ZeekrComponent.ListCard" />
+    <com.zeekr.component.selection.SwitchButton android:id="@id/zeekr_list_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52.0dip" android:checked="true" android:layout_marginStart="40.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?colorPrimary" android:id="@id/zeekr_list_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="text" android:layout_marginStart="32.0dip" app:layout_constraintStart_toEndOf="@id/zeekr_list_switch" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="?textAppearanceLabelMedium" android:textColor="@color/primary_40" android:id="@id/zeekr_list_item_paraText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="paraText" app:layout_constraintStart_toStartOf="@id/zeekr_list_item_text" app:layout_constraintTop_toBottomOf="@id/zeekr_list_item_text" />
+    <com.zeekr.component.slider.ZeekrHorizontalSlider android:id="@id/zeekr_list_slider" android:layout_width="920.0dip" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" android:layout_marginStart="46.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:sliderDisplayRight="true" />
+</merge>

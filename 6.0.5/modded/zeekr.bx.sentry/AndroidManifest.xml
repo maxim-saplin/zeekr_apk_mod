@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="32" android:compileSdkVersionCodename="12" android:sharedUserId="android.uid.system" package="zeekr.bx.sentry" platformBuildVersionCode="32" platformBuildVersionName="12">
+    <uses-feature android:name="android.hardware.usb.host" android:required="true"/>
+    <uses-permission android:name="android.hardware.usb.host" android:required="false"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.car.permission.CAR_CONTROL_AUDIO_VOLUME"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@drawable/sentinel_mode_display" android:label="@string/app_name" android:name="zeekr.bx.sentry.SentryApplication" android:persistent="true" android:requestLegacyExternalStorage="true" android:roundIcon="@drawable/sentinel_mode_display" android:supportsRtl="true" android:testOnly="false" android:theme="@style/ZeekrTheme25">
+        <activity android:exported="false" android:launchMode="singleInstance" android:name="zeekr.bx.sentry.GifStatusActivity"/>
+        <activity android:name="zeekr.bx.sentry.ui.EmptyActivity"/>
+        <activity android:exported="true" android:name="zeekr.bx.sentry.SentinelModeGuideActivity" android:theme="@style/dialogActivity"/>
+        <service android:exported="true" android:foregroundServiceType="camera" android:name="zeekr.bx.sentry.SentryService">
+            <intent-filter>
+                <action android:name="com.zeekr.intent.action.SentryService"/>
+                <action android:name="com.zeekr.sdk.keepalive"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="zeekr.bx.sentry.SwitchSevice">
+            <intent-filter>
+                <action android:name="com.zeekr.intent.action.SwitchSevice"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="zeekr.bx.sentry.receiver.MsgCenterReceiver">
+            <intent-filter>
+                <action android:name="action.intent.zeekr.PUSH_RECEIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="zeekr.bx.sentry.receiver.BootBroadCastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="zeekr.bx.sentry.receiver.AlertReceiver">
+            <intent-filter>
+                <action android:name="action.intent.zeekr.sentry.ALERT_RECEIVER"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" android:resource="@xml/device_filter"/>
+        <provider android:authorities="zeekr.bx.sentry.org.libpag.contextprovider" android:exported="false" android:name="org.extra.tools.ContextProvider"/>
+        <provider android:authorities="zeekr.bx.sentry.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <provider android:authorities="zeekr.bx.sentry.SensorsDataContentProvider" android:enabled="true" android:exported="false" android:name="com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.MainProcessName" android:value="zeekr.bx.sentry"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.version" android:value="0.1.4"/>
+    </application>
+</manifest>

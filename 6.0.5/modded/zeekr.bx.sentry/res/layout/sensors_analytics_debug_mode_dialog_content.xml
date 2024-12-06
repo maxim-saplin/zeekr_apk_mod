@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/sensors_analytics_debug_mode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff888888" android:id="@id/sensors_analytics_debug_mode_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:textAllCaps="false" />
+    </LinearLayout>
+    <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff108ee9" android:gravity="center" android:id="@id/sensors_analytics_debug_mode_track" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:textAllCaps="false" />
+    <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff108ee9" android:gravity="center" android:id="@id/sensors_analytics_debug_mode_only" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:textAllCaps="false" />
+    <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff108ee9" android:gravity="center" android:id="@id/sensors_analytics_debug_mode_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:textAllCaps="false" />
+</LinearLayout>

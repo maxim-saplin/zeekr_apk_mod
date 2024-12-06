@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/zeekr_list_item_card" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.ZeekrComponent.CardView.ListDialog.Radio" />
+    <com.zeekr.component.selection.ZeekrRadioButton android:id="@id/zeekr_list_item_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zeekr_dialog_select_margin_start" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:id="@id/zeekr_list_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zeekr_dialog_select_margin_icon" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/zeekr_list_item_radio" app:layout_constraintTop_toTopOf="parent" />
+    <com.zeekr.component.button.ZeekrButton android:id="@id/zeekr_list_dialog_item_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zeekr_dialog_select_margin_tag" app:layout_constraintBottom_toBottomOf="@id/zeekr_list_item_text" app:layout_constraintStart_toEndOf="@id/zeekr_list_item_text" app:layout_constraintTop_toTopOf="@id/zeekr_list_item_text" style="@style/Widget.ZeekrButton.Tag" />
+</merge>

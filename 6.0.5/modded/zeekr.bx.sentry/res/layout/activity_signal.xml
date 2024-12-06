@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/usageMode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电源模式" />
+    <TextView android:id="@id/usageModeIV" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:id="@id/hvSource" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="高压" />
+    <TextView android:id="@id/hvSourceIv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:id="@id/batteryLevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电量" />
+    <TextView android:id="@id/batteryLevelIv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:id="@id/dcdc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dcdc" />
+    <TextView android:id="@id/dcdcIv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:id="@id/batteryRaw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="batteryRaw" />
+    <TextView android:id="@id/batteryRawIv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:id="@id/armed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="armed" />
+    <TextView android:id="@id/armedIv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:id="@id/gsensor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gsensor" />
+    <TextView android:id="@id/gsensorIv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:id="@id/remoteSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="remoteSwitch" />
+    <TextView android:id="@id/remoteSwitchIv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:id="@id/vstdStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="vstdStatus" />
+    <TextView android:id="@id/vstdStatusIv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>
