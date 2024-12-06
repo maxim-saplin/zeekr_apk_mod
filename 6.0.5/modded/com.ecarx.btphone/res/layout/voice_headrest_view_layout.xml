@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/empty_button_bg" android:layout_width="@dimen/width430" android:layout_height="@dimen/width86"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_32" android:textColor="@color/voice_headrest_name_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_voice_headrest_name" android:layout_width="wrap_content" android:layout_height="@dimen/width48" android:maxWidth="294.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/width32" />
+    <ImageView android:id="@id/iv_voice_headrest_down" android:layout_width="@dimen/width48" android:layout_height="@dimen/width48" android:src="@drawable/connect_devices_arrow_down" android:scaleType="centerInside" android:layout_marginStart="@dimen/width32" android:layout_marginEnd="@dimen/width24" android:layout_alignParentEnd="true" />
+</RelativeLayout>

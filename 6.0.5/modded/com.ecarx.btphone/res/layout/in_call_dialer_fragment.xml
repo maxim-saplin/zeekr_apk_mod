@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="@dimen/in_call_dialer_edit_text_size" android:textColor="@color/dial_edit_text_color" android:ellipsize="start" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/et_number_in_call_dialer" android:background="#00ffffff" android:focusable="false" android:layout_width="644.0dip" android:layout_height="@dimen/width132" android:cursorVisible="false" android:singleLine="true" android:includeFontPadding="false" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/fl_dial_pad_in_call_dialer" android:layout_width="644.0dip" android:layout_height="760.0dip" android:layout_marginTop="@dimen/width44" />
+</LinearLayout>

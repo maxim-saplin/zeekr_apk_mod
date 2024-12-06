@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/dial_pad_number" android:layout_width="wrap_content" android:layout_height="@dimen/width84" style="@style/TextAppearance.AppCompat.Key1" />
+    <TextView android:gravity="center" android:id="@id/dial_pad_letters" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/width42" android:layout_marginTop="-16.0dip" android:textAllCaps="true" style="@style/TextAppearance.AppCompat.Key2" />
+    <ImageView android:id="@id/dial_pad_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/theme_text_color_20" />
+</LinearLayout>

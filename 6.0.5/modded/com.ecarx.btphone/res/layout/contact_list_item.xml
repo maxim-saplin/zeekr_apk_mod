@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_contact_item" android:background="@drawable/search_list_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/width20"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/header_contact_item" android:layout_width="fill_parent" android:layout_height="@dimen/display_list_item_height">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/iv_avatar_container" android:layout_width="@dimen/width200" android:layout_height="@dimen/width160" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/iv_avatar_contact_item" android:layout_width="@dimen/width40" android:layout_height="@dimen/width40" android:src="@drawable/ic_ico_into_down" android:scaleType="centerInside" android:layout_marginStart="@dimen/width108" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_avatar_contact_text_item" android:layout_width="@dimen/display_avatar_list_item_size" android:layout_height="@dimen/display_avatar_list_item_size" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginStart="@dimen/width48" />
+        <LinearLayout android:orientation="vertical" android:id="@id/iv_display_avatar_contacts_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/display_list_item_margin_start" android:layout_toEndOf="@id/iv_avatar_contact_text_item">
+            <TextView android:textSize="@dimen/display_name_list_item_text_size" android:textColor="@color/display_name_list_item_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_display_name_contact_item" android:layout_width="fill_parent" android:layout_height="@dimen/width54" android:lines="1" android:includeFontPadding="true" android:textFontWeight="400" />
+            <TextView android:textSize="@dimen/display_number_list_item_text_size" android:textColor="@color/display_number_list_item_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_display_number_contact_item" android:layout_width="fill_parent" android:layout_height="@dimen/width42" android:layout_marginTop="@dimen/width4" android:lines="1" android:includeFontPadding="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.ecarx.btphone.ui.common.ExpandableLayout android:id="@id/el_contact_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/header_contact_item" app:el_duration="150" app:el_expanded="true">
+        <com.ecarx.btphone.ui.contacts.ContactListDetailItemView android:id="@id/detail_contact_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.ecarx.btphone.ui.common.ExpandableLayout>
+</RelativeLayout>

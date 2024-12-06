@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/empty_button_bg" android:layout_width="@dimen/width280" android:layout_height="@dimen/width86"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_connect_device_logo" android:visibility="gone" android:layout_width="@dimen/width26" android:layout_height="@dimen/width26" android:src="@drawable/connect_device_logo" android:scaleType="centerInside" android:layout_marginStart="@dimen/width24" />
+    <TextView android:textSize="@dimen/text_size_32" android:textColor="@color/connect_devices_list_item_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_connect_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/width144" android:minHeight="@dimen/width48" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/width32" />
+    <ImageView android:id="@id/iv_connect_device_down" android:layout_width="@dimen/width48" android:layout_height="@dimen/width48" android:src="@drawable/connect_devices_arrow_down" android:scaleType="centerInside" android:layout_marginStart="@dimen/width32" android:layout_marginEnd="@dimen/width24" android:layout_alignParentEnd="true" />
+</RelativeLayout>

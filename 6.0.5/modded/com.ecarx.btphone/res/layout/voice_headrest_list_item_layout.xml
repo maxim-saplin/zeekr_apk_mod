@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/text_size_32" android:textColor="@color/voice_headrest_list_text_color_selector" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/tv_voice_headrest_list_item_name" android:background="@drawable/voice_headrest_list_bg" android:layout_width="fill_parent" android:layout_height="@dimen/width86" android:maxLines="1" android:includeFontPadding="false" android:layout_centerInParent="true" android:paddingStart="@dimen/width20" android:paddingEnd="@dimen/width20" android:textFontWeight="400"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

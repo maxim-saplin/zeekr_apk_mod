@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="32" android:compileSdkVersionCodename="12" android:sharedUserId="android.uid.system" package="com.ecarx.btphone" platformBuildVersionCode="32" platformBuildVersionName="12">
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.cevt.dimsupportservice.permission.DIM_MESSAGING"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.ecarx.eline.permission.PROVIDER"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.car.permission.CAR_VENDOR_EXTENSION"/>
+    <uses-permission android:name="android.car.permission.CAR_HVAC"/>
+    <uses-permission android:name="android.permission.MANAGE_ACTIVITY_STACKS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.car.permission.CAR_SPEED"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:directBootAware="true" android:extractNativeLibs="true" android:icon="@drawable/ic_phone_launcher" android:label="@string/phone_app_name2" android:name="com.ecarx.btphone.BtPhoneApp" android:networkSecurityConfig="@xml/network_security_config" android:resizeableActivity="true" android:theme="@style/AppTheme">
+        <meta-data android:name="com.ecarx.statistic.BuildInfo.APP_KEY" android:value="a661f5534b727bf399c328b14550fcb05204aef4"/>
+        <activity android:configChanges="locale|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/phone_app_name2" android:launchMode="singleTask" android:name="com.ecarx.btphone.ui.MainActivity" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ecarx.intent.action.ECARX_VR_APP_OPEN"/>
+                <category android:name="ecarx.intent.category.ECARX_VR_APP_OPEN_BT_FAVORITE"/>
+                <category android:name="ecarx.intent.category.ECARX_VR_APP_OPEN_BT_PHONE"/>
+                <category android:name="ecarx.intent.category.ECARX_VR_APP_OPEN_BT_RECORD"/>
+                <category android:name="ecarx.intent.category.ECARX_VR_APP_OPEN_BT_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:label="@string/phone_app_name2" android:launchMode="singleInstance" android:name="com.ecarx.btphone.ui.NoViewActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleInstance" android:name="com.ecarx.btphone.ui.DialogActivity" android:theme="@style/NoDisplayTheme"/>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="com.ecarx.btphone.ui.CallingActivity" android:theme="@style/activityTheme"/>
+        <provider android:authorities="com.ecarx.btphone.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <service android:exported="true" android:name="com.ecarx.btphone.telecom.InCallServiceImpl" android:permission="android.permission.BIND_INCALL_SERVICE">
+            <meta-data android:name="android.telecom.IN_CALL_SERVICE_UI" android:value="true"/>
+            <intent-filter>
+                <action android:name="android.telecom.InCallService"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="true" android:name="com.ecarx.btphone.telecom.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.ecarx.btphone.telecom.CloseBtPhoneBroadcastReceiver">
+            <intent-filter>
+                <action android:name="ecarx.intent.broadcast.action.ECARX_VR_APP_CLOSE"/>
+                <category android:name="ecarx.intent.broadcast.category.ECARX_VR_APP_CLOSE_BT_PHONE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.ecarx.btphone.voice.VoiceReceiver">
+            <intent-filter>
+                <action android:name="zeekr.intent.broadcast.action.ZEEKR_VR_CONTROL_PHONE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.ecarx.btphone.sat.SatcomControlReceiver">
+            <intent-filter>
+                <action android:name="zeekr.intent.broadcast.action.SATCOM_CONTROL_PHONE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.ecarx.btphone.SensorsDataContentProvider" android:enabled="true" android:exported="false" android:name="com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.MainProcessName" android:value="com.ecarx.btphone"/>
+        <provider android:authorities="com.ecarx.btphone.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.ecarx.statistics.BuildInfo.SDK_VERSION" android:value="2001006"/>
+        <activity android:configChanges="keyboardHidden|locale|orientation|screenSize" android:name="com.tencent.bugly.beta.ui.BetaActivity" android:theme="@android:style/Theme.Translucent"/>
+        <provider android:authorities="com.ecarx.btphone.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.tencent.bugly.beta.utils.BuglyFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.tencent.bugly.beta.tinker.TinkerResultService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService0"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService1"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService2"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService3"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService4"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService5"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService6"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService7"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService8"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService9"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService10"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService11"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService12"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService13"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService14"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService15"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.version" android:value="0.1.6"/>
+    </application>
+</manifest>

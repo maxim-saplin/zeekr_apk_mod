@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/tipkc2_message_text_size" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_message" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tipkc2_message_text_margin_top" android:layout_marginBottom="@dimen/tipkc2_message_text_margin_bottom" android:maxLines="6" android:textAllCaps="false" android:layout_marginStart="@dimen/tipkc2_message_text_margin_start_end" android:layout_marginEnd="@dimen/tipkc2_message_text_margin_start_end" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ff161616" />
+    <corners android:radius="@dimen/tipkc2_shape_loading_radius" />
+</shape>

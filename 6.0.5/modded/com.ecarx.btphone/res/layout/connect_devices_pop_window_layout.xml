@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:id="@id/lv_connect_devices_view" android:background="@drawable/connect_devices_list_default_bg" android:paddingTop="@dimen/width12" android:layout_width="@dimen/bt_spinner_width" android:layout_height="@dimen/bt_spinner_popup_height" android:layout_centerInParent="true" android:paddingStart="@dimen/width12" android:paddingEnd="@dimen/width12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rl_view" android:layout_width="256.0dip" android:layout_height="@dimen/width172" />
+</LinearLayout>

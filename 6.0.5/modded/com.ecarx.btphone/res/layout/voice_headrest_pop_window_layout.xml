@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:id="@id/lv_headrest_popup_view" android:background="@drawable/voice_headrest_popup_bg" android:padding="@dimen/width12" android:layout_width="@dimen/headrest_popup_width" android:layout_height="@dimen/headrest_popup_height" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rl_headrest_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>
