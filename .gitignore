@@ -35,4 +35,5 @@ google-services.json
 /_output
 
 !*/modded_apks/*.apk
+!*/original_apks/*.apk
 6.0.5/.DS_Store
