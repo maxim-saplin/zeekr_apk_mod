@@ -53,23 +53,23 @@
     <string name="gif_record_text">Recording</string>
     <string name="guard_mode">Sentry Mode</string>
     <string name="guide">During Sentry Mode activation, additional battery power will be consumed, and it will automatically exit when below 20%. After an alarm is triggered, Sentry Mode will play loud music, so please avoid leaving people or animals inside the car.</string>
-    <string name="guide_page1_desc">The feature starts monitoring %s seconds after activation and locking the car. If a person enters the vehicle's detection range or the vehicle experiences abnormal vibrations, a one-minute video will be recorded before and after the event.</string>
+    <string name="guide_page1_desc">The feature starts monitoring %s seconds after activation and locking the car. If a person enters the vehicle\'s detection range or the vehicle experiences abnormal vibrations, a one-minute video will be recorded before and after the event.</string>
     <string name="guide_page1_desc2">In case of abnormal vibrations, the hazard lights and horn will be activated, and the mobile app will receive a notification.</string>
     <string name="guide_page1_title">Feature Description</string>
     <string name="guide_page2_desc">The feature will automatically exit when the battery level is below 20%.</string>
     <string name="guide_page2_desc2">To avoid additional battery consumption, <font color="#F88650">the feature switch is only effective for the current session</font>. The feature will exit after detecting vehicle movement, and Sentry Mode must be reactivated for the next use.</string>
     <string name="guide_page2_title">Automatic Exit</string>
-    <string name="guide_page3_desc">When a USB drive is not inserted, the vehicle's internal hard drive provides up to 8GB of storage space. When space is insufficient, older videos will be deleted in chronological order.</string>
-    <string name="guide_page3_desc2">To protect the lifespan of the vehicle's internal hard drive, it is recommended to add a USB drive as shown. It is recommended to use a FAT32 formatted USB drive with a capacity of up to 256GB, and it is recommended to purchase from the Jiwu Mall.</string>
+    <string name="guide_page3_desc">When a USB drive is not inserted, the vehicle\'s internal hard drive provides up to 8GB of storage space. When space is insufficient, older videos will be deleted in chronological order.</string>
+    <string name="guide_page3_desc2">To protect the lifespan of the vehicle\'s internal hard drive, it is recommended to add a USB drive as shown. It is recommended to use a FAT32 formatted USB drive with a capacity of up to 256GB, and it is recommended to purchase from the Jiwu Mall.</string>
     <string name="guide_page3_title">Add USB Drive</string>
     <string name="guide_page4_desc">"• Sentry recognition capability will be reduced in poor lighting conditions or when the camera is obscured by dirt. 
-• Slow-moving pedestrians passing through the vehicle's detection range may trigger false recognition. 
+• Slow-moving pedestrians passing through the vehicle\'s detection range may trigger false recognition. 
 • Vibration monitoring is not suitable for minor vibrations such as door paint chipping or scratches. 
 • Sentry mode is not available when pet or rest scene modes are enabled, and it will exit during OTA upgrades. 
 • When the temperature inside the car is too high or too low, the USB drive may not work, and videos will be prioritized for storage in the car system."</string>
     <string name="guide_page4_desc_2"><font color="#F88650">Note:</font> After an alarm is triggered, a loud alarm will sound. Please avoid leaving people or animals inside the car. Sentry Mode has video recording capabilities, please activate it in areas permitted by local regulations.</string>
     <string name="guide_page4_desc_t1">• Sentry recognition capability will be reduced in poor lighting conditions or when the camera is obscured by dirt.</string>
-    <string name="guide_page4_desc_t2">• Slow-moving pedestrians passing through the vehicle's detection range may trigger false recognition.</string>
+    <string name="guide_page4_desc_t2">• Slow-moving pedestrians passing through the vehicle\'s detection range may trigger false recognition.</string>
     <string name="guide_page4_desc_t3">• Vibration monitoring is not suitable for minor vibrations such as door paint chipping or scratches.</string>
     <string name="guide_page4_desc_t4">• Sentry mode is not available when pet or rest scene modes are enabled, and it will exit during OTA upgrades.</string>
     <string name="guide_page4_desc_t5">• When the temperature inside the car is too high or too low, the USB drive may not work, and videos will be prioritized for storage in the car system.</string>
@@ -95,7 +95,7 @@
     <string name="material_clock_toggle_content_description">Select AM or PM</string>
     <string name="material_hour_24h_suffix">%1$s hours</string>
     <string name="material_hour_selection">Select hour</string>
-    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_hour_suffix">"%1$s o\'clock"</string>
     <string name="material_minute_selection">Select minutes</string>
     <string name="material_minute_suffix">%1$s minutes</string>
     <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
@@ -210,9 +210,9 @@
     <string name="sensors_analytics_ad_dialog_ok">OK</string>
     <string name="sensors_analytics_ad_dialog_starting">Debugging mode is about to start</string>
     <string name="sensors_analytics_ad_dialog_title">Debugging mode successfully started</string>
-    <string name="sensors_analytics_ad_error_debug_fail_content">"1. Deny 'Phone' permission when opening the App;
- + 2. Check if 'Phone' permission is disabled in the phone system settings;
- + 3. Please contact the development team to confirm whether the 'trackInstallation' interface is called after obtaining the 'Phone' permission.
+    <string name="sensors_analytics_ad_error_debug_fail_content">"1. Deny \'Phone\' permission when opening the App;
+ + 2. Check if \'Phone\' permission is disabled in the phone system settings;
+ + 3. Please contact the development team to confirm whether the \'trackInstallation\' interface is called after obtaining the \'Phone\' permission.
 
   + After troubleshooting and fixing, please uninstall the app and reinstall it, then scan the code for joint debugging."</string>
     <string name="sensors_analytics_ad_error_debug_fail_title">Detected "Device code is empty", possible reasons are as follows, please troubleshoot:</string>
@@ -252,10 +252,10 @@
     <string name="sensors_analytics_debug_view_title">SDK Debug Mode Selection</string>
     <string name="sensors_analytics_encrypt_disable">The current app has not enabled encryption, please enable encryption and try again</string>
     <string name="sensors_analytics_encrypt_fail">Key verification failed, the selected key is invalid</string>
-    <string name="sensors_analytics_encrypt_key_null">Key verification failed, the app's key is empty</string>
-    <string name="sensors_analytics_encrypt_pass">Key verification passed, the selected key matches the app's key</string>
-    <string name="sensors_analytics_encrypt_verify_fail_type">Key verification failed, the selected key type does not match the app's key type. Selected key symmetric algorithm type: %1$s, asymmetric algorithm type: %2$s, app key symmetric algorithm type: %3$s, asymmetric algorithm type: %4$s</string>
-    <string name="sensors_analytics_encrypt_verify_fail_version">Key verification failed, the selected key does not match the app's key. Selected key version: %1$s, app key version: %2$s</string>
+    <string name="sensors_analytics_encrypt_key_null">Key verification failed, the app\'s key is empty</string>
+    <string name="sensors_analytics_encrypt_pass">Key verification passed, the selected key matches the app\'s key</string>
+    <string name="sensors_analytics_encrypt_verify_fail_type">Key verification failed, the selected key type does not match the app\'s key type. Selected key symmetric algorithm type: %1$s, asymmetric algorithm type: %2$s, app key symmetric algorithm type: %3$s, asymmetric algorithm type: %4$s</string>
+    <string name="sensors_analytics_encrypt_verify_fail_version">Key verification failed, the selected key does not match the app\'s key. Selected key version: %1$s, app key version: %2$s</string>
     <string name="sensors_analytics_heatmap">Click Analysis</string>
     <string name="sensors_analytics_heatmap_dialog_error">The project integrated in the App is different from the project opened in the computer browser, unable to perform click analysis</string>
     <string name="sensors_analytics_heatmap_mobile_name">Connecting to App Click Analysis, it is recommended to use in a WiFi environment.</string>
@@ -306,7 +306,7 @@
     <string name="sentinel_mode_description_3">APP Message Notification</string>
     <string name="sentinel_mode_description_4">To conveniently receive vehicle status information promptly, please enable the notification function of the Zeekr app</string>
     <string name="sentinel_mode_description_5">Add USB Drive</string>
-    <string name="sentinel_mode_description_6">As shown in the figure, adding a USB drive can save videos. When the USB drive space is insufficient, recorded videos will be deleted in chronological order from oldest to newest, except for high-risk event videos. Poor quality USB drives may cause data loss, it is recommended to purchase from the official store. Refer to the car owner's manual for detailed USB drive parameter requirements</string>
+    <string name="sentinel_mode_description_6">As shown in the figure, adding a USB drive can save videos. When the USB drive space is insufficient, recorded videos will be deleted in chronological order from oldest to newest, except for high-risk event videos. Poor quality USB drives may cause data loss, it is recommended to purchase from the official store. Refer to the car owner\'s manual for detailed USB drive parameter requirements</string>
     <string name="sentinel_mode_description_7">Power Consumption</string>
     <string name="sentinel_mode_description_8">The function will consume additional power when enabled, and will automatically exit when the power is below 20%. To avoid power consumption, the function switch is only effective for one use</string>
     <string name="sentinel_mode_description_9">Note</string>
@@ -338,14 +338,14 @@
     <string name="srl_header_refreshing">Refreshing</string>
     <string name="srl_header_release">Release to refresh</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="ufs_not_available">"Sentry mode is activated, internal storage is insufficient and no external USB drive is detected. Currently, alarm notifications can be received, but videos may not be stored. Please clear the car's storage space or insert an external USB drive. If memory is still insufficient after inserting the USB drive, please check and try again.
+    <string name="ufs_not_available">"Sentry mode is activated, internal storage is insufficient and no external USB drive is detected. Currently, alarm notifications can be received, but videos may not be stored. Please clear the car\'s storage space or insert an external USB drive. If memory is still insufficient after inserting the USB drive, please check and try again.
 • Is the USB drive inserted in the correct position?
 • Is the USB drive capacity between 512MB and 256GB?
 • Is the USB drive format FAT32?
 • Is the USB drive damaged?"</string>
     <string name="usb_insufficient">USB memory is insufficient, affecting data storage, please clear it promptly</string>
     <string name="usb_not_space">Sentry mode is activated, the current USB drive has less than 2GB of available space, which is insufficient for 10 minutes of recording, please clear it promptly</string>
-    <string name="usb_storage_slow">Sentry mode is activated, the USB drive's read/write performance is detected to be poor, which may result in incomplete video recording. It is recommended to purchase the official recommended USB drive from the official store. For other USB drive parameter requirements, refer to the car owner's manual</string>
+    <string name="usb_storage_slow">Sentry mode is activated, the USB drive\'s read/write performance is detected to be poor, which may result in incomplete video recording. It is recommended to purchase the official recommended USB drive from the official store. For other USB drive parameter requirements, refer to the car owner\'s manual</string>
     <string name="xpopup_image_not_exist">Image not exist</string>
     <string name="xpopup_save">save</string>
     <string name="xpopup_saved_fail">Image save failed</string>
