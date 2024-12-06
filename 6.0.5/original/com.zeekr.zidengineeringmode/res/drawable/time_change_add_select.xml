@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <stroke android:width="@dimen/dimen_2" android:color="@color/white" />
+            <solid android:color="@color/white" />
+            <corners android:radius="@dimen/dimen_8" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/dimen_34" android:width="@dimen/dimen_34" android:drawable="@drawable/ic_time_add" />
+</layer-list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ecarx.tip.common.base.BaseRootView android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:Lottie="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_content_container" android:background="@drawable/tipkc2_shape_bg_loading_container" android:layout_width="@dimen/tipkc2_loading_width" android:layout_height="@dimen/tipkc2_loading_hight">
+        <com.airbnb.lottie.LottieAnimationView android:layout_width="@dimen/tipkc2_loading_img_hight" android:layout_height="@dimen/tipkc2_loading_img_hight" Lottie:lottie_autoPlay="true" Lottie:lottie_fileName="loadingkc2.json" Lottie:lottie_loop="true" />
+        <TextView android:textSize="@dimen/tipkc2_loading_text_size" android:textColor="#b3ffffff" android:id="@id/tv_loading_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tipkc2_loading_text_margin_top" android:singleLine="true" android:textAllCaps="false" />
+    </LinearLayout>
+</com.ecarx.tip.common.base.BaseRootView>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/font_30" android:textColor="@color/color_4C4C4C" android:gravity="center" android:id="@id/tv_tab_item" android:padding="@dimen/dimen_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_10" android:maxLines="1"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

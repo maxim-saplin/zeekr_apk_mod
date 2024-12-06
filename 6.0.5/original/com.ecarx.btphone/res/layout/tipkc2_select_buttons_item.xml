@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/tipkc2_select_button_text_size" android:textColor="@color/tipkc2_sel_select_button_text_color" android:gravity="center" android:id="@id/button" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/tipkc2_select_button_hight" android:singleLine="true" android:textAllCaps="false" />
+    <View android:id="@id/view_divide_line" android:background="@drawable/tipkc2_divider_line" android:layout_width="fill_parent" android:layout_height="@dimen/tipkc2_select_button_div_hight" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/width70">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="405.0dip" android:src="@drawable/bluetooth_empty_icon" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_36" android:textColor="@color/bt_not_connect_tip_text_color" android:gravity="center_vertical" android:id="@id/bt_not_connect_tip" android:layout_width="wrap_content" android:layout_height="@dimen/width54" android:layout_marginTop="@dimen/empty_text_margin_top" android:text="@string/bt_not_connect" android:includeFontPadding="false" android:layout_below="@id/icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_36" android:textColor="@color/bt_setting_connect_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bt_setting_btn" android:background="@drawable/dial_bt_setting_bg" android:layout_width="358.0dip" android:layout_height="@dimen/empty_btn_height" android:layout_marginTop="@dimen/empty_btn_margin_top" android:text="@string/btn_bt_connect" android:layout_below="@id/bt_not_connect_tip" android:layout_centerHorizontal="true" android:textFontWeight="400" />
+    </RelativeLayout>
+</RelativeLayout>

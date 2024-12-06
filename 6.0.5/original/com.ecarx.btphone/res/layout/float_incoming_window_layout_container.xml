@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="1256.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/in_float_incoming_one_container" android:layout_width="1256.0dip" android:layout_height="292.0dip" layout="@layout/float_incoming_window_layout" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/ib_root_two_phone_incoming_container" android:visibility="gone" android:layout_width="1256.0dip" android:layout_height="292.0dip" android:layout_marginTop="-36.0dip" android:layout_below="@id/in_float_incoming_one_container">
+        <View android:background="@drawable/ic_bt_float_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.ecarx.btphone.view.InComingCallBar android:id="@id/ib_root_two_phone_incoming" android:layout_width="@dimen/width1200" android:layout_height="236.0dip" android:layout_marginTop="@dimen/width12" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

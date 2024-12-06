@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_gesture_down">
+        <item>com.android.car.carlauncher</item>
+        <item>com.android.launcher3</item>
+        <item>com.android.launcher</item>
+        <item>com.android.systemui</item>
+        <item>ecarx.launcher3</item>
+        <item>com.zeekr.automap</item>
+        <item>com.ecarx.provision</item>
+        <item>com.zeekr.carlauncher3d</item>
+        <item>com.zeekr.autopilot</item>
+    </string-array>
+</resources>

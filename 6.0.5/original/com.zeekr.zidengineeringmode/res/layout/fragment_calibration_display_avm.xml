@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_calibration_display_avm_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_right" android:layout_width="@dimen/dimen_568" android:layout_height="@dimen/dimen_302" android:scaleType="fitCenter" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="@dimen/dimen_60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_40">
+            <ImageView android:id="@id/img_front" android:layout_width="@dimen/dimen_568" android:layout_height="@dimen/dimen_302" android:scaleType="fitCenter" />
+            <ImageView android:layout_width="@dimen/dimen_670" android:layout_height="@dimen/dimen_302" android:layout_marginLeft="@dimen/dimen_40" android:src="@mipmap/calibration_display_car" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/img_rear" android:layout_width="@dimen/dimen_568" android:layout_height="@dimen/dimen_302" android:layout_marginLeft="@dimen/dimen_40" android:scaleType="fitCenter" />
+        </LinearLayout>
+        <ImageView android:id="@id/img_left" android:layout_width="@dimen/dimen_568" android:layout_height="@dimen/dimen_302" android:layout_marginTop="@dimen/dimen_40" android:scaleType="fitCenter" />
+    </LinearLayout>
+</FrameLayout>

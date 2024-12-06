@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/btphone_status_bar_one" android:background="@drawable/bt_phone_normal_tatus_bar_bg" android:layout_width="@dimen/width280" android:layout_height="@dimen/width280" android:layout_centerInParent="true">
+        <ImageView android:id="@id/iv_btphone_status_bar_one" android:layout_width="@dimen/width120" android:layout_height="@dimen/width120" android:layout_marginTop="22.0dip" android:src="@drawable/bt_phone_status_bar_answer" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/text_size_32" android:textColor="@color/status_bar_status_text_color" android:gravity="center" android:id="@id/tv_btphone_status_bar_one" android:layout_width="wrap_content" android:layout_height="@dimen/width48" android:singleLine="true" />
+        <TextView android:id="@id/tv_btphone_status_bar_one_phone_id" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/btphone_status_bar_two" android:background="@drawable/bt_phone_normal_tatus_bar_bg" android:visibility="gone" android:layout_width="@dimen/width280" android:layout_height="@dimen/width280" android:layout_marginTop="@dimen/width4" android:layout_below="@id/btphone_status_bar_one" android:layout_centerInParent="true">
+        <ImageView android:id="@id/iv_btphone_status_bar_two" android:layout_width="@dimen/width120" android:layout_height="@dimen/width120" android:layout_marginTop="22.0dip" android:src="@drawable/bt_phone_status_bar_answer" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/text_size_32" android:textColor="@color/status_bar_status_text_color" android:gravity="center" android:id="@id/tv_btphone_status_bar_two" android:layout_width="wrap_content" android:layout_height="@dimen/width48" android:singleLine="true" />
+        <TextView android:id="@id/tv_btphone_status_bar_two_phone_id" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

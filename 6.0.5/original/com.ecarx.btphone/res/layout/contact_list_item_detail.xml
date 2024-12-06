@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="160.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:background="@color/dtl_item_divide_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="168.0dip" android:layout_marginEnd="@dimen/width40" />
+    <ImageView android:id="@id/dtl_item_label_icon" android:background="@drawable/dtl_item_label_bg" android:layout_width="@dimen/width86" android:layout_height="@dimen/width86" android:layout_marginTop="@dimen/width37" android:scaleType="centerInside" android:layout_marginStart="168.0dip" />
+    <TextView android:textSize="@dimen/text_size_36" android:textColor="@color/display_name_list_item_text_color" android:gravity="center_vertical" android:id="@id/dtl_item_label" android:layout_width="wrap_content" android:layout_height="@dimen/width54" android:layout_marginTop="@dimen/width30" android:layout_marginStart="@dimen/width37" android:layout_toEndOf="@id/dtl_item_label_icon" android:textFontWeight="400" />
+    <TextView android:textSize="@dimen/text_size_28" android:textColor="@color/display_number_list_item_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/dtl_item_content" android:layout_width="wrap_content" android:layout_height="@dimen/width42" android:maxLines="1" android:layout_below="@id/dtl_item_label" android:layout_alignStart="@id/dtl_item_label" android:textFontWeight="400" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/iv_avatar_container" android:layout_width="@dimen/width200" android:layout_height="@dimen/width160" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/contact_starred" android:layout_width="@dimen/width40" android:layout_height="@dimen/width40" android:src="@drawable/ic_ico_into_down" android:scaleType="centerInside" android:layout_marginStart="@dimen/width108" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_calibration_display_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.tabs.TabLayout android:layout_gravity="center|left|top" android:id="@id/tab_layout" android:background="@drawable/calibration_display_tab_bg" android:layout_width="@dimen/dimen_465" android:layout_height="@dimen/dimen_85" android:layout_marginLeft="@dimen/dimen_180" android:layout_marginTop="@dimen/dimen_50" app:tabBackground="@drawable/calibration_display_tab_item_bg" app:tabGravity="fill" app:tabIndicatorFullWidth="true" app:tabIndicatorHeight="0.0dip" app:tabSelectedTextColor="#ff000000">
+        <com.google.android.material.tabs.TabItem android:textSize="@dimen/font_30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AVM" />
+        <com.google.android.material.tabs.TabItem android:textSize="@dimen/font_30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FAS2" />
+    </com.google.android.material.tabs.TabLayout>
+    <Button android:textSize="@dimen/font_30" android:textColor="@color/white" android:layout_gravity="center|right|top" android:id="@id/sync_bnt" android:background="@drawable/bg_layout_background_4a4a4c" android:layout_width="@dimen/dimen_219" android:layout_height="@dimen/dimen_48" android:layout_marginTop="@dimen/dimen_20" android:text="同步数据" android:layout_marginEnd="@dimen/dimen_20" android:stateListAnimator="@null" />
+</FrameLayout>

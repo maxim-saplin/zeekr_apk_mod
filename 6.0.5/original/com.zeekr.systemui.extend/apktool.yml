@@ -1,0 +1,29 @@
+version: 2.10.0
+apkFileName: com.zeekr.systemui.extend.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 32
+  targetSdkVersion: 32
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 32
+  versionName: 12
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+doNotCompress:
+- classes.dex
+- resources.arsc
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.arch.core_core-runtime.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- png

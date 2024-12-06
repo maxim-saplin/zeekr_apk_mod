@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_gravity="center" android:background="@drawable/connect_devices_list_bg" android:layout_width="fill_parent" android:layout_height="@dimen/width86" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tv_connect_device_list_item_logo" android:visibility="gone" android:layout_width="@dimen/width26" android:layout_height="@dimen/width26" android:src="@drawable/connect_device_logo" android:scaleType="centerInside" android:layout_marginStart="@dimen/width24" />
+    <TextView android:textSize="@dimen/text_size_32" android:textColor="@color/connect_devices_list_item_text_color" android:ellipsize="end" android:id="@id/tv_connect_device_list_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/width20" android:layout_marginEnd="@dimen/width20" android:layout_toEndOf="@id/tv_connect_device_list_item_logo" android:textFontWeight="400" />
+</RelativeLayout>

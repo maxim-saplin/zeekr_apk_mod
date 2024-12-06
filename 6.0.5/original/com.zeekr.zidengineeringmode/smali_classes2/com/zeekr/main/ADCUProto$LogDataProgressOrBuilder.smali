@@ -1,0 +1,46 @@
+.class public interface abstract Lcom/zeekr/main/ADCUProto$LogDataProgressOrBuilder;
+.super Ljava/lang/Object;
+.source "ADCUProto.java"
+
+# interfaces
+.implements Lcom/google/protobuf/MessageOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/zeekr/main/ADCUProto;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "LogDataProgressOrBuilder"
+.end annotation
+
+
+# virtual methods
+.method public abstract getCurFileNum()I
+.end method
+
+.method public abstract getErrCode()I
+.end method
+
+.method public abstract getErrMsg()Ljava/lang/String;
+.end method
+
+.method public abstract getErrMsgBytes()Lcom/google/protobuf/ByteString;
+.end method
+
+.method public abstract getFileCount()I
+.end method
+
+.method public abstract hasCurFileNum()Z
+.end method
+
+.method public abstract hasErrCode()Z
+.end method
+
+.method public abstract hasErrMsg()Z
+.end method
+
+.method public abstract hasFileCount()Z
+.end method

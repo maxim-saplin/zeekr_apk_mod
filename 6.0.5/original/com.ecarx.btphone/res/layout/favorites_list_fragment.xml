@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_favorite_right_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="58.0dip" android:layout_marginEnd="@dimen/width132" android:layout_alignParentEnd="true">
+        <com.ecarx.btphone.view.BtSpinner android:id="@id/rl_favorite_connect_devices_list" android:visibility="gone" android:layout_width="@dimen/bt_spinner_width" android:layout_height="@dimen/width86" />
+        <FrameLayout android:id="@id/tv_clear_fav_list" android:background="@drawable/empty_button_bg" android:layout_width="264.0dip" android:layout_height="@dimen/width86" android:layout_marginStart="@dimen/width24" android:layout_toEndOf="@id/rl_favorite_connect_devices_list">
+            <TextView android:textSize="@dimen/text_size_32" android:textColor="@color/circle_button_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_clear_fav_list_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_fav" android:includeFontPadding="false" android:drawablePadding="@dimen/width16" android:drawableStart="@drawable/ic_clear_fav" />
+        </FrameLayout>
+    </RelativeLayout>
+    <com.zeekr.component.rebound.ZeekrReboundRefreshLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/width56" android:layout_below="@id/rl_favorite_right_container" android:layout_marginStart="@dimen/width116" android:layout_marginEnd="88.0dip">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_fav_list" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="60.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:requiresFadingEdge="vertical" android:paddingEnd="44.0dip" />
+    </com.zeekr.component.rebound.ZeekrReboundRefreshLayout>
+    <RelativeLayout android:id="@id/rl_no_favorite_fav_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/width66">
+        <ImageView android:id="@id/iv_fav_list" android:layout_width="@dimen/width256" android:layout_height="@dimen/width256" android:layout_marginTop="479.0dip" android:src="@drawable/ic_contacts_star_nothing" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_36" android:textColor="@color/bt_list_empty_text_color" android:gravity="center" android:id="@id/tv_no_contact_fav_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/width40" android:text="@string/no_collection" android:includeFontPadding="false" android:layout_below="@id/iv_fav_list" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/bt_not_connect_vs" android:layout="@layout/no_hfp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

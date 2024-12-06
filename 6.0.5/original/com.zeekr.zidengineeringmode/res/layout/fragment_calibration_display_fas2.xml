@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_calibration_display_fas2_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/img_front_long" android:layout_width="@dimen/dimen_568" android:layout_height="@dimen/dimen_302" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/img_front_wide" android:layout_width="@dimen/dimen_568" android:layout_height="@dimen/dimen_302" android:layout_marginTop="@dimen/dimen_40" android:scaleType="fitCenter" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_40">
+            <ImageView android:id="@id/img_side_right_front" android:layout_width="@dimen/dimen_568" android:layout_height="@dimen/dimen_302" android:scaleType="fitCenter" />
+            <ImageView android:layout_width="@dimen/dimen_670" android:layout_height="@dimen/dimen_302" android:layout_marginTop="@dimen/dimen_40" android:src="@mipmap/calibration_display_car" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/img_side_left_front" android:layout_width="@dimen/dimen_568" android:layout_height="@dimen/dimen_302" android:layout_marginTop="@dimen/dimen_40" android:scaleType="fitCenter" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_40">
+            <ImageView android:id="@id/img_side_right_rear" android:layout_width="@dimen/dimen_568" android:layout_height="@dimen/dimen_302" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/img_rear_wide" android:layout_width="@dimen/dimen_568" android:layout_height="@dimen/dimen_302" android:layout_marginTop="@dimen/dimen_40" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/img_side_left_rear" android:layout_width="@dimen/dimen_568" android:layout_height="@dimen/dimen_302" android:layout_marginTop="@dimen/dimen_40" android:scaleType="fitCenter" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

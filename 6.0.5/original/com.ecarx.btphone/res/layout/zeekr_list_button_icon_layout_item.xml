@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:orientation="horizontal" android:id="@id/zeekr_list_card_view" android:layout_width="1000.0dip" android:layout_height="120.0dip" style="@style/Widget.ZeekrComponent.ListCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.zeekr.component.button.ZeekrButton android:id="@id/zeekr_list_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="45.0dip" app:icon="@drawable/ic_zeekr_done" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.ZeekrButton.GhostButton" />
+        <TextView android:textAppearance="?textAppearanceBodyMedium" android:id="@id/zeekr_list_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="text" android:layout_marginStart="32.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/zeekr_list_button_icon" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

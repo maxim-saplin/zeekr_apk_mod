@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:tag="layout/activity_main_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_zeekr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/topInfo" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_150" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:textSize="@dimen/font_34" android:textColor="@color/white" android:gravity="center" android:id="@id/icBackHome" android:tag="binding_1" android:layout_width="@dimen/dimen_90" android:layout_height="@dimen/dimen_90" android:layout_marginStart="@dimen/dimen_40" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/font_40" android:textStyle="bold" android:textColor="@color/color_24292B" android:gravity="center" android:id="@id/tvTopInfo" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/app_name" android:layout_marginStart="@dimen/dimen_52" app:layout_constraintStart_toEndOf="@id/icBackHome" />
+        <TextView android:textSize="@dimen/font_28" android:textColor="@color/color_666666" android:gravity="center" android:id="@id/tvVersionInfo" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/dimen_40" app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/view" android:background="@color/color_D5D5D5" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_1" app:layout_constraintTop_toBottomOf="@id/topInfo" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_main" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_150" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/topInfo">
+        <TextView android:textSize="@dimen/font_60" android:textColor="@color/color_24292B" android:gravity="center" android:id="@id/appTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_122" android:text="@string/app_name_title" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:id="@id/llUsbScrub" android:layout_marginStart="@dimen/dimen_196" app:layout_constraintEnd_toStartOf="@id/llULogCopy" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/appTitle" style="@style/main_ll_select">
+            <ImageView android:background="@drawable/im_udisk" android:layout_width="@dimen/dimen_250" android:layout_height="@dimen/dimen_201" />
+            <TextView android:textSize="@dimen/font_40" android:textColor="@color/color_4f4f4f" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_70" android:text="@string/str_usb_scrub" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/llULogCopy" app:layout_constraintEnd_toStartOf="@id/llCalibration" app:layout_constraintStart_toEndOf="@id/llUsbScrub" app:layout_constraintTop_toBottomOf="@id/appTitle" style="@style/main_ll_select">
+            <ImageView android:background="@drawable/im_copy" android:layout_width="@dimen/dimen_250" android:layout_height="@dimen/dimen_201" />
+            <TextView android:text="@string/str_usb_log_copy" style="@style/main_textview_item" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/llCalibration" app:layout_constraintEnd_toStartOf="@id/llEol" app:layout_constraintStart_toEndOf="@id/llULogCopy" app:layout_constraintTop_toBottomOf="@id/appTitle" style="@style/main_ll_select">
+            <ImageView android:background="@drawable/im_calibrate" android:layout_width="@dimen/dimen_250" android:layout_height="@dimen/dimen_201" />
+            <TextView android:text="@string/str_adas_btn_start_check" style="@style/main_textview_item" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/llEol" android:layout_marginEnd="@dimen/dimen_196" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/llCalibration" app:layout_constraintTop_toBottomOf="@id/appTitle" style="@style/main_ll_select">
+            <ImageView android:background="@drawable/im_image" android:layout_width="@dimen/dimen_250" android:layout_height="@dimen/dimen_201" />
+            <TextView android:text="@string/str_eol_display" style="@style/main_textview_item" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/fl_content" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/view" />
+    <TextView android:textSize="@dimen/font_20" android:textColor="@color/color_908f8f" android:gravity="bottom" android:id="@id/tvEmInfo" android:visibility="gone" android:scrollbars="vertical" android:layout_width="@dimen/dimen_600" android:layout_height="@dimen/dimen_800" android:layout_marginBottom="@dimen/dimen_130" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

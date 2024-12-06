@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_search_item" android:background="@drawable/search_list_item_bg" android:layout_width="fill_parent" android:layout_height="122.0dip" android:layout_marginBottom="@dimen/width20"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_display_avatar_search_item" android:visibility="gone" android:layout_width="@dimen/width72" android:layout_height="@dimen/width72" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/text_size_36" android:textColor="@color/display_name_list_item_text_color" android:ellipsize="end" android:id="@id/tv_display_name_search_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/width40" android:textFontWeight="400" />
+        <TextView android:textSize="@dimen/text_size_36" android:textColor="@color/contact_search_list_item_number_color" android:ellipsize="end" android:gravity="end" android:id="@id/tv_display_number_search_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/width100" android:layout_toEndOf="@id/tv_display_name_search_item" android:textFontWeight="400" />
+    </RelativeLayout>
+    <View android:background="@color/display_list_item_line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/item_bottom_line_div" android:layout_alignParentBottom="true" />
+</RelativeLayout>

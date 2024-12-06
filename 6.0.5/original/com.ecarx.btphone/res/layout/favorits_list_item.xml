@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ecarx.btphone.view.ShadowContainer android:id="@id/rl_fav_item" android:layout_width="fill_parent" android:layout_height="@dimen/display_list_item_height" android:layout_marginBottom="@dimen/width24"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:textSize="@dimen/display_avatar_text_size" android:textColor="@color/display_avatar_text_color" android:gravity="center" android:id="@id/iv_avatar_favorites_item" android:layout_width="@dimen/display_avatar_list_item_size" android:layout_height="@dimen/display_avatar_list_item_size" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginStart="@dimen/width40" />
+    <LinearLayout android:orientation="vertical" android:id="@id/iv_display_avatar_favorites_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/display_list_item_margin_start" android:layout_toEndOf="@id/iv_avatar_favorites_item">
+        <TextView android:textSize="@dimen/display_name_list_item_text_size" android:textColor="@color/display_name_list_item_text_color" android:ellipsize="end" android:id="@id/tv_display_name_fav_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+        <TextView android:textSize="@dimen/display_number_list_item_text_size" android:textColor="@color/display_number_list_item_text_color" android:ellipsize="end" android:id="@id/tv_phone_num_fav_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/width3" android:lines="1" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_img_fav_item" android:layout_width="@dimen/width48" android:layout_height="@dimen/width48" android:src="@drawable/ic_contacts_star_selected" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/width40" android:layout_alignParentEnd="true" />
+</com.ecarx.btphone.view.ShadowContainer>

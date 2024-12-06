@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_width="644.0dip" android:layout_height="760.0dip" android:columnCount="3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ecarx.btphone.ui.dial.DialPadButton android:id="@id/one" android:paddingTop="@dimen/dial_pad_one_padding_top" app:letterText="" app:numberText="@string/one" style="@style/DialPadKeyButtonFirstLineStyle" />
+    <com.ecarx.btphone.ui.dial.DialPadButton android:id="@id/two" android:paddingTop="@dimen/dial_pad_default_padding_top" app:letterText="@string/two_letters" app:numberText="@string/two" style="@style/DialPadKeyButtonFirstLineStyle" />
+    <com.ecarx.btphone.ui.dial.DialPadButton android:id="@id/three" android:paddingTop="@dimen/dial_pad_default_padding_top" app:letterText="@string/three_letters" app:numberText="@string/three" style="@style/DialPadKeyButtonFirstLineStyle" />
+    <com.ecarx.btphone.ui.dial.DialPadButton android:id="@id/four" android:paddingTop="@dimen/dial_pad_default_padding_top" app:letterText="@string/four_letters" app:numberText="@string/four" style="@style/DialPadKeyButtonStyle" />
+    <com.ecarx.btphone.ui.dial.DialPadButton android:id="@id/five" android:paddingTop="@dimen/dial_pad_default_padding_top" app:letterText="@string/five_letters" app:numberText="@string/five" style="@style/DialPadKeyButtonStyle" />
+    <com.ecarx.btphone.ui.dial.DialPadButton android:id="@id/six" android:paddingTop="@dimen/dial_pad_default_padding_top" app:letterText="@string/six_letters" app:numberText="@string/six" style="@style/DialPadKeyButtonStyle" />
+    <com.ecarx.btphone.ui.dial.DialPadButton android:id="@id/seven" android:paddingTop="@dimen/dial_pad_default_padding_top" app:letterText="@string/seven_letters" app:numberText="@string/seven" style="@style/DialPadKeyButtonStyle" />
+    <com.ecarx.btphone.ui.dial.DialPadButton android:id="@id/eight" android:paddingTop="@dimen/dial_pad_default_padding_top" app:letterText="@string/eight_letters" app:numberText="@string/eight" style="@style/DialPadKeyButtonStyle" />
+    <com.ecarx.btphone.ui.dial.DialPadButton android:id="@id/nine" android:paddingTop="@dimen/dial_pad_default_padding_top" app:letterText="@string/nine_letters" app:numberText="@string/nine" style="@style/DialPadKeyButtonStyle" />
+    <com.ecarx.btphone.ui.dial.DialPadButton android:id="@id/star" android:paddingTop="@dimen/dial_pad_star_padding_top" app:numberText="@string/star" style="@style/DialPadKeyButtonLastLineStyle" />
+    <com.ecarx.btphone.ui.dial.DialPadButton android:id="@id/zero" android:paddingTop="@dimen/dial_pad_default_padding_top" app:letterText="@string/zero_letters" app:numberText="@string/zero" style="@style/DialPadKeyButtonLastLineStyle" />
+    <com.ecarx.btphone.ui.dial.DialPadButton android:id="@id/pound" android:paddingTop="@dimen/dial_pad_pound_padding_top" app:numberText="@string/pound" style="@style/DialPadKeyButtonLastLineStyle" />
+</GridLayout>
