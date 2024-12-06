@@ -30,7 +30,7 @@ It includes:
 
 If you want just to pick one of the ready-made APKs:
 
-- Engineering menu nebled in the CAR
+- Engineering menu enabled in the CAR (Zeekr 001/007 have brigth orange button at the top center of the screen, tap it 10 times)
     - ADB set to 'Peripheral'
 - Android Platform Tools (ADB)
 
@@ -38,7 +38,7 @@ If you want just to pick one of the ready-made APKs:
 
 If you wish to Mod an APK decompiling, changing and recompiling it, you will need:
 
-- Engineering menu nebled in the CAR
+- Engineering menu enabled in the CAR
     - ADB set to 'Peripheral'
 - Apktool
     - Install on macOS: `brew install apktool`
