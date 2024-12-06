@@ -74,9 +74,10 @@ YOU MIGHT NEED THIS APKS if something goes wrong, just reinstall the APK from th
 #### Resources/Translations
 - res/values
     - Check strings.xml, arrays.xml, plurals.xml
-- Pay attention to envoding special chars in XML, e.g. use \' for single quotes
+- Pay attention to encoding special chars in XML, e.g. use `\'` for single quotes
 - Use '[^\x00-\x7F]' RegEx to help find non-ASCII characters
 - Use `validate_resources.py` script to check that the modded resources are not broken and have exactly the same struture as the original one (i.e. you haven't deleted certain key)
+    - E.g. `python validate_resources.py '/var/user/src/zeekr_apk_mod/6.0.5/modded/zeekr.bx.sentry/res/values' '/var/user/src/zeekr_apk_mod/6.0.5/original/zeekr.bx.sentry/res/values'`
 
 #### Unity Resources (TBD)
 

@@ -69,7 +69,7 @@ def compare_folders(folder1, folder2):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python compare_xml_folders.py <folder1> <folder2>")
+        print("Usage: python validate_resources.py <folder1> <folder2>")
         sys.exit(1)
 
     folder1 = sys.argv[1]
