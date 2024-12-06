@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="false" android:state_pressed="false" android:color="?colorSecondaryContainer" />
+    <item android:state_enabled="true" android:state_checked="false" android:state_pressed="true" android:color="?colorGhostButtonPress" />
+    <item android:state_enabled="false" android:state_checked="false" android:state_pressed="false" android:color="?colorGhostButtonDisabled" />
+    <item android:state_enabled="false" android:state_checked="false" android:state_pressed="true" android:color="?colorGhostButtonDisabled" />
+    <item android:state_enabled="true" android:state_checked="true" android:state_pressed="false" android:color="?colorSecondaryVariant" />
+    <item android:state_enabled="true" android:state_checked="true" android:state_pressed="true" android:color="?colorTogglePress" />
+    <item android:state_enabled="false" android:state_checked="true" android:state_pressed="false" android:color="?colorSecondaryVariant" android:alpha="0.4" />
+    <item android:state_enabled="false" android:state_checked="true" android:state_pressed="true" android:color="?colorSecondaryVariant" android:alpha="0.4" />
+</selector>

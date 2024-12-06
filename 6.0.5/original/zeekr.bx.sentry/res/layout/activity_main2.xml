@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <SurfaceView android:id="@id/sfv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:background="@android:color/holo_green_light" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开关" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/remote_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="云开关" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/rg1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/alert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="alert" />
+                    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/alarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="alarm" />
+                </RadioGroup>
+                <Button android:id="@id/play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="play" android:onClick="play" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/hv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电压" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电量" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电源模式:" />
+                <RadioGroup android:orientation="vertical" android:id="@id/rg2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/abandon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="abandon" />
+                    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/inactive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="inactive" />
+                    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/conv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="conv" />
+                    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/active" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="active" />
+                    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/driving" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="driving" />
+                </RadioGroup>
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/dcdc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dcdc" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/batteryraw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="batteryraw" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/armed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="armed" />
+                <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="test" android:onClick="test" />
+            </LinearLayout>
+            <ScrollView android:background="@android:color/darker_gray" android:layout_width="200.0dip" android:layout_height="300.0dip" android:layout_alignParentRight="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:id="@id/percent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textColor="#ff000000" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

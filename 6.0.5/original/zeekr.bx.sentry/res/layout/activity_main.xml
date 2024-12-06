@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <SurfaceView android:id="@id/sfv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:background="#ff99cc00" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="30.0sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="52.0dip" android:text="X=" />
+                    <EditText android:textSize="30.0sp" android:textColor="@color/black" android:id="@id/ximu" android:layout_width="100.0dip" android:layout_height="52.0dip" android:inputType="numberDecimal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="30.0sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="52.0dip" android:text="Y=" />
+                    <EditText android:textSize="30.0sp" android:textColor="@color/black" android:id="@id/yimu" android:layout_width="100.0dip" android:layout_height="52.0dip" android:inputType="numberDecimal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="30.0sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="52.0dip" android:text="Z=" />
+                    <EditText android:textSize="30.0sp" android:textColor="@color/black" android:id="@id/zimu" android:layout_width="100.0dip" android:layout_height="52.0dip" android:inputType="numberDecimal" />
+                </LinearLayout>
+                <Button android:id="@id/setting_imu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="设置IMU" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <EditText android:id="@id/et" android:layout_width="200.0dip" android:layout_height="70.0dip" android:hint="电量设置请输入整数值" />
+                <Button android:id="@id/btconfirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确认" />
+            </LinearLayout>
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开关" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/remote_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="云开关" />
+            <RadioGroup android:orientation="horizontal" android:id="@id/rg1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/alert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="alert" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/alarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="alarm" />
+            </RadioGroup>
+            <Button android:id="@id/play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="play" android:onClick="play" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电压" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电量" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电源模式:" />
+            <RadioGroup android:orientation="vertical" android:id="@id/rg2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/abandon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HmiVstdWarnInfoSysErr=0" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/abandons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HmiVstdWarnInfoSysErr=1" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/inactive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HmiVstdWarnInfoSocLow=0" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/inactives" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HmiVstdWarnInfoSocLow=1" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/conv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HmiVstdWarnInfoUsbWarn=0" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/active" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HmiVstdWarnInfoUsbWarn=1" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/driving" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="driving" />
+            </RadioGroup>
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/dcdc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dcdc" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/batteryraw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="batteryraw" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/armed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="armed" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="跳转到信号测试" android:onClick="test" />
+                <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="裁剪拼接" android:onClick="clipAndMerge" />
+                <Button android:id="@id/info_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="重写info.txt" android:onClick="test" />
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView android:layout_width="200.0dip" android:layout_height="300.0dip" android:layout_alignParentRight="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:id="@id/percent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textColor="#ff000000" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="400.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+            <RelativeLayout android:background="#ff26afcc" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="USB文件" android:layout_centerInParent="true" />
+                <ImageButton android:id="@id/usb_backspace_iv" android:background="@drawable/selector_btn_backspace" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" android:onClick="onClick" android:contentDescription="@null" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <ListView android:id="@id/usb_file_lv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/shape_line" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="@dimen/guide_page_padding_left_right" android:paddingRight="@dimen/guide_page_padding_left_right" android:layout_width="@dimen/sentrymode_desc_width" android:layout_height="@dimen/sentrymode_desc_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <zeekr.bx.sentry.ui.ViewPagerIndicator android:layout_gravity="center" android:id="@id/viewPagerIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="77.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/zeekr_left_menu_card_view" android:visibility="invisible" android:layout_width="@dimen/zeekr_menu_first_width" android:layout_height="@dimen/zeekr_menu_second_height" app:cardBackgroundColor="?colorPrimary" app:cardElevation="0.0dip" />
+    <androidx.constraintlayout.helper.widget.Flow android:orientation="vertical" android:id="@id/zeekr_left_menu_group_flow" android:layout_width="wrap_content" android:layout_height="0.0dip" app:flow_verticalGap="@dimen/zeekr_menu_second_item_margin" app:flow_verticalStyle="packed" app:flow_wrapMode="none" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton android:id="@id/zeekr_menu_item_button" android:layout_width="@dimen/zeekr_menu_item_width" android:layout_height="@dimen/zeekr_menu_item_height" style="@style/Widget.ZeekrButton.ZeekrMenuItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

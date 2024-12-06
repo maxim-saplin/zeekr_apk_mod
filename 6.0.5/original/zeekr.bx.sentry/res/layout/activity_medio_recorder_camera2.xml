@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:textSize="30.0dip" android:id="@id/btn_start" android:layout_width="200.0dip" android:layout_height="100.0dip" android:layout_margin="20.0dip" android:text="开始" android:layout_centerInParent="true" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextureView android:id="@id/textureview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

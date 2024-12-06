@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/ZeekrTheme25" android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0dip" android:textColor="?colorPrimary" android:gravity="center_vertical" android:id="@id/tv_connext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@string/sentry_is_aactive" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/primary_40" android:id="@id/tv_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_hint" />
+</LinearLayout>

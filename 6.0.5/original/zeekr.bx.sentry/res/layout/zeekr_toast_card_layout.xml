@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:theme="@style/ZeekrTheme26" android:fitsSystemWindows="false" android:layout_width="wrap_content" android:layout_height="88.0dip" android:maxWidth="808.0dip" android:minWidth="400.0dip" style="@style/Widget.ZeekrComponent.CardView.Toast"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SurfaceView android:visibility="invisible" android:layout_width="0.00999999dip" android:layout_height="0.00999999dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?colorPrimary" android:layout_gravity="center" android:id="@id/zeekr_toast_message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.google.android.material.card.MaterialCardView>

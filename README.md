@@ -67,7 +67,7 @@ YOU MIGHT NEED THIS APKS if something goes wrong, just reinstall the APK from th
 
 ### Decompile APK
 
-`apktool b _input/com.geely.pma.settings.apk -o 6.0.5/modded/com.geely.pma.settings_en.apk`
+`apktool d _input/com.geely.pma.settings.apk -o 6.0.5/modded/com.geely.pma.settings_en`
 
 ### Make changes
 

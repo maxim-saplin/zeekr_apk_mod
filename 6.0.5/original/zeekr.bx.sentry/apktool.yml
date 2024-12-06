@@ -1,0 +1,60 @@
+version: 2.10.0
+apkFileName: zeekr.bx.sentry.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 28
+  targetSdkVersion: 30
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 1
+  versionName: 1.0_20231229
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  kotlin-tooling-metadata.json: 8
+  google/protobuf/any.proto: 8
+  google/protobuf/api.proto: 8
+  google/protobuf/descriptor.proto: 8
+  google/protobuf/duration.proto: 8
+  google/protobuf/empty.proto: 8
+  google/protobuf/field_mask.proto: 8
+  google/protobuf/source_context.proto: 8
+  google/protobuf/struct.proto: 8
+  google/protobuf/timestamp.proto: 8
+  google/protobuf/type.proto: 8
+  google/protobuf/wrappers.proto: 8
+  google/protobuf/compiler/plugin.proto: 8
+doNotCompress:
+- classes.dex
+- classes2.dex
+- resources.arsc
+- assets/dexopt/baseline.prof
+- lib/arm64-v8a/libAutoGuardBase.so
+- lib/arm64-v8a/libAutoGuardJNi.so
+- lib/arm64-v8a/libNanoCppUtils.so
+- lib/arm64-v8a/libZeekrAutoGuard.so
+- lib/arm64-v8a/libZeekrAutoGuardJni.so
+- lib/arm64-v8a/libavcodec.so
+- lib/arm64-v8a/libavfilter.so
+- lib/arm64-v8a/libavformat.so
+- lib/arm64-v8a/libavutil.so
+- lib/arm64-v8a/libc++_shared.so
+- lib/arm64-v8a/liberrno-lib.so
+- lib/arm64-v8a/libffavc.so
+- lib/arm64-v8a/libpag.so
+- lib/arm64-v8a/libswresample.so
+- lib/arm64-v8a/libswscale.so
+- lib/arm64-v8a/libxcrash.so
+- lib/arm64-v8a/libxcrash_dumper.so
+- lib/arm64-v8a/libyuv.so
+- png
+- wav
+- webp

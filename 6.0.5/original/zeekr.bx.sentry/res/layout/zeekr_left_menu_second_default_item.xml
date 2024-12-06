@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/zeekr_left_menu_item_card" android:layout_width="@dimen/zeekr_menu_first_width" android:layout_height="@dimen/zeekr_menu_second_height" app:cardBackgroundColor="@color/zeekr_menu_list_second_item_back_select" style="@style/Widget.ZeekrComponent.CardView.Empty"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/zeekr_left_menu_item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zeekr_menu_margin_icon_start" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/zeekr_menu_list_second_item_select" />
+        <TextView android:textAppearance="?textAppearanceHeadlineSmall" android:textColor="@color/zeekr_menu_list_second_item_select" android:id="@id/zeekr_left_menu_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zeekr_menu_second_margin_text_start" android:paddingVertical="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

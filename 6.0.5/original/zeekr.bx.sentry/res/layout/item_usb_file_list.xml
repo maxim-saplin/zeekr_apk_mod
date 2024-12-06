@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/file_icon_iv" android:layout_width="25.0dip" android:layout_height="25.0dip" android:contentDescription="@null" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff26afcc" android:gravity="center" android:layout_gravity="center" android:id="@id/file_name_tv" android:layout_width="160.0dip" android:layout_height="40.0dip" android:layout_marginStart="10.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff2c2c2c" android:layout_gravity="center_vertical" android:id="@id/file_size_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" />
+</LinearLayout>

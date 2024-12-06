@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:theme="@style/ZeekrTheme26.Manual" android:id="@id/body" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?colorSurfaceInverse" app:cardElevation="0.0dip" app:contentPadding="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.component.menu.ZeekrMenu android:id="@id/menu" android:layout_width="wrap_content" android:layout_height="wrap_content" app:icon_padding="20" app:item_height="86" app:tex_padding="84" />
+</com.google.android.material.card.MaterialCardView>
