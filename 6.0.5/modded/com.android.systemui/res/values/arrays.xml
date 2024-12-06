@@ -129,7 +129,7 @@
     <string-array name="battery_options">
         <item>Always show percentage</item>
         <item>Show percentage when charging (default)</item>
-        <item>"Don't show this icon"</item>
+        <item>"Don\'t show this icon"</item>
     </string-array>
     <integer-array name="batterymeter_bolt_points">
         <item>73</item>
@@ -388,7 +388,7 @@
     <string-array name="clock_options">
         <item>Show hours, minutes, and seconds</item>
         <item>Show hours and minutes (default)</item>
-        <item>"Don't show this icon"</item>
+        <item>"Don\'t show this icon"</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Enhanced colors</item>
@@ -881,19 +881,19 @@
         <item>3</item>
     </string-array>
     <string-array name="solar_festival">
-        <item>"0101 New Year's Day"</item>
-        <item>"0214 Valentine's Day"</item>
-        <item>"0308 Women' Day"</item>
+        <item>0101 New Year\'s Day</item>
+        <item>0214 Valentine\'s Day</item>
+        <item>0308 Women\' Day</item>
         <item>0312 Tree Planting Day</item>
         <item>0315 World Consumer Rights Day</item>
-        <item>"0401 April Fool's Day"</item>
+        <item>"0401 April Fool\'s Day"</item>
         <item>0422 Earth Day</item>
         <item>0501 May Day</item>
         <item>0504 Youth Day</item>
-        <item>"0601 Children's Day"</item>
-        <item>"0701 Party's Day"</item>
+        <item>0601 Children\'s Day</item>
+        <item>0701 Party\'s Day</item>
         <item>0801 Army Day</item>
-        <item>"0910 Teachers' Day"</item>
+        <item>0910 Teachers\' Day"</item>
         <item>1001 National Day</item>
         <item>1031 Halloween</item>
         <item>1224 Christmas Eve</item>
@@ -914,7 +914,7 @@
         <item>White Dew</item>
         <item>Autumn Equinox</item>
         <item>Cold Dew</item>
-        <item>"Frost's Descent"</item>
+        <item>"Frost\'s Descent"</item>
         <item>Beginning of Winter</item>
         <item>Lesser Snow</item>
         <item>Greater Snow</item>
@@ -926,8 +926,8 @@
         <item>Waking of Insects</item>
     </string-array>
     <string-array name="special_festivals">
-        <item>"Mother' Day"</item>
-        <item>"Father' Day"</item>
+        <item>"Mother\' Day"</item>
+        <item>"Father\' Day"</item>
         <item>Thanksgiving Day</item>
     </string-array>
     <string-array name="status_bar_air_quality">

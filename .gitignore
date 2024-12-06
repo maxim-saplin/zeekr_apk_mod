@@ -32,7 +32,7 @@ google-services.json
 # Android Profiling
 *.hprof
 **/.DS_Store
-/_output
+/_output**
 
 !*/modded_apks/*.apk
 !*/original_apks/*.apk

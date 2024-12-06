@@ -28,7 +28,7 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <string name="abc_slice_error">"Couldn't connect"</string>
+    <string name="abc_slice_error">"Couldn\'t connect"</string>
     <string name="abc_slice_more">More</string>
     <string name="abc_slice_more_content">+ %1$d</string>
     <string name="abc_slice_permission_allow">Allow</string>
@@ -267,7 +267,7 @@ If this permission is off, existing alarms and time-based events scheduled by th
     <string name="androidx_startup">androidx.startup</string>
     <string name="animator_duration_scale_title">Animator duration scale</string>
     <string name="anniversary_status">Anniversary</string>
-    <string name="anniversary_status_content_description">"It's %1$s’s anniversary"</string>
+    <string name="anniversary_status_content_description">"It\'s %1$s’s anniversary"</string>
     <string name="apn_settings_not_available">Access Point Name settings are not available for this user</string>
     <string name="app_info">App info</string>
     <string name="app_label">System UI</string>
@@ -333,7 +333,7 @@ Try again in %d seconds."</string>
     <string name="biometric_dialog_wrong_pattern">Wrong pattern</string>
     <string name="biometric_dialog_wrong_pin">Wrong PIN</string>
     <string name="birthday_status">Birthday</string>
-    <string name="birthday_status_content_description">"It's %1$s’s birthday"</string>
+    <string name="birthday_status_content_description">"It\'s %1$s’s birthday"</string>
     <string name="blob_expires_text">Expires at %s</string>
     <string name="blob_id_text">Shared data ID: %d</string>
     <string name="bluetooth">Bluetooth</string>
@@ -379,9 +379,9 @@ Try again in %d seconds."</string>
     <string name="bluetooth_pairing_accept">Pair</string>
     <string name="bluetooth_pairing_accept_all_caps">PAIR</string>
     <string name="bluetooth_pairing_decline">Cancel</string>
-    <string name="bluetooth_pairing_device_down_error_message">"Can't communicate with %1$s."</string>
-    <string name="bluetooth_pairing_error_message">"Couldn't pair with %1$s."</string>
-    <string name="bluetooth_pairing_pin_error_message">"Couldn't pair with %1$s because of an incorrect PIN or passkey."</string>
+    <string name="bluetooth_pairing_device_down_error_message">"Can\'t communicate with %1$s."</string>
+    <string name="bluetooth_pairing_error_message">"Couldn\'t pair with %1$s."</string>
+    <string name="bluetooth_pairing_pin_error_message">"Couldn\'t pair with %1$s because of an incorrect PIN or passkey."</string>
     <string name="bluetooth_pairing_rejected_error_message">Pairing rejected by %1$s.</string>
     <string name="bluetooth_pairing_will_share_phonebook">Pairing grants access to your contacts and call history when connected.</string>
     <string name="bluetooth_pan_nap_profile_summary_connected">Sharing local internet connection with device</string>
@@ -575,7 +575,7 @@ Selection"</string>
     <string name="convert_to_fbe_warning">"Convert data partition to file based encryption.
  !!Warning!! This will erase all your data.
  This feature is alpha, and may not work correctly.
- Press 'Wipe and convert…' to continue."</string>
+ Press \'Wipe and convert…\' to continue."</string>
     <string name="convert_to_file_encryption">Convert to file encryption</string>
     <string name="convert_to_file_encryption_done">Already file encrypted</string>
     <string name="convert_to_file_encryption_enabled">Convert…</string>
@@ -642,7 +642,7 @@ If you resume, charges may apply for data usage."</string>
     <string name="development_settings_not_available">Developer options are not available for this user</string>
     <string name="development_settings_summary">Set options for app development</string>
     <string name="development_settings_title">Developer options</string>
-    <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app can't start until you unlock your phone"</string>
+    <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app can\'t start until you unlock your phone"</string>
     <string name="disable_carrier_button_text">Disable eSIM</string>
     <string name="disable_overlays">Disable HW overlays</string>
     <string name="disable_overlays_summary">Always use GPU for screen compositing</string>
@@ -834,7 +834,7 @@ silence"</string>
     <string name="interruption_level_priority_twoline">"Priority
 only"</string>
     <string name="invalid_charger_text">Use the charger that came with your device</string>
-    <string name="invalid_charger_title">"Can't charge via USB"</string>
+    <string name="invalid_charger_title">"Can\'t charge via USB"</string>
     <string name="item_view_role_description">Tab</string>
     <string name="keep_screen_on">Stay awake</string>
     <string name="keep_screen_on_summary">Screen will never sleep while charging</string>
@@ -1056,7 +1056,7 @@ Try again in %2$d seconds."</string>
     <string name="material_clock_toggle_content_description">Select AM or PM</string>
     <string name="material_hour_24h_suffix">%1$s hours</string>
     <string name="material_hour_selection">Select hour</string>
-    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_hour_suffix">"%1$s o\'clock"</string>
     <string name="material_minute_selection">Select minutes</string>
     <string name="material_minute_suffix">%1$s minutes</string>
     <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
@@ -1076,7 +1076,7 @@ Try again in %2$d seconds."</string>
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
     <string name="media_category">Media</string>
     <string name="media_output_dialog_add_output">Add outputs</string>
-    <string name="media_output_dialog_connect_failed">"Couldn't connect. Try again."</string>
+    <string name="media_output_dialog_connect_failed">"Couldn\'t connect. Try again."</string>
     <string name="media_output_dialog_disconnected">(disconnected)</string>
     <string name="media_output_dialog_group">Group</string>
     <string name="media_output_dialog_multiple_devices">%1$d devices selected</string>
@@ -1107,7 +1107,7 @@ Try again in %2$d seconds."</string>
     <string name="mobile_data_disable_message_default_carrier">your carrier</string>
     <string name="mobile_data_disable_title">Turn off mobile data?</string>
     <string name="mobile_data_no_connection">No connection</string>
-    <string name="mobile_data_off_summary">"Mobile data won't auto‑connect"</string>
+    <string name="mobile_data_off_summary">"Mobile data won\'t auto‑connect"</string>
     <string name="mobile_data_settings_title">Mobile data</string>
     <string name="mobile_data_text_format">%1$s — %2$s</string>
     <string name="mock_location_app">Select mock location app</string>
@@ -1122,20 +1122,20 @@ Try again in %2$d seconds."</string>
     <string name="monitoring_description_managed_profile_network_logging">Your admin has turned on network logging, which monitors traffic in your work profile but not in your personal profile.</string>
     <string name="monitoring_description_management">"This device belongs to your organization.
 
-Your IT admin can monitor and manage settings, corporate access, apps, data associated with your device, and your device's location information.
+Your IT admin can monitor and manage settings, corporate access, apps, data associated with your device, and your device\'s location information.
 
 For more information, contact your IT admin."</string>
     <string name="monitoring_description_management_ca_certificate">Your organization installed a certificate authority on this device. Your secure network traffic may be monitored or modified.</string>
     <string name="monitoring_description_management_network_logging">Your admin has turned on network logging, which monitors traffic on your device.</string>
     <string name="monitoring_description_named_management">"This device belongs to %1$s.
 
-Your IT admin can monitor and manage settings, corporate access, apps, data associated with your device, and your device's location information.
+Your IT admin can monitor and manage settings, corporate access, apps, data associated with your device, and your device\'s location information.
 
 For more information, contact your IT admin."</string>
-    <string name="monitoring_description_named_vpn">"You're connected to %1$s, which can monitor your network activity, including emails, apps, and websites."</string>
+    <string name="monitoring_description_named_vpn">"You\'re connected to %1$s, which can monitor your network activity, including emails, apps, and websites."</string>
     <string name="monitoring_description_parental_controls">This device is managed by your parent. Your parent can see and manage information such as the apps you use, your location, and your screen time.</string>
     <string name="monitoring_description_personal_profile_named_vpn">Your personal profile is connected to %1$s, which can monitor your network activity, including emails, apps, and websites.</string>
-    <string name="monitoring_description_two_named_vpns">"You're connected to %1$s and %2$s, which can monitor your network activity, including emails, apps, and websites."</string>
+    <string name="monitoring_description_two_named_vpns">"You\'re connected to %1$s and %2$s, which can monitor your network activity, including emails, apps, and websites."</string>
     <string name="monitoring_description_vpn_settings">Open VPN settings</string>
     <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s may be able to access data associated with this device, manage apps, and change this device’s settings.
@@ -1303,7 +1303,7 @@ If you have questions, contact %2$s."</string>
     <string name="notification_section_header_incoming">New</string>
     <string name="notification_silence_title">Silent</string>
     <string name="notification_tap_again">Tap again to open</string>
-    <string name="notification_unblockable_desc">"These notifications can't be modified."</string>
+    <string name="notification_unblockable_desc">"These notifications can\'t be modified."</string>
     <string name="notification_vpn_connected">VPN is connected</string>
     <string name="notification_vpn_disconnected">VPN is disconnected</string>
     <string name="num_pad_key_ratio">1</string>
@@ -1351,7 +1351,7 @@ If you have questions, contact %2$s."</string>
     <string name="pip_fullscreen">Full screen</string>
     <string name="pip_menu_bounds">596 280 1324 690</string>
     <string name="pip_menu_title">Menu</string>
-    <string name="pip_notification_message">"If you don't want %s to use this feature, tap to open settings and turn it off."</string>
+    <string name="pip_notification_message">"If you don\'t want %s to use this feature, tap to open settings and turn it off."</string>
     <string name="pip_notification_title">%s is in picture-in-picture</string>
     <string name="pip_notification_unknown_title">(No title program)</string>
     <string name="pip_pause">Pause</string>
@@ -1385,7 +1385,7 @@ If you have questions, contact %2$s."</string>
     <string name="power_discharge_by_only_short">Until %1$s</string>
     <string name="power_discharging_duration">About %1$s left (%2$s)</string>
     <string name="power_discharging_duration_enhanced">About %1$s left based on your usage (%2$s)</string>
-    <string name="power_notification_controls_description">"With power notification controls, you can set an importance level from 0 to 5 for an app's notifications. 
+    <string name="power_notification_controls_description">"With power notification controls, you can set an importance level from 0 to 5 for an app\'s notifications. 
 
 "<b>Level 5</b>" 
 - Show at the top of the notification list 
@@ -1437,7 +1437,7 @@ If you have questions, contact %2$s."</string>
     <string name="private_dns_mode_off">Off</string>
     <string name="private_dns_mode_opportunistic">Automatic</string>
     <string name="private_dns_mode_provider">Private DNS provider hostname</string>
-    <string name="private_dns_mode_provider_failure">"Couldn't connect"</string>
+    <string name="private_dns_mode_provider_failure">"Couldn\'t connect"</string>
     <string name="private_dns_mode_provider_hostname_hint">Enter hostname of DNS provider</string>
     <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Problem connecting. Turn device off &amp; back on</string>
@@ -1614,9 +1614,9 @@ If you have questions, contact %2$s."</string>
     <string name="screenshot_dismiss_description">Dismiss screenshot</string>
     <string name="screenshot_edit_description">Edit screenshot</string>
     <string name="screenshot_edit_label">Edit</string>
-    <string name="screenshot_failed_title">"Couldn't save screenshot"</string>
-    <string name="screenshot_failed_to_capture_text">"Taking screenshots isn't allowed by the app or your organization"</string>
-    <string name="screenshot_failed_to_save_text">"Can't save screenshot"</string>
+    <string name="screenshot_failed_title">"Couldn\'t save screenshot"</string>
+    <string name="screenshot_failed_to_capture_text">"Taking screenshots isn\'t allowed by the app or your organization"</string>
+    <string name="screenshot_failed_to_save_text">"Can\'t save screenshot"</string>
     <string name="screenshot_failed_to_save_unknown_text">Try taking screenshot again</string>
     <string name="screenshot_failed_to_save_user_locked_text">Device must be unlocked before screenshot can be saved</string>
     <string name="screenshot_left_boundary_pct">Left boundary %1$d percent</string>
@@ -1839,7 +1839,7 @@ If you have questions, contact %2$s."</string>
     <string name="status_bar_history_account">Historical accounts</string>
     <string name="status_bar_login_else_status">Log in to another account</string>
     <string name="status_bar_login_status">Login</string>
-    <string name="status_bar_logout_status">"You've been logged out"</string>
+    <string name="status_bar_logout_status">"You\'ve been logged out"</string>
     <string name="status_bar_network_name_separator">-</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_scene_app_rest">Please install the App first</string>
@@ -2008,7 +2008,7 @@ Tap for more info"</string>
     <string name="unknown">Unknown</string>
     <string name="unlock_to_view_networks">Unlock to view networks</string>
     <string name="upcoming_birthday_status">Birthday soon</string>
-    <string name="upcoming_birthday_status_content_description">"It's %1$s’s birthday soon"</string>
+    <string name="upcoming_birthday_status_content_description">"It\'s %1$s’s birthday soon"</string>
     <string name="usb_accessory_confirm_prompt">Open %1$s to handle %2$s?</string>
     <string name="usb_accessory_permission_prompt">Allow %1$s to access %2$s?</string>
     <string name="usb_accessory_uri_prompt">No installed apps work with this USB accessory. Learn more about this accessory at %1$s</string>
@@ -2024,9 +2024,9 @@ You’ll be notified when it’s okay to use the USB port again."</string>
     <string name="usb_contaminant_title">USB port disabled</string>
     <string name="usb_debugging_allow">Allow</string>
     <string name="usb_debugging_always">Always allow from this computer</string>
-    <string name="usb_debugging_message">"The computer's RSA key fingerprint is:
+    <string name="usb_debugging_message">"The computer\'s RSA key fingerprint is:
 %1$s"</string>
-    <string name="usb_debugging_secondary_user_message">"The user currently signed in to this device can't turn on USB debugging. To use this feature, switch to the primary user."</string>
+    <string name="usb_debugging_secondary_user_message">"The user currently signed in to this device can\'t turn on USB debugging. To use this feature, switch to the primary user."</string>
     <string name="usb_debugging_secondary_user_title">USB debugging not allowed</string>
     <string name="usb_debugging_title">Allow USB debugging?</string>
     <string name="usb_device_confirm_prompt">Open %1$s to handle %2$s?</string>
@@ -2125,8 +2125,8 @@ Any user can update apps for all other users."</string>
     <string name="wed">Wed</string>
     <string name="wifi">WLAN</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Access point temporarily full</string>
-    <string name="wifi_cant_connect">"Can't connect"</string>
-    <string name="wifi_cant_connect_to_ap">"Can't connect to '%1$s'"</string>
+    <string name="wifi_cant_connect">"Can\'t connect"</string>
+    <string name="wifi_cant_connect_to_ap">"Can\'t connect to \'%1$s\'"</string>
     <string name="wifi_check_password_try_again">Check password and try again</string>
     <string name="wifi_connected_low_quality">Low quality</string>
     <string name="wifi_connected_no_internet">No internet</string>
@@ -2153,7 +2153,7 @@ Wi‑Fi Address (BSSID)
     <string name="wifi_empty_list_wifi_on">Searching for networks…</string>
     <string name="wifi_enhanced_mac_randomization">Wi‑Fi non‑persistent MAC randomization</string>
     <string name="wifi_enhanced_mac_randomization_summary">When this mode is enabled, this device’s MAC address may change each time it connects to a network that has MAC randomization enabled.</string>
-    <string name="wifi_fail_to_scan">"Can't scan for networks"</string>
+    <string name="wifi_fail_to_scan">"Can\'t scan for networks"</string>
     <string name="wifi_failed_connect_message">Failed to connect to network</string>
     <string name="wifi_gateway_hint">192.168.1.1</string>
     <string name="wifi_hotspot_switch_off_text">Off</string>
@@ -2164,7 +2164,7 @@ Wi‑Fi Address (BSSID)
     <string name="wifi_metered_label">Metered</string>
     <string name="wifi_network_prefix_length_hint">24</string>
     <string name="wifi_no_internet">No internet access</string>
-    <string name="wifi_no_internet_no_reconnect">"Won't automatically connect"</string>
+    <string name="wifi_no_internet_no_reconnect">"Won\'t automatically connect"</string>
     <string name="wifi_not_in_range">Not in range</string>
     <string name="wifi_passpoint_expired">Expired</string>
     <string name="wifi_remembered">Saved</string>
@@ -2237,17 +2237,17 @@ Wi‑Fi Address (BSSID)
     <string name="wifitrackerlib_tap_to_sign_up">Tap to sign up</string>
     <string name="wifitrackerlib_wifi_ap_unable_to_handle_new_sta">Access point temporarily full</string>
     <string name="wifitrackerlib_wifi_check_password_try_again">Check password and try again</string>
-    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">"Connected to device. Can't provide internet."</string>
+    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">"Connected to device. Can\'t provide internet."</string>
     <string name="wifitrackerlib_wifi_disabled_generic">Disabled</string>
     <string name="wifitrackerlib_wifi_disabled_network_failure">IP configuration failure</string>
     <string name="wifitrackerlib_wifi_disabled_password_failure">Authentication problem</string>
     <string name="wifitrackerlib_wifi_disconnected">Disconnected</string>
     <string name="wifitrackerlib_wifi_limited_connection">Limited connection</string>
-    <string name="wifitrackerlib_wifi_mbo_assoc_disallowed_cannot_connect">"Can't connect. Try again later."</string>
+    <string name="wifitrackerlib_wifi_mbo_assoc_disallowed_cannot_connect">"Can\'t connect. Try again later."</string>
     <string name="wifitrackerlib_wifi_mbo_assoc_disallowed_max_num_sta_associated">Network is over capacity. Try again later.</string>
     <string name="wifitrackerlib_wifi_mbo_oce_assoc_disallowed_insufficient_rssi">Weak signal. Try moving closer to the router.</string>
     <string name="wifitrackerlib_wifi_metered_label">Metered</string>
-    <string name="wifitrackerlib_wifi_network_not_found">"Can't connect. Try again later."</string>
+    <string name="wifitrackerlib_wifi_network_not_found">"Can\'t connect. Try again later."</string>
     <string name="wifitrackerlib_wifi_no_internet">No internet access</string>
     <string name="wifitrackerlib_wifi_no_internet_no_reconnect">Won’t automatically connect</string>
     <string name="wifitrackerlib_wifi_passpoint_expired">Expired</string>
@@ -2285,9 +2285,9 @@ Wi‑Fi Address (BSSID)
     <string name="zeekr_component_spring">Spring</string>
     <string name="zeekr_ok">ok</string>
     <string name="zeekr_show_psw">show password</string>
-    <string name="zen_alarm_warning">"You won't hear your next alarm %1$s"</string>
-    <string name="zen_alarm_warning_indef">"You won't hear your next alarm %1$s unless you turn this off before then"</string>
-    <string name="zen_alarms_introduction">"You won't be disturbed by sounds and vibrations, except from alarms. You'll still hear anything you choose to play including music, videos, and games."</string>
+    <string name="zen_alarm_warning">"You won\'t hear your next alarm %1$s"</string>
+    <string name="zen_alarm_warning_indef">"You won\'t hear your next alarm %1$s unless you turn this off before then"</string>
+    <string name="zen_alarms_introduction">"You won\'t be disturbed by sounds and vibrations, except from alarms. You\'ll still hear anything you choose to play including music, videos, and games."</string>
     <string name="zen_interruption_level_priority">Priority only</string>
     <string name="zen_mode_and_condition">%1$s. %2$s</string>
     <string name="zen_mode_duration_always_prompt_title">Ask every time</string>
@@ -2297,7 +2297,7 @@ Wi‑Fi Address (BSSID)
     <string name="zen_mode_settings_summary_off">Never</string>
     <string name="zen_mode_settings_turn_on_dialog_title">Turn on Do Not Disturb</string>
     <string name="zen_priority_customize_button">Customize</string>
-    <string name="zen_priority_introduction">"You won't be disturbed by sounds and vibrations, except from alarms, reminders, events, and callers you specify. You'll still hear anything you choose to play including music, videos, and games."</string>
+    <string name="zen_priority_introduction">"You won\'t be disturbed by sounds and vibrations, except from alarms, reminders, events, and callers you specify. You\'ll still hear anything you choose to play including music, videos, and games."</string>
     <string name="zen_silence_introduction">This blocks ALL sounds and vibrations, including from alarms, music, videos, and games.</string>
-    <string name="zen_silence_introduction_voice">"This blocks ALL sounds and vibrations, including from alarms, music, videos, and games. You'll still be able to make phone calls."</string>
+    <string name="zen_silence_introduction_voice">"This blocks ALL sounds and vibrations, including from alarms, music, videos, and games. You\'ll still be able to make phone calls."</string>
 </resources>

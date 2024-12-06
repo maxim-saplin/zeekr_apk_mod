@@ -126,7 +126,9 @@ Zeekr OS is based on AOSP and uses test keys supplied by Google. I have included
 
 ### Install APK and Test
 
-`adb install -g _output/com.android.systemui_en.apk`
+Installs signed APK:
+
+`adb install -g _output/com.android.systemui_en_signed.apk`
 
 ## Contribution
 
