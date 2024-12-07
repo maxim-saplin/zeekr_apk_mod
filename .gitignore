@@ -36,4 +36,5 @@ google-services.json
 
 !*/modded_apks/*.apk
 !*/original_apks/*.apk
+!androiddebugkey.jks
 6.0.5/.DS_Store
