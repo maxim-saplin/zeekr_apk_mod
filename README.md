@@ -136,7 +136,8 @@ Installs signed APK:
 
 ### Known Issues
 
-- Some apps (com.android.systemui) can't be recompiled back via APK tool even if you don't change anything - you get private reource error (e.g. error: resource android:attr/colorSurfaceVariant is private). No clear solution, attempted to update resource addressing and substitute some of the resources with public ones (see Notes.md), but didn't test it.
+- Some apps (com.android.systemui) can't be recompiled back via APK tool even if you don't change anything - you get private reource error (e.g. error: resource android:attr/colorSurfaceVariant is private).
+  - APK Studio Editor with APK Tool 2.9.3 seems to work just fine (decompiling and recompiling back systemui), I ued the most recent 2.10.0 version installed via brew, might try manual install of 2.9.3.
 - Some apps are system apps and can't be updated using `adb install` or `adb push` (com.android.systemui, come.ecarx.btphone_en_signed) on Android 12L/Zeekr OS 6.x.x. No resolution yet.
 
 ## Contribution
