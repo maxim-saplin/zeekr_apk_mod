@@ -42,8 +42,10 @@ If you wish to Mod an APK decompiling, changing and recompiling it, you will nee
 - Engineering menu enabled in the CAR
   - ADB set to 'Peripheral'
 - Apktool
-  - Install on macOS: `brew install apktool`
+   - !!! You migth need to manually install APK Tool 2.9.3 as some packages (e.g. systemui) can not be recompiled back via newer APKTool versions (e.g. 2.10.0)
+  - Install the most recent version on macOS: `brew install apktool`
   - Other platforms: https://ibotpeaches.github.io/Apktool/install/
+  - Alternatively you can use GUI based tool APK Studio Editor which bundles APKTool
 - Android Platform Tools (ADB)
 - Android Build Tools (apksigner, zipalign)
   - macOS versions from Android SDK are provided
