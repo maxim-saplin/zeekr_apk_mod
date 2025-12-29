@@ -1,0 +1,188 @@
+.class Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;->onItemRangeRemoved(II)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+
+# direct methods
+.method public constructor <init>(Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;->this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 6
+
+    iget-object v0, p0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;->this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+    iget-object v0, v0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;->this$0:Lcom/antfin/cube/cubecore/component/widget/CRScrollView;
+
+    invoke-static {v0}, Lcom/antfin/cube/cubecore/component/widget/CRScrollView;->access$1400(Lcom/antfin/cube/cubecore/component/widget/CRScrollView;)F
+
+    move-result v0
+
+    iget-object v1, p0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;->this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+    iget-object v1, v1, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;->this$0:Lcom/antfin/cube/cubecore/component/widget/CRScrollView;
+
+    invoke-static {v1}, Lcom/antfin/cube/cubecore/component/widget/CRScrollView;->access$1300(Lcom/antfin/cube/cubecore/component/widget/CRScrollView;)Lcom/antfin/cube/cubecore/component/scroll/CKRecycleScrollView;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/view/View;->getWidth()I
+
+    move-result v1
+
+    int-to-float v1, v1
+
+    sub-float/2addr v0, v1
+
+    float-to-int v0, v0
+
+    iget-object v1, p0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;->this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+    iget-object v1, v1, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;->this$0:Lcom/antfin/cube/cubecore/component/widget/CRScrollView;
+
+    invoke-static {v1}, Lcom/antfin/cube/cubecore/component/widget/CRScrollView;->access$1500(Lcom/antfin/cube/cubecore/component/widget/CRScrollView;)F
+
+    move-result v1
+
+    iget-object v2, p0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;->this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+    iget-object v2, v2, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;->this$0:Lcom/antfin/cube/cubecore/component/widget/CRScrollView;
+
+    invoke-static {v2}, Lcom/antfin/cube/cubecore/component/widget/CRScrollView;->access$1300(Lcom/antfin/cube/cubecore/component/widget/CRScrollView;)Lcom/antfin/cube/cubecore/component/scroll/CKRecycleScrollView;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Landroid/view/View;->getHeight()I
+
+    move-result v2
+
+    int-to-float v2, v2
+
+    sub-float/2addr v1, v2
+
+    float-to-int v1, v1
+
+    iget-object v2, p0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;->this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+    iget-object v2, v2, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;->this$0:Lcom/antfin/cube/cubecore/component/widget/CRScrollView;
+
+    invoke-static {v2}, Lcom/antfin/cube/cubecore/component/widget/CRScrollView;->access$1300(Lcom/antfin/cube/cubecore/component/widget/CRScrollView;)Lcom/antfin/cube/cubecore/component/scroll/CKRecycleScrollView;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/antfin/cube/cubecore/component/scroll/CKRecycleScrollView;->isVertical()Z
+
+    move-result v2
+
+    const/4 v3, 0x0
+
+    if-eqz v2, :cond_0
+
+    move v2, v3
+
+    goto :goto_0
+
+    :cond_0
+    iget-object v2, p0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;->this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+    iget-object v2, v2, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;->this$0:Lcom/antfin/cube/cubecore/component/widget/CRScrollView;
+
+    invoke-static {v2}, Lcom/antfin/cube/cubecore/component/widget/CRScrollView;->access$1300(Lcom/antfin/cube/cubecore/component/widget/CRScrollView;)Lcom/antfin/cube/cubecore/component/scroll/CKRecycleScrollView;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/antfin/cube/cubecore/component/scroll/CKRecycleScrollView;->getScrollDistance()I
+
+    move-result v2
+
+    :goto_0
+    iget-object v4, p0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;->this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+    iget-object v4, v4, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;->this$0:Lcom/antfin/cube/cubecore/component/widget/CRScrollView;
+
+    invoke-static {v4}, Lcom/antfin/cube/cubecore/component/widget/CRScrollView;->access$1300(Lcom/antfin/cube/cubecore/component/widget/CRScrollView;)Lcom/antfin/cube/cubecore/component/scroll/CKRecycleScrollView;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Lcom/antfin/cube/cubecore/component/scroll/CKRecycleScrollView;->isVertical()Z
+
+    move-result v4
+
+    if-eqz v4, :cond_1
+
+    iget-object v3, p0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;->this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+    iget-object v3, v3, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;->this$0:Lcom/antfin/cube/cubecore/component/widget/CRScrollView;
+
+    invoke-static {v3}, Lcom/antfin/cube/cubecore/component/widget/CRScrollView;->access$1300(Lcom/antfin/cube/cubecore/component/widget/CRScrollView;)Lcom/antfin/cube/cubecore/component/scroll/CKRecycleScrollView;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lcom/antfin/cube/cubecore/component/scroll/CKRecycleScrollView;->getScrollDistance()I
+
+    move-result v3
+
+    :cond_1
+    iget-object v4, p0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;->this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+    iget-object v4, v4, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;->this$0:Lcom/antfin/cube/cubecore/component/widget/CRScrollView;
+
+    invoke-static {v2, v0}, Ljava/lang/Math;->min(II)I
+
+    move-result v5
+
+    invoke-static {v4, v5}, Lcom/antfin/cube/cubecore/component/widget/CRScrollView;->access$402(Lcom/antfin/cube/cubecore/component/widget/CRScrollView;I)I
+
+    iget-object v4, p0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;->this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+    iget-object v4, v4, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;->this$0:Lcom/antfin/cube/cubecore/component/widget/CRScrollView;
+
+    invoke-static {v3, v1}, Ljava/lang/Math;->min(II)I
+
+    move-result v5
+
+    invoke-static {v4, v5}, Lcom/antfin/cube/cubecore/component/widget/CRScrollView;->access$502(Lcom/antfin/cube/cubecore/component/widget/CRScrollView;I)I
+
+    iget-object v4, p0, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4$1;->this$1:Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;
+
+    iget-object v4, v4, Lcom/antfin/cube/cubecore/component/widget/CRScrollView$4;->this$0:Lcom/antfin/cube/cubecore/component/widget/CRScrollView;
+
+    invoke-static {v2, v0}, Ljava/lang/Math;->min(II)I
+
+    move-result v0
+
+    invoke-static {v3, v1}, Ljava/lang/Math;->min(II)I
+
+    move-result v1
+
+    invoke-static {v4, v0, v1}, Lcom/antfin/cube/cubecore/component/utils/CKComponentHelper;->fireScrollEvent(Lcom/antfin/cube/platform/component/ICKComponentProtocol;II)V
+
+    return-void
+.end method

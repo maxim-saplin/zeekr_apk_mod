@@ -1,0 +1,12 @@
+version: 2.12.1
+apkFileName: XCLauncher3-633-orig.apk
+doNotCompress:
+- arsc
+- dex
+- gif
+- ogg
+- png
+- so
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm

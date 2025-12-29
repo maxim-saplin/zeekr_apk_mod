@@ -1,0 +1,205 @@
+.class public final synthetic Lcom/zeekr/lib/apps/dialog/d;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnDragListener;
+
+
+# instance fields
+.field public final synthetic a:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;
+
+.field public final synthetic b:Lcom/zeekr/lib/apps/dialog/EditAppDialog;
+
+.field public final synthetic c:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;
+
+.field public final synthetic d:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;
+
+.field public final synthetic e:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;Lcom/zeekr/lib/apps/dialog/EditAppDialog;Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/zeekr/lib/apps/dialog/d;->a:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;
+
+    iput-object p2, p0, Lcom/zeekr/lib/apps/dialog/d;->b:Lcom/zeekr/lib/apps/dialog/EditAppDialog;
+
+    iput-object p3, p0, Lcom/zeekr/lib/apps/dialog/d;->c:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;
+
+    iput-object p4, p0, Lcom/zeekr/lib/apps/dialog/d;->d:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;
+
+    iput-object p5, p0, Lcom/zeekr/lib/apps/dialog/d;->e:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onDrag(Landroid/view/View;Landroid/view/DragEvent;)Z
+    .locals 10
+
+    sget-object p1, Lcom/zeekr/lib/apps/dialog/EditAppDialog;->Companion:Lcom/zeekr/lib/apps/dialog/EditAppDialog$Companion;
+
+    iget-object p1, p0, Lcom/zeekr/lib/apps/dialog/d;->a:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;
+
+    const-string v0, "$cardCallback"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/zeekr/lib/apps/dialog/d;->b:Lcom/zeekr/lib/apps/dialog/EditAppDialog;
+
+    const-string/jumbo v1, "this$0"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v1, p0, Lcom/zeekr/lib/apps/dialog/d;->c:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;
+
+    const-string v2, "$appCallback"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v2, p0, Lcom/zeekr/lib/apps/dialog/d;->d:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;
+
+    const-string v3, "$miniCallback"
+
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/Intrinsics;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v3, p0, Lcom/zeekr/lib/apps/dialog/d;->e:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;
+
+    const-string v4, "$zeekrLabCallback"
+
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/Intrinsics;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v4, 0x0
+
+    if-eqz p2, :cond_0
+
+    invoke-virtual {p2}, Landroid/view/DragEvent;->getAction()I
+
+    move-result v5
+
+    invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v5
+
+    goto :goto_0
+
+    :cond_0
+    move-object v5, v4
+
+    :goto_0
+    const/4 v6, 0x1
+
+    const-string v7, "EditAppDialog"
+
+    if-nez v5, :cond_1
+
+    goto :goto_1
+
+    :cond_1
+    invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
+
+    move-result v8
+
+    const/4 v9, 0x5
+
+    if-ne v8, v9, :cond_2
+
+    const-string v4, "scroll view drag enter"
+
+    invoke-static {v7, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    invoke-virtual {v0}, Lcom/zeekr/lib/apps/dialog/EditAppDialog;->h()Lcom/zeekr/lib/apps/databinding/EditAppDialogBinding;
+
+    move-result-object v4
+
+    iget-object v4, v4, Lcom/zeekr/lib/apps/databinding/EditAppDialogBinding;->j:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-static {p2}, Lkotlin/jvm/internal/Intrinsics;->c(Ljava/lang/Object;)V
+
+    invoke-virtual {p1, p2, v6}, Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;->i(Landroid/view/DragEvent;Z)V
+
+    invoke-virtual {v0}, Lcom/zeekr/lib/apps/dialog/EditAppDialog;->h()Lcom/zeekr/lib/apps/databinding/EditAppDialogBinding;
+
+    move-result-object p1
+
+    iget-object p1, p1, Lcom/zeekr/lib/apps/databinding/EditAppDialogBinding;->i:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v1, p2, v6}, Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;->i(Landroid/view/DragEvent;Z)V
+
+    invoke-virtual {v0}, Lcom/zeekr/lib/apps/dialog/EditAppDialog;->h()Lcom/zeekr/lib/apps/databinding/EditAppDialogBinding;
+
+    move-result-object p1
+
+    iget-object p1, p1, Lcom/zeekr/lib/apps/databinding/EditAppDialogBinding;->k:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v2, p2, v6}, Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;->i(Landroid/view/DragEvent;Z)V
+
+    invoke-virtual {v0}, Lcom/zeekr/lib/apps/dialog/EditAppDialog;->h()Lcom/zeekr/lib/apps/databinding/EditAppDialogBinding;
+
+    move-result-object p1
+
+    iget-object p1, p1, Lcom/zeekr/lib/apps/databinding/EditAppDialogBinding;->l:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v3, p2, v6}, Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;->i(Landroid/view/DragEvent;Z)V
+
+    goto :goto_2
+
+    :cond_2
+    :goto_1
+    if-nez v5, :cond_3
+
+    goto :goto_2
+
+    :cond_3
+    invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
+
+    move-result p1
+
+    const/4 v1, 0x3
+
+    if-ne p1, v1, :cond_5
+
+    const-string p1, "scroll view drag drop"
+
+    invoke-static {v7, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    invoke-virtual {p2}, Landroid/view/DragEvent;->getLocalState()Ljava/lang/Object;
+
+    move-result-object p1
+
+    instance-of p2, p1, Lcom/zeekr/appcore/mode/AppMetaData;
+
+    if-eqz p2, :cond_4
+
+    move-object v4, p1
+
+    check-cast v4, Lcom/zeekr/appcore/mode/AppMetaData;
+
+    :cond_4
+    if-eqz v4, :cond_5
+
+    const/4 p1, 0x0
+
+    iput-boolean p1, v4, Lcom/zeekr/appcore/mode/AppMetaData;->g:Z
+
+    sget-object p1, Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;->Companion:Lcom/zeekr/lib/apps/ext/RecyclerDragCallback$Companion;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    sput-boolean v6, Lcom/zeekr/lib/apps/ext/RecyclerDragCallback;->w:Z
+
+    invoke-virtual {v0, v4}, Lcom/zeekr/lib/apps/dialog/EditAppDialog;->d(Lcom/zeekr/appcore/mode/AppMetaData;)V
+
+    iget-object p1, v4, Lcom/zeekr/appcore/mode/AppMetaData;->f:Lcom/zeekr/appcore/mode/AppType;
+
+    invoke-virtual {v0, p1}, Lcom/zeekr/lib/apps/dialog/EditAppDialog;->q(Lcom/zeekr/appcore/mode/AppType;)V
+
+    :cond_5
+    :goto_2
+    return v6
+.end method

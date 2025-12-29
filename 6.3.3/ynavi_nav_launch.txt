@@ -1,0 +1,205 @@
+--------- beginning of main
+12-29 21:03:57.694   540  4821 I AVMCombinedCameraDeviceSessionExtend: CameraDeviceSession::handle current opened service id 2 request
+12-29 21:03:57.694   540  4813 W ZeekrRenderEngine: [cvFuncMutiHwBuf2RGB32H264@AI_CV_Func_Processor.cpp(421)] srcs[0] index: 3
+12-29 21:03:57.694   540  4813 W ZeekrRenderEngine: [cvFuncMutiHwBuf2RGB32H264@AI_CV_Func_Processor.cpp(421)] srcs[1] index: 8
+12-29 21:03:57.694   540  4813 W ZeekrRenderEngine: [cvFuncMutiHwBuf2RGB32H264@AI_CV_Func_Processor.cpp(421)] srcs[2] index: 13
+12-29 21:03:57.694   540  4813 W ZeekrRenderEngine: [cvFuncMutiHwBuf2RGB32H264@AI_CV_Func_Processor.cpp(421)] srcs[3] index: 18
+12-29 21:03:57.694   540  4821 I AVMCombinedCameraDeviceSessionExtend: after CVP_Func_MUTI_SRC_CROP_2_RGB32ENC 0927
+12-29 21:03:57.697   540  4821 D AVMCombinedCameraDeviceSessionExtend: notifyCaptureResult notify capture result, service id is:2, camera id is {8,9,10,11}
+12-29 21:03:57.698  3891  4822 I ZeekrCameraService: <CameraHalCallback>[zeekr_onCameraDataChangeNotify] msg_type 0, msg_content 26, size 11796480, format 26, cameralist size 4, memory addr 0x7355003188
+12-29 21:03:57.698  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] format 7
+12-29 21:03:57.698  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] width 1920
+12-29 21:03:57.698  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] height 1536
+12-29 21:03:57.698  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] size 11796480
+12-29 21:03:57.698  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] channels 0
+12-29 21:03:57.698  3891  4822 I ZeekrCameraService: <ZeekrCameraHal>[zeekr_onCameraDataChangeNotify] image.size 11796480, msg.size 11796480
+12-29 21:03:57.698  3891  4822 D AlgoService: <CameraManager>[onCameraFrame] convert avm frame +
+12-29 21:03:57.699  3891  4822 D AlgoService: <CameraManager>[onCameraFrame] convert avm frame -
+12-29 21:03:57.700  3891 18071 I AlgoService: execute called, (1920x1536) format:7
+12-29 21:03:57.700  3891 18071 I AlgoService: <AlgoQueueMessage>[execute] monitor startSafety algo.
+12-29 21:03:57.717  4083  5530 D [ZVS][155][2024-12-18]Base[1.0.7]AdasMapperImpl: onChange FaultListInfo [] 
+12-29 21:03:57.717  4083  5530 D [ZVS][155][2024-12-18]Base[1.0.7]CacheHelper0:  set value 2response moduleName:adas,propertyName:FaultListInfo,extra:oneValue
+12-29 21:03:57.717  2994  3076 I SomeipAlertManager: mFaultObserver size:0
+12-29 21:03:57.727   540  4821 I AVMCombinedCameraDeviceSessionExtend: CameraDeviceSession::handle current opened service id 2 request
+--------- beginning of system
+12-29 21:03:57.731  1569  1652 D CAR.HAL : onPropertyEvent -> mServicesToDispatch.size: 2
+12-29 21:03:57.731  1569  1652 D zeekr_gxk: PropertyHalServiceBase->listener is null!!!
+12-29 21:03:57.731  1569  1652 D CAR.PropertyHalService: onHalEvents mId=0x11600207 halId=0x11600207 areaId=0x0 status=0x0 timestamp=2667000066325 floatValues=[0.0]
+12-29 21:03:57.731  1569  1652 D CAR.PropertyHalService: onHalEvents mId=0x11600703 halId=0x11600703 areaId=0x0 status=0x0 timestamp=2667000069294 floatValues=[25.0]
+12-29 21:03:57.731  1569  1652 E CarPropertyService: onPropertyChange: no listener registered for propId=0x11600703
+12-29 21:03:57.751  2994  3076 D SomeipAlertManager: handlerSomeipAlarm not exist0
+12-29 21:03:57.753  4529  4817 D CarLocationManager: setProperty, propId: 0x102, area: 0x0, class: class [B, val: [B@32c02c9
+12-29 21:03:57.753  1569  1600 I CAR.PHS.LOCATION: setProperty mId=0x102 halId=0x21701010 areaId=0x0 status=0x0 bytes=[1, 31, -1, 3, 2, 0, 31, 1, -1, 7, 7, 1, -1, -1]
+12-29 21:03:57.753   369   387 D APTIV.VHAL.VPLAT: Socket:TX=0x0508543000000000011fff0302001f01ff070701ffff
+12-29 21:03:57.760   369   386 D APTIV.VHAL.VPLAT: Socket:RX=0x0801e4a500000000190c1d15033a
+12-29 21:03:57.760   369   388 I VehicleSettingHandle: error: hisipid[0x801e4a5] not exist 
+12-29 21:03:57.760   369   388 D APTIV.VHAL.PLATVHAL: setPropertyFromVehicle success,doHalEvent:0x2170f827
+12-29 21:03:57.760   540  4821 I AVMCombinedCameraDeviceSessionExtend: CameraDeviceSession::handle current opened service id 2 request
+12-29 21:03:57.760   540  4813 W ZeekrRenderEngine: [cvFuncMutiHwBuf2RGB32H264@AI_CV_Func_Processor.cpp(421)] srcs[0] index: 0
+12-29 21:03:57.760   540  4813 W ZeekrRenderEngine: [cvFuncMutiHwBuf2RGB32H264@AI_CV_Func_Processor.cpp(421)] srcs[1] index: 5
+12-29 21:03:57.760   540  4813 W ZeekrRenderEngine: [cvFuncMutiHwBuf2RGB32H264@AI_CV_Func_Processor.cpp(421)] srcs[2] index: 10
+12-29 21:03:57.760   540  4813 W ZeekrRenderEngine: [cvFuncMutiHwBuf2RGB32H264@AI_CV_Func_Processor.cpp(421)] srcs[3] index: 15
+12-29 21:03:57.761   540  4821 I AVMCombinedCameraDeviceSessionExtend: after CVP_Func_MUTI_SRC_CROP_2_RGB32ENC 0927
+12-29 21:03:57.761   820  4112 I IPLM_Impl: doReceive, recevied IP_activity from ECU [TCAM] [ip:198.18.32.17], recvSize is 20
+12-29 21:03:57.761   820  4112 I IPLM_Impl: handleRequestData, ecuNode: [TCAM], action: 0x1, priority: 0, function: 0
+12-29 21:03:57.764   540  4821 D AVMCombinedCameraDeviceSessionExtend: notifyCaptureResult notify capture result, service id is:2, camera id is {8,9,10,11}
+12-29 21:03:57.764  4083  5114 D [ZVS][155][2024-12-18]Base[1.0.7]AdasMapperImpl: onChange FaultListInfo [vUID = 4007;vOperation = 1] 
+12-29 21:03:57.764  4083  5114 D [ZVS][155][2024-12-18]Base[1.0.7]CacheHelper0:  set value 2response moduleName:adas,propertyName:FaultListInfo,extra:oneValue
+12-29 21:03:57.764  3891  4822 I ZeekrCameraService: <CameraHalCallback>[zeekr_onCameraDataChangeNotify] msg_type 0, msg_content 26, size 11796480, format 26, cameralist size 4, memory addr 0x7355003188
+12-29 21:03:57.764  4529  4817 D CarLocationManager: setProperty, propId: 0x105, area: 0x0, class: class java.lang.Integer, val: 0
+12-29 21:03:57.764  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] format 7
+12-29 21:03:57.764  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] width 1920
+12-29 21:03:57.764  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] height 1536
+12-29 21:03:57.764  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] size 11796480
+12-29 21:03:57.764  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] channels 0
+12-29 21:03:57.764  3891  4822 I ZeekrCameraService: <ZeekrCameraHal>[zeekr_onCameraDataChangeNotify] image.size 11796480, msg.size 11796480
+12-29 21:03:57.764  3891  4822 D AlgoService: <CameraManager>[onCameraFrame] convert avm frame +
+12-29 21:03:57.765  1569  1600 I CAR.PHS.LOCATION: setProperty mId=0x105 halId=0x21401015 areaId=0x0 status=0x0 int32Values=[0]
+12-29 21:03:57.765  2994  3076 I SomeipAlertManager: mFaultObserver size:1
+12-29 21:03:57.765  2994  3076 D SomeipAlertManager: handlerSomeipAlarm not exist4007
+12-29 21:03:57.766   369   387 D APTIV.VHAL.VPLAT: Socket:TX=0x0508543c0000000000000000
+12-29 21:03:57.767   369   386 D APTIV.VHAL.VPLAT: Socket:RX=0x0c015b110000000000000000
+12-29 21:03:57.767  3891  4822 D AlgoService: <CameraManager>[onCameraFrame] convert avm frame -
+12-29 21:03:57.767  3891 18071 I AlgoService: execute called, (1920x1536) format:7
+12-29 21:03:57.767  3891 18071 I AlgoService: <AlgoQueueMessage>[execute] monitor startSafety algo.
+12-29 21:03:57.768   369   388 D APTIV.VHAL.PLATVHAL: setPropertyFromVehicle success,doHalEvent:0x2260f1d4
+12-29 21:03:57.773   820  4112 I IPLM_Impl: doReceive, recevied IP_activity from ECU [ADCU] [ip:198.18.36.1], recvSize is 20
+12-29 21:03:57.773   820  4112 I IPLM_Impl: handleRequestData, ecuNode: [ADCU], action: 0x3, priority: 0, function: 0
+12-29 21:03:57.793   540  4821 I AVMCombinedCameraDeviceSessionExtend: CameraDeviceSession::handle current opened service id 2 request
+12-29 21:03:57.814  1235  1862 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=ru.yandex.yandexnavi/.core.NavigatorActivity} from uid 2000 pid 2304
+12-29 21:03:57.818  4083  5114 D [ZVS][155][2024-12-18]Base[1.0.7]AdasMapperImpl: onChange FaultListInfo [] 
+12-29 21:03:57.818  4083  5114 D [ZVS][155][2024-12-18]Base[1.0.7]CacheHelper0:  set value 2response moduleName:adas,propertyName:FaultListInfo,extra:oneValue
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 30464 0 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 30805 0 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 30866 1 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 30916 1 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 30921 1 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 31029 1 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 31076 1 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 31077 1 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 31078 1 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 31079 1 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 31080 1 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 31081 1 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 31082 1 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 31083 1 setaffinity fail!
+12-29 21:03:57.818  1235  1862 E Process : TOP_THREAD_BOOST zhf tid 31183 1 setaffinity fail!
+12-29 21:03:57.818  2994  3076 I SomeipAlertManager: mFaultObserver size:0
+12-29 21:03:57.821  1949 29693 D ZeekrTopActivityService: Receive onTaskMovedToFront
+12-29 21:03:57.822 10186 10203 I ListenerWork: onTaskMovedToFront lastPackageName:ru.yandex.yandexnavi
+12-29 21:03:57.822  8809  6458 I registerTaskStackListener20241221: [ (ClimateActivity.kt:225)#OnTaskMovedToFront ] onTaskMovedToFront task top acitivyt=ComponentInfo{ru.yandex.yandexnavi/ru.yandex.yandexmaps.app.MapActivity}
+12-29 21:03:57.822  8809  6458 D ClimateActivity20241221: [ (ClimateActivity.kt:1227)#GetCurrentDisplayId ] getCurrentDisplayId displayId = 0
+12-29 21:03:57.822  8809  6458 D ClimateActivity20241221: [ (ClimateActivity.kt:1240)#GetTopActivityDisplayId ] getTopActivityDisplayId displayId = 0
+12-29 21:03:57.822  8809  6458 D registerTaskStackListener20241221: [ (ClimateActivity.kt:231)#OnTaskMovedToFront ] currentDisplayId = 0, topActivityDisplayId = 0
+12-29 21:03:57.822  1949 29693 D ZeekrTopActivityMonitor: send top change map = {0=ru.yandex.yandexnavi/.core.NavigatorActivity}
+12-29 21:03:57.823  8514  8583 D [ZeekrScreenSaver]_1.0_20241217_ActivityMonitorImpl: top activity display ->{0=ru.yandex.yandexnavi/.core.NavigatorActivity}
+12-29 21:03:57.823  4011  4051 D ZeerkrTopActivityMonitor: onTopActivityChange: {0=ru.yandex.yandexnavi/.core.NavigatorActivity}
+12-29 21:03:57.823  8514  8583 D [ZeekrScreenSaver]_1.0_20241217_ActivityMonitorImpl: handlerTaskCsdStackChanged top pack csd name ->ru.yandex.yandexnavi
+12-29 21:03:57.823  8514  8583 D [ZeekrScreenSaver]_1.0_20241217_ActivityMonitorImpl: handlerTaskBackStackChanged top pack back name ->
+12-29 21:03:57.823  1945  2211 D TaskStackManager: onTopActivityChange: {0=ru.yandex.yandexnavi/.core.NavigatorActivity}
+12-29 21:03:57.823  4011  4051 D ZeerkrTopActivityMonitor: onTopActivityChange pkg: ru.yandex.yandexnavi, activityName: ru.yandex.yandexnavi.core.NavigatorActivity
+12-29 21:03:57.823  1945  2211 I AdaptL_1945_AdaptAPI.Device: persist.sys.vehiclecode = CS1E
+12-29 21:03:57.823  4011  4051 D CardLayout: onTopActivityChanged 当前应用：ru.yandex.yandexnavi , currentActivity: ru.yandex.yandexnavi.core.NavigatorActivity, curIsDarkActivity: false, isDarkActivity: false, thread: Thread[Binder:4011_2,5,main]
+12-29 21:03:57.823  1945  2211 I AdaptL_1945_AdaptAPI.Device: getVehicleType SystemProperties vehicleType-->CS1E
+12-29 21:03:57.823  1945  2211 I AdaptL_1945_AdaptAPI.Device: persist.sys.platform.name = DHU7A
+12-29 21:03:57.823  4011  4051 D TipLayout: onTopActivityChanged 当前应用：ru.yandex.yandexnavi , currentActivity: ru.yandex.yandexnavi.core.NavigatorActivity, curIsDarkActivity: false, isDarkActivity: false, thread: Thread[Binder:4011_2,5,main]
+12-29 21:03:57.823  1945  2211 D AdaptL_1945_AdaptAPI.Device: getDHUType, dhuType : 0
+12-29 21:03:57.823  4011  4051 D EvaView : onTopActivityChanged 当前应用：ru.yandex.yandexnavi , currentActivity: ru.yandex.yandexnavi.core.NavigatorActivity, curIsDarkActivity: false, isDarkActivity: false, thread: Thread[Binder:4011_2,5,main]
+12-29 21:03:57.823  4011  4051 D EvaView : curIsSpeechSetting：false , isSpeechSetting: false
+12-29 21:03:57.823  5985  7675 I AIN-TaskStackUtil(TaskStackUtil.java:212): [ Binder:5985_6 ] - [ onTopActivityChange ] {0=ru.yandex.yandexnavi/.core.NavigatorActivity} 1 
+12-29 21:03:57.823  3254  5631 D TaskStackManager: onTopActivityChange: {0=ru.yandex.yandexnavi/.core.NavigatorActivity}
+12-29 21:03:57.823  4011  4051 D EvaLayout: onTopActivityChanged 当前应用：ru.yandex.yandexnavi , currentActivity: ru.yandex.yandexnavi.core.NavigatorActivity, curIsDarkActivity: false, isDarkActivity: false, thread: Thread[Binder:4011_2,5,main]
+12-29 21:03:57.823  1235  4232 I ActivityTaskManager: moveTaskToBack: Task{c062014 #3413 type=standard A=1000:com.geely.pma.climate U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+12-29 21:03:57.823  3254  5631 D TaskStackManager: csd: ru.yandex.yandexnavi/.core.NavigatorActivity
+12-29 21:03:57.823  3254  5631 D TaskStackManager: backrest: null
+12-29 21:03:57.823  4011  4051 D EvaWindowManagerService: 当前应用：ru.yandex.yandexnavi , currentActivity: ru.yandex.yandexnavi.core.NavigatorActivity ,entertainmentOpen: 0, thread: Thread[Binder:4011_2,5,main]
+12-29 21:03:57.823  5985  7675 I AIN-TaskStackUtil(TaskStackUtil.java:218): [ Binder:5985_6 ] - [ onTopActivityChange ] 0 ru.yandex.yandexnavi/.core.NavigatorActivity 
+12-29 21:03:57.823  4011  4051 D EvaStateManager: 当前应用：ru.yandex.yandexnavi , currentActivity: ru.yandex.yandexnavi.core.NavigatorActivity, thread: Thread[Binder:4011_2,5,main]
+12-29 21:03:57.823  5985  7675 I AIN-WindowMainView(WindowMainView.java:100): [ Binder:5985_6 ] - [ isShow ] isShow : false 
+12-29 21:03:57.823  2687  4727 D [ZHK][85]: [TopActivityUtils]---> top activity change, map:{0=ru.yandex.yandexnavi/.core.NavigatorActivity}
+12-29 21:03:57.823  2687  4727 D [ZHK][85]: [TopActivityUtils]---> top activity change, 1->0, 11:0,id:0
+12-29 21:03:57.823  2687  4727 I [ZHK]   : [TopActivityUtils]---> top app change, package name no change!!
+12-29 21:03:57.823  5985  7675 I AIN-WindowControllerCsd(WindowControllerBase.java:264): [ Binder:5985_6 ] - [ isShow ] show: false 
+12-29 21:03:57.823  3932  4660 D CarService_113SpecialSceneManager: onTopActivityChange receive 0,ru.yandex.yandexnavi/.core.NavigatorActivity
+12-29 21:03:57.823  5985  7675 I AIN-ViewApp_(ViewApp.java:283): [ Binder:5985_6 ] - [ onTopActivityChanged ]  isShow  false isRunning  false 
+12-29 21:03:57.823  3932  4660 D CarService_113GameHelper: pkg:ru.yandex.yandexnavi,isGame:false
+12-29 21:03:57.823  1945  2211 I MDSdk[1.0.35]ScreenTypeCovertUtils: covertScreenType csd,2048
+12-29 21:03:57.823  3932  4660 D MDSdk[1.0.33]DefaultDisplayGet: :getScreenType displayId:0
+12-29 21:03:57.823  5985  7675 I AIN-ViewApp_(ViewApp.java:322): [ Binder:5985_6 ] - [ uiModeChange ] 
+12-29 21:03:57.823  1945  2211 D MDSdk[1.0.35]DefaultDisplayGet: :getDisplayID screenType:2048
+12-29 21:03:57.823  3123  4407 I AI_cs1e_1.0.4_202412311518_ActivityTaskMonitor: ---onTopActivityChange: {0=ru.yandex.yandexnavi/.core.NavigatorActivity}
+12-29 21:03:57.823  1977  2096 D 11326-20241211_ZeerkrTopActivityMonitor: (LogUtils.kt:45)#d$default(): onTopActivityChange displayId:0, names={0=ru.yandex.yandexnavi/.core.NavigatorActivity}
+12-29 21:03:57.823  3932  4660 D MDSdk[1.0.33]DefaultDisplayGet: :display:0,UniqueId:local:129,DisplayId:0
+12-29 21:03:57.823  3932  4660 D MDSdk[1.0.33]DefaultDisplayGet: :getScreenType displayId:0,screenType:2048
+12-29 21:03:57.823  3932  4660 I MDSdk[1.0.33]DisplayFormLocal: getScreenType->screenType:2048, DisplayId:0,vehicleType:CS1E
+12-29 21:03:57.823  3932  4660 I MDSdk[1.0.33]ScreenTypeCovertUtils: covertScreenType CS1E,2048,csd
+12-29 21:03:57.823 10186 10203 I ListenerWork: currentPackageName:ru.yandex.yandexnavi
+12-29 21:03:57.824  2085  2147 D TaskStackManager: onTopActivityChange: {0=ru.yandex.yandexnavi/.core.NavigatorActivity}
+12-29 21:03:57.824  2085  2147 I AdaptL_2085_AdaptAPI.Device: persist.sys.vehiclecode = CS1E
+12-29 21:03:57.824  2085  2147 I AdaptL_2085_AdaptAPI.Device: getVehicleType SystemProperties vehicleType-->CS1E
+12-29 21:03:57.824  2085  2147 I AdaptL_2085_AdaptAPI.Device: persist.sys.platform.name = DHU7A
+12-29 21:03:57.824  2085  2147 D AdaptL_2085_AdaptAPI.Device: getDHUType, dhuType : 0
+12-29 21:03:57.824  1235  4232 D ActivityTaskManager: moveTaskToBack taskTopActivity: ActivityRecord{1db7acd u0 com.geely.pma.climate/.ClimateActivity t3413}
+12-29 21:03:57.824  2085  2147 I MDSdk[1.0.35]ScreenTypeCovertUtils: covertScreenType csd,2048
+12-29 21:03:57.824  2085  2147 D MDSdk[1.0.35]DefaultDisplayGet: :getDisplayID screenType:2048
+12-29 21:03:57.825  1945  2211 D MDSdk[1.0.35]DefaultDisplayGet: :display:0,UniqueId:local:129,DisplayId:0
+12-29 21:03:57.825  1945  2211 I MDSdk[1.0.35]DisplayFormLocal: getDisplayId->screenType:2048, DisplayId:0,vehicleType:CS1E
+12-29 21:03:57.825  1945  2211 I AdaptL_1945_AdaptAPI.Device: persist.sys.vehiclecode = CS1E
+12-29 21:03:57.825  1945  2211 I AdaptL_1945_AdaptAPI.Device: getVehicleType SystemProperties vehicleType-->CS1E
+12-29 21:03:57.825  1945  2211 I AdaptL_1945_AdaptAPI.Device: persist.sys.platform.name = DHU7A
+12-29 21:03:57.825  1945  2211 D AdaptL_1945_AdaptAPI.Device: getDHUType, dhuType : 0
+12-29 21:03:57.825  1945  2211 I MDSdk[1.0.35]ScreenTypeCovertUtils: covertScreenType backrest,2
+12-29 21:03:57.825  2085  2147 D MDSdk[1.0.35]DefaultDisplayGet: :display:0,UniqueId:local:129,DisplayId:0
+12-29 21:03:57.826  1945  2211 D MDSdk[1.0.35]DefaultDisplayGet: :getDisplayID screenType:2
+12-29 21:03:57.826  2085  2147 I MDSdk[1.0.35]DisplayFormLocal: getDisplayId->screenType:2048, DisplayId:0,vehicleType:CS1E
+12-29 21:03:57.826  2085  2147 I AdaptL_2085_AdaptAPI.Device: persist.sys.vehiclecode = CS1E
+12-29 21:03:57.826  2085  2147 I AdaptL_2085_AdaptAPI.Device: getVehicleType SystemProperties vehicleType-->CS1E
+12-29 21:03:57.826  2085  2147 I AdaptL_2085_AdaptAPI.Device: persist.sys.platform.name = DHU7A
+12-29 21:03:57.826  2085  2147 D AdaptL_2085_AdaptAPI.Device: getDHUType, dhuType : 0
+12-29 21:03:57.826  2085  2147 I MDSdk[1.0.35]ScreenTypeCovertUtils: covertScreenType backrest,2
+12-29 21:03:57.826  2085  2147 D MDSdk[1.0.35]DefaultDisplayGet: :getDisplayID screenType:2
+12-29 21:03:57.826  2085  2147 E MDSdk[1.0.35]DefaultDisplayGet: :not has this screenType 2
+12-29 21:03:57.826  2085  2147 I MDSdk[1.0.35]DisplayFormLocal: getDisplayId->screenType:2, DisplayId:-1,vehicleType:CS1E
+12-29 21:03:57.826  2085  2147 D TaskStackManager: csd: ru.yandex.yandexnavi/.core.NavigatorActivity
+12-29 21:03:57.826  2085  2147 D TaskStackManager: backrest: null
+12-29 21:03:57.826  1945  2211 E MDSdk[1.0.35]DefaultDisplayGet: :not has this screenType 2
+12-29 21:03:57.826  1945  2211 I MDSdk[1.0.35]DisplayFormLocal: getDisplayId->screenType:2, DisplayId:-1,vehicleType:CS1E
+12-29 21:03:57.826  1945  2211 D TaskStackManager: csd: ru.yandex.yandexnavi/.core.NavigatorActivity
+12-29 21:03:57.826  1945  2211 D TaskStackManager: backrest: null
+12-29 21:03:57.827  1945  1945 D NewBadgeModel: onTaskCreated: [ru.yandex.yandexnavi]
+12-29 21:03:57.827  1945  1945 D NewBadgeModel: remove: ru.yandex.yandexnavi
+12-29 21:03:57.827  2085  2085 D NewBadgeModel: onTaskCreated: [ru.yandex.yandexnavi]
+12-29 21:03:57.827  2085  2085 D NewBadgeModel: remove: ru.yandex.yandexnavi
+12-29 21:03:57.827   540  4821 I AVMCombinedCameraDeviceSessionExtend: CameraDeviceSession::handle current opened service id 2 request
+12-29 21:03:57.827   540  4813 W ZeekrRenderEngine: [cvFuncMutiHwBuf2RGB32H264@AI_CV_Func_Processor.cpp(421)] srcs[0] index: 2
+12-29 21:03:57.827   540  4813 W ZeekrRenderEngine: [cvFuncMutiHwBuf2RGB32H264@AI_CV_Func_Processor.cpp(421)] srcs[1] index: 7
+12-29 21:03:57.827   540  4813 W ZeekrRenderEngine: [cvFuncMutiHwBuf2RGB32H264@AI_CV_Func_Processor.cpp(421)] srcs[2] index: 12
+12-29 21:03:57.827   540  4813 W ZeekrRenderEngine: [cvFuncMutiHwBuf2RGB32H264@AI_CV_Func_Processor.cpp(421)] srcs[3] index: 17
+12-29 21:03:57.827  3995  2207 D [EntertainmentService][3.1.20241202.f2858ad7]: Key = 0, Value = ru.yandex.yandexnavi/.core.NavigatorActivity
+12-29 21:03:57.828   540  4821 I AVMCombinedCameraDeviceSessionExtend: after CVP_Func_MUTI_SRC_CROP_2_RGB32ENC 0927
+12-29 21:03:57.828  3995  2207 D [EntertainmentService][3.1.20241202.f2858ad7]FloatViewService: onTaskStackChanged same TopActivity
+12-29 21:03:57.830  2371  3546 I OTA::   : 20251229 21:03:57.829910 03546 I rsistStorage/src/persist_storage_mgr.cpp 0091 read file : CONFIGURATION_SYNC_FINISHED_TIME
+12-29 21:03:57.830  2371  3546 I OTA::   : 20251229 21:03:57.830445 03546 I rsistStorage/src/persist_storage_mgr.cpp 0123 AB backup A file was read successfully. 1766997268965
+12-29 21:03:57.832   540  4821 D AVMCombinedCameraDeviceSessionExtend: notifyCaptureResult notify capture result, service id is:2, camera id is {8,9,10,11}
+12-29 21:03:57.832  1235  4232 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 1000; state: ENABLED
+12-29 21:03:57.833  3891  4822 I ZeekrCameraService: <CameraHalCallback>[zeekr_onCameraDataChangeNotify] msg_type 0, msg_content 26, size 11796480, format 26, cameralist size 4, memory addr 0x7355003188
+12-29 21:03:57.833  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] format 7
+12-29 21:03:57.833  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] width 1920
+12-29 21:03:57.833  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] height 1536
+12-29 21:03:57.833  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] size 11796480
+12-29 21:03:57.833  3891  4822 I Jni-Camera: <NanoImageUtil>[dumpInfo] channels 0
+12-29 21:03:57.833  3891  4822 I ZeekrCameraService: <ZeekrCameraHal>[zeekr_onCameraDataChangeNotify] image.size 11796480, msg.size 11796480
+12-29 21:03:57.833  3891  4822 D AlgoService: <CameraManager>[onCameraFrame] convert avm frame +
+12-29 21:03:57.834  8809  6458 D TrackUtils.java20241221: [ (TrackUtils.java:64)#Trace ] TrackUtils: ac_app, {"operation_type":"app互切关闭"}
+12-29 21:03:57.836  3891  4822 D AlgoService: <CameraManager>[onCameraFrame] convert avm frame -
+12-29 21:03:57.836  3891 18071 I AlgoService: execute called, (1920x1536) format:7
+12-29 21:03:57.836  3891 18071 I AlgoService: <AlgoQueueMessage>[execute] monitor startSafety algo.
+12-29 21:03:57.836 32067 32262 I SpeechKit: [AudioStreamProcess.cpp:107 SpeechKit::AudioStreamProcess::stop()::<lambda(SpeechKit::AudioStreamState::SharedPtr)>] AudioStream unsubscribe original AudioSource 
+12-29 21:03:57.837  1235  1264 D zeekrAnimation: displayTopActivity: ActivityRecord{5943d94 u0 ru.yandex.yandexnavi/.core.NavigatorActivity t3437}, topOpeningApp : null, topClosingApp: null
+12-29 21:03:57.837  1235  4232 D NetworkPolicy: 1000 is 7
+12-29 21:03:57.837  1235  4232 D NetworkPolicy: 1000 is 7
+12-29 21:03:57.839  1235  4232 D NetworkPolicy: 1000 is 7
+12-29 21:03:57.839  1235  4232 D NetworkPolicy: 1000 is 7
+12-29 21:03:57.840  8809  8920 D AnalysisProxy 1.0.0Airconditionerapp: onTrackEvent enable false
+--------- beginning of kernel
+12-29 21:03:57.849     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2307 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
