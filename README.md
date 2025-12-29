@@ -22,6 +22,7 @@ It includes:
 
 | App             | Version           | APK                                               | Description                               |
 | --------------- | ----------------- | ------------------------------------------------- | ----------------------------------------- |
+| Launcher with Yandex Navi | 6.3.3   | 6.3.3/modded_apks/XCLauncher3-633-yandex-signed.apk| Home screen with stock Chinese Nav app replaceed with Yandex Navigator|
 | Car Settings    | 6.0.5 (Zeekr 007) | 6.0.5/modded_apks/com.geely.pma.settings_en.apk   | Car Settings APP Translated to English    |
 | Bluetooth Phone | 6.0.5 (Zeekr 007) | 6.0.5/modded_apks/com.ecarx.btphone_en_signed.apk | Bluetooth Phone APP Translated to English |
 
