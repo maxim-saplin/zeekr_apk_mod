@@ -35,7 +35,7 @@ fi
 # Define paths
 alignedApk="${outputFile%.*}_aligned.apk"
 signedApk="${outputFile%.*}_signed.apk"
-keystorePath="/private/var/user/Documents/Zeekr/APK Mod/androiddebugkey.jks"
+keystorePath="$(dirname "$0")/androiddebugkey.jks"
 keystorePassword="android"
 keyAlias="platformkey"
 
