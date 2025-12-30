@@ -1676,6 +1676,29 @@
 
     iput-object v0, v1, Lcom/zeekr/carlauncher/main/MainActivity;->b:Lecarx/launcher3/databinding/ActivityMainBinding;
 
+    # ================= START MODIFICATION =================
+    # Get the map view (binding.j)
+    iget-object v10, v0, Lecarx/launcher3/databinding/ActivityMainBinding;->j:Lcom/zeekr/taskviewcompat/TaskViewCompat;
+
+    # --- OPTION 1: Set Padding (Internal spacing) ---
+    # Example: 30 pixels padding on all sides (0x1E = 30)
+    const/16 v11, 0x1E
+    invoke-virtual {v10, v11, v11, v11, v11}, Landroid/view/View;->setPadding(IIII)V
+
+    # --- OPTION 2: Set Margins (Outer dimensions/spacing) ---
+    # Get LayoutParams
+    invoke-virtual {v10}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    move-result-object v10
+    check-cast v10, Landroid/view/ViewGroup$MarginLayoutParams;
+
+    # Set margins (e.g., 50 pixels = 0x32)
+    const/16 v11, 0x32
+    iput v11, v10, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+    iput v11, v10, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
+    iput v11, v10, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+    iput v11, v10, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+    # ================= END MODIFICATION =================
+
     iget-object v0, v0, Lecarx/launcher3/databinding/ActivityMainBinding;->a:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-virtual {v1, v0}, Landroidx/activity/ComponentActivity;->setContentView(Landroid/view/View;)V
