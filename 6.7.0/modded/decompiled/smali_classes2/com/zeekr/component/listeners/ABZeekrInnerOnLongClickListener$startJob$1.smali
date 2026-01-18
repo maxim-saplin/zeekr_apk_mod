@@ -1,0 +1,174 @@
+.class final Lcom/zeekr/component/listeners/ABZeekrInnerOnLongClickListener$startJob$1;
+.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Lkotlinx/coroutines/CoroutineScope;",
+        "Lkotlin/coroutines/Continuation<",
+        "-",
+        "Lkotlin/Unit;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\u008a@"
+    }
+    d2 = {
+        "<anonymous>",
+        "",
+        "Lkotlinx/coroutines/CoroutineScope;"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+.annotation runtime Lkotlin/coroutines/jvm/internal/DebugMetadata;
+    c = "com.zeekr.component.listeners.ABZeekrInnerOnLongClickListener$startJob$1"
+    f = "ABZeekrInnerOnLongClickListener.kt"
+    i = {}
+    l = {
+        0x44,
+        0x4b
+    }
+    m = "invokeSuspend"
+    n = {}
+    s = {}
+.end annotation
+
+
+# instance fields
+.field public e:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    const/4 p0, 0x0
+
+    throw p0
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation build Lorg/jetbrains/annotations/Nullable;
+        .end annotation
+    .end param
+    .param p2    # Lkotlin/coroutines/Continuation;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lkotlin/coroutines/Continuation<",
+            "*>;)",
+            "Lkotlin/coroutines/Continuation<",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    const/4 p1, 0x0
+
+    throw p1
+.end method
+
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lkotlinx/coroutines/CoroutineScope;
+
+    check-cast p2, Lkotlin/coroutines/Continuation;
+
+    const/4 p1, 0x0
+
+    throw p1
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 4
+    .param p1    # Ljava/lang/Object;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+
+    sget-object v0, Lkotlin/coroutines/intrinsics/CoroutineSingletons;->a:Lkotlin/coroutines/intrinsics/CoroutineSingletons;
+
+    iget v1, p0, Lcom/zeekr/component/listeners/ABZeekrInnerOnLongClickListener$startJob$1;->e:I
+
+    if-eqz v1, :cond_2
+
+    const/4 v2, 0x2
+
+    const/4 v3, 0x1
+
+    if-eq v1, v3, :cond_1
+
+    if-ne v1, v2, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string v0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_1
+    invoke-static {p1}, Lkotlin/ResultKt;->b(Ljava/lang/Object;)V
+
+    iput v2, p0, Lcom/zeekr/component/listeners/ABZeekrInnerOnLongClickListener$startJob$1;->e:I
+
+    const-wide/16 v1, 0x64
+
+    invoke-static {v1, v2, p0}, Lkotlinx/coroutines/DelayKt;->a(JLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-ne p1, v0, :cond_3
+
+    return-object v0
+
+    :cond_2
+    :goto_0
+    invoke-static {p1}, Lkotlin/ResultKt;->b(Ljava/lang/Object;)V
+
+    :cond_3
+    sget-object p1, Lkotlinx/coroutines/Dispatchers;->a:Lkotlinx/coroutines/scheduling/DefaultScheduler;
+
+    sget-object p1, Lkotlinx/coroutines/internal/MainDispatcherLoader;->a:Lkotlinx/coroutines/MainCoroutineDispatcher;
+
+    const/4 p1, 0x0
+
+    throw p1
+.end method

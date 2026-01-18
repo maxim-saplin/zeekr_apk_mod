@@ -1,0 +1,14 @@
+version: 2.12.1
+apkFileName: XCLauncher3_LFS-670-orig.apk
+doNotCompress:
+- arsc
+- dex
+- gif
+- ogg
+- png
+- so
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- res/DG.json
+- res/v2.json

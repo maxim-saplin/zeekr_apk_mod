@@ -1,0 +1,57 @@
+.class public final Lio/reactivex/internal/operators/observable/ObservableBufferExactBoundary;
+.super Lio/reactivex/internal/operators/observable/AbstractObservableWithUpstream;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lio/reactivex/internal/operators/observable/ObservableBufferExactBoundary$BufferBoundaryObserver;,
+        Lio/reactivex/internal/operators/observable/ObservableBufferExactBoundary$BufferExactBoundaryObserver;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        "U::",
+        "Ljava/util/Collection<",
+        "-TT;>;B:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lio/reactivex/internal/operators/observable/AbstractObservableWithUpstream<",
+        "TT;TU;>;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final c(Lio/reactivex/Observer;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lio/reactivex/Observer<",
+            "-TU;>;)V"
+        }
+    .end annotation
+
+    new-instance v0, Lio/reactivex/internal/operators/observable/ObservableBufferExactBoundary$BufferExactBoundaryObserver;
+
+    new-instance v1, Lio/reactivex/observers/SerializedObserver;
+
+    invoke-direct {v1, p1}, Lio/reactivex/observers/SerializedObserver;-><init>(Lio/reactivex/Observer;)V
+
+    new-instance p1, Lio/reactivex/internal/queue/MpscLinkedQueue;
+
+    invoke-direct {p1}, Lio/reactivex/internal/queue/MpscLinkedQueue;-><init>()V
+
+    invoke-direct {v0, v1, p1}, Lio/reactivex/internal/observers/QueueDrainObserver;-><init>(Lio/reactivex/observers/SerializedObserver;Lio/reactivex/internal/queue/MpscLinkedQueue;)V
+
+    iget-object p1, p0, Lio/reactivex/internal/operators/observable/AbstractObservableWithUpstream;->a:Lio/reactivex/Observable;
+
+    invoke-virtual {p1, v0}, Lio/reactivex/Observable;->a(Lio/reactivex/Observer;)V
+
+    return-void
+.end method
