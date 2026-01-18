@@ -53,7 +53,7 @@
 
     const-string v18, "com.zeekr.carlauncher3d"
 
-    const-string v19, "com.zeekr.automap"
+    const-string v19, "ru.yandex.yandexnavi"
 
     const-string v20, "ecarx.membercenter"
 

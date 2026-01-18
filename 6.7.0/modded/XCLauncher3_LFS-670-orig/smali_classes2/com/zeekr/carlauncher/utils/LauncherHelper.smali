@@ -165,9 +165,9 @@
 
     new-instance v4, Landroid/content/ComponentName;
 
-    const-string v5, "com.zeekr.automap"
+    const-string v5, "ru.yandex.yandexnavi"
 
-    const-string v6, "com.zeekr.automap.activity.MainActivity"
+    const-string v6, "ru.yandex.yandexnavi.core.NavigatorActivity"
 
     invoke-direct {v4, v5, v6}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 

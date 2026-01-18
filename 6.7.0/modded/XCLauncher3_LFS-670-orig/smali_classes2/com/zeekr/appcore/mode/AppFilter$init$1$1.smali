@@ -284,7 +284,7 @@
 
     const-string v18, "com.ecarx.ai.val"
 
-    const-string v21, "com.zeekr.automap"
+    const-string v21, "ru.yandex.yandexnavi"
 
     const-string v22, "com.zeekrlife.connect.core"
 
@@ -317,7 +317,7 @@
 
     const-string v8, "ecarx.launcher3"
 
-    const-string v9, "com.zeekr.automap"
+    const-string v9, "ru.yandex.yandexnavi"
 
     const-string v12, "ecarx.membercenter"
 

@@ -1887,7 +1887,7 @@
 
     iget-object v2, v2, Lecarx/launcher3/databinding/ActivityMainBinding;->j:Lcom/zeekr/taskviewcompat/TaskViewCompat;
 
-    const-string v3, "com.zeekr.automap.activity.MainActivity"
+    const-string v3, "ru.yandex.yandexnavi.core.NavigatorActivity"
 
     invoke-virtual {v2, v3}, Lcom/zeekr/taskviewcompat/TaskViewCompat;->attachMainTaskClass(Ljava/lang/String;)V
 

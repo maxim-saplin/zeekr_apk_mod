@@ -66,7 +66,7 @@
 
     const-string v0, "com.neusoft.na.navigation"
 
-    const-string v1, "com.zeekr.automap"
+    const-string v1, "ru.yandex.yandexnavi"
 
     const-string v2, "AidlService"
 

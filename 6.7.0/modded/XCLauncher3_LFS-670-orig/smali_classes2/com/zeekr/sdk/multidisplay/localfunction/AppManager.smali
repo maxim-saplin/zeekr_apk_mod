@@ -430,7 +430,7 @@
 
     const-string v5, "ecarx.launcher3"
 
-    const-string v6, "com.zeekr.automap"
+    const-string v6, "ru.yandex.yandexnavi"
 
     const-string v7, "com.geely.pma.settings"
 

@@ -66,7 +66,7 @@
 
     sget-object p1, Lcom/zeekr/carlauncher/CarLauncherApp;->a:Lcom/zeekr/carlauncher/CarLauncherApp;
 
-    const-string v0, "com.zeekr.automap"
+    const-string v0, "ru.yandex.yandexnavi"
 
     invoke-static {p1, v0}, Lcom/zeekr/carlauncher/utils/AppUtils;->f(Landroid/content/Context;Ljava/lang/String;)V
 

@@ -28,7 +28,7 @@
 
 .field public static final ACTIVITY_MUSIC_USB_SPLASH:Ljava/lang/String; = "com.zeekr.local.ui.main.UsbSplashActivity"
 
-.field public static final ACTIVITY_NAVI:Ljava/lang/String; = "com.zeekr.automap.activity.MainActivity"
+.field public static final ACTIVITY_NAVI:Ljava/lang/String; = "ru.yandex.yandexnavi.core.NavigatorActivity"
 
 .field public static final ACTIVITY_PROVISION:Ljava/lang/String; = "com.ecarx.provision.ProvisionActivity"
 
@@ -72,7 +72,7 @@
 
 .field public static final PACKAGE_MY_CAR:Ljava/lang/String; = "com.ecarx.mycar"
 
-.field public static final PACKAGE_NAVI:Ljava/lang/String; = "com.zeekr.automap"
+.field public static final PACKAGE_NAVI:Ljava/lang/String; = "ru.yandex.yandexnavi"
 
 .field public static final PACKAGE_PROVISION:Ljava/lang/String; = "com.ecarx.provision"
 

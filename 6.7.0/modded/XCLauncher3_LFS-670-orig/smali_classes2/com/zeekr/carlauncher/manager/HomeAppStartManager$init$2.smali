@@ -84,7 +84,7 @@
 
     if-eqz v3, :cond_3
 
-    const-string v3, "com.zeekr.automap"
+    const-string v3, "ru.yandex.yandexnavi"
 
     invoke-static {p1, v3, v2}, Lkotlin/text/StringsKt;->m(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Z)Z
 

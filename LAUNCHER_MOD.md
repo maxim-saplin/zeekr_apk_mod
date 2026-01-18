@@ -95,3 +95,35 @@ adb install --no-incremental -r -d XCLauncher3-633-yandex-signed.apk
 # If Home does not come back, set it explicitly
 adb shell cmd package set-home-activity ecarx.launcher3/ecarx.launcher3.Launcher
 ```
+
+# Version 6.7.0+ (Hybrid Build)
+
+For version 6.7.0 and newer, a specific bug in `fastjson2` (bundled in the APK) causes standard `apktool` builds to crash on `start-up`. Additionally, resource obfuscation makes full recompilation impossible.
+
+We use a **Hybrid Build** strategy:
+1.  **Decompile code-only** (`-r -b`) to avoid resource errors.
+2.  **Delete fastjson2 smali** to allow rebuilding without crashing.
+3.  **Modify** navigation logic in `smali_classes2`.
+4.  **Rebuild** just to harvest the new `classes2.dex`.
+5.  **Inject** that dex into a partial copy of the *Original APK*.
+
+## Automated Script
+
+For convenience, use `build_launcher_hybrid.sh` which automates steps 4-5 (extract, inject, align, sign).
+
+### Prerequisite: Prepare Modded Source
+1.  **Decompile**: `apktool d -r -b 6.7.0/original_apks/XCLauncher3_LFS-670-orig.apk -o 6.7.0/modded/XCLauncher3_LFS-670-orig`
+2.  **Remove fastjson**: `rm -rf 6.7.0/modded/XCLauncher3_LFS-670-orig/smali/com/alibaba/fastjson2`
+3.  **Apply Mod**: Run the sed commands (Step 2 above) inside `6.7.0/modded/XCLauncher3_LFS-670-orig/smali_classes2`.
+
+### Build & Sign
+Run the hybrid builder:
+
+```bash
+sh build_launcher_hybrid.sh \
+  -source 6.7.0/modded/XCLauncher3_LFS-670-orig \
+  -original 6.7.0/original_apks/XCLauncher3_LFS-670-orig.apk \
+  -output 6.7.0/modded_apks/XCLauncher3-670-yandex-signed.apk
+```
+
+The resulting APK will be signed and ready to install.

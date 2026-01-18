@@ -196,7 +196,7 @@
 
     const-string v1, "home_app"
 
-    const-string v2, "com.zeekr.automap"
+    const-string v2, "ru.yandex.yandexnavi"
 
     invoke-direct {v0, v1, v2}, Lcom/zeekr/common/sp/PrefsExtKt$pref$3;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -598,7 +598,7 @@
 
     const v1, 0x200220
 
-    const-string v3, "com.zeekr.automap"
+    const-string v3, "ru.yandex.yandexnavi"
 
     if-eq v2, v1, :cond_2
 

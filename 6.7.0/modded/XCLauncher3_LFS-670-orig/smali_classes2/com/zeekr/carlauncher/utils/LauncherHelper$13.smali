@@ -308,7 +308,7 @@
 
     sget-object v2, Lcom/zeekr/carlauncher/manager/HomeAppStartManager;->m:Lcom/zeekr/common/sp/PrefsExtKt$pref$3;
 
-    const-string v3, "com.zeekr.automap"
+    const-string v3, "ru.yandex.yandexnavi"
 
     invoke-virtual {v2, p1, v1, v3}, Lcom/zeekr/common/sp/PrefsExtKt$pref$3;->setValue(Ljava/lang/Object;Lkotlin/reflect/KProperty;Ljava/lang/Object;)V
 

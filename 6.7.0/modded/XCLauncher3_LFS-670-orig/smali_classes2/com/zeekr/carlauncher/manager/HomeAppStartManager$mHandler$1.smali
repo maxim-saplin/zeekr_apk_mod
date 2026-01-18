@@ -97,7 +97,7 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    const-string v2, "com.zeekr.automap"
+    const-string v2, "ru.yandex.yandexnavi"
 
     const-string v3, "com.zeekr.carlauncher3d"
 

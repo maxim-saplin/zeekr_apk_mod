@@ -443,7 +443,7 @@
 
     move-result-object v3
 
-    const-string v4, "com.zeekr.automap"
+    const-string v4, "ru.yandex.yandexnavi"
 
     invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

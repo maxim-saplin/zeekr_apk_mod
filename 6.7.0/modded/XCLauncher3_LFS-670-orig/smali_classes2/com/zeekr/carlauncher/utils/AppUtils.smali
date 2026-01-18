@@ -109,7 +109,7 @@
     const-string v3, "unknown"
 
     :goto_1
-    const-string v4, "com.zeekr.automap"
+    const-string v4, "ru.yandex.yandexnavi"
 
     invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -229,7 +229,7 @@
 .method public static b()I
     .locals 7
 
-    const-string v0, "com.zeekr.automap"
+    const-string v0, "ru.yandex.yandexnavi"
 
     :try_start_0
     invoke-static {}, Landroid/app/ActivityTaskManager;->getService()Landroid/app/IActivityTaskManager;
