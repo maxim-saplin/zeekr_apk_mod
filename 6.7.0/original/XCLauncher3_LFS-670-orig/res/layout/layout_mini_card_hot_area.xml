@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/media_album_img_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.mediawidget.ui.view.RoundRadiusLayout android:id="@id/media_album_img_container" android:layout_width="@dimen/media_album_img_size" android:layout_height="@dimen/media_album_img_size" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/media_album_img" android:foreground="@drawable/media_cover_img_fg" android:scaleType="fitXY" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/media_album_img_style" />
+    </com.zeekr.mediawidget.ui.view.RoundRadiusLayout>
+    <TextView android:id="@id/media_title_name" android:layout_marginTop="@dimen/media_title_margin_top2" android:layout_marginStart="@dimen/media_title_margin_left2" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/media_title_style" />
+    <TextView android:id="@id/media_artist_name" android:layout_marginTop="@dimen/media_subtitle_margin_top2" android:layout_marginStart="@dimen/media_subtitle_margin_left2" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/media_subtitle_style" />
+    <ImageView android:id="@id/media_right_iv" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

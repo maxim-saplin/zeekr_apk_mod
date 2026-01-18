@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/dock_bar_function_icon_size" android:width="@dimen/dock_bar_function_icon_size" android:viewportWidth="64.0" android:viewportHeight="64.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/dock_edit_icon" android:pathData="M24,24.889C24,24.398 24.398,24 24.889,24H28.445C28.935,24 29.333,24.398 29.333,24.889V39.111C29.333,39.602 28.935,40 28.445,40H24.889C24.398,40 24,39.602 24,39.111V24.889Z" />
+    <path android:fillColor="@color/dock_edit_icon" android:pathData="M35.556,24C35.065,24 34.667,24.398 34.667,24.889V39.111C34.667,39.602 35.065,40 35.556,40H39.111C39.602,40 40,39.602 40,39.111V24.889C40,24.398 39.602,24 39.111,24H35.556Z" />
+    <path android:fillColor="@color/dock_edit_icon" android:pathData="M32,58.667C46.728,58.667 58.667,46.728 58.667,32C58.667,17.273 46.728,5.333 32,5.333C17.273,5.333 5.333,17.273 5.333,32C5.333,46.728 17.273,58.667 32,58.667ZM32,53.333C43.782,53.333 53.333,43.782 53.333,32C53.333,20.218 43.782,10.667 32,10.667C20.218,10.667 10.667,20.218 10.667,32C10.667,43.782 20.218,53.333 32,53.333Z" android:fillType="evenOdd" />
+</vector>

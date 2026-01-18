@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bubble_manage_menu_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/bubble_manage_menu_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bubble_manage_menu_dismiss_container" android:background="@drawable/bubble_manage_menu_row" android:layout_width="fill_parent" android:layout_height="@dimen/bubble_menu_item_height" android:paddingStart="@dimen/bubble_menu_padding" android:paddingEnd="@dimen/bubble_menu_padding">
+        <ImageView android:layout_width="@dimen/bubble_menu_icon_size" android:layout_height="@dimen/bubble_menu_icon_size" android:src="@drawable/ic_remove_no_shadow" android:tint="@color/bubbles_icon_tint" />
+        <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bubble_dismiss_text" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bubble_manage_menu_dont_bubble_container" android:background="@drawable/bubble_manage_menu_row" android:layout_width="fill_parent" android:layout_height="@dimen/bubble_menu_item_height" android:paddingStart="@dimen/bubble_menu_padding" android:paddingEnd="@dimen/bubble_menu_padding">
+        <ImageView android:layout_width="@dimen/bubble_menu_icon_size" android:layout_height="@dimen/bubble_menu_icon_size" android:src="@drawable/bubble_ic_stop_bubble" android:tint="@color/bubbles_icon_tint" />
+        <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bubbles_dont_bubble_conversation" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bubble_manage_menu_settings_container" android:background="@drawable/bubble_manage_menu_row" android:layout_width="fill_parent" android:layout_height="@dimen/bubble_menu_item_height" android:paddingStart="@dimen/bubble_menu_padding" android:paddingEnd="@dimen/bubble_menu_padding">
+        <ImageView android:id="@id/bubble_manage_menu_settings_icon" android:layout_width="@dimen/bubble_menu_icon_size" android:layout_height="@dimen/bubble_menu_icon_size" android:src="@drawable/ic_remove_no_shadow" />
+        <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault" android:id="@id/bubble_manage_menu_settings_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+</LinearLayout>

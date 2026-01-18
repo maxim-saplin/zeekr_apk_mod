@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <shape>
+            <size android:height="@dimen/zeekr_tab_indicator_height" android:width="@dimen/zeekr_tab_indicator_width" />
+            <solid android:color="?colorSecondary" />
+            <corners android:radius="90.0dip" />
+        </shape>
+    </item>
+</layer-list>

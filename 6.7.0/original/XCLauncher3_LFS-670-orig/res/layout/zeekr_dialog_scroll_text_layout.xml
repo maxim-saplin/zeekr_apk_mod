@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.component.rebound.ZeekrReboundRefreshLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/zeekr_dialog_scroll_margin_bar" app:zeekrScrollEnableFadingEdge="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.core.widget.NestedScrollView android:theme="@style/ZeekrTheme26" android:id="@id/zeekr_dialog_confirm_scroll" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="@dimen/zeekr_dialog_scroll_text_height" android:verticalScrollbarPosition="right">
+                <com.google.android.material.textview.MaterialTextView android:textAppearance="@style/TextAppearance.zeekr.BodyMedium" android:textColor="@color/primary_80" android:id="@id/zeekr_dialog_confirm_content_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginHorizontal="@dimen/zeekr_dialog_scroll_margin_text" />
+            </androidx.core.widget.NestedScrollView>
+            <com.zeekr.component.scroll.ZeekrScrollBar android:layout_gravity="end" android:id="@id/zeekr_dialog_scroll_bar" android:layout_width="8.0dip" android:layout_height="@dimen/zeekr_dialog_scroll_text_height" />
+        </FrameLayout>
+    </com.zeekr.component.rebound.ZeekrReboundRefreshLayout>
+</merge>

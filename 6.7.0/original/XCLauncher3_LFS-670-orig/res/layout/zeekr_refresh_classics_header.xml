@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/zeekr_refresh_container" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.zeekr.component.loading.ZeekrLoadingView android:id="@id/zeekr_circle_loading" android:layout_width="@dimen/zeekr_refresh_circle_loading_size" android:layout_height="@dimen/zeekr_refresh_circle_loading_size" />
+        <TextView android:textAppearance="?textAppearanceBodyMedium" android:id="@id/zeekr_refresh_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+</merge>

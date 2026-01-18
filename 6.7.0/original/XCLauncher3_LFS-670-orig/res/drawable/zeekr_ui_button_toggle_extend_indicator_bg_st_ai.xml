@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/zeekr_ic_button_toggle_extend_indicator_on_ai" />
+    <item android:drawable="@drawable/zeekr_ic_button_toggle_extend_indicator_off_ai" />
+</selector>

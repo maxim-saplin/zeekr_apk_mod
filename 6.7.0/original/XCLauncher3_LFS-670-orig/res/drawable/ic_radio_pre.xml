@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="64.0dip" android:width="64.0dip" android:viewportWidth="64.0" android:viewportHeight="64.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/play_controller_button" android:pathData="M27,18.544C27,17.194 25.478,16.404 24.374,17.181L16.305,22.859C14.974,23.796 15.637,25.889 17.264,25.889H36.445C40.74,25.889 44.222,29.371 44.222,33.667C44.222,37.962 40.74,41.445 36.445,41.445H17.556C16.328,41.445 15.333,42.44 15.333,43.667C15.333,44.894 16.328,45.889 17.556,45.889H36.445C43.195,45.889 48.667,40.417 48.667,33.667C48.667,26.917 43.195,21.445 36.445,21.445H27V18.544Z" />
+</vector>

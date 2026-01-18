@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/dock_edit_bg" />
+    <corners android:radius="@dimen/edit_dock_item_radius" />
+</shape>

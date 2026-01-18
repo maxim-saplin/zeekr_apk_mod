@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:dividerPadding="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/cb_rule" android:background="#ff47b784" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_margin="1.0px" android:text="规则" android:layout_weight="1.0" android:drawableStart="@drawable/cb_ic_setting" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" />
+    <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/cb_refresh" android:background="#ff47b784" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_margin="1.0px" android:text="刷新" android:layout_weight="1.0" android:drawableStart="@drawable/cb_ic_refresh" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" />
+    <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/cb_mock" android:background="#ff47b784" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_margin="1.0px" android:text="Mock" android:layout_weight="1.0" android:drawableStart="@drawable/cb_ic_mock" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" />
+</merge>

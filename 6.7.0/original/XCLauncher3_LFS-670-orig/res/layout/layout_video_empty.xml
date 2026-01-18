@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/media_source_name_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/empty_bottom_iv" android:layout_marginTop="@dimen/exception_margin_top_size" android:src="@drawable/ic_no_media_video" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/empty_status_img_video" />
+    <TextView android:id="@id/empty_bottom_tv" android:text="@string/video_empty_text" android:maxLines="2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/empty_bottom_iv" style="@style/empty_status_text_video" />
+</androidx.constraintlayout.widget.ConstraintLayout>

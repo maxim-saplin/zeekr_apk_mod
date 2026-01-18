@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/recent_frag_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/recent_icon_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/recent_app_icon" android:background="@drawable/app_icon_border" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        <ImageView android:id="@id/recent_earphone" android:layout_width="@dimen/app_earphone_width" android:layout_height="@dimen/app_earphone_height" android:layout_alignTop="@id/recent_app_icon" android:layout_alignStart="@id/recent_app_icon" />
+        <ImageView android:id="@id/recent_mini_app" android:layout_width="@dimen/app_mini_app_width" android:layout_height="@dimen/app_mini_app_height" android:layout_alignBottom="@id/recent_app_icon" android:layout_alignEnd="@id/recent_app_icon" />
+    </RelativeLayout>
+    <ImageView android:id="@id/recent_badge" android:layout_width="@dimen/app_p_gear_size" android:layout_height="@dimen/app_p_gear_size" android:layout_marginBottom="@dimen/app_p_gear_margin" android:src="@drawable/badge_p_gear" android:layout_alignBottom="@id/recent_icon_area" android:layout_marginEnd="@dimen/app_p_gear_margin" android:layout_alignEnd="@id/recent_icon_area" />
+</RelativeLayout>

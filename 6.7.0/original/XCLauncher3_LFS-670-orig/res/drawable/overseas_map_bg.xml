@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/zeekr_mask_height" android:width="@dimen/zeekr_mask_width" android:viewportWidth="2560.0" android:viewportHeight="1600.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/os_map_mask_bg" android:pathData="M0,0h2560v1600h-2560z" />
+</vector>

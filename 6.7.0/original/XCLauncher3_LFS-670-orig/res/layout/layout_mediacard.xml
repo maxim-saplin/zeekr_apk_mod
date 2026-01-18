@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/card_media_root" android:background="@drawable/bg_layout_card" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zeekr.mediawidget.ui.widget.MediaViewContainer android:id="@id/card_media_view_container" android:layout_width="@dimen/card_base_width" android:layout_height="@dimen/card_base_height" />
+    <com.zeekr.mediawidget.ui.cardbottom.CardBottom android:id="@id/card_bottom_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/card_bottom_height" />
+</LinearLayout>

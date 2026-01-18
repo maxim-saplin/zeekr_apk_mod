@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/app_center_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.component.rebound.ZeekrReboundHorizontalLayout android:layout_width="@dimen/app_frag_width" android:layout_height="fill_parent" android:layout_alignParentEnd="true" app:zeekrSpringMinimumVelocity="20000">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/app_list" android:layout_width="fill_parent" android:layout_height="@dimen/app_frag_list_height" android:layout_marginTop="@dimen/app_frag_margin_top" android:contentDescription="Zk_HorizontalSlide" android:overScrollMode="never" android:paddingHorizontal="@dimen/app_frag_list_padding_horizontal" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+    </com.zeekr.component.rebound.ZeekrReboundHorizontalLayout>
+    <com.zeekr.component.carousel.ZeekrCarousel android:theme="@style/ZeekrTheme26" android:id="@id/page_indicator_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/app_center_carousel_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:carousel_color="1" />
+</RelativeLayout>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="active_widget">Aktivér</string>
+    <string name="adjust_hud">Justering af HUD</string>
+    <string name="adjust_rear_mirror">Juster spejle</string>
+    <string name="apa">Automatisk parkeringshjælp</string>
+    <string name="app_center">App Center</string>
+    <string name="app_is_installing">Installerer app. Vent...</string>
+    <string name="app_not_install">Sørg for, at appen Child Protection (børnesikring) er installeret.</string>
+    <string name="app_uninstall_cancel">Annuller</string>
+    <string name="apps_all_title">Flere apps</string>
+    <string name="apps_card_cancel_start_app">Annuller</string>
+    <string name="apps_card_confirm_start_app">Åbn</string>
+    <string name="apps_card_tip_backrest_is_running">Denne app bruges på bagdisplayet. Åbning heraf vil afbryde bagdisplay-sessionen</string>
+    <string name="apps_card_title">Favoritter</string>
+    <string name="apps_edit_at_most">Der kan tilføjes op til 4 apps. Slet nogle og prøv igen</string>
+    <string name="apps_edit_cancel">Annuller</string>
+    <string name="apps_edit_finish">Udført</string>
+    <string name="apps_edit_group_custom_label">Brugerdefineret</string>
+    <string name="apps_edit_group_recent_label">Nyligt brugt</string>
+    <string name="apps_edit_tips">Tryk og hold nede for at trække funktionen til venstre på app-kortet. Når du trækker, kan du udskifte og sortere de eksisterende apps</string>
+    <string name="apps_mini_title">Miniprogram</string>
+    <string name="apps_zeekr_lab_title">Z-emulator</string>
+    <string name="aqi_levels_1">Fremragende</string>
+    <string name="aqi_levels_2">God</string>
+    <string name="aqi_levels_3">Moderat</string>
+    <string name="aqi_levels_4">Usundt for følsomme grupper</string>
+    <string name="aqi_levels_5">Usund</string>
+    <string name="aqi_levels_6">Meget usund</string>
+    <string name="aqi_levels_7">Farlig</string>
+    <string name="atmosphere_light">Stemningslys</string>
+    <string name="auto_hold">Auto Hold</string>
+    <string name="baby_into_car_widget">Børneindstigning</string>
+    <string name="baby_into_car_widget_active_dsc">Du er ved at aktivere børnetilstand, hvor stemme, lyd, sikkerhed, klimaanlæg bag, vinduer og display bag automatisk justeres til den forudindstillede tilstand.</string>
+    <string name="baby_sleep_well_widget">Børnesøvn</string>
+    <string name="baby_sleep_well_widget_active_dsc">Du er ved at aktivere sovetilstand for børnene, hvor stemme, lyd, sikkerhed, klimaanlæg bag, vinduer og display ag automatisk justeres til den forudindstillede tilstand.</string>
+    <string name="back_row_cinema">Biograftilstand bagpå</string>
+    <string name="back_row_meeting">Mødetilstand på bagsiden</string>
+    <string name="back_row_rest">Bageste hviletilstand</string>
+    <string name="business_voice_disabled">Deaktiver virksomhedsstemme</string>
+    <string name="cancel_widget">Annuller</string>
+    <string name="card_energy_chart_desc">Seneste turs energiforbrugstendens</string>
+    <string name="card_full_title">Bilens tilstand</string>
+    <string name="card_kwh_mile_unit">kWh/100 mi</string>
+    <string name="card_kwh_unit">kWh/100 km</string>
+    <string name="card_trip_1">Tur 1</string>
+    <string name="card_trip_2">Tur 2</string>
+    <string name="central_lock">Centrallås</string>
+    <string name="charge_charge_error_big_tips">Opladningsfejl, tjek det straks!</string>
+    <string name="charge_charging_done_tips">Opladningen er stoppet, husk at tage ladestikket ud.</string>
+    <string name="charge_charging_full">Prioriter fuld opladning</string>
+    <string name="charge_charging_limit">Oplad til grænse</string>
+    <string name="charge_connect">Tilsluttet</string>
+    <string name="charge_connect_tips">Vent venligst</string>
+    <string name="charge_daily">Hver dag</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">Stop</string>
+    <string name="charge_estimate">&lt;span color=#9985898C font-size=28px>Resterende tid&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span > &lt;span color=#85898C font-size=80px>%2$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_24">&lt;span color=#9985898C font-size=28px>Resterende tid&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>>24&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_24_day">&lt;span color=#99383A3D font-size=28px>Resterende tid&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>>24&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_day">" &lt;span color=#99383A3D font-size=28px>Resterende tid&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span > &lt;span color=#383A3D font-size=80px>%2$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_estimate_no_hour">&lt;span color=#9985898C font-size=28px>Resterende tid&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_no_hour_day">" &lt;span color=#99383A3D font-size=28px>Resterende tid&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_fully">Snart fuldt opladet</string>
+    <string name="charge_next_day">Næste dag</string>
+    <string name="charge_no_plug">Ikke tilsluttet</string>
+    <string name="charge_plug_connect_ac">Opladningsstik tilsluttet (AC)</string>
+    <string name="charge_plug_connect_dc">Opladningsstik tilsluttet (DC)</string>
+    <string name="charge_plug_connect_fault">Tilslutningsfejl</string>
+    <string name="charge_plug_connect_fault_tips">Tilslutningsfejl, tjek det straks!</string>
+    <string name="charge_plug_connect_tips">Opladningsstikket er tilsluttet, men opladningen er ikke startet, vær tålmodig…</string>
+    <string name="charge_plug_connect_waiting">Ikke tilsluttet helt</string>
+    <string name="charge_plug_no_active">Ladepunkt ikke aktiveret</string>
+    <string name="charge_plug_no_double">Tilslut ikke AC-stikket og DC-stikket på samme tid.</string>
+    <string name="charge_plug_no_double_tips">Unormal tilslutning af ladestik, tjek venligst i tide!</string>
+    <string name="charge_power_supply_capacity">&lt;span color=#9985898C font-size=28px>Strømforsyningsniveau&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all">&lt;span color=#9985898C font-size=28px>Statistik for strømforsyning&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all_day">&lt;span color=#99383A3D font-size=28px>Statistik for strømforsyning&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_day">&lt;span color=#99383A3D font-size=28px>Strømforsyningsniveau&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_pre_time">" &lt;span color=#9985898C font-size=28px>Planlagt opladning&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Hver dag&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_day">" &lt;span color=#99383A3D font-size=28px>Planlagt opladning&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Hver dag&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_full" formatted="false">" &lt;span color=#9985898C font-size=28px>Planlagt opladning&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Hver dag&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px> Foretrækker 100%&lt;/span >"</string>
+    <string name="charge_pre_time_full_day" formatted="false">" &lt;span color=#99383A3D font-size=28px>Planlagt opladning&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Hver dag&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px> Foretrækker 100%&lt;/span >"</string>
+    <string name="charge_pre_time_limit">" &lt;span color=#9985898C font-size=28px>Planlagt opladning&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Hver dag&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>Opladning til grænse &lt;/span >"</string>
+    <string name="charge_pre_time_limit_day">" &lt;span color=#99383A3D font-size=28px>Planlagt opladning&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Hver dag&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>Opladning til grænse &lt;/span >"</string>
+    <string name="charge_pre_time_next">" &lt;span color=#9985898C font-size=28px>Planlagt opladning&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Hver dag&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=32px>Næste dag&lt;/span > &lt;span color=#85898C font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_next_day">" &lt;span color=#99383A3D font-size=28px>Planlagt opladning&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Hver dag&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=32px>Næste dag&lt;/span > &lt;span color=#383A3D font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_title">Planlæg opladning</string>
+    <string name="charge_start">Start opladning</string>
+    <string name="charge_status_battery_fault">Fejl i højspændingsbatteri</string>
+    <string name="charge_status_booking">Planlægger</string>
+    <string name="charge_status_boosting">Boost opladning</string>
+    <string name="charge_status_charging">Oplader</string>
+    <string name="charge_status_charging_done">Opladning stoppet</string>
+    <string name="charge_status_charging_fault">Opladningsfejl</string>
+    <string name="charge_status_discharging">V2L er i gang</string>
+    <string name="charge_status_discharging_done">Slut på strømforsyning</string>
+    <string name="charge_status_discharging_fault">Fejl i strømforsyning</string>
+    <string name="charge_status_preheating">Regulering af batteritemperatur i gang …</string>
+    <string name="charge_status_super_fast_charging">Hurtig opladning…</string>
+    <string name="charge_stop">Stop opladning</string>
+    <string name="charge_temperature_tips">Temperaturjustering, vær tålmodig …</string>
+    <string name="charging_cap">Laddlucka</string>
+    <string name="child_lock_left">Venstre børnelås</string>
+    <string name="child_lock_right">Højre børnelås</string>
+    <string name="climate_light">Lys til alt slags vejr</string>
+    <string name="close_all">Sluk alt</string>
+    <string name="close_card">Luk kort</string>
+    <string name="close_window">Luk ruder</string>
+    <string name="confirm">OK</string>
+    <string name="confirm_remove">Vil du afinstallere %s?</string>
+    <string name="confirm_start_app">Bekræft for at åbne</string>
+    <string name="confirm_uninstall">Vil du afinstallere %s?</string>
+    <string name="copilot_massage">Massage passager</string>
+    <string name="copilot_rest">Hvile for forsædepassager</string>
+    <string name="day_friday">Fredag</string>
+    <string name="day_monday">Mandag</string>
+    <string name="day_saturday">Lørdag</string>
+    <string name="day_sunday">Søndag</string>
+    <string name="day_thursday">Torsdag</string>
+    <string name="day_tuesday">Tirsdag</string>
+    <string name="day_wednesday">Onsdag</string>
+    <string name="done">Afslut</string>
+    <string name="download_paused">Sat på pause</string>
+    <string name="download_pending">Klar til download…</string>
+    <string name="download_progress">Downloader…</string>
+    <string name="drag_tip">Tryk og hold nede for at trække funktioner til venstre kontrolbjælke. Du kan erstatte og sortere eksisterende funktioner, mens du trækker i</string>
+    <string name="drag_tip_right">Tryk og hold nede for at trække funktionsikonet til højre kontrollinje, og du kan erstatte og sortere det eksisterende funktionsikon, når du trækker</string>
+    <string name="driver_massage">Førermassage</string>
+    <string name="driver_rest">Førerhvil</string>
+    <string name="edit_at_most">Der kan tilføjes op til 5 funktioner. Slet nogle og prøv igen</string>
+    <string name="exclusive_child_lock">Eksklusiv børnesikring</string>
+    <string name="fold_rear_mirror">Fold sidespejle ind</string>
+    <string name="front_charging_cap">Dæksel til opladningsport foran</string>
+    <string name="glove_box">Handskerum</string>
+    <string name="gps_permission_denied">Ingen tilladelse til at få adgang til placering</string>
+    <string name="gps_permission_setting">Indstillinger</string>
+    <string name="hood">Fronthjelm</string>
+    <string name="hud">HUD-justering</string>
+    <string name="image_control">Spejlkontrol</string>
+    <string name="image_control_view_pager_txt">Kontrol af bagdisplay</string>
+    <string name="install_progress">Installerer…</string>
+    <string name="launch_control">Startkontrol</string>
+    <string name="left_dock_cancel">Annuller</string>
+    <string name="left_dock_close">Luk</string>
+    <string name="left_dock_edit">Rediger</string>
+    <string name="left_opposite_door">Venstre døre</string>
+    <string name="left_switch_disabled">Venstre kontakt deaktiveret</string>
+    <string name="left_window_lock">Venstre vinduelås</string>
+    <string name="lightShow_alert_message">For din køresikkerhed, brug lys, mens du parkerer</string>
+    <string name="lock_all">Lås alle</string>
+    <string name="low_speed_alert">AVAS-advarselstone</string>
+    <string name="mask_card_energy_title"> Forbrug</string>
+    <string name="mask_card_tire_title"> Dæktryk</string>
+    <string name="mask_card_trip_title"> Trip</string>
+    <string name="memory_using">Hukommelsesbrug</string>
+    <string name="mirror_control_function_while_driving">Af sikkerhedsmæssige årsager må spejlstyring ikke bruges under kørsel</string>
+    <string name="no_recent_apps">Ingen nyligt brugte apps</string>
+    <string name="nzp_string_array_1">Køreassistent deaktiveret</string>
+    <string name="nzp_string_array_10">Højre baneskift mislykkedes</string>
+    <string name="nzp_string_array_11">Venstre baneskift mislykkedes</string>
+    <string name="nzp_string_array_12">Ved at forlade NOA-sektionen</string>
+    <string name="nzp_string_array_13">Overtag styringen af bilen nu</string>
+    <string name="nzp_string_array_14">Sikker parkering i gang</string>
+    <string name="nzp_string_array_15">Overtag styringen af bilen</string>
+    <string name="nzp_string_array_16">Overtag styringen af bilen nu</string>
+    <string name="nzp_string_array_17">Hold i rattet</string>
+    <string name="nzp_string_array_18">Fokuser på vejen forude</string>
+    <string name="nzp_string_array_19">Aktivér blinklyshåndtaget for at skifte bane</string>
+    <string name="nzp_string_array_2">NOA er ved at starte...</string>
+    <string name="nzp_string_array_20">NOA i gang</string>
+    <string name="nzp_string_array_21">Nedgraderet til LCC Plus</string>
+    <string name="nzp_string_array_22">LCC deaktiveret</string>
+    <string name="nzp_string_array_23">LCC Plus annulleret</string>
+    <string name="nzp_string_array_24">NOA annulleret</string>
+    <string name="nzp_string_array_3">NOA aktiveret</string>
+    <string name="nzp_string_array_4">LCC Plus aktiveret</string>
+    <string name="nzp_string_array_5">LCC aktiv</string>
+    <string name="nzp_string_array_6">Accelererer</string>
+    <string name="nzp_string_array_7">Baneskift i gang</string>
+    <string name="nzp_string_array_8">Baneskift blev annulleret</string>
+    <string name="nzp_string_array_9">Baneskift gennemført</string>
+    <string name="one_click_breath">En nøgle til luftventilation</string>
+    <string name="one_click_breath_on">Lukning af vindue med én tast</string>
+    <string name="one_click_close_door">Dørlukning med én nøgle</string>
+    <string name="one_click_drift">Drifting</string>
+    <string name="open_car3d">Åben bilmodel</string>
+    <string name="open_card">Åbn kort</string>
+    <string name="open_map">Åbn Navigation</string>
+    <string name="open_window">Åbn alle vinduer</string>
+    <string name="open_window_on">Lukning af vindue med én tast</string>
+    <string name="parking_comfort">Parkeringskomfort</string>
+    <string name="part_glass">Skilleglas sænkes</string>
+    <string name="part_glass_on">Skilleglas hæves</string>
+    <string name="phone_charge">Trådløs opladning</string>
+    <string name="position_light">Positionslys</string>
+    <string name="prompt_drift_condition_battery_power">Køretøjsbilbatteri >= 20 %</string>
+    <string name="prompt_drift_condition_cancel">Ikke nu</string>
+    <string name="prompt_drift_condition_check_title">Muliggørende forhold</string>
+    <string name="prompt_drift_condition_confirm">Aktivér drifting</string>
+    <string name="prompt_drift_condition_drive_mode">Skift køretilstand til sport</string>
+    <string name="prompt_drift_condition_drive_system">Køresystem normalt</string>
+    <string name="prompt_drift_condition_esc_system">ESC-system normalt</string>
+    <string name="prompt_drift_condition_hot_manage_system">System til termisk styring normalt</string>
+    <string name="prompt_drift_condition_safety_belt">Sikkerhedsseler til fører og passager(er) er spændt</string>
+    <string name="prompt_drift_condition_speed">Køretøjets hastighed &amp;#60; 7 km/t</string>
+    <string name="prompt_drift_condition_steering_system">Styresystem normalt</string>
+    <string name="prompt_drift_condition_tire_pressure_system">System til dæktryk normalt</string>
+    <string name="prompt_drift_control_accept">Enig</string>
+    <string name="prompt_drift_disable_tips">Startkontrol aktiveret, drifting er midlertidigt ikke tilgængelig</string>
+    <string name="prompt_drift_error_tips">"Kontrollér, at følgende betingelser er opfyldt, og prøv igen 
+ 1. SOC >20% 
+ 2. D-gearet er indkoblet 
+ 3. Føreren og alle passagerer har spændt sikkerhedsselerne. 
+ 4. Køresystem, ESC-system, styresystem, dæktrykssystem og varmestyringssystem er normale 
+ 5. Sportstilstand er skiftet til vellykket 
+"</string>
+    <string name="prompt_drift_error_title">En enkelt nøgle afdrift kan ikke slås til</string>
+    <string name="prompt_drift_i_know">Forstået</string>
+    <string name="prompt_drift_tips">" Instruktioner:  
+ 1. Denne funktion skal anvendes på racerbaner eller professionelle steder, der opfylder de nationale sikkerhedsstandarder, og må ikke anvendes på offentlige veje og steder, der ikke opfylder sikkerhedsstandarderne.  n 2. For at sikre sikkerheden ved brug af en-nøgle-afdrift anbefales det, at du bruger det originale matchende afdrifttilbehør. Garantien dækker ikke skader på komponenter forårsaget af uhensigtsmæssig eller overdreven brug af en-nøgle-afdrift.  n 3. En-nøgle-afdrift kræver ekspertkørefærdigheder, og derfor er det kun tilgængeligt for førere med mindst tre års køreerfaring. Føreren skal bære de tab, der er forårsaget af ukorrekt brug og uautoriseret ændring af bilen.  n 
+ Instruktioner:  
+ 1. Denne funktion kan kun aktiveres, når bilen skifter til Sport-tilstand og kører med en hastighed på 7 km/t, og førerens og passagerernes sikkerhedsseler er spændt. Sikkerhedsselerne skal altid være spændt under kørslen. Hvis en sikkerhedssele løsnes undervejs, afsluttes afdrift tilstanden automatisk.  n 2. Denne funktion kan kun aktiveres, når batteriets strømniveau er >20% SOC. Ellers afsluttes den automatisk; 
+ 3. Denne funktion kan kun aktiveres, når bilens system er normalt. Ellers afsluttes den automatisk; 
+ Med en-nøgle-afdrift-funktion aktiveret: 
+ 1. Funktionerne e-pedal og automatisk hold er deaktiveret som standard; 
+ 2. Der skiftes automatisk til Sport-tilstand; 
+ 3. ESC-funktionen er deaktiveret; 
+ 4. Energigenvindingsniveauet er lavt;  
+ 5. Startkontrol-funktionen (hvis den er aktiveret) deaktiveres automatisk. n 
+ Jeg har læst, forstået og accepterer ovenstående oplysninger"</string>
+    <string name="prompt_drift_tips_cs1e" formatted="false">"Bemærkninger:
+ 1. Denne funktion er kun beregnet til brug på racerbaner eller professionelle steder, der overholder nationale sikkerhedsstandarder, snarere end på offentlige veje eller usikre steder, der ikke opfylder sikkerhedsstandarderne.
+ 2. For at sikre driftingsikkerhed anbefales det originale driftingsæt. Eventuelle skader på komponenter på grund af forkert brug og overforbrug af drifting er ikke dækket af garantien.
+ 3. Denne funktion skal bruges af en rutineret fører med professionelle kørefærdigheder og mindst 3 års køreerfaring. Føreren påtager sig det fulde ansvar for enhver skade, der måtte opstå på grund af forkert betjening eller uautoriserede ændringer.
+ 
+ Instruktioner:
+ 1. For at aktivere denne funktion skal du gå ind i køretilstanden Sport med en hastighed på &lt; 7 km/t og sikre, at både føreren og passagererne har spændt deres sikkerhedsseler sikkert. Sørg for, at alle sikkerhedsseler er spændt under hele turen. Ellers deaktiveres funktionen automatisk.
+ 2. Denne funktion kan kun aktiveres, når batteriets SOC er mere end 20 %. Denne funktion deaktiveres automatisk, når SOC er &lt; 20 %.
+ 3. Denne funktion kan kun aktiveres, når hele køretøjssystemet fungerer korrekt, og den deaktiveres i tilfælde af en fejl.
+ 
+ Efter drifting er blevet aktiveret:
+ 1. Stoptilstand er skiftet til Langsom;
+ 2. Automatisk hold er deaktiveret som standard; 
+ 3. Køretilstand skiftes automatisk til Sport;
+ 4. ESC er deaktiveret;
+ 5. Regenerativt bremseniveau skiftes til lavt;
+ 6. Nogle køreassistent- og parkeringsassistentfunktioner er deaktiveret eller begrænset. Se brugerhåndbogen for at få yderligere oplysninger;
+ 
+ Forstår du fuldt ud og accepterer ovenstående indhold?"</string>
+    <string name="prompt_drift_title">Brugervejledning til en-nøgle-afdrift</string>
+    <string name="prompt_guest_mode_tips">Denne funktion er ikke tilgængelig i gæstetilstand. Sluk venligst for gæstetilstand og prøv igen.</string>
+    <string name="prompt_launch_control_accept">Vær enig og fortsæt</string>
+    <string name="prompt_launch_control_content">"Advarsel: Det er førerens ansvar at bevare kontrollen over bilen til enhver tid i starttilstand og at sikre køre- og brugsmiljøet. Arbejd venligst under forhold, der er bekræftet som sikre. Længerevarende kontinuerlig lancering kan forringe ydeevnen af bilens køre- og bremsesystemer. Vi håber, at du kan bruge denne funktion med forsigtighed. 
+ 
+ Krav til brug: 
+1. Startfunktionen bruges, når bilen holder stille, dørene er lukkede, og føreren og passagererne har spændt sikkerhedsselerne normalt. 
+2. Sørg for, at temperaturen i bilens strømsystem er normal, og at strømmen er tilstrækkelig 
+3. Sluk for intelligente kørefunktioner, centrer rattet, slip den elektroniske håndbremse, og skift til D-gear 
+ 
+ Brugsanvisning: 
+1. Tryk på knappen Startkontrol 
+2. Træd bremsepedalen helt ned og derefter speederen, vent på, at instrumentet viser Starttilstand aktiv, og slip derefter bremsepedalen helt inden for 4 sekunder, så starter bilen med en fantastisk acceleration. (Hvis instrumentet viser Starttilstand mislykkedes, skal du kontrollere meddelelsen på storskærmen og bilen status) 
+ 
+ Jeg har læst, forstået og accepterer ovenstående oplysninger"</string>
+    <string name="prompt_launch_control_cs1e_content">"Advarsel: Under launch control er føreren ansvarlig for hele tiden at have kontrol over køretøjet og for at sikre, at køre- og brugsmiljøet er sikkert. Brug kun funktionen under sikre forhold. Vedvarende brug af launch control kan resultere i en forringelse af bilens driv- og bremsesystems ydeevne. Vær forsigtig, når du bruger denne funktion. Af hensyn til kørselssikkerheden skal du slå funktionen fra, når den ikke er i brug.
+ Bemærkninger: 
+1. Launch control skal være aktiveret, mens køretøjet er parkeret. Sørg for, at dørene er lukkede, og at føreren og passagererne har spændt sikkerhedsselen korrekt. 
+2. Sørg for, at køretøjets elsystem har normal temperatur, og at batteriet er tilstrækkeligt opladet. 
+3. Slå de intelligente kørefunktioner fra, centrer rattet, slip den elektroniske parkeringsbremse, og skift til Drive (køregear). 
+Instruktioner: 
+1. Tryk på knappen Launch control. 
+2. Træd først bremsepedalen helt ned, træd derefter gaspedalen helt ned, og slip bremsepedalen helt inden for 4 sekunder. Køretøjet starter med stor acceleration.
+ 3. For at give en optimal oplevelse skifter køretilstanden automatisk til Sport, når funktionen er aktiveret. Når funktionen er deaktiveret, forbliver køretilstanden i Sport. Når du skifter til en anden køretilstand, deaktiveres launch control automatisk. 
+Accepterer du fuldt ud ovenstående indhold?"</string>
+    <string name="prompt_launch_control_disable_tips">Drifting aktiveret, startkontrol er midlertidigt ikke tilgængelig</string>
+    <string name="prompt_launch_control_race_content">"Advarsel: Under lanceringskontrol er føreren ansvarlig for at holde kontrollen over køretøjet under hele processen og sikre køretøjets køre- og brugsmiljø. Sørg for at køre under bekræftede sikre forhold. Kontinuerlig brug af lanceringskontrol i lang tid kan medføre, at ydeevnen af køretøjets køre- og bremsesystemer falder. Vi håber, du vil bruge denne funktion med forsigtighed. For at sikre kørselssikkerheden skal du slukke for funktionen, når den ikke er i brug. 
+ 
+Brugskrav: 
+1. Lanceringskontrol skal bruges i parkeringstilstand. Bekræft, at døren er lukket, og førerens og passagerens sikkerhedsseler er spændt normalt 
+2. Sørg for, at temperaturen på køretøjets strømsystem er normal, og batteriet er tilstrækkeligt 
+3. Sluk for intelligentekørsel relaterede funktioner, ret rattet, slip den elektroniske håndbremse og juster køretøjet til D-position 
+ 
+Brugsvejledning: 
+1. Slå Lanceringskontrol knap til 
+2. Træd først bremsen helt ned, tryk derefter speederen helt ned, når bremsen slippes helt inden for 4 sekunder, vil køretøjet starte med stor acceleration. 
+3. For at sikre den bedste oplevelse vil køretilstanden automatisk skifte til sportstilstand, efter at funktionen er slået til. Når funktionen er slået fra, forbliver køretøjet i sportstilstand. Skift til andre køretilstande vil automatisk slå lanceringskontrol-funktionen fra. (Hvis køretøjet er i ZEEKR Track - Køretøjstyring aktiveret tilstanden, vil den ikke skifte til Sportstilstand.) 
+4. Når den er slået til, er Ekstrem Krypton Track - Drift Mode midlertidigt utilgængelig. 
+ 
+Forstår du og er enig i ovenstående oplysninger? &lt;/string>"</string>
+    <string name="prompt_launch_control_title">Brugermeddelelse for startkontrol</string>
+    <string name="prompt_saving_mode_tips">Denne funktion er ikke tilgængelig, når superstrømbesparende tilstand er slået til. Sluk den, og prøv igen</string>
+    <string name="prompt_trunk_open_confirm">Tryk igen for at åbne bagagerummet</string>
+    <string name="racing_mode">Race-tilstand</string>
+    <string name="rear_charging_cap">Dæksel til opladningsport bagpå</string>
+    <string name="rear_fog_lamps">Tågebaglygte</string>
+    <string name="recent_apps">Nyligt brugt</string>
+    <string name="remove">Fjern</string>
+    <string name="remove_mini_app">Fjern miniprogram</string>
+    <string name="reset_internet">Genstart af netværk</string>
+    <string name="right_opposite_door">Højre døre</string>
+    <string name="right_switch_disabled">Højre kontakt deaktiveret</string>
+    <string name="right_window_lock">Højre vinduelås</string>
+    <string name="scarp_cruised">Styring af bakkenedkørsel</string>
+    <string name="see_back_row">Børnesikring</string>
+    <string name="see_more">Se mere</string>
+    <string name="stream_media">Digitalt bakspejl</string>
+    <string name="switch_car3d">Skift til 3D-bilmodel</string>
+    <string name="switch_map">Skift til Navigation</string>
+    <string name="tab_mini_app">Mini-programmer</string>
+    <string name="take_picture">Tag billeder</string>
+    <string name="take_video">Optag</string>
+    <string name="task_tips_content">Ingen applikationer kører i baggrunden</string>
+    <string name="through_lamp">Gennem baglygte</string>
+    <string name="tip_backrest_is_running">Bagskærmen bruger denne app, som vil blive afbrudt, hvis du fortsætter med at åbne den</string>
+    <string name="tip_csd_is_running">Frontskærmen bruger denne app, som vil blive afbrudt, hvis du fortsætter med at åbne</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">bar</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">Anbefalet dæktryk</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">%1$s ved halv last, %n %2$s ved fuld last</string>
+    <string name="title_baby_mode">Børnetilstand</string>
+    <string name="title_child_lock">Børnesikring</string>
+    <string name="title_child_protect">Børnesikring</string>
+    <string name="trips_100_km_caps">100 km</string>
+    <string name="trips_10_km_caps">10 km</string>
+    <string name="trips_avg_energy">Gennemsnitligt energiforbrug</string>
+    <string name="trips_distance">Afstand</string>
+    <string name="trips_elapsed_time">Tid</string>
+    <string name="trunk">Bagagerum</string>
+    <string name="uninstall">Afinstaller</string>
+    <string name="uninstall_application">Afinstaller app</string>
+    <string name="uninstall_failure">Afinstallation mislykkedes</string>
+    <string name="unlock_all">Lås op for alle</string>
+    <string name="uvi_levels_1">Lav</string>
+    <string name="uvi_levels_2">Moderat</string>
+    <string name="uvi_levels_3">Høj</string>
+    <string name="uvi_levels_4">Meget høj</string>
+    <string name="uvi_levels_5">Ekstrem</string>
+    <string name="weather_altitude">Højde:</string>
+    <string name="weather_aqs">Luftkvalitet:</string>
+    <string name="weather_card_title">Vejr</string>
+    <string name="weather_failed">Indlæsning mislykkedes, vejrdata ikke tilgængelige</string>
+    <string name="weather_loading">Indlæser…</string>
+    <string name="weather_net_unavailable">Dårligt netværkssignal. Prøv igen senere</string>
+    <string name="weather_refresh">Genindlæs</string>
+    <string name="weather_uvi">UV:</string>
+    <string name="widget_drive_score_h"> t </string>
+    <string name="widget_drive_score_km">km</string>
+    <string name="widget_drive_score_min"> min.</string>
+</resources>

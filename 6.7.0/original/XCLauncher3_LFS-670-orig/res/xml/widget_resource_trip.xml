@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zeekr-appwidget-provider description="@string/widget_label_trip" mediumLayout="@layout/widget_trip" targetCellHeight="1" targetCellWidth="2" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/app_earphone_height" android:width="@dimen/app_earphone_width" android:viewportWidth="34.0" android:viewportHeight="26.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff000000" android:pathData="M34,0H0V26H18C26.837,26 34,18.837 34,10V0Z" android:fillAlpha="0.6" />
+    <path android:fillColor="#ffffffff" android:pathData="M8.431,6.299C8.128,6.603 8,7.031 8,7.461V11.539C8,11.969 8.128,12.397 8.431,12.701C9.234,13.504 10.338,14 11.556,14C12.061,14 12.547,13.915 13,13.757V19.5C13,20.328 13.672,21 14.5,21C15.328,21 16,20.328 16,19.5L16,9.5C16,7.015 14.01,5 11.556,5C10.338,5 9.234,5.496 8.431,6.299ZM12.5,8C12.224,8 12,8.224 12,8.5V10.5C12,10.776 12.224,11 12.5,11C12.776,11 13,10.776 13,10.5V8.5C13,8.224 12.776,8 12.5,8Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M22.444,5C19.99,5 18,7.015 18,9.5V19.5C18,20.328 18.672,21 19.5,21C20.328,21 21,20.328 21,19.5V13.757C21.453,13.915 21.939,14 22.444,14C23.662,14 24.766,13.504 25.569,12.701C25.872,12.397 26,11.969 26,11.539V7.461C26,7.031 25.872,6.603 25.569,6.299C24.766,5.496 23.662,5 22.444,5ZM22,8.5C22,8.224 21.776,8 21.5,8C21.224,8 21,8.224 21,8.5V10.5C21,10.776 21.224,11 21.5,11C21.776,11 22,10.776 22,10.5V8.5Z" android:fillType="evenOdd" />
+</vector>

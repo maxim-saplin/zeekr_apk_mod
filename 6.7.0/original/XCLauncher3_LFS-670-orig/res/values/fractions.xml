@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="config_one_handed_offset">39.999996%</fraction>
+    <fraction name="config_pipShortestEdgePercent">39.999996%</fraction>
+</resources>

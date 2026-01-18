@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/zeekr_ly_segment_child_flag" android:background="@drawable/zeekr_ui_segment_child_flag_bg_sp" android:layout_width="@dimen/zeekr_segment_flag_size_hmi" android:layout_height="@dimen/zeekr_segment_flag_size_hmi" android:layout_marginEnd="@dimen/zeekr_segment_flag_size_hmi" />
+    <com.zeekr.component.image.ZeekrInternalImageView android:id="@id/zeekr_ly_segment_child_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/zeekr_segment_icon_padding_text_hmi" />
+    <com.zeekr.component.textview.ZeekrInternalTextView android:gravity="center" android:id="@id/zeekr_ly_segment_child_text" android:layout_width="wrap_content" android:layout_height="wrap_content" app:zeekrUIEnableAdapterLineHeight="false" />
+</merge>

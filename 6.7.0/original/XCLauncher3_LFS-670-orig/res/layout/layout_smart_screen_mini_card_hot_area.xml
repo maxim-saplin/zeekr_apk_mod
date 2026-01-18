@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/media_album_img_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/media_album_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_smart_screen_default_media_cover" android:scaleType="fitXY" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="28.0dip" android:textColor="@color/smart_screen_lock_text_color" android:id="@id/media_title_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/media_title_margin_top2" android:layout_marginStart="@dimen/media_title_margin_left2" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/media_subtitle_style" />
+    <TextView android:textSize="20.0dip" android:textColor="@color/smart_screen_lock_subtext_color" android:id="@id/media_artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/media_subtitle_margin_top2" android:layout_marginStart="@dimen/media_subtitle_margin_left2" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/media_subtitle_style" />
+</androidx.constraintlayout.widget.ConstraintLayout>

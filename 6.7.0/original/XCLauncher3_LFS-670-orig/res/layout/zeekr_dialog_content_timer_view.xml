@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:theme="@style/ZeekrTheme26" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.zeekr.HeadlineLarge" android:textColor="?colorPrimary" android:ellipsize="end" android:id="@id/zeekr_number_picker_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zeekr.component.timer.ZeekrNumberPicker android:layout_gravity="center_horizontal" android:id="@id/zeekr_number_picker" android:layout_width="@dimen/zeekr_dialog_timer_picker_width" android:layout_height="@dimen/zeekr_dialog_timer_picker_height" android:layout_marginTop="@dimen/zeekr_dialog_timer_picker_margin_top" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/zeekr_number_picker_tip" app:layout_goneMarginTop="@dimen/zeekr_dialog_timer_picker_gone_margin_top" />
+</androidx.constraintlayout.widget.ConstraintLayout>

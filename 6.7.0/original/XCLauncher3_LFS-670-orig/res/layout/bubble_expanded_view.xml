@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.wm.shell.bubbles.BubbleExpandedView android:orientation="vertical" android:id="@id/bubble_expanded_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/pointer_view" android:layout_width="@dimen/bubble_pointer_width" android:layout_height="@dimen/bubble_pointer_height" />
+</com.android.wm.shell.bubbles.BubbleExpandedView>

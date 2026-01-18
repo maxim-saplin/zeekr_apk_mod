@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/edit_dock_item_width" android:layout_height="@dimen/edit_dock_item_height" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/place_holder" android:background="@drawable/bg_placeholder" android:visibility="gone" android:layout_width="@dimen/edit_dock_content_width" android:layout_height="@dimen/edit_dock_content_height" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_gravity="bottom" android:id="@id/content" android:background="@drawable/edit_dock_item_bg" android:layout_width="@dimen/edit_dock_content_width" android:layout_height="@dimen/edit_dock_content_height" android:stateListAnimator="@animator/edit_dock_item_anim_selector">
+            <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_hud" android:scaleType="center" android:layout_centerInParent="true" />
+            <ProgressBar android:id="@id/loading" android:visibility="gone" android:layout_width="@dimen/dock_bar_function_icon_size" android:layout_height="@dimen/dock_bar_function_icon_size" android:indeterminate="true" android:indeterminateDrawable="@drawable/anim_loading" android:indeterminateBehavior="repeat" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Large" />
+            <ImageView android:id="@id/state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dock_bar_check_state_top_margin" android:src="@drawable/bg_toggle_state" android:layout_below="@id/icon" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="end" android:id="@id/del" android:visibility="gone" android:layout_width="@dimen/edit_del_icon_size" android:layout_height="@dimen/edit_del_icon_size" android:src="@drawable/ic_del" />
+    </FrameLayout>
+</RelativeLayout>

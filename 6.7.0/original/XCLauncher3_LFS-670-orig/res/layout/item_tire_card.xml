@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_item_tyre_card" android:background="@drawable/shape_card_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_card_title" />
+    <com.ecarx.mycar.card.view.CardTireView android:id="@id/card_tyre_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_tire_car_space_top" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

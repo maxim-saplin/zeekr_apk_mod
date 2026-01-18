@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/drag_bar_height" android:width="@dimen/drag_bar_width" android:viewportWidth="160.0" android:viewportHeight="4.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/drag_bar" android:pathData="M2,4C0.9,4 0,3.1 0,2C0,0.9 0.9,0 2,0L158,0C159.1,0 160,0.9 160,2C160,3.1 159.1,4 158,4L2,4Z" android:fillType="evenOdd" />
+</vector>

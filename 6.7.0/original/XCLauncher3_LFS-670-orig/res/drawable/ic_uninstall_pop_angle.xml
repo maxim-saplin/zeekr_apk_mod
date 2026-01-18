@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center_horizontal" android:id="@id/shape_id" android:height="30.0dip" android:width="30.0dip">
+        <rotate android:fromDegrees="45.0" android:toDegrees="45.0" android:pivotX="134.99756%" android:pivotY="14.999998%">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/color_uninstall_bg" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

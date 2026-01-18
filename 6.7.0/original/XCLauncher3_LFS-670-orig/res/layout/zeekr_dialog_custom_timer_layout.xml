@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.zeekr.BodyLarge" android:id="@id/zeekr_number_picker_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/zeekr_dialog_margin_hor" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.zeekr.component.timer.ZeekrNumberPicker android:theme="@style/ZeekrTheme26" android:layout_gravity="center_horizontal" android:id="@id/zeekr_number_picker" android:layout_width="240.0dip" android:layout_height="400.0dip" android:layout_marginTop="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/zeekr_number_picker_tip" app:layout_goneMarginTop="30.0dip" />
+</merge>

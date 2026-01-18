@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="active_widget">تفعيل</string>
+    <string name="adjust_hud">ضبط HUD</string>
+    <string name="adjust_rear_mirror">ضبط المرايا</string>
+    <string name="apa">مساعد الركن التلقائي</string>
+    <string name="app_center">مركز التطبيقات</string>
+    <string name="app_is_installing">جاري تثبيت التطبيق. انتظر...</string>
+    <string name="app_not_install">تأكد من تثبيت تطبيق حماية الطفل.</string>
+    <string name="app_uninstall_cancel">إلغاء</string>
+    <string name="apps_all_title">مزيد من التطبيقات</string>
+    <string name="apps_card_cancel_start_app">Cancel</string>
+    <string name="apps_card_confirm_start_app">Confirm to open</string>
+    <string name="apps_card_tip_backrest_is_running">The back screen is using this App, which will be interrupted If you continue to open</string>
+    <string name="apps_card_title">المفضلة</string>
+    <string name="apps_edit_at_most">يمكن إضافة ما يصل إلى 4 تطبيقات. احذف بعضها وحاول مرة أخرى.</string>
+    <string name="apps_edit_cancel">إلغاء</string>
+    <string name="apps_edit_finish">تم</string>
+    <string name="apps_edit_group_custom_label">مخصص</string>
+    <string name="apps_edit_group_recent_label">الأخيرة</string>
+    <string name="apps_edit_tips">اضغط مع الاستمرار ثم اسحب أيقونات التطبيقات لوضعها في بطاقة التطبيقات المستخدمة بشكل متكرر. يمكنك أيضًا استبدال أيقونات التطبيقات الموجودة أو فرزها أثناء السحب.</string>
+    <string name="apps_mini_title">البرنامج الصغير</string>
+    <string name="apps_zeekr_lab_title">Z-emulator</string>
+    <string name="aqi_levels_1">ممتاز</string>
+    <string name="aqi_levels_2">جيد</string>
+    <string name="aqi_levels_3">تلوث خفيف</string>
+    <string name="aqi_levels_4">تلوث معتدل</string>
+    <string name="aqi_levels_5">تلوث شديد</string>
+    <string name="aqi_levels_6">تلوث بالغ</string>
+    <string name="aqi_levels_7">بالغة الأهمية</string>
+    <string name="atmosphere_light">إضاءة محيطة</string>
+    <string name="auto_hold">Auto Hold</string>
+    <string name="baby_into_car_widget">دخول الطفل</string>
+    <string name="baby_into_car_widget_active_dsc">بصدد تفعيل وضع دخول الطفل، حيث سيتم ضبط الصوت، والأمان، ومكيف الهواء الخلفي، والنوافذ، والشاشة الخلفية تلقائيًا إلى الوضع المحدد مسبقًا.</string>
+    <string name="baby_sleep_well_widget">حلم الطفل</string>
+    <string name="baby_sleep_well_widget_active_dsc">بصدد تفعيل وضع حلم الطفل، حيث سيتم ضبط الصوت، والأمان، ومكيف الهواء الخلفي، والنوافذ، والشاشة الخلفية تلقائيًا إلى الوضع المحدد مسبقًا.</string>
+    <string name="back_row_cinema">وضع السينما للصف الخلفي</string>
+    <string name="back_row_meeting">وضع الاجتماع الخلفي</string>
+    <string name="back_row_rest">وضع الراحة الخلفي</string>
+    <string name="business_voice_disabled">تعطيل صوت فئة الأعمال</string>
+    <string name="cancel_widget">إلغاء</string>
+    <string name="card_energy_chart_desc">اتجاه استهلاك الطاقة في الرحلات الأخيرة</string>
+    <string name="card_full_title">حالة السيارة</string>
+    <string name="card_kwh_mile_unit">kWh/100 mi</string>
+    <string name="card_kwh_unit">kWh/100 km</string>
+    <string name="card_trip_1">الرحلة 1</string>
+    <string name="card_trip_2">الرحلة 2</string>
+    <string name="central_lock">قفل مركزي</string>
+    <string name="charge_charge_error_big_tips">خلل في الشحن، تحقق منه على الفور!</string>
+    <string name="charge_charging_done_tips">تم إيقاف الشحن، يرجى تذكر فصل الجهاز</string>
+    <string name="charge_charging_full">إعطاء الأولوية للشحن الكامل</string>
+    <string name="charge_charging_limit">الشحن حتى الحد الأقصى</string>
+    <string name="charge_connect">متصل</string>
+    <string name="charge_connect_tips">يرجى الانتظار</string>
+    <string name="charge_daily">يوميًا</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">إيقاف V2L</string>
+    <string name="charge_estimate">&lt;span color=#9985898C font-size=28px>الوقت المتبقي&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span > &lt;span color=#85898C font-size=80px>%2$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_24">&lt;span color=#9985898C font-size=28px>الوقت المتبقي&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>>24&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_24_day">&lt;span color=#99383A3D font-size=28px>الوقت المتبقي&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>>24&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_day">" &lt;span color=#99383A3D font-size=28px>الوقت المتبقي&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span > &lt;span color=#383A3D font-size=80px>%2$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_estimate_no_hour">&lt;span color=#9985898C font-size=28px>الوقت المتبقي&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_no_hour_day">" &lt;span color=#99383A3D font-size=28px>الوقت المتبقي&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_fully">سيتم الشحن بالكامل قريبًا</string>
+    <string name="charge_next_day">اليوم التالي</string>
+    <string name="charge_no_plug">غير متصل بالطاقة</string>
+    <string name="charge_plug_connect_ac">متصل (AC)</string>
+    <string name="charge_plug_connect_dc">متصل (DC)</string>
+    <string name="charge_plug_connect_fault">عطل في الاتصال</string>
+    <string name="charge_plug_connect_fault_tips">خلل في الاتصال، تحقق منه على الفور!</string>
+    <string name="charge_plug_connect_tips">متصل ولكن لا يتم الشحن</string>
+    <string name="charge_plug_connect_waiting">غير متصل بالكامل</string>
+    <string name="charge_plug_no_active">نقطة الشحن غير مفعلة</string>
+    <string name="charge_plug_no_double">لا تقم بتوصيل شاحن AC وشاحن DC في نفس الوقت</string>
+    <string name="charge_plug_no_double_tips">شذوذ في التوصيل. يرجى التحقق على الفور!</string>
+    <string name="charge_pre_time_title">جدولة الشحن</string>
+    <string name="charge_start">بدء الشحن</string>
+    <string name="charge_status_battery_fault">خلل في بطارية الطاقة</string>
+    <string name="charge_status_booking">جار الجدولة</string>
+    <string name="charge_status_boosting">جاري تعزيز الشحن</string>
+    <string name="charge_status_charging">جار الشحن</string>
+    <string name="charge_status_charging_done">تم إيقاف الشحن (تيار متردد)</string>
+    <string name="charge_status_charging_fault">عطل في الشحن</string>
+    <string name="charge_status_discharging">توصيل الطاقة من المركبة قيد التقدم</string>
+    <string name="charge_status_discharging_done">انتهى V2L</string>
+    <string name="charge_status_discharging_fault">عطل V2L</string>
+    <string name="charge_status_preheating">تنظيم درجة حرارة البطارية…</string>
+    <string name="charge_status_super_fast_charging">Z-charging…</string>
+    <string name="charge_stop">إيقاف الشحن</string>
+    <string name="charge_temperature_tips">جار ضبط درجة الحرارة. يرجى الانتظار بصبر…</string>
+    <string name="charging_cap">غطاء الشحن</string>
+    <string name="child_lock_left">قفل الطفل الأيسر</string>
+    <string name="child_lock_right">قفل الطفل الأيمن</string>
+    <string name="climate_light">أضواء لجميع الأحوال الجوية</string>
+    <string name="close_all">إيقاف تشغيل الكل</string>
+    <string name="close_window">إغلاق النوافذ</string>
+    <string name="confirm">موافق</string>
+    <string name="confirm_remove">هل تريد إلغاء تثبيت %s؟</string>
+    <string name="confirm_start_app">فتح</string>
+    <string name="confirm_uninstall">هل تريد إلغاء تثبيت %s؟</string>
+    <string name="copilot_massage">تدليك الراكب الأمامي</string>
+    <string name="copilot_rest">استراحة الراكب الأمامي</string>
+    <string name="day_friday">الجمعة</string>
+    <string name="day_monday">الاثنين</string>
+    <string name="day_saturday">السبت</string>
+    <string name="day_sunday">الأحد</string>
+    <string name="day_thursday">الخميس</string>
+    <string name="day_tuesday">الثلاثاء</string>
+    <string name="day_wednesday">الأربعاء</string>
+    <string name="done">تم</string>
+    <string name="drag_tip">اضغط مع الاستمرار لسحب الميزة إلى شريط التحكم الأيسر. يمكنك أيضًا استبدال أو فرز الميزات الموجودة أثناء السحب</string>
+    <string name="drag_tip_right">اضغط مع الاستمرار لسحب الميزة إلى شريط التحكم الأيمن. يمكنك أيضًا استبدال الميزات الموجودة أو فرزها أثناء السحب.</string>
+    <string name="driver_massage">تدليك السائق</string>
+    <string name="driver_rest">استراحة السائق</string>
+    <string name="edit_at_most">يمكن إضافة ما يصل إلى 5 ميزات. احذف بعضها وحاول مرة أخرى.</string>
+    <string name="exclusive_child_lock">قفل الطفل الحصر</string>
+    <string name="fold_rear_mirror">طي المرايا الجانبية</string>
+    <string name="front_charging_cap">فتحة الشحن الأمامية</string>
+    <string name="glove_box">صندوق القفازات</string>
+    <string name="gps_permission_denied">لا يوجد إذن للوصول إلى الموقع</string>
+    <string name="gps_permission_setting">الإعدادات</string>
+    <string name="hood">Front hood</string>
+    <string name="hud">مفتاح شاشة العرض العلوية</string>
+    <string name="image_control">التحكم في المرآة</string>
+    <string name="image_control_view_pager_txt">التحكم في شاشة العرض الخلفية</string>
+    <string name="launch_control">التحكم في الإطلاق</string>
+    <string name="left_dock_cancel">إلغاء</string>
+    <string name="left_dock_close">إغلاق</string>
+    <string name="left_dock_edit">تعديل</string>
+    <string name="left_opposite_door">الأبواب اليسرى</string>
+    <string name="left_switch_disabled">المفتاح الأيسر مفعل</string>
+    <string name="left_window_lock">قفل أمان للأطفال للنافذة الخلفية اليسرى</string>
+    <string name="lightShow_alert_message">For your driving safety, do not use light signal while parking</string>
+    <string name="lightShow_card_title">Card_Signature</string>
+    <string name="lightShow_title">Say Hello</string>
+    <string name="light_show">Say Hello</string>
+    <string name="lock_all">قفل الكل</string>
+    <string name="low_speed_alert">صوت تحذير للمشاة</string>
+    <string name="mask_card_energy_title"> استهلاك الطاقة</string>
+    <string name="mask_card_tire_title"> ضغط الإطارات</string>
+    <string name="mask_card_trip_title"> الرحلة</string>
+    <string name="memory_using">استخدام الذاكرة</string>
+    <string name="no_recent_apps">لا توجد تطبيقات تم استخدامها مؤخرًا</string>
+    <string name="one_click_breath">تهوية الهواء</string>
+    <string name="one_click_breath_on">إغلاق النوافذ</string>
+    <string name="one_click_close_door">أغلق جميع الأبواب</string>
+    <string name="one_click_drift">الانزلاق</string>
+    <string name="open_window">افتح جميع النوافذ</string>
+    <string name="open_window_on">إغلاق النوافذ</string>
+    <string name="parking_comfort">راحة الركن</string>
+    <string name="part_glass">Partition glass lowering</string>
+    <string name="part_glass_on">Partition glass rising</string>
+    <string name="phone_charge">شحن الهاتف لاسلكيًا</string>
+    <string name="position_light">ضوء الموقع</string>
+    <string name="prompt_drift_condition_battery_power">Vehicle battery >= 20%</string>
+    <string name="prompt_drift_condition_cancel">Not now</string>
+    <string name="prompt_drift_condition_check_title">Enabling conditions</string>
+    <string name="prompt_drift_condition_confirm">Enable Drift</string>
+    <string name="prompt_drift_condition_drive_mode">Switch drive mode to sport</string>
+    <string name="prompt_drift_condition_drive_system">Drive system normal</string>
+    <string name="prompt_drift_condition_esc_system">ESC system normal</string>
+    <string name="prompt_drift_condition_hot_manage_system">Thermal management system normal</string>
+    <string name="prompt_drift_condition_safety_belt">Driver and passenger seat belts are fastened</string>
+    <string name="prompt_drift_condition_speed">Speed &lt; 7 km/h</string>
+    <string name="prompt_drift_condition_steering_system">Steering system normal</string>
+    <string name="prompt_drift_condition_tire_pressure_system">Tire pressure system is normal</string>
+    <string name="prompt_drift_control_accept">Agree</string>
+    <string name="prompt_drift_disable_tips">تم تفعيل التحكم في الإطلاق، لكن الانزلاق غير متاح مؤقتًا</string>
+    <string name="prompt_drift_error_tips">"يرجى التأكد من استيفاء الشروط التالية ثم حاول مرة أخرى
+ 1. البطارية أقل من 20%
+ 2. السيارة في وضع الترس D
+ 3. يجب على جميع الركاب ربط أحزمة الأمان
+ 4. نظام القيادة، ونظام التحكم الإلكتروني في الثبات، ونظام التوجيه، ونظام ضغط الإطارات، ونظام الإدارة الحرارية كلها طبيعية
+ 5. تم التبديل إلى وضع الرياضة بنجاح
+"</string>
+    <string name="prompt_drift_error_title">فشل في تفعيل الانزلاق</string>
+    <string name="prompt_drift_i_know">فهمت</string>
+    <string name="prompt_drift_tips" formatted="false">" ملحوظات:
+ 1. لا يمكن تفعيل هذه الميزة إلا في مضامير السباق أو الأماكن الاحترافية التي تتوافق مع معايير السلامة الوطنية. لا تقم بتفعيلها في الطرق العامة أو الأماكن غير الآمنة.
+ 2. عند تفعيل الانزلاق، يوصى باستخدام مجموعة الانزلاق الأصلية لضمان السلامة. لا يشمل الضمان أي ضرر يلحق بالمكونات بسبب الاستخدام غير السليم والإفراط في استخدام الانزلاق.
+ 3. يتطلب الانزلاق مهارات قيادة متقدمة. يجب أن يكون لدى السائقين خبرة في القيادة تزيد عن 3 سنوات. يتحمل السائق المسؤولية الكاملة عن أي ضرر يحدث بسبب التشغيل غير السليم أو التعديلات غير المصرح بها.
+ 
+ تعليمات:
+ 1. تتطلب هذه الميزة ضبط وضع القيادة على الرياضة وأن تكون سرعة السيارة أقل من &lt;7 km/h. تأكد من ربط جميع الركاب لأحزمة الأمان قبل التفعيل. يجب أن تظل أحزمة الأمان مشدودة في جميع الأوقات. إذا تم فك أي حزام أمان أثناء التوقف، فسيتم الخروج من وضع الانزلاق تلقائيًا.
+ 2. لا يمكن تفعيل هذه الميزة إلا إذا كانت البطارية أقل من 20% في حالة شحن البطارية. إذا كانت حالة الشحن &lt;أقل من 20%، فسيتم الخروج تلقائيًا؛
+ 3. لا يمكن تفعيل هذه الميزة إلا عندما يكون نظام السيارة بأكمله في حالة طبيعية. في حالة وجود أي عطل، سيتم الخروج تلقائيًا؛
+ 
+ بعد تفعيل ميزة الانزلاق بلمسة واحدة:
+ 1. يتم إيقاف تشغيل ميزات الدواسة الإلكترونية والتثبيت الإلكتروني بشكل افتراضي؛
+ 2. يتحول تلقائيًا إلى الوضع الرياضي؛
+ 3. تم إيقاف تشغيل ميزة التحكم الإلكتروني بالثبات؛
+ 4. مستوى الكبح الاسترجاعي منخفض؛
+ 5. يتم إيقاف تشغيل ميزة التحكم في الإطلاق تلقائيًا (إذا تم تفعيل هذه الميزة).
+ 
+ هل تفهم وتوافق بشكل كامل على المحتوى المذكور أعلاه؟"</string>
+    <string name="prompt_drift_tips_cs1e" formatted="false">" Notes:
+ 1. Drift is only intended for use on racetracks or professional venues that comply with national safety standards. Do not activate it on public roads or unsafe places.
+ 2. When enabling drift, it is recommended to use the original drifting kit to ensure safety. Any damage to components due to improper use or overuse of drift is not covered by the warranty.
+ 3. Drift should be operated by a veteran with professional driving skills and at least 3 years of driving experience. The driver shall assume full responsibility for any damage incurred due to improper operation or unauthorized modifications.
+ 
+ Instructions:
+ 1. To enable drift, enter Sport drive mode with a speed &lt; 7 km/h, and ensure both the driver and passengers have securely fastened seat belts. Ensure that all seatbelts are fastened throughout the trip. Otherwise, the feature is disabled automatically.
+ 2. Drift can only be enabled when the battery SOC is no less than 20%. It automatically disables when the SOC is &lt; 20%.
+ 3. Drift can only be enabled when the entire car system works properly. In case of any faults, Drift is disabled.
+ 
+ After drift is enabled:
+ 1. Stop mode is switched to Creep;
+
+        2. Autohold is disabled by default;\\n
+        3. The drive mode automatically switches to Sport;
+
+        4. ESC is disabled;
+
+        5. The regenerative braking level is switched to Low;
+
+        6. Some driving assist and parking assist features will be disabled or restricted. Refer to User Manual for details;
+
+        
+
+        Do you fully understand and agree to the above content?
+    "</string>
+    <string name="prompt_drift_title">إشعار مستخدم الانزلاق</string>
+    <string name="prompt_guest_mode_tips">الميزة غير متاحة في وضع الضيف. قم بتعطيل وضع الضيف وحاول مرة أخرى</string>
+    <string name="prompt_launch_control_accept">الموافقة والمتابعة</string>
+    <string name="prompt_launch_control_content">"تحذير: أثناء التحكم في الإطلاق، يجب عليك الحفاظ على التحكم في السيارة والتأكد من أن بيئة القيادة والاستخدام آمنة. يرجى التشغيل في ظروف آمنة فقط. قد يؤدي الاستخدام المستمر للتحكم في الإطلاق إلى انخفاض أداء نظام القيادة ونظام الفرملة في السيارة. يرجى توخي الحذر عند استخدام هذه الميزة. لضمان سلامة القيادة، يرجى تعطيل الميزة عندما لا تكون قيد الاستخدام.
+ 
+ملحوظات:
+1. لتفعيل التحكم في الإطلاق، قم بالتبديل إلى وضع الوقوف PARK، وأغلق جميع الأبواب، وتأكد من ربط أحزمة الأمان للسائق والركاب بشكل صحيح.
+2. تأكد من أن نظام نقل الحركة في السيارة في درجة الحرارة العادية وأن البطارية مشحونة بشكل كافٍ.
+3. قم بتعطيل ميزات القيادة الذكية، وضع عجلة القيادة في المنتصف، ثم حرر فرامل الركن الإلكترونية، وانتقل إلى وضع القيادة DRIVE. 
+ 
+تعليمات:
+1. اضغط على زر التحكم في الإطلاق.
+2. اضغط على دواسة الفرامل بالكامل أولاً، ثم اضغط على دواسة الوقود بالكامل، ثم حرر دواسة الفرامل بالكامل في غضون 4 ثوانٍ بعد أن تظهر على لوحة المعلومات رسالة تم تفعيل التحكم في الإطلاق. بعد ذلك، ستنطلق السيارة بتسارع كبير. (إذا أظهرت لوحة المعلومات رسالة فشل في تفعيل التحكم في الإطلاق، فتحقق من حالة السيارة باتباع الإرشادات الموجودة على الشاشة المركزية.)
+ 
+هل تفهم وتوافق بشكل كامل على المحتوى المذكور أعلاه؟"</string>
+    <string name="prompt_launch_control_cs1e_content">"تحذير: أثناء التحكم في الإطلاق، يجب عليك الحفاظ على التحكم في السيارة والتأكد من أن بيئة القيادة والاستخدام آمنة. يرجى التشغيل في ظل ظروف آمنة فقط. قد يؤدي الاستخدام المستمر للتحكم في الإطلاق إلى انخفاض أداء نظام نقل الحركة ونظام الفرملة في السيارة. يرجى توخي الحذر عند استخدام هذه الميزة. لضمان سلامة القيادة، يرجى تعطيل الميزة عندما لا تكون قيد الاستخدام.
+ملحوظات:
+1. لتفعيل التحكم في الإطلاق، قم بالتبديل إلى وضع الوقوف PARK، وأغلق جميع الأبواب، وتأكد من ربط أحزمة الأمان للسائق والركاب بشكل صحيح.
+2. تأكد من أن نظام نقل الحركة في السيارة في درجة الحرارة العادية وأن البطارية مشحونة بشكل كافٍ.
+3. قم بتعطيل ميزات القيادة الذكية، ثم ضع عجلة القيادة في المنتصف، ثم حرر فرامل الركن الإلكترونية، وانتقل إلى وضع القيادة DRIVE.
+تعليمات: 
+1. اضغط على زر التحكم في الإطلاق.
+2. اضغط على دواسة الفرامل بالكامل أولاً، ثم اضغط على دواسة الوقود بالكامل ثم حرر دواسة الفرامل بالكامل في غضون 4 ثوانٍ. بعد ذلك، ستنطلق السيارة بتسارع كبير.
+3. لتقديم تجربة مثالية، سيتحول وضع التسارع تلقائيًا إلى الوضع الرياضي بعد تمكين الميزة. بعد تعطيل الميزة، سيظل وضع التسارع رياضي. سيؤدي التبديل إلى وضع تسارع آخر أو وضع قيادة لظروف الطريق الخاصة إلى تعطيل التحكم في الإطلاق تلقائيًا.
+هل تفهم وتوافق بشكل كامل على المحتوى المذكور أعلاه؟"</string>
+    <string name="prompt_launch_control_disable_tips">تم تفعيل الانزلاق، لكن التحكم في الإطلاق غير متاح مؤقتًا</string>
+    <string name="prompt_launch_control_race_content">"تحذير: أثناء التحكم في الانطلاق، يجب عليك الحفاظ على التحكم في السيارة والتأكد من أن بيئة القيادة والاستخدام آمنة. يرجى التشغيل في ظل ظروف آمنة فقط. قد يؤدي الاستخدام المستمر للتحكم في الانطلاق إلى انخفاض أداء نظام القيادة والفرامل في السيارة. يرجى توخي الحذر عند استخدام هذه الميزة. لضمان سلامة القيادة، يرجى تعطيل الميزة عندما لا تكون قيد الاستخدام.
+ 
+ملحوظات:
+1. لتفعيل نظام التحكم في الانطلاق، قم بالتبديل إلى وضع الوقوف PARK، وأغلق جميع الأبواب، وتأكد من ربط أحزمة الأمان للسائق والركاب بشكل صحيح.
+2. تأكد من أن نظام نقل الحركة في السيارة في درجة الحرارة العادية وأن البطارية مشحونة بشكل كافٍ.
+3. قم بتعطيل ميزات القيادة الذكية، ثم ضع عجلة القيادة في المنتصف، ثم حرر فرامل الانتظار الإلكترونية، وانتقل إلى وضع القيادة DRIVE. 
+ 
+تعليمات:
+1. اضغط على زر التحكم في الإطلاق.
+2. اضغط على دواسة الفرامل بالكامل أولاً، ثم اضغط على دواسة الوقود بالكامل ثم حرر دواسة الفرامل بالكامل في غضون 4 ثوانٍ. بعد ذلك، ستنطلق السيارة بتسارع كبير.
+3. لتقديم تجربة مثالية، سيتحول وضع القيادة تلقائيًا إلى الوضع الرياضي بعد تفعيل الميزة. بعد تعطيل الميزة، سيظل وضع القيادة رياضي. سيؤدي التبديل إلى وضع قيادة آخر إلى تعطيل التحكم في الانطلاق تلقائيًا. ومع ذلك، عند تفعيل ZEEKR Track > التحكم في السيارة، لن يتحول وضع القيادة إلى الوضع الرياضي.
+4. بمجرد تفعيل التحكم في الإطلاق، لن يكون ZEEKR Track > وضع الانزلاق متاحًا. 
+ 
+هل تفهم وتوافق بشكل كامل على المحتوى المذكور أعلاه؟"</string>
+    <string name="prompt_launch_control_title">إشعار مستخدم التحكم في الإطلاق</string>
+    <string name="prompt_saving_mode_tips">الميزة غير متوفرة في وضع توفير الطاقة الفائق. قم بتعطيل هذا الوضع وحاول مرةً أخرى.</string>
+    <string name="prompt_trunk_open_confirm">اضغط مرة أخرى لفتح الصندوق الخلفي</string>
+    <string name="racing_mode">وضع السباق</string>
+    <string name="rear_charging_cap">فتحة شحن خلفية</string>
+    <string name="rear_fog_lamps">ضوء الضباب الخلفي</string>
+    <string name="recent_apps">الأخيرة</string>
+    <string name="remove">إزالة</string>
+    <string name="remove_mini_app">إزالة البرنامج الصغير</string>
+    <string name="reset_internet">إعادة تشغيل الشبكة</string>
+    <string name="right_opposite_door">الأبواب اليمنى</string>
+    <string name="right_switch_disabled">المفتاح الأيمن معطل</string>
+    <string name="right_window_lock">قفل أمان للأطفال للنافذة الخلفية اليمنى</string>
+    <string name="scarp_cruised">التحكم في نزول التلال</string>
+    <string name="see_back_row">حارس الطفل</string>
+    <string name="see_more">عرض المزيد</string>
+    <string name="stream_media">مرآة الرؤية الخلفية الرقمية</string>
+    <string name="tab_mini_app">البرنامج الصغير</string>
+    <string name="tab_zeekr_lab">Z-emulator</string>
+    <string name="take_picture">التقاط الصور</string>
+    <string name="take_video">Video</string>
+    <string name="task_tips_content">لا توجد تطبيقات تعمل في الخلفية</string>
+    <string name="through_lamp">إضاءة خلفية محيطية</string>
+    <string name="tip_backrest_is_running">يُستخدم هذا التطبيق حاليًا على الشاشة الخلفية. فتحه هنا يقطع جلسة الشاشة الخلفية</string>
+    <string name="tip_csd_is_running">يُستخدم هذا التطبيق حاليًا على الشاشة الأمامية. فتحه هنا يقطع جلسة الشاشة الأمامية</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">بار</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">ضغط الإطارات الموصى به</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">نصف الحمولة %1$skPa %nالحمولة الكاملة %2$skPa</string>
+    <string name="title_baby_mode">وضع الطفل</string>
+    <string name="title_child_lock">حماية قفل الطفل</string>
+    <string name="title_child_protect">حماية الطفل</string>
+    <string name="trips_100_km_caps">100 km</string>
+    <string name="trips_10_km_caps">10 km</string>
+    <string name="trips_62_mile_caps">62 mi</string>
+    <string name="trips_6_mile_caps">6 mi</string>
+    <string name="trips_avg_energy">متوسط استهلاك الطاقة</string>
+    <string name="trips_distance">مسافة القيادة</string>
+    <string name="trips_elapsed_time">الوقت</string>
+    <string name="trunk">صندوق السيارة</string>
+    <string name="uninstall">إلغاء التثبيت</string>
+    <string name="uninstall_application">إلغاء تثبيت التطبيق</string>
+    <string name="uninstall_failure">فشل إلغاء التثبيت</string>
+    <string name="unlock_all">فتح الكل</string>
+    <string name="uvi_levels_1">منخفض</string>
+    <string name="uvi_levels_2">معتدل</string>
+    <string name="uvi_levels_3">عالي</string>
+    <string name="uvi_levels_4">عالية جدًا</string>
+    <string name="uvi_levels_5">أقصى</string>
+    <string name="weather_altitude">الارتفاع:</string>
+    <string name="weather_aqs">جودة الهواء:</string>
+    <string name="weather_card_title">طقس</string>
+    <string name="weather_failed">فشل التحميل، بيانات الطقس غير متوفرة</string>
+    <string name="weather_loading">جاري التحميل…</string>
+    <string name="weather_net_unavailable">إشارة الشبكة ضعيفة. حاول مرة أخرى لاحقًا.</string>
+    <string name="weather_refresh">تحديث</string>
+    <string name="weather_uvi">الأشعة فوق البنفسجية:</string>
+    <string name="widget_drive_score_km">km</string>
+</resources>

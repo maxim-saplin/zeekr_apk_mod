@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/close_btn" android:background="@android:color/transparent" android:layout_width="@dimen/d_dimen_192" android:layout_height="@dimen/d_dimen_180" android:src="@drawable/ic_close" android:scaleType="centerInside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/s_dimen_44" android:textColor="@color/lightShow_dialog_title" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d_dimen_57" android:text="@string/lightShow_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/scrollView" android:scrollbars="vertical" android:fadingEdge="vertical" android:fadingEdgeLength="@dimen/d_dimen_60" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/d_dimen_164" android:requiresFadingEdge="vertical" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/card_view" android:paddingBottom="@dimen/d_dimen_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+    </androidx.core.widget.NestedScrollView>
+</merge>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/cb_capturetitle" android:background="#ffffffff" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/cb_back" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/cb_nav_back" android:scaleType="center" />
+        <TextView android:textSize="15.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="end" android:id="@id/cb_input" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="手动输入" android:textAllCaps="false" android:layout_marginEnd="12.0dip" />
+    </FrameLayout>
+    <RelativeLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@id/cb_capture_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/cb_capture_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/cb_capture_mask_top" android:background="@drawable/cb_shadow" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_alignParentTop="true" />
+            <RelativeLayout android:id="@id/cb_capture_crop_view" android:background="@drawable/cb_qr_code_bg" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_below="@id/cb_capture_mask_top" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/cb_capture_scan_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/cb_scan_line" android:layout_alignParentTop="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/cb_capture_mask_bottom" android:background="@drawable/cb_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cb_capture_crop_view" android:layout_alignParentBottom="true" />
+            <ImageView android:id="@id/cb_capture_mask_left" android:background="@drawable/cb_shadow" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/cb_capture_crop_view" android:layout_above="@id/cb_capture_mask_bottom" android:layout_below="@id/cb_capture_mask_top" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/cb_capture_mask_right" android:background="@drawable/cb_shadow" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/cb_capture_crop_view" android:layout_above="@id/cb_capture_mask_bottom" android:layout_below="@id/cb_capture_mask_top" android:layout_alignParentRight="true" />
+            <Button android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@id/cb_reconnect" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="重连：" android:layout_alignParentRight="true" android:textAllCaps="false" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

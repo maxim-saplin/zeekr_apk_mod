@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.zeekr.component.tv.tab.ZeekrTVVerticalTabLayout android:layout_width="200.0dip" android:layout_height="800.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tabItemHeight="140.0dip" app:tabItemIconSize="0.0dip" app:tabItemPaddingStartEnd="20.0dip" app:tabItemTextMarginIcon="0.0dip" app:tabItemTextSize="20.0dip">
+            <com.google.android.material.tabs.TabItem android:icon="@drawable/ic_tv_tab_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="标签1" />
+            <com.google.android.material.tabs.TabItem android:icon="@drawable/ic_tv_tab_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="标签2" />
+            <com.google.android.material.tabs.TabItem android:icon="@drawable/ic_tv_tab_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="标签3" />
+        </com.zeekr.component.tv.tab.ZeekrTVVerticalTabLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

@@ -1,0 +1,2333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">转到首页</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 键</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 键</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">空格键</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享对象</string>
+    <string name="abc_shareactionprovider_share_with_application">与%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="accessibility_action_divider_bottom_full">底部全屏</string>
+    <string name="accessibility_action_divider_left_30">左侧 30%</string>
+    <string name="accessibility_action_divider_left_50">左侧 50%</string>
+    <string name="accessibility_action_divider_left_70">左侧 70%</string>
+    <string name="accessibility_action_divider_left_full">左侧全屏</string>
+    <string name="accessibility_action_divider_right_full">右侧全屏</string>
+    <string name="accessibility_action_divider_top_30">顶部 30%</string>
+    <string name="accessibility_action_divider_top_50">顶部 50%</string>
+    <string name="accessibility_action_divider_top_70">顶部 70%</string>
+    <string name="accessibility_action_divider_top_full">顶部全屏</string>
+    <string name="accessibility_action_pip_resize">调整大小</string>
+    <string name="accessibility_action_pip_stash">隐藏</string>
+    <string name="accessibility_action_pip_unstash">取消隐藏</string>
+    <string name="accessibility_action_start_one_handed">启动单手模式</string>
+    <string name="accessibility_action_stop_one_handed">退出单手模式</string>
+    <string name="accessibility_bubble_dismissed">已关闭对话泡。</string>
+    <string name="accessibility_divider">分屏分隔线</string>
+    <string name="activity_launch_on_secondary_display_failed_text">应用不支持在辅显示屏上启动。</string>
+    <string name="adjust_hud">HUD调节</string>
+    <string name="adjust_rear_mirror">后视镜调节</string>
+    <string name="apa">智能泊车辅助</string>
+    <string name="app_center">应用中心</string>
+    <string name="app_is_installing">正在安装应用，请稍后</string>
+    <string name="app_uninstall_cancel">取消</string>
+    <string name="apps_all_title">应用中心</string>
+    <string name="apps_card_cancel_start_app">取消</string>
+    <string name="apps_card_confirm_start_app">确定打开</string>
+    <string name="apps_card_tip_backrest_is_running">后排屏正在使用此App，若继续打开将中断对方使用</string>
+    <string name="apps_card_title">常用应用</string>
+    <string name="apps_edit_at_most">最多只能添加4个应用，请先删减后再添加</string>
+    <string name="apps_edit_cancel">取消</string>
+    <string name="apps_edit_finish">完成</string>
+    <string name="apps_edit_group_custom_label">自定义</string>
+    <string name="apps_edit_group_recent_label">最近使用</string>
+    <string name="apps_edit_tips">长按可拖动应用图标到常用应用卡片内，拖动时可替换和排序现有应用图标的位置</string>
+    <string name="apps_mini_title">小程序</string>
+    <string name="apps_zeekr_lab_title">极氪极拓</string>
+    <string name="aqi_levels_1">优</string>
+    <string name="aqi_levels_2">良</string>
+    <string name="aqi_levels_3">轻度</string>
+    <string name="aqi_levels_4">中度</string>
+    <string name="aqi_levels_5">重度</string>
+    <string name="aqi_levels_6">严重</string>
+    <string name="aqi_levels_7">爆表</string>
+    <string name="aqt_app_name_1">腾讯爱趣听</string>
+    <string name="aqt_app_name_2">爱趣听</string>
+    <string name="args_full_url">full_url</string>
+    <string name="atmosphere_light">氛围灯</string>
+    <string name="auto_hold">自动驻车</string>
+    <string name="avp_go_charge_button">增强版记忆泊车可用</string>
+    <string name="avp_pop_12_button">开始</string>
+    <string name="avp_pop_12_click">点击按钮开始辅助驾驶</string>
+    <string name="avp_pop_14_button">取消</string>
+    <string name="avp_pop_14_click">前方受阻，即将为您重新规划路线</string>
+    <string name="avp_save">保存</string>
+    <string name="avp_study">学习</string>
+    <string name="avp_study_click_route">记忆泊车可用，点击学习路线</string>
+    <string name="avp_study_click_save">是否确认记忆当前行驶路线？</string>
+    <string name="back_row_cinema">后排影院模式</string>
+    <string name="back_row_meeting">后排会议模式</string>
+    <string name="back_row_rest">后排休憩模式</string>
+    <string name="bilibili_app_name">哔哩哔哩</string>
+    <string name="bluetooth_no_artist">暂无</string>
+    <string name="bluetooth_no_connect">蓝牙音乐-未连接</string>
+    <string name="bluetooth_no_play">暂无歌曲</string>
+    <string name="bottomsheet_action_collapse">收起底部动作条</string>
+    <string name="bottomsheet_action_expand">展开底部动作条</string>
+    <string name="bottomsheet_action_expand_halfway">展开到一半高度</string>
+    <string name="bottomsheet_drag_handle_clicked">拖动手柄被点按两次</string>
+    <string name="bottomsheet_drag_handle_content_description">拖动手柄</string>
+    <string name="bt_app_name">蓝牙音乐</string>
+    <string name="btn_exit_leave_pilot">退出离车泊入</string>
+    <string name="btn_leave_pilot">离车泊入</string>
+    <string name="btn_start_nzp">点击按钮开始辅助驾驶</string>
+    <string name="btn_start_pilot">开始泊车</string>
+    <string name="bubble_accessibility_action_add_back">重新加入叠放</string>
+    <string name="bubble_accessibility_action_move_bottom_left">移至左下角</string>
+    <string name="bubble_accessibility_action_move_bottom_right">移至右下角</string>
+    <string name="bubble_accessibility_action_move_top_left">移至左上角</string>
+    <string name="bubble_accessibility_action_move_top_right">移至右上角</string>
+    <string name="bubble_content_description_single">%2$s：%1$s</string>
+    <string name="bubble_content_description_stack">%2$s和另外 %3$d 个应用：%1$s</string>
+    <string name="bubble_dismiss_text">关闭对话泡</string>
+    <string name="bubble_overflow_button_content_description">菜单</string>
+    <string name="bubble_overflow_empty_subtitle">此处会显示最近的对话泡和已关闭的对话泡</string>
+    <string name="bubble_overflow_empty_title">最近没有对话泡</string>
+    <string name="bubbles_app_settings">%1$s设置</string>
+    <string name="bubbles_dont_bubble_conversation">不以对话泡形式显示对话</string>
+    <string name="bubbles_settings_button_description">%1$s对话泡的设置</string>
+    <string name="bubbles_user_education_description">新对话会以浮动图标或对话泡形式显示。点按即可打开对话泡。拖动即可移动对话泡。</string>
+    <string name="bubbles_user_education_got_it">知道了</string>
+    <string name="bubbles_user_education_manage">点按“管理”按钮，可关闭来自此应用的对话泡</string>
+    <string name="bubbles_user_education_manage_title">随时控制对话泡</string>
+    <string name="bubbles_user_education_title">使用对话泡聊天</string>
+    <string name="business_voice_disabled">商务语音禁用</string>
+    <string name="call_notification_answer_action">接听</string>
+    <string name="call_notification_answer_video_action">视频通话</string>
+    <string name="call_notification_decline_action">拒接</string>
+    <string name="call_notification_hang_up_action">挂断</string>
+    <string name="call_notification_incoming_text">来电</string>
+    <string name="call_notification_ongoing_text">正在通话</string>
+    <string name="call_notification_screening_text">正在过滤来电</string>
+    <string name="card_energy_chart_desc">最近一段行程距离内能耗变化趋势</string>
+    <string name="card_full_title">车况</string>
+    <string name="card_kwh_mile_unit">kWh/100mile</string>
+    <string name="card_kwh_unit">kWh/100km</string>
+    <string name="card_trip_1">行程1</string>
+    <string name="card_trip_2">行程2</string>
+    <string name="central_lock">中控锁</string>
+    <string name="character_counter_content_description">输入了 %1$d 个字符（上限为 %2$d 个）</string>
+    <string name="character_counter_overflowed_content_description">超出字符数限制（共 %1$d 个，上限为 %2$d 个）</string>
+    <string name="charge_charge_error_big_tips">充电故障，请及时排查！</string>
+    <string name="charge_charging_done_tips">充电已停止，请记得拔枪</string>
+    <string name="charge_charging_full">优先充满</string>
+    <string name="charge_charging_limit">充至限值</string>
+    <string name="charge_connect">已连接</string>
+    <string name="charge_connect_tips">请耐心等待</string>
+    <string name="charge_daily">每天</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">停止供电</string>
+    <string name="charge_estimate">&lt;span color=#9985898C font-size=28px>剩余时间&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span > &lt;span color=#85898C font-size=80px>%2$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_24">&lt;span color=#9985898C font-size=28px>剩余时间&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>>24&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_24_day">&lt;span color=#99383A3D font-size=28px>剩余时间&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>>24&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_day">" &lt;span color=#99383A3D font-size=28px>剩余时间&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span > &lt;span color=#383A3D font-size=80px>%2$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_estimate_no_hour">&lt;span color=#9985898C font-size=28px>剩余时间&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_no_hour_day">" &lt;span color=#99383A3D font-size=28px>剩余时间&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_fully">即将充满</string>
+    <string name="charge_next_day">次日</string>
+    <string name="charge_no_plug">未插枪</string>
+    <string name="charge_plug_connect_ac">已插枪（交流）</string>
+    <string name="charge_plug_connect_dc">已插枪（直流）</string>
+    <string name="charge_plug_connect_fault">连接故障</string>
+    <string name="charge_plug_connect_fault_tips">连接故障，请及时排查！</string>
+    <string name="charge_plug_connect_tips">已插枪，请耐心等待</string>
+    <string name="charge_plug_connect_waiting">枪线未完全插入</string>
+    <string name="charge_plug_no_active">充电桩未激活</string>
+    <string name="charge_plug_no_double">请勿同时插入交流枪和直流枪</string>
+    <string name="charge_plug_no_double_tips">插枪异常，请及时排查！</string>
+    <string name="charge_power_supply_capacity">&lt;span color=#9985898C font-size=28px>供电电量&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all">&lt;span color=#9985898C font-size=28px>供电电量统计&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all_day">&lt;span color=#99383A3D font-size=28px>供电电量统计&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_day">&lt;span color=#99383A3D font-size=28px>供电电量&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_pre_time">" &lt;span color=#9985898C font-size=28px>预约充电&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>每天&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_day">" &lt;span color=#99383A3D font-size=28px>预约充电&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>每天&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_full">" &lt;span color=#9985898C font-size=28px>预约充电&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>每天&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>优先充满&lt;/span >"</string>
+    <string name="charge_pre_time_full_day">" &lt;span color=#99383A3D font-size=28px>预约充电&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>每天&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>优先充满&lt;/span >"</string>
+    <string name="charge_pre_time_limit">" &lt;span color=#9985898C font-size=28px>预约充电&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>每天&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>充至限值&lt;/span >"</string>
+    <string name="charge_pre_time_limit_day">" &lt;span color=#99383A3D font-size=28px>预约充电&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>每天&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>充至限值&lt;/span >"</string>
+    <string name="charge_pre_time_next">" &lt;span color=#9985898C font-size=28px>预约充电&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>每天&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=24px>次日&lt;/span > &lt;span color=#85898C font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_next_day">" &lt;span color=#99383A3D font-size=28px>预约充电&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>每天&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=24px>次日&lt;/span > &lt;span color=#383A3D font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_title">预约充电</string>
+    <string name="charge_start">开始充电</string>
+    <string name="charge_status_battery_fault">动力电池故障</string>
+    <string name="charge_status_booking">预约中</string>
+    <string name="charge_status_boosting">升压充电中</string>
+    <string name="charge_status_charging">充电中</string>
+    <string name="charge_status_charging_done">充电停止</string>
+    <string name="charge_status_charging_fault">充电故障</string>
+    <string name="charge_status_discharging">对外供电中</string>
+    <string name="charge_status_discharging_done">供电结束</string>
+    <string name="charge_status_discharging_fault">供电故障</string>
+    <string name="charge_status_preheating">电池温度调节中</string>
+    <string name="charge_status_super_fast_charging">极充中</string>
+    <string name="charge_stop">停止充电</string>
+    <string name="charge_temperature_tips">温度调节中，请耐心等待</string>
+    <string name="charging_cap">充电口盖</string>
+    <string name="child_lock_left">左后车门童锁</string>
+    <string name="child_lock_right">右后车门童锁</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="climate_light">全气候灯</string>
+    <string name="close_all">全部关闭</string>
+    <string name="close_card">关闭卡片</string>
+    <string name="close_window">一键关窗</string>
+    <string name="commuting_found_route">发现通勤模式</string>
+    <string name="commuting_route_discover">发现通勤路线</string>
+    <string name="commuting_route_in_memory">通勤路线记忆中</string>
+    <string name="commuting_route_manager">路线管理</string>
+    <string name="commuting_route_memorized_little">通勤路线已记忆%1$s</string>
+    <string name="confirm">确定</string>
+    <string name="confirm_remove">确认移除%s吗</string>
+    <string name="confirm_start_app">确定打开</string>
+    <string name="confirm_uninstall">确认卸载%s吗</string>
+    <string name="connect_bluetooth_first">请连接蓝牙设备</string>
+    <string name="connect_usb">请插入USB设备</string>
+    <string name="connect_usb_first">请连接USB设备</string>
+    <string name="copilot_massage">副驾按摩</string>
+    <string name="copilot_rest">副驾一键休憩</string>
+    <string name="day_friday">星期五</string>
+    <string name="day_monday">星期一</string>
+    <string name="day_saturday">星期六</string>
+    <string name="day_sunday">星期日</string>
+    <string name="day_thursday">星期四</string>
+    <string name="day_tuesday">星期二</string>
+    <string name="day_wednesday">星期三</string>
+    <string name="dln_empty_text">投屏中…</string>
+    <string name="dln_empty_text2">暂未开启投屏</string>
+    <string name="dock_forced_resizable">应用可能无法在分屏模式下正常运行。</string>
+    <string name="dock_non_resizeble_failed_to_dock_text">应用不支持分屏。</string>
+    <string name="done">完成</string>
+    <string name="download_paused">已暂停</string>
+    <string name="download_pending">准备下载…</string>
+    <string name="download_progress">正在下载…</string>
+    <string name="drag_tip">长按可拖动功能到左侧控制栏，拖动时可替换和排序现有功能</string>
+    <string name="drag_tip_right">长按可拖动功能到右侧控制栏，拖动时可替换和排序现有功能</string>
+    <string name="driver_massage">主驾按摩</string>
+    <string name="driver_rest">主驾一键休憩</string>
+    <string name="edit_at_most">最多只能添加5个功能，请先删减后再添加</string>
+    <string name="error_icon_content_description">错误</string>
+    <string name="exposed_dropdown_menu_content_description">显示下拉菜单</string>
+    <string name="favoriteslist">收藏列表</string>
+    <string name="fm_app_name">收音机</string>
+    <string name="fold_rear_mirror">折叠后视镜</string>
+    <string name="forced_resizable_secondary_display">应用可能无法在辅显示屏上正常运行。</string>
+    <string name="front_charging_cap">前充电口盖</string>
+    <string name="gallery_empty_text">"更多图库资源
+请前往应用查看"</string>
+    <string name="glove_box">手套箱</string>
+    <string name="gps_permission_denied">GPS信息未授权</string>
+    <string name="gps_permission_setting">设置</string>
+    <string name="hood">前舱盖</string>
+    <string name="hud">HUD开关</string>
+    <string name="icon_content_description">对话框图标</string>
+    <string name="install_progress">正在安装…</string>
+    <string name="item_view_role_description">标签页</string>
+    <string name="km">公里</string>
+    <string name="launch_control">弹射起步</string>
+    <string name="left_dock_cancel">取消</string>
+    <string name="left_dock_close">关闭</string>
+    <string name="left_dock_edit">编辑</string>
+    <string name="left_opposite_door">左侧对开门</string>
+    <string name="left_switch_disabled">左侧开关禁用</string>
+    <string name="left_window_lock">左后车窗童锁</string>
+    <string name="lightShow_alert_message">为了您的行车安全，请在停车时使用灯语</string>
+    <string name="lightShow_card_title">Card_Signature</string>
+    <string name="lightShow_title">Say Hello</string>
+    <string name="light_show">Say Hello</string>
+    <string name="low_speed_alert">低速警示音</string>
+    <string name="lyric_loading">歌词加载中</string>
+    <string name="manage_bubbles_text">管理</string>
+    <string name="mask_card_energy_title">·能耗</string>
+    <string name="mask_card_tire_title">·胎压</string>
+    <string name="mask_card_trip_title">·行程</string>
+    <string name="material_clock_toggle_content_description">选择上午或下午</string>
+    <string name="material_hour_24h_suffix">%1$s 小时</string>
+    <string name="material_hour_selection">选择小时</string>
+    <string name="material_hour_suffix">%1$s 点</string>
+    <string name="material_minute_selection">选择分钟</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">上午</string>
+    <string name="material_timepicker_clock_mode_description">切换到时钟模式来输入时间。</string>
+    <string name="material_timepicker_hour">小时</string>
+    <string name="material_timepicker_minute">分钟</string>
+    <string name="material_timepicker_pm">下午</string>
+    <string name="material_timepicker_select_time">选择时间</string>
+    <string name="material_timepicker_text_input_mode_description">切换到文字输入模式来输入时间。</string>
+    <string name="media_app_name">极享</string>
+    <string name="media_bilibili_title">一起追剧吧</string>
+    <string name="media_data_exception">加载失败</string>
+    <string name="media_data_retry">重新加载</string>
+    <string name="media_dln_open">前往投屏</string>
+    <string name="media_dln_play_stoped">投屏</string>
+    <string name="media_dln_playing">投屏中…</string>
+    <string name="media_empty_artist">--</string>
+    <string name="media_empty_title_unknown">暂无</string>
+    <string name="media_float_lyric_window">悬浮歌词</string>
+    <string name="media_gallery_subtitle">前往图库</string>
+    <string name="media_gallery_title">图库浏览中</string>
+    <string name="media_leishi_title">一起K歌吧</string>
+    <string name="media_list_data_empty">暂无列表</string>
+    <string name="media_list_empty_recommend">暂无推荐</string>
+    <string name="media_loading">加载中...</string>
+    <string name="media_netease_playlist_title">猜你喜欢</string>
+    <string name="media_no_lrc_label">暂无歌词</string>
+    <string name="media_open_app">进入应用</string>
+    <string name="media_recommend_playlist">热榜歌单</string>
+    <string name="media_recommend_radio">推荐电台</string>
+    <string name="media_resume_ktv">继续K歌</string>
+    <string name="media_resume_play">继续播放</string>
+    <string name="media_switch_when_hfpcall">蓝牙通话中，请稍后重试</string>
+    <string name="media_title_init">来首音乐吧</string>
+    <string name="media_to_iqiyi_video">前往爱奇艺</string>
+    <string name="media_to_leishi_ktv">前往雷石KTV</string>
+    <string name="media_to_migu_video">前往咪咕视频</string>
+    <string name="media_video_none_title">一起追剧吧</string>
+    <string name="media_video_playing">视频媒体播放中</string>
+    <string name="memory_using">内存占用</string>
+    <string name="meter">米</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除%1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">有 %1$d 条以上的新通知</string>
+    <string name="mtrl_picker_a11y_next_month">转到下个月</string>
+    <string name="mtrl_picker_a11y_prev_month">转到上个月</string>
+    <string name="mtrl_picker_announce_current_selection">当前的选择是：%1$s</string>
+    <string name="mtrl_picker_cancel">取消</string>
+    <string name="mtrl_picker_confirm">确定</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">请选择日期</string>
+    <string name="mtrl_picker_date_header_unselected">选定的日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">表示周几的列：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式无效。</string>
+    <string name="mtrl_picker_invalid_format_example">示例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">范围无效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">转到 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">不在允许的范围内：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">开始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 结束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">请选择范围</string>
+    <string name="mtrl_picker_range_header_unselected">开始日期 - 结束日期</string>
+    <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">结束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">开始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切换到日历输入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">点按即可切换到选择某天</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切换到文本字段输入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">点按即可切换到选择某年</string>
+    <string name="mtrl_timepicker_cancel">取消</string>
+    <string name="mtrl_timepicker_confirm">确定</string>
+    <string name="multichannel_stream_media">全车视野补盲</string>
+    <string name="music_no_lyric_keyword1">无歌词</string>
+    <string name="music_no_lyric_keyword2">纯音乐</string>
+    <string name="music_no_lyric_keyword3">暂不支持歌词</string>
+    <string name="netease_app_name">网易云音乐</string>
+    <string name="netease_version_low_empty_list">"暂无列表
+请前往应用中心升级应用"</string>
+    <string name="netease_version_low_empty_lyric">"暂无歌词
+请前往应用中心升级应用"</string>
+    <string name="netease_version_low_empty_recommend">"暂无推荐
+请前往应用中心升级应用"</string>
+    <string name="no_connect_bluetooth">当前未连接蓝牙设备</string>
+    <string name="no_connecting">暂未连接</string>
+    <string name="no_recent_apps">暂无最近使用</string>
+    <string name="noa_pop_quick_active">点击按钮开始辅助驾驶</string>
+    <string name="noa_pop_quick_button">开始</string>
+    <string name="notification_bubble_title">气泡</string>
+    <string name="notification_channel_tv_pip">画中画</string>
+    <string name="nzp_string_array_1">组合驾驶辅助已退出</string>
+    <string name="nzp_string_array_10">右侧变道失败</string>
+    <string name="nzp_string_array_11">左侧变道失败</string>
+    <string name="nzp_string_array_12">即将驶出 NZP 路段</string>
+    <string name="nzp_string_array_13">请立即控制车辆</string>
+    <string name="nzp_string_array_14">安全停车中，请控制车辆</string>
+    <string name="nzp_string_array_15">请控制车辆</string>
+    <string name="nzp_string_array_16">请立即控制车辆</string>
+    <string name="nzp_string_array_17">请手握方向盘</string>
+    <string name="nzp_string_array_18">请注视前方道路</string>
+    <string name="nzp_string_array_19">请操作转向拨杆以变道</string>
+    <string name="nzp_string_array_2">NZP 即将开启...</string>
+    <string name="nzp_string_array_20">NZP领航辅助运行中</string>
+    <string name="nzp_string_array_21">已降级为LCC Plus</string>
+    <string name="nzp_string_array_22">LCC 已退出</string>
+    <string name="nzp_string_array_23">LCC Plus 已退出</string>
+    <string name="nzp_string_array_24">NZP 已退出</string>
+    <string name="nzp_string_array_3">NZP已激活</string>
+    <string name="nzp_string_array_4">LCC Plus运行中</string>
+    <string name="nzp_string_array_5">LCC 运行中</string>
+    <string name="nzp_string_array_6">加速中</string>
+    <string name="nzp_string_array_7">变道进行中</string>
+    <string name="nzp_string_array_8">本次变道已取消</string>
+    <string name="nzp_string_array_9">变道已完成</string>
+    <string name="one_click_breath">一键透气</string>
+    <string name="one_click_breath_on">一键关窗</string>
+    <string name="one_click_close_door">一键关门</string>
+    <string name="one_click_drift">一键漂移</string>
+    <string name="one_handed_tutorial_description">如需退出，请从屏幕底部向上滑动，或点按应用上方的任意位置</string>
+    <string name="one_handed_tutorial_title">使用单手模式</string>
+    <string name="onlineradio_app_name">云听</string>
+    <string name="open_car3d">打开车模</string>
+    <string name="open_card">打开卡片</string>
+    <string name="open_map">打开地图</string>
+    <string name="open_window">一键开窗</string>
+    <string name="open_window_on">一键关窗</string>
+    <string name="oversea_online_media_app_name">在线多媒体</string>
+    <string name="parking_comfort">驻车舒享</string>
+    <string name="part_glass">隔断玻璃下降</string>
+    <string name="part_glass_on">隔断玻璃上升</string>
+    <string name="password_toggle_content_description">显示密码</string>
+    <string name="phone_charge">无线充电</string>
+    <string name="pip_close">关闭画中画</string>
+    <string name="pip_fullscreen">全屏</string>
+    <string name="pip_menu_title">菜单</string>
+    <string name="pip_notification_message">如果您不想让“%s”使用此功能，请点按以打开设置，然后关闭此功能。</string>
+    <string name="pip_notification_title">%s目前位于“画中画”中</string>
+    <string name="pip_notification_unknown_title">（节目没有标题）</string>
+    <string name="pip_pause">暂停</string>
+    <string name="pip_phone_close">关闭</string>
+    <string name="pip_phone_enter_split">进入分屏模式</string>
+    <string name="pip_phone_expand">展开</string>
+    <string name="pip_phone_settings">设置</string>
+    <string name="pip_play">播放</string>
+    <string name="pip_skip_to_next">跳到下一个</string>
+    <string name="pip_skip_to_prev">跳到上一个</string>
+    <string name="position_light">位置灯</string>
+    <string name="prompt_drift_condition_battery_power">整车电量>=20%</string>
+    <string name="prompt_drift_condition_cancel">暂不漂移</string>
+    <string name="prompt_drift_condition_check_title">开启条件</string>
+    <string name="prompt_drift_condition_confirm">开启漂移</string>
+    <string name="prompt_drift_condition_drive_mode">驾驶模式切换为运动模式</string>
+    <string name="prompt_drift_condition_drive_system">驱动系统正常</string>
+    <string name="prompt_drift_condition_esc_system">ESC系统正常</string>
+    <string name="prompt_drift_condition_hot_manage_system">热管理系统正常</string>
+    <string name="prompt_drift_condition_safety_belt">司乘人员已系安全带</string>
+    <string name="prompt_drift_condition_speed">车速&lt;7km/h</string>
+    <string name="prompt_drift_condition_steering_system">转向系统正常</string>
+    <string name="prompt_drift_condition_tire_pressure_system">胎压系统正常</string>
+    <string name="prompt_drift_control_accept">同意</string>
+    <string name="prompt_drift_disable_tips">弹射起步开启，漂移功能暂不可用</string>
+    <string name="prompt_drift_error_tips">"请确认以下条件满足，再重试
+ 1、电量 > 20%
+ 2、车辆在D档
+ 3、司乘人员都已上安全带
+ 4、驱动系统、ESC系统、转向系统、胎压系统、热管理系统正常
+ 5、运动模式切换成功
+"</string>
+    <string name="prompt_drift_error_title">一键漂移无法开启</string>
+    <string name="prompt_drift_i_know">我知道了</string>
+    <string name="prompt_drift_tips" formatted="false">"使用要求：
+ 1、此功能必须在符合国家安全标准的赛车场或专业场地内应用，不得在公共道路和不符合安全标准场所使用。
+ 2、使用一键漂移时，为确保安全建议使用原厂配套的漂移套装配件。一键漂移的不当操作和过度操作造成的部件损坏均不在质保范围内。
+ 3、一键漂移需要比较专业的驾驶技能，所以要求有至少3年驾龄以上的驾驶员操作。错误操作和私自改装车辆，在行驶中造成的损失有驾驶人自己承担。
+ 
+ 使用说明：
+ 1、此功能须进入“运动”驾驶模式，且车速&lt;7km/h，确认司乘人员安全带系上才能开启。安全带全程不得拔出，在中途停车拔出任一安全带，会自动关闭功能。
+ 2、此功能必须在电量SOC≥20%才能开启，当SOC&lt;20%的时候会自动关闭功能。
+ 3、此功能必须在整车系统全部正常下才能开启，如有异常会关闭功能。
+ 
+ 一键漂移功能开启后：
+ 1、One-pedal，自动驻车（Autohold）功能默认关闭；
+ 2、自动切换到“运动”模式；
+ 3、关闭ESC功能；
+ 4、能量回收等级低；
+ 5、部分驾驶辅助和泊车辅助功能将禁用或受限，详情请参考《用户手册》；
+ 
+ 以上信息是否完全理解并同意？"</string>
+    <string name="prompt_drift_tips_cs1e" formatted="false">"使用要求：
+ 1、此功能必须在符合国家安全标准的赛车场或专业场地内应用，不得在公共道路和不符合安全标准场所使用。
+ 2、使用一键漂移时，为确保安全建议使用原厂配套的漂移套装配件。一键漂移的不当操作和过度操作造成的部件损坏均不在质保范围内。
+ 3、一键漂移需要比较专业的驾驶技能，所以要求有至少3年驾龄以上的驾驶员操作。错误操作和私自改装车辆，在行驶中造成的损失有驾驶人自己承担。
+ 
+ 使用说明：
+ 1、此功能须进入“运动”驾驶模式，且车速&lt;7km/h，确认司乘人员安全带系上才能开启。安全带全程不得拔出，在中途停车拔出任一安全带，会自动关闭功能。
+ 2、此功能必须在电量SOC≥20%才能开启，当SOC&lt;20%的时候会自动关闭功能。
+ 3、此功能必须在整车系统全部正常下才能开启，如有异常会关闭功能。
+ 
+ 一键漂移功能开启后：
+ 1、停止模式切换到“缓行”；
+ 2、自动驻车（Autohold）功能默认关闭；
+ 3、自动切换到“运动”模式；
+ 4、关闭ESC功能；
+ 5、能量回收等级低；
+ 6、部分驾驶辅助和泊车辅助功能将禁用或受限，详情请参考《用户手册》；
+ 
+ 以上信息是否完全理解并同意？"</string>
+    <string name="prompt_drift_title">一键漂移用户须知</string>
+    <string name="prompt_guest_mode_tips">访客模式开启中该功能不可用，请关闭后尝试</string>
+    <string name="prompt_launch_control_accept">同意并进入</string>
+    <string name="prompt_launch_control_content">"警告：弹射起步过程中，驾驶员有责任全程保持对车辆的控制，并确保车辆行驶和使用环境，请务必在确认安全的条件下操作。长时间连续弹射可能会造成整车驱动和制动系统性能下降，希望您能谨慎使用该功能。为确保行驶安全，不使用时请主动关闭功能开关。
+ 
+使用要求： 
+1、弹射起步功能需要在停车状态，确认车门关闭、司乘人员安全带正常系上 
+2、保证车辆动力系统温度正常，电量充足 
+3、关闭智能驾驶相关功能，摆正方向盘，释放电子手刹，车辆调整为D档 
+ 
+使用说明： 
+1、 打开“弹射起步”按键 
+2、 先满踩下刹车，后满踩油门，4秒内将制动踏板完全释放，整车会以极大的加速度弹射起步。
+3、为保证最佳体验，功能开启后，驾驶模式将自动切换为“运动模式”。功能关闭后，会保留在运动模式。如切换其他驾驶模式会自动关闭“弹射起步”功能。
+4、开启后，“一键漂移“功能暂不可用。 
+ 
+以上信息是否完全理解并同意？"</string>
+    <string name="prompt_launch_control_cs1e_content">"警告：弹射起步过程中，驾驶员有责任全程保持对车辆的控制，并确保车辆行驶和使用环境，请务必在确认安全的条件下操作。长时间连续弹射可能会造成整车驱动和制动系统性能下降，希望您能谨慎使用该功能，为确保行驶安全，不使用时请主动关闭功能开关。
+ 
+使用要求： 
+1、弹射起步功能需要在停车状态，确认车门关闭、司乘人员安全带正常系上 
+2、保证车辆动力系统温度正常，电量充足 
+3、关闭智能驾驶相关功能，摆正方向盘，释放电子手刹，车辆调整为D档 
+ 
+使用说明： 
+1、 打开“弹射起步”按键 
+2、 先满踩下刹车，后满踩油门，4秒内将制动踏板完全释放，整车会以极大的加速度弹射起步。
+3、为保证最佳体验，功能开启后，加速能力将自动切换为“运动”。功能关闭后，会保留在运动模式。如切换其他加速能力及特殊路况驾驶模式会自动关闭“弹射起步”功能。 
+ 
+以上信息是否完全理解并同意？"</string>
+    <string name="prompt_launch_control_disable_tips">漂移功能开启，弹射起步暂不可用</string>
+    <string name="prompt_launch_control_race_content">"警告：弹射起步过程中，驾驶员有责任全程保持对车辆的控制，并确保车辆行驶和使用环境，请务必在确认安全的条件下操作。长时间连续弹射可能会造成整车驱动和制动系统性能下降，希望您能谨慎使用该功能，为确保行驶安全，不使用时请主动关闭功能开关。
+ 
+使用要求： 
+1、弹射起步功能需要在停车状态，确认车门关闭、司乘人员安全带正常系上 
+2、保证车辆动力系统温度正常，电量充足 
+3、关闭智能驾驶相关功能，摆正方向盘，释放电子手刹，车辆调整为D档 
+ 
+使用说明： 
+1、 打开“弹射起步”按键 
+2、 先满踩下刹车，后满踩油门，4秒内将制动踏板完全释放，整车会以极大的加速度弹射起步。
+3、为保证最佳体验，功能开启后，驾驶模式将自动切换为“运动模式”。功能关闭后，会保留在运动模式。如切换其他驾驶模式会自动关闭“弹射起步”功能。（如“极氪赛道-车辆控制激活可用”状态下，则不会切换为“运动模式”。）
+4、开启后，“极氪赛道-漂移模式”暂不可用。 
+ 
+以上信息是否完全理解并同意？"</string>
+    <string name="prompt_launch_control_title">弹射起步用户须知</string>
+    <string name="prompt_rear_fog_lamps_tips">请开启近光灯后再使用</string>
+    <string name="prompt_saving_mode_tips">超级省电模式开启中该功能不可用，请关闭后尝试</string>
+    <string name="prompt_trunk_open_confirm">再次点击可开启后备箱</string>
+    <string name="qq_app_name">QQ音乐</string>
+    <string name="racing_mode">竞速模式</string>
+    <string name="rear_charging_cap">后充电口盖</string>
+    <string name="rear_fog_lamps">后雾灯</string>
+    <string name="recent_apps">最近使用</string>
+    <string name="remove">移除</string>
+    <string name="remove_mini_app">移除小程序</string>
+    <string name="reset_internet">网络重启</string>
+    <string name="restart_button_description">点按即可重启此应用并进入全屏模式。</string>
+    <string name="right_opposite_door">右侧对开门</string>
+    <string name="right_switch_disabled">右侧开关禁用</string>
+    <string name="right_window_lock">右后车窗童锁</string>
+    <string name="scarp_cruised">陡坡缓降</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="smart_screen_app_name">智慧屏</string>
+    <string name="smart_screen_empty_text">后排媒体使用中...</string>
+    <string name="smart_screen_in_use">正在使用中...</string>
+    <string name="smart_screen_lock_text">音频已锁定在商务舱，点击解锁</string>
+    <string name="smart_screen_rear_media_app">后排媒体应用</string>
+    <string name="smart_screen_unlock_text">点击锁定商务舱音频播放</string>
+    <string name="sr_alarm_info_100000">"请清洁挡风玻璃驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100001">"请清洁正后驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100002">"请清洁全景影像前环视摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100003">"请清洁全景影像后环视摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100004">"请清洁全景影像左环视摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100005">"请清洁全景影像右环视摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100006">"请清洁前泊车辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100007">"请清洁后泊车辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100008">"请清洁前驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100009">"请清洁左前驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100010">"请清洁右前驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100011">"请清洁左后驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100012">"请清洁右后驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100013">"请清洁挡风玻璃驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_100100">"部分辅助驾驶功能受限，请联系极氪官方售后
+前视摄像头异常"</string>
+    <string name="sr_alarm_info_100101">"部分辅助驾驶功能受限，请联系极氪官方售后
+后视摄像头异常"</string>
+    <string name="sr_alarm_info_100102">"部分辅助驾驶功能受限，请联系极氪官方售后
+前环视摄像头异常"</string>
+    <string name="sr_alarm_info_100103">"部分辅助驾驶功能受限，请联系极氪官方售后
+后环视摄像头异常"</string>
+    <string name="sr_alarm_info_100104">"部分辅助驾驶功能受限，请联系极氪官方售后
+左环视摄像头异常"</string>
+    <string name="sr_alarm_info_100105">"部分辅助驾驶功能受限，请联系极氪官方售后
+右环视摄像头异常"</string>
+    <string name="sr_alarm_info_100106">"部分辅助驾驶功能受限，请联系极氪官方售后
+前部超声波雷达异常"</string>
+    <string name="sr_alarm_info_100107">"部分辅助驾驶功能受限，请联系极氪官方售后
+后部超声波雷达异常"</string>
+    <string name="sr_alarm_info_100108">"部分辅助驾驶功能受限，请联系极氪官方售后
+前毫米波雷达异常"</string>
+    <string name="sr_alarm_info_100109">"部分辅助驾驶功能受限，请联系极氪官方售后
+左前侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_100110">"部分辅助驾驶功能受限，请联系极氪官方售后
+右前侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_100111">"部分辅助驾驶功能受限，请联系极氪官方售后
+左后侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_100112">"部分辅助驾驶功能受限，请联系极氪官方售后
+右后侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_100113">"部分辅助驾驶功能受限，请联系极氪官方售后
+前视摄像头异常"</string>
+    <string name="sr_alarm_info_100200">"部分辅助驾驶功能受限，请联系极氪官方售后
+前视摄像头异常"</string>
+    <string name="sr_alarm_info_100201">"部分辅助驾驶功能受限，请联系极氪官方售后
+后视摄像头异常"</string>
+    <string name="sr_alarm_info_100202">"部分辅助驾驶功能受限，请联系极氪官方售后
+前环视摄像头异常"</string>
+    <string name="sr_alarm_info_100203">"部分辅助驾驶功能受限，请联系极氪官方售后
+后环视摄像头异常"</string>
+    <string name="sr_alarm_info_100204">"部分辅助驾驶功能受限，请联系极氪官方售后
+左环视摄像头异常"</string>
+    <string name="sr_alarm_info_100205">"部分辅助驾驶功能受限，请联系极氪官方售后
+右环视摄像头异常"</string>
+    <string name="sr_alarm_info_100206">"部分辅助驾驶功能受限，请联系极氪官方售后
+前毫米波雷达异常"</string>
+    <string name="sr_alarm_info_100207">"部分辅助驾驶功能受限，请联系极氪官方售后
+左前侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_100208">"部分辅助驾驶功能受限，请联系极氪官方售后
+右前侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_100209">"部分辅助驾驶功能受限，请联系极氪官方售后
+左后侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_100210">"部分辅助驾驶功能受限，请联系极氪官方售后
+右后侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_100211">"部分辅助驾驶功能受限，请联系极氪官方售后
+前视摄像头异常"</string>
+    <string name="sr_alarm_info_101000">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101001">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101002">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101003">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101004">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101005">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101100">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101101">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101102">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101103">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101104">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101105">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101106">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101107">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101108">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101109">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101200">地图故障。部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101201">地图故障。部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_101300">"拖车连接
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_101301">部分辅助驾驶功能受限，请前往用户手册了解具体信息</string>
+    <string name="sr_alarm_info_20001">"NZP无法激活
+驾驶模式不支持"</string>
+    <string name="sr_alarm_info_20002">"NZP无法激活
+安全带未系"</string>
+    <string name="sr_alarm_info_20003">"NZP无法激活
+门锁未关闭"</string>
+    <string name="sr_alarm_info_20004">"NZP无法激活
+挡位不在D挡"</string>
+    <string name="sr_alarm_info_20005">"NZP无法激活
+补能口盖未关闭"</string>
+    <string name="sr_alarm_info_20007">"NZP无法激活
+车速过高"</string>
+    <string name="sr_alarm_info_20008">"NZP无法激活
+电量过低"</string>
+    <string name="sr_alarm_info_20009">"NZP无法激活
+车辆未停车入P挡"</string>
+    <string name="sr_alarm_info_20012">NZP无法激活</string>
+    <string name="sr_alarm_info_20013">"NZP无法激活
+电子驻车制动未释放"</string>
+    <string name="sr_alarm_info_20015">"NZP无法激活
+距离前车过近"</string>
+    <string name="sr_alarm_info_20016">"NZP无法激活
+刹车踏板未松开"</string>
+    <string name="sr_alarm_info_20017">"NZP无法激活
+自动驻车未关闭"</string>
+    <string name="sr_alarm_info_20018">"NZP无法激活
+胎压异常"</string>
+    <string name="sr_alarm_info_20019">"NZP无法激活
+车辆未居中行驶"</string>
+    <string name="sr_alarm_info_20021">"NZP无法激活
+车身位置未调正"</string>
+    <string name="sr_alarm_info_20024">请稍后再激活辅助驾驶</string>
+    <string name="sr_alarm_info_20028">NZP已激活</string>
+    <string name="sr_alarm_info_20031">功能已降为LCC</string>
+    <string name="sr_alarm_info_20032">功能已降为LCC</string>
+    <string name="sr_alarm_info_20033">"功能已降为LCC
+请注意前方道路分叉"</string>
+    <string name="sr_alarm_info_20034">"您正在干预方向
+车道居中已暂停"</string>
+    <string name="sr_alarm_info_20038">前方300m，NZP即将退出</string>
+    <string name="sr_alarm_info_20040">"NZP已退出
+请控制车辆"</string>
+    <string name="sr_alarm_info_20041">"请关闭门锁
+否则NZP将退出"</string>
+    <string name="sr_alarm_info_20048">"请系好安全带
+否则NZP将退出"</string>
+    <string name="sr_alarm_info_20049">"NZP即将退出
+雨量过大"</string>
+    <string name="sr_alarm_info_20050">"NZP已退出
+挡位不在D挡"</string>
+    <string name="sr_alarm_info_20051">"NZP已退出
+电子驻车制动未释放"</string>
+    <string name="sr_alarm_info_20052">"NZP已退出
+ESC未开启"</string>
+    <string name="sr_alarm_info_20053">"NZP即将退出
+胎压异常"</string>
+    <string name="sr_alarm_info_20054">"NZP已退出
+车辆未Ready"</string>
+    <string name="sr_alarm_info_20055">"NZP已退出
+请控制车辆"</string>
+    <string name="sr_alarm_info_20058">"NZP即将退出
+电量过低"</string>
+    <string name="sr_alarm_info_20061">"已踩下加速踏板
+车辆不会自动减速"</string>
+    <string name="sr_alarm_info_20062">"NZP已退出
+距离前车过近"</string>
+    <string name="sr_alarm_info_20065">"车速放缓
+驶入急弯"</string>
+    <string name="sr_alarm_info_20069">"NZP已退出
+跟停超时"</string>
+    <string name="sr_alarm_info_20070">"请轻踩加速踏板
+确认自车起步"</string>
+    <string name="sr_alarm_info_20073">"请下拨转向灯拨杆
+确认超车"</string>
+    <string name="sr_alarm_info_20074">"请上拨转向灯拨杆
+确认超车"</string>
+    <string name="sr_alarm_info_20080">变道已取消</string>
+    <string name="sr_alarm_info_20086">"请降低车速
+否则无法帮您变道"</string>
+    <string name="sr_alarm_info_20087">"请提高车速
+否则无法帮您变道"</string>
+    <string name="sr_alarm_info_20088">"变道已取消
+等待超时"</string>
+    <string name="sr_alarm_info_20089">"请注意控制车辆
+路况危险"</string>
+    <string name="sr_alarm_info_20091">正在驶入匝道</string>
+    <string name="sr_alarm_info_20092">"请手动变道
+即将错过匝道"</string>
+    <string name="sr_alarm_info_20093">"正在变道
+前方车道受阻"</string>
+    <string name="sr_alarm_info_20094">"请手动向左变道
+路况复杂"</string>
+    <string name="sr_alarm_info_20095">"变道未响应
+不符合导航路线"</string>
+    <string name="sr_alarm_info_20097">正在进入最优车道</string>
+    <string name="sr_alarm_info_20099">"请手动变道
+即将错过匝道"</string>
+    <string name="sr_alarm_info_20100">紧急制动中</string>
+    <string name="sr_alarm_info_201000">"路线学习准备中
+移动车辆会导致学习失败"</string>
+    <string name="sr_alarm_info_201001">"路线学习准备完成
+可泊出车辆继续学习"</string>
+    <string name="sr_alarm_info_20102">"请注意控制车辆
+前方障碍物"</string>
+    <string name="sr_alarm_info_20103">请立即控制车辆</string>
+    <string name="sr_alarm_info_20104">请立即控制车辆</string>
+    <string name="sr_alarm_info_20105">"NZP已退出
+车速过高"</string>
+    <string name="sr_alarm_info_20109">请手握方向盘</string>
+    <string name="sr_alarm_info_20110">请手握方向盘</string>
+    <string name="sr_alarm_info_20111">请立即控制车辆</string>
+    <string name="sr_alarm_info_20119">"NZP无法激活
+超级省电模式未关闭"</string>
+    <string name="sr_alarm_info_20122">小心汇入车辆</string>
+    <string name="sr_alarm_info_20133">"请立即控制车辆
+否则车辆将刹停"</string>
+    <string name="sr_alarm_info_20135">"请立即控制车辆
+功能受限"</string>
+    <string name="sr_alarm_info_20137">请手动汇入主路</string>
+    <string name="sr_alarm_info_20138">"前方200m有施工区域
+小心驾驶"</string>
+    <string name="sr_alarm_info_20139">小心前方障碍物</string>
+    <string name="sr_alarm_info_20140">"NZP已退出
+请控制车辆"</string>
+    <string name="sr_alarm_info_20141">小心前方碰撞风险</string>
+    <string name="sr_alarm_info_20143">"功能已降为LCC
+功能受限"</string>
+    <string name="sr_alarm_info_20144">"功能已降为ACC
+功能受限"</string>
+    <string name="sr_alarm_info_20145">"请手动选择车道
+交通流复杂"</string>
+    <string name="sr_alarm_info_20146">"传感器校准中
+辅助驾驶功能暂不可用"</string>
+    <string name="sr_alarm_info_20147">"请下拨转向灯拨杆确认变道
+前方车道受阻"</string>
+    <string name="sr_alarm_info_20193">"NZP无法激活
+功能受限"</string>
+    <string name="sr_alarm_info_20194">"系统变道能力受限
+小心驾驶"</string>
+    <string name="sr_alarm_info_20195">"NZP已退出
+请控制车辆"</string>
+    <string name="sr_alarm_info_20196">"NZP已退出
+本次行程中LCC/NZP不可用"</string>
+    <string name="sr_alarm_info_20197">"请立即控制车辆
+正在识别可用车道"</string>
+    <string name="sr_alarm_info_20198">NZP已恢复</string>
+    <string name="sr_alarm_info_20199">"请下拨转向灯拨杆确认变道
+即将驶入匝道"</string>
+    <string name="sr_alarm_info_20200">"请上拨转向灯拨杆确认变道
+前方车道受阻"</string>
+    <string name="sr_alarm_info_20201">"请下拨转向灯拨杆
+按导航路线行驶"</string>
+    <string name="sr_alarm_info_20202">"请上拨转向灯拨杆
+按导航路线行驶"</string>
+    <string name="sr_alarm_info_20203">"请手动变道
+即将错过路口"</string>
+    <string name="sr_alarm_info_20204">"超车调整为标准模式
+因多次取消或未确认"</string>
+    <string name="sr_alarm_info_20205">超车恢复为敏捷模式</string>
+    <string name="sr_alarm_info_20206">"变道超车已关闭
+因多次取消或未确认"</string>
+    <string name="sr_alarm_info_20207">"请前往[设置项]
+校准辅助驾驶传感器"</string>
+    <string name="sr_alarm_info_20208">正在避让大车</string>
+    <string name="sr_alarm_info_20209">正在绕行</string>
+    <string name="sr_alarm_info_20210">"正在绕行
+车速放缓"</string>
+    <string name="sr_alarm_info_20212">"向左变道
+按导航路线行驶"</string>
+    <string name="sr_alarm_info_20213">"向右变道
+按导航路线行驶"</string>
+    <string name="sr_alarm_info_20214">"请手握方向盘
+否则无法帮您变道"</string>
+    <string name="sr_alarm_info_20215">"请手握方向盘
+否则无法帮您变道"</string>
+    <string name="sr_alarm_info_20217">"请手握方向盘
+否则无法帮您变道"</string>
+    <string name="sr_alarm_info_20218">"请手动变道
+前方道路拥堵"</string>
+    <string name="sr_alarm_info_20219">小心前方障碍物</string>
+    <string name="sr_alarm_info_20220">"暂不响应加速请求
+距离前车过近"</string>
+    <string name="sr_alarm_info_20221">辅助驾驶校准检测正常，无需校准</string>
+    <string name="sr_alarm_info_20222">请在城区道路进行适量的转弯</string>
+    <string name="sr_alarm_info_20223">请在城区道路直线行驶</string>
+    <string name="sr_alarm_info_20224">"校准成功
+车辆下次上电生效"</string>
+    <string name="sr_alarm_info_20225">"校准超时
+请重新尝试"</string>
+    <string name="sr_alarm_info_20226">"NZP无法激活
+ESC未开启"</string>
+    <string name="sr_alarm_info_20227">"NZP无法激活
+电源模式不支持"</string>
+    <string name="sr_alarm_info_20228">"NZP无法激活
+方向盘未松开"</string>
+    <string name="sr_alarm_info_20229">"NZP无法激活
+前方车道受阻"</string>
+    <string name="sr_alarm_info_20230">"NZP无法激活
+前方障碍物"</string>
+    <string name="sr_alarm_info_20231">"NZP无法激活
+洗车模式未关闭"</string>
+    <string name="sr_alarm_info_20232">"NZP已退出
+功能受限"</string>
+    <string name="sr_alarm_info_20233">"请下拨转向灯拨杆确认变道
+注意安全"</string>
+    <string name="sr_alarm_info_20234">"请上拨转向灯拨杆确认变道
+注意安全"</string>
+    <string name="sr_alarm_info_20235">"请上拨转向灯拨杆
+按导航路线行驶"</string>
+    <string name="sr_alarm_info_20236">"请下拨转向灯拨杆
+按导航路线行驶"</string>
+    <string name="sr_alarm_info_20237">"请下拨转向灯拨杆
+按导航路线行驶"</string>
+    <string name="sr_alarm_info_20238">"请上拨转向灯拨杆
+按导航路线行驶"</string>
+    <string name="sr_alarm_info_20239">"请下拨转向灯拨杆
+按导航路线行驶"</string>
+    <string name="sr_alarm_info_20240">"请上拨转向灯拨杆
+按导航路线行驶"</string>
+    <string name="sr_alarm_info_20241">正在向左超车</string>
+    <string name="sr_alarm_info_20242">正在向右超车</string>
+    <string name="sr_alarm_info_20244">"请手动变道
+前方车道受阻"</string>
+    <string name="sr_alarm_info_20245">"NZP已退出
+驾驶模式不支持"</string>
+    <string name="sr_alarm_info_20246">"NZP已退出
+洗车模式未关闭"</string>
+    <string name="sr_alarm_info_20247">"请稍后再激活NZP
+功能受限"</string>
+    <string name="sr_alarm_info_20248">"NZP无法激活
+导航未开启"</string>
+    <string name="sr_alarm_info_20249">"NZP无法激活
+设置项开关未打开"</string>
+    <string name="sr_alarm_info_20250">"NZP无法激活
+当前路段不可用"</string>
+    <string name="sr_alarm_info_20251">"NZP已退出
+超级省电模式未关闭"</string>
+    <string name="sr_alarm_info_20252">"请关闭补能口盖
+否则NZP将退出"</string>
+    <string name="sr_alarm_info_20253">"请下拨转向灯拨杆确认变道
+即将驶入快车道"</string>
+    <string name="sr_alarm_info_20254">"请上拨转向灯拨杆确认变道
+即将驶入快车道"</string>
+    <string name="sr_alarm_info_20255">正在驶入快车道</string>
+    <string name="sr_alarm_info_20256">"请下拨转向灯拨杆确认变道
+避让右侧汇入口"</string>
+    <string name="sr_alarm_info_20257">"向左变道
+避让右侧汇入口"</string>
+    <string name="sr_alarm_info_20258">正在并入合流车道</string>
+    <string name="sr_alarm_info_20259">"请上拨转向灯拨杆确认变道
+前方汇入主路"</string>
+    <string name="sr_alarm_info_20260">"请下拨转向灯拨杆确认变道
+前方汇入主路"</string>
+    <string name="sr_alarm_info_20261">"向右变道
+避让左侧汇入口"</string>
+    <string name="sr_alarm_info_20262">"请上拨转向灯拨杆确认变道
+避让左侧汇入口"</string>
+    <string name="sr_alarm_info_20265">正在变道以规避风险</string>
+    <string name="sr_alarm_info_20268">小心加塞车辆</string>
+    <string name="sr_alarm_info_20270">"变道已取消
+路况危险"</string>
+    <string name="sr_alarm_info_20272">前方100m，NZP即将退出</string>
+    <string name="sr_alarm_info_20273">"车速放缓
+道旁施工"</string>
+    <string name="sr_alarm_info_20274">"车道线识别异常
+小心驾驶"</string>
+    <string name="sr_alarm_info_20275">小心行人</string>
+    <string name="sr_alarm_info_20276">"请手握方向盘
+变道已取消"</string>
+    <string name="sr_alarm_info_20277">小心大车</string>
+    <string name="sr_alarm_info_20278">风险换道等待中</string>
+    <string name="sr_alarm_info_20279">小心前方施工</string>
+    <string name="sr_alarm_info_20283">请轻转方向盘</string>
+    <string name="sr_alarm_info_20284">请轻转方向盘</string>
+    <string name="sr_alarm_info_20285">"请轻转方向盘
+否则无法帮您变道"</string>
+    <string name="sr_alarm_info_20286">"请轻转方向盘
+否则无法帮您变道"</string>
+    <string name="sr_alarm_info_20287">"请轻转方向盘
+变道已取消"</string>
+    <string name="sr_alarm_info_20288">"小心驾驶
+路况复杂"</string>
+    <string name="sr_alarm_info_20289">"暂无法主动变道
+地图受限"</string>
+    <string name="sr_alarm_info_20291">请稍后再激活NZP</string>
+    <string name="sr_alarm_info_20298">NZP已恢复</string>
+    <string name="sr_alarm_info_20299">辅助驾驶无法恢复</string>
+    <string name="sr_alarm_info_20300">"辅助驾驶无法恢复
+已超时"</string>
+    <string name="sr_alarm_info_20301">小心复杂路况</string>
+    <string name="sr_alarm_info_20302">小心路面颠簸</string>
+    <string name="sr_alarm_info_20303">小心坡道</string>
+    <string name="sr_alarm_info_20304">"车道线不清晰
+小心驾驶"</string>
+    <string name="sr_alarm_info_20305">小心急弯</string>
+    <string name="sr_alarm_info_20306">前方路况复杂</string>
+    <string name="sr_alarm_info_20307">"请在开阔环境行驶
+10分钟后再激活NZP"</string>
+    <string name="sr_alarm_info_20308">"NZP已退出
+一键漂移未关闭"</string>
+    <string name="sr_alarm_info_20309">"辅助驾驶系统启动中
+请稍后再试"</string>
+    <string name="sr_alarm_info_20310">"NZP已退出
+悬架异常"</string>
+    <string name="sr_alarm_info_20311">"车速放缓
+前方收费站"</string>
+    <string name="sr_alarm_info_20313">"NZP已退出
+请控制车辆"</string>
+    <string name="sr_alarm_info_20314">%dm后NZP即将退出</string>
+    <string name="sr_alarm_info_20315">"辅助驾驶限速中
+功能受限"</string>
+    <string name="sr_alarm_info_20316">"正在减速中
+前方汇入/汇出口"</string>
+    <string name="sr_alarm_info_20317">"正在减速中
+车道较窄"</string>
+    <string name="sr_alarm_info_20318">拥堵跟车已开启</string>
+    <string name="sr_alarm_info_20319">调至1挡跟车距离开启拥堵跟车</string>
+    <string name="sr_alarm_info_20320">"NZP已退出
+电动拖车钩未关闭"</string>
+    <string name="sr_alarm_info_20321">"NZP无法激活
+NZP地图暂不可用"</string>
+    <string name="sr_alarm_info_20322">"路线学习中
+辅助驾驶功能暂不可用"</string>
+    <string name="sr_alarm_info_20323">双击拨杆激活NZP</string>
+    <string name="sr_alarm_info_20324">按2下激活键激活NZP</string>
+    <string name="sr_alarm_info_20325">"正在减速中
+前方盲区"</string>
+    <string name="sr_alarm_info_20326">"正在减速中
+前方行人"</string>
+    <string name="sr_alarm_info_20327">正在减速中</string>
+    <string name="sr_alarm_info_20504">前方红灯停车</string>
+    <string name="sr_alarm_info_20505">前方绿灯起步</string>
+    <string name="sr_alarm_info_20506">请注意前方红绿灯</string>
+    <string name="sr_alarm_info_20507">请注意前方黄灯</string>
+    <string name="sr_alarm_info_20508">前方即将左转</string>
+    <string name="sr_alarm_info_20509">"正在减速中
+前方右转"</string>
+    <string name="sr_alarm_info_20510">"请手动驾驶
+前方道路变化"</string>
+    <string name="sr_alarm_info_20511">NZP通勤领航已激活</string>
+    <string name="sr_alarm_info_20513">"NZP已退出
+请控制车辆"</string>
+    <string name="sr_alarm_info_20514">绿灯通行中</string>
+    <string name="sr_alarm_info_20515">请注意红绿灯状态谨慎通行</string>
+    <string name="sr_alarm_info_20516">"小心来往车辆
+黄灯路口"</string>
+    <string name="sr_alarm_info_20517">"注意前方红绿灯
+请控制车辆"</string>
+    <string name="sr_alarm_info_21019">"请手动驾驶
+即将错过路口"</string>
+    <string name="sr_alarm_info_21020">小心侧后方车辆</string>
+    <string name="sr_alarm_info_21021">前方即将右转</string>
+    <string name="sr_alarm_info_21022">前方即将掉头</string>
+    <string name="sr_alarm_info_21023">"正在减速中
+前方左转"</string>
+    <string name="sr_alarm_info_21024">"正在减速中
+路况复杂"</string>
+    <string name="sr_alarm_info_21025">"正在减速中
+前方豁口"</string>
+    <string name="sr_alarm_info_21026">"请手动向左换道
+即将错过路口"</string>
+    <string name="sr_alarm_info_21027">"请手动向右换道
+即将错过路口"</string>
+    <string name="sr_alarm_info_21028">"请手动驾驶
+前方道路受阻"</string>
+    <string name="sr_alarm_info_21029">"请降低车速
+否则NZP将退出"</string>
+    <string name="sr_alarm_info_21030">"%dm后即将掉头
+请控制车辆"</string>
+    <string name="sr_alarm_info_21031">"%dm后进入环岛
+请控制车辆"</string>
+    <string name="sr_alarm_info_21032">"%dm后路况复杂
+请控制车辆"</string>
+    <string name="sr_alarm_info_21033">"防御减速中
+小心行人横穿"</string>
+    <string name="sr_alarm_info_21034">正在礼让行人</string>
+    <string name="sr_alarm_info_21035">NZP通勤领航已恢复</string>
+    <string name="sr_alarm_info_21036">NZP通勤领航已恢复</string>
+    <string name="sr_alarm_info_21037">"请注意行驶方向
+前方特殊车道"</string>
+    <string name="sr_alarm_info_21038">"请行驶到公开道路
+NZP无法激活"</string>
+    <string name="sr_alarm_info_21039">"NZP无法激活
+行驶方向不匹配"</string>
+    <string name="sr_alarm_info_21040">NZP通勤领航已结束</string>
+    <string name="sr_alarm_info_21041">"尝试变道中
+路况复杂"</string>
+    <string name="sr_alarm_info_21042">"请轻踩加速踏板
+确认通过路口"</string>
+    <string name="sr_alarm_info_21043">"智能调整车速中
+请注意限速"</string>
+    <string name="sr_alarm_info_21044">"智能调整车速中
+请注意限速"</string>
+    <string name="sr_alarm_info_21045">"智能调整车速中
+请注意限速"</string>
+    <string name="sr_alarm_info_21046">正在变道以远离豁口</string>
+    <string name="sr_alarm_info_21047">"即将跨实线绕行
+请注意行车安全"</string>
+    <string name="sr_alarm_info_21048">"请手动驾驶
+行驶方向不匹配"</string>
+    <string name="sr_alarm_info_21049">"NZP通勤领航无法激活
+设置项开关未打开"</string>
+    <string name="sr_alarm_info_21050">"即将重新规划至目的地
+已偏离通勤路线"</string>
+    <string name="sr_alarm_info_21051">正在进入待转区</string>
+    <string name="sr_alarm_info_21052">"请轻踩加速踏板
+确认驶入待行区"</string>
+    <string name="sr_alarm_info_21053">"即将跨实线换道
+请注意行车安全"</string>
+    <string name="sr_alarm_info_21054">即将驶入特殊车道</string>
+    <string name="sr_alarm_info_21055">正在驶离公交车道</string>
+    <string name="sr_alarm_info_21056">"即将驶入公交车道
+当前时段可通行"</string>
+    <string name="sr_alarm_info_21057">"请注意行驶时间
+当前为公交车道"</string>
+    <string name="sr_alarm_info_21058">请立即控制车辆</string>
+    <string name="sr_alarm_info_21059">"请按确认按键
+确认通过路口"</string>
+    <string name="sr_alarm_info_21062">"已重新规划至目的地
+当前通勤路线存在限行"</string>
+    <string name="sr_alarm_info_21063">"已重新规划至目的地
+前方道路受阻"</string>
+    <string name="sr_alarm_info_21064">"已重新规划至目的地
+通勤路线恢复失败"</string>
+    <string name="sr_alarm_info_21065">"请删除不常用通勤路线
+存储空间已满"</string>
+    <string name="sr_alarm_info_21066">"可双击激活NZP
+已恢复原有通勤路线"</string>
+    <string name="sr_alarm_info_21067">"请小心驾驶
+正在通过收费站"</string>
+    <string name="sr_alarm_info_21068">"请自行更换收费车道
+路况复杂"</string>
+    <string name="sr_alarm_info_21069">"请手动向右变道
+路况复杂"</string>
+    <string name="sr_alarm_info_21070">"功能已降为LCC
+请控制车辆"</string>
+    <string name="sr_alarm_info_21071">"请轻踩加速踏板
+确认通过收费站"</string>
+    <string name="sr_alarm_info_21072">行驶至通勤路线</string>
+    <string name="sr_alarm_info_21073">单击激活键激活NZP</string>
+    <string name="sr_alarm_info_21074">接近终点正在向右换道</string>
+    <string name="sr_alarm_info_21075">正在减速寻找车位</string>
+    <string name="sr_alarm_info_21076">即将越线刹停</string>
+    <string name="sr_alarm_info_21077">"智能调整车速中
+请注意限速"</string>
+    <string name="sr_alarm_info_21078">"前方即将掉头
+请注意行车安全"</string>
+    <string name="sr_alarm_info_21079">"前方即将驶入环岛
+请注意行车安全"</string>
+    <string name="sr_alarm_info_21080">"请立即控制车辆
+正在紧急向右变道"</string>
+    <string name="sr_alarm_info_21081">"即将远离公交车道
+时段限制"</string>
+    <string name="sr_alarm_info_21082">当前时段可通行</string>
+    <string name="sr_alarm_info_21083">"请注意行车安全
+正在变道至禁止通行车道"</string>
+    <string name="sr_alarm_info_21084">正在驶入ETC车道</string>
+    <string name="sr_alarm_info_21085">"请提前控制车辆
+正在驶入人工车道"</string>
+    <string name="sr_alarm_info_21086">"即将倒车
+正在尝试通行"</string>
+    <string name="sr_alarm_info_21087">"请小心加速
+正在调整方向"</string>
+    <string name="sr_alarm_info_21088">"请注意控制车辆
+前方车辆倒行"</string>
+    <string name="sr_alarm_info_21089">踩刹车可激活NZP</string>
+    <string name="sr_alarm_info_21090">"即将驶入公交车道
+请注意通行时间"</string>
+    <string name="sr_alarm_info_21091">"请注意行车安全
+当前为ETC车道"</string>
+    <string name="sr_alarm_info_22001">"LCC已退出
+距离前车过近"</string>
+    <string name="sr_alarm_info_22004">"LCC无法激活
+驾驶模式不支持"</string>
+    <string name="sr_alarm_info_22006">"LCC无法激活
+电量过低"</string>
+    <string name="sr_alarm_info_22007">"LCC无法激活
+门锁未关闭"</string>
+    <string name="sr_alarm_info_22009">"LCC无法激活
+补能口盖未关闭"</string>
+    <string name="sr_alarm_info_22011">"LCC无法激活
+安全带未系"</string>
+    <string name="sr_alarm_info_22012">"LCC无法激活
+挡位不在D挡"</string>
+    <string name="sr_alarm_info_22013">"LCC无法激活
+ESC未开启"</string>
+    <string name="sr_alarm_info_22015">"LCC无法激活
+电子驻车制动未释放"</string>
+    <string name="sr_alarm_info_22016">"LCC无法激活
+车速过高"</string>
+    <string name="sr_alarm_info_22023">LCC无法激活</string>
+    <string name="sr_alarm_info_22036">"LCC已退出
+跟停超时"</string>
+    <string name="sr_alarm_info_22037">LCC已激活</string>
+    <string name="sr_alarm_info_22038">"LCC已退出
+请控制车辆"</string>
+    <string name="sr_alarm_info_22045">请手握方向盘</string>
+    <string name="sr_alarm_info_22046">请手握方向盘</string>
+    <string name="sr_alarm_info_22047">请立即控制车辆</string>
+    <string name="sr_alarm_info_22061">"即将变道
+前方车道受阻"</string>
+    <string name="sr_alarm_info_22073">"LCC已退出
+车速过高"</string>
+    <string name="sr_alarm_info_22075">"LCC已退出
+驾驶模式不支持"</string>
+    <string name="sr_alarm_info_22076">"请关闭门锁
+否则LCC将退出"</string>
+    <string name="sr_alarm_info_22080">"请系好安全带
+否则LCC将退出"</string>
+    <string name="sr_alarm_info_22081">"LCC已退出
+挡位不在D挡"</string>
+    <string name="sr_alarm_info_22082">"LCC已退出
+电子驻车制动未释放"</string>
+    <string name="sr_alarm_info_22083">"LCC已退出
+ESC未开启"</string>
+    <string name="sr_alarm_info_22086">"请立即控制车辆
+否则车辆将刹停"</string>
+    <string name="sr_alarm_info_22088">"LCC即将退出
+雨量过大"</string>
+    <string name="sr_alarm_info_22089">"LCC即将退出
+电量过低"</string>
+    <string name="sr_alarm_info_22090">"请控制方向
+功能已降为ACC"</string>
+    <string name="sr_alarm_info_22091">"LCC无法激活
+自动驻车未关闭"</string>
+    <string name="sr_alarm_info_22092">"LCC无法激活
+雨量过大"</string>
+    <string name="sr_alarm_info_22140">"LCC已退出
+请控制车辆"</string>
+    <string name="sr_alarm_info_22143">"LCC已退出
+本次行程中LCC/NZP不可用"</string>
+    <string name="sr_alarm_info_22144">"功能已降为ACC
+功能受限"</string>
+    <string name="sr_alarm_info_22145">"LCC已退出
+功能受限"</string>
+    <string name="sr_alarm_info_22148">"LCC无法激活
+功能受限"</string>
+    <string name="sr_alarm_info_22149">"LCC无法激活
+超级省电模式未关闭"</string>
+    <string name="sr_alarm_info_22152">"LCC已退出
+距离前车过近"</string>
+    <string name="sr_alarm_info_22154">"请驻车后重新挂挡
+再尝试激活功能"</string>
+    <string name="sr_alarm_info_22155">"请注意控制车辆
+正在识别可用车道"</string>
+    <string name="sr_alarm_info_22156">LCC已恢复</string>
+    <string name="sr_alarm_info_22157">"LCC无法激活
+胎压异常"</string>
+    <string name="sr_alarm_info_22158">LCC无法激活</string>
+    <string name="sr_alarm_info_22159">"LCC无法激活
+请挂挡后尝试"</string>
+    <string name="sr_alarm_info_22160">"LCC无法激活
+车辆未居中行驶"</string>
+    <string name="sr_alarm_info_22161">"请轻握方向盘
+LCC无法激活"</string>
+    <string name="sr_alarm_info_22162">"LCC无法激活
+车速过高"</string>
+    <string name="sr_alarm_info_22164">"LCC无法激活
+设置项开关未打开"</string>
+    <string name="sr_alarm_info_22165">"LCC无法激活
+前方障碍物"</string>
+    <string name="sr_alarm_info_22166">"LCC无法激活
+洗车模式未关闭"</string>
+    <string name="sr_alarm_info_22167">"LCC无法激活
+刹车踏板未松开"</string>
+    <string name="sr_alarm_info_22168">"LCC无法激活
+距离前车过近"</string>
+    <string name="sr_alarm_info_22169">"LCC无法激活
+车道条件不满足"</string>
+    <string name="sr_alarm_info_22170">"LCC已退出
+车辆未Ready"</string>
+    <string name="sr_alarm_info_22171">"LCC已退出
+洗车模式未关闭"</string>
+    <string name="sr_alarm_info_22172">"LCC已退出
+超级省电模式未关闭"</string>
+    <string name="sr_alarm_info_22173">"LCC即将退出
+胎压异常"</string>
+    <string name="sr_alarm_info_22174">"请关闭补能口盖
+否则LCC将退出"</string>
+    <string name="sr_alarm_info_22177">"请稍后再激活LCC
+功能受限"</string>
+    <string name="sr_alarm_info_22178">"车速放缓
+前方路口"</string>
+    <string name="sr_alarm_info_22179">小心危险车辆</string>
+    <string name="sr_alarm_info_22180">"LCC即将退出
+前方路况复杂"</string>
+    <string name="sr_alarm_info_22181">请轻转方向盘</string>
+    <string name="sr_alarm_info_22182">请轻转方向盘</string>
+    <string name="sr_alarm_info_22183">LCC已恢复</string>
+    <string name="sr_alarm_info_22184">"即将靠左行驶
+可拨转向灯拨杆换道"</string>
+    <string name="sr_alarm_info_22185">"即将靠右行驶
+可拨转向灯拨杆换道"</string>
+    <string name="sr_alarm_info_22186">可下拨转向灯拨杆选择靠左行驶</string>
+    <string name="sr_alarm_info_22187">可上拨转向灯拨杆选择靠右行驶</string>
+    <string name="sr_alarm_info_22188">"即将靠左行驶
+可拨转向灯拨杆切换"</string>
+    <string name="sr_alarm_info_22189">"即将靠右行驶
+可拨转向灯拨杆切换"</string>
+    <string name="sr_alarm_info_22190">"LCC无法激活
+请沿车道一侧行驶"</string>
+    <string name="sr_alarm_info_22191">"车速放缓
+邻车道交通缓慢"</string>
+    <string name="sr_alarm_info_22192">小心急弯</string>
+    <string name="sr_alarm_info_22193">请注意车速</string>
+    <string name="sr_alarm_info_22194">"车速放缓
+路口弯道"</string>
+    <string name="sr_alarm_info_22195">"功能已降为ACC
+路况复杂"</string>
+    <string name="sr_alarm_info_22196">"LCC无法激活
+当前路段不可用"</string>
+    <string name="sr_alarm_info_22197">"请立即控制车辆
+长时间压线行驶"</string>
+    <string name="sr_alarm_info_22200">"LCC无法激活
+一键漂移未关闭"</string>
+    <string name="sr_alarm_info_22201">"LCC已退出
+一键漂移未关闭"</string>
+    <string name="sr_alarm_info_22202">"LCC无法激活
+电动拖车钩未关闭"</string>
+    <string name="sr_alarm_info_22203">"LCC无法激活
+悬架异常"</string>
+    <string name="sr_alarm_info_22204">"LCC已退出
+悬架异常"</string>
+    <string name="sr_alarm_info_22205">"LCC已退出
+请控制车辆"</string>
+    <string name="sr_alarm_info_22206">"LCC已退出
+电动拖车钩未关闭"</string>
+    <string name="sr_alarm_info_22212">请专注驾驶</string>
+    <string name="sr_alarm_info_22213">请专注驾驶</string>
+    <string name="sr_alarm_info_23001">ACC已激活</string>
+    <string name="sr_alarm_info_23002">"ACC已退出
+请控制车辆"</string>
+    <string name="sr_alarm_info_23006">"ACC无法激活
+驾驶模式不支持"</string>
+    <string name="sr_alarm_info_23007">"ACC无法激活
+电量过低"</string>
+    <string name="sr_alarm_info_23010">"ACC无法激活
+补能口盖未关闭"</string>
+    <string name="sr_alarm_info_23012">"ACC无法激活
+挡位不在D挡"</string>
+    <string name="sr_alarm_info_23014">"ACC无法激活
+安全带未系"</string>
+    <string name="sr_alarm_info_23016">"ACC无法激活
+ESC未开启"</string>
+    <string name="sr_alarm_info_23018">"ACC无法激活
+电子驻车制动未释放"</string>
+    <string name="sr_alarm_info_23019">"ACC无法激活
+车速过高"</string>
+    <string name="sr_alarm_info_23021">"ACC即将退出
+电量过低"</string>
+    <string name="sr_alarm_info_23026">"ACC已退出
+挡位不在D挡"</string>
+    <string name="sr_alarm_info_23028">"请系好安全带
+否则ACC将退出"</string>
+    <string name="sr_alarm_info_23030">"ACC已退出
+ESC未开启"</string>
+    <string name="sr_alarm_info_23031">"ACC已退出
+电子驻车制动未释放"</string>
+    <string name="sr_alarm_info_23033">"ACC已退出
+车速过高"</string>
+    <string name="sr_alarm_info_23036">"ACC无法激活
+自动驻车未关闭"</string>
+    <string name="sr_alarm_info_23037">"ACC无法激活
+雨量过大"</string>
+    <string name="sr_alarm_info_23038">"ACC即将退出
+雨量过大"</string>
+    <string name="sr_alarm_info_23039">"ACC无法激活
+门锁未关闭"</string>
+    <string name="sr_alarm_info_23041">ACC无法激活</string>
+    <string name="sr_alarm_info_23043">"ACC无法激活
+距离前车过近"</string>
+    <string name="sr_alarm_info_23044">"ACC无法激活
+刹车踏板未松开"</string>
+    <string name="sr_alarm_info_23045">"ACC无法激活
+胎压异常"</string>
+    <string name="sr_alarm_info_23047">ACC无法激活</string>
+    <string name="sr_alarm_info_23048">"ACC无法激活
+超级省电模式未关闭"</string>
+    <string name="sr_alarm_info_23051">"请关闭门锁
+否则ACC将退出"</string>
+    <string name="sr_alarm_info_23052">"ACC已退出
+请控制车辆"</string>
+    <string name="sr_alarm_info_23053">"ACC即将退出
+胎压异常"</string>
+    <string name="sr_alarm_info_23054">"ACC已退出
+车辆未Ready"</string>
+    <string name="sr_alarm_info_23058">"ACC已退出
+距离前车过近"</string>
+    <string name="sr_alarm_info_23060">"ACC已退出
+跟停超时"</string>
+    <string name="sr_alarm_info_23063">"请控制车辆避让
+前方障碍物"</string>
+    <string name="sr_alarm_info_23068">"ACC无法激活
+功能受限"</string>
+    <string name="sr_alarm_info_23069">"ACC已退出
+功能受限"</string>
+    <string name="sr_alarm_info_23070">"ACC已退出
+请控制车辆"</string>
+    <string name="sr_alarm_info_23115">"ACC无法激活
+前方障碍物"</string>
+    <string name="sr_alarm_info_23116">"ACC无法激活
+洗车模式未关闭"</string>
+    <string name="sr_alarm_info_23118">"ACC无法激活
+请挂挡后尝试"</string>
+    <string name="sr_alarm_info_23120">ACC已恢复</string>
+    <string name="sr_alarm_info_23121">"请关闭补能口盖
+否则ACC将退出"</string>
+    <string name="sr_alarm_info_23122">"ACC已退出
+洗车模式未关闭"</string>
+    <string name="sr_alarm_info_23123">"ACC已退出
+驾驶模式不支持"</string>
+    <string name="sr_alarm_info_23126">ACC已恢复</string>
+    <string name="sr_alarm_info_23127">"ACC无法激活
+一键漂移未关闭"</string>
+    <string name="sr_alarm_info_23128">"ACC已退出
+一键漂移未关闭"</string>
+    <string name="sr_alarm_info_23129">"ACC无法激活
+电动拖车钩未关闭"</string>
+    <string name="sr_alarm_info_23130">"ACC无法激活
+悬架异常"</string>
+    <string name="sr_alarm_info_23131">"ACC已退出
+悬架异常"</string>
+    <string name="sr_alarm_info_23132">"ACC已退出
+电动拖车钩未关闭"</string>
+    <string name="sr_alarm_info_23133">"辅助驾驶无法激活
+驾驶模式不支持"</string>
+    <string name="sr_alarm_info_23134">"辅助驾驶无法激活
+电量过低"</string>
+    <string name="sr_alarm_info_23135">"辅助驾驶无法激活
+补能口盖未关闭"</string>
+    <string name="sr_alarm_info_23136">"辅助驾驶无法激活
+挡位不在D挡"</string>
+    <string name="sr_alarm_info_23137">"辅助驾驶无法激活
+安全带未系"</string>
+    <string name="sr_alarm_info_23138">"辅助驾驶无法激活
+ESC未开启"</string>
+    <string name="sr_alarm_info_23139">"辅助驾驶无法激活
+电子驻车制动未释放"</string>
+    <string name="sr_alarm_info_23140">"辅助驾驶无法激活
+车速过高"</string>
+    <string name="sr_alarm_info_23141">"辅助驾驶无法激活
+自动驻车未关闭"</string>
+    <string name="sr_alarm_info_23142">"辅助驾驶无法激活
+雨量过大"</string>
+    <string name="sr_alarm_info_23143">"辅助驾驶无法激活
+门锁未关闭"</string>
+    <string name="sr_alarm_info_23144">辅助驾驶无法激活</string>
+    <string name="sr_alarm_info_23145">"辅助驾驶无法激活
+距离前车过近"</string>
+    <string name="sr_alarm_info_23146">"辅助驾驶无法激活
+刹车踏板未松开"</string>
+    <string name="sr_alarm_info_23147">"辅助驾驶无法激活
+胎压异常"</string>
+    <string name="sr_alarm_info_23148">辅助驾驶无法激活</string>
+    <string name="sr_alarm_info_23149">"辅助驾驶无法激活
+超级省电模式未关闭"</string>
+    <string name="sr_alarm_info_23150">"辅助驾驶无法激活
+功能受限"</string>
+    <string name="sr_alarm_info_23151">"辅助驾驶无法激活
+前方障碍物"</string>
+    <string name="sr_alarm_info_23152">"辅助驾驶无法激活
+洗车模式未关闭"</string>
+    <string name="sr_alarm_info_23153">"辅助驾驶无法激活
+请挂挡后尝试"</string>
+    <string name="sr_alarm_info_23154">"辅助驾驶无法激活
+一键漂移未关闭"</string>
+    <string name="sr_alarm_info_23155">"辅助驾驶无法激活
+电动拖车钩未关闭"</string>
+    <string name="sr_alarm_info_23156">"辅助驾驶无法激活
+悬架异常"</string>
+    <string name="sr_alarm_info_24001">请向前行驶，正在寻找车位</string>
+    <string name="sr_alarm_info_24002">车速过高，请减速</string>
+    <string name="sr_alarm_info_24003">找到车位，如需泊入请停车选择车位</string>
+    <string name="sr_alarm_info_24004">请踩住刹车选择车位，点击开始</string>
+    <string name="sr_alarm_info_24005">请松开刹车和方向盘</string>
+    <string name="sr_alarm_info_24006">车位较窄，推荐使用遥控泊车</string>
+    <string name="sr_alarm_info_24007">泊车中，请注意周围环境</string>
+    <string name="sr_alarm_info_24008">泊车完成</string>
+    <string name="sr_alarm_info_24009">泊车已暂停，请确认安全后点击继续</string>
+    <string name="sr_alarm_info_24010">泊车已终止</string>
+    <string name="sr_alarm_info_24011">等待中，请注意周围环境</string>
+    <string name="sr_alarm_info_24015">请行驶到平缓区域</string>
+    <string name="sr_alarm_info_24017">光线较暗，请注意四周环境</string>
+    <string name="sr_alarm_info_24018">请行驶到明亮区域</string>
+    <string name="sr_alarm_info_24019">光线较暗，请注意四周环境</string>
+    <string name="sr_alarm_info_24030">泊车功能已暂停，悬架异常</string>
+    <string name="sr_alarm_info_24032">泊车功能已暂停，请关闭车门</string>
+    <string name="sr_alarm_info_24035">泊车功能已暂停，请关闭后备箱</string>
+    <string name="sr_alarm_info_24038">泊车功能已暂停，请关闭补能口盖</string>
+    <string name="sr_alarm_info_24041">泊车功能已暂停，请关闭前机舱盖</string>
+    <string name="sr_alarm_info_24044">泊车功能已暂停，请展开外后视镜</string>
+    <string name="sr_alarm_info_24047">泊车功能已暂停，请结束SOS</string>
+    <string name="sr_alarm_info_24050">泊车功能已暂停，驾驶员未落座</string>
+    <string name="sr_alarm_info_24054">泊车功能已暂停，请松开加速踏板</string>
+    <string name="sr_alarm_info_24055">请刹车，注意溜车</string>
+    <string name="sr_alarm_info_24057">泊车功能已暂停，请松开刹车</string>
+    <string name="sr_alarm_info_24058">泊车功能已暂停，有障碍物阻挡</string>
+    <string name="sr_alarm_info_24064">泊车功能已退出，车速异常</string>
+    <string name="sr_alarm_info_24067">请向后行驶，正在寻找车位</string>
+    <string name="sr_alarm_info_24068">车速过高，请减速</string>
+    <string name="sr_alarm_info_24086">请小心，有剐蹭风险</string>
+    <string name="sr_alarm_info_24091">请踩住刹车调整车位，点击开始</string>
+    <string name="sr_alarm_info_24097">该车位暂不可泊</string>
+    <string name="sr_alarm_info_24099">车尾泊入已就绪，点击开始</string>
+    <string name="sr_alarm_info_24100">车头泊入已就绪，点击开始</string>
+    <string name="sr_alarm_info_24101">请主驾落座</string>
+    <string name="sr_alarm_info_24102">请系好安全带</string>
+    <string name="sr_alarm_info_24103">请关闭车门</string>
+    <string name="sr_alarm_info_24104">路径规划中</string>
+    <string name="sr_alarm_info_24105">该车位暂不可泊，请重新调整车位</string>
+    <string name="sr_alarm_info_24106">泊入已就绪，点击开始</string>
+    <string name="sr_alarm_info_24107">后视镜已折叠</string>
+    <string name="sr_alarm_info_24108">泊车功能已暂停，请确认后视镜折叠后点击继续</string>
+    <string name="sr_alarm_info_24109">泊车完成，请注意轮挡</string>
+    <string name="sr_alarm_info_24114">光线较暗，请手动泊车</string>
+    <string name="sr_alarm_info_24115">车位较窄，请手动泊车</string>
+    <string name="sr_alarm_info_24116">车位识别不稳定，请手动泊车</string>
+    <string name="sr_alarm_info_24117">车位环境复杂，请手动泊车</string>
+    <string name="sr_alarm_info_24118">小心周围行人</string>
+    <string name="sr_alarm_info_24119">小心周围车辆</string>
+    <string name="sr_alarm_info_24120">小心周围障碍物</string>
+    <string name="sr_alarm_info_24121">小心剐蹭后视镜</string>
+    <string name="sr_alarm_info_24122">车位内有障碍物，请重新调整车位</string>
+    <string name="sr_alarm_info_24123">规划失败，请重新调整车位</string>
+    <string name="sr_alarm_info_24124">车位内有锥桶，请重新调整车位</string>
+    <string name="sr_alarm_info_24125">车位内有地锁，请重新调整车位</string>
+    <string name="sr_alarm_info_24126">请选择车位或继续行驶</string>
+    <string name="sr_alarm_info_24127">正在靠右泊入，小心左侧障碍物</string>
+    <string name="sr_alarm_info_24128">正在靠左泊入，小心右侧障碍物</string>
+    <string name="sr_alarm_info_24129">车位环境复杂，请小心剐蹭风险</string>
+    <string name="sr_alarm_info_24130">车位较窄，请小心剐蹭风险</string>
+    <string name="sr_alarm_info_24131">车位内有轮挡，请小心剐蹭风险</string>
+    <string name="sr_alarm_info_24135">该车位暂不可泊，请重新选择车位</string>
+    <string name="sr_alarm_info_24136">该车位暂不可泊，请靠近后再尝试</string>
+    <string name="sr_alarm_info_24137">该车位暂不可泊，请尝试其他车位</string>
+    <string name="sr_alarm_info_24138">正在折叠后视镜</string>
+    <string name="sr_alarm_info_24139">泊出已就绪，请点击开始</string>
+    <string name="sr_alarm_info_24140">正在折叠后视镜</string>
+    <string name="sr_alarm_info_24141">小心周围动物</string>
+    <string name="sr_alarm_info_24142">小心周围非机动车</string>
+    <string name="sr_alarm_info_24143">找到极氪能源充电车位，如需泊入请停车选择</string>
+    <string name="sr_alarm_info_24144">暂未识别到车位编号，请靠近后再尝试</string>
+    <string name="sr_alarm_info_24145">暂无可用泊出方向，请手动泊出</string>
+    <string name="sr_alarm_info_24146">请挂挡后尝试</string>
+    <string name="sr_alarm_info_24147">请选择泊出方向，点击开始</string>
+    <string name="sr_alarm_info_24148">请展开后视镜</string>
+    <string name="sr_alarm_info_24149">泊车功能已暂停，请折叠后视镜</string>
+    <string name="sr_alarm_info_24152">踩下加速踏板，可控制车辆并退出泊车</string>
+    <string name="sr_alarm_info_24153">车辆避让中，请注意周围环境</string>
+    <string name="sr_alarm_info_24265">踩刹车以上电</string>
+    <string name="sr_alarm_info_24266">请确认自车尺寸、重量满足机械车位限制</string>
+    <string name="sr_alarm_info_24268">如需泊入，请点击车位</string>
+    <string name="sr_alarm_info_24269">障碍物侵入过多，即将进行越线偏移</string>
+    <string name="sr_alarm_info_24272">"胎压异常
+泊车已终止"</string>
+    <string name="sr_alarm_info_26001">请挂P挡</string>
+    <string name="sr_alarm_info_26002">请携带钥匙下车后使用功能</string>
+    <string name="sr_alarm_info_26003">车头泊入窄车位，推荐使用离车泊入</string>
+    <string name="sr_alarm_info_26004">车尾泊入窄车位，推荐使用离车泊入</string>
+    <string name="sr_alarm_info_26005">泊车已暂停</string>
+    <string name="sr_alarm_info_26006">泊车中，请注意周围环境</string>
+    <string name="sr_alarm_info_26007">泊车完成</string>
+    <string name="sr_alarm_info_26008">泊车完成，请注意轮挡</string>
+    <string name="sr_alarm_info_26010">车尾泊入机械车位，推荐使用离车泊入</string>
+    <string name="sr_alarm_info_26033">泊车暂停了，恢复泊车请重新开关车门箱盖</string>
+    <string name="sr_alarm_info_26034">泊车暂停了，恢复泊车请重新开关尾门</string>
+    <string name="sr_alarm_info_26035">离车泊入功能已暂停</string>
+    <string name="sr_alarm_info_26036">泊车暂停了，恢复泊车请重新开关车门箱盖</string>
+    <string name="sr_alarm_info_26037">泊车暂停了，恢复泊车请重新开关尾门</string>
+    <string name="sr_alarm_info_26038">离车泊入完成</string>
+    <string name="sr_alarm_info_26039">泊入中，请注意周围环境</string>
+    <string name="sr_alarm_info_26041">离车泊入完成，请注意轮挡</string>
+    <string name="sr_alarm_info_27001">"记忆泊车无法激活
+请挂其它挡位"</string>
+    <string name="sr_alarm_info_27002">"记忆泊车无法激活
+方向盘未松开"</string>
+    <string name="sr_alarm_info_27003">"记忆泊车无法激活
+请按导航到车道内尝试"</string>
+    <string name="sr_alarm_info_27004">"记忆泊车无法激活
+车速过高"</string>
+    <string name="sr_alarm_info_27005">"记忆泊车无法激活
+坡度过大"</string>
+    <string name="sr_alarm_info_27006">"记忆泊车无法激活
+门锁未关闭"</string>
+    <string name="sr_alarm_info_27008">"记忆泊车无法激活
+补能口盖未关闭"</string>
+    <string name="sr_alarm_info_27010">"记忆泊车无法激活
+安全带未系"</string>
+    <string name="sr_alarm_info_27012">记忆泊车无法激活</string>
+    <string name="sr_alarm_info_27013">"记忆泊车无法激活
+功能受限"</string>
+    <string name="sr_alarm_info_27014">"记忆泊车无法激活
+请挂挡后尝试"</string>
+    <string name="sr_alarm_info_27017">车辆礼让中</string>
+    <string name="sr_alarm_info_27020">"已踩下加速踏板
+车辆不会自动减速"</string>
+    <string name="sr_alarm_info_27021">记忆泊车已退出</string>
+    <string name="sr_alarm_info_27023">"请立即控制车辆
+功能受限"</string>
+    <string name="sr_alarm_info_27024">"记忆泊车已退出
+无可泊车位"</string>
+    <string name="sr_alarm_info_27025">请松开刹车</string>
+    <string name="sr_alarm_info_27029">"记忆泊车完成
+已到达目的地"</string>
+    <string name="sr_alarm_info_27030">"不在地图范围
+请返回路线范围内"</string>
+    <string name="sr_alarm_info_27031">"记忆泊车已退出
+功能受限"</string>
+    <string name="sr_alarm_info_27032">"规划失败
+请选择其它目的地"</string>
+    <string name="sr_alarm_info_27033">"目的地就在附近
+可使用智能泊车辅助"</string>
+    <string name="sr_alarm_info_27038">"请系好安全带
+否则记忆泊车即将退出"</string>
+    <string name="sr_alarm_info_27039">"请关闭门锁
+否则记忆泊车即将退出"</string>
+    <string name="sr_alarm_info_27040">请先行驶到园区或停车场</string>
+    <string name="sr_alarm_info_27041">"路线学习暂不可用
+光线较暗"</string>
+    <string name="sr_alarm_info_27042">"路线学习暂不可用
+请挂挡后尝试"</string>
+    <string name="sr_alarm_info_27044">"路线学习暂不可用
+功能受限"</string>
+    <string name="sr_alarm_info_27052">"车速过高
+请减速"</string>
+    <string name="sr_alarm_info_27053">"路线学习失败
+光线较暗"</string>
+    <string name="sr_alarm_info_27055">"路线学习失败
+功能受限"</string>
+    <string name="sr_alarm_info_27064">记忆泊车已激活</string>
+    <string name="sr_alarm_info_27072">"路线学习中
+请关闭车门"</string>
+    <string name="sr_alarm_info_27073">"路线学习中
+请展开后视镜"</string>
+    <string name="sr_alarm_info_27078">"功能暂不可用
+请勿移动车辆"</string>
+    <string name="sr_alarm_info_27079">"功能暂不可用
+请重新进入停车场尝试"</string>
+    <string name="sr_alarm_info_27080">"路线生成失败
+请重新进入停车场入口尝试"</string>
+    <string name="sr_alarm_info_27081">"记忆泊车已退出
+等待超时"</string>
+    <string name="sr_alarm_info_27082">请注意闸机</string>
+    <string name="sr_alarm_info_27084">"目的地无法泊车
+继续寻找周围可用车位"</string>
+    <string name="sr_alarm_info_27085">请先选择目的地进行导航</string>
+    <string name="sr_alarm_info_27087">"记忆泊车无法激活
+ESC未开启"</string>
+    <string name="sr_alarm_info_27089">请回正方向盘</string>
+    <string name="sr_alarm_info_27090">"记忆泊车无法激活
+超级省电模式未关闭"</string>
+    <string name="sr_alarm_info_27091">"记忆泊车无法激活
+洗车模式未关闭"</string>
+    <string name="sr_alarm_info_27092">"记忆泊车无法激活
+驾驶模式不支持"</string>
+    <string name="sr_alarm_info_27093">"记忆泊车无法激活
+电动拖车钩未关闭"</string>
+    <string name="sr_alarm_info_27094">"记忆泊车无法激活
+坦克掉头模式未关闭"</string>
+    <string name="sr_alarm_info_27095">"记忆泊车无法激活
+一键漂移模式未关闭"</string>
+    <string name="sr_alarm_info_27098">"请关闭补能口盖
+否则记忆泊车将退出"</string>
+    <string name="sr_alarm_info_27099">"记忆泊车已退出
+请立即控制车辆"</string>
+    <string name="sr_alarm_info_27100">"记忆泊车已退出
+ESC未开启"</string>
+    <string name="sr_alarm_info_27102">"坡度过大
+记忆泊车即将退出"</string>
+    <string name="sr_alarm_info_27103">"环境较暗
+记忆泊车即将退出"</string>
+    <string name="sr_alarm_info_27104">"记忆泊车已退出
+超级省电模式未关闭"</string>
+    <string name="sr_alarm_info_27105">"记忆泊车已退出
+洗车模式未关闭"</string>
+    <string name="sr_alarm_info_27106">"记忆泊车已退出
+驾驶模式不支持"</string>
+    <string name="sr_alarm_info_27107">"记忆泊车已退出
+电动拖车钩未关闭"</string>
+    <string name="sr_alarm_info_27108">"记忆泊车已退出
+坦克掉头模式未关闭"</string>
+    <string name="sr_alarm_info_27109">"记忆泊车已退出
+一键漂移模式未关闭"</string>
+    <string name="sr_alarm_info_27110">请立即控制车辆</string>
+    <string name="sr_alarm_info_27111">请先结束导航并控制车辆</string>
+    <string name="sr_alarm_info_27113">"胎压异常
+记忆泊车即将退出"</string>
+    <string name="sr_alarm_info_27114">"路线学习暂不可用
+定位失败"</string>
+    <string name="sr_alarm_info_27115">"记忆泊车无法使用
+功能受限"</string>
+    <string name="sr_alarm_info_27116">"记忆泊车无法激活
+胎压异常"</string>
+    <string name="sr_alarm_info_27117">"记忆泊车无法激活
+雨量过大"</string>
+    <string name="sr_alarm_info_27118">"雨量过大
+记忆泊车即将退出"</string>
+    <string name="sr_alarm_info_27119">请先在设置-ZEEKR AD中开启此功能</string>
+    <string name="sr_alarm_info_27120">挂入P档完成学习</string>
+    <string name="sr_alarm_info_27121">可点击车位使用智能泊车辅助功能</string>
+    <string name="sr_alarm_info_27122">踩刹车后可激活辅助驾驶</string>
+    <string name="sr_alarm_info_27123">请勿踩下加速踏板</string>
+    <string name="sr_alarm_info_27124">"记忆泊车无法激活
+外后视镜未展开"</string>
+    <string name="sr_alarm_info_27125">"外后视镜未展开
+记忆泊车即将退出"</string>
+    <string name="sr_alarm_info_27126">请注意路口盲区</string>
+    <string name="sr_alarm_info_27127">尝试通行中，请稍等</string>
+    <string name="sr_alarm_info_27128">增强版记忆泊车可用</string>
+    <string name="sr_alarm_info_27129">请下车关门并用手机进入增强版记忆泊车页面</string>
+    <string name="sr_alarm_info_27130">正在增强版记忆泊车中,请和我保持距离</string>
+    <string name="sr_alarm_info_27131">挂P挡后可使用增强版记忆泊车功能</string>
+    <string name="sr_alarm_info_27132">出现异常，已通知车主前来处理</string>
+    <string name="sr_alarm_info_27133">已为您规划新路线</string>
+    <string name="sr_alarm_info_27137">辅助驾驶准备中</string>
+    <string name="sr_alarm_info_27138">"记忆泊车已退出
+目标充电车位不可用"</string>
+    <string name="sr_alarm_info_27139">可选择充电车位泊入</string>
+    <string name="sr_alarm_info_27140">降锁失败，请尝试其他车位</string>
+    <string name="sr_alarm_info_27141">等待地锁下降</string>
+    <string name="sr_alarm_info_27142">已自动为您匹配充电车位</string>
+    <string name="sr_alarm_info_27143">目标车位地锁已下降，即将泊入</string>
+    <string name="sr_alarm_info_27144">即将为您激活领航辅助功能</string>
+    <string name="sr_alarm_info_27145">请行驶到直道后再试</string>
+    <string name="sr_alarm_info_27146">"路线学习中
+驶入公共道路后完成学习"</string>
+    <string name="sr_alarm_info_27147">"路线已学习
+可至路线管理查看生成状态"</string>
+    <string name="sr_alarm_info_27148">充电车位已满</string>
+    <string name="sr_alarm_info_27149">降锁异常，请手动尝试</string>
+    <string name="sr_alarm_info_27160">漫游已激活</string>
+    <string name="sr_alarm_info_27161">漫游无法激活</string>
+    <string name="sr_alarm_info_27162">漫游已退出</string>
+    <string name="sr_alarm_info_27163">漫游已退出</string>
+    <string name="sr_alarm_info_27164">请立即控制车辆</string>
+    <string name="sr_alarm_info_27165">"请立即控制车辆
+功能受限"</string>
+    <string name="sr_alarm_info_27166">"漫游已退出
+请立即控制车辆"</string>
+    <string name="sr_alarm_info_27167">正在调整行驶方向</string>
+    <string name="sr_alarm_info_27168">"请系好安全带
+漫游即将退出"</string>
+    <string name="sr_alarm_info_27169">"请关闭门锁
+漫游即将退出"</string>
+    <string name="sr_alarm_info_27170">"坡度过大
+漫游即将退出"</string>
+    <string name="sr_alarm_info_27171">"环境较暗
+漫游即将退出"</string>
+    <string name="sr_alarm_info_27172">"胎压异常
+漫游即将退出"</string>
+    <string name="sr_alarm_info_27173">"雨量过大
+漫游即将退出"</string>
+    <string name="sr_alarm_info_27174">"外后视镜未展开
+漫游即将退出"</string>
+    <string name="sr_alarm_info_27175">"电量过低
+漫游即将退出"</string>
+    <string name="sr_alarm_info_29000">紧急制动中！</string>
+    <string name="sr_alarm_info_30001">请注意左前侧！</string>
+    <string name="sr_alarm_info_30002">请注意右前侧！</string>
+    <string name="sr_alarm_info_30003">紧急制动中！</string>
+    <string name="sr_alarm_info_30004">紧急制动中！</string>
+    <string name="sr_alarm_info_30005">请注意左前侧！</string>
+    <string name="sr_alarm_info_30006">请注意右前侧！</string>
+    <string name="sr_alarm_info_31000">请注意后方！</string>
+    <string name="sr_alarm_info_31001">请注意后方！</string>
+    <string name="sr_alarm_info_32000">请注意左后侧！</string>
+    <string name="sr_alarm_info_32001">请注意左后侧！</string>
+    <string name="sr_alarm_info_32002">请注意右后侧！</string>
+    <string name="sr_alarm_info_32003">请注意右后侧！</string>
+    <string name="sr_alarm_info_32004">紧急制动中！</string>
+    <string name="sr_alarm_info_32005">紧急制动中！</string>
+    <string name="sr_alarm_info_33000">请手握方向盘！</string>
+    <string name="sr_alarm_info_33001">请手握方向盘！</string>
+    <string name="sr_alarm_info_33004">紧急避让中！</string>
+    <string name="sr_alarm_info_33005">左侧车道偏离预警功能已激活！</string>
+    <string name="sr_alarm_info_33006">右侧车道偏离预警功能已激活！</string>
+    <string name="sr_alarm_info_33007">请轻转方向盘！</string>
+    <string name="sr_alarm_info_34000">前车已驶离</string>
+    <string name="sr_alarm_info_34002">请注意红灯！</string>
+    <string name="sr_alarm_info_34003">请注意红灯！</string>
+    <string name="sr_alarm_info_34004">请注意红灯！</string>
+    <string name="sr_alarm_info_34005">请注意右转红灯！</string>
+    <string name="sr_alarm_info_34006">请注意右转红灯！</string>
+    <string name="sr_alarm_info_35001">请注意车距！</string>
+    <string name="sr_alarm_info_35002">请制动！</string>
+    <string name="sr_alarm_info_35003">紧急制动中！</string>
+    <string name="sr_alarm_info_35004">请制动！</string>
+    <string name="sr_alarm_info_35005">辅助制动中！</string>
+    <string name="sr_alarm_info_35006">请注意左前侧盲区！</string>
+    <string name="sr_alarm_info_35007">请注意右前侧盲区！</string>
+    <string name="sr_alarm_info_35008">请注意左侧！</string>
+    <string name="sr_alarm_info_35009">请注意右侧！</string>
+    <string name="sr_alarm_info_35010">请注意前方！</string>
+    <string name="sr_alarm_info_38000">开门请注意！</string>
+    <string name="sr_alarm_info_38001">开门请注意！</string>
+    <string name="sr_alarm_info_38002">开门请注意！</string>
+    <string name="sr_alarm_info_38003">开门请注意！</string>
+    <string name="sr_alarm_info_38004">开门请注意！</string>
+    <string name="sr_alarm_info_38009">开门请注意！</string>
+    <string name="sr_alarm_info_38013">开门请注意！</string>
+    <string name="sr_alarm_info_38016">开门请注意，长按车门键打开车门</string>
+    <string name="sr_alarm_info_38022">开门请注意，长按车门键打开车门</string>
+    <string name="sr_alarm_info_38024">开门请注意，长按车门键打开车门</string>
+    <string name="sr_alarm_info_38028">开门请注意，长按车门键打开车门</string>
+    <string name="sr_alarm_info_38031">开门请注意！</string>
+    <string name="sr_alarm_info_38033">开门请注意！</string>
+    <string name="sr_alarm_info_38034">开门请注意！</string>
+    <string name="sr_alarm_info_38036">开门请注意！</string>
+    <string name="sr_alarm_info_38037">开门请注意！</string>
+    <string name="sr_alarm_info_40001">紧急避让中！</string>
+    <string name="sr_alarm_info_42000">请松开加速踏板！</string>
+    <string name="sr_alarm_info_43001">"发生碰撞
+紧急制动中！"</string>
+    <string name="sr_alarm_info_44000">紧急避让中！</string>
+    <string name="sr_alarm_info_44001">请注意前车溜车！</string>
+    <string name="sr_alarm_info_44002">请注意前方路面颠簸！</string>
+    <string name="sr_alarm_info_45000">请注意车顶刮蹭风险！</string>
+    <string name="sr_alarm_info_46000">请注意侧向碰撞风险！</string>
+    <string name="sr_alarm_info_46001">请注意前方！</string>
+    <string name="sr_alarm_info_46002">紧急避让中！</string>
+    <string name="sr_alarm_info_46003">前方窄路，通行请注意</string>
+    <string name="sr_alarm_info_46004">无</string>
+    <string name="sr_alarm_info_46005">前方路面湿滑，请减速慢行</string>
+    <string name="sr_alarm_info_50001">ZAD已激活</string>
+    <string name="sr_alarm_info_50002">"ZAD已退出
+请接管车辆"</string>
+    <string name="sr_alarm_info_50003">"ZAD即将退出
+门锁未关闭"</string>
+    <string name="sr_alarm_info_50004">"ZAD即将退出
+安全带未系"</string>
+    <string name="sr_alarm_info_50007">"ZAD即将退出
+胎压异常"</string>
+    <string name="sr_alarm_info_50008">"ZAD即将退出
+续航里程过低"</string>
+    <string name="sr_alarm_info_50009">"ZAD已退出
+请接管车辆"</string>
+    <string name="sr_alarm_info_50013">"ZAD无法激活
+驾驶辅助变道中"</string>
+    <string name="sr_alarm_info_50014">"ZAD无法激活
+导航未开启"</string>
+    <string name="sr_alarm_info_50015">"ZAD无法激活
+车辆发生碰撞"</string>
+    <string name="sr_alarm_info_50016">"ZAD无法激活
+当前路段不可用"</string>
+    <string name="sr_alarm_info_50017">"ZAD无法激活
+驾驶模式不支持"</string>
+    <string name="sr_alarm_info_50018">"ZAD无法激活
+续航里程过低"</string>
+    <string name="sr_alarm_info_50019">"ZAD无法激活
+门锁未关闭"</string>
+    <string name="sr_alarm_info_50020">"ZAD无法激活
+补能盖未关闭"</string>
+    <string name="sr_alarm_info_50021">"ZAD无法激活
+安全带未系"</string>
+    <string name="sr_alarm_info_50022">"ZAD无法激活
+挡位不在D挡"</string>
+    <string name="sr_alarm_info_50023">"ZAD无法激活
+ESC未开启"</string>
+    <string name="sr_alarm_info_50024">"ZAD无法激活
+电子驻车制动未释放"</string>
+    <string name="sr_alarm_info_50025">"ZAD无法激活
+车速过高"</string>
+    <string name="sr_alarm_info_50026">"ZAD无法激活
+高优先级功能已激活"</string>
+    <string name="sr_alarm_info_50027">"ZAD无法激活
+雨量过大"</string>
+    <string name="sr_alarm_info_50028">"ZAD无法激活
+超级省电模式未关闭"</string>
+    <string name="sr_alarm_info_50029">"请下电重启
+再尝试激活功能"</string>
+    <string name="sr_alarm_info_50030">"ZAD无法激活
+胎压异常"</string>
+    <string name="sr_alarm_info_50031">ZAD无法激活</string>
+    <string name="sr_alarm_info_50032">"ZAD无法激活
+电源模式不支持"</string>
+    <string name="sr_alarm_info_50033">"ZAD无法激活
+车辆未居中行驶"</string>
+    <string name="sr_alarm_info_50034">"请轻握方向盘
+ZAD无法激活"</string>
+    <string name="sr_alarm_info_50035">"ZAD无法激活
+车速过高"</string>
+    <string name="sr_alarm_info_50036">"ZAD无法激活
+前方障碍物"</string>
+    <string name="sr_alarm_info_50037">"ZAD无法激活
+洗车模式未关闭"</string>
+    <string name="sr_alarm_info_50038">"ZAD无法激活
+刹车踏板未松开"</string>
+    <string name="sr_alarm_info_50039">"ZAD无法激活
+距离前车过近"</string>
+    <string name="sr_alarm_info_50040">"ZAD无法激活
+车道条件不满足"</string>
+    <string name="sr_alarm_info_50041">"ZAD无法激活
+一键漂移未关闭"</string>
+    <string name="sr_alarm_info_50042">"ZAD无法激活
+电动拖车钩未关闭"</string>
+    <string name="sr_alarm_info_50044">"ZAD无法激活
+请注视前方"</string>
+    <string name="sr_alarm_info_50045">即将到达目的地</string>
+    <string name="sr_alarm_info_50046">"即将驶出可用路段
+请接管车辆"</string>
+    <string name="sr_alarm_info_50047">"ZAD无法激活
+功能受限"</string>
+    <string name="sr_alarm_info_50049">"请立即接管
+即将驶出ZAD可用路段"</string>
+    <string name="sr_alarm_info_50050">"ZAD即将退出
+导航异常"</string>
+    <string name="sr_alarm_info_50051">"请松开加速踏板
+否则ZAD将退出"</string>
+    <string name="sr_alarm_info_50052">请关注前方路况</string>
+    <string name="sr_alarm_info_50053">"请立即接管
+否则将停车"</string>
+    <string name="sr_alarm_info_50054">"ZAD无法激活
+距离导航目的地太近"</string>
+    <string name="sr_alarm_info_50055">"请立即接管
+正在安全停车"</string>
+    <string name="sr_alarm_info_50056">ZAD功能可用</string>
+    <string name="sr_alarm_info_50057">"ZAD即将退出
+导航已结束"</string>
+    <string name="sr_alarm_info_50058">"ZAD即将退出
+车辆进入应急车道"</string>
+    <string name="sr_alarm_info_50060">"请系上安全带
+否则将退出ZAD"</string>
+    <string name="sr_alarm_info_50061">"ZAD无法激活
+请回到驾驶位"</string>
+    <string name="sr_alarm_info_50062">"请关上所有车门
+否则将退出ZAD"</string>
+    <string name="sr_alarm_info_50064">"ZAD无法激活
+DMS系统异常"</string>
+    <string name="sr_alarm_info_50065">"请坐回主驾座位
+否则将退出ZAD"</string>
+    <string name="sr_alarm_info_50067">"ZAD无法激活
+左右后视镜被折叠"</string>
+    <string name="sr_alarm_info_50068">"ZAD暂时无法退出
+注意风险"</string>
+    <string name="sr_alarm_info_50069">"ZAD即将退出
+请接管车辆"</string>
+    <string name="sr_alarm_info_50070">"ZAD即将退出
+即将到达目的地"</string>
+    <string name="sr_alarm_info_50071">"ZAD即将退出
+ZAD系统故障"</string>
+    <string name="sr_alarm_info_50074">"ZAD无法激活
+设置项开关未打开"</string>
+    <string name="sr_alarm_info_50076">"ZAD即将退出
+雨量过大"</string>
+    <string name="sr_alarm_info_50077">"ZAD即将退出
+路面湿滑"</string>
+    <string name="sr_alarm_info_50078">"ZAD即将退出
+超级省电模式未关闭"</string>
+    <string name="sr_alarm_info_50079">"ZAD即将退出
+电源模式不支持"</string>
+    <string name="sr_alarm_info_50081">"ZAD即将退出
+一键漂移打开"</string>
+    <string name="sr_alarm_info_50082">"请注意前方路况
+距离前车过近"</string>
+    <string name="sr_alarm_info_50083">"ZAD即将退出
+请关注前方路况"</string>
+    <string name="sr_alarm_info_50084">"ZAD即将退出
+超过最大限速"</string>
+    <string name="sr_alarm_info_50085">"ZAD即将退出
+DMS系统不可用"</string>
+    <string name="sr_alarm_info_50086">"ZAD即将退出
+用户不在驾驶座"</string>
+    <string name="sr_alarm_info_50087">"ZAD即将退出
+难以应对前方障碍物"</string>
+    <string name="sr_alarm_info_50088">"ZAD即将退出
+超出ZAD能力"</string>
+    <string name="sr_alarm_info_50091">"ZAD已退出
+本次行程中ZAD不可用"</string>
+    <string name="sr_alarm_info_50093">"ZAD即将退出
+偏离导航路线"</string>
+    <string name="sr_alarm_info_50094">请退出ZAD后再尝试激活</string>
+    <string name="sr_alarm_info_50095">"ZAD即将退出
+长时间踩加速踏板"</string>
+    <string name="sr_alarm_info_50097">"ZAD即将退出
+长时间踩刹车踏板"</string>
+    <string name="sr_alarm_info_50098">当前无法执行您的操作</string>
+    <string name="sr_alarm_info_50099">"您正在干预加速或刹车踏板
+请注意观察路况"</string>
+    <string name="sr_alarm_info_50100">您已结束干预操作</string>
+    <string name="sr_alarm_info_50115">"ZAD即将退出
+自动驾驶数据记录系统故障"</string>
+    <string name="sr_alarm_info_50116">"ZAD即将退出
+车辆在软件升级"</string>
+    <string name="sr_alarm_info_50117">"ZAD即将退出
+车辆跟停时间过长"</string>
+    <string name="sr_alarm_info_50123">"ZAD无法激活
+即将驶出ODD范围"</string>
+    <string name="sr_alarm_info_50124">"ZAD即将退出
+电子驻车制动未释放"</string>
+    <string name="sr_alarm_info_50126">正在变道避让特殊车辆</string>
+    <string name="sr_alarm_info_50127">"变道取消
+避让特殊车辆"</string>
+    <string name="sr_alarm_info_50128">"请手动变道
+无法避让特殊车辆"</string>
+    <string name="sr_alarm_info_50133">"请打开左右后视镜
+否则ZAD会退出"</string>
+    <string name="sr_alarm_info_50134">"ZAD即将退出
+左或右后视镜被折叠"</string>
+    <string name="sr_alarm_info_50136">请勿同时按下不同功能的按键</string>
+    <string name="sr_alarm_info_50137">"ZAD运行中
+不支持语音调节车速"</string>
+    <string name="sr_alarm_info_50138">注意前方有交警</string>
+    <string name="sr_alarm_info_50139">"ZAD无法激活
+自动驾驶数据记录系统不可用"</string>
+    <string name="sr_alarm_info_50140">"ZAD无法激活
+车辆正在软件升级"</string>
+    <string name="sr_alarm_info_50141">"请关注行驶路线
+即将错过匝道"</string>
+    <string name="sr_alarm_info_50142">"请关注行驶路线
+路况复杂"</string>
+    <string name="sr_alarm_info_50143">"请关注行驶路线
+即将错过匝道"</string>
+    <string name="sr_alarm_info_50145">"请关注行驶路线
+即将汇入主路"</string>
+    <string name="sr_alarm_info_50146">"请关注行驶路线
+交通流复杂"</string>
+    <string name="sr_alarm_info_50147">"请关注行驶路线
+即将错过路口"</string>
+    <string name="sr_alarm_info_50149">"请关注行驶路线
+前方道路拥堵"</string>
+    <string name="sr_alarm_info_50150">"请关注行驶路线
+前方车道受阻"</string>
+    <string name="sr_alarm_info_50151">"ZAD无法激活
+ZAD正在初始化"</string>
+    <string name="sr_alarm_info_55000">检测到车位内存在深坑，不建议泊入。</string>
+    <string name="sr_alarm_info_55001">检测到车位内存在浅坑，存在剐蹭风险。</string>
+    <string name="sr_alarm_info_57000">请注意底盘剐蹭风险</string>
+    <string name="sr_alarm_info_57001">前方可能发生事故，请小心驾驶</string>
+    <string name="sr_alarm_info_57002">前方路面易滑，请小心驾驶</string>
+    <string name="sr_alarm_info_59001">"请清洁挡风玻璃驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59002">"请清洁挡风玻璃驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59003">"请清洁挡风玻璃驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59004">"请清洁左前驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59005">"请清洁右前驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59006">"请清洁左后驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59007">"请清洁右后驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59008">"请清洁正后驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59009">"请清洁车顶激光雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59010">"请清洁左激光雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59011">"请清洁右激光雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59012">"请清洁前全景影像环视摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59013">"请清洁后全景影像环视摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59014">"请清洁左全景影像环视摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59015">"请清洁右全景影像环视摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59016">"请清洁前泊车辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59017">"请清洁后泊车辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59019">"请清洁前驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59020">"请清洁左前驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59021">"请清洁右前驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59022">"请清洁左后驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59023">"请清洁右后驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59024">请清洁后毫米波雷达，小心驾驶</string>
+    <string name="sr_alarm_info_59025">请清洁左毫米波雷达，小心驾驶</string>
+    <string name="sr_alarm_info_59026">请清洁右毫米波雷达，小心驾驶</string>
+    <string name="sr_alarm_info_59027">"部分辅助驾驶功能受限，请联系极氪官方售后
+前视长焦摄像头异常"</string>
+    <string name="sr_alarm_info_59028">"部分辅助驾驶功能受限，请联系极氪官方售后
+前视广角摄像头异常"</string>
+    <string name="sr_alarm_info_59029">"部分辅助驾驶功能受限，请联系极氪官方售后
+前视摄像头异常"</string>
+    <string name="sr_alarm_info_59030">"部分辅助驾驶功能受限，请联系极氪官方售后
+左前侧视摄像头异常"</string>
+    <string name="sr_alarm_info_59031">"部分辅助驾驶功能受限，请联系极氪官方售后
+右前侧视摄像头异常"</string>
+    <string name="sr_alarm_info_59032">"部分辅助驾驶功能受限，请联系极氪官方售后
+左后侧视摄像头异常"</string>
+    <string name="sr_alarm_info_59033">"部分辅助驾驶功能受限，请联系极氪官方售后
+右后侧视摄像头异常"</string>
+    <string name="sr_alarm_info_59034">"部分辅助驾驶功能受限，请联系极氪官方售后
+后视摄像头异常"</string>
+    <string name="sr_alarm_info_59035">"部分辅助驾驶功能受限，请联系极氪官方售后
+前激光雷达异常"</string>
+    <string name="sr_alarm_info_59036">"部分辅助驾驶功能受限，请联系极氪官方售后
+左激光雷达异常"</string>
+    <string name="sr_alarm_info_59037">"部分辅助驾驶功能受限，请联系极氪官方售后
+右激光雷达异常"</string>
+    <string name="sr_alarm_info_59038">"部分辅助驾驶功能受限，请联系极氪官方售后
+前环视摄像头异常"</string>
+    <string name="sr_alarm_info_59039">"部分辅助驾驶功能受限，请联系极氪官方售后
+后环视摄像头异常"</string>
+    <string name="sr_alarm_info_59040">"部分辅助驾驶功能受限，请联系极氪官方售后
+左环视摄像头异常"</string>
+    <string name="sr_alarm_info_59041">"部分辅助驾驶功能受限，请联系极氪官方售后
+右环视摄像头异常"</string>
+    <string name="sr_alarm_info_59042">"部分辅助驾驶功能受限，请联系极氪官方售后
+前部超声波雷达异常"</string>
+    <string name="sr_alarm_info_59043">"部分辅助驾驶功能受限，请联系极氪官方售后
+后部超声波雷达异常"</string>
+    <string name="sr_alarm_info_59044">"部分辅助驾驶功能受限，请联系极氪官方售后
+泊车控制器异常"</string>
+    <string name="sr_alarm_info_59045">"部分辅助驾驶功能受限，请联系极氪官方售后
+前毫米波雷达异常"</string>
+    <string name="sr_alarm_info_59046">"部分辅助驾驶功能受限，请联系极氪官方售后
+左前侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_59047">"部分辅助驾驶功能受限，请联系极氪官方售后
+右前侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_59048">"部分辅助驾驶功能受限，请联系极氪官方售后
+左后侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_59049">"部分辅助驾驶功能受限，请联系极氪官方售后
+右后侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_59050">"部分辅助驾驶功能受限，请联系极氪官方售后
+定位传感器异常"</string>
+    <string name="sr_alarm_info_59051">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59052">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59053">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59054">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59055">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59056">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59057">"部分辅助驾驶功能受限，请联系极氪官方售后
+辅助驾驶系统异常"</string>
+    <string name="sr_alarm_info_59058">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59059">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59060">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59061">"部分辅助驾驶功能受限，请联系极氪官方售后
+关联系统异常"</string>
+    <string name="sr_alarm_info_59062">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59063">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59064">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59065">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59066">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59067">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59068">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59069">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59070">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59071">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59072">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59073">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59074">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59075">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59076">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59077">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59078">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59079">"请清洁挡风玻璃驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59080">"部分辅助驾驶功能受限，请联系极氪官方售后
+前视摄像头异常"</string>
+    <string name="sr_alarm_info_59081">"请清洁前驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59082">"部分辅助驾驶功能受限，请联系极氪官方售后
+前毫米波雷达异常"</string>
+    <string name="sr_alarm_info_59083">"部分辅助驾驶功能受限，请联系极氪官方售后
+辅助驾驶系统异常"</string>
+    <string name="sr_alarm_info_59084">"部分辅助驾驶功能受限，请联系极氪官方售后
+关联系统异常"</string>
+    <string name="sr_alarm_info_59085">"部分辅助驾驶功能受限，请联系极氪官方售后
+关联系统异常"</string>
+    <string name="sr_alarm_info_59086">"请清洁左前和右前驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59087">"部分辅助驾驶功能受限，请联系极氪官方售后
+左前或右前侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_59088">"部分辅助驾驶功能受限，请联系极氪官方售后
+左前或左后侧视摄像头异常"</string>
+    <string name="sr_alarm_info_59089">"部分辅助驾驶功能受限，请联系极氪官方售后
+右前或右后侧视摄像头异常"</string>
+    <string name="sr_alarm_info_59090">"部分辅助驾驶功能受限，请联系极氪官方售后
+后视摄像头异常"</string>
+    <string name="sr_alarm_info_59091">"请清洁左前和左后驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59092">"请清洁右前和右后驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59093">"请清洁正后驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59094">"部分辅助驾驶功能受限，请联系极氪官方售后
+后部超声波雷达异常"</string>
+    <string name="sr_alarm_info_59095">"请清洁左后和右后驾驶辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59096">"部分辅助驾驶功能受限，请联系极氪官方售后
+左后或右后侧向毫米波雷达异常"</string>
+    <string name="sr_alarm_info_59097">"拖车连接
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59098">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59099">部分辅助驾驶功能受限，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59100">辅助驾驶传感器换件未校准，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59101">辅助驾驶传感器校准异常，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59102">泊车辅助系统故障</string>
+    <string name="sr_alarm_info_59103">"部分辅助驾驶功能受限，请联系极氪官方售后
+超声波雷达异常"</string>
+    <string name="sr_alarm_info_59104">拖车模式下后泊车辅助系统受限</string>
+    <string name="sr_alarm_info_59105">"请清洁泊车辅助雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59106">高精定位服务账号过期，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59107">高精定位服务账号无效，请联系极氪官方售后</string>
+    <string name="sr_alarm_info_59108">"请清洁挡风玻璃驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59109">"部分辅助驾驶功能受限，请联系极氪官方售后
+备份前视广角摄像头异常"</string>
+    <string name="sr_alarm_info_59110">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59111">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59112">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59113">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59114">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59115">"请清洁左短距激光雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59116">"请清洁右短距激光雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59117">"请清洁前短距激光雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59118">"请清洁后短距激光雷达
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59119">"请清洁挡风玻璃驾驶辅助摄像头
+部分辅助驾驶功能受限"</string>
+    <string name="sr_alarm_info_59120">"部分辅助驾驶功能受限，请联系极氪官方售后
+夜视摄像头异常"</string>
+    <string name="sr_alarm_info_59121">请前往[设置项]校准辅助驾驶传感器</string>
+    <string name="sr_alarm_info_59122">"部分辅助驾驶功能受限，请联系极氪官方售后
+前短距激光雷达异常"</string>
+    <string name="sr_alarm_info_59123">"部分辅助驾驶功能受限，请联系极氪官方售后
+后短距激光雷达异常"</string>
+    <string name="sr_alarm_info_59124">"部分辅助驾驶功能受限，请联系极氪官方售后
+左短距激光雷达异常"</string>
+    <string name="sr_alarm_info_59125">"部分辅助驾驶功能受限，请联系极氪官方售后
+右短距激光雷达异常"</string>
+    <string name="sr_alarm_info_59126">"部分辅助驾驶功能受限，请联系极氪官方售后
+主惯性测量单元异常"</string>
+    <string name="sr_alarm_info_59127">"部分辅助驾驶功能受限，请联系极氪官方售后
+备惯性测量单元异常"</string>
+    <string name="sr_alrm_info_24001">请向前行驶，正在寻找车位</string>
+    <string name="sr_alrm_info_24002">车速过高，请减速</string>
+    <string name="sr_alrm_info_24003">找到车位，如需泊入请停车选择车位</string>
+    <string name="sr_alrm_info_24004">请踩住刹车选择车位，点击开始</string>
+    <string name="sr_alrm_info_24005">请松开刹车和方向盘</string>
+    <string name="sr_alrm_info_24006">车位较窄，推荐使用遥控泊车</string>
+    <string name="sr_alrm_info_24007">泊车中，请注意周围环境</string>
+    <string name="sr_alrm_info_24008">泊车完成</string>
+    <string name="sr_alrm_info_24009">泊车已暂停，请确认安全后点击继续</string>
+    <string name="sr_alrm_info_24011">等待中，请注意周围环境</string>
+    <string name="sr_alrm_info_24015">请行驶到平缓区域</string>
+    <string name="sr_alrm_info_24017">光线较暗，请注意四周环境</string>
+    <string name="sr_alrm_info_24018">请行驶到明亮区域</string>
+    <string name="sr_alrm_info_24019">光线较暗，请注意四周环境</string>
+    <string name="sr_alrm_info_24030">泊车功能已暂停，悬架异常</string>
+    <string name="sr_alrm_info_24032">泊车功能已暂停，请关闭车门</string>
+    <string name="sr_alrm_info_24035">泊车功能已暂停，请关闭后备箱</string>
+    <string name="sr_alrm_info_24038">泊车功能已暂停，请关闭充电盖</string>
+    <string name="sr_alrm_info_24041">泊车功能已暂停，请关闭前机舱盖</string>
+    <string name="sr_alrm_info_24044">泊车功能已暂停，请展开外后视镜</string>
+    <string name="sr_alrm_info_24047">泊车功能已暂停，请结束SOS</string>
+    <string name="sr_alrm_info_24050">泊车功能已暂停，驾驶员未落座</string>
+    <string name="sr_alrm_info_24054">泊车功能已暂停，请松开加速踏板</string>
+    <string name="sr_alrm_info_24055">请刹车，注意溜车</string>
+    <string name="sr_alrm_info_24057">泊车功能已暂停，请松开加速踏板</string>
+    <string name="sr_alrm_info_24067">请向后行驶，正在寻找车位</string>
+    <string name="sr_alrm_info_24068">车速过高，请减速</string>
+    <string name="sr_alrm_info_24086">请小心，有剐蹭风险</string>
+    <string name="sr_alrm_info_24091">请踩住刹车调整车位，点击开始</string>
+    <string name="sr_alrm_info_24097">该车位暂不可泊</string>
+    <string name="sr_alrm_info_24098">传感器校准中，辅助驾驶功能暂不可用</string>
+    <string name="sr_alrm_info_24099">车尾泊入已就绪，点击开始</string>
+    <string name="sr_alrm_info_24100">车头泊入已就绪，点击开始</string>
+    <string name="sr_alrm_info_24101">请主驾落座</string>
+    <string name="sr_alrm_info_24102">请系好安全带</string>
+    <string name="sr_alrm_info_24103">请关闭车门</string>
+    <string name="sr_alrm_info_24104">路径规划中</string>
+    <string name="sr_alrm_info_24105">该车位暂不可泊，请重新调整车位</string>
+    <string name="sr_alrm_info_24106">泊入已就绪，点击开始</string>
+    <string name="sr_alrm_info_24107">后视镜已折叠</string>
+    <string name="sr_alrm_info_24108">泊车功能已暂停，请确认后视镜折叠后点击继续</string>
+    <string name="sr_alrm_info_24109">泊车完成，请注意轮挡</string>
+    <string name="sr_alrm_info_26001">请挂P挡</string>
+    <string name="sr_alrm_info_26002">请携带钥匙下车后使用功能</string>
+    <string name="sr_alrm_info_26003">车头泊入窄车位，推荐使用离车泊入</string>
+    <string name="sr_alrm_info_26004">车尾泊入窄车位，推荐使用离车泊入</string>
+    <string name="sr_alrm_info_26005">离车泊入功能已暂停</string>
+    <string name="sr_alrm_info_26006">离车泊入中，请注意周围环境</string>
+    <string name="sr_alrm_info_26007">离车泊入完成</string>
+    <string name="sr_alrm_info_26008">离车泊入完成，请注意轮挡</string>
+    <string name="sr_alrm_info_26010">车尾泊入机械车位，推荐使用离车泊入</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stream_media">流媒体</string>
+    <string name="switch_car3d">切换到3D车模</string>
+    <string name="switch_map">切换到地图</string>
+    <string name="tab_mini_app">小程序</string>
+    <string name="tab_zeekr_lab">极氪极拓</string>
+    <string name="take_picture">拍照</string>
+    <string name="take_video">录像</string>
+    <string name="task_tips_content">当前后台无运行中的应用程序</string>
+    <string name="through_lamp">贯穿灯</string>
+    <string name="tip_backrest_is_running">后排屏正在使用此App，若继续打开将中断对方使用</string>
+    <string name="tip_csd_is_running">前排屏正在使用此App，若继续打开将中断对方使用</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">bar</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">建议胎压</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">半载 %1$s %n满载 %2$s</string>
+    <string name="tire_temperature_unit_c">°C</string>
+    <string name="tire_temperature_unit_f">°F</string>
+    <string name="to_aiqilisten">前往爱趣听</string>
+    <string name="to_bilibili">前往哔哩哔哩</string>
+    <string name="to_connect_bluetooth">前往连接</string>
+    <string name="to_media_name">前往</string>
+    <string name="to_netease">前往网易云音乐</string>
+    <string name="to_online_music">前往在线多媒体</string>
+    <string name="to_qq_music">前往QQ音乐</string>
+    <string name="track_mode">赛道模式</string>
+    <string name="trips_100_km_caps">100km</string>
+    <string name="trips_10_km_caps">10km</string>
+    <string name="trips_62_mile_caps">62mile</string>
+    <string name="trips_6_mile_caps">6mile</string>
+    <string name="trips_avg_energy">平均能耗</string>
+    <string name="trips_avg_ev">平均电耗</string>
+    <string name="trips_avg_oil">平均油耗</string>
+    <string name="trips_distance">行驶距离</string>
+    <string name="trips_distance_unit_km">km</string>
+    <string name="trips_distance_unit_mile">mile</string>
+    <string name="trips_elapsed_time">行驶时间</string>
+    <string name="trunk">后备箱</string>
+    <string name="udisk_connected">USB音乐-My USB</string>
+    <string name="udisk_no_connect">USB音乐-未连接</string>
+    <string name="uninstall">卸载</string>
+    <string name="uninstall_application">卸载应用</string>
+    <string name="uninstall_failure">卸载失败</string>
+    <string name="usb_app_name_1">USB音乐</string>
+    <string name="usb_app_name_2">USB</string>
+    <string name="uvi_levels_1">最弱</string>
+    <string name="uvi_levels_2">弱</string>
+    <string name="uvi_levels_3">中等</string>
+    <string name="uvi_levels_4">强</string>
+    <string name="uvi_levels_5">很强</string>
+    <string name="video_empty_text">"更多媒体资源
+请前往应用查看"</string>
+    <string name="weather_altitude">海拔：</string>
+    <string name="weather_aqs">空气质量：</string>
+    <string name="weather_card_title">天气</string>
+    <string name="weather_failed">加载失败</string>
+    <string name="weather_loading">加载中…</string>
+    <string name="weather_net_unavailable">网络不佳，请稍后重试</string>
+    <string name="weather_refresh">刷新</string>
+    <string name="weather_uvi">紫外线：</string>
+    <string name="widget_drive_score_h">h</string>
+    <string name="widget_drive_score_min">min</string>
+    <string name="widget_energy_legend_ev">电耗</string>
+    <string name="widget_energy_legend_oil">油耗</string>
+    <string name="widget_energy_title">最近%1$d%2$s能耗</string>
+    <string name="widget_label_energy">能耗</string>
+    <string name="widget_label_tire">胎压</string>
+    <string name="widget_label_trip">行程</string>
+    <string name="widget_trip_meter">小计行程</string>
+    <string name="widget_trip_once_charged">充电后行程</string>
+    <string name="widget_trip_once_parked">停车后行程</string>
+    <string name="widget_trip_once_refueled">加油后行程</string>
+    <string name="widget_trip_save_fuel">累计节油 %1$s%2$s</string>
+    <string name="widget_unit_l">L</string>
+    <string name="xpopup_image_not_exist">Image not exist</string>
+    <string name="xpopup_save">save</string>
+    <string name="xpopup_saved_fail">Image save failed</string>
+    <string name="xpopup_saved_to_gallery">Saved to album</string>
+    <string name="zeekr_back">返回</string>
+    <string name="zeekr_cancel">取消</string>
+    <string name="zeekr_inaccessible">该页面不可访问</string>
+    <string name="zeekr_ok">确定</string>
+    <string name="zeekr_show_psw">显示密码</string>
+    <string name="zeekr_webview_loading">加载中…</string>
+</resources>

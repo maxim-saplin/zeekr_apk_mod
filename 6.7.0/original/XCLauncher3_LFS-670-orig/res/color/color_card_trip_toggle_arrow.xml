@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/card_trip_toggle_arrow_color_pressed" />
+    <item android:color="@color/card_trip_toggle_arrow_color" />
+</selector>

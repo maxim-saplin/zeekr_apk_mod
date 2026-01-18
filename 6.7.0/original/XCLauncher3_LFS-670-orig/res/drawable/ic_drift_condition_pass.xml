@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="36.0dip" android:viewportWidth="36.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h36v36h-36z" />
+        <path android:fillColor="@color/drift_condition_item_pass_icon_fill_color" android:pathData="M17.999,1.335C27.203,1.335 34.665,8.797 34.665,18.001C34.665,27.206 27.203,34.668 17.999,34.668C8.794,34.668 1.332,27.206 1.332,18.001C1.332,8.797 8.794,1.335 17.999,1.335Z" android:fillType="evenOdd" />
+        <path android:fillColor="@color/drift_condition_item_icon_symbol_color" android:pathData="M25.453,13.325C25.887,13.759 25.887,14.463 25.453,14.897L16.957,23.393C16.306,24.044 15.251,24.044 14.6,23.393L10.548,19.341C10.114,18.907 10.114,18.204 10.548,17.77C10.982,17.336 11.686,17.336 12.119,17.77L15.778,21.429L23.881,13.325C24.315,12.892 25.019,12.892 25.453,13.325Z" />
+    </group>
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/apps_scrollbar_thumb_color" />
+    <size android:height="@dimen/apps_edit_scrollbar_thumb_height" android:width="@dimen/apps_edit_scrollbar_thumb_width" />
+</shape>

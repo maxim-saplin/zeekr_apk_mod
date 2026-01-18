@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zeekr_component_search_bar_radius">26.0dip</dimen>
+    <dimen name="zeekr_component_search_min_height">48.0dip</dimen>
+    <dimen name="zeekr_segment_hor_background_padding">10.0dip</dimen>
+    <dimen name="zeekr_tv_dialog_large_height">960.0dip</dimen>
+    <dimen name="zeekr_tv_dialog_medium_height">740.0dip</dimen>
+    <dimen name="zeekr_tv_list_item_text_gone_margin_end">27.0dip</dimen>
+    <dimen name="zeekr_component_search_bar_radius_32">32.0dip</dimen>
+    <dimen name="zeekr_component_search_icon_padding_start">32.0dip</dimen>
+    <dimen name="zeekr_component_search_icon_padding_start2">12.0dip</dimen>
+</resources>

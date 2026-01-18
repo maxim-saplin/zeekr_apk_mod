@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/zeekr_tv_tab_container_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@android:id/icon" android:duplicateParentState="true" android:layout_width="@dimen/zeekr_tv_tab_item_icon_size" android:layout_height="@dimen/zeekr_tv_tab_item_icon_size" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:gravity="center" android:id="@android:id/text1" android:background="@null" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Label" android:singleLine="true" />
+</LinearLayout>

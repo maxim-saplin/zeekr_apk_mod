@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="active_widget">Aktivera</string>
+    <string name="adjust_hud">HUD-justering</string>
+    <string name="adjust_rear_mirror">Justera speglarna</string>
+    <string name="apa">Automatisk parkeringshjälp</string>
+    <string name="app_center">Ansökningscentrum</string>
+    <string name="app_is_installing">Installerar app. Vänta ...</string>
+    <string name="app_not_install">Se till att barnskyddsappen är installerad.</string>
+    <string name="app_uninstall_cancel">Avbryt</string>
+    <string name="apps_all_title">Fler appar</string>
+    <string name="apps_card_cancel_start_app">Avbryt</string>
+    <string name="apps_card_confirm_start_app">Öppna</string>
+    <string name="apps_card_tip_backrest_is_running">Denna app används på den bakre displayen. Om den öppnas här avbryts sessionen på den bakre displayen</string>
+    <string name="apps_card_title">Favoriter</string>
+    <string name="apps_edit_at_most">Upp till 4 appar kan läggas till. Ta bort några och försök igen</string>
+    <string name="apps_edit_cancel">Avbryt</string>
+    <string name="apps_edit_finish">Klar</string>
+    <string name="apps_edit_group_custom_label">Anpassad</string>
+    <string name="apps_edit_group_recent_label">Nyligen använt</string>
+    <string name="apps_edit_tips">Håll nedtryckt för att dra funktionen till vänster om app-kortet. När du drar kan du ersätta och sortera de befintliga apparna</string>
+    <string name="apps_mini_title">Miniprogram</string>
+    <string name="apps_zeekr_lab_title">Z-emulator</string>
+    <string name="aqi_levels_1">Utmärkt</string>
+    <string name="aqi_levels_2">Bra</string>
+    <string name="aqi_levels_3">Måttlig</string>
+    <string name="aqi_levels_4">Ohälsosam för känsliga grupper</string>
+    <string name="aqi_levels_5">Ohälsosam</string>
+    <string name="aqi_levels_6">Mycket ohälsosam</string>
+    <string name="aqi_levels_7">Farlig</string>
+    <string name="atmosphere_light">Stämningsljus</string>
+    <string name="auto_hold">Auto hold</string>
+    <string name="baby_into_car_widget">Barnläge</string>
+    <string name="baby_into_car_widget_active_dsc">Barnläge kommer att aktiveras, där röst, ljud, säkerhet, bakre A/C, fönster och bakre skärm automatiskt justeras till förinställt läge.</string>
+    <string name="baby_sleep_well_widget">Sömnläge för barn</string>
+    <string name="baby_sleep_well_widget_active_dsc">Sömnläge för barn kommer att aktiveras, där röst, ljud, säkerhet, bakre A/C, fönster och bakre skärm automatiskt justeras till förinställt läge.</string>
+    <string name="back_row_cinema">Bakre filmläge</string>
+    <string name="back_row_meeting">Mötesläge bakifrån</string>
+    <string name="back_row_rest">Bakre viloläge</string>
+    <string name="business_voice_disabled">Inaktivera affärsröst</string>
+    <string name="cancel_widget">Avbryt</string>
+    <string name="card_energy_chart_desc">Trenden för energiförbrukning under senaste resan</string>
+    <string name="card_full_title">Fordonsstatus</string>
+    <string name="card_kwh_mile_unit">kWh/100 mi</string>
+    <string name="card_kwh_unit">kWh/100 km</string>
+    <string name="card_trip_1">Resa 1</string>
+    <string name="card_trip_2">Resa 2</string>
+    <string name="central_lock">Centrallås</string>
+    <string name="charge_charge_error_big_tips">Laddningsfel, kontrollera omedelbart!</string>
+    <string name="charge_charging_done_tips">Laddningen har upphört, kom ihåg att dra ur laddkontakten</string>
+    <string name="charge_charging_full">Prioritera fulladdning</string>
+    <string name="charge_charging_limit">Ladda till gräns</string>
+    <string name="charge_connect">Ansluten</string>
+    <string name="charge_connect_tips">Vänta lite</string>
+    <string name="charge_daily">Varje dag</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">Stoppa V2L</string>
+    <string name="charge_estimate">&lt;span color=#9985898C font-size=28px>Återstående tid&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span > &lt;span color=#85898C font-size=80px>%2$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_24">&lt;span color=#9985898C font-size=28px>Återstående tid&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>>24&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_24_day">&lt;span color=#99383A3D font-size=28px>Återstående tid&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>>24&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_day">" &lt;span color=#99383A3D font-size=28px>Återstående tid&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span > &lt;span color=#383A3D font-size=80px>%2$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_estimate_no_hour">&lt;span color=#9985898C font-size=28px>Återstående tid&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_no_hour_day">" &lt;span color=#99383A3D font-size=28px>Återstående tid&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_fully">Snart fulladdad</string>
+    <string name="charge_next_day">Nästa dag</string>
+    <string name="charge_no_plug">Ej inkopplad</string>
+    <string name="charge_plug_connect_ac">Laddningskontakt ansluten (AC)</string>
+    <string name="charge_plug_connect_dc">Laddningskontakt ansluten (DC)</string>
+    <string name="charge_plug_connect_fault">Anslutningsfel</string>
+    <string name="charge_plug_connect_fault_tips">Anslutningsfel, kontrollera omedelbart!</string>
+    <string name="charge_plug_connect_tips">Vänligen ha tålamod eftersom laddningskontakten är ansluten men laddningen inte har påbörjats…</string>
+    <string name="charge_plug_connect_waiting">Inte helt ansluten till elnätet</string>
+    <string name="charge_plug_no_active">Laddningsstationen är inte aktiverad</string>
+    <string name="charge_plug_no_double">Anslut inte AC-kontakten och DC-kontakten samtidigt</string>
+    <string name="charge_plug_no_double_tips">Onormal anslutning av laddningskontakten, kontrollera i tid!</string>
+    <string name="charge_power_supply_capacity">&lt;span color=#9985898C font-size=28px>Nivå för strömförsörjning&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all">&lt;span color=#9985898C font-size=28px>Statistik över strömförsörjning&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all_day">&lt;span color=#99383A3D font-size=28px>Statistik över strömförsörjning&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_day">&lt;span color=#99383A3D font-size=28px>Nivå för strömförsörjning&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_pre_time">" &lt;span color=#9985898C font-size=28px>Schemalagd laddning&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>Varje dag&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_day">" &lt;span color=#99383A3D font-size=28px>Schemalagd laddning&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>Varje dag&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_full" formatted="false">" &lt;span color=#9985898C font-size=28px>Schemalagd laddning&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>Varje dag&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>Företrädesvis 100%&lt;/span >"</string>
+    <string name="charge_pre_time_full_day" formatted="false">" &lt;span color=#99383A3D font-size=28px>Schemalagd laddning&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>Varje dag&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>Företrädesvis 100%&lt;/span >"</string>
+    <string name="charge_pre_time_limit">" &lt;span color=#9985898C font-size=28px>Schemalagd laddning&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>Varje dag&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>Laddning till gräns&lt;/span >"</string>
+    <string name="charge_pre_time_limit_day">" &lt;span color=#99383A3D font-size=28px>Schemalagd laddning&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>Varje dag&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>Laddning till gräns&lt;/span >"</string>
+    <string name="charge_pre_time_next">" &lt;span color=#9985898C font-size=28px>Schemalagd laddning&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>Varje dag&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=24px>Nästa dag&lt;/span > &lt;span color=#85898C font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_next_day">" &lt;span color=#99383A3D font-size=28px>Schemalagd laddning&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>Varje dag&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=24px>Nästa dag&lt;/span > &lt;span color=#383A3D font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_title">Schemalägg laddning</string>
+    <string name="charge_start">Starta laddning</string>
+    <string name="charge_status_battery_fault">Fel på högspänningsbatteri</string>
+    <string name="charge_status_booking">Schemalägger</string>
+    <string name="charge_status_boosting">Boost-laddning</string>
+    <string name="charge_status_charging">Laddar</string>
+    <string name="charge_status_charging_done">Laddning stoppad</string>
+    <string name="charge_status_charging_fault">Laddningsfel</string>
+    <string name="charge_status_discharging">V2L pågår</string>
+    <string name="charge_status_discharging_done">Slut på strömförsörjning</string>
+    <string name="charge_status_discharging_fault">Fel på strömförsörjningen</string>
+    <string name="charge_status_preheating">Reglering av batteritemperatur pågår …</string>
+    <string name="charge_status_super_fast_charging">Snabb laddning</string>
+    <string name="charge_stop">Sluta ladda</string>
+    <string name="charge_temperature_tips">Temperaturjustering, vänligen ha tålamod …</string>
+    <string name="charging_cap">Laddlucka</string>
+    <string name="child_lock_left">Vänster barnlås</string>
+    <string name="child_lock_right">Höger barnlås</string>
+    <string name="climate_light">Lampor för alla väder</string>
+    <string name="close_all">Stäng av alla</string>
+    <string name="close_card">Stäng kortet</string>
+    <string name="close_window">Stäng fönster</string>
+    <string name="confirm">OK</string>
+    <string name="confirm_remove">Håller med om att ta bort %s</string>
+    <string name="confirm_start_app">Bekräfta för att öppna</string>
+    <string name="confirm_uninstall">Vill du avinstallera %s?</string>
+    <string name="copilot_massage">Massage passagerare</string>
+    <string name="copilot_rest">Främre passagerarstöd</string>
+    <string name="day_friday">Fredag</string>
+    <string name="day_monday">Måndag</string>
+    <string name="day_saturday">Lördag</string>
+    <string name="day_sunday">Söndag</string>
+    <string name="day_thursday">Torsdag</string>
+    <string name="day_tuesday">Tisdag</string>
+    <string name="day_wednesday">Onsdag</string>
+    <string name="done">Avsluta</string>
+    <string name="download_paused">Pausad</string>
+    <string name="download_pending">Klar att ladda ner…</string>
+    <string name="download_progress">Hämtar…</string>
+    <string name="drag_tip">Håll nedtryckt för att dra funktioner till vänster styrfält. Du kan ersätta och sortera befintliga funktioner genom att dra</string>
+    <string name="drag_tip_right">Tryck och håll ned för att dra funktionsikonen till det högra kontrollfältet, så kan du ersätta och sortera den befintliga funktionsikonen när du drar</string>
+    <string name="driver_massage">Förarmassage</string>
+    <string name="driver_rest">Förarstöd</string>
+    <string name="edit_at_most">Upp till 5 funktioner kan läggas till. Ta bort några och försök igen</string>
+    <string name="exclusive_child_lock">Exklusivt barnlås</string>
+    <string name="fold_rear_mirror">Fäll in sidospeglar</string>
+    <string name="front_charging_cap">Skydd för främre laddningsport</string>
+    <string name="glove_box">Handskfack</string>
+    <string name="gps_permission_denied">Ingen behörighet att komma åt platsen</string>
+    <string name="gps_permission_setting">Inställningar</string>
+    <string name="hood">Framhuv</string>
+    <string name="hud">Justering av HUD</string>
+    <string name="image_control">Spegel kontroll</string>
+    <string name="image_control_view_pager_txt">Bakre skärmkontroll</string>
+    <string name="install_progress">Installerar…</string>
+    <string name="launch_control">Startkontroll</string>
+    <string name="left_dock_cancel">Avbryt</string>
+    <string name="left_dock_close">Stäng</string>
+    <string name="left_dock_edit">Redigera</string>
+    <string name="left_opposite_door">Vänster dörrar</string>
+    <string name="left_switch_disabled">Vänster brytare avaktiverad</string>
+    <string name="left_window_lock">Barnlås vänster fönster bak</string>
+    <string name="lightShow_alert_message">För din trafiksäkerhet: använd ljusshow när du parkerar</string>
+    <string name="lock_all">Låsa alla</string>
+    <string name="low_speed_alert">AVAS-varningssignal</string>
+    <string name="mask_card_energy_title"> Förbrukning</string>
+    <string name="mask_card_tire_title"> Däcktryck</string>
+    <string name="mask_card_trip_title"> Körsträcka</string>
+    <string name="memory_using">Minnesanvändning</string>
+    <string name="mirror_control_function_while_driving">Av säkerhetsskäl ska spegelstyrning inte användas under körning</string>
+    <string name="no_recent_apps">Inga nyligen använda appar</string>
+    <string name="nzp_string_array_1">Förarassistans inaktiverad</string>
+    <string name="nzp_string_array_10">Körfältsbyte till höger misslyckades</string>
+    <string name="nzp_string_array_11">Körfältsbyte till vänster misslyckades</string>
+    <string name="nzp_string_array_12">På väg att lämna NOA-avsnittet</string>
+    <string name="nzp_string_array_13">Ta över nu</string>
+    <string name="nzp_string_array_14">Säker parkering pågår</string>
+    <string name="nzp_string_array_15">Ta över bilen</string>
+    <string name="nzp_string_array_16">Ta över nu</string>
+    <string name="nzp_string_array_17">Håll i ratten</string>
+    <string name="nzp_string_array_18">Fokusera på vägen framåt</string>
+    <string name="nzp_string_array_19">Växla blinkersspaken för att byta körfält</string>
+    <string name="nzp_string_array_2">NOA är på väg att starta...</string>
+    <string name="nzp_string_array_20">NOA pågår</string>
+    <string name="nzp_string_array_21">Nedgraderad till LCC Plus</string>
+    <string name="nzp_string_array_22">LCC inaktiverad</string>
+    <string name="nzp_string_array_23">LCC Plus avbröts</string>
+    <string name="nzp_string_array_24">NOA avbröts</string>
+    <string name="nzp_string_array_3">NOA aktiverat</string>
+    <string name="nzp_string_array_4">LCC Plus aktiverat</string>
+    <string name="nzp_string_array_5">LCC aktiv</string>
+    <string name="nzp_string_array_6">Accelererar</string>
+    <string name="nzp_string_array_7">Körfältsbyte pågår</string>
+    <string name="nzp_string_array_8">Körfältsbyte avbrutet</string>
+    <string name="nzp_string_array_9">Körfältsbyte genomfört</string>
+    <string name="one_click_breath">Ventilation</string>
+    <string name="one_click_breath_on">Stängning av fönster med en nyckel</string>
+    <string name="one_click_close_door">Dörrstängning med en nyckel</string>
+    <string name="one_click_drift">Drift</string>
+    <string name="open_car3d">Öppna bilmodell</string>
+    <string name="open_card">Öppna kort</string>
+    <string name="open_map">Öppna navigering</string>
+    <string name="open_window">Öppning av samtliga fönster</string>
+    <string name="open_window_on">Stängning av fönster med en nyckel</string>
+    <string name="parking_comfort">Parkeringskomfort</string>
+    <string name="part_glass">Skiljevägg glas sänker</string>
+    <string name="part_glass_on">Skiljevägg glas höjs</string>
+    <string name="phone_charge">Trådlös laddning för mobiltelefon</string>
+    <string name="position_light">Positionsljus</string>
+    <string name="prompt_drift_condition_battery_power">Fordonsbatteri >= 20 %</string>
+    <string name="prompt_drift_condition_cancel">Inte nu</string>
+    <string name="prompt_drift_condition_check_title">Aktiveringsvillkor</string>
+    <string name="prompt_drift_condition_confirm">Aktivera Drift</string>
+    <string name="prompt_drift_condition_drive_mode">Växla körläge till sport</string>
+    <string name="prompt_drift_condition_drive_system">Körsystem normalt</string>
+    <string name="prompt_drift_condition_esc_system">ESC-system normalt</string>
+    <string name="prompt_drift_condition_hot_manage_system">Värmehanteringssystem normalt</string>
+    <string name="prompt_drift_condition_safety_belt">Förar- och passagerarsäkerhetsbältena är fastspända</string>
+    <string name="prompt_drift_condition_speed">Hastighet &amp;#60; 7 km/h</string>
+    <string name="prompt_drift_condition_steering_system">Styrsystem normalt</string>
+    <string name="prompt_drift_condition_tire_pressure_system">Däcktryckssystemet är normalt</string>
+    <string name="prompt_drift_control_accept">Godkänt</string>
+    <string name="prompt_drift_disable_tips">Startkontroll aktiverad, Drift tillfälligt ej tillgängligt</string>
+    <string name="prompt_drift_error_tips">"Kontrollera att följande villkor är uppfyllda och försök igen 
+ 1. SOC >20% 
+ 2. D-växeln är inkopplad 
+ 3. Föraren och alla passagerare har spänt fast säkerhetsbältena 
+ 4. Körsystem, ESC-system, styrsystem, däcktryckssystem och värmehanteringssystem är normala 
+ 5. Sportläget växlas till framgångsrikt 
+"</string>
+    <string name="prompt_drift_error_title">Avdrift med en knapp kan inte aktiveras</string>
+    <string name="prompt_drift_i_know">Fick det</string>
+    <string name="prompt_drift_tips">" Anvisningar:  
+ 1. Denna funktion måste användas på tävlingsbanor eller professionella arenor som uppfyller de nationella säkerhetsstandarderna, och får inte användas på allmänna vägar och platser som inte uppfyller säkerhetsstandarderna.  n 2. För att garantera säkerheten vid användning av avdrift med en knapp rekommenderar vi att du använder motsvarande originaltillbehör för avdrift. Garantin täcker inte komponentskador som orsakats av olämplig eller överdriven användning av avdrift med en knapp.  n 3. Endast förare med minst tre års körvana kan använda avdrift med en knapp eftersom det kräver expertkunskaper. Föraren ansvarar för skador som orsakas av felaktig användning och otillåten modifiering av fordonet.  n 
+ Anvisningar:  
+ 1. Denna funktion kan endast aktiveras när bilen är i läge Sport, körs i en hastighet av minst &amp;lt;7km/h och föraren och alla passagerare är fastspända i sina säkerhetsbälten. Säkerhetsbältena skall alltid vara fastspända under körning. Om något säkerhetsbälte lossas mitt i körningen kommer avdriftläget automatiskt att avslutas.  n 2. Denna funktion kan endast aktiveras när batterinivån är >20% SOC. I annat fall kommer den att avslutas automatiskt; 
+ 3. Denna funktion kan endast aktiveras när fordonssystemet är normalt. I annat fall kommer den att avslutas automatiskt; 
+ Med aktiverad funktion för avdrift med en knapp: 
+ 1. Funktionerna E-pedal och AutoHåll är inaktiverade som standard; 
+ 2. Läget Sport växlas automatiskt till; 
+ 3. ESC-funktionen är avaktiverad; 
+ 4. Energiåtervinningsnivån är låg;  
+ 5. Funktionen Kontroll av Start (om den är aktiverad) avaktiveras automatiskt. n 
+ Jag har läst, förstått och godkänner ovanstående information"</string>
+    <string name="prompt_drift_tips_cs1e" formatted="false">"Anteckningar:
+ 1. Denna funktion är endast avsedd att användas på racerbanor eller professionella områden som uppfyller nationella säkerhetsstandarder, inte på allmänna vägar eller osäkra platser som inte uppfyller säkerhetsstandarder.
+ 2. För att säkerställa drifting-säkerheten rekommenderas originalsatsen för drifting. Eventuella skador på komponenter på grund av felaktig användning och överdriven användning av drifting täcks inte av garantin.
+ 3. Detta läge bör endast användas av mycket erfarna förare med professionella körkunskaper och minst 3 års körvana. Föraren påtar sig fullt ansvar för eventuella skador som uppstår på grund av felaktig användning eller otillåtna modifieringar.
+ 
+ Gör så här:
+ 1. För att aktivera den här funktionen aktiverar du sportkörningsläge med en hastighet &lt; 7 km/h och ser till att både förare och passagerare har spänt fast säkerhetsbältena ordentligt. Se till att alla säkerhetsbälten är fastspända under hela körningen. Annars inaktiveras funktionen automatiskt.
+ 2. Denna funktion kan endast aktiveras när batteriets laddningstillstånd är över 20 %. Funktionen inaktiveras automatiskt när laddningstillståndet sjunker till &lt; 20 %.
+ 3. Denna funktion kan endast aktiveras när hela fordonssystemet fungerar korrekt och inaktiveras om något fel inträffar.
+ 
+ Efter att drift aktiverats:
+ 1. Stoppläge växlas till Långsam.
+ 2. Auto Hold inaktiveras som standard. 
+ 3. Körläget växlar automatiskt till Sport.
+ 4. ESC inaktiveras.
+ 5. Nivå för regenerativ bromsning växlas till låg.
+ 6. Vissa funktioner för förar- och parkeringsassistans inaktiveras eller begränsas. Se användarhandboken för mer information.
+ 
+ Förstår du till fullo ovanstående innehåll och godkänner det?"</string>
+    <string name="prompt_drift_title">Användarinstruktioner för avdrift med en knapp</string>
+    <string name="prompt_guest_mode_tips">Denna funktion är inte tillgänglig i gästläget. Vänligen stäng av gästläget och försök igen.</string>
+    <string name="prompt_launch_control_accept">Godkänn och fortsätt</string>
+    <string name="prompt_launch_control_content">"Varning: Det är förarens skyldighet att hålla bilen under kontroll hela tiden i startläget och att upprätthålla en säker kör- och användningsmiljö. Vänligen arbeta under förhållanden som har bekräftats vara säkra. Långvarig kontinuerlig körning kan försämra prestandan hos fordonets driv- och bromssystem. Vi hoppas att du kan använda denna funktion med försiktighet. 
+ 
+ Krav för användning: 
+1. Startläget används när fordonet står stilla, dörrarna är stängda och föraren och passagerarna har spänt fast säkerhetsbältena på normalt sätt. 
+2. Kontrollera att temperaturen i fordonets kraftsystem är normal och att strömmen är tillräcklig 
+3. Stäng av intelligenta körfunktioner, centrera ratten, lossa den elektroniska handbromsen och lägg i D-växeln 
+ 
+ Bruksanvisning: 
+1. Tryck på knappen Kontroll av Start 
+2. Tryck ned bromspedalen helt och sedan gaspedalen, vänta tills instrumentet visar Startläge aktivt och släpp sedan bromspedalen helt inom 4 sekunder, så startar fordonet med en fantastisk acceleration. (Om instrumentet visar Startläge misslyckades, kontrollera meddelandet på storbildsskärmen och fordonets status) 
+ 
+ Jag har läst, förstått och godkänner ovanstående information"</string>
+    <string name="prompt_launch_control_cs1e_content">"Varning: Under startkontroll är föraren ansvarig för att bibehålla kontrollen över fordonet hela tiden och se till att kör- och användningsmiljön är säker. Använd endast under säkra villkor. Kontinuerlig användning av startkontroll kan resultera i en minskning av fordonets driv- och bromssystemets prestanda. Var försiktig vid användning av denna funktion. För att säkerställa körsäkerheten, inaktivera funktionen när den inte används.
+ Obs: 
+1. Startkontroll ska aktiveras medan fordonet är parkerat. Se till att dörrarna är stängda och att föraren och passagerarna har sina säkerhetsbälten ordentligt fastsatta. 
+2. Se till att fordonets kraftsystem är vid normal temperatur och att batteriet är tillräckligt laddat. 
+3. Inaktivera smartkörningsfunktioner, centrera ratten, släpp den elektroniska parkeringsbromsen och växla till Drive. 
+Instruktioner: 
+1. Tryck på Startkontroll-knappen. 
+2. Tryck först helt ned på bromspedalen, tryck sedan helt ned på gaspedalen och släpp bromspedalen helt inom 4 sekunder. Fordonet kommer att startas med stor acceleration.
+ 3. För att erbjuda en optimal upplevelse kommer körläget automatiskt att växla till Sport efter att funktionen är aktiverad. Efter att denna funktion är inaktiverad förblir körläget Sport. Om du växlar till ett annat körläge kommer startkontroll automatiskt att inaktiveras. 
+Förstår och samtycker du till det ovanstående innehållet?"</string>
+    <string name="prompt_launch_control_disable_tips">Drift aktiverat, startkontroll tillfälligt ej tillgänglig</string>
+    <string name="prompt_launch_control_race_content">"VARNING: Föraren har ansvaret för att behålla kontrollen över fordonet under hela utskjutningsstartprocessen och för att säkerställa miljön i vilken fordonet körs och används, så se till att operera i förhållanden där säkerheten kan garanteras. Långvarig kontinuerlig utskjutning kan försämra hela fordonets kör- och bromssystem, därför hoppas vi att du kan använda denna funktion med försiktighet. För att garantera körsäkerheten ska du stänga av funktionsbrytaren när den inte används. 
+ 
+Driftskrav: 
+1. Utskjutningsstartfunktionen måste vara i parkeringsläge, och se till att dörrarna är stängda och att säkerhetsbältena på förare och passagerare är ordentligt fastsatta 
+2. Se till att temperaturen på fordonets energisystem är normal och att strömmen är tillräcklig 
+3. Stäng av funktionerna relaterade till intelligent körning, korrigera ratten, lossa den elektroniska handbromsen och justera fordonet till D-växel 
+ 
+Driftsinstruktion: 
+1. Slå på knappen Utskjutningsstart 
+2. Trampa först på bromsarna, trampa sedan på gaspedalen och släpp bromspedalen helt på 4 sekunder, så kommer hela fordonet att skjutas ut med en kraftig acceleration. 
+3. För att få bästa möjliga upplevelse växlar körläget automatiskt till Sportläge när funktionen aktiveras. När funktionen inaktiveras finns den kvar i Sportläget. Funktionen Utskjutningsstart inaktiveras automatiskt när man växlar till ett annat körläge. (Om Zeeker racerbana - Fordonskontroll aktivering tillgänglig är på, växlas det inte till Sportläge.) 
+4. Zeeker racerbana - Driftläge är inte tillgängligt när det är aktiverat. 
+ 
+Har du till fullo förstått och godkänt ovanstående meddelande? &lt;/string>"</string>
+    <string name="prompt_launch_control_title">Användarmeddelande för Kontroll av Start</string>
+    <string name="prompt_saving_mode_tips">Funktionen är inte tillgänglig när Superströmsparläget är aktiverat, stäng av det och försök igen</string>
+    <string name="prompt_trunk_open_confirm">Tryck igen för att öppna bagageutrymmet</string>
+    <string name="racing_mode">Tävlingsläge</string>
+    <string name="rear_charging_cap">Skydd för bakre laddningsport</string>
+    <string name="rear_fog_lamps">Dimbakljus</string>
+    <string name="recent_apps">Nyligen använd</string>
+    <string name="remove">Ta bort</string>
+    <string name="remove_mini_app">Ta bort miniprogram</string>
+    <string name="reset_internet">Nätverksomstart</string>
+    <string name="right_opposite_door">Höger dörrar</string>
+    <string name="right_switch_disabled">Höger brytare avaktiverad</string>
+    <string name="right_window_lock">Barnlås höger fönster bak</string>
+    <string name="scarp_cruised">Backkörningskontroll</string>
+    <string name="see_back_row">Barnskydd</string>
+    <string name="see_more">Se mer</string>
+    <string name="stream_media">Digital backspegel</string>
+    <string name="switch_car3d">Växla till 3D-bilmodell</string>
+    <string name="switch_map">Växla till navigering</string>
+    <string name="tab_mini_app">Mini-program</string>
+    <string name="take_picture">Ta bild</string>
+    <string name="take_video">Spela in</string>
+    <string name="task_tips_content">Inga appar kÃ¶rs i bakgrunden</string>
+    <string name="through_lamp">Genomgående baklykta</string>
+    <string name="tip_backrest_is_running">Bakskärmen använder den här appen, som kommer att avbrytas om du fortsätter att öppna</string>
+    <string name="tip_csd_is_running">Den främre skärmen använder den här appen, som kommer att avbrytas om du fortsätter att öppna</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">bar</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">Rekommenderat däcktryck</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">%1$s när halvlastad, %n %2$s när fullastad</string>
+    <string name="title_baby_mode">Barnläge</string>
+    <string name="title_child_lock">Barnlåsskydd</string>
+    <string name="title_child_protect">Barnskydd</string>
+    <string name="trips_100_km_caps">100 km</string>
+    <string name="trips_10_km_caps">10 km</string>
+    <string name="trips_avg_energy">Genomsnittlig energiförbrukning</string>
+    <string name="trips_distance">Avstånd</string>
+    <string name="trips_elapsed_time">Tid</string>
+    <string name="trunk">Bagageutrymme</string>
+    <string name="uninstall">Avinstallera</string>
+    <string name="uninstall_application">Avinstallera app</string>
+    <string name="uninstall_failure">Avinstallationen misslyckades</string>
+    <string name="unlock_all">Låsa upp alla</string>
+    <string name="uvi_levels_1">Låg</string>
+    <string name="uvi_levels_2">Måttlig</string>
+    <string name="uvi_levels_3">Hög</string>
+    <string name="uvi_levels_4">Mycket hög</string>
+    <string name="uvi_levels_5">Extrem</string>
+    <string name="weather_altitude">Höjd:</string>
+    <string name="weather_aqs">Luftkvalitet:</string>
+    <string name="weather_card_title">Väder</string>
+    <string name="weather_failed">Det gick inte att läsa in, väderdata ej tillgängliga</string>
+    <string name="weather_loading">Läser in …</string>
+    <string name="weather_net_unavailable">Dålig nätverkssignal. Försök igen senare</string>
+    <string name="weather_refresh">Uppdatera</string>
+    <string name="weather_uvi">UV:</string>
+    <string name="widget_drive_score_h"> tim </string>
+    <string name="widget_drive_score_km">km</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/zeekr_list_card_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.ZeekrComponent.ListCard" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/zeekr_list_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="48.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:shapeAppearance="@style/circleImageStyle" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?colorPrimary" android:id="@id/zeekr_list_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginStart="32.0dip" app:layout_constraintStart_toEndOf="@id/zeekr_list_avatar" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="?textAppearanceLabelMedium" android:textColor="@color/primary_40" android:id="@id/zeekr_list_item_paraText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="@id/zeekr_list_item_text" app:layout_constraintTop_toBottomOf="@id/zeekr_list_item_text" />
+</merge>

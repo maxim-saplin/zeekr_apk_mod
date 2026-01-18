@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="active_widget">เปิดใช้งาน</string>
+    <string name="adjust_hud">การปรับ HUD</string>
+    <string name="adjust_rear_mirror">ปรับกระจกมองหลัง</string>
+    <string name="apa">ระบบช่วยจอดอัตโนมัติ</string>
+    <string name="app_center">ศูนย์แอป</string>
+    <string name="app_is_installing">กำลังติดตั้งแอปพลิเคชัน กรุณารอสักครู่</string>
+    <string name="app_not_install">ตรวจสอบให้แน่ใจว่าได้ติดตั้งแอปป้องกันเด็กแล้ว</string>
+    <string name="app_uninstall_cancel">ยกเลิก</string>
+    <string name="apps_all_title">แอปเพิ่มเติม</string>
+    <string name="apps_card_cancel_start_app">ยกเลิก</string>
+    <string name="apps_card_confirm_start_app">ยืนยันที่จะเปิด</string>
+    <string name="apps_card_tip_backrest_is_running">หน้าจอเบื้องหลังกำลังใช้แอปนี้อยู่ หากเปิดต่อจะถูกขัดจังหวะ</string>
+    <string name="apps_card_title">รายการโปรด</string>
+    <string name="apps_edit_at_most">สามารถเพิ่มแอปได้สูงสุด 4 แอป ลบบางแอปก่อนแล้วลองใหม่อีกครั้ง</string>
+    <string name="apps_edit_cancel">ยกเลิก</string>
+    <string name="apps_edit_finish">เสร็จสมบูรณ์</string>
+    <string name="apps_edit_group_custom_label">กำหนดเอง</string>
+    <string name="apps_edit_group_recent_label">การใช้งานล่าสุด</string>
+    <string name="apps_edit_tips">กดค้างเพื่อดึงไอคอนแอปไปยังการ์ดแอปที่ใช้บ่อย คุณยังสามารถแทนที่หรือจัดเรียงไอคอนแอปที่มีอยู่ในขณะที่ดึง</string>
+    <string name="apps_mini_title">มินิโปรแกรม</string>
+    <string name="apps_zeekr_lab_title">Z-emulator</string>
+    <string name="aqi_levels_1">ยอดเยี่ยม</string>
+    <string name="aqi_levels_2">ตกลง</string>
+    <string name="aqi_levels_3">เบา</string>
+    <string name="aqi_levels_4">ปานกลาง</string>
+    <string name="aqi_levels_5">รุนแรง</string>
+    <string name="aqi_levels_6">วิกฤต</string>
+    <string name="aqi_levels_7">สำคัญอย่างยิ่ง</string>
+    <string name="atmosphere_light">ไฟสร้างบรรยากาศ</string>
+    <string name="auto_hold">Auto Hold</string>
+    <string name="baby_into_car_widget">เด็กขึ้นโดยสาร</string>
+    <string name="baby_into_car_widget_active_dsc">กำลังจะเปิดใช้งานโหมดเด็กขึ้นโดยสาร ซึ่งเสียง เสียงพูด ความปลอดภัย ระบบปรับอากาศด้านหลัง หน้าต่าง และจอแสดงผลด้านหลังจะถูกปรับเป็นโหมดที่ตั้งไว้ล่วงหน้าโดยอัตโนมัติ</string>
+    <string name="baby_sleep_well_widget">เด็กนอนหลับ</string>
+    <string name="baby_sleep_well_widget_active_dsc">กำลังจะเปิดใช้งานโหมดเด็กนอนหลับ โดยเสียง เสียงพูด ความปลอดภัย ระบบปรับอากาศด้านหลัง หน้าต่าง และจอแสดงผลด้านหลังจะถูกปรับเป็นโหมดที่ตั้งไว้ล่วงหน้าโดยอัตโนมัติ</string>
+    <string name="back_row_cinema">โหมดโรงภาพยนตร์ด้านหลัง</string>
+    <string name="back_row_meeting">โหมดประชุมด้านหลัง</string>
+    <string name="back_row_rest">โหมดพักหลัง</string>
+    <string name="business_voice_disabled">ปิดการใช้งานเสียงธุรกิจ</string>
+    <string name="cancel_widget">ยกเลิก</string>
+    <string name="card_energy_chart_desc">แนวโน้มการใช้พลังงานของการเดินทางล่าสุด</string>
+    <string name="card_full_title">สภาพรถ</string>
+    <string name="card_kwh_mile_unit">kWh/100 mi</string>
+    <string name="card_kwh_unit">kWh/100 km</string>
+    <string name="card_trip_1">ทริป 1</string>
+    <string name="card_trip_2">ทริป 2</string>
+    <string name="central_lock">เซ็นทรัลล็อค</string>
+    <string name="charge_charge_error_big_tips">ข้อผิดพลาดการชาร์จ, กรุณาตรวจสอบทันที!</string>
+    <string name="charge_charging_done_tips">หยุดการชาร์จ, กรุณาจำไว้ว่าให้ถอดปลั๊ก</string>
+    <string name="charge_charging_full">ชาร์จเต็มก่อน</string>
+    <string name="charge_charging_limit">ชาร์จถึงขีดจำกัด</string>
+    <string name="charge_connect">เชื่อมต่อแล้ว</string>
+    <string name="charge_connect_tips">กรุณารออย่างอดทน</string>
+    <string name="charge_daily">ทุกวัน</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">หยุด V2L</string>
+    <string name="charge_estimate">&lt;span color=#9985898C font-size=28px>เวลาที่เหลือ&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span > &lt;span color=#85898C font-size=80px>%2$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_24">&lt;span color=#9985898C font-size=28px>เวลาที่เหลือ&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>>24&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_24_day">&lt;span color=#99383A3D font-size=28px>เวลาที่เหลือ&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>>24&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_day">" &lt;span color=#99383A3D font-size=28px>เวลาที่เหลือ&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span > &lt;span color=#383A3D font-size=80px>%2$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_estimate_no_hour">&lt;span color=#9985898C font-size=28px>เวลาที่เหลือ&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_no_hour_day">" &lt;span color=#99383A3D font-size=28px>เวลาที่เหลือ&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_fully">ชาร์จเกือบเต็ม</string>
+    <string name="charge_next_day">วันถัดไป</string>
+    <string name="charge_no_plug">ไม่ได้เสียบปลั๊ก</string>
+    <string name="charge_plug_connect_ac">เสียบหัวชาร์จแล้ว (AC)</string>
+    <string name="charge_plug_connect_dc">เสียบหัวชาร์จแล้ว (DC)</string>
+    <string name="charge_plug_connect_fault">ข้อผิดพลาดในการเชื่อมต่อ</string>
+    <string name="charge_plug_connect_fault_tips">การเชื่อมต่อมีข้อผิดพลาด กรุณาตรวจสอบทันที!</string>
+    <string name="charge_plug_connect_tips">เชื่อมต่อปลั๊กชาร์จแล้ว แต่ไม่ได้เริ่มการชาร์จ โปรดอดใจรอ</string>
+    <string name="charge_plug_connect_waiting">หัวชาร์จไม่ได้เสียบอย่างสมบูรณ์</string>
+    <string name="charge_plug_no_active">เสาชาร์จยังไม่ได้เปิดใช้งาน</string>
+    <string name="charge_plug_no_double">ห้ามเสียบปลั๊ก AC และ DC พร้อมกัน</string>
+    <string name="charge_plug_no_double_tips">ความผิดปกติในการเสียบปลั๊ก กรุณาตรวจสอบทันที!</string>
+    <string name="charge_power_supply_capacity">&lt;span color=#9985898C font-size=28px>ปริมาณการจ่ายพลังงาน&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all">&lt;span color=#9985898C font-size=28px>สถิติการจ่ายพลังงาน&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all_day">&lt;span color=#99383A3D font-size=28px>สถิติการจ่ายพลังงาน&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_day">&lt;span color=#99383A3D font-size=28px>ปริมาณการจ่ายพลังงาน&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_pre_time">" &lt;span color=#9985898C font-size=28px>การชาร์จตามกำหนดเวลา&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>ทุกวัน&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_day">" &lt;span color=#99383A3D font-size=28px>การชาร์จตามกำหนดเวลา&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>ทุกวัน&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_full" formatted="false">" &lt;span color=#9985898C font-size=28px>การชาร์จตามกำหนดเวลา&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>ทุกวัน&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>ดีกว่า 100%&lt;/span >"</string>
+    <string name="charge_pre_time_full_day" formatted="false">" &lt;span color=#99383A3D font-size=28px>การชาร์จตามกำหนดเวลา&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>ทุกวัน&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>ดีกว่า 100%&lt;/span >"</string>
+    <string name="charge_pre_time_limit">" &lt;span color=#9985898C font-size=28px>การชาร์จตามกำหนดเวลา&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>ทุกวัน&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>เรียกเก็บเงินเพื่อจำกัด&lt;/span >"</string>
+    <string name="charge_pre_time_limit_day">" &lt;span color=#99383A3D font-size=28px>การชาร์จตามกำหนดเวลา&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>ทุกวัน&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>เรียกเก็บเงินเพื่อจำกัด&lt;/span >"</string>
+    <string name="charge_pre_time_next">" &lt;span color=#9985898C font-size=28px>การชาร์จตามกำหนดเวลา&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>ทุกวัน&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=24px>วันถัดไป&lt;/span > &lt;span color=#85898C font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_next_day">" &lt;span color=#99383A3D font-size=28px>การชาร์จตามกำหนดเวลา&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>ทุกวัน&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=24px>วันถัดไป&lt;/span > &lt;span color=#383A3D font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_title">การชาร์จตามตารางเวลา</string>
+    <string name="charge_start">เริ่มการชาร์จ</string>
+    <string name="charge_status_battery_fault">แบตเตอรี่มีข้อบกพร่อง</string>
+    <string name="charge_status_booking">การตั้งกำหนดการ</string>
+    <string name="charge_status_boosting">การชาร์จแบบเร่งสปีด</string>
+    <string name="charge_status_charging">กำลังชาร์จ</string>
+    <string name="charge_status_charging_done">หยุดการชาร์จ</string>
+    <string name="charge_status_charging_fault">ข้อผิดพลาดการชาร์จ</string>
+    <string name="charge_status_discharging">V2L อยู่ระหว่างดำเนินการ</string>
+    <string name="charge_status_discharging_done">V2L สิ้นสุด</string>
+    <string name="charge_status_discharging_fault">ข้อผิดพลาด V2L</string>
+    <string name="charge_status_preheating">ปรับอุณหภูมิแบตเตอรี่</string>
+    <string name="charge_status_super_fast_charging">การชาร์จเร็ว</string>
+    <string name="charge_stop">หยุดการชาร์จ</string>
+    <string name="charge_temperature_tips">กำลังปรับอุณหภูมิ กรุณารออย่างอดทน </string>
+    <string name="charging_cap">ฝาครอบพอร์ตชาร์จ</string>
+    <string name="child_lock_left">ล็อกเด็กด้านซ้าย</string>
+    <string name="child_lock_right">ล็อกเด็กลูกขวา</string>
+    <string name="climate_light">ไฟสำหรับทุกสภาพอากาศ</string>
+    <string name="close_all">ปิดทั้งหมด</string>
+    <string name="close_card">ปิดการ์ด</string>
+    <string name="close_window">ปิดหน้าต่างด้วยปุ่มเดียว</string>
+    <string name="confirm">ตกลง</string>
+    <string name="confirm_remove">คุณแน่ใจหรือว่าต้องการถอนการติดตั้ง%s?</string>
+    <string name="confirm_start_app">เปิด</string>
+    <string name="confirm_uninstall">คุณแน่ใจหรือว่าต้องการถอนการติดตั้ง%s?</string>
+    <string name="copilot_massage">การนวดผู้โดยสารด้านหน้า</string>
+    <string name="copilot_rest">ที่นั่งผู้โดยสารสำหรับพักผ่อนด้วยกุญแจเดียว</string>
+    <string name="day_friday">วันศุกร์</string>
+    <string name="day_monday">วันจันทร์</string>
+    <string name="day_saturday">วันเสาร์</string>
+    <string name="day_sunday">วันอาทิตย์</string>
+    <string name="day_thursday">วันพฤหัสบดี</string>
+    <string name="day_tuesday">วันอังคาร</string>
+    <string name="day_wednesday">วันพุธ</string>
+    <string name="done">เสร็จสมบูรณ์</string>
+    <string name="download_paused">หยุดชั่วคราว</string>
+    <string name="download_pending">เตรียมดาวน์โหลด…</string>
+    <string name="download_progress">กำลังดาวน์โหลด…</string>
+    <string name="drag_tip">กดค้างเพื่อดึงคุณสมบัติไปยังแถบควบคุมทางซ้าย คุณยังสามารถแทนที่หรือจัดเรียงฟีเจอร์ที่มีอยู่ในขณะที่ดึง</string>
+    <string name="drag_tip_right">กดค้างเพื่อดึงฟีเจอร์ไปยังแถบควบคุมทางขวา คุณยังสามารถแทนที่หรือจัดเรียงฟีเจอร์ที่มีอยู่ในขณะที่ดึง</string>
+    <string name="driver_massage">การนวดผู้ขับขี่</string>
+    <string name="driver_rest">ที่นั่งคนขับสำหรับพักผ่อนด้วยกุญแจเดียว</string>
+    <string name="edit_at_most">คุณสามารถเพิ่มฟีเจอร์ได้สูงสุด 5 ฟีเจอร์เท่านั้น กรุณาลบบางส่วนก่อนการเพิ่ม</string>
+    <string name="exclusive_child_lock">ล็อกพิเศษป้องกันเด็ก</string>
+    <string name="fold_rear_mirror">พับกระจกมองข้าง</string>
+    <string name="front_charging_cap">ฝาครอบพอร์ตชาร์จด้านหน้า</string>
+    <string name="glove_box">ตู้เก็บของ</string>
+    <string name="gps_permission_denied">ข้อมูล GPS ไม่ได้รับอนุญาต</string>
+    <string name="gps_permission_setting">การตั้งค่า</string>
+    <string name="hud">สวิตช์ HUD</string>
+    <string name="image_control">การควบคุมกระจก</string>
+    <string name="image_control_view_pager_txt">ส่วนควบคุมการแสดงผลด้านหลัง</string>
+    <string name="install_progress">กำลังติดตั้ง…</string>
+    <string name="launch_control">โหมด Launch Control</string>
+    <string name="left_dock_cancel">ยกเลิก</string>
+    <string name="left_dock_close">ระยะใกล้ขึ้น</string>
+    <string name="left_dock_edit">แก้ไข</string>
+    <string name="left_opposite_door">ประตูคู่ด้านซ้าย</string>
+    <string name="left_switch_disabled">ปิดใช้งานสวิตช์ด้านซ้าย</string>
+    <string name="left_window_lock">ล็อกกันเด็กหน้าต่าง LR</string>
+    <string name="lock_all">ล็อกทั้งหมด</string>
+    <string name="low_speed_alert">การแจ้งเตือนความเร็วต่ำ</string>
+    <string name="mask_card_energy_title"> การใช้พลังงาน</string>
+    <string name="mask_card_tire_title"> แรงดันลมยาง</string>
+    <string name="mask_card_trip_title"> การเดินทาง</string>
+    <string name="memory_using">การใช้งานหน่วยความจำ</string>
+    <string name="mirror_control_function_while_driving">เพื่อเหตุผลด้านความปลอดภัย ห้ามใช้การควบคุมการสะท้อนหน้าจอในขณะขับรถ</string>
+    <string name="no_recent_apps">ไม่มีการใช้งานล่าสุด</string>
+    <string name="nzp_string_array_1">ZEEKR Pilot ถูกปิด</string>
+    <string name="nzp_string_array_10">การเปลี่ยนเลนขวาล้มเหลว</string>
+    <string name="nzp_string_array_11">การเปลี่ยนเลนซ้ายล้มเหลว</string>
+    <string name="nzp_string_array_12">กำลังจะออกจากส่วน NOA</string>
+    <string name="nzp_string_array_13">โปรดควบคุมรถด้วยตนเอง</string>
+    <string name="nzp_string_array_14">จอดรถอย่างปลอดภัย</string>
+    <string name="nzp_string_array_15">โปรดควบคุมยานพาหนะ</string>
+    <string name="nzp_string_array_16">โปรดควบคุมรถด้วยตนเอง</string>
+    <string name="nzp_string_array_17">กรุณาจับพวงมาลัย</string>
+    <string name="nzp_string_array_18">กรุณามุ่งเน้นที่ถนนด้านหน้า</string>
+    <string name="nzp_string_array_19">กรุณาใช้แกนบังคับเลี้ยวเพื่อเปลี่ยนเลน</string>
+    <string name="nzp_string_array_2">NOA กำลังจะเริ่มต้น...</string>
+    <string name="nzp_string_array_20">เปิดการนำทางอัตโนมัติ NOA</string>
+    <string name="nzp_string_array_21">ลดระดับเป็น LCC Plus</string>
+    <string name="nzp_string_array_22">ปิดการใช้งาน LCC แล้ว</string>
+    <string name="nzp_string_array_23">ยกเลิก LCC Plus แล้ว</string>
+    <string name="nzp_string_array_24">ยกเลิก NOA แล้ว</string>
+    <string name="nzp_string_array_3">เปิดใช้งาน NOA แล้ว</string>
+    <string name="nzp_string_array_4">LCC Plus กำลังทำงาน</string>
+    <string name="nzp_string_array_5">LCC กำลังทำงาน</string>
+    <string name="nzp_string_array_6">เร่งความเร็ว</string>
+    <string name="nzp_string_array_7">กำลังเปลี่ยนเลน</string>
+    <string name="nzp_string_array_8">การเปลี่ยนเลนถูกยกเลิก</string>
+    <string name="nzp_string_array_9">การเปลี่ยนเลนเสร็จสิ้น</string>
+    <string name="one_click_breath">การระบายอากาศ</string>
+    <string name="one_click_breath_on">ปิดหน้าต่างด้วยปุ่มเดียว</string>
+    <string name="one_click_close_door">ปิดด้วยการแตะครั้งเดียว</string>
+    <string name="one_click_drift">One-Touch Drifting</string>
+    <string name="open_car3d">เปิดแบบจำลองรถยนต์</string>
+    <string name="open_card">เปิดการ์ด</string>
+    <string name="open_map">เปิดแผนที่</string>
+    <string name="open_window">เปิดหน้าต่างทั้งหมด</string>
+    <string name="open_window_on">ปิดหน้าต่างด้วยปุ่มเดียว</string>
+    <string name="parking_comfort">โหมดจอดสบาย</string>
+    <string name="part_glass">กระจกกั้นลดลง</string>
+    <string name="part_glass_on">กระจกกั้นลุกขึ้น</string>
+    <string name="phone_charge">การชาร์จแบบไร้สาย</string>
+    <string name="position_light">ไฟตำแหน่ง</string>
+    <string name="prompt_drift_condition_battery_power">แบตเตอรี่ของยานพาหนะแต่ละเท่า 20% ขึ้นไป</string>
+    <string name="prompt_drift_condition_cancel">ไม่มี Drifting ชั่วคราว</string>
+    <string name="prompt_drift_condition_check_title">เงื่อนไขการเปิดใช้งาน</string>
+    <string name="prompt_drift_condition_confirm">การใช้งาน Drifting</string>
+    <string name="prompt_drift_condition_drive_mode">โหมดการขับขี่เปลี่ยนเป็นโหมดสปอร์ต</string>
+    <string name="prompt_drift_condition_drive_system">ระบบขับขี่ปกติ</string>
+    <string name="prompt_drift_condition_esc_system">ระบบ ESC ปกติ</string>
+    <string name="prompt_drift_condition_hot_manage_system">ระบบจัดการความร้อนปกติ</string>
+    <string name="prompt_drift_condition_safety_belt">ผู้โดยสารได้คาดเข็มขัดนิรภัยแล้ว</string>
+    <string name="prompt_drift_condition_speed">ความเร็ว &lt; 7 km/h</string>
+    <string name="prompt_drift_condition_steering_system">ระบบพวงมาลัยปกติ</string>
+    <string name="prompt_drift_condition_tire_pressure_system">ระบบแรงดันลมยางปกติ</string>
+    <string name="prompt_drift_control_accept">ยอมรับ</string>
+    <string name="prompt_drift_disable_tips">Launch Control เปิดใช้งานแล้ว Drifting ใช้งานไม่ได้ชั่วคราว</string>
+    <string name="prompt_drift_error_tips">"กรุณาตรวจสอบให้แน่ใจว่าตรงตามเงื่อนไขต่อไปนี้แล้วลองใหม่อีกครั้ง
+ 1. แบตเตอรี่ > 20%
+ 2. รถอยู่ในเกียร์ D
+ 3. ผู้โดยสารทุกคนคาดเข็มขัดนิรภัยแล้ว
+ 4. ระบบขับเคลื่อน, ระบบ ESC, ระบบพวงมาลัย, ระบบความดันลมยาง, และระบบจัดการความร้อนอยู่ในสภาพปกติ
+ 5. การเปลี่ยนไปยังโหมด Sport สำเร็จ
+"</string>
+    <string name="prompt_drift_error_title">ไม่สามารถเปิดใช้งาน One-Touch Drifting ได้</string>
+    <string name="prompt_drift_i_know">รับทราบ</string>
+    <string name="prompt_drift_tips" formatted="false">"หมายเหตุ:
+ 1. คุณลักษณะนี้สามารถเปิดใช้งานได้เฉพาะในสนามแข่งหรือสถานที่มืออาชีพที่ตามมาตรฐานความปลอดภัยของชาติเท่านั้น อย่าเปิดใช้งานบนถนนสาธารณะหรือที่ที่ไม่ปลอดภัย.
+ 2. เมื่อเปิดใช้งาน One-Tap Drift แนะนำให้ใช้ชุดดริฟท์เดิมเพื่อความปลอดภัย ความเสียหายใด ๆ ต่ออุปกรณ์ที่เกิดจากการใช้งานที่ไม่เหมาะสมและการใช้ One-Tap Drift มากเกินไปจะไม่ครอบคลุมโดยการรับประกัน.
+ 3. One-Tap Drift ต้องการทักษะการขับขี่ขั้นสูง ผู้ขับขี่ต้องมีประสบการณ์การขับขี่มากกว่า 3 ปี ผู้ขับขี่ต้องรับผิดชอบต่อความเสียหายใด ๆ ที่เกิดขึ้นจากการใช้งานที่ไม่เหมาะสมหรือการดัดแปลงที่ไม่ได้รับอนุญาต.
+ 
+ คำแนะนำ:
+ 1. ฟังก์ชันนี้ต้องตั้งโหมดการขับขี่ให้เป็น “สปอร์ต” และความเร็วรถต้องน้อยกว่า &lt;7 km/h ตรวจสอบว่าอุปกรณ์ป้องกันทุกจุดมั่นใจก่อนเปิดการใช้งาน สายเข็มขัดต้องยังคงรัดแน่นเสมอ ถ้าสายเข็มขัดใด ๆ หลวมออกในระหว่างการหยุดการดริฟต์จะหยุดโดยอัตโนมัติ
+ 2. ฟังก์ชันนี้จะทำงานได้เมื่อแบตเตอรี่มี SOC > 20% เท่านั้น ถ้า SOC &lt;น้อยกว่า 20% ระบบจะออกโดยอัตโนมัติ
+ 3. ฟังก์ชันนี้จะเปิดใช้งานได้เมื่อระบบรถยนต์ทุกระบบเป็นปกติ ถ้ามีความผิดปรกติใด ๆ จะหยุดโดยอัตโนมัติ
+ 
+ หลังจาก One-Touch Drifting ถูกเปิดใช้งาน:
+ 1. ฟังก์ชัน E-pedal และ Autohold ถูกปิดโดยค่าเริ่มต้น
+ 2. เปลี่ยนไปยังโหมด “สปอร์ต” อัตโนมัติ
+ 3. ฟังก์ชัน ESC ถูกปิด
+ 4. ระดับการกู้คืนพลังงานต่ำ
+ 5. ฟังก์ชัน “Launch Control” ถูกปิดอัตโนมัติ (หากฟังก์ชันนี้ถูกเปิดใช้งาน).
+ 
+ คุณเข้าใจและเห็นด้วยกับข้อมูลข้างต้นทั้งหมดหรือไม่?"</string>
+    <string name="prompt_drift_title">แจ้งเตือนการใช้งาน One-Touch Drifting</string>
+    <string name="prompt_guest_mode_tips">ฟังก์ชันนี้ไม่สามารถใช้งานได้เมื่อเปิดใช้งานโหมดแขก โปรดปิดใช้งานและลองอีกครั้ง</string>
+    <string name="prompt_launch_control_accept">ตกลงและเข้า</string>
+    <string name="prompt_launch_control_content">"คำเตือน: ในระหว่างการใช้ Launch Control ผู้ขับขี่มีหน้าที่รับผิดชอบในการควบคุมรถตลอดเวลาและมั่นใจว่าสภาพแวดล้อมการขับขี่และการใช้งานปลอดภัย โปรดใช้งานเฉพาะเมื่ออยู่ในสภาพที่ปลอดภัยเท่านั้น การใช้ระบบ Launch Control อย่างต่อเนื่องอาจทำให้สมรรถนะการขับขี่และระบบเบรกของรถลดลง โปรดใช้ความระมัดระวังเมื่อใช้งานฟีเจอร์นี้ 
+
+หมายเหตุ: 
+1. ฟีเจอร์ Launch Control ควรเปิดใช้งานขณะที่รถจอดนิ่งอยู่ โปรดตรวจสอบให้แน่ใจว่าประตูปิดสนิท และผู้ขับขี่และผู้โดยสารคาดเข็มขัดนิรภัยอย่างถูกต้อง 
+2. ตรวจสอบให้แน่ใจว่าระบบพลังงานของรถอยู่ในอุณหภูมิปกติและแบตเตอรี่มีกำลังเพียงพอ 
+3. ปิดการใช้งานฟีเจอร์การขับขี่อัจฉริยะ, ตั้งพวงมาลัยให้ตรง, ปลดเบรกมืออิเล็กทรอนิกส์, และเปลี่ยนเกียร์ไปที่ Drive 
+ 
+ คำแนะนำ: 
+1. กดปุ่ม “Launch Control” 
+2. เหยียบแป้นเบรกจนสุดก่อน จากนั้นเหยียบแป้นคันเร่งจนสุดและปล่อยแป้นเบรกทั้งหมดภายใน 4 วินาที รถจะออกตัวด้วยความเร่งสูง (ถ้ามีการแจ้งเตือน โหมด Launch ล้มเหลว, กรุณาตรวจสอบการแจ้งเตือนบนหน้าจอและสถานะของรถยนต์) 
+ 
+คุณเข้าใจและเห็นด้วยกับข้อมูลข้างต้นทั้งหมดหรือไม่?"</string>
+    <string name="prompt_launch_control_cs1e_content">"คำเตือน: ในระหว่างการใช้ฟีเจอร์ Launch Control ผู้ขับขี่มีหน้าที่รับผิดชอบในการควบคุมรถตลอดเวลาและมั่นใจว่าสภาพแวดล้อมการขับขี่และการใช้งานปลอดภัย โปรดใช้งานเฉพาะเมื่ออยู่ในสภาพที่ปลอดภัยเท่านั้น การใช้ฟีเจอร์ Launch Control อย่างต่อเนื่องอาจทำให้สมรรถนะการขับขี่และระบบเบรกของรถลดลง โปรดใช้ความระมัดระวังเมื่อใช้งานฟีเจอร์นี้ เพื่อความปลอดภัยในการขับขี่ โปรดปิดการใช้งานฟีเจอร์นี้เมื่อไม่ได้ใช้งาน
+ หมายเหตุ: 
+1. ฟีเจอร์ Launch Control จะต้องเปิดใช้งานในขณะที่รถจอดนิ่งอยู่ โปรดตรวจสอบให้แน่ใจว่าประตูปิดสนิท และผู้ขับขี่และผู้โดยสารคาดเข็มขัดนิรภัยอย่างถูกต้อง 
+2. ตรวจสอบให้แน่ใจว่าระบบพลังงานของรถอยู่ในอุณหภูมิปกติและแบตเตอรี่มีกำลังเพียงพอ 
+3. ปิดการใช้งานฟีเจอร์การขับขี่อัจฉริยะ ตั้งพวงมาลัยให้ตรง ปลดเบรกมืออิเล็กทรอนิกส์ และเปลี่ยนเกียร์ไปที่ Drive 
+คำแนะนำ: 
+1. กดปุ่ม Launch Control 
+2. เหยียบแป้นเบรกจนสุดก่อน จากนั้นเหยียบแป้นคันเร่งจนสุดและปล่อยแป้นเบรกทั้งหมดภายใน 4 วินาที รถจะออกตัวด้วยความเร่งสูง
+ 3. เพื่อให้ได้ประสบการณ์ที่ดีที่สุด โหมดการขับขี่จะเปลี่ยนเป็น สปอร์ต โดยอัตโนมัติหลังเปิดใช้งานฟีเจอร์นี้ แล้วเมื่อปิดใช้งานฟีเจอร์นี้ โหมดการขับขี่จะยังคงเป็น สปอร์ต การเปลี่ยนไปโหมดการขับขี่อื่นๆ จะปิดใช้งานฟีเจอร์ Launch Control โดยอัตโนมัติ 
+คุณเข้าใจและยอมรับที่กล่าวมาข้างต้นทั้งหมดหรือไม่"</string>
+    <string name="prompt_launch_control_disable_tips">ฟังก์ชัน Drifting เปิดใช้งานแล้ว Launch Control ใช้งานไม่ได้ชั่วคราว</string>
+    <string name="prompt_launch_control_race_content">"คำเตือน: ในระหว่างการใช้ Launch Control ผู้ขับขี่มีหน้าที่รับผิดชอบในการควบคุมรถตลอดเวลาและมั่นใจว่าสภาพแวดล้อมการขับขี่และการใช้งานปลอดภัย โปรดใช้งานเฉพาะเมื่ออยู่ในสภาพที่ปลอดภัยเท่านั้น การใช้ระบบ Launch Control อย่างต่อเนื่องอาจทำให้สมรรถนะการขับขี่และระบบเบรกของรถลดลง โปรดใช้ความระมัดระวังเมื่อใช้งานฟีเจอร์นี้ เพื่อความปลอดภัยในการขับขี่ โปรดปิดการใช้งานฟีเจอร์นี้เมื่อไม่ได้ใช้งาน
+ 
+หมายเหตุ: 
+1. ฟีเจอร์ Launch Control ควรเปิดใช้งานขณะที่รถจอดนิ่งอยู่ โปรดตรวจสอบให้แน่ใจว่าประตูปิดสนิท และผู้ขับขี่และผู้โดยสารคาดเข็มขัดนิรภัยอย่างถูกต้อง 
+2. ตรวจสอบให้แน่ใจว่าระบบพลังงานของรถอยู่ในอุณหภูมิปกติและแบตเตอรี่มีกำลังเพียงพอ 
+3. ปิดการใช้งานฟีเจอร์การขับขี่อัจฉริยะ, ตั้งพวงมาลัยให้ตรง, ปลดเบรกมืออิเล็กทรอนิกส์, และเปลี่ยนเกียร์ไปที่ Drive 
+ 
+ คำแนะนำ: 
+1. กดปุ่ม “Launch Control” 
+2. เหยียบแป้นเบรกจนสุดก่อน จากนั้นเหยียบแป้นคันเร่งจนสุดและปล่อยแป้นเบรกทั้งหมดภายใน 4 วินาที รถจะออกตัวด้วยความเร่งสูง
+ 3. เพื่อให้ได้ประสบการณ์ที่ดีที่สุด โหมดการขับขี่จะเปลี่ยนเป็น “โหมดสปอร์ต” โดยอัตโนมัติหลังเปิดใช้งานฟีเจอร์นี้ หลังจากปิดใช้งานฟีเจอร์นี้แล้ว จะยังคงอยู่ในโหมดสปอร์ต การเปลี่ยนไปโหมดการขับขี่อื่นๆ จะปิดใช้งานฟีเจอร์ “Launch Control” โดยอัตโนมัติ (ใน ZEEKR Track - การเปิดใช้งานการควบคุมรถยนต์มีให้ใช้งาน มันจะไม่เปลี่ยนเป็นโหมดสปอร์ต.)
+ 4. เมื่อเปิดใช้งานแล้วโหมด ZEEKR Track-Drift จะไม่พร้อมใช้งาน 
+ 
+คุณเข้าใจและเห็นด้วยกับข้อมูลข้างต้นทั้งหมดหรือไม่?"</string>
+    <string name="prompt_launch_control_title">ประกาศสำหรับผู้ใช้ Launch Control</string>
+    <string name="prompt_saving_mode_tips">ฟังก์ชันนี้ไม่สามารถใช้งานได้ในโหมดประหยัดพลังงานสูงสุด โปรดปิดการใช้งานแล้วลองใหม่อีกครั้ง</string>
+    <string name="prompt_trunk_open_confirm">แตะอีกครั้งเพื่อเปิดกระโปรงท้าย</string>
+    <string name="racing_mode">โหมดเรซซิ่ง</string>
+    <string name="rear_charging_cap">ฝาครอบพอร์ตชาร์จด้านหลัง</string>
+    <string name="rear_fog_lamps">ไฟตัดหมอกหลัง</string>
+    <string name="recent_apps">การใช้งานล่าสุด</string>
+    <string name="remove">ลบ</string>
+    <string name="remove_mini_app">ลบมินิโปรแกรม</string>
+    <string name="reset_internet">เริ่มต้นเครือข่ายใหม่</string>
+    <string name="right_opposite_door">ประตูคู่ด้านขวา</string>
+    <string name="right_switch_disabled">ปิดใช้งานสวิตช์ด้านขวา</string>
+    <string name="right_window_lock">ล็อกกันเด็กหน้าต่าง RR</string>
+    <string name="scarp_cruised">ควบคุมการลงทางลาด</string>
+    <string name="see_back_row">การคุ้มครองเด็ก</string>
+    <string name="see_more">ดูเพิ่มเติม</string>
+    <string name="stream_media">กระจกมองหลังสตรีมมีเดีย</string>
+    <string name="switch_car3d">สลับไปที่แบบจำลองรถยนต์ 3D</string>
+    <string name="switch_map">สลับไปที่แผนที่</string>
+    <string name="tab_mini_app">มินิโปรแกรม</string>
+    <string name="tab_zeekr_lab">Z-emulator</string>
+    <string name="take_picture">ถ่ายรูป</string>
+    <string name="task_tips_content">ไม่มีแอปพลิเคชันเบื้องหลังทำงานอยู่</string>
+    <string name="through_lamp">ไฟบรรยากาศภายใน</string>
+    <string name="tip_backrest_is_running">แอปนี้กำลังถูกใช้งานบนหน้าจอด้านหลัง การเปิดแอปที่นี่จะรบกวนการใช้งานของพวกเขา</string>
+    <string name="tip_csd_is_running">แอปนี้กำลังถูกใช้งานบนหน้าจอด้านหน้า การเปิดแอปที่นี่จะรบกวนการใช้งานของพวกเขา</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">bar</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">แรงดันลมยางที่แนะนำ</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">ครึ่งโหลด %1$s %nโหลดเต็ม %2$s</string>
+    <string name="title_baby_mode">โหมดเด็ก</string>
+    <string name="title_child_lock">ระบบล็อกป้องกันเด็ก</string>
+    <string name="title_child_protect">การคุ้มครองเด็ก</string>
+    <string name="trips_100_km_caps">100 km</string>
+    <string name="trips_10_km_caps">10 km</string>
+    <string name="trips_62_mile_caps">62 mi</string>
+    <string name="trips_6_mile_caps">6 mi</string>
+    <string name="trips_avg_energy">การใช้พลังงานเฉลี่ย</string>
+    <string name="trips_distance">ระยะทาง</string>
+    <string name="trips_elapsed_time">เวลาการขับ</string>
+    <string name="trunk">กระโปรงหลังรถ</string>
+    <string name="uninstall">ถอนการติดตั้ง</string>
+    <string name="uninstall_application">ถอนการติดตั้งแอปพลิเคชัน</string>
+    <string name="uninstall_failure">การถอนการติดตั้งล้มเหลว</string>
+    <string name="unlock_all">ปลดล็อกทั้งหมด</string>
+    <string name="uvi_levels_1">อ่อนแอที่สุด</string>
+    <string name="uvi_levels_2">อ่อนแอ</string>
+    <string name="uvi_levels_3">ปานกลาง</string>
+    <string name="uvi_levels_4">เข้มข้น</string>
+    <string name="uvi_levels_5">แข็งแกร่งมาก</string>
+    <string name="weather_altitude">ระดับความสูง:</string>
+    <string name="weather_aqs">คุณภาพอากาศ:</string>
+    <string name="weather_card_title">สภาพอากาศ</string>
+    <string name="weather_failed">โหลดล้มเหลว ไม่มีข้อมูลสภาพอากาศ</string>
+    <string name="weather_loading">กำลังโหลด…</string>
+    <string name="weather_net_unavailable">เครือข่ายไม่ดี โปรดลองใหม่ภายหลัง</string>
+    <string name="weather_refresh">รีเฟรช</string>
+    <string name="weather_uvi">ดัชนีรังสียูวี:</string>
+    <string name="widget_drive_score_km">km</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/favorite_list_text_size" android:textColor="@color/text_color_2" android:id="@id/radioStation_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/radio_freq_margin_left" android:text="@string/favoriteslist" />
+    <com.zeekr.mediawidget.ui.EdgeTransparentView android:id="@id/radio_edge_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bottom_edge_width="@dimen/edge_top_height" app:top_edge_width="@dimen/edge_top_height">
+        <com.zeekr.mediawidget.ui.view.OverScrollRecyclerView android:id="@id/radioStation_recy" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" style="@style/media_list_rv_style" />
+    </com.zeekr.mediawidget.ui.EdgeTransparentView>
+    <include android:layout_gravity="center" android:id="@id/empty_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/exception_margin_top_size" layout="@layout/layout_list_empty" />
+</LinearLayout>

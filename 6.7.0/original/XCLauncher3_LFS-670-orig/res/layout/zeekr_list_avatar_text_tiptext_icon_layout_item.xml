@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/zeekr_list_item_card" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.ZeekrComponent.ListCard" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/zeekr_list_item_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:src="@drawable/ic_pause" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:shapeAppearance="@style/circleImageStyle" app:tint="?colorPrimary" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:id="@id/zeekr_list_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Main text" android:layout_marginStart="40.0dip" app:layout_constraintBottom_toBottomOf="@id/zeekr_list_item_avatar" app:layout_constraintStart_toEndOf="@id/zeekr_list_item_avatar" app:layout_constraintTop_toTopOf="@id/zeekr_list_item_avatar" />
+    <TextView android:id="@id/zeekr_list_item_tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="21.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/zeekr_list_item_right_icon" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/zeekr_list_item_right_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_lock_silent_mode" android:layout_marginEnd="45.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="?colorPrimary" />
+</merge>

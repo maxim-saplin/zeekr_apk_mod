@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.mediawidget.ui.EdgeTransparentView android:id="@id/online_edge_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bottom_edge_width="@dimen/edge_top_height" app:top_edge_width="@dimen/edge_top_height">
+        <com.zeekr.mediawidget.ui.view.OverScrollRecyclerView android:id="@id/online_list_recy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/online_list_recy_margin_top" style="@style/media_list_rv_style" />
+    </com.zeekr.mediawidget.ui.EdgeTransparentView>
+    <include android:layout_gravity="center" android:id="@id/empty_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/exception_margin_top_size" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_list_empty" />
+</androidx.constraintlayout.widget.ConstraintLayout>

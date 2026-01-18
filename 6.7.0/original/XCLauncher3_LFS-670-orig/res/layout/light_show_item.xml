@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/d_dimen_381" android:layout_height="@dimen/d_dimen_381"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.component.card.ZeekrCardView android:id="@id/lightShow_item_card" android:layout_width="@dimen/d_dimen_349" android:layout_height="@dimen/d_dimen_349" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/d_dimen_15" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:strokeColor="@color/lightShow_card_stroke" app:strokeWidth="@dimen/d_dimen_2">
+        <ImageView android:id="@id/lightShow_item_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/s_dimen_32" android:textColor="@color/lightShow_card_title" android:gravity="center" android:id="@id/lightShow_item_title" android:background="@drawable/light_show_item_name_background" android:layout_width="fill_parent" android:layout_height="@dimen/d_dimen_84" android:text="@string/lightShow_card_title" />
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="start|bottom" android:id="@id/lightShow_item_anim" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/d_dimen_10" />
+    </com.zeekr.component.card.ZeekrCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

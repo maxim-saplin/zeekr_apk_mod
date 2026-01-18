@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/ZeekrTheme26" android:id="@id/zeekr_toast_card" android:fitsSystemWindows="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/zeekr_toast_max_width" android:minWidth="@dimen/zeekr_toast_min_width" style="@style/Widget.ZeekrComponent.CardView.Toast"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SurfaceView android:visibility="invisible" android:layout_width="0.00999999dip" android:layout_height="0.00999999dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/zeekr_toast_linear_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/zeekr_toast_vertical_margin">
+        <com.zeekr.dialog.widget.LoadingView android:id="@id/zeekr_toast_loading" android:layout_width="@dimen/zeekr_toast_icon_size" android:layout_height="@dimen/zeekr_toast_icon_size" android:layout_marginStart="@dimen/zeekr_toast_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?colorPrimary" android:id="@id/zeekr_toast_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zeekr_toast_icon_margin_end" android:layout_marginEnd="@dimen/zeekr_toast_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/zeekr_toast_loading" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.component.selection.SwitchButton android:layout_gravity="center_vertical" android:id="@id/zeekr_switch_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="32.0dip">
+        <com.zeekr.component.selection.ZeekrSwitchText android:textAppearance="?textAppearanceLabelMedium" android:textColor="?colorPrimary" android:id="@id/zeekr_switch_text" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/zeekr_switch_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/zeekr_switch_text" app:layout_constraintStart_toEndOf="@id/zeekr_switch_text" app:layout_constraintTop_toTopOf="@id/zeekr_switch_text" />
+        <TextView android:textAppearance="?textAppearanceLabelSmall" android:textColor="@color/primary_40" android:id="@id/zeekr_switch_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/zeekr_switch_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="active_widget">Aktivieren</string>
+    <string name="adjust_hud">HUD-Einstellung</string>
+    <string name="adjust_rear_mirror">Anpassung</string>
+    <string name="apa">Automatische Einparkhilfe</string>
+    <string name="app_center">App Center</string>
+    <string name="app_is_installing">App installieren. Warten...</string>
+    <string name="app_not_install">Stellen Sie sicher, dass die Kinderschutz-App installiert ist.</string>
+    <string name="app_uninstall_cancel">Abbrechen</string>
+    <string name="apps_all_title">Mehr Apps</string>
+    <string name="apps_card_cancel_start_app">Abbrechen</string>
+    <string name="apps_card_confirm_start_app">Öffnen</string>
+    <string name="apps_card_tip_backrest_is_running">Diese App wird zurzeit auf hinteren Display verwendet. Öffnen unterbricht die Wiedergabe auf dem hinteren Display</string>
+    <string name="apps_card_title">Favoriten</string>
+    <string name="apps_edit_at_most">Es können bis zu 4 Apps hinzugefügt werden Löschen Sie einige und versuchen Sie es erneut</string>
+    <string name="apps_edit_cancel">Abbrechen</string>
+    <string name="apps_edit_finish">Beenden</string>
+    <string name="apps_edit_group_custom_label">Spezifische</string>
+    <string name="apps_edit_group_recent_label">Vor kurzem verwendet</string>
+    <string name="apps_edit_tips">Halten Sie die Taste gedrückt, um die Funktion auf die linke Seite der App-Karte zu ziehen. Während des Ziehens können Sie die vorhandenen Apps ersetzen und dann auch sortieren</string>
+    <string name="apps_mini_title">Miniprogramm</string>
+    <string name="apps_zeekr_lab_title">Z-Emulator</string>
+    <string name="aqi_levels_1">Ausgezeichnet</string>
+    <string name="aqi_levels_2">Gut</string>
+    <string name="aqi_levels_3">Mäßig</string>
+    <string name="aqi_levels_4">USG</string>
+    <string name="aqi_levels_5">Ungesund</string>
+    <string name="aqi_levels_6">Sehr ungesund</string>
+    <string name="aqi_levels_7">Gefährlich</string>
+    <string name="atmosphere_light">Ambientebeleuchtung</string>
+    <string name="auto_hold">Auto Hold</string>
+    <string name="baby_into_car_widget">Einstieg von Kindern</string>
+    <string name="baby_into_car_widget_active_dsc">Aktivieren des Einsteigemodus für Kinder, wobei Stimme, Ton, Sicherheit, Klimaanlage hinten, Fenster und Display hinten automatisch auf den voreingestellten Modus eingestellt werden.</string>
+    <string name="baby_sleep_well_widget">Kinder schlafen</string>
+    <string name="baby_sleep_well_widget_active_dsc">Aktivieren des Schlafmodus für Kinder, wobei Stimme, Ton, Sicherheit, Klimaanlage hinten, Fenster und Display hinten automatisch auf den voreingestellten Modus eingestellt werden.</string>
+    <string name="back_row_cinema">Kino-Modus auf der Rückseite</string>
+    <string name="back_row_meeting">Rückseitiger Besprechungsmodus</string>
+    <string name="back_row_rest">Hinterer Ruhemodus</string>
+    <string name="business_voice_disabled">Business Voice deaktivieren</string>
+    <string name="cancel_widget">Abbrechen</string>
+    <string name="card_energy_chart_desc">Trend des Energieverbrauchs der aktuellen Fahrt</string>
+    <string name="card_full_title">Fahrzeugzustand</string>
+    <string name="card_kwh_mile_unit">kWh/100 mi</string>
+    <string name="card_kwh_unit">kWh/100 km</string>
+    <string name="card_trip_1">Fahrt 1</string>
+    <string name="card_trip_2">Fahrt 2</string>
+    <string name="central_lock">Zentralverriegelung</string>
+    <string name="charge_charge_error_big_tips">Fehler Laden, sofort überprüfen!</string>
+    <string name="charge_charging_done_tips">Der Ladevorgang wurde unterbrochen. Bitte denken Sie daran, den Ladestecker zu entfernen.</string>
+    <string name="charge_charging_full">Vollladen priorisieren</string>
+    <string name="charge_charging_limit">Bis Limit laden</string>
+    <string name="charge_connect">Verbunden</string>
+    <string name="charge_connect_tips">Bitte warten</string>
+    <string name="charge_daily">Täglich</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">V2L beenden</string>
+    <string name="charge_estimate">&lt;span color=#9985898C font-size=28px>Verbleibende Zeit&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span > &lt;span color=#85898C font-size=80px>%2$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_24">&lt;span color=#9985898C font-size=28px>Verbleibende Zeit&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>>24&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_24_day">&lt;span color=#99383A3D font-size=28px>Verbleibende Zeit&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>>24&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_day">" &lt;span color=#99383A3D font-size=28px>Verbleibende Zeit&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span > &lt;span color=#383A3D font-size=80px>%2$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_estimate_no_hour">&lt;span color=#9985898C font-size=28px>Verbleibende Zeit&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_no_hour_day">" &lt;span color=#99383A3D font-size=28px>Verbleibende Zeit&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_fully">Bald vollständig geladen</string>
+    <string name="charge_next_day">Nächster Tag</string>
+    <string name="charge_no_plug">Nicht angeschlossen</string>
+    <string name="charge_plug_connect_ac">Ladestecker angeschlossen (AC)</string>
+    <string name="charge_plug_connect_dc">Ladestecker angeschlossen (DC)</string>
+    <string name="charge_plug_connect_fault">Verbindungsfehler</string>
+    <string name="charge_plug_connect_fault_tips">Verbindungsfehler, sofort überprüfen!</string>
+    <string name="charge_plug_connect_tips">Ladestecker angeschlossen, aber der Ladevorgang wurde nicht gestartet, bitte haben Sie etwas Geduld…</string>
+    <string name="charge_plug_connect_waiting">Nicht vollständig eingesteckt</string>
+    <string name="charge_plug_no_active">Ladestation nicht aktiviert</string>
+    <string name="charge_plug_no_double">AC-Stecker und DC-Stecker nicht gleichzeitig einstecken</string>
+    <string name="charge_plug_no_double_tips">Ungewöhnliche Ladesteckerverbindung, bitte rechtzeitig einchecken!</string>
+    <string name="charge_power_supply_capacity">&lt;span color=#9985898C font-size=28px>Externes Stromversorgungsniveau&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all">&lt;span color=#9985898C font-size=28px>Statistik zur Stromversorgung&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all_day">&lt;span color=#99383A3D font-size=28px>Statistik zur Stromversorgung&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_day">&lt;span color=#99383A3D font-size=28px>Externes Stromversorgungsniveau&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_pre_time">" &lt;span color=#9985898C font-size=28px>Geplantes Laden&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Täglich&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_day">" &lt;span color=#99383A3D font-size=28px>Geplantes Laden&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Täglich&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_full" formatted="false">" &lt;span color=#9985898C font-size=28px>Geplantes Laden&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Täglich&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px> Bevorzugt sind 100%&lt;/span >"</string>
+    <string name="charge_pre_time_full_day" formatted="false">" &lt;span color=#99383A3D font-size=28px>Geplantes Laden&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Täglich&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px> Bevorzugt sind 100%&lt;/span >"</string>
+    <string name="charge_pre_time_limit">" &lt;span color=#9985898C font-size=28px>Geplantes Laden&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Täglich&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>Bis zum Limit berechnen&lt;/span >"</string>
+    <string name="charge_pre_time_limit_day">" &lt;span color=#99383A3D font-size=28px>Geplantes Laden&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Täglich&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>Bis zum Limit berechnen&lt;/span >"</string>
+    <string name="charge_pre_time_next">" &lt;span color=#9985898C font-size=28px>Geplantes Laden&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Täglich&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=32px>Nächster Tag&lt;/span > &lt;span color=#85898C font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_next_day">" &lt;span color=#99383A3D font-size=28px>Geplantes Laden&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Täglich&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=32px>Nächster Tag&lt;/span > &lt;span color=#383A3D font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_title">Ladeplanung</string>
+    <string name="charge_start">Ladevorgang starten</string>
+    <string name="charge_status_battery_fault">Störung der Hochspannungsbatterie</string>
+    <string name="charge_status_booking">Wird geplant</string>
+    <string name="charge_status_boosting">Boost-Ladung</string>
+    <string name="charge_status_charging">Wird geladen</string>
+    <string name="charge_status_charging_done">Laden angehalten</string>
+    <string name="charge_status_charging_fault">Fehler Laden</string>
+    <string name="charge_status_discharging">V2L läuft</string>
+    <string name="charge_status_discharging_done">Ende der Stromzufuhr</string>
+    <string name="charge_status_discharging_fault">Ausfall der Stromversorgung</string>
+    <string name="charge_status_preheating">Batterietemperaturregelung läuft…</string>
+    <string name="charge_status_super_fast_charging">Schnellladung läuft</string>
+    <string name="charge_stop">Laden stoppen</string>
+    <string name="charge_temperature_tips">Temperaturanpassung, bitte haben Sie etwas Geduld  …</string>
+    <string name="charging_cap">Ladeklappe</string>
+    <string name="child_lock_left">Kindersicherung links</string>
+    <string name="child_lock_right">Kindersicherung rechts</string>
+    <string name="climate_light">Allwetterlichter</string>
+    <string name="close_all">Alle ausschalten</string>
+    <string name="close_card">Karte schließen</string>
+    <string name="close_window">Fenster schließen</string>
+    <string name="confirm">OK</string>
+    <string name="confirm_remove">Möchten Sie %s deinstallieren?</string>
+    <string name="confirm_start_app">Bestätigen Sie das Öffnen</string>
+    <string name="confirm_uninstall">Möchten Sie %s deinstallieren?</string>
+    <string name="copilot_massage">Massage Beifahrer</string>
+    <string name="copilot_rest">Beifahrerlehne</string>
+    <string name="day_friday">Freitag</string>
+    <string name="day_monday">Montag</string>
+    <string name="day_saturday">Samstag</string>
+    <string name="day_sunday">Sonntag</string>
+    <string name="day_thursday">Donnerstag</string>
+    <string name="day_tuesday">Dienstag</string>
+    <string name="day_wednesday">Mittwoch</string>
+    <string name="done">Beenden</string>
+    <string name="download_paused">Pausiert</string>
+    <string name="download_pending">Bereit zum Herunterladen…</string>
+    <string name="download_progress">Download…</string>
+    <string name="drag_tip">Halten Sie die Taste gedrückt, um die Funktionen auf die linke Steuerleiste zu ziehen. Sie können vorhandene Funktionen beim Ziehen ersetzen und dann sortieren</string>
+    <string name="drag_tip_right">Halten Sie die Taste gedrückt, um Funktionssymbole auf die rechte Steuerleiste zu ziehen, und Sie können vorhandene Funktionssymbole beim Ziehen ersetzen und sortieren</string>
+    <string name="driver_massage">Fahrermassage</string>
+    <string name="driver_rest">Fahrerlehne</string>
+    <string name="edit_at_most">Es können bis zu 5 Funktionen hinzugefügt werden. Löschen Sie einige und versuchen Sie es erneut</string>
+    <string name="exclusive_child_lock">Exklusive Kindersicherung</string>
+    <string name="fold_rear_mirror">Klappbare Seitenspiegel</string>
+    <string name="front_charging_cap">Abdeckung des vorderen Ladeanschlusses</string>
+    <string name="glove_box">Handschuh</string>
+    <string name="gps_permission_denied">Keine Standortzugriff-Berechtigung</string>
+    <string name="gps_permission_setting">Einstellungen</string>
+    <string name="hood">Fronthaube</string>
+    <string name="hud">HUD-Einstellung</string>
+    <string name="image_control">Fenstersteuerung</string>
+    <string name="image_control_view_pager_txt">Steuerung der hinteren Anzeige</string>
+    <string name="install_progress">Wird installiert…</string>
+    <string name="launch_control">Launch Control</string>
+    <string name="left_dock_cancel">Abbrechen</string>
+    <string name="left_dock_close">Schließen</string>
+    <string name="left_dock_edit">Bearbeiten</string>
+    <string name="left_opposite_door">Linke Türen</string>
+    <string name="left_switch_disabled">Linker Schalter deaktiviert</string>
+    <string name="left_window_lock">Fensterverriegelung links</string>
+    <string name="lightShow_alert_message">Verwenden Sie für Ihre Fahrsicherheit die Lichtshow beim Parken</string>
+    <string name="lock_all">Alle sperren</string>
+    <string name="low_speed_alert">Warnzeichen AVAS</string>
+    <string name="mask_card_energy_title"> Verbrauch</string>
+    <string name="mask_card_tire_title"> Reifendruck</string>
+    <string name="mask_card_trip_title"> Fahrt</string>
+    <string name="memory_using">Speicherbelegung</string>
+    <string name="mirror_control_function_while_driving">Aus Sicherheitsgründen nicht die Spiegelsteuerung während der Fahrt verwenden</string>
+    <string name="no_recent_apps">Keine kürzlich verwendeten Apps</string>
+    <string name="nzp_string_array_1">Fahrerassistenz deaktiviert</string>
+    <string name="nzp_string_array_10">Spurwechsel nach rechts fehlgeschlagen</string>
+    <string name="nzp_string_array_11">Spurwechsel nach links fehlgeschlagen</string>
+    <string name="nzp_string_array_12">NOA-Bereich wird verlassen</string>
+    <string name="nzp_string_array_13">Übernehmen Sie jetzt</string>
+    <string name="nzp_string_array_14">Sicherer Parkvorgang</string>
+    <string name="nzp_string_array_15">Kontrolle über das Fahrzeug übernehmen</string>
+    <string name="nzp_string_array_16">Übernehmen Sie jetzt</string>
+    <string name="nzp_string_array_17">Halten Sie das Lenkrad fest</string>
+    <string name="nzp_string_array_18">Konzentrieren Sie sich auf die Straße</string>
+    <string name="nzp_string_array_19">Blinkerhebel zum Wechseln der Fahrspur umlegen</string>
+    <string name="nzp_string_array_2">NOA wird starten...</string>
+    <string name="nzp_string_array_20">NOA wird ausgeführt</string>
+    <string name="nzp_string_array_21">Zurückgestuft zu LCC Plus</string>
+    <string name="nzp_string_array_22">LCC deaktiviert</string>
+    <string name="nzp_string_array_23">LCC Plus abgebrochen</string>
+    <string name="nzp_string_array_24">NOA abgebrochen</string>
+    <string name="nzp_string_array_3">NOA aktiviert</string>
+    <string name="nzp_string_array_4">LCC Plus aktiviert</string>
+    <string name="nzp_string_array_5">LCC aktiviert</string>
+    <string name="nzp_string_array_6">Beschleunigung</string>
+    <string name="nzp_string_array_7">Spurwechsel wird ausgeführt</string>
+    <string name="nzp_string_array_8">Spurwechsel abgebrochen</string>
+    <string name="nzp_string_array_9">Spurwechsel abgeschlossen</string>
+    <string name="one_click_breath">Belüftung</string>
+    <string name="one_click_breath_on">Eine Schüssel Schließung des Fensters</string>
+    <string name="one_click_close_door">Alle Türen schließen</string>
+    <string name="one_click_drift">Drift</string>
+    <string name="open_car3d">Fahrzeugmodell öffnen</string>
+    <string name="open_card">Karte öffnen</string>
+    <string name="open_map">Navigation öffnen</string>
+    <string name="open_window">Alle Fenster öffnen</string>
+    <string name="open_window_on">Eine Schüssel Schließung des Fensters</string>
+    <string name="parking_comfort">Parkkomfort</string>
+    <string name="part_glass">Trennglas absenkt</string>
+    <string name="part_glass_on">Trennglas steigt</string>
+    <string name="phone_charge">Drahtlose Aufladung</string>
+    <string name="position_light">Positionslicht</string>
+    <string name="prompt_drift_condition_battery_power">Fahrzeugbatterie >= 20%</string>
+    <string name="prompt_drift_condition_cancel">Nicht jetzt</string>
+    <string name="prompt_drift_condition_check_title">Aktivierende Bedingungen</string>
+    <string name="prompt_drift_condition_confirm">Drift aktivieren</string>
+    <string name="prompt_drift_condition_drive_mode">Fahrmodus zu Sport umschalten</string>
+    <string name="prompt_drift_condition_drive_system">Fahrsystem normal</string>
+    <string name="prompt_drift_condition_esc_system">ESC-System normal</string>
+    <string name="prompt_drift_condition_hot_manage_system">Wärmemanagementsystem normal</string>
+    <string name="prompt_drift_condition_safety_belt">Fahrer und Insassen sind angeschnallt.</string>
+    <string name="prompt_drift_condition_speed">Geschwindigkeit &amp;#60; 7 km/h</string>
+    <string name="prompt_drift_condition_steering_system">Lenksystem normal</string>
+    <string name="prompt_drift_condition_tire_pressure_system">Reifendrucksystem ist normal</string>
+    <string name="prompt_drift_control_accept">Einverstanden</string>
+    <string name="prompt_drift_disable_tips">Launch Control deaktiviert, Drift temporär nicht verfügbar</string>
+    <string name="prompt_drift_error_tips">"Bitte vergewissern Sie sich, dass die folgenden Bedingungen erfüllt sind, und versuchen Sie es erneut 
+ 1. SOC >20% 
+ 2. D-Gang ist eingelegt 
+ 3. Der Fahrer und alle Passagiere wurden angeschnallt 
+ 4. Fahr-, ESC-, Lenk-, Reifendruck- und Thermomanagementsystem sind normal 
+ 5. Der Sportmodus wird erfolgreich eingeschaltet
+"</string>
+    <string name="prompt_drift_error_title">Drift mit einer Taste kann nicht eingeschaltet werden</string>
+    <string name="prompt_drift_i_know">Verstanden</string>
+    <string name="prompt_drift_tips">"Anweisungen:
+ 1. Die vorliengede Funktion muss auf der Rennstrecke oder in einem professionellen Veranstaltungsort angewendet werden, der den nationalen Sicherheitsstandards entspricht, und darf nicht auf öffentlichen Straßen und an Orten verwendet werden, welche die Sicherheitsstandards nicht befolgen. n 2. Bei der Verwendung von Drift mit einer Taste wird empfohlen, das original passende Drift-Zubehör zu verwenden, um die Sicherheit zu gewährleisten. Schäden an Komponenten, die durch unsachgemäße Bedienung und übermäßige Bedienung von Drift mit einer Taste verursacht werden, sind nicht von der Gewährleistung abgedeckt. n 3. Drift mit einer Taste erfordert professionelle Fahrfähigkeiten, so dass nur Fahrer mit mindestens drei Jahren Fahrpraxis diese Funktion nutzen dürfen. Der Fahrer trägt die Verluste, die durch unsachgemäße Bedienung und unbefugte Veränderung des Fahrzeugs entstehen. n 
+ Anweisungen:
+ 1. Die vorliegende Funktion kann nur aktiviert werden, falls das Fahrzeug in den Modus „Sport“ wechselt und mit einer Geschwindigkeit von &lt;7km/h fährt und der Fahrer und die Beifahrer mit den Sicherheitsgurten angeschnallt sind. Die Sicherheitsgurte sind während der Fahrt immer anzulegen. Falls ein Sicherheitsgurt in der Mitte gelöst wird, wird der Drift-Modus automatisch verlassen. n 2. Die vorliegende Funktion kann nur aktiviert werden, wenn der Batteriestand >20% SOC ist. Andernfalls wird sie automatisch beendet;
+ 3. Die vorliegende Funktion kann nur aktiviert werden, wenn das Fahrzeugsystem normal ist. Andernfalls wird sie automatisch beendet;
+ Im Falle einer Aktivierung der Driftfunktion mit einer Taste:
+ 1. Die Funktionen E-Pedal und Autohold sind standardmäßig deaktiviert;
+ 2. Der Modus „Sport“ wird automatisch umgeschaltet;
+ 3. Die ESC-Funktion ist deaktiviert ;
+ 4. Das Energierückgewinnungsniveau ist niedrig; n 5. Die Funktion „Lancierungssteuerung“ (falls aktiviert) wird automatisch deaktiviert. n 
+ Ich habe die oben angeführten Informationen gelesen, verstanden und stimme diesen zu"</string>
+    <string name="prompt_drift_tips_cs1e" formatted="false">"Hinweise:
+ 1. Diese Funktion ist nur für die Verwendung auf Rennstrecken oder professionellen Bereichen vorgesehen, die den nationalen Sicherheitsstandards entsprechen, und nicht für öffentliche Straßen oder unsichere Orte, die nicht den Sicherheitsstandards entsprechen.
+ 2. Um die Sicherheit beim Driften zu gewährleisten, wird das Original-Drift-Kit empfohlen. Schäden an Komponenten, die auf unsachgemäße Verwendung und übermäßige Nutzung des Drifts zurückzuführen sind, sind nicht durch die Garantie abgedeckt.
+ 3. Diese Funktion sollte von erfahrenen Fahrern mit professionellem Fahrkönnen und mindestens drei (3) Jahren Fahrpraxis verwendet werden. Der Fahrer haftet in vollem Umfang für Schäden, die durch unsachgemäße Bedienung oder nicht autorisierte Änderungen entstehen.
+ 
+ Anleitungen:
+ 1. Um diese Funktion zu aktivieren, wechseln Sie in den Sportmodus mit einer Geschwindigkeit unter 7 km/h. Vergewissern Sie sich, dass sowohl der Fahrer als auch die Beifahrer angeschnallt sind. Stellen Sie sicher, dass alle Sicherheitsgurte während der gesamten Fahrt angelegt sind. Andernfalls wird die Funktion automatisch deaktiviert.
+ 2. Diese Funktion kann nur aktiviert werden, wenn der SOC-Wert der Batterie mindestens 20 % beträgt. Diese Funktion wird automatisch deaktiviert, wenn der SOC-Wert unter 20 % fällt.
+ 3. Diese Funktion kann nur aktiviert werden, wenn das gesamte Fahrzeugsystem ordnungsgemäß funktioniert. Sie wird bei einem Fehler deaktiviert.
+ 
+ Nach der Aktivierung von Drift:
+ 1. Der Stoppmodus wird zu „Langsam“ umgeschaltet;
+ 2. Autohold wird standardmäßig deaktiviert;
+ 3. Der Fahrmodus wird zu „Sport“ umgeschaltet; 
+ 4. ESC ist deaktiviert;
+ 5. Die regenerative Bremsstufe ist auf niedrig geschaltet;
+ 6. Einige Fahrer- und Parkassistenz-Funktionen sind deaktiviert oder eingeschränkt. Siehe Benutzerhandbuch für weitere Informationen;
+ 
+ Haben Sie den oben genannten Inhalt vollständig verstanden und sind damit einverstanden?"</string>
+    <string name="prompt_drift_title">Bedienungsanleitung für Drift mit einer Taste</string>
+    <string name="prompt_guest_mode_tips">Diese Funktion ist im Gastmodus nicht verfügbar. Schalte den Gastmodus aus und versuche es erneut.</string>
+    <string name="prompt_launch_control_accept">Zustimmen und fortfahren</string>
+    <string name="prompt_launch_control_content">"Warnung: Es fällt in den Verantwortungsbereich des Fahrers, die Kontrolle über das Fahrzeug jederzeit im Startmodus zu behalten und die Fahr- und Nutzungsumgebung zu gewährleisten. Bitte arbeiten Sie unter Bedingungen, die als sicher bestätigt wurden. Ein längerer kontinuierlicher Start kann die Leistung des Antriebs- und Bremssystems des Fahrzeugs beeinträchtigen. Wir hoffen, dass Sie die vorliegende Funktion mit Vorsicht nutzen können.
+ 
+ Anforderungen für die Verwendung:
+1. Der Startmodus wird verwendet, wenn der Wagen anhält, die Türen geschlossen sind und der Fahrer und die Passagiere ordnungsgemäß die Sicherheitsgurte angeschnallt haben.
+2. Stellen Sie sicher, dass die Temperatur des Fahrzeugstromsystems normal und die Leistung ausreichend ist
+3. Schalten Sie intelligente fahrbezogene Funktionen aus, zentrieren Sie das Lenkrad, lösen Sie die elektronische Handbremse und schalten Sie in den D-Gang um
+ 
+ Gebrauchsanweisung:
+1. Drücken Sie die Taste „Lancierungssteuerung“
+2. Drücken Sie das Bremspedal und dann das Gaspedal vollständig, warten Sie, bis das Instrument „Startmodus aktiviert“ anzeigt, dann lassen Sie das Bremspedal innerhalb von vier 4 Sekunden vollständig los, und das Fahrzeug startet mit einer großen Beschleunigung. (Falls das Instrument „Startmodus fehlgeschlagen“ auffordert, überprüfen Sie bitte die Eingabeaufforderung für den großen Bildschirm und den Fahrzeugstatus)
+ 
+ Ich habe die oben angeführten Informationen gelesen, verstanden und stimme diesen zu"</string>
+    <string name="prompt_launch_control_cs1e_content">"Warnung: Während der Startkontrolle ist der Fahrer dafür verantwortlich, jederzeit die Kontrolle über das Fahrzeug zu behalten und sicherzustellen, dass die Fahr- und Nutzungsumgebung sicher ist. Bitte verwenden Sie diese Funktion nur unter sicheren Bedingungen. Die kontinuierliche Verwendung der Startkontrolle kann zu einer Verringerung der Antriebs- und Bremsleistung des Fahrzeugs führen. Seien Sie bitte vorsichtig, wenn Sie diese Funktion verwenden. Um die Fahrsicherheit zu gewährleisten, deaktivieren Sie die Funktion, wenn sie nicht verwendet wird.
+ Hinweise: 
+1. Die Startkontrolle muss aktiviert sein, wenn das Fahrzeug geparkt ist. Vergewissern Sie sich, dass die Türen geschlossen sind und Fahrer und Beifahrer ordnungsgemäß angeschnallt sind. 
+2. Vergewissern Sie sich, dass das Stromversorgungssystem des Fahrzeugs eine normale Temperatur aufweist und die Batterie ausreichend geladen ist. 
+3. Deaktivieren Sie die intelligenten Fahrfunktionen, stellen Sie das Lenkrad in die Mitte, lösen Sie die elektronische Parkbremse und schalten Sie in den Fahrmodus. 
+Anweisungen: 
+1. Tippen Sie auf die Schaltfläche „Startkontrolle“. 
+2. Treten Sie zuerst das Bremspedal ganz durch, dann das Gaspedal ganz durch und lassen Sie das Bremspedal innerhalb von 4 Sekunden vollständig los. Das Fahrzeug startet mit starker Beschleunigung.
+ 3. Um ein optimales Fahrerlebnis zu bieten, schaltet der Fahrmodus automatisch auf „Sport“, nachdem die Funktion aktiviert wurde. Nach der Deaktivierung der Funktion bleibt der Fahrmodus auf „Sport“ eingestellt. Wenn Sie in einen anderen Fahrmodus wechseln, wird die „Startkontrolle“ automatisch deaktiviert. 
+Sind Sie mit dem obigen Inhalt vollständig einverstanden?"</string>
+    <string name="prompt_launch_control_disable_tips">Drift aktiviert, Launch Control temporär nicht verfügbar</string>
+    <string name="prompt_launch_control_race_content">"Warnung: Es liegt in der Verantwortung des Fahrers, während des gesamten Start-Kontroll-Vorgangs die Kontrolle über das Fahrzeug zu behalten und die Umgebung, in der das Fahrzeug gefahren und benutzt wird, sicherzustellen. Fahren Sie immer unter Bedingungen, die die Sicherheit gewährleisten. Eine kontinuierliche Start-Kontrolle über einen längeren Zeitraum kann dazu führen, dass sich die Leistung des gesamten Fahr- und Bremssystems des Fahrzeugs verschlechtert. Wir hoffen, dass Sie diese Funktion mit Vorsicht nutzen können, um die Fahrsicherheit zu gewährleisten, und bitten Sie, den Funktionsschalter auszuschalten, wenn er nicht benutzt wird. 
+ 
+Voraussetzungen: 
+1. Die Schleuderstartfunktion muss sich in der Parkstellung befinden, stellen Sie sicher, dass die Fahrzeugtür geschlossen ist und dass Fahrer und Beifahrer normal angeschnallt sind 
+2. Stellen Sie sicher, dass die Temperatur des Bordnetzes normal ist und dass die Leistung ausreicht 
+3. Schließen Sie die Funktionen im Zusammenhang mit dem intelligenten Fahren, stellen Sie das Lenkrad richtig ein, lösen Sie die elektronische Handbremse und stellen Sie das Fahrzeug in den D-Gang 
+ 
+Gebrauchsanweisung: 
+1. Öffnen Sie die Taste „Start-Kontroll“ 
+2. Treten Sie zuerst auf die Bremse voll, dann das Gaspedal voll, lassen Sie das Bremspedal innerhalb von 4 Sekunden vollständig los, und das ganze Fahrzeug wird mit einem großen Beschleunigung von Start-Kontroll losfahren. 
+3. Um das bestmögliche Erlebnis zu gewährleisten, wird der Fahrmodus automatisch auf „Sport“ umgeschaltet, wenn die Funktion eingeschaltet wird. Wenn die Funktion ausgeschaltet ist, bleibt sie im Sportmodus. Wenn Sie in einen anderen Fahrmodus wechseln, wird die „Start-Kontroll“-Funktion automatisch ausgeschaltet. (Wenn „ZEEKR-Raceway - Fahrzeugkontrolle aktiviert“ eingeschaltet ist, wird nicht in den „Sportmodus“ gewechselt.) 
+4. „ZEEKR-Raceway - Drift-Modus“ ist nicht verfügbar, wenn er eingeschaltet ist. 
+ 
+Haben Sie die obigen Informationen vollständig verstanden und sind damit einverstanden? &lt;/string>"</string>
+    <string name="prompt_launch_control_title">Benutzerhinweis zur Lancierungssteuerung</string>
+    <string name="prompt_saving_mode_tips">Diese Funktion ist nicht verfügbar, wenn der Super-Energiesparmodus aktiviert ist. Bitte schalten Sie ihn aus und versuchen Sie es erneut</string>
+    <string name="prompt_trunk_open_confirm">Tippen Sie erneut, um den Kofferraum zu öffnen</string>
+    <string name="racing_mode">Rennmodus</string>
+    <string name="rear_charging_cap">Ladeanschlussabdeckung</string>
+    <string name="rear_fog_lamps">Nebelschlussleuchte</string>
+    <string name="recent_apps">Vor kurzem verwendet</string>
+    <string name="remove">Entfernen</string>
+    <string name="remove_mini_app">Das Miniprogramm entfernen</string>
+    <string name="reset_internet">Netzwerk-Neustart</string>
+    <string name="right_opposite_door">Rechte Türen</string>
+    <string name="right_switch_disabled">Rechter Schalter deaktiviert</string>
+    <string name="right_window_lock">Fensterverriegelung rechts</string>
+    <string name="scarp_cruised">Bergabfahrhilfe</string>
+    <string name="see_back_row">Kinderschutz</string>
+    <string name="see_more">Mehr anzeigen</string>
+    <string name="stream_media">Digitaler Rückspiegel</string>
+    <string name="switch_car3d">Zu 3D-Fahrzeugmodell wechseln</string>
+    <string name="switch_map">Zu Navigation wechseln</string>
+    <string name="tab_mini_app">Mini-Programm</string>
+    <string name="take_picture">Fotos machen</string>
+    <string name="take_video">Aufnehmen</string>
+    <string name="task_tips_content">Im Hintergrund werden keine Apps ausgeführt</string>
+    <string name="through_lamp">Durch Rückleuchte</string>
+    <string name="tip_backrest_is_running">Der Hintergrundbildschirm verwendet diese App, die unterbrochen wird, wenn Sie weiter öffnen</string>
+    <string name="tip_csd_is_running">Der Vorderbildschirm verwendet diese App, die unterbrochen wird, wenn Sie die App weiter öffnen</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">bar</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">Empfohlener Reifendruck</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">%1$s bei halber Belastung, %n %2$s bei voller Belastung</string>
+    <string name="title_baby_mode">Kindermodus</string>
+    <string name="title_child_lock">Kindersicherung</string>
+    <string name="title_child_protect">Kinderschutz</string>
+    <string name="trips_100_km_caps">100 km</string>
+    <string name="trips_10_km_caps">10 km</string>
+    <string name="trips_avg_energy">Ø Verbrauch</string>
+    <string name="trips_distance">Entfernung</string>
+    <string name="trips_elapsed_time">Zeit</string>
+    <string name="trunk">Kofferraum</string>
+    <string name="uninstall">Deinstallieren</string>
+    <string name="uninstall_application">App deinstallieren</string>
+    <string name="uninstall_failure">Deinstallieren fehlgeschlagen</string>
+    <string name="unlock_all">Alle entsperren</string>
+    <string name="uvi_levels_1">Gering</string>
+    <string name="uvi_levels_2">Mäßig</string>
+    <string name="uvi_levels_3">Hoch</string>
+    <string name="uvi_levels_4">Sehr Hoch</string>
+    <string name="uvi_levels_5">Extrem</string>
+    <string name="weather_altitude">Höhe:</string>
+    <string name="weather_aqs">Luftqualität:</string>
+    <string name="weather_card_title">Wetter</string>
+    <string name="weather_failed">Laden fehlgeschlagen, Wetterdaten nicht verfügbar</string>
+    <string name="weather_loading">Laden…</string>
+    <string name="weather_net_unavailable">Schlechtes Netzwerksignal. Versuchen Sie es später erneut</string>
+    <string name="weather_refresh">Aktualisieren</string>
+    <string name="weather_uvi">UV:</string>
+    <string name="widget_drive_score_km">km</string>
+</resources>

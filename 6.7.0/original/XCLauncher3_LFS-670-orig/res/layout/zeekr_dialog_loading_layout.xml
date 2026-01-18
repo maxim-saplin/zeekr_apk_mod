@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="48.0dip" android:paddingVertical="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.dialog.widget.LoadingView android:id="@id/zeekr_dialog_load_view" android:layout_width="34.0dip" android:layout_height="34.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="@style/TextAppearance.zeekr.BodyMedium" android:ellipsize="end" android:id="@id/zeekr_dialog_load_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginHorizontal="12.0dip" app:layout_constraintBottom_toBottomOf="@id/zeekr_dialog_load_view" app:layout_constraintStart_toEndOf="@id/zeekr_dialog_load_view" app:layout_constraintTop_toTopOf="@id/zeekr_dialog_load_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

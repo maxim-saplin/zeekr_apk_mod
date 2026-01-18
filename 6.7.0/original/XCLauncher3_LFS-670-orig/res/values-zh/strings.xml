@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="customize_scenario_add_tips">最多只能添加4个场景，请先删减后再添加</string>
+    <string name="customize_scenario_to_add">去添加</string>
+    <string name="customize_scenario_to_create">去创建</string>
+    <string name="customize_scenario_to_login">请先登录账号</string>
+    <string name="no_data_to_add">暂无可添加场景</string>
+    <string name="no_scene">暂无场景</string>
+    <string name="scenario_customize_auto_title">自动场景</string>
+    <string name="scenario_customize_card_title">场景工坊</string>
+    <string name="scenario_customize_edit_cancel">取消</string>
+    <string name="scenario_customize_edit_finish">完成</string>
+    <string name="scenario_customize_edit_group_custom_label">自定义</string>
+    <string name="scenario_customize_edit_tips">长按可拖动场景到左边卡片内</string>
+    <string name="scenario_customize_manual_title">手动场景</string>
+    <string name="visitor_mode_unavailable">访客模式下不可用</string>
+</resources>

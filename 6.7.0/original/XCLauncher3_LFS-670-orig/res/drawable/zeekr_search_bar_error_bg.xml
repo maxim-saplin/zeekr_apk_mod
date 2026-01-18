@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?zeekr_ui_color_bg_interactive_no_focused" />
+    <stroke android:width="@dimen/zeekr_component_search_bar_stroke_width" android:color="?zeekr_ui_color_alert" />
+    <corners android:radius="@dimen/zeekr_component_search_bar_radius" />
+</shape>

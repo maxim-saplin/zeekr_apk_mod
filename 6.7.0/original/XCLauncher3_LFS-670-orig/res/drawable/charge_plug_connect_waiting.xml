@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/charge_status_abnormal_icon" android:pathData="M16,16m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" />
+    <group>
+        <clip-path android:pathData="M5.332,5.867h21.333v21.333h-21.333z" />
+        <path android:fillColor="@color/charge_status_icon_inside" android:pathData="M25.847,22.997L24.115,24.319C23.714,24.625 23.163,24.643 22.742,24.365L17.102,20.63C15.986,19.891 14.678,19.497 13.339,19.497H10.665C10.011,19.497 9.48,18.966 9.48,18.312V10.608C9.48,9.953 10.011,9.423 10.665,9.423H17.649C18.719,9.423 19.706,10 20.231,10.933L26.16,21.474C26.45,21.989 26.316,22.639 25.847,22.997ZM15.73,12.344C15.767,12.136 15.524,12.004 15.38,12.153L13.097,14.523C12.967,14.658 13.059,14.889 13.243,14.889L14.193,15.104L13.897,16.576C13.861,16.783 14.104,16.915 14.247,16.766L16.53,14.397C16.661,14.262 16.569,14.03 16.384,14.03L15.435,13.815L15.73,12.344Z" android:fillType="evenOdd" />
+        <path android:fillColor="@color/charge_status_icon_inside" android:pathData="M7.11,10.904C6.455,10.904 5.925,11.435 5.925,12.089V16.83C5.925,17.485 6.455,18.015 7.11,18.015H8.295C8.459,18.015 8.591,17.883 8.591,17.719V11.2C8.591,11.037 8.459,10.904 8.295,10.904H7.11Z" />
+    </group>
+</vector>

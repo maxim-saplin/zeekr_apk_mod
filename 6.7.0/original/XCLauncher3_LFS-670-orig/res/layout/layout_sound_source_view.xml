@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zeekr.mediawidget.ui.view.ShadowLayout android:id="@id/media_source_window_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" app:shadow_alpha="0.0" app:shadow_bottom_show="true" app:shadow_corner_radius="@dimen/media_source_window_radius" app:shadow_dx="0.0dip" app:shadow_dy="0.0dip" app:shadow_left_show="true" app:shadow_limit="@dimen/media_source_window_shadow_length" app:shadow_right_show="true" app:shadow_top_show="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.mediawidget.ui.view.RoundRadiusLayout android:id="@id/media_source_window_round_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:roundRadius="@dimen/media_source_window_radius">
+        <com.zeekr.mediawidget.ui.EdgeTransparentView android:layout_gravity="center_horizontal" android:id="@id/media_source_bg" android:background="@drawable/bg_source_window" android:layout_width="@dimen/card_base_width" android:layout_height="wrap_content" app:bottom_edge_width="@dimen/media_source_window_top_edge" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:top_edge_width="@dimen/media_source_window_top_edge">
+            <com.zeekr.mediawidget.ui.view.OverScrollRecyclerView android:id="@id/sound_source_recy" android:paddingTop="@dimen/sound_source_recy_padding_bottom" android:paddingBottom="@dimen/sound_source_recy_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/media_sourcelist_height" android:splitMotionEvents="false" style="@style/media_list_rv_style" />
+        </com.zeekr.mediawidget.ui.EdgeTransparentView>
+    </com.zeekr.mediawidget.ui.view.RoundRadiusLayout>
+</com.zeekr.mediawidget.ui.view.ShadowLayout>

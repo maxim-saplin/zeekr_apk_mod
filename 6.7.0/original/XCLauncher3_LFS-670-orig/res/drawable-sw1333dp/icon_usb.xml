@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ff909aab" android:pathData="M8,0L32,0A8,8 0,0 1,40 8L40,32A8,8 0,0 1,32 40L8,40A8,8 0,0 1,0 32L0,8A8,8 0,0 1,8 0z" />
+    <group>
+        <clip-path android:pathData="M7.733,0L32.267,0A7.733,7.733 0,0 1,40 7.733L40,32.267A7.733,7.733 0,0 1,32.267 40L7.733,40A7.733,7.733 0,0 1,0 32.267L0,7.733A7.733,7.733 0,0 1,7.733 0z" />
+        <path android:fillColor="#ff3a4353" android:pathData="M18.233,16.667C16.632,16.667 15.333,17.965 15.333,19.567V24.667H16.233C14.632,24.667 13.333,25.965 13.333,27.567V43.334H34.667V27.567C34.667,25.965 33.368,24.667 31.767,24.667H32.667V19.567C32.667,17.965 31.368,16.667 29.767,16.667H18.233Z" android:fillAlpha="0.6" android:fillType="evenOdd" />
+    </group>
+    <path android:fillColor="@drawable/$icon_usb__0" android:pathData="M11.333,15.566C11.333,13.964 12.632,12.666 14.233,12.666H25.767C27.368,12.666 28.667,13.964 28.667,15.566V20.666H11.333V15.566Z" />
+    <path android:fillColor="#ffb1b6c0" android:pathData="M25.184,17.667C25.45,17.667 25.667,17.451 25.667,17.184V16.15C25.667,15.883 25.45,15.667 25.184,15.667L21.5,15.667C21.07,15.667 20.854,16.188 21.159,16.492L22.05,17.384C22.232,17.565 22.478,17.667 22.734,17.667L25.184,17.667ZM14.817,15.667C14.55,15.667 14.333,15.884 14.333,16.15V17.184C14.333,17.451 14.55,17.667 14.817,17.667H18.5C18.931,17.667 19.146,17.146 18.842,16.842L17.95,15.95C17.769,15.769 17.523,15.667 17.266,15.667H14.817Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$icon_usb__1" android:pathData="M9.333,23.567C9.333,21.965 10.632,20.667 12.233,20.667H27.767C29.368,20.667 30.667,21.965 30.667,23.567V40H9.333V23.567Z" />
+    <path android:fillColor="#00000000" android:pathData="M8,0.242L32,0.242A7.758,7.758 0,0 1,39.758 8L39.758,32A7.758,7.758 0,0 1,32 39.758L8,39.758A7.758,7.758 0,0 1,0.242 32L0.242,8A7.758,7.758 0,0 1,8 0.242z" android:strokeColor="#ff000000" android:strokeWidth="0.483333" android:strokeAlpha="0.1" />
+</vector>

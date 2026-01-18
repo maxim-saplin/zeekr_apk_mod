@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/weather_card_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.weather.widgets.RecyclerView android:id="@id/recycler_view" android:layout_width="@dimen/card_width" android:layout_height="@dimen/card_list_height" android:layout_marginTop="@dimen/card_list_margin_top" android:layout_below="@id/weather_view" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <Space android:id="@id/weather_view" android:background="@color/weather_card_bg" android:layout_width="@dimen/card_width" android:layout_height="@dimen/weather_card_min_height" />
+    <FrameLayout android:id="@id/expand_img_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/card_expand_img_padding_start" android:paddingEnd="@dimen/card_expand_img_margin_end" android:layout_alignEnd="@id/weather_view" android:paddingVertical="@dimen/card_expand_img_margin_top">
+        <ImageView android:id="@id/expand_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_arrow_down" android:scaleType="center" />
+    </FrameLayout>
+    <com.zeekr.weather.widgets.LoadingView android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/city_txt_size" android:textColor="@color/weather_txt_light" android:ellipsize="end" android:id="@id/card_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/city_margin_top" android:text="@string/weather_card_title" android:maxLines="1" android:layout_marginStart="@dimen/weather_padding_start" />
+</RelativeLayout>

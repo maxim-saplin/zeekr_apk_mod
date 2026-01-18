@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/dock_toggle_state_color" />
+    <corners android:radius="13.0dip" />
+    <size android:height="@dimen/dock_bar_check_state_height" android:width="@dimen/dock_bar_check_state_width" />
+</shape>

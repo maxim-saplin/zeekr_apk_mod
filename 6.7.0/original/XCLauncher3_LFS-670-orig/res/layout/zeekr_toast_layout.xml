@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/ZeekrTheme26" android:id="@id/zeekr_toast_card" android:fitsSystemWindows="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/zeekr_toast_max_width" android:minWidth="@dimen/zeekr_toast_min_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/zeekr_toast_linear_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <SurfaceView android:visibility="invisible" android:layout_width="0.00999999dip" android:layout_height="0.00999999dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+        <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?colorPrimary" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/zeekr_toast_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="24.0dip" android:importantForAccessibility="no" android:layout_marginHorizontal="@dimen/zeekr_toast_horizontal_margin" android:layout_marginVertical="@dimen/zeekr_toast_vertical_margin" />
+    </LinearLayout>
+</FrameLayout>

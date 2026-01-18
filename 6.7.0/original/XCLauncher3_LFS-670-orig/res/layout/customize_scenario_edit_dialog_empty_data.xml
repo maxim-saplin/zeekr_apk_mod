@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:gravity="center" android:id="@id/ivEmptyIcon" android:background="@drawable/ic_data_empty" android:layout_width="@dimen/customize_scenarios_edit_empty_icon_size" android:layout_height="@dimen/customize_scenarios_edit_empty_icon_size" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/customize_scenarios_edit_empty_text_size" android:textColor="@color/customize_scenario_color_go_create_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/customize_scenarios_edit_empty_text_top_margin" android:text="@string/no_data_to_add" />
+        <TextView android:textSize="@dimen/customize_scenarios_edit_empty_btn_text_size" android:textColor="@color/customize_scenario_color_go_create_txt" android:gravity="center" android:id="@id/tvToCreate" android:background="@drawable/shape_go_add_selector" android:layout_width="@dimen/customize_scenarios_edit_create_btn_width" android:layout_height="@dimen/customize_scenarios_edit_create_btn_height" android:layout_marginTop="@dimen/customize_scenarios_edit_empty_btn_top_margin" android:foreground="@color/customize_scenario_btn_foreground_color" android:text="@string/customize_scenario_to_create" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/dock_bar_function_icon_size" android:width="@dimen/dock_bar_function_icon_size" android:viewportWidth="64.0" android:viewportHeight="64.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/dock_edit_icon" android:pathData="M25.876,7.111H36.543C36.98,7.111 37.333,7.465 37.333,7.901C37.333,11.392 34.503,14.222 31.012,14.222H20.346C19.909,14.222 19.556,13.868 19.556,13.432C19.556,9.941 22.386,7.111 25.876,7.111ZM11.556,17.778C9.592,17.778 8,19.37 8,21.333V40.889C8,49.725 15.163,56.889 24,56.889H32.889C41.725,56.889 48.889,49.725 48.889,40.889V37.333H49.778C50.115,37.333 50.449,37.316 50.778,37.283C55.708,36.782 59.556,32.618 59.556,27.556C59.556,22.155 55.178,17.778 49.778,17.778L43.556,17.778L11.556,17.778ZM48.889,23.111V32H49.778C52.232,32 54.222,30.01 54.222,27.556C54.222,25.101 52.232,23.111 49.778,23.111H48.889Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/d_dimen_40" android:width="@dimen/d_dimen_40" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/lightShow_card_btn_close" android:pathData="M9.905,6.76C9.037,5.892 7.63,5.892 6.762,6.76C5.894,7.628 5.894,9.035 6.762,9.903L16.858,19.998L6.762,30.094C5.894,30.961 5.894,32.368 6.762,33.236C7.63,34.104 9.037,34.104 9.905,33.236L20,23.141L30.096,33.236C30.963,34.104 32.37,34.104 33.238,33.236C34.106,32.368 34.106,30.961 33.238,30.094L23.143,19.998L33.238,9.903C34.106,9.035 34.106,7.628 33.238,6.76C32.37,5.892 30.963,5.892 30.096,6.76L20,16.856L9.905,6.76Z" />
+</vector>

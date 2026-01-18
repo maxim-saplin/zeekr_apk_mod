@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="app_list_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.apps.widgets.SmartDragLayout android:id="@id/drag_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:defaultFocusHighlightEnabled="false">
+        <RelativeLayout android:id="@id/drag_content" android:background="@color/bg_app_center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <RelativeLayout android:id="@id/frag_recent" android:layout_width="@dimen/recent_frag_width" android:layout_height="wrap_content" />
+            <RelativeLayout android:id="@id/frag_container" android:layout_width="@dimen/app_frag_width" android:layout_height="wrap_content" android:layout_toEndOf="@id/frag_recent" />
+            <View android:id="@id/recent_line" android:background="@color/recent_app_line" android:layout_width="1.0dip" android:layout_height="@dimen/recent_frag_line_height" android:layout_marginTop="@dimen/recent_frag_divider_vertical" android:layout_alignEnd="@id/frag_recent" />
+            <ImageView android:id="@id/drag_bar" android:paddingTop="@dimen/drag_bar_top" android:paddingBottom="@dimen/drag_bar_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_drag_bar" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+            <com.google.android.material.tabs.TabLayout android:id="@id/app_tab_layout" android:layout_width="wrap_content" android:layout_height="@dimen/tab_label_height" android:layout_marginStart="@dimen/tab_group_start" android:layout_marginEnd="@dimen/tab_group_end" app:tabIndicator="@drawable/tab_indicator" app:tabIndicatorAnimationDuration="167" app:tabIndicatorColor="@color/tab_indicator" app:tabMaxWidth="@dimen/tab_label_max_width" app:tabPaddingBottom="@dimen/tab_label_bottom" app:tabPaddingEnd="@dimen/tab_label_end" app:tabPaddingStart="@dimen/tab_label_start" app:tabPaddingTop="@dimen/tab_label_top" app:tabRippleColor="@android:color/transparent" app:tabSelectedTextAppearance="@style/AppCenterTabText" app:tabSelectedTextColor="@color/tab_selected_txt" app:tabTextAppearance="@style/AppCenterTabText" app:tabTextColor="@color/tab_txt" />
+        </RelativeLayout>
+    </com.zeekr.apps.widgets.SmartDragLayout>
+    <com.zeekr.apps.widgets.UninstallPopView android:id="@id/uninstall_pop" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

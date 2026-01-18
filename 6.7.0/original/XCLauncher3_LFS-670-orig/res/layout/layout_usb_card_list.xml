@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/media_folder_back" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/media_item_height" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/media_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back" android:layout_marginStart="@dimen/media_item_margin_left" />
+        <TextView android:textSize="@dimen/media_item_text_size" android:textColor="@color/text_color_1" android:ellipsize="end" android:id="@id/media_folder_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/media_title_max_width" android:maxLines="1" android:singleLine="true" android:layout_marginStart="@dimen/media_item_title_margin_left" />
+    </LinearLayout>
+    <com.zeekr.mediawidget.ui.EdgeTransparentView android:id="@id/usb_edge_view" android:layout_width="fill_parent" android:layout_height="0.0dip" app:bottom_edge_width="@dimen/edge_top_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/media_folder_back" app:top_edge_width="@dimen/edge_top_height">
+        <com.zeekr.mediawidget.ui.view.OverScrollRecyclerView android:id="@id/media_recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" style="@style/media_list_rv_style" />
+    </com.zeekr.mediawidget.ui.EdgeTransparentView>
+    <include android:layout_gravity="center" android:id="@id/empty_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/exception_margin_top_size" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_list_empty" />
+    <include android:id="@id/media_loading" layout="@layout/layout_loading" />
+</androidx.constraintlayout.widget.ConstraintLayout>

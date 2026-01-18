@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toast_elevation">3.0dip</dimen>
+    <dimen name="toast_max_width">1044.0dip</dimen>
+    <dimen name="toast_min_width">456.0dip</dimen>
+    <dimen name="toast_padding_left_right">48.0dip</dimen>
+    <dimen name="toast_padding_top_bottom">32.0dip</dimen>
+    <dimen name="toast_txt_line_height">48.0sp</dimen>
+    <dimen name="toast_txt_size">32.0sp</dimen>
+</resources>

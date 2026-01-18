@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/drift_condition_item_start_padding" android:paddingVertical="@dimen/drift_condition_item_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/drift_condition_item_txt_size" android:textColor="@color/drift_condition_item_txt_color" android:id="@id/tv_condition" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/drift_condition_item_min_width" />
+</FrameLayout>

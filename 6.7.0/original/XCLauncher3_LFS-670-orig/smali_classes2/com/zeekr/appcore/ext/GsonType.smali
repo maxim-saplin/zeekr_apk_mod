@@ -1,0 +1,108 @@
+.class public final Lcom/zeekr/appcore/ext/GsonType;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/reflect/ParameterizedType;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\n\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u0001\u00a8\u0006\u0002"
+    }
+    d2 = {
+        "Lcom/zeekr/appcore/ext/GsonType;",
+        "Ljava/lang/reflect/ParameterizedType;",
+        "app_core_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final a:Ljava/lang/Class;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/Class<",
+            "*>;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field public final b:[Ljava/lang/reflect/Type;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Class;[Ljava/lang/reflect/Type;)V
+    .locals 0
+    .param p1    # Ljava/lang/Class;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # [Ljava/lang/reflect/Type;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "*>;[",
+            "Ljava/lang/reflect/Type;",
+            ")V"
+        }
+    .end annotation
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/zeekr/appcore/ext/GsonType;->a:Ljava/lang/Class;
+
+    iput-object p2, p0, Lcom/zeekr/appcore/ext/GsonType;->b:[Ljava/lang/reflect/Type;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getActualTypeArguments()[Ljava/lang/reflect/Type;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object v0, p0, Lcom/zeekr/appcore/ext/GsonType;->b:[Ljava/lang/reflect/Type;
+
+    return-object v0
+.end method
+
+.method public final getOwnerType()Ljava/lang/reflect/Type;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final getRawType()Ljava/lang/reflect/Type;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object v0, p0, Lcom/zeekr/appcore/ext/GsonType;->a:Ljava/lang/Class;
+
+    return-object v0
+.end method

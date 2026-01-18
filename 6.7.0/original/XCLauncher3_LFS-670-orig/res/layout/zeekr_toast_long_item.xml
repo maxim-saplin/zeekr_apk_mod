@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/zeekr_toast_card" android:fitsSystemWindows="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/zeekr_toast_max_width" android:minWidth="@dimen/zeekr_toast_min_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SurfaceView android:visibility="invisible" android:layout_width="0.100000024dip" android:layout_height="0.100000024dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <LinearLayout android:id="@id/zeekr_toast_linear_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/zeekr_toast_long_icon" android:layout_width="@dimen/zeekr_toast_icon_size" android:layout_height="@dimen/zeekr_toast_icon_size" android:layout_marginStart="@dimen/zeekr_toast_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?colorPrimary" android:id="@id/zeekr_toast_long_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zeekr_toast_icon_margin_end" android:layout_marginEnd="@dimen/zeekr_toast_horizontal_margin" android:layout_marginVertical="@dimen/zeekr_toast_vertical_margin" app:layout_constraintBottom_toBottomOf="@id/parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/zeekr_toast_long_icon" app:layout_constraintTop_toTopOf="@id/parent" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

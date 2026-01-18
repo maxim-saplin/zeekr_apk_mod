@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="active_widget">Включить</string>
+    <string name="adjust_hud">Настройка HUD</string>
+    <string name="adjust_rear_mirror">Настроить зеркала</string>
+    <string name="apa">Ассистент автопарковки</string>
+    <string name="app_center">Центр приложений</string>
+    <string name="app_is_installing">Установка приложения. Ожидание...</string>
+    <string name="app_not_install">Убедитесь, что приложение «Защита детей» установлено.</string>
+    <string name="app_uninstall_cancel">Отмена</string>
+    <string name="apps_all_title">Другие приложения</string>
+    <string name="apps_card_cancel_start_app">Cancel</string>
+    <string name="apps_card_confirm_start_app">Confirm to open</string>
+    <string name="apps_card_tip_backrest_is_running">The back screen is using this App, which will be interrupted If you continue to open</string>
+    <string name="apps_card_title">Избранное</string>
+    <string name="apps_edit_at_most">Можно добавить до 4 приложений. Удалите некоторые и повторите попытку.</string>
+    <string name="apps_edit_cancel">Отмена</string>
+    <string name="apps_edit_finish">Готово</string>
+    <string name="apps_edit_group_custom_label">Пользовательский</string>
+    <string name="apps_edit_group_recent_label">Недавние</string>
+    <string name="apps_edit_tips">Нажмите и удерживайте экран, а затем перетащите значки приложений, чтобы разместить их на карточке часто используемых приложений. Вы также можете заменять или сортировать существующие значки приложений во время перетаскивания.</string>
+    <string name="apps_mini_title">Мини-программа</string>
+    <string name="apps_zeekr_lab_title">Z-эмулятор</string>
+    <string name="aqi_levels_1">Отлично</string>
+    <string name="aqi_levels_2">Хорошо</string>
+    <string name="aqi_levels_3">Низкий уровень загрязнения</string>
+    <string name="aqi_levels_4">Умеренный уровень загрязнения</string>
+    <string name="aqi_levels_5">Высокий уровень загрязнения</string>
+    <string name="aqi_levels_6">Сильное загрязнение</string>
+    <string name="aqi_levels_7">Сверх критический</string>
+    <string name="atmosphere_light">Внешняя подсветка</string>
+    <string name="auto_hold">Auto Hold</string>
+    <string name="baby_into_car_widget">Посадка детей</string>
+    <string name="baby_into_car_widget_active_dsc">Сейчас включится режим посадки детей, при котором голос, звук, безопасность, задний кондиционер, окна и задний дисплей будут автоматически настроены на предустановленный режим.</string>
+    <string name="baby_sleep_well_widget">Детский сон</string>
+    <string name="baby_sleep_well_widget_active_dsc">Сейчас включится режим детского сна, при котором голос, звук, безопасность, задний кондиционер, окна и задний дисплей будут автоматически настроены на предустановленный режим.</string>
+    <string name="back_row_cinema">Режим кинотеатра на заднем ряду</string>
+    <string name="back_row_meeting">Режим конференции на заднем ряду</string>
+    <string name="back_row_rest">Режим отдыха для задних сидений</string>
+    <string name="business_voice_disabled">Отключить голосовую связь бизнес-класса</string>
+    <string name="cancel_widget">Отмена</string>
+    <string name="card_energy_chart_desc">Тенденция потребления энергии в недавних поездках</string>
+    <string name="card_full_title">Состояние автомобиля</string>
+    <string name="card_kwh_mile_unit">kWh/100 mi</string>
+    <string name="card_kwh_unit">kWh/100 km</string>
+    <string name="card_trip_1">Поездка 1</string>
+    <string name="card_trip_2">Поездка 2</string>
+    <string name="central_lock">Центральная блокировка</string>
+    <string name="charge_charge_error_big_tips">Сбой зарядки, проверьте немедленно!</string>
+    <string name="charge_charging_done_tips">Зарядка остановлена, не забудьте отключить кабель</string>
+    <string name="charge_charging_full">Поставить полную зарядку в приоритет</string>
+    <string name="charge_charging_limit">Зарядка до пред.</string>
+    <string name="charge_connect">Подключено</string>
+    <string name="charge_connect_tips">Подождите</string>
+    <string name="charge_daily">Ежедневно</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">Остановить V2L</string>
+    <string name="charge_estimate">&lt;span color=#9985898C font-size=28px>Оставшееся время&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span > &lt;span color=#85898C font-size=80px>%2$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_24">&lt;span color=#9985898C font-size=28px>Оставшееся время&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>>24&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_24_day">&lt;span color=#99383A3D font-size=28px>Оставшееся время&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>>24&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_day">" &lt;span color=#99383A3D font-size=28px>Оставшееся время&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span > &lt;span color=#383A3D font-size=80px>%2$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_estimate_no_hour">&lt;span color=#9985898C font-size=28px>Оставшееся время&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_no_hour_day">" &lt;span color=#99383A3D font-size=28px>Оставшееся время&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_fully">Скоро зарядится полностью</string>
+    <string name="charge_next_day">На следующий день</string>
+    <string name="charge_no_plug">Не подключено</string>
+    <string name="charge_plug_connect_ac">Подключено (перем. ток)</string>
+    <string name="charge_plug_connect_dc">Подключено (пост. ток)</string>
+    <string name="charge_plug_connect_fault">Ошибка соединения</string>
+    <string name="charge_plug_connect_fault_tips">Ошибка соединения, проверьте немедленно!</string>
+    <string name="charge_plug_connect_tips">Подключен, но не заряжается</string>
+    <string name="charge_plug_connect_waiting">Не полностью подключено</string>
+    <string name="charge_plug_no_active">Зарядная точка не активирована</string>
+    <string name="charge_plug_no_double">Не подключайте зарядные устройства переменного и постоянного тока одновременно</string>
+    <string name="charge_plug_no_double_tips">Неисправность подключения. Проверьте немедленно!</string>
+    <string name="charge_power_supply_capacity">&lt;span color=#9985898C font-size=28px>Количество V2L&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all">&lt;span color=#9985898C font-size=28px>Статистика V2L&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all_day">&lt;span color=#99383A3D font-size=28px>Статистика V2L&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_day">&lt;span color=#99383A3D font-size=28px>Количество V2L&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_pre_time">" &lt;span color=#9985898C font-size=28px>Запланированная зарядка&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Ежедневно&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_day">" &lt;span color=#99383A3D font-size=28px>Запланированная зарядка&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Ежедневно&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_full">" &lt;span color=#9985898C font-size=28px>Запланированная зарядка&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Ежедневно&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>Поставить полную зарядку в приоритет&lt;/span >"</string>
+    <string name="charge_pre_time_full_day">" &lt;span color=#99383A3D font-size=28px>Запланированная зарядка&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Ежедневно&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>Поставить полную зарядку в приоритет&lt;/span >"</string>
+    <string name="charge_pre_time_limit">" &lt;span color=#9985898C font-size=28px>Запланированная зарядка&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Ежедневно&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>Зарядка до пред.&lt;/span >"</string>
+    <string name="charge_pre_time_limit_day">" &lt;span color=#99383A3D font-size=28px>Запланированная зарядка&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Ежедневно&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>Зарядка до пред.&lt;/span >"</string>
+    <string name="charge_pre_time_next">" &lt;span color=#9985898C font-size=28px>Запланированная зарядка&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Ежедневно&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=32px>На сл. день&lt;/span > &lt;span color=#85898C font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_next_day">" &lt;span color=#99383A3D font-size=28px>Запланированная зарядка&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Ежедневно&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=32px>На сл. день&lt;/span > &lt;span color=#383A3D font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_title">Запланировать зарядку</string>
+    <string name="charge_start">Начать зарядку</string>
+    <string name="charge_status_battery_fault">Ошибка силового аккумулятора</string>
+    <string name="charge_status_booking">Запланированная зарядка</string>
+    <string name="charge_status_boosting">Ускоренная зарядка</string>
+    <string name="charge_status_charging">Зарядка</string>
+    <string name="charge_status_charging_done">Зарядка остановлена</string>
+    <string name="charge_status_charging_fault">Ошибка зарядки</string>
+    <string name="charge_status_discharging">Выполняется V2L</string>
+    <string name="charge_status_discharging_done">Процесс V2L завершен</string>
+    <string name="charge_status_discharging_fault">Ошибка V2L</string>
+    <string name="charge_status_preheating">Регулировка температуры аккумулятора…</string>
+    <string name="charge_status_super_fast_charging">Z-зарядка</string>
+    <string name="charge_stop">Прекратить зарядку</string>
+    <string name="charge_temperature_tips">Регулировка температуры. Подождите…</string>
+    <string name="charging_cap">Крышка зарядного порта</string>
+    <string name="child_lock_left">Детский замок слева</string>
+    <string name="child_lock_right">Детский замок справа</string>
+    <string name="climate_light">Всепогодные фары</string>
+    <string name="close_all">Выключить все</string>
+    <string name="close_window">Закрыть окна</string>
+    <string name="confirm">ОК</string>
+    <string name="confirm_remove">Удалить %s?</string>
+    <string name="confirm_start_app">Открыть</string>
+    <string name="confirm_uninstall">Удалить %s?</string>
+    <string name="copilot_massage">Массаж переднего пассажира</string>
+    <string name="copilot_rest">Отдых для переднего пассажира</string>
+    <string name="day_friday">Пятница</string>
+    <string name="day_monday">Понедельник</string>
+    <string name="day_saturday">Суббота</string>
+    <string name="day_sunday">Воскресенье</string>
+    <string name="day_thursday">Четверг</string>
+    <string name="day_tuesday">Вторник</string>
+    <string name="day_wednesday">Среда</string>
+    <string name="done">Готово</string>
+    <string name="drag_tip">Нажмите и удерживайте, чтобы перетащить функцию на левую панель управления. Вы также можете заменять или сортировать существующие функции во время перетаскивания.</string>
+    <string name="drag_tip_right">Нажмите и удерживайте, чтобы перетащить функцию на правую панель управления. Вы также можете заменять или сортировать существующие функции во время перетаскивания.</string>
+    <string name="driver_massage">Массаж водителя</string>
+    <string name="driver_rest">Отдых водителя</string>
+    <string name="edit_at_most">Можно добавить до 5 функций. Удалите некоторые и повторите попытку.</string>
+    <string name="exclusive_child_lock">Детский замок</string>
+    <string name="fold_rear_mirror">Сложить боковые зеркала</string>
+    <string name="front_charging_cap">Крышка переднего зарядного порта</string>
+    <string name="glove_box">Бардачок</string>
+    <string name="gps_permission_denied">Нет разрешения на доступ к местоположению</string>
+    <string name="gps_permission_setting">Настройки</string>
+    <string name="hood">Front hood</string>
+    <string name="hud">Выключатель проекционного дисплея</string>
+    <string name="image_control">Управление зеркалами</string>
+    <string name="image_control_view_pager_txt">Управление дисплеем заднего ряда</string>
+    <string name="launch_control">Управление пуском</string>
+    <string name="left_dock_cancel">Отмена</string>
+    <string name="left_dock_close">Закрыть</string>
+    <string name="left_dock_edit">Изменить</string>
+    <string name="left_opposite_door">Левые двери</string>
+    <string name="left_switch_disabled">Левый переключатель отключен</string>
+    <string name="left_window_lock">Блокировка ЛЗ окна от детей</string>
+    <string name="lightShow_alert_message">For your driving safety, do not use light signal while parking</string>
+    <string name="lightShow_card_title">Card_Signature</string>
+    <string name="lightShow_title">Say Hello</string>
+    <string name="light_show">Say Hello</string>
+    <string name="lock_all">Заблокировать все</string>
+    <string name="low_speed_alert">Звук предупреждения о пешеходах</string>
+    <string name="mask_card_energy_title"> Потреб. эн.</string>
+    <string name="mask_card_tire_title"> Давление в шинах</string>
+    <string name="mask_card_trip_title"> Поездка</string>
+    <string name="memory_using">Использование памяти</string>
+    <string name="no_recent_apps">Нет недавно использованных приложений</string>
+    <string name="one_click_breath">Вентиляция воздуха</string>
+    <string name="one_click_breath_on">Закрыть окна</string>
+    <string name="one_click_close_door">Закрыть все двери</string>
+    <string name="one_click_drift">Дрифт</string>
+    <string name="open_window">Открыть все окна</string>
+    <string name="open_window_on">Закрыть окна</string>
+    <string name="parking_comfort">Комфортная парковка</string>
+    <string name="part_glass">Partition glass lowering</string>
+    <string name="part_glass_on">Partition glass rising</string>
+    <string name="phone_charge">Беспроводная зарядка телефона</string>
+    <string name="position_light">Габаритный свет</string>
+    <string name="prompt_drift_condition_battery_power">Vehicle battery >= 20%</string>
+    <string name="prompt_drift_condition_cancel">Not now</string>
+    <string name="prompt_drift_condition_check_title">Enabling conditions</string>
+    <string name="prompt_drift_condition_confirm">Enable Drift</string>
+    <string name="prompt_drift_condition_drive_mode">Switch drive mode to sport</string>
+    <string name="prompt_drift_condition_drive_system">Drive system normal</string>
+    <string name="prompt_drift_condition_esc_system">ESC system normal</string>
+    <string name="prompt_drift_condition_hot_manage_system">Thermal management system normal</string>
+    <string name="prompt_drift_condition_safety_belt">Driver and passenger seat belts are fastened</string>
+    <string name="prompt_drift_condition_speed">Speed &lt; 7 km/h</string>
+    <string name="prompt_drift_condition_steering_system">Steering system normal</string>
+    <string name="prompt_drift_condition_tire_pressure_system">Tire pressure system is normal</string>
+    <string name="prompt_drift_control_accept">Agree</string>
+    <string name="prompt_drift_disable_tips">Система пуска активирована, дрифт временно недоступен</string>
+    <string name="prompt_drift_error_tips">"Убедитесь, что выполнены следующие условия, и повторите попытку.
+ 1. Аккумулятор > 20%
+ 2. Автомобиль на передаче D
+ 3. Все пассажиры пристегнуты ремнями безопасности.
+ 4. Система привода, система ESC, система рулевого управления, система давления в шинах и система терморегулирования (TMS) исправны.
+ 5. Переключение в спортивный режим прошло успешно.
+"</string>
+    <string name="prompt_drift_error_title">Не удалось активировать дрифт</string>
+    <string name="prompt_drift_i_know">Понятно</string>
+    <string name="prompt_drift_tips" formatted="false">"Примечания.
+ 1. Эту функцию можно активировать только на гоночных трассах или профессиональных площадках, которые соответствуют национальным стандартам безопасности. Не активируйте ее на дорогах общего пользования или в небезопасных местах.
+ 2. При включении дрифта рекомендуется использовать оригинальный комплект для дрифта в целях обеспечения безопасности. Повреждения компонентов, вызванные неправильным использованием или чрезмерным использованием дрифта, не покрываются гарантией.
+ 3. Дрифт требует продвинутых навыков вождения. Водители должны иметь стаж вождения более 3 лет. Водитель несет полную ответственность за любой ущерб, возникший в результате неправильной эксплуатации или несанкционированных модификаций.
+ 
+ Инструкции:
+ 1. Для активации этой функции режим вождения должен быть установлен на «Спорт», а скорость автомобиля— менее &lt;7km/h. Перед активацией убедитесь, что все пассажиры пристегнуты ремнями безопасности. Ремни безопасности должны оставаться пристегнутыми. Если во время остановки отстегнуть ремень безопасности, режим дрифта автоматически отключится.
+ 2. Эту функцию можно активировать только в том случае, если уровень заряда аккумулятора > 20%. Если уровень заряда аккумулятора упадет ниже &lt; 20%, режим автоматически отключится.
+ 3. Активация этой функции возможна только при полной исправности всех систем автомобиля. При возникновении отклонений режим автоматически отключится.
+ 
+ После активации функции дрифта одним касанием:
+ 1. Электронная педаль и функция автоудержания по умолчанию отключаются.
+ 2. Автоматически включается режим «Спорт».
+ 3. Функция ESC отключена.
+ 4. Низкий уровень рекуперативного торможения.
+ 5. Управление пуском автоматически отключается (если эта функция была активирована).
+ 
+ Вы полностью понимаете и согласны с вышеизложенным?"</string>
+    <string name="prompt_drift_tips_cs1e" formatted="false">" Notes:
+ 1. Drift is only intended for use on racetracks or professional venues that comply with national safety standards. Do not activate it on public roads or unsafe places.
+ 2. When enabling drift, it is recommended to use the original drifting kit to ensure safety. Any damage to components due to improper use or overuse of drift is not covered by the warranty.
+ 3. Drift should be operated by a veteran with professional driving skills and at least 3 years of driving experience. The driver shall assume full responsibility for any damage incurred due to improper operation or unauthorized modifications.
+ 
+ Instructions:
+ 1. To enable drift, enter Sport drive mode with a speed &lt; 7 km/h, and ensure both the driver and passengers have securely fastened seat belts. Ensure that all seatbelts are fastened throughout the trip. Otherwise, the feature is disabled automatically.
+ 2. Drift can only be enabled when the battery SOC is no less than 20%. It automatically disables when the SOC is &lt; 20%.
+ 3. Drift can only be enabled when the entire car system works properly. In case of any faults, Drift is disabled.
+ 
+ After drift is enabled:
+ 1. Stop mode is switched to Creep;
+
+        2. Autohold is disabled by default;\\n
+        3. The drive mode automatically switches to Sport;
+
+        4. ESC is disabled;
+
+        5. The regenerative braking level is switched to Low;
+
+        6. Some driving assist and parking assist features will be disabled or restricted. Refer to User Manual for details;
+
+        
+
+        Do you fully understand and agree to the above content?
+    "</string>
+    <string name="prompt_drift_title">Уведомление для пользователей дрифта</string>
+    <string name="prompt_guest_mode_tips">Эта функция недоступна в режиме гостя. Отключите режим гостя и повторите попытку</string>
+    <string name="prompt_launch_control_accept">Принять и продолжить</string>
+    <string name="prompt_launch_control_content">"Внимание: Во время управления пуском необходимо сохранять контроль над автомобилем и обеспечивать безопасность вождения и эксплуатации. Используйте эту функцию только в безопасных условиях. Постоянное использование управления пуском может привести к снижению эффективности работы привода и тормозной системы автомобиля. Будьте осторожны при использовании этой функции. Для обеспечения безопасности вождения отключайте функцию, когда она не используется.
+ 
+Примечания:
+1. Чтобы активировать систему пуска, выберите передачу P, закройте все двери и убедитесь, что ремни безопасности водителя и пассажиров надежно пристегнуты.
+2. Убедитесь, что трансмиссия автомобиля имеет нормальную температуру, а аккумулятор достаточно заряжен.
+3. Отключите интеллектуальное вождение, установите рулевое колесо в центральное положение, отпустите электронный стояночный тормоз и переключитесь в режим DRIVE. 
+ 
+Инструкции:
+1. Нажмите кнопку «Управление пуском».
+2. Полностью выжмите педаль тормоза, затем полностью выжмите педаль акселератора. В течение 4 секунд после появления на дисплее водителя сообщения «Система пуска активирована» полностью отпустите педаль тормоза. После этого автомобиль стартует с более сильным ускорением. (Если на дисплее водителя отображается сообщение «Не удалось активировать систему пуска», проверьте состояние автомобиля, следуя инструкциям на центральном дисплее.)
+ 
+Вы полностью понимаете и согласны с вышеизложенным?"</string>
+    <string name="prompt_launch_control_cs1e_content">"Внимание: Во время управления пуском необходимо сохранять контроль над автомобилем и обеспечивать безопасность вождения и эксплуатации. Используйте эту функцию только в безопасных условиях. Постоянное использование управления пуском может привести к снижению эффективности работы привода и тормозной системы автомобиля. Будьте осторожны при использовании этой функции. Для обеспечения безопасности вождения отключайте функцию, когда она не используется.
+Примечания.
+1. Чтобы включить управление пуском, переключитесь в положение PARK, закройте все двери и убедитесь, что ремни безопасности водителя и пассажиров надежно пристегнуты.
+2. Убедитесь, что трансмиссия автомобиля имеет нормальную температуру, а аккумулятор достаточно заряжен.
+3. Отключите интеллектуальные функции вождения, установите руль по центру, отпустите электронный стояночный тормоз и выберите DRIVE.
+Инструкции: 
+1. Нажмите кнопку «Управление пуском».
+2. Сначала полностью нажмите педаль тормоза, затем полностью нажмите педаль акселератора и полностью отпустите педаль тормоза в течение 4 с. После этого автомобиль стартует с более сильным ускорением.
+3. Для обеспечения оптимального опыта после активации функции режим ускорения автоматически переключится на «Спорт». После отключения функции режим ускорения останется в режиме «Спорт». Выбор другого режима ускорения или режима вождения для особых дорожных условий автоматически приведет к отключению системы пуска.
+Вы полностью понимаете и согласны с вышеизложенным?"</string>
+    <string name="prompt_launch_control_disable_tips">Дрифт активирован, система пуска временно недоступна</string>
+    <string name="prompt_launch_control_race_content">"Внимание: Во время управления пуском необходимо сохранять контроль над автомобилем и обеспечивать безопасность вождения и эксплуатации. Используйте эту функцию только в безопасных условиях. Постоянное использование управления пуском может привести к снижению эффективности работы привода и тормозной системы автомобиля. Будьте осторожны при использовании этой функции. Для обеспечения безопасности вождения отключайте функцию, когда она не используется.
+ 
+Примечания:
+1. Чтобы активировать систему пуска, выберите передачу P, закройте все двери и убедитесь, что ремни безопасности водителя и пассажиров надежно пристегнуты.
+2. Убедитесь, что трансмиссия автомобиля имеет нормальную температуру, а аккумулятор достаточно заряжен.
+3. Отключите интеллектуальное вождение, установите рулевое колесо в центральное положение, отпустите электронный стояночный тормоз и переключитесь в режим DRIVE. 
+ 
+Инструкции:
+1. Нажмите кнопку «Управление пуском».
+2. Сначала полностью нажмите педаль тормоза, затем полностью нажмите педаль акселератора и полностью отпустите педаль тормоза в течение 4 с. После этого автомобиль стартует с более сильным ускорением.
+3. Для обеспечения оптимальных ощущений после активации функции режим вождения автоматически переключится на «Спорт». После отключения функции режим вождения «Спорт»сохранится. Переключение на другой режим вождения автоматически отключит управление пуском. Однако при активации «Трек Zeekr» > «Управление автомобилем» режим вождения не переключится на «Спорт».
+4. После активации управления пуском «Трек Zeekr» > «Режим дрифта» будет недоступен. 
+
+Вы полностью понимаете и согласны с вышеизложенным?"</string>
+    <string name="prompt_launch_control_title">Уведомление для пользователя системы пуска</string>
+    <string name="prompt_saving_mode_tips">Функция недоступна в сверхэкономичном режиме. Отключите этот режим и повторите попытку.</string>
+    <string name="prompt_trunk_open_confirm">Нажмите еще раз, чтобы открыть багажник</string>
+    <string name="racing_mode">Гоночный режим</string>
+    <string name="rear_charging_cap">Крышка заднего зарядного порта</string>
+    <string name="rear_fog_lamps">Задний противотуманный фонарь</string>
+    <string name="recent_apps">Недавние</string>
+    <string name="remove">Удалить</string>
+    <string name="remove_mini_app">Удалить мини-программу</string>
+    <string name="reset_internet">Перезапуск сети</string>
+    <string name="right_opposite_door">Правые двери</string>
+    <string name="right_switch_disabled">Правый переключатель отключен</string>
+    <string name="right_window_lock">Блокировка ПЗ окна от детей</string>
+    <string name="scarp_cruised">Система контроля устойчивости на спуске</string>
+    <string name="see_back_row">Охрана детей</string>
+    <string name="see_more">Подробнее</string>
+    <string name="stream_media">Цифровое зеркало заднего вида</string>
+    <string name="tab_mini_app">Мини-программа</string>
+    <string name="tab_zeekr_lab">Z-эмулятор</string>
+    <string name="take_picture">Сделать снимок</string>
+    <string name="take_video">Video</string>
+    <string name="task_tips_content">Нет приложений в фоне</string>
+    <string name="through_lamp">Панорамные задние фары</string>
+    <string name="tip_backrest_is_running">В настоящее время это приложение используется на заднем экране. Открытие здесь прерывает сеанс для заднего экрана</string>
+    <string name="tip_csd_is_running">В настоящее время это приложение используется на переднем экране. Открытие здесь прерывает сеанс для переднего экрана</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">bar</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">Рекомендуемое давление в шинах.</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">Половинная нагрузка %1$skPa %nПолная нагрузка %2$skPa</string>
+    <string name="title_baby_mode">Детский режим</string>
+    <string name="title_child_lock">Защита от детей</string>
+    <string name="title_child_protect">Защита детей</string>
+    <string name="trips_100_km_caps">100 km</string>
+    <string name="trips_10_km_caps">10 km</string>
+    <string name="trips_62_mile_caps">62 mi</string>
+    <string name="trips_6_mile_caps">6 mi</string>
+    <string name="trips_avg_energy">Среднее потребление энергии</string>
+    <string name="trips_distance">Пробег</string>
+    <string name="trips_elapsed_time">Время</string>
+    <string name="trunk">Багажник</string>
+    <string name="uninstall">Удалить приложение</string>
+    <string name="uninstall_application">Удалить приложение.</string>
+    <string name="uninstall_failure">Сбой при удалении</string>
+    <string name="unlock_all">Разблокировать все</string>
+    <string name="uvi_levels_1">Низкий</string>
+    <string name="uvi_levels_2">Умеренно</string>
+    <string name="uvi_levels_3">Высокий</string>
+    <string name="uvi_levels_4">Очень высокий</string>
+    <string name="uvi_levels_5">Экстремальный</string>
+    <string name="weather_altitude">Высота:</string>
+    <string name="weather_aqs">Качество воздуха:</string>
+    <string name="weather_card_title">Погода</string>
+    <string name="weather_failed">Сбой загрузки, данные о погоде недоступны</string>
+    <string name="weather_loading">Загрузка…</string>
+    <string name="weather_net_unavailable">Слабое подключение к сети. Повторите попытку позже.</string>
+    <string name="weather_refresh">Обновить</string>
+    <string name="weather_uvi">УФ:</string>
+    <string name="widget_drive_score_h"> h </string>
+    <string name="widget_drive_score_km">km</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.lottie.ZeekrLoadingInfiniteView android:id="@id/media_loading_img" android:layout_width="@dimen/media_loading_img_size" android:layout_height="@dimen/media_loading_img_size" android:layout_marginTop="@dimen/media_loading_img_margin_top" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/empty_tv_size" android:textColor="@color/text_color_1" android:id="@id/media_loading_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/media_loading_txt_margin_top" android:text="@string/media_loading" app:layout_constraintEnd_toEndOf="@id/media_loading_img" app:layout_constraintStart_toStartOf="@id/media_loading_img" app:layout_constraintTop_toBottomOf="@id/media_loading_img" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.component.button.ZeekrToggleButton android:id="@id/zeekr_spinner_layout_toggle_button" android:layout_width="200.0dip" android:layout_height="fill_parent" android:text="" android:insetLeft="0.0dip" android:insetRight="0.0dip" android:insetTop="0.0dip" android:insetBottom="0.0dip" app:iconGravity="textStart" app:iconPadding="0.0dip" app:iconSize="64.0dip" style="@style/Widget.ZeekrButton.Toggle" />
+    <com.zeekr.component.button.ZeekrButton android:id="@id/zeekr_spinner_layout_button_expand" android:layout_width="86.0dip" android:layout_height="fill_parent" android:insetLeft="0.0dip" android:insetRight="0.0dip" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:layout_marginStart="2.0dip" app:iconGravity="textStart" app:iconPadding="0.0dip" app:iconSize="48.0dip" style="@style/Widget.ZeekrButton.GhostButton" />
+</LinearLayout>

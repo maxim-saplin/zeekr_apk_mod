@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="@dimen/loading_card_width" android:layout_height="@dimen/loading_card_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zeekr.lottie.ZeekrLoadingInfiniteView android:layout_gravity="center" android:id="@id/loading_view" android:layout_width="@dimen/loading_lottie_size" android:layout_height="@dimen/loading_lottie_size" android:layout_marginTop="@dimen/loading_lottie_top" android:layout_centerHorizontal="true" />
+    <ImageView android:layout_gravity="center" android:id="@id/load_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/icon_gps_error" />
+    <TextView android:textSize="@dimen/loading_txt_size" android:textColor="@color/weather_txt_light" android:gravity="center" android:id="@id/loading_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/loading_txt_margin_bottom" android:text="@string/weather_loading" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/loading_txt_size" android:textColor="@color/weather_refresh_btn" android:gravity="center" android:id="@id/refresh_btn" android:background="@drawable/bg_refresh_btn" android:layout_width="wrap_content" android:layout_height="@dimen/loading_refresh_height" android:layout_marginBottom="@dimen/loading_refresh_bottom" android:text="@string/weather_refresh" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingHorizontal="@dimen/loading_refresh_horizontal_padding" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="?zeekr_ui_color_content_1" />
+    <item android:color="?zeekr_ui_color_content_2" />
+</selector>

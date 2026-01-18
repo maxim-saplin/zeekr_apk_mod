@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="44.0dip" android:width="128.0dip" android:viewportWidth="128.0" android:viewportHeight="44.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/media_recommend_play_list_bottom_mask" android:pathData="M0,0H128V36C128,40.42 124.42,44 120,44H8C3.58,44 0,40.42 0,36V0Z" android:fillAlpha="0.4" />
+</vector>

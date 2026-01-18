@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="active_widget">Inschakelen</string>
+    <string name="adjust_hud">HUD-aanpassing</string>
+    <string name="adjust_rear_mirror">Spiegels aanpassen</string>
+    <string name="apa">Automatische parkeerhulp</string>
+    <string name="app_center">Toepassingscentrum</string>
+    <string name="app_is_installing">App wordt geïnstalleerd. Even geduld aub.</string>
+    <string name="app_not_install">Verzeker dat de app Kindbeveiliging geïnstalleerd is.</string>
+    <string name="app_uninstall_cancel">Annuleren</string>
+    <string name="apps_all_title">Meer apps</string>
+    <string name="apps_card_cancel_start_app">Annuleren</string>
+    <string name="apps_card_confirm_start_app">Openen</string>
+    <string name="apps_card_tip_backrest_is_running">Deze app wordt gebruikt op het achterscherm. Als u het hier opent, wordt de sessie op het achterscherm onderbroken</string>
+    <string name="apps_card_title">Favorieten</string>
+    <string name="apps_edit_at_most">Er kunnen maximaal 4 apps worden toegevoegd. Verwijder er een paar en probeer het opnieuw</string>
+    <string name="apps_edit_cancel">Annuleren</string>
+    <string name="apps_edit_finish">Gereed</string>
+    <string name="apps_edit_group_custom_label">Aanpassen</string>
+    <string name="apps_edit_group_recent_label">Laatst gebruikt</string>
+    <string name="apps_edit_tips">Houd ingedrukt om de functie naar links van de appkaart te slepen. Tijdens het slepen kun je de bestaande apps vervangen en sorteren</string>
+    <string name="apps_mini_title">Miniprogramma</string>
+    <string name="apps_zeekr_lab_title">Z-emulator</string>
+    <string name="aqi_levels_1">Uitstekend</string>
+    <string name="aqi_levels_2">Goed</string>
+    <string name="aqi_levels_3">Matig</string>
+    <string name="aqi_levels_4">Ongezond voor gevoelige groepen</string>
+    <string name="aqi_levels_5">Ongezond</string>
+    <string name="aqi_levels_6">Zeer ongezond</string>
+    <string name="aqi_levels_7">Gevaarlijk</string>
+    <string name="atmosphere_light">Omgevingslicht</string>
+    <string name="auto_hold">Auto Hold</string>
+    <string name="baby_into_car_widget">Instap kinderen</string>
+    <string name="baby_into_car_widget_active_dsc">Inschakelen van de kindmodus, waar spraak, geluid, veiligheid, A/C achteraan, vensters en het scherm achteraan automatisch aan de vooraf ingestelde modus aangepast zullen worden.</string>
+    <string name="baby_sleep_well_widget">Slaap kinderen</string>
+    <string name="baby_sleep_well_widget_active_dsc">Inschakelen van de slaapmodus voor kinderen, waar spraak, geluid, veiligheid, A/C achteraan, vensters en het scherm achteraan automatisch aan de vooraf ingestelde modus aangepast zullen worden.</string>
+    <string name="back_row_cinema">Bioscoopmodus achteraan</string>
+    <string name="back_row_meeting">Vergadermodus aan de achterkant</string>
+    <string name="back_row_rest">Rustmodus achter</string>
+    <string name="business_voice_disabled">Business class-stem uitschakelen</string>
+    <string name="cancel_widget">Annuleren</string>
+    <string name="card_energy_chart_desc">Recente trend in energieverbruik</string>
+    <string name="card_full_title">Staat van het voertuig</string>
+    <string name="card_kwh_mile_unit">kWh/100mi</string>
+    <string name="card_kwh_unit">kWh/100km</string>
+    <string name="card_trip_1">Rit 1</string>
+    <string name="card_trip_2">Rit 2</string>
+    <string name="central_lock">Centrale vergrendeling</string>
+    <string name="charge_charge_error_big_tips">Oplaadfout, onmiddellijk controleren!</string>
+    <string name="charge_charging_done_tips">Het opladen is gestopt. Vergeet niet om de oplaadstekker te verwijderen</string>
+    <string name="charge_charging_full">Prioriteit geven aan volledig opladen</string>
+    <string name="charge_charging_limit">Opladen tot limiet</string>
+    <string name="charge_connect">Verbonden</string>
+    <string name="charge_connect_tips">Even geduld</string>
+    <string name="charge_daily">Elke dag</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">Stop</string>
+    <string name="charge_estimate">&lt;span color=#9985898C font-size=28px>Overgebleven tijd&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span > &lt;span color=#85898C font-size=80px>%2$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_24">&lt;span color=#9985898C font-size=28px>Overgebleven tijd&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>>24&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_24_day">&lt;span color=#99383A3D font-size=28px>Overgebleven tijd&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>>24&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_day">" &lt;span color=#99383A3D font-size=28px>Overgebleven tijd&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span > &lt;span color=#383A3D font-size=80px>%2$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_estimate_no_hour">&lt;span color=#9985898C font-size=28px>Overgebleven tijd&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_no_hour_day">" &lt;span color=#99383A3D font-size=28px>Overgebleven tijd&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_fully">Binnenkort volledig opgeladen</string>
+    <string name="charge_next_day">Volgende dag</string>
+    <string name="charge_no_plug">Niet aangesloten</string>
+    <string name="charge_plug_connect_ac">Laadstekker aangesloten (AC)</string>
+    <string name="charge_plug_connect_dc">Laadstekker aangesloten (DC)</string>
+    <string name="charge_plug_connect_fault">Aansluitfout</string>
+    <string name="charge_plug_connect_fault_tips">Verbindingsfout, onmiddellijk controleren!</string>
+    <string name="charge_plug_connect_tips">Oplaadstekker aangesloten, maar opladen niet gestart, even geduld a.u.b.…</string>
+    <string name="charge_plug_connect_waiting">Niet volledig aangesloten</string>
+    <string name="charge_plug_no_active">Laadpunt niet geactiveerd</string>
+    <string name="charge_plug_no_double">Sluit de AC-stekker en de DC-stekker niet tegelijkertijd aan</string>
+    <string name="charge_plug_no_double_tips">Abnormale aansluiting van de laadstekker, controleer op tijd!</string>
+    <string name="charge_power_supply_capacity">&lt;span color=#9985898C font-size=28px>Niveau van de voeding&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all">&lt;span color=#9985898C font-size=28px>Statistieken van de stroomvoorziening&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all_day">&lt;span color=#99383A3D font-size=28px>Statistieken van de stroomvoorziening&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_day">&lt;span color=#99383A3D font-size=28px>Niveau van de voeding&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_pre_time">" &lt;span color=#9985898C font-size=28px>Gepland opladen&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>Elke dag&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_day">" &lt;span color=#99383A3D font-size=28px>Gepland opladen&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>Elke dag&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_full" formatted="false">" &lt;span color=#9985898C font-size=28px>Gepland opladen&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>Elke dag&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>Bij voorkeur 100%&lt;/span >"</string>
+    <string name="charge_pre_time_full_day" formatted="false">" &lt;span color=#99383A3D font-size=28px>Gepland opladen&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>Elke dag&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>Bij voorkeur 100%&lt;/span >"</string>
+    <string name="charge_pre_time_limit">" &lt;span color=#9985898C font-size=28px>Gepland opladen&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>Elke dag&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>Opladen tot limiet&lt;/span >"</string>
+    <string name="charge_pre_time_limit_day">" &lt;span color=#99383A3D font-size=28px>Gepland opladen&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>Elke dag&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>Opladen tot limiet&lt;/span >"</string>
+    <string name="charge_pre_time_next">" &lt;span color=#9985898C font-size=28px>Gepland opladen&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>Elke dag&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=24px>Volgende dag&lt;/span > &lt;span color=#85898C font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_next_day">" &lt;span color=#99383A3D font-size=28px>Gepland opladen&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>Elke dag&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=24px>Volgende dag&lt;/span > &lt;span color=#383A3D font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_title">Opladen plannen</string>
+    <string name="charge_start">Begin met opladen</string>
+    <string name="charge_status_battery_fault">Storing hoogspanningsaccu</string>
+    <string name="charge_status_booking">Wordt gepland</string>
+    <string name="charge_status_boosting">Boost opladen</string>
+    <string name="charge_status_charging">Bezig met opladen</string>
+    <string name="charge_status_charging_done">Opladen gestopt</string>
+    <string name="charge_status_charging_fault">Laadfout</string>
+    <string name="charge_status_discharging">V2L in uitvoering</string>
+    <string name="charge_status_discharging_done">Einde van de stroomvoorziening</string>
+    <string name="charge_status_discharging_fault">Storing in de stroomvoorziening</string>
+    <string name="charge_status_preheating">Regeling van de accutemperatuur wordt uitgevoerd …</string>
+    <string name="charge_status_super_fast_charging">Snel opladen</string>
+    <string name="charge_stop">Opladen stoppen</string>
+    <string name="charge_temperature_tips">Temperatuur aanpassen, even geduld a.u.b. …</string>
+    <string name="charging_cap">Laadklep</string>
+    <string name="child_lock_left">Kinderslot links</string>
+    <string name="child_lock_right">Kinderslot rechts</string>
+    <string name="climate_light">Verlichting voor alle weersomstandigheden</string>
+    <string name="close_all">Alles uitschakelen</string>
+    <string name="close_card">Kaart sluiten</string>
+    <string name="close_window">Ramen sluiten</string>
+    <string name="confirm">OK</string>
+    <string name="confirm_remove">Ga akkoord met het verwijderen van %s</string>
+    <string name="confirm_start_app">Bevestig om te openen</string>
+    <string name="confirm_uninstall">Ga akkoord met het verwijderen van %s</string>
+    <string name="copilot_massage">Massage passagier</string>
+    <string name="copilot_rest">Steun voorpassagier</string>
+    <string name="day_friday">Vrijdag</string>
+    <string name="day_monday">Maandag</string>
+    <string name="day_saturday">Zaterdag</string>
+    <string name="day_sunday">Zondag</string>
+    <string name="day_thursday">Donderdag</string>
+    <string name="day_tuesday">Dinsdag</string>
+    <string name="day_wednesday">Woensdag</string>
+    <string name="done">Finish</string>
+    <string name="download_paused">Gepauzeerd</string>
+    <string name="download_pending">Klaar om te downloaden…</string>
+    <string name="download_progress">Wordt gedownload…</string>
+    <string name="drag_tip">Ingedrukt houden om functies naar de linkerbedieningsbalk te slepen. Tijdens het slepen kunt u bestaande functies vervangen en sorteren</string>
+    <string name="drag_tip_right">Lang indrukken om een functiepictogram naar de rechterbesturingsbalk te slepen, bestaande functiepictogrammen vervangen en sorteren tijdens het slepen</string>
+    <string name="driver_massage">Massage voor de bestuurder</string>
+    <string name="driver_rest">Rust voor de bestuurder</string>
+    <string name="edit_at_most">Er kunnen maximaal 4 functies worden toegevoegd. Verwijder ze voordat u ze toevoegt.</string>
+    <string name="exclusive_child_lock">Uitgezonderd kinderslot</string>
+    <string name="fold_rear_mirror">Zijspiegels inklappen</string>
+    <string name="front_charging_cap">Afdekplaatje van de oplaadpoort aan de voorkant</string>
+    <string name="glove_box">Handschoenenkastje</string>
+    <string name="gps_permission_denied">Geen toestemming voor toegang tot locatie</string>
+    <string name="gps_permission_setting">Instellingen</string>
+    <string name="hood">Voorkap</string>
+    <string name="hud">HUD-aanpassing</string>
+    <string name="image_control">Spiegelbediening</string>
+    <string name="image_control_view_pager_txt">Bediening scherm achteraan</string>
+    <string name="install_progress">Wordt geïnstalleerd…</string>
+    <string name="launch_control">Launch control</string>
+    <string name="left_dock_cancel">Annuleren</string>
+    <string name="left_dock_close">Sluiten</string>
+    <string name="left_dock_edit">Bewerken</string>
+    <string name="left_opposite_door">Linkerdeuren</string>
+    <string name="left_switch_disabled">Linkerschakelaar uitgeschakeld</string>
+    <string name="left_window_lock">Raamvergrendeling links</string>
+    <string name="lightShow_alert_message">Voor uw rijveiligheid, gebruik verlichting tijdens het parkeren</string>
+    <string name="lock_all">Alle deuren vergrendelen</string>
+    <string name="low_speed_alert">AVAS-waarschuwingstoon</string>
+    <string name="mask_card_energy_title"> Verbruik</string>
+    <string name="mask_card_tire_title"> Bandendruk</string>
+    <string name="mask_card_trip_title"> Kilometerstand</string>
+    <string name="memory_using">Geheugengebruik</string>
+    <string name="mirror_control_function_while_driving">Gebruik de spiegelbediening niet tijdens het rijden om veiligheidsredenen</string>
+    <string name="no_recent_apps">Geen recent gebruikte apps</string>
+    <string name="nzp_string_array_1">Rijassistentie uitgeschakeld</string>
+    <string name="nzp_string_array_10">Wisselen van rijstrook rechts mislukt</string>
+    <string name="nzp_string_array_11">Wisselen van rijstrook links mislukt</string>
+    <string name="nzp_string_array_12">Op het punt om het NOA-gedeelte te verlaten</string>
+    <string name="nzp_string_array_13">Nu overnemen</string>
+    <string name="nzp_string_array_14">Zelfparkeren bezig</string>
+    <string name="nzp_string_array_15">Neem de auto over</string>
+    <string name="nzp_string_array_16">Nu overnemen</string>
+    <string name="nzp_string_array_17">Houd het stuur vast</string>
+    <string name="nzp_string_array_18">Concentreer u op de weg</string>
+    <string name="nzp_string_array_19">Gebruik de richtingaanwijzer om van rijstrook te veranderen</string>
+    <string name="nzp_string_array_2">NOA gaat beginnen...</string>
+    <string name="nzp_string_array_20">NOA in uitvoering</string>
+    <string name="nzp_string_array_21">Gedegradeerd naar LCC Plus</string>
+    <string name="nzp_string_array_22">LCC gedeactiveerd</string>
+    <string name="nzp_string_array_23">LCC Plus geannuleerd</string>
+    <string name="nzp_string_array_24">NOA geannuleerd</string>
+    <string name="nzp_string_array_3">NOA geactiveerd</string>
+    <string name="nzp_string_array_4">LCC Plus geactiveerd</string>
+    <string name="nzp_string_array_5">LCC actief</string>
+    <string name="nzp_string_array_6">Accelereert</string>
+    <string name="nzp_string_array_7">Wisselen van rijstrook bezig</string>
+    <string name="nzp_string_array_8">Rijstrookwissel geannuleerd</string>
+    <string name="nzp_string_array_9">Rijstrookwissel voltooid</string>
+    <string name="one_click_breath">Eén belangrijke luchtventilatie</string>
+    <string name="one_click_breath_on">Sluiting raam met één druk op de knop</string>
+    <string name="one_click_close_door">Sluiting van één sleutel portier</string>
+    <string name="one_click_drift">Drift</string>
+    <string name="open_car3d">Automodel openen</string>
+    <string name="open_card">Kaart openen</string>
+    <string name="open_map">Navigatie openen</string>
+    <string name="open_window">Open alle ramen</string>
+    <string name="open_window_on">Sluiting raam met één druk op de knop</string>
+    <string name="parking_comfort">Parkeercomfort</string>
+    <string name="part_glass">Scheidingswand glas verlagen</string>
+    <string name="part_glass_on">Scheidingsglas stijgt</string>
+    <string name="phone_charge">Draadloos opladen</string>
+    <string name="position_light">Positielichten</string>
+    <string name="prompt_drift_condition_battery_power">Voertuigbatterij >= 20%</string>
+    <string name="prompt_drift_condition_cancel">Niet nu</string>
+    <string name="prompt_drift_condition_check_title">Voorwaarden voor inschakelen</string>
+    <string name="prompt_drift_condition_confirm">Drift inschakelen</string>
+    <string name="prompt_drift_condition_drive_mode">Zet de rijmodus op Sport</string>
+    <string name="prompt_drift_condition_drive_system">Aandrijfsysteem normaal</string>
+    <string name="prompt_drift_condition_esc_system">ESC-systeem normaal</string>
+    <string name="prompt_drift_condition_hot_manage_system">Thermisch beheersysteem normaal</string>
+    <string name="prompt_drift_condition_safety_belt">Veiligheidsgordels van bestuurder en passagier zijn vastgemaakt</string>
+    <string name="prompt_drift_condition_speed">Voertuigsnelheid &amp;#60; 7 km/u</string>
+    <string name="prompt_drift_condition_steering_system">Stuursysteem normaal</string>
+    <string name="prompt_drift_condition_tire_pressure_system">Bandspanningssysteem is normaal</string>
+    <string name="prompt_drift_control_accept">Akkoord</string>
+    <string name="prompt_drift_disable_tips">Launch control ingeschakeld, Drift tijdelijk niet beschikbaar</string>
+    <string name="prompt_drift_error_tips">"Controleer of aan de volgende voorwaarden is voldaan en probeer het nogmaals 
+ 1. SOC >20% 
+ 2. D-versnelling is ingeschakeld 
+ 3. Bestuurder en alle passagiers hebben de veiligheidsgordels vastgemaakt 
+ 4. Het rijsysteem, het ESC-systeem, het stuursysteem, het bandenspanningssysteem en het temperatuurbeheersysteem zijn normaal 
+ 5. De sportmodus is met succes overgeschakeld 
+"</string>
+    <string name="prompt_drift_error_title">Drift met een toets kan niet worden ingeschakeld</string>
+    <string name="prompt_drift_i_know">Begrepen</string>
+    <string name="prompt_drift_tips">" Instructies:  
+ 1. TDeze functie moet worden toegepast op een racebaan of professionele locatie die voldoet aan de nationale veiligheidsnormen, en mag niet worden gebruikt op openbare wegen en plaatsen die niet aan de veiligheidsnormen voldoen.  n 2.Bij gebruik van drift met één toets, wordt aanbevolen om de originele bijpassende driftaccessoires te gebruiken om de veiligheid te garanderen.Schade aan onderdelen veroorzaakt door onjuiste bediening en overmatig gebruik van drift met één toets wordt niet gedekt door de garantie.  n 3. Drift met één toets vereist professionele rijvaardigheid, zodat alleen bestuurders met minimaal drie jaar rijervaring er gebruik van kunnen maken. De bestuurder draagt de verliezen veroorzaakt door onjuiste bediening en ongeoorloofde wijzigingen aan het voertuig.  n 
+ Instructies:  
+ 1. Deze functie kan alleen worden geactiveerd wanneer het voertuig de Sport modus inschakelt en rijdt met een snelheid van &amp;lt;7 km/u, en de veiligheidsgordels van de bestuurder en passagiers zijn vastgemaakt. De veiligheidsgordels moeten tijdens het rijden altijd vastgemaakt zijn. Als er halverwege een veiligheidsgordel wordt losgemaakt, wordt de driftmodus automatisch verlaten.  n 2. Deze functie kan alleen worden geactiveerd als het accuniveau >20% SOC is. Anders wordt het automatisch omzeild; 
+ 3. Deze functie kan alleen worden geactiveerd als het autosysteem normaal is. Anders wordt het automatisch omzeild; 
+ Met geactiveerde driftfunctie met één toets: 
+ 1. De e-pedaal- en autohold-functies zijn standaard uitgeschakeld; 
+ 2. Sport modus wordt automatisch overgeschakeld; 
+ 3. ESC-functie is uitgeschakeld; 
+ 4. Het niveau van de energieterugwinning is gering;  
+ 5. De functie Startcontrole (indien geactiveerd) wordt automatisch gedeactiveerd. n 
+ Ik heb de bovenstaande informatie gelezen, begrepen en ga hiermee akkoord"</string>
+    <string name="prompt_drift_tips_cs1e" formatted="false">"Opmerkingen:
+ 1. Deze functie is alleen bedoeld voor gebruik op racebanen of professionele gebieden die voldoen aan nationale veiligheidsnormen, in plaats van openbare wegen of onveilige plaatsen die niet aan veiligheidsnormen voldoen. 2. Voor een veilige driftervaring wordt de originele driftkit aanbevolen. Schade aan onderdelen als gevolg van onjuist gebruik en overmatig gebruik van drift vallen niet onder de garantie.
+ 3. Deze functie moet worden gebruikt door ervaren bestuurders met professionele rijvaardigheden en ten minste 3 jaar rijervaring. De bestuurder is volledig aansprakelijk voor schade als gevolg van onjuist gebruik of ongeoorloofde wijzigingen.
+ 
+ Instructies:
+ 1. Om deze functie in te schakelen, schakelt u de Sport-modus in bij een snelheid van &lt; 7 km/u en zorgt u ervoor dat zowel de bestuurder als de passagiers hun veiligheidsgordels goed hebben vastgemaakt. Zorg ervoor dat alle veiligheidsgordels tijdens de reis vastzitten. Anders wordt de functie automatisch uitgeschakeld.
+ 2. Deze functie kan alleen worden ingeschakeld als de batterij ten minste 20% geladen is. Deze functie wordt automatisch uitgeschakeld wanneer het laadniveau &lt; 20% is.
+ 3. Deze functie kan alleen worden geactiveerd als het hele voertuigsysteem goed werkt en wordt uitgeschakeld in geval van een storing.
+ 
+ Nadat drift is ingeschakeld:
+ 1. Stopmodus is overgeschakeld op Langzaam;
+ 2. Auto Hold is standaard uitgeschakeld; 
+ 3. De rijmodus wordt automatisch omgeschakeld naar Sport;
+ 4. ESC is uitgeschakeld;
+ 5. Het niveau van regeneratief remmen is ingesteld op laag;
+ 6. Sommige rijhulpsystemen en parkeerhulpsystemen zijn uitgeschakeld of beperkt. Raadpleeg de gebruikershandleiding voor meer informatie;
+ 
+ Begrijpt u de bovenstaande inhoud volledig en gaat u ermee akkoord?"</string>
+    <string name="prompt_drift_title">Gebruikershandleiding voor drift met één toets</string>
+    <string name="prompt_guest_mode_tips">Deze functie is niet beschikbaar in de gastmodus. Schakel de gastmodus uit en probeer het opnieuw.</string>
+    <string name="prompt_launch_control_accept">Akkoord en doorgaan</string>
+    <string name="prompt_launch_control_content">"Waarschuwing: Het is de verantwoordelijkheid van de bestuurder om in de startmodus te allen tijde de controle over het voertuig te behouden en de rij- en gebruiksomgeving te garanderen. Voer uw werkzaamheden uit onder omstandigheden waarvan is bevestigd dat ze veilig zijn. Langdurig ononderbroken lanceren kan de prestaties van het aandrijf- en remsysteem van het voertuig verslechteren. Wij hopen dat u deze functie met de nodige voorzichtigheid kunt gebruiken. 
+ 
+ Vereisten voor gebruik: 
+1. De startmodus wordt gebruikt als het voertuig stopt, de portieren gesloten zijn en de bestuurder en passagiers hun veiligheidsgordels normaal vastmaken. 
+2. Zorg ervoor dat de temperatuur van het voertuig stroomtoevoersysteem normaal is en dat het vermogen voldoende is 
+3. Schakel intelligente rijgerelateerde functies uit, centreer het stuur, laat de elektronische handrem los en schakel naar de D-versnelling 
+ 
+ Gebruiksaanwijzing: 
+1. Druk op de knop Startcontrle 
+2. Trap het rempedaal volledig in en vervolgens het gaspedaal, wacht tot het instrument Startmodus actief weergeeft, laat vervolgens het rempedaal binnen 4 seconden volledig los en het voertuig start met een geweldige acceleratie. (Als het instrument de melding Startmodus mislukt geeft, controleer dan de melding op het grote scherm en de status van het voertuig) 
+ 
+ Ik heb de bovenstaande informatie gelezen, begrepen en ga hiermee akkoord"</string>
+    <string name="prompt_launch_control_cs1e_content">"Waarschuwing: Tijdens launch control, is de bestuurder verantwoordelijk voor het te allen tijde behouden van de controle over het voertuig en te verzekeren dat de rij- en gebruiksomgeving veilig zijn. Alleen gebruiken in veilige omstandigheden. Het voortdurend gebruiken van launch control kan leiden tot een afname van de prestaties van het rij- en remsysteem van het voertuig. Wees voorzichtig tijdens het gebruiken van deze functie. Schakel, om veilig rijden te verzekeren, deze functie uit wanneer deze niet gebruikt wordt.
+ Opmerkingen: 
+1. Launch control zal ingeschakeld worden terwijl het voertuig geparkeerd is. Verzeker dat de deuren vergrendeld zijn en de bestuurder en passagiers hun veiligheidsriem goed dragen. 
+2. Verzeker dat het aandrijfsysteem van het voertuig op normale temperatuur is en de accu voldoende opgeladen is. 
+3. Schakel slimme rijfuncties uit, zet het stuur recht, laat de elektronische parkeerrem los en zet de versnelling in Drive. 
+Instructies: 
+1. Tik op de knop Launch control. 
+2. Duw eerst het rempedaal volledig in, druk daarna het gaspedaal volledig in en laat het rempedaal binnen 4 seconden volledig los. Het voertuig zal snel optrekken.
+ 3. Voor het bieden van een optimale ervaring, zal de rijmodus na het inschakelen van de functie automatisch overschakelen naar Sport. Na het uitschakelen van de functie, zal de rijmodus Sport blijven. Naar een andere rijmodus overschakelen, zal launch control automatisch uitschakelen. 
+Begrijpt u bovenstaande inhoud volledig en gaat u ermee akkoord?"</string>
+    <string name="prompt_launch_control_disable_tips">Drift ingeschakeld, launch control tijdelijk niet beschikbaar</string>
+    <string name="prompt_launch_control_race_content">"Waarschuwing: Tijdens de Launch Control is de bestuurder verantwoordelijk om het voertuig onder controle te houden en om voor de omgeving te zorgen waarin het voertuig wordt bestuurd en gebruikt. Zorg ervoor dat u onder veilige omstandigheden werkt. Voortdurend optrekken gedurende een lange tijd kan de prestaties van het hele aandrijf- en remsysteem van het voertuig verslechteren, we hopen dat u deze functie met voorzichtigheid kunt gebruiken. Om de rijveiligheid te garanderen, schakel de functieschakelaar actief uit wanneer u deze niet gebruikt. 
+ 
+Vereisten voor gebruik: 
+1. Als u de Launch Control-functie gebruikt, zorg ervoor dat het voertuig in de parkeerstand staat, dat de autodeur gesloten is en dat de veiligheidsgordels van de bestuurder en passagier goed zijn vastgegespt 
+2. Zorg ervoor dat de temperatuur van het aandrijfsysteem van het voertuig normaal is en dat er voldoende vermogen is 
+3. Schakel de functies uit die gerelateerd zijn aan het intelligente rijden, corrigeer het stuur, ontgrendel de elektronische handrem en zet het voertuig in de D-versnelling 
+ 
+Gebruiksaanwijzing: 
+1. Zet de knop Launch Control aan 
+2. Trap eerst volledig op de rem, trap dan volledig op het gaspedaal en laat het rempedaal binnen 4 seconden helemaal los, waardoor de auto met grote acceleratie zal vooruitschiete. 
+3. Voor een optimale ervaring wordt de rijmodus automatisch naar Sportmodus overgeschakeld wanneer de functie wordt ingeschakeld. Deze blijft in de Sportmodus staan nadat de functie is uitgeschakeld. De Launch Control-functie wordt automatisch uitgeschakeld als er naar andere rijmodi wordt overgeschakeld. (Als ZEEKR Raceway - Voertuigbesturing beschikbaar na activering is ingeschakeld, schakelt het niet naar de Sportmodus over.) 
+4. ZEEKR Raceway - Driftmodus is tijdelijk niet beschikbaar wanneer deze ingeschakeld is. 
+ 
+De bovenstaande informatie volledig begrepen en goedgekeurd? &lt;/string>"</string>
+    <string name="prompt_launch_control_title">Gebruikersmededeling voor startcontrole</string>
+    <string name="prompt_saving_mode_tips">Deze functie is niet beschikbaar wanneer de Superenergiebesparingsmodus is ingeschakeld. Schakel deze modus uit en probeer het opnieuw</string>
+    <string name="prompt_trunk_open_confirm">Tik opnieuw om de kofferbak te openen</string>
+    <string name="racing_mode">Race-modus</string>
+    <string name="rear_charging_cap">Afdekking van de oplaadpoort aan de achterkant</string>
+    <string name="rear_fog_lamps">Mistachterlamp</string>
+    <string name="recent_apps">Laatst gebruikt</string>
+    <string name="remove">Verwijderen</string>
+    <string name="remove_mini_app">Miniprogramma verwijderen</string>
+    <string name="reset_internet">Netwerk herstarten</string>
+    <string name="right_opposite_door">Rechterdeuren</string>
+    <string name="right_switch_disabled">Rechter schakelaar uitgeschakeld</string>
+    <string name="right_window_lock">Raamvergrendeling rechts</string>
+    <string name="scarp_cruised">Afdalingregeling</string>
+    <string name="see_back_row">Kindbeveiliging</string>
+    <string name="see_more">Meer bekijken</string>
+    <string name="stream_media">Digitale achteruitkijkspiegel</string>
+    <string name="switch_car3d">Overschakelen naar 3D-automodel</string>
+    <string name="switch_map">Overschakelen naar navigatie</string>
+    <string name="tab_mini_app">Kleine toepassingen</string>
+    <string name="take_picture">"Foto's maken"</string>
+    <string name="take_video">Opname</string>
+    <string name="task_tips_content">Geen toepassingen op de achtergrond</string>
+    <string name="through_lamp">Via achterlicht</string>
+    <string name="tip_backrest_is_running">Het achterscherm gebruikt deze app, die wordt onderbroken als u doorgaat met openen</string>
+    <string name="tip_csd_is_running">Het voorscherm gebruikt deze app, die wordt onderbroken als u doorgaat met openen</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">bar</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">Aanbevolen bandenspanning</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">%1$s bij half opgeladen, %n %2$s bij volledig opgeladen</string>
+    <string name="title_baby_mode">Kindmodus</string>
+    <string name="title_child_lock">Beveiliging kinderslot</string>
+    <string name="title_child_protect">Kindbeveiliging</string>
+    <string name="trips_100_km_caps">100km</string>
+    <string name="trips_10_km_caps">10km</string>
+    <string name="trips_62_mile_caps">62mi</string>
+    <string name="trips_6_mile_caps">6mi</string>
+    <string name="trips_avg_energy">Gemiddeld energieverbruik</string>
+    <string name="trips_distance">Afstand</string>
+    <string name="trips_distance_unit_km">km</string>
+    <string name="trips_distance_unit_mile">mi</string>
+    <string name="trips_elapsed_time">Tijd</string>
+    <string name="trunk">Kofferbak</string>
+    <string name="uninstall">Deïnstalleren</string>
+    <string name="uninstall_application">Verwijder de app</string>
+    <string name="uninstall_failure">Verwijderen mislukt</string>
+    <string name="unlock_all">Alle deuren ontgrendelen</string>
+    <string name="uvi_levels_1">Laag</string>
+    <string name="uvi_levels_2">Matig</string>
+    <string name="uvi_levels_3">Hoog</string>
+    <string name="uvi_levels_4">Zeer hoog</string>
+    <string name="uvi_levels_5">Extreem</string>
+    <string name="weather_altitude">Hoogte:</string>
+    <string name="weather_aqs">Luchtkwaliteit:</string>
+    <string name="weather_card_title">Weer</string>
+    <string name="weather_failed">Laden mislukt, weergegevens niet beschikbaar</string>
+    <string name="weather_loading">Wordt geladen…</string>
+    <string name="weather_net_unavailable">Slecht netwerksignaal. Probeer het later nog eens</string>
+    <string name="weather_refresh">Vernieuwen</string>
+    <string name="weather_uvi">UV:</string>
+    <string name="widget_drive_score_h">u</string>
+    <string name="widget_drive_score_km">km</string>
+    <string name="widget_drive_score_min">min</string>
+</resources>

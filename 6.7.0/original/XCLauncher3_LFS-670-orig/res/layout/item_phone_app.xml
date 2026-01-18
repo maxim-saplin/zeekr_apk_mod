@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/hot_area" android:layout_width="@dimen/app_frag_title_width" android:layout_height="wrap_content" android:layout_alignBottom="@id/title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <View android:id="@id/place_view" android:background="@drawable/apps_placeholder" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/icon" android:background="@drawable/app_icon_border" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/badge" android:visibility="gone" android:layout_width="@dimen/app_p_gear_size" android:layout_height="@dimen/app_p_gear_size" android:layout_marginBottom="@dimen/app_p_gear_margin" android:src="@drawable/badge_p_gear" android:layout_alignBottom="@id/icon" android:layout_marginEnd="@dimen/app_p_gear_margin" android:layout_alignEnd="@id/icon" />
+    <TextView android:textSize="@dimen/txt_app_title" android:textColor="@color/workspace_icon_text_color" android:ellipsize="end" android:gravity="center|top" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_frag_title_top" android:maxWidth="@dimen/app_frag_title_width" android:maxLines="1" android:drawablePadding="@dimen/app_dot_padding" android:layout_below="@id/icon" android:layout_centerHorizontal="true" />
+</RelativeLayout>

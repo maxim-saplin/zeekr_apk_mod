@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/zeekr_logo_height" android:width="@dimen/zeekr_logo_width" android:viewportWidth="718.0" android:viewportHeight="128.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/zeekr_logo" android:pathData="M116.93,116.93H85.04V77.55L53.15,45.68V10.62H116.93V116.93ZM10.63,116.93V10.62H42.52V50.11L74.41,81.98V116.98L10.63,116.93ZM127.56,0H0V127.56H127.56V0Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+    <path android:fillColor="@color/zeekr_logo" android:pathData="M268.62,32.11L217.97,84.92H265.97V95.71H191.34V95.52L241.98,42.71H194.15V31.89H268.62V32.11Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+    <path android:fillColor="@color/zeekr_logo" android:pathData="M585.33,95.67L538.52,62.74V95.67H525.52V31.89H538.52V62.56L584.01,31.89H604.08L558.41,62.37L605.68,95.67H585.33Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+    <path android:fillColor="@color/zeekr_logo" android:pathData="M717.03,95.67L681.57,71.84H688.14C700.61,71.84 711.59,64.71 711.59,52.52V51.68C711.59,39.3 700.52,31.89 687.67,31.89H635.67V95.67H648.67V62.37L697.67,95.67H717.03ZM648.75,42.67H687.95C692.82,42.67 697.33,44.67 698.64,48.58C698.9,51.26 698.9,53.97 698.64,56.65C697.33,60.12 692.82,62.27 687.95,62.27H648.75V42.67Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+    <path android:fillColor="@color/zeekr_logo" android:pathData="M374.6,84.32V95.67H308.28V31.89H374.6V43.24H320.95V56.93H371.78V68.28H320.95V84.28L374.6,84.32Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+    <path android:fillColor="@color/zeekr_logo" android:pathData="M483.23,84.32V95.67H416.89V31.89H483.23V43.24H429.55V56.93H480.38V68.28H429.55V84.28L483.23,84.32Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+</vector>

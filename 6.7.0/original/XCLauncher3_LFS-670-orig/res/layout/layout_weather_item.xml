@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/card_width" android:layout_height="@dimen/list_item_height" android:paddingHorizontal="@dimen/list_item_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/list_date_txt_size" android:textColor="@color/weather_txt_dark" android:id="@id/date_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/list_date_txt_size" android:textColor="@color/weather_txt_dark" android:id="@id/week_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/list_week_margin_start" android:layout_toEndOf="@id/date_txt" />
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/list_icon_size" android:layout_height="@dimen/list_icon_size" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/list_icon_margin_end" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="@dimen/list_temp_txt_size" android:textColor="@color/weather_txt_dark" android:gravity="end" android:id="@id/temp_range_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="11 / 22 ℃" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<multidisplay-route-config>
+    <vehicle name="EF1E_4S">
+        <dhu-front>0B000101100000000</dhu-front>
+        <dhu-rear>0B000000010000010</dhu-rear>
+    </vehicle>
+    <vehicle name="CX1E">
+        <dhu-front>0B000101110000010</dhu-front>
+    </vehicle>
+    <vehicle name="EF1E_A1">
+        <dhu-front>0B000101100000000</dhu-front>
+    </vehicle>
+    <vehicle name="EX1E">
+        <dhu-front>0B000101100001100</dhu-front>
+        <dhu-rear>
+            <low>0B000000000000000</low>
+            <hight>0B000000000000010</hight>
+        </dhu-rear>
+    </vehicle>
+</multidisplay-route-config>

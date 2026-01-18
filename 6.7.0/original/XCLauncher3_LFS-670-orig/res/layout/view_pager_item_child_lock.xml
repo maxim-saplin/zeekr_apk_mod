@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/ZeekrTheme26" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dp_36" android:paddingEnd="@dimen/dp_36"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.component.button.ZeekrButton android:textSize="@dimen/sp_28" android:id="@id/layout_unlock_all_view_pager" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/unlock_all" android:layout_weight="1.0" android:paddingStart="@dimen/dp_1" android:paddingEnd="@dimen/dp_1" app:icon="@drawable/unlock_all" app:iconGravity="textTop" app:iconPadding="@dimen/dp_12" app:iconSize="@dimen/dp_40" style="@style/Widget.ZeekrButton.GhostButton" />
+    <Space android:layout_width="@dimen/dp_27" android:layout_height="fill_parent" />
+    <com.zeekr.component.button.ZeekrButton android:textSize="@dimen/sp_28" android:id="@id/layout_lock_all_view_pager" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/lock_all" android:layout_weight="1.0" app:icon="@drawable/lock_all" app:iconGravity="textTop" app:iconPadding="@dimen/dp_12" app:iconSize="@dimen/dp_40" style="@style/Widget.ZeekrButton.GhostButton" />
+    <Space android:layout_width="@dimen/dp_27" android:layout_height="fill_parent" />
+    <com.zeekr.component.button.ZeekrButton android:textSize="@dimen/sp_28" android:id="@id/layout_exclusive_lock_view_pager" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/exclusive_child_lock" android:layout_weight="1.0" android:paddingStart="@dimen/dp_4" android:paddingEnd="@dimen/dp_4" app:icon="@drawable/exclusive_child_lock" app:iconGravity="textTop" app:iconPadding="@dimen/dp_12" app:iconSize="@dimen/dp_40" style="@style/Widget.ZeekrButton.GhostButton" />
+</LinearLayout>

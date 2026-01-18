@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" android:sharedUserId="android.uid.system" package="ecarx.launcher3" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER"/>
+    <uses-permission android:name="android.permission.ACTIVITY_EMBEDDING"/>
+    <uses-permission android:name="android.permission.MANAGE_ACTIVITY_STACKS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <queries>
+        <package android:name="com.zeekr.swe.lightshow"/>
+        <provider android:authorities="com.zeekr.swe.lightshow.fileprovider"/>
+        <package android:name="com.zeekr.media"/>
+        <package android:name="com.zeekr.media.qq"/>
+        <package android:name="com.zeekr.media.onlineradio"/>
+        <package android:name="com.netease.cloudmusic.iot"/>
+        <package android:name="com.zeekr.local"/>
+        <package android:name="com.zeekr.media.podcast"/>
+        <package android:name="com.zeekr.media.sony"/>
+        <package android:name="com.zeekr.media.radio"/>
+        <package android:name="com.zeekr.media.ximalaya"/>
+        <package android:name="com.zeekr.media.aimaker"/>
+    </queries>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.OBSERVE_GRANT_REVOKE_PERMISSIONS" android:protectionLevel="signature|privileged"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="car.permission.ANDROIDAUTO_APP"/>
+    <uses-permission android:name="car.permission.CARPLAY_APP"/>
+    <uses-permission android:name="android.permission.MANAGE_ACTIVITY_TASKS"/>
+    <uses-permission android:name="zeekrlife.permission.AMPE_APPLET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <permission android:name="ecarx.launcher3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="ecarx.launcher3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="zeekrlife.permission.APPSTORE_TASK"/>
+    <uses-permission android:name="android.permission.CAPTURE_BLACKOUT_CONTENT"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.ROTATE_SURFACE_FLINGER"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:defaultToDeviceProtectedStorage="true" android:directBootAware="true" android:extractNativeLibs="true" android:icon="@drawable/ic_launcher_home" android:label="@string/app_title" android:largeHeap="true" android:name="com.zeekr.carlauncher.CarLauncherApp" android:networkSecurityConfig="@xml/network_config" android:supportsRtl="true" android:theme="@style/Theme.ZeekrCarLauncher">
+        <activity android:allowEmbedded="true" android:clearTaskOnLaunch="true" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density|layoutDirection|fontScale" android:defaultToDeviceProtectedStorage="true" android:directBootAware="true" android:exported="true" android:launchMode="singleTask" android:name="ecarx.launcher3.Launcher" android:resizeableActivity="true" android:resumeWhilePausing="true" android:stateNotNeeded="true" android:theme="@style/Theme.ZeekrCarLauncher.Launcher">
+            <intent-filter android:priority="1">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER_APP"/>
+            </intent-filter>
+            <meta-data android:name="distractionOptimized" android:value="true"/>
+            <meta-data android:name="ignore_assets_path" android:value="true"/>
+        </activity>
+        <provider android:authorities="ecarx.launcher3.androidx-startup" android:defaultToDeviceProtectedStorage="true" android:directBootAware="true" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="com.zeekr.dock.model.DockInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="com.zeekr.appservice.AppsInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="com.zeekr.signal.SignalInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="com.zeekr.common.CommonInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="com.zeekr.dataprovider.compat.DataProviderInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:enabled="true" android:exported="true" android:name="com.zeekr.carlauncher.service.LauncherAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/config_accessibility"/>
+        </service>
+        <activity android:exported="false" android:name="com.zeekr.carlauncher.main.TestActivity"/>
+        <service android:enabled="true" android:exported="true" android:name="com.zeekr.carlauncher.utils.FloatDebugViewService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.zeekr.carlauncher.utils.AdapterAPIDebugStatusServices"/>
+        <service android:enabled="true" android:exported="true" android:name="com.zeekr.carlauncher.service.AidlService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.zeekr.dock.service.DockFunctionService"/>
+        <meta-data android:name="Zeekr_CommonAPI_AppId" android:value="d4c118d3b44d44debf9cb3f0f3b8dafc"/>
+        <meta-data android:name="Zeekr_CommonAPI_Appkey" android:value="c2847f38977d43fcbc522004656d1f89"/>
+        <service android:exported="true" android:label="@string/widget_label_trip" android:name="com.ecarx.mycar.widget.service.TripWidgetService">
+            <intent-filter>
+                <action android:name="zeekr.appwidget.action.APPWIDGET_PLUGIN"/>
+            </intent-filter>
+            <meta-data android:name="zeekr.appwidget.provider" android:resource="@xml/widget_resource_trip"/>
+        </service>
+        <service android:exported="true" android:label="@string/widget_label_energy" android:name="com.ecarx.mycar.widget.service.EnergyWidgetService">
+            <intent-filter>
+                <action android:name="zeekr.appwidget.action.APPWIDGET_PLUGIN"/>
+            </intent-filter>
+            <meta-data android:name="zeekr.appwidget.provider" android:resource="@xml/widget_resource_energy"/>
+        </service>
+        <service android:exported="true" android:label="@string/widget_label_tire" android:name="com.ecarx.mycar.widget.service.TireWidgetService">
+            <intent-filter>
+                <action android:name="zeekr.appwidget.action.APPWIDGET_PLUGIN"/>
+            </intent-filter>
+            <meta-data android:name="zeekr.appwidget.provider" android:resource="@xml/widget_resource_tire"/>
+        </service>
+        <activity android:name="com.zeekr.mediawidget.ui.BannerWebActivity" android:theme="@style/Theme.ZeekrMediaWidget.NoActionBar"/>
+        <service android:enabled="true" android:exported="false" android:name="com.zeekr.mediawidget.ui.floatlyric.LyricWindowService"/>
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|uiMode|smallestScreenSize|layoutDirection|fontScale" android:exported="true" android:launchMode="singleTask" android:name="com.zeekr.recent_task.RecentTaskActivity" android:process=".recents" android:taskAffinity=".recents" android:theme="@style/Theme.RecentTask">
+            <intent-filter>
+                <action android:name="com.zeekr.platform.service.intent.action.RECENT_TASK_ACTIVITY"/>
+            </intent-filter>
+            <meta-data android:name="distractionOptimized" android:value="true"/>
+        </activity>
+        <service android:enabled="true" android:exported="true" android:name="com.zeekr.scenarioengine.service.launcher_card.service.LauncherCardService">
+            <intent-filter>
+                <action android:name="com.zeekr.scenarioengine.service.action.launcher_card"/>
+            </intent-filter>
+        </service>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density|layoutDirection|fontScale" android:excludeFromRecents="false" android:exported="true" android:launchMode="singleInstance" android:name="ecarx.launcher3.AppCenterActivity" android:process="com.zeekr.applist" android:screenOrientation="landscape" android:stateNotNeeded="true" android:theme="@style/AppCenterTheme" android:windowSoftInputMode="stateAlwaysHidden">
+            <meta-data android:name="distractionOptimized" android:value="true"/>
+        </activity>
+        <service android:exported="true" android:name="com.zeekr.apps.AppListService" android:process="com.zeekr.applist"/>
+        <uses-library android:name="ts.platform.library" android:required="false"/>
+        <provider android:authorities="com.zeekr.appservice.provider" android:exported="true" android:name="com.zeekr.appservice.provider.AppsCacheProvider"/>
+        <activity android:exported="false" android:name="com.zeekr.component.unit.UnitTestActivity" android:theme="@style/ZeekrTheme26"/>
+        <service android:enabled="true" android:exported="true" android:name="com.zeekr.taskview.SharedTaskViewService"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.zeekr.mediawidget.mediacenter.CarApiReceiver">
+            <intent-filter>
+                <action android:name="com.zeekr.media.mediacenter.carapiready"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.blankj.utilcode.util.UtilsTransActivity" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:authorities="ecarx.launcher3.utilcode.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.blankj.utilcode.util.UtilsFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/util_code_provider_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.blankj.utilcode.util.MessengerUtils$ServerService">
+            <intent-filter>
+                <action android:name="ecarx.launcher3.messenger"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.antfin.cube.cubedebug.activities.HandleActionActivity"/>
+        <activity android:name="com.antfin.cube.cubedebug.activities.RubikAppActivity" android:theme="@android:style/Theme.Holo.Light.NoActionBar"/>
+        <activity android:name="com.antfin.cube.cubedebug.activities.RubikMainActivity"/>
+        <activity android:name="com.antfin.cube.cubedebug.activities.RubikFalconListActivity"/>
+        <activity android:name="com.antfin.cube.cubedebug.activities.RubikActivity"/>
+        <activity android:name="com.antfin.cube.cubedebug.activities.RubikFalconActivity"/>
+        <activity android:name="com.antfin.cube.cubedebug.activities.CaptureActivity"/>
+        <activity android:name="com.antfin.cube.cubedebug.activities.InputAccoreServerActivity"/>
+        <activity android:name="com.antfin.cube.cubedebug.activities.RubikFalconListNotReuseActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.antfin.cube.cubedebug.activities.SettingsActivity"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" android:theme="@style/WhiteBackgroundTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity" android:theme="@style/WhiteBackgroundTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity" android:theme="@style/WhiteBackgroundDialogTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService0"/>
+        <service android:exported="true" android:name="com.geely.pma.settings.remote.service.CarSettingsRemoteService$CarSettingsRemoteService1"/>
+        <service android:exported="true" android:name="com.antfin.cube.cubecore.HandleEasyProfiler">
+            <intent-filter>
+                <action android:name="com.antfin.cube.cubecore.HandleEasyProfiler"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="ecarx.launcher3.SensorsDataContentProvider" android:enabled="true" android:exported="false" android:name="com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.MainProcessName" android:value="ecarx.launcher3"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.version" android:value="0.3.5"/>
+    </application>
+</manifest>

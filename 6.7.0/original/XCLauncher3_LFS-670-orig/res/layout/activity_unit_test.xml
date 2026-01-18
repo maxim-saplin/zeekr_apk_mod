@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/ZeekrTheme26" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.component.button.ZeekrButton android:id="@id/unit_test_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.zeekr.component.button.ZeekrToggleButton android:id="@id/unit_test_toggle_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.zeekr.component.button.ZeekrToggleEffectButton android:id="@id/unit_test_effect_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.zeekr.component.card.ZeekrCardView android:id="@id/unit_test_card_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.zeekr.component.card.ZeekrFrameCard android:id="@id/unit_test_frame_card" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.zeekr.component.card.ZeekrPoiCardView android:id="@id/unit_test_poi_card_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

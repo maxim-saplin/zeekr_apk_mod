@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/dot_badge" />
+    <corners android:radius="@dimen/app_dot_badge_size" />
+    <size android:height="@dimen/app_dot_badge_size" android:width="@dimen/app_dot_badge_size" />
+</shape>

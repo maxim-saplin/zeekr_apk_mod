@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="active_widget">Activar</string>
+    <string name="adjust_hud">Ajuste del HUD</string>
+    <string name="adjust_rear_mirror">Ajustar los espejos</string>
+    <string name="apa">Asistencia de estacionamiento automático</string>
+    <string name="app_center">Centro de aplicaciones</string>
+    <string name="app_is_installing">Instalando aplicación. Espere...</string>
+    <string name="app_not_install">Asegúrese de que la aplicación de protección infantil esté instalada.</string>
+    <string name="app_uninstall_cancel">Cancelar</string>
+    <string name="apps_all_title">Más aplicaciones</string>
+    <string name="apps_card_cancel_start_app">Cancel</string>
+    <string name="apps_card_confirm_start_app">Confirm to open</string>
+    <string name="apps_card_tip_backrest_is_running">The back screen is using this App, which will be interrupted If you continue to open</string>
+    <string name="apps_card_title">Favoritos</string>
+    <string name="apps_edit_at_most">Se pueden agregar hasta 4 aplicaciones. Elimine algunas y vuelva a intentarlo</string>
+    <string name="apps_edit_cancel">Cancelar</string>
+    <string name="apps_edit_finish">Hecho</string>
+    <string name="apps_edit_group_custom_label">Personalizado</string>
+    <string name="apps_edit_group_recent_label">Recientes</string>
+    <string name="apps_edit_tips">Mantenga presionado y arrastre los íconos de las aplicaciones para ubicarlos en la tarjeta de Aplicaciones utilizadas frecuentemente. También puede reemplazar u ordenar los íconos de aplicaciones existentes mientras los arrastra</string>
+    <string name="apps_mini_title">Miniprograma</string>
+    <string name="apps_zeekr_lab_title">Z-emulator</string>
+    <string name="aqi_levels_1">Excelente</string>
+    <string name="aqi_levels_2">Buena</string>
+    <string name="aqi_levels_3">Contaminación lumínica</string>
+    <string name="aqi_levels_4">Contaminación moderada</string>
+    <string name="aqi_levels_5">Contaminación pesada</string>
+    <string name="aqi_levels_6">Contaminación severa</string>
+    <string name="aqi_levels_7">Extremadamente crítico</string>
+    <string name="atmosphere_light">Luz ambiental</string>
+    <string name="auto_hold">Auto Hold</string>
+    <string name="baby_into_car_widget">Ingreso infantil</string>
+    <string name="baby_into_car_widget_active_dsc">A punto de activar el modo de ingreso infantil, donde la voz, el sonido, la seguridad, el aire acondicionado trasero, las ventanillas y la pantalla trasera se ajustarán automáticamente según el modo preestablecido.</string>
+    <string name="baby_sleep_well_widget">Sueño infantil</string>
+    <string name="baby_sleep_well_widget_active_dsc">A punto de activar el modo de sueño infantil, donde la voz, el sonido, la seguridad, el aire acondicionado trasero, las ventanillas y la pantalla trasera se ajustarán automáticamente según el modo preestablecido.</string>
+    <string name="back_row_cinema">Modo de cine en la fila trasera</string>
+    <string name="back_row_meeting">Modo de reunión trasero</string>
+    <string name="back_row_rest">Modo de descanso trasero</string>
+    <string name="business_voice_disabled">Desactivar la voz de clase ejecutiva</string>
+    <string name="cancel_widget">Cancelar</string>
+    <string name="card_energy_chart_desc">Tendencia reciente del consumo de energía en viajes</string>
+    <string name="card_full_title">Estado de vehículo</string>
+    <string name="card_kwh_mile_unit">kWh/100 mi</string>
+    <string name="card_kwh_unit">kWh/100 km</string>
+    <string name="card_trip_1">Viaje 1</string>
+    <string name="card_trip_2">Viaje 2</string>
+    <string name="central_lock">Bloqueo centralizado</string>
+    <string name="charge_charge_error_big_tips">Falla de carga, ¡verifique inmediatamente!</string>
+    <string name="charge_charging_done_tips">La carga se detuvo, recuerde desenchufar</string>
+    <string name="charge_charging_full">Priorizar la carga completa</string>
+    <string name="charge_charging_limit">Cargar hasta el límite</string>
+    <string name="charge_connect">Conectado</string>
+    <string name="charge_connect_tips">Espere</string>
+    <string name="charge_daily">A diario</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">Detener V2L</string>
+    <string name="charge_fully">La carga se completará pronto</string>
+    <string name="charge_next_day">Al día siguiente</string>
+    <string name="charge_no_plug">No enchufado</string>
+    <string name="charge_plug_connect_ac">Enchufado (CA)</string>
+    <string name="charge_plug_connect_dc">Enchufado (CC)</string>
+    <string name="charge_plug_connect_fault">Falla de conexión</string>
+    <string name="charge_plug_connect_fault_tips">Falla de conexión, ¡verifique inmediatamente!</string>
+    <string name="charge_plug_connect_tips">Conectado, pero no cargando</string>
+    <string name="charge_plug_connect_waiting">No está completamente enchufado</string>
+    <string name="charge_plug_no_active">Punto de carga no activado</string>
+    <string name="charge_plug_no_double">No conecte cargadores de CA y CC simultáneamente</string>
+    <string name="charge_plug_no_double_tips">Anomalía de conexión. ¡Verifique inmediatamente!</string>
+    <string name="charge_pre_time_title">Programar carga</string>
+    <string name="charge_start">Iniciar la carga</string>
+    <string name="charge_status_battery_fault">Falló la batería de energía</string>
+    <string name="charge_status_booking">Programando</string>
+    <string name="charge_status_boosting">Aumentar la carga</string>
+    <string name="charge_status_charging">Cargando</string>
+    <string name="charge_status_charging_done">Carga detenida</string>
+    <string name="charge_status_charging_fault">Falla de carga</string>
+    <string name="charge_status_discharging">V2L en progreso</string>
+    <string name="charge_status_discharging_done">V2L finalizado</string>
+    <string name="charge_status_discharging_fault">Falla de V2L</string>
+    <string name="charge_status_preheating">Regulando la temperatura de la batería…</string>
+    <string name="charge_status_super_fast_charging">Z-charging</string>
+    <string name="charge_stop">Detener la carga</string>
+    <string name="charge_temperature_tips">Ajustando temperatura... Espere pacientemente…</string>
+    <string name="charging_cap">Tapa de carga</string>
+    <string name="child_lock_left">Bloqueo infantil izquierdo</string>
+    <string name="child_lock_right">Bloqueo infantil derecho</string>
+    <string name="climate_light">Luces para todo clima</string>
+    <string name="close_window">Cerrar ventanillas</string>
+    <string name="confirm">OK</string>
+    <string name="confirm_remove">¿Desinstalar %s?</string>
+    <string name="confirm_start_app">Abrir</string>
+    <string name="confirm_uninstall">¿Desinstalar %s?</string>
+    <string name="copilot_massage">Masaje del pasajero delantero</string>
+    <string name="copilot_rest">Descanso del pasajero delantero</string>
+    <string name="day_friday">Viernes</string>
+    <string name="day_monday">Lunes</string>
+    <string name="day_saturday">Sábado</string>
+    <string name="day_sunday">Domingo</string>
+    <string name="day_thursday">Jueves</string>
+    <string name="day_tuesday">Martes</string>
+    <string name="day_wednesday">Miércoles</string>
+    <string name="done">Hecho</string>
+    <string name="drag_tip">Mantenga presionado y arrastre la función a la barra de control izquierda. También puede reemplazar u ordenar las funciones existentes mientras arrastra</string>
+    <string name="drag_tip_right">Mantenga presionado y arrastre la función a la barra de control derecha. También puede reemplazar u ordenar las funciones existentes mientras arrastra</string>
+    <string name="driver_massage">Masaje al conductor</string>
+    <string name="driver_rest">Descanso del conductor</string>
+    <string name="edit_at_most">Se pueden agregar hasta 5 funciones. Elimine algunas y vuelva a intentarlo.</string>
+    <string name="exclusive_child_lock">Bloq. excl. infantil</string>
+    <string name="fold_rear_mirror">Plegar espejos laterales</string>
+    <string name="front_charging_cap">Escotilla de carga frontal</string>
+    <string name="glove_box">Guantera</string>
+    <string name="gps_permission_denied">No hay permiso para acceder a la ubicación</string>
+    <string name="gps_permission_setting">Ajustes</string>
+    <string name="hood">Front hood</string>
+    <string name="hud">Interruptor de HUD</string>
+    <string name="image_control">Control de espejo</string>
+    <string name="image_control_view_pager_txt">Control de pantalla trasera</string>
+    <string name="launch_control">Control de inicio</string>
+    <string name="left_dock_cancel">Cancelar</string>
+    <string name="left_dock_close">Cerrar</string>
+    <string name="left_dock_edit">Editar</string>
+    <string name="left_opposite_door">Puertas izquierdas</string>
+    <string name="left_switch_disabled">Interruptor izquierdo desactivado</string>
+    <string name="left_window_lock">Bloqueo infantil de la ventanilla trasera izquierda</string>
+    <string name="lightShow_alert_message">For your driving safety, do not use light signal while parking</string>
+    <string name="lightShow_card_title">Card_Signature</string>
+    <string name="lightShow_title">Say Hello</string>
+    <string name="light_show">Say Hello</string>
+    <string name="lock_all">Bloquear todo</string>
+    <string name="low_speed_alert">Sonido de advertencia de peatón</string>
+    <string name="mask_card_energy_title"> Energía consum.</string>
+    <string name="mask_card_tire_title"> Presión de neumáticos</string>
+    <string name="mask_card_trip_title"> Viaje</string>
+    <string name="no_recent_apps">No hay aplicaciones utilizadas recientemente</string>
+    <string name="one_click_breath">Ventilación de aire</string>
+    <string name="one_click_breath_on">Cerrar ventanillas</string>
+    <string name="one_click_close_door">Cerrar todas las puertas</string>
+    <string name="one_click_drift">Derrape</string>
+    <string name="open_window">Abrir todas las ventanillas</string>
+    <string name="open_window_on">Cerrar ventanillas</string>
+    <string name="parking_comfort">Comodidad al estacionar</string>
+    <string name="part_glass">Partition glass lowering</string>
+    <string name="part_glass_on">Partition glass rising</string>
+    <string name="phone_charge">Carga inalámbrica del teléfono</string>
+    <string name="position_light">Luces de posición</string>
+    <string name="prompt_drift_condition_battery_power">Vehicle battery >= 20%</string>
+    <string name="prompt_drift_condition_cancel">Not now</string>
+    <string name="prompt_drift_condition_check_title">Enabling conditions</string>
+    <string name="prompt_drift_condition_confirm">Enable Drift</string>
+    <string name="prompt_drift_condition_drive_mode">Switch drive mode to sport</string>
+    <string name="prompt_drift_condition_drive_system">Drive system normal</string>
+    <string name="prompt_drift_condition_esc_system">ESC system normal</string>
+    <string name="prompt_drift_condition_hot_manage_system">Thermal management system normal</string>
+    <string name="prompt_drift_condition_safety_belt">Driver and passenger seat belts are fastened</string>
+    <string name="prompt_drift_condition_speed">Speed &lt; 7 km/h</string>
+    <string name="prompt_drift_condition_steering_system">Steering system normal</string>
+    <string name="prompt_drift_condition_tire_pressure_system">Tire pressure system is normal</string>
+    <string name="prompt_drift_control_accept">Agree</string>
+    <string name="prompt_drift_disable_tips">Control de inicio activado, derrape temporalmente no disponible</string>
+    <string name="prompt_drift_error_tips">"Asegúrese de que se cumplan las siguientes condiciones y vuelva a intentarlo
+ 1. Batería > 20%
+ 2. Vehículo en la marcha D
+ 3. Todos los ocupantes tienen abrochado el cinturón de seguridad
+ 4. El sistema de tracción, el sistema ESC, el sistema de dirección, el sistema de presión de los neumáticos y el sistema de gestión térmica (TMS) están normales
+ 5. El cambio a modo deportivo se realizó correctamente
+"</string>
+    <string name="prompt_drift_error_title">No se pudo activar el derrape</string>
+    <string name="prompt_drift_i_know">Entendido</string>
+    <string name="prompt_drift_tips" formatted="false">" Notas:
+ 1. Esta función solo se puede activar en pistas de carreras o recintos profesionales que cumplan con los estándares de seguridad nacionales. No lo active en vías públicas o lugares inseguros.
+ 2. Al activar el derrape, se recomienda utilizar el kit de derrape original para garantizar la seguridad. Cualquier daño a los componentes debido a un uso inadecuado o excesivo del derrape no está cubierto por la garantía.
+ 3. El derrape requiere habilidades de conducción avanzadas. Los conductores deben tener más de 3 años de experiencia de conducción. El conductor asumirá plena responsabilidad por cualquier daño ocasionado debido a un funcionamiento inadecuado o modificaciones no autorizadas.
+ 
+ Instrucciones:
+ 1. Esta función requiere que el modo de conducción esté configurado en Deportivo y que la velocidad del vehículo sea inferior a &lt;7km/h. Asegúrese de que todos los ocupantes tengan abrochado el cinturón de seguridad antes de la activación. Los cinturones de seguridad deben permanecer abrochados en todo momento. Si algún cinturón de seguridad se desabrocha durante una parada, se sale automáticamente del modo de derrape.
+ 2. Esta función solo se puede activar si el nivel de la batería es superior al 20% del SOC. Si SOC &lt;es inferior al 20%, se sale automáticamente;
+ 3. Esta función solo se puede activar cuando todo el sistema del vehículo está normal. Si hay alguna anomalía, se sale automáticamente;
+ 
+ Después de activar la función de derrape con un solo toque:
+ 1. Las funciones de pedal electrónico y Autohold están desactivadas de forma predeterminada;
+ 2. Cambia automáticamente al modo Deportivo;
+ 3. La función ESC está desactivada;
+ 4. Nivel bajo de frenado regenerativo;
+ 5. La función Control de inicio se desactiva automáticamente (si esta estaba activada).
+ 
+ ¿Entiende usted completamente y está de acuerdo con el contenido anterior?"</string>
+    <string name="prompt_drift_tips_cs1e" formatted="false">" Notes:
+ 1. Drift is only intended for use on racetracks or professional venues that comply with national safety standards. Do not activate it on public roads or unsafe places.
+ 2. When enabling drift, it is recommended to use the original drifting kit to ensure safety. Any damage to components due to improper use or overuse of drift is not covered by the warranty.
+ 3. Drift should be operated by a veteran with professional driving skills and at least 3 years of driving experience. The driver shall assume full responsibility for any damage incurred due to improper operation or unauthorized modifications.
+ 
+ Instructions:
+ 1. To enable drift, enter Sport drive mode with a speed &lt; 7 km/h, and ensure both the driver and passengers have securely fastened seat belts. Ensure that all seatbelts are fastened throughout the trip. Otherwise, the feature is disabled automatically.
+ 2. Drift can only be enabled when the battery SOC is no less than 20%. It automatically disables when the SOC is &lt; 20%.
+ 3. Drift can only be enabled when the entire car system works properly. In case of any faults, Drift is disabled.
+ 
+ After drift is enabled:
+ 1. Stop mode is switched to Creep;
+
+        2. Autohold is disabled by default;\\n
+        3. The drive mode automatically switches to Sport;
+
+        4. ESC is disabled;
+
+        5. The regenerative braking level is switched to Low;
+
+        6. Some driving assist and parking assist features will be disabled or restricted. Refer to User Manual for details;
+
+        
+
+        Do you fully understand and agree to the above content?
+    "</string>
+    <string name="prompt_drift_title">Aviso de derrape al usuario</string>
+    <string name="prompt_guest_mode_tips">Característica no disponible en Modo de invitado. Desactive el modo de invitado y vuelva a intentarlo</string>
+    <string name="prompt_launch_control_accept">Aceptar y proceder</string>
+    <string name="prompt_launch_control_content">"Advertencia: Durante el control de inicio, debe mantener el control del vehículo y asegurarse de que el entorno de conducción y uso sea seguro. Conduzca únicamente en condiciones seguras. El uso continuo del control de inicio puede provocar una reducción en el rendimiento del sistema de tracción y el sistema de frenos del vehículo. Tenga cuidado al utilizar esta función. Para garantizar la seguridad al conducir, desactive la función cuando no esté en uso.
+ 
+Notas:
+1. Para activar el control de inicio, cambie a PARK, cierre todas las puertas y asegúrese de que tanto el conductor como los pasajeros tengan los cinturones de seguridad abrochados correctamente.
+2. Asegúrese de que el tren motriz del vehículo esté a temperatura normal y que la batería esté suficientemente cargada.
+3. Desactive las funciones de conducción inteligente, centre el volante, suelte el freno de estacionamiento electrónico y cambie a DRIVE. 
+ 
+Instrucciones:
+1. Toque el botón Control de inicio.
+2. Primero, pise completamente el pedal de freno, luego, pise completamente el pedal del acelerador y suelte completamente el pedal de freno antes de que transcurran 4 s después de que la pantalla del conductor muestre Control de inicio activado. Luego el vehículo iniciará con gran aceleración. (Si el tablero muestra Error al activar el control de inicio, verifique el estado del vehículo siguiendo las instrucciones en la pantalla central).
+ 
+¿Entiende usted completamente y está de acuerdo con el contenido anterior?"</string>
+    <string name="prompt_launch_control_cs1e_content">"Advertencia: Durante el control de inicio, debe mantener el control del vehículo y asegurarse de que el entorno de conducción y uso sea seguro. Conduzca únicamente en condiciones seguras. El uso continuo del control de inicio puede provocar una reducción en el rendimiento del sistema de tracción y el sistema de frenos del vehículo. Tenga cuidado al utilizar esta función. Para garantizar la seguridad al conducir, desactive la función cuando no esté en uso.
+Notas:
+1. Para activar el control de inicio, cambie a PARK, cierre todas las puertas y asegúrese de que tanto el conductor como los pasajeros tengan los cinturones de seguridad abrochados correctamente.
+2. Asegúrese de que el tren motriz del vehículo esté a temperatura normal y que la batería esté suficientemente cargada.
+3. Desactive las funciones de conducción inteligente, centre el volante, suelte el freno de estacionamiento electrónico y cambie a DRIVE.
+Instrucciones: 
+1. Toque el botón Control de inicio.
+2. Primero, presione completamente el pedal de freno, luego, presione completamente el pedal del acelerador y suelte completamente el pedal de freno antes de que transcurran 4 s. Luego el vehículo se lanzará con gran aceleración.
+3. Para ofrecer una experiencia óptima, el modo de aceleración cambia automáticamente a Deportivo después de activar la función. Una vez que se desactive la función, el modo de aceleración seguirá siendo Deportivo. El cambio a otro modo de aceleración o modo de conducción para condiciones especiales del camino desactiva automáticamente el control de inicio.
+¿Entiende usted completamente y está de acuerdo con el contenido anterior?"</string>
+    <string name="prompt_launch_control_disable_tips">Derrape activado, control de inicio temporalmente no disponible</string>
+    <string name="prompt_launch_control_race_content">"Advertencia: Durante el control de inicio, debe mantener el control del vehículo y asegurarse de que el entorno de conducción y uso sea seguro. Conduzca únicamente en condiciones seguras. El uso continuo del control de inicio puede provocar una reducción en el rendimiento del sistema de tracción y el sistema de frenos del vehículo. Tenga cuidado al utilizar esta función. Para garantizar la seguridad al conducir, desactive la función cuando no esté en uso.
+ 
+Notas:
+1. Para activar el control de inicio, cambie a PARK, cierre todas las puertas y asegúrese de que tanto el conductor como los pasajeros tengan los cinturones de seguridad abrochados correctamente.
+2. Asegúrese de que el tren motriz del vehículo esté a temperatura normal y que la batería esté suficientemente cargada.
+3. Desactive las funciones de conducción inteligente, centre el volante, suelte el freno de estacionamiento electrónico y cambie a DRIVE. 
+ 
+Instrucciones:
+1. Toque el botón Control de inicio.
+2. Primero, presione completamente el pedal de freno, luego, presione completamente el pedal del acelerador y suelte completamente el pedal de freno antes de que transcurran 4 s. Luego el vehículo se lanzará con gran aceleración.
+3. Para ofrecer una experiencia óptima, el modo de conducción cambiará automáticamente a Deportivo después de activar la función. Una vez que se desactive la función, el modo de conducción seguirá siendo Deportivo. Cambiar a otro modo de conducción desactivará automáticamente el control de inicio. Sin embargo, cuando Tracción ZEEKR > Control del vehículo está activado, el modo de conducción no cambiará a Deportivo.
+4. Una vez que se activa el control de inicio, Tracción ZEEKR > modo de derrape no estará disponible. 
+ 
+¿Entiende usted completamente y está de acuerdo con el contenido anterior?"</string>
+    <string name="prompt_launch_control_title">Aviso para usuarios de Control de inicio</string>
+    <string name="prompt_saving_mode_tips">Función no disponible en el modo Súper ahorro de energía. Desactive este modo y vuelva a intentarlo.</string>
+    <string name="prompt_trunk_open_confirm">Toque nuevamente para abrir la cajuela</string>
+    <string name="racing_mode">Modo de carreras</string>
+    <string name="rear_charging_cap">Escotilla de carga trasera</string>
+    <string name="rear_fog_lamps">Luz trasera antiniebla</string>
+    <string name="recent_apps">Recientes</string>
+    <string name="remove">Quitar</string>
+    <string name="remove_mini_app">Eliminar miniprograma</string>
+    <string name="reset_internet">Reinicio de red</string>
+    <string name="right_opposite_door">Puertas derechas</string>
+    <string name="right_switch_disabled">Interruptor derecho desactivado</string>
+    <string name="right_window_lock">Bloqueo infantil de la ventanilla trasera derecha</string>
+    <string name="scarp_cruised">Control de descenso en pendiente</string>
+    <string name="see_back_row">Guarda infantil</string>
+    <string name="see_more">Ver más</string>
+    <string name="stream_media">Espejo retrovisor digital</string>
+    <string name="tab_mini_app">Miniprograma</string>
+    <string name="tab_zeekr_lab">Z-emulator</string>
+    <string name="take_picture">Tomar fotos</string>
+    <string name="take_video">Video</string>
+    <string name="through_lamp">Luz trasera envolvente</string>
+    <string name="tip_backrest_is_running">Esta aplicación se está utilizando en la pantalla trasera. Al abrirla aquí se interrumpe la sesión de la pantalla trasera.</string>
+    <string name="tip_csd_is_running">Esta aplicación se está utilizando en la pantalla frontal. Al abrirla aquí se interrumpe la sesión de la pantalla frontal.</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">bar</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">Presión de neumáticos recomendada</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">Media carga %1$s kPa %nCarga completa %2$s kPa</string>
+    <string name="title_baby_mode">Modo infantil</string>
+    <string name="title_child_lock">Protección de bloqueo infantil</string>
+    <string name="title_child_protect">Protección infantil</string>
+    <string name="trips_100_km_caps">100 km</string>
+    <string name="trips_10_km_caps">10 km</string>
+    <string name="trips_62_mile_caps">62 mi</string>
+    <string name="trips_6_mile_caps">6 mi</string>
+    <string name="trips_avg_energy">Consumo promedio de energía</string>
+    <string name="trips_distance">Distancia de conducción</string>
+    <string name="trips_elapsed_time">Tiempo</string>
+    <string name="trunk">Cajuela</string>
+    <string name="uninstall">Desinstalar</string>
+    <string name="uninstall_application">Desinstalar aplicación</string>
+    <string name="uninstall_failure">La desinstalación falló</string>
+    <string name="unlock_all">Desbloquear todo</string>
+    <string name="uvi_levels_1">Bajo</string>
+    <string name="uvi_levels_2">Moderada</string>
+    <string name="uvi_levels_3">Alto</string>
+    <string name="uvi_levels_4">Muy alto</string>
+    <string name="uvi_levels_5">Extremo</string>
+    <string name="weather_altitude">Altitud:</string>
+    <string name="weather_aqs">Calidad del aire:</string>
+    <string name="weather_card_title">Clima</string>
+    <string name="weather_failed">Error al cargar, datos meteorológicos no disponibles</string>
+    <string name="weather_loading">Cargando…</string>
+    <string name="weather_net_unavailable">Mala señal de red. Inténtelo de nuevo más tarde.</string>
+    <string name="weather_refresh">Actualizar</string>
+    <string name="weather_uvi">UV:</string>
+    <string name="widget_drive_score_km">km</string>
+</resources>

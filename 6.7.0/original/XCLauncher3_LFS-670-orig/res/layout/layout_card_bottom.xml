@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:indicator="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.mediawidget.ui.view.LoopViewPager android:id="@id/card_bottom_vp" android:paddingBottom="@dimen/card_bottom_padding" android:layout_width="fill_parent" android:layout_height="@dimen/card_bottom_height" android:overScrollMode="never" />
+    <com.zeekr.mediawidget.ui.view.PagerIndicator android:layout_gravity="center|bottom" android:id="@id/card_bottom_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/round_bottom" indicator:interval="@dimen/round_interval" indicator:pager_orientation="HORIZONTAL" indicator:select_color="@color/page_indicator_select" indicator:unselect_color="@color/page_indicator_unselect" indicator:unselect_radius="@dimen/unselect_radius" />
+</merge>

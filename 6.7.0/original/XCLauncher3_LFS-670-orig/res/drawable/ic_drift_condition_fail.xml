@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="36.0dip" android:viewportWidth="36.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h36v36h-36z" />
+        <path android:fillColor="@color/drift_condition_item_fail_icon_fill_color" android:pathData="M17.999,1.335C27.203,1.335 34.665,8.797 34.665,18.001C34.665,27.206 27.203,34.668 17.999,34.668C8.794,34.668 1.332,27.206 1.332,18.001C1.332,8.797 8.794,1.335 17.999,1.335Z" android:fillType="evenOdd" />
+        <path android:fillColor="@color/drift_condition_item_icon_symbol_color" android:pathData="M18.231,19.802L21.66,23.231C22.094,23.665 22.797,23.665 23.231,23.231C23.665,22.797 23.665,22.094 23.231,21.66L19.802,18.231L23.231,14.802C23.665,14.368 23.665,13.665 23.231,13.231C22.797,12.797 22.094,12.797 21.66,13.231L18.231,16.66L14.802,13.231C14.368,12.797 13.665,12.797 13.231,13.231C12.797,13.665 12.797,14.368 13.231,14.802L16.66,18.231L13.231,21.66C12.797,22.094 12.797,22.797 13.231,23.231C13.665,23.665 14.368,23.665 14.802,23.231L18.231,19.802Z" />
+    </group>
+</vector>

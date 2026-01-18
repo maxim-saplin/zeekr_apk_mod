@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.wm.shell.legacysplitscreen.DividerView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/docked_divider_background" android:background="@color/split_divider_background" style="@style/DockedDividerBackground" />
+    <com.android.wm.shell.legacysplitscreen.MinimizedDockShadow android:id="@id/minimized_dock_shadow" android:alpha="0.0" style="@style/DockedDividerMinimizedShadow" />
+    <com.android.wm.shell.common.split.DividerHandleView android:id="@id/docked_divider_handle" android:background="@null" android:contentDescription="@string/accessibility_divider" style="@style/DockedDividerHandle" />
+</com.android.wm.shell.legacysplitscreen.DividerView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_app_center" android:layout_width="@dimen/recent_frag_width" android:layout_height="@dimen/app_center_height" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/txt_recent_frag_tab" android:textColor="@color/recent_app_txt" android:gravity="center_horizontal" android:id="@id/recent_tab" android:paddingTop="@dimen/tab_label_top" android:layout_width="fill_parent" android:layout_height="@dimen/recent_frag_tab_height" android:text="@string/recent_apps" android:layout_centerHorizontal="true" android:importantForAccessibility="no" />
+    <RelativeLayout android:id="@id/recent_empty_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/recent_empty_img" android:layout_width="@dimen/recent_frag_empty_img_size" android:layout_height="@dimen/recent_frag_empty_img_size" android:src="@drawable/ic_recent_app_empty" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/txt_recent_empty" android:textColor="@color/recent_empty_txt" android:gravity="center_horizontal" android:id="@id/recent_empty_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/recent_frag_empty_margin" android:text="@string/no_recent_apps" android:layout_below="@id/recent_empty_img" android:layout_centerHorizontal="true" android:importantForAccessibility="no" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/recent_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/recent_frag_list_top" android:layout_below="@id/recent_tab" android:overScrollMode="never" android:layoutDirection="ltr" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</RelativeLayout>

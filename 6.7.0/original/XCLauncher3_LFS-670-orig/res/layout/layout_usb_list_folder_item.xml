@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/media_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/usb_item_folder_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_usb_folder_unselect" android:layout_marginStart="@dimen/media_item_margin_left" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/sound_source_name_text_size" android:textColor="@color/text_color_1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/usb_item_folder_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="340.0dip" android:lines="1" android:maxEms="12" android:layout_marginStart="@dimen/media_item_title_margin_left" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/usb_item_folder_img" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

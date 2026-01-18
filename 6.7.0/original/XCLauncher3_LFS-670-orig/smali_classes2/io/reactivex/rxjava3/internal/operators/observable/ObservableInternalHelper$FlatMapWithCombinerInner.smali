@@ -1,0 +1,42 @@
+.class final Lio/reactivex/rxjava3/internal/operators/observable/ObservableInternalHelper$FlatMapWithCombinerInner;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lio/reactivex/rxjava3/functions/Function;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/reactivex/rxjava3/internal/operators/observable/ObservableInternalHelper;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "FlatMapWithCombinerInner"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<U:",
+        "Ljava/lang/Object;",
+        "R:",
+        "Ljava/lang/Object;",
+        "T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lio/reactivex/rxjava3/functions/Function<",
+        "TU;TR;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    const/4 p0, 0x0
+
+    throw p0
+.end method

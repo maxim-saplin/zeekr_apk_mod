@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aqi_levels">
+        <item>@string/aqi_levels_1</item>
+        <item>@string/aqi_levels_2</item>
+        <item>@string/aqi_levels_3</item>
+        <item>@string/aqi_levels_4</item>
+        <item>@string/aqi_levels_5</item>
+        <item>@string/aqi_levels_6</item>
+        <item>@string/aqi_levels_7</item>
+    </string-array>
+    <string-array name="default_apps_cc1e">
+        <item>com.zeekr.swe.lightshow/com.zeekr.lightshow.ui.MainActivity</item>
+        <item>com.zeekr.scenario.customization/com.zeekr.scenario.customization.ui.activity.LauncherActivity</item>
+        <item>com.mrbattery.exterioraudioplaydemo/com.mrbattery.exterioraudioplaydemo.MainActivity</item>
+        <item>com.bilibili.bilithings/com.bilibili.bilithings.splash.SplashActivity</item>
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.zeekr.dlnavideo/com.zeekr.dlnavideo.ChooseActivity</item>
+    </string-array>
+    <string-array name="default_apps_cc1e_eu">
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.ts.carplay.app/com.ts.carplay.app.ui.display.view.GuideActivity</item>
+        <item>com.ts.androidauto.app/com.ts.androidauto.app.display.GuideActivity</item>
+    </string-array>
+    <string-array name="default_apps_cm2e">
+        <item>com.zeekr.scenario.customization/com.zeekr.scenario.customization.ui.activity.LauncherActivity</item>
+        <item>com.mrbattery.exterioraudioplaydemo/com.mrbattery.exterioraudioplaydemo.MainActivity</item>
+        <item>com.thunder.carplay/com.thunder.carplay.home.ui.activity.HomeFragmentActivity</item>
+        <item>com.bilibili.bilithings/com.bilibili.bilithings.splash.SplashActivity</item>
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.zeekr.dlnavideo/com.zeekr.dlnavideo.ChooseActivity</item>
+    </string-array>
+    <string-array name="default_apps_cs1e">
+        <item>com.zeekr.scenario.customization/com.zeekr.scenario.customization.ui.activity.LauncherActivity</item>
+        <item>com.mrbattery.exterioraudioplaydemo/com.mrbattery.exterioraudioplaydemo.MainActivity</item>
+        <item>com.zeekrc.lightshow/com.zeekrc.unity.ui.MainActivity</item>
+        <item>com.bilibili.bilithings/com.bilibili.bilithings.splash.SplashActivity</item>
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.zeekr.dlnavideo/com.zeekr.dlnavideo.ChooseActivity</item>
+    </string-array>
+    <string-array name="default_apps_cx1e">
+        <item>com.zeekr.swe.lightshow/com.zeekr.lightshow.ui.MainActivity</item>
+        <item>com.zeekr.scenario.customization/com.zeekr.scenario.customization.ui.activity.LauncherActivity</item>
+        <item>com.mrbattery.exterioraudioplaydemo/com.mrbattery.exterioraudioplaydemo.MainActivity</item>
+        <item>com.bilibili.bilithings/com.bilibili.bilithings.splash.SplashActivity</item>
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.zeekr.dlnavideo/com.zeekr.dlnavideo.ChooseActivity</item>
+    </string-array>
+    <string-array name="default_apps_cx1e_eu">
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.ts.carplay.app/com.ts.carplay.app.ui.display.view.GuideActivity</item>
+        <item>com.ts.androidauto.app/com.ts.androidauto.app.display.GuideActivity</item>
+    </string-array>
+    <string-array name="default_apps_dc1e">
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>com.arcvideo.car.video/com.arcvideo.car.iqy.video.SplashActivity</item>
+        <item>com.bilibili.bilithings/com.bilibili.bilithings.splash.SplashActivity</item>
+        <item>ecarx.gallery/zeekr.gallery.ui.HomeActivity</item>
+    </string-array>
+    <string-array name="default_apps_dc1e_a2">
+        <item>com.geely.pma.dc1e.trackmode/com.geely.pma.dc1e.trackmode.ui.SplashActivity</item>
+        <item>com.zeekr.scenario.customization/com.zeekr.scenario.customization.ui.activity.LauncherActivity</item>
+        <item>com.mrbattery.exterioraudioplaydemo/com.mrbattery.exterioraudioplaydemo.MainActivity</item>
+        <item>com.bilibili.bilithings/com.bilibili.bilithings.splash.SplashActivity</item>
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.zeekr.dlnavideo/com.zeekr.dlnavideo.ChooseActivity</item>
+    </string-array>
+    <string-array name="default_apps_dc1e_a3">
+        <item>com.geely.pma.dc1e.trackmode/com.geely.pma.dc1e.trackmode.ui.SplashActivity</item>
+        <item>com.zeekr.scenario.customization/com.zeekr.scenario.customization.ui.activity.LauncherActivity</item>
+        <item>com.mrbattery.exterioraudioplaydemo/com.mrbattery.exterioraudioplaydemo.MainActivity</item>
+        <item>com.bilibili.bilithings/com.bilibili.bilithings.splash.SplashActivity</item>
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.zeekr.dlnavideo/com.zeekr.dlnavideo.ChooseActivity</item>
+    </string-array>
+    <string-array name="default_apps_dx1h">
+        <item>com.zeekr.scenario.customization/com.zeekr.scenario.customization.ui.activity.LauncherActivity</item>
+        <item>com.mrbattery.exterioraudioplaydemo/com.mrbattery.exterioraudioplaydemo.MainActivity</item>
+        <item>com.arcvideo.car.video/com.arcvideo.car.iqy.video.SplashActivity</item>
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.zeekr.dlnavideo/com.zeekr.dlnavideo.ChooseActivity</item>
+        <item>com.bilibili.bilithings/com.bilibili.bilithings.splash.SplashActivity</item>
+    </string-array>
+    <string-array name="default_apps_ef1e">
+        <item>com.zeekr.scenario.customization/com.zeekr.scenario.customization.ui.activity.LauncherActivity</item>
+        <item>com.mrbattery.exterioraudioplaydemo/com.mrbattery.exterioraudioplaydemo.MainActivity</item>
+        <item>com.arcvideo.car.video/com.arcvideo.car.iqy.video.SplashActivity</item>
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.zeekr.dlnavideo/com.zeekr.dlnavideo.ChooseActivity</item>
+        <item>com.bilibili.bilithings/com.bilibili.bilithings.splash.SplashActivity</item>
+    </string-array>
+    <string-array name="default_apps_ef1e_m_r">
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.ts.carplay.app/com.ts.carplay.app.ui.display.view.GuideActivity</item>
+        <item>com.ts.androidauto.app/com.ts.androidauto.app.display.GuideActivity</item>
+    </string-array>
+    <string-array name="default_apps_ex1e">
+        <item>com.zeekr.scenario.customization/com.zeekr.scenario.customization.ui.activity.LauncherActivity</item>
+        <item>com.mrbattery.exterioraudioplaydemo/com.mrbattery.exterioraudioplaydemo.MainActivity</item>
+        <item>com.arcvideo.car.video/com.arcvideo.car.iqy.video.SplashActivity</item>
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.zeekr.dlnavideo/com.zeekr.dlnavideo.ChooseActivity</item>
+        <item>com.bilibili.bilithings/com.bilibili.bilithings.splash.SplashActivity</item>
+    </string-array>
+    <string-array name="default_apps_ex1h">
+        <item>com.zeekr.scenario.customization/com.zeekr.scenario.customization.ui.activity.LauncherActivity</item>
+        <item>com.mrbattery.exterioraudioplaydemo/com.mrbattery.exterioraudioplaydemo.MainActivity</item>
+        <item>com.arcvideo.car.video/com.arcvideo.car.iqy.video.SplashActivity</item>
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.zeekr.dlnavideo/com.zeekr.dlnavideo.ChooseActivity</item>
+        <item>com.bilibili.bilithings/com.bilibili.bilithings.splash.SplashActivity</item>
+    </string-array>
+    <string-array name="default_apps_nonsupport">
+        <item>com.zeekr.scenario.customization/com.zeekr.scenario.customization.ui.activity.LauncherActivity</item>
+        <item>com.mrbattery.exterioraudioplaydemo/com.mrbattery.exterioraudioplaydemo.MainActivity</item>
+        <item>com.arcvideo.car.video/com.arcvideo.car.iqy.video.SplashActivity</item>
+        <item>com.ecarx.btphone/com.ecarx.btphone.ui.MainActivity</item>
+        <item>dc1e.gallery/zeekr.gallery.ui.HomeActivity</item>
+        <item>com.zeekr.dlnavideo/com.zeekr.dlnavideo.ChooseActivity</item>
+        <item>com.bilibili.bilithings/com.bilibili.bilithings.splash.SplashActivity</item>
+    </string-array>
+    <string-array name="energy_tab">
+        <item>@string/trips_10_km_caps</item>
+        <item>@string/trips_100_km_caps</item>
+    </string-array>
+    <string-array name="energy_tab_mile">
+        <item>@string/trips_6_mile_caps</item>
+        <item>@string/trips_62_mile_caps</item>
+    </string-array>
+    <string-array name="nzp_string_array">
+        <item>@string/nzp_string_array_1</item>
+        <item>@string/nzp_string_array_2</item>
+        <item>@string/nzp_string_array_3</item>
+        <item>@string/nzp_string_array_4</item>
+        <item>@string/nzp_string_array_5</item>
+        <item>@string/nzp_string_array_6</item>
+        <item>@string/nzp_string_array_7</item>
+        <item>@string/nzp_string_array_8</item>
+        <item>@string/nzp_string_array_9</item>
+        <item>@string/nzp_string_array_10</item>
+        <item>@string/nzp_string_array_11</item>
+        <item>@string/nzp_string_array_12</item>
+        <item>@string/nzp_string_array_13</item>
+        <item>@string/nzp_string_array_14</item>
+        <item>@string/nzp_string_array_15</item>
+        <item>@string/nzp_string_array_16</item>
+        <item>@string/nzp_string_array_17</item>
+        <item>@string/nzp_string_array_18</item>
+        <item>@string/nzp_string_array_19</item>
+        <item>@string/nzp_string_array_20</item>
+        <item>@string/nzp_string_array_21</item>
+        <item>@string/nzp_string_array_22</item>
+        <item>@string/nzp_string_array_23</item>
+        <item>@string/nzp_string_array_24</item>
+    </string-array>
+    <string-array name="trip_tab">
+        <item>@string/card_trip_1</item>
+        <item>@string/card_trip_2</item>
+    </string-array>
+    <string-array name="uvi_levels">
+        <item>@string/uvi_levels_1</item>
+        <item>@string/uvi_levels_2</item>
+        <item>@string/uvi_levels_3</item>
+        <item>@string/uvi_levels_4</item>
+        <item>@string/uvi_levels_5</item>
+    </string-array>
+</resources>

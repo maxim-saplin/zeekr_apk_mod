@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="@dimen/media_source_name_layout_width" android:layout_height="@dimen/media_source_name_layout_height" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_smart_title" />
+    <include android:id="@id/card_expand_click_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_expand_arrow" style="@style/media_expand_layout" />
+    <include android:id="@id/mini_card_hot_area" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_smart_screen_mini_card_hot_area" style="@style/media_mini_card_hot_area" />
+    <include android:id="@id/lock_info" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="30.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/mini_card_hot_area" layout="@layout/lock" />
+</androidx.constraintlayout.widget.ConstraintLayout>

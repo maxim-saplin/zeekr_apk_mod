@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/flAppIcon" android:layout_width="148.0dip" android:layout_height="148.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/ivIcon" android:layout_width="108.0dip" android:layout_height="108.0dip" android:scaleType="fitXY" app:borderColor="#1a000000" app:borderWidth="0.6700001dip" />
+        </FrameLayout>
+        <TextView android:textSize="28.0sp" android:textColor="#99383a3d" android:ellipsize="end" android:gravity="center" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:maxWidth="148.0dip" android:maxLines="2" />
+    </LinearLayout>
+</LinearLayout>

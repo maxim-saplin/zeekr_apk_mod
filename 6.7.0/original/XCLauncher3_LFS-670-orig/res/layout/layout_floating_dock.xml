@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/floating_dock_bg" android:layout_width="@dimen/dock_bar_width" android:layout_height="@dimen/dock_floating_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/switch_btn" android:layout_width="fill_parent" android:layout_height="@dimen/dock_bar_switch_btn_height">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/switch_icon" android:layout_width="@dimen/dock_bar_switch_btn_size" android:layout_height="@dimen/dock_bar_switch_btn_size" android:src="@drawable/icon_map" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dock_bar_divider_height" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <ImageView android:id="@id/edit_btn" android:layout_width="fill_parent" android:layout_height="@dimen/dock_bar_ctrl_btn_height" android:layout_marginTop="@dimen/dock_bar_divider_height" android:src="@drawable/icon_dock_edit" android:scaleType="center" />
+</LinearLayout>

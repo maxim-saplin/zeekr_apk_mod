@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/app_item" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg_icon" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="174.0dip" android:layout_centerInParent="true" android:alpha="1.0" />
+    <RelativeLayout android:id="@id/app_content" android:background="@drawable/bg_nzp_card" android:layout_width="fill_parent" android:layout_height="@dimen/nzp_card_height" android:layout_centerInParent="true" android:onClick="onNZPCardViewClick">
+        <ImageView android:id="@id/expand_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_nzp_card_red" />
+        <FrameLayout android:id="@id/icon_parent" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_centerVertical="true" android:layout_marginStart="10.0dip">
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/app_icon" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/nzp_plus_icon" />
+        </FrameLayout>
+        <TextView android:textSize="28.0sp" android:textColor="@color/nzp_text" android:ellipsize="end" android:gravity="center" android:id="@id/app_name" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="NZP启动中…" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="0.0dip" android:paddingHorizontal="@dimen/nzp_card_title_padding_cs" />
+    </RelativeLayout>
+</RelativeLayout>

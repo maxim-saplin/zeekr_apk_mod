@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">瀏覽主頁</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">刪除</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 鍵</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">空白鍵</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">使用「%s」分享</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="accessibility_action_divider_bottom_full">底部全螢幕</string>
+    <string name="accessibility_action_divider_left_30">左邊 30%</string>
+    <string name="accessibility_action_divider_left_50">左邊 50%</string>
+    <string name="accessibility_action_divider_left_70">左邊 70%</string>
+    <string name="accessibility_action_divider_left_full">左邊全螢幕</string>
+    <string name="accessibility_action_divider_right_full">右邊全螢幕</string>
+    <string name="accessibility_action_divider_top_30">頂部 30%</string>
+    <string name="accessibility_action_divider_top_50">頂部 50%</string>
+    <string name="accessibility_action_divider_top_70">頂部 70%</string>
+    <string name="accessibility_action_divider_top_full">頂部全螢幕</string>
+    <string name="accessibility_action_pip_resize">調整大小</string>
+    <string name="accessibility_action_pip_stash">保護</string>
+    <string name="accessibility_action_pip_unstash">取消保護</string>
+    <string name="accessibility_action_start_one_handed">開始單手模式</string>
+    <string name="accessibility_action_stop_one_handed">結束單手模式</string>
+    <string name="accessibility_bubble_dismissed">對話氣泡已關閉。</string>
+    <string name="accessibility_divider">分割畫面分隔線</string>
+    <string name="active_widget">啟用</string>
+    <string name="activity_launch_on_secondary_display_failed_text">應用程式無法在次要顯示屏上啟動。</string>
+    <string name="adjust_hud">HUD調節</string>
+    <string name="adjust_rear_mirror">後視鏡調節</string>
+    <string name="apa">自動泊車輔助</string>
+    <string name="app_center">應用中心</string>
+    <string name="app_is_installing">正在安裝應用程式，請稍等</string>
+    <string name="app_not_install">請確保兒童守護App已安裝</string>
+    <string name="app_uninstall_cancel">取消</string>
+    <string name="apps_all_title">更多應用程式</string>
+    <string name="apps_card_cancel_start_app">取消</string>
+    <string name="apps_card_confirm_start_app">確定打開</string>
+    <string name="apps_card_tip_backrest_is_running">後排屏正在使用此App，若繼續打開將中斷對方使用</string>
+    <string name="apps_card_title">常用應用程式</string>
+    <string name="apps_edit_at_most">最多只能增加4個應用程式，請先刪減後再增加</string>
+    <string name="apps_edit_cancel">取消</string>
+    <string name="apps_edit_finish">完成</string>
+    <string name="apps_edit_group_custom_label">自訂</string>
+    <string name="apps_edit_group_recent_label">最近使用</string>
+    <string name="apps_edit_tips">長按可拖動應用程式圖標到常用應用程式卡片內，拖動時可替換和排序現有應用程式圖標的位置</string>
+    <string name="apps_mini_title">小程式</string>
+    <string name="apps_zeekr_lab_title">極氪極拓</string>
+    <string name="aqi_levels_1">優良</string>
+    <string name="aqi_levels_2">優良</string>
+    <string name="aqi_levels_3">輕度</string>
+    <string name="aqi_levels_4">中度</string>
+    <string name="aqi_levels_5">重度</string>
+    <string name="aqi_levels_6">嚴重</string>
+    <string name="aqi_levels_7">超出上限</string>
+    <string name="aqt_app_name_1">騰訊愛趣聽</string>
+    <string name="aqt_app_name_2">愛趣聽</string>
+    <string name="args_full_url">full_url</string>
+    <string name="atmosphere_light">氛圍燈</string>
+    <string name="auto_hold">自動駐車</string>
+    <string name="baby_into_car_widget">寶寶上車</string>
+    <string name="baby_into_car_widget_active_dsc">即將為您啟動寶寶上車，啟動後將自動調整「語音、聲音、安全、後排空調、車窗、後排螢幕」至目標狀態</string>
+    <string name="baby_sleep_well_widget">寶寶安睡</string>
+    <string name="baby_sleep_well_widget_active_dsc">即將為您啟動寶寶安睡，啟動後將自動調整「語音、聲音、安全、後排空調、車窗、後排螢幕」至目標狀態</string>
+    <string name="back_row_cinema">後排影院模式</string>
+    <string name="back_row_meeting">後排會議模式</string>
+    <string name="back_row_rest">後排休憩模式</string>
+    <string name="bilibili_app_name">嗶哩嗶哩</string>
+    <string name="bluetooth_no_artist">暫無</string>
+    <string name="bluetooth_no_connect">藍牙音樂-未連線</string>
+    <string name="bluetooth_no_play">暫無歌曲</string>
+    <string name="bottomsheet_action_collapse">收合頁底面板</string>
+    <string name="bottomsheet_action_expand">展開頁底面板</string>
+    <string name="bottomsheet_action_expand_halfway">展開一半</string>
+    <string name="bottomsheet_drag_handle_clicked">㩒咗兩下拖曳控點</string>
+    <string name="bottomsheet_drag_handle_content_description">拖曳控點</string>
+    <string name="brvah_load_complete">點擊加載更多</string>
+    <string name="brvah_load_end">沒有更多數據</string>
+    <string name="brvah_load_failed">加載失敗，請點我重試</string>
+    <string name="brvah_loading">正在加載中...</string>
+    <string name="bt_app_name">藍牙音樂</string>
+    <string name="bubble_accessibility_action_add_back">加回堆疊</string>
+    <string name="bubble_accessibility_action_move_bottom_left">移去左下角</string>
+    <string name="bubble_accessibility_action_move_bottom_right">移去右下角</string>
+    <string name="bubble_accessibility_action_move_top_left">移去左上角</string>
+    <string name="bubble_accessibility_action_move_top_right">移去右上角</string>
+    <string name="bubble_content_description_single">來自「%2$s」的 %1$s</string>
+    <string name="bubble_content_description_stack">來自「%2$s」及另外 %3$d 個應用程式的%1$s</string>
+    <string name="bubble_dismiss_text">關閉小視窗氣泡</string>
+    <string name="bubble_overflow_button_content_description">顯示更多</string>
+    <string name="bubble_overflow_empty_subtitle">最近使用和關閉的小視窗會在這裡顯示</string>
+    <string name="bubble_overflow_empty_title">沒有最近曾使用的小視窗</string>
+    <string name="bubbles_app_settings">「%1$s」設定</string>
+    <string name="bubbles_dont_bubble_conversation">不要透過小視窗顯示對話</string>
+    <string name="bubbles_settings_button_description">「%1$s」小視窗設定</string>
+    <string name="bubbles_user_education_description">新對話會以浮動圖示 (小視窗) 顯示。輕按即可開啟小視窗。拖曳即可移動小視窗。</string>
+    <string name="bubbles_user_education_got_it">知道了</string>
+    <string name="bubbles_user_education_manage">輕按「管理」即可關閉此應用程式的小視窗</string>
+    <string name="bubbles_user_education_manage_title">隨時控制小視窗設定</string>
+    <string name="bubbles_user_education_title">使用小視窗進行即時通訊</string>
+    <string name="business_voice_disabled">商務語音停用</string>
+    <string name="call_notification_answer_action">接聽</string>
+    <string name="call_notification_answer_video_action">視像</string>
+    <string name="call_notification_decline_action">拒接</string>
+    <string name="call_notification_hang_up_action">掛斷</string>
+    <string name="call_notification_incoming_text">來電</string>
+    <string name="call_notification_ongoing_text">通話中</string>
+    <string name="call_notification_screening_text">正在過濾來電</string>
+    <string name="cancel_widget">取消</string>
+    <string name="card_energy_chart_desc">最近一段行程距離內能源消耗變化趨勢</string>
+    <string name="card_full_title">車況</string>
+    <string name="card_kwh_mile_unit">kWh/100mi</string>
+    <string name="card_kwh_unit">kWh/100km</string>
+    <string name="card_trip_1">行程1</string>
+    <string name="card_trip_2">行程2</string>
+    <string name="central_lock">中央控制鎖</string>
+    <string name="character_counter_content_description">已輸入 %1$d 個字元 (共 %2$d 個)</string>
+    <string name="character_counter_overflowed_content_description">超出字元限制 %1$d 個字元 (上限 %2$d 個字元)</string>
+    <string name="charge_charge_error_big_tips">充電故障，請及時檢查！</string>
+    <string name="charge_charging_done_tips">充電已停止，請記得拔槍</string>
+    <string name="charge_charging_full">優先充滿</string>
+    <string name="charge_charging_limit">充電至限值</string>
+    <string name="charge_connect">已連接</string>
+    <string name="charge_connect_tips">請耐心等待</string>
+    <string name="charge_daily">每天</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">V2L停止供電</string>
+    <string name="charge_estimate">&lt;span color=#9985898C font-size=28px>剩餘時間&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span > &lt;span color=#85898C font-size=80px>%2$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_24">&lt;span color=#9985898C font-size=28px>剩餘時間&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>>24&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_24_day">&lt;span color=#99383A3D font-size=28px>剩餘時間&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>>24&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_day">" &lt;span color=#99383A3D font-size=28px>剩餘時間&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span > &lt;span color=#383A3D font-size=80px>%2$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_estimate_no_hour">&lt;span color=#9985898C font-size=28px>剩餘時間&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_no_hour_day">" &lt;span color=#99383A3D font-size=28px>剩餘時間&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_fully">即將完成充電</string>
+    <string name="charge_next_day">翌日</string>
+    <string name="charge_no_plug">未插槍</string>
+    <string name="charge_plug_connect_ac">已插槍（交流）</string>
+    <string name="charge_plug_connect_dc">已插槍（直流）</string>
+    <string name="charge_plug_connect_fault">連接故障</string>
+    <string name="charge_plug_connect_fault_tips">連接故障，請及時排查！</string>
+    <string name="charge_plug_connect_tips">已插槍未充電，請耐心等待</string>
+    <string name="charge_plug_connect_waiting">槍線未完全插入</string>
+    <string name="charge_plug_no_active">充電柱未啟用</string>
+    <string name="charge_plug_no_double">請勿同時插入交流槍和直流槍</string>
+    <string name="charge_plug_no_double_tips">插槍不正常，請及時排查！</string>
+    <string name="charge_power_supply_capacity">&lt;span color=#9985898C font-size=28px>供電電量&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all">&lt;span color=#9985898C font-size=28px>供電電量統計&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all_day">&lt;span color=#99383A3D font-size=28px>供電電量統計&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_day">&lt;span color=#99383A3D font-size=28px>供電電量&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_pre_time">" &lt;span color=#9985898C font-size=28px>預約充電&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>每天&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_day">" &lt;span color=#99383A3D font-size=28px>預約充電&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>每天&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_full">" &lt;span color=#9985898C font-size=28px>預約充電&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>每天&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>優先充滿&lt;/span >"</string>
+    <string name="charge_pre_time_full_day">" &lt;span color=#99383A3D font-size=28px>預約充電&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>每天&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>優先充滿&lt;/span >"</string>
+    <string name="charge_pre_time_limit">" &lt;span color=#9985898C font-size=28px>預約充電&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>每天&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>充電至限值&lt;/span >"</string>
+    <string name="charge_pre_time_limit_day">" &lt;span color=#99383A3D font-size=28px>預約充電&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>每天&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>充電至限值&lt;/span >"</string>
+    <string name="charge_pre_time_next">" &lt;span color=#9985898C font-size=28px>預約充電&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>每天&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=24px>翌日&lt;/span > &lt;span color=#85898C font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_next_day">" &lt;span color=#99383A3D font-size=28px>預約充電&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>每天&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=24px>翌日&lt;/span > &lt;span color=#383A3D font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_title">預約充電</string>
+    <string name="charge_start">開始充電</string>
+    <string name="charge_status_battery_fault">動力電池故障</string>
+    <string name="charge_status_booking">預約中</string>
+    <string name="charge_status_boosting">升壓充電中</string>
+    <string name="charge_status_charging">充電中</string>
+    <string name="charge_status_charging_done">充電停止</string>
+    <string name="charge_status_charging_fault">充電故障</string>
+    <string name="charge_status_discharging">V2L對外供電中</string>
+    <string name="charge_status_discharging_done">V2L供電結束</string>
+    <string name="charge_status_discharging_fault">V2L供電故障</string>
+    <string name="charge_status_preheating">電池溫度調節中</string>
+    <string name="charge_status_super_fast_charging">快速充電中</string>
+    <string name="charge_stop">停止充電</string>
+    <string name="charge_temperature_tips">溫度調節中，請耐心等待</string>
+    <string name="charging_cap">充電口蓋</string>
+    <string name="child_lock_left">左兒童鎖</string>
+    <string name="child_lock_right">右兒童鎖</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="climate_light">全氣候燈</string>
+    <string name="close_all">全部關閉</string>
+    <string name="close_card">關閉卡片</string>
+    <string name="close_window">一按關窗</string>
+    <string name="confirm">確定</string>
+    <string name="confirm_remove">確認移除%s嗎</string>
+    <string name="confirm_start_app">確定打開</string>
+    <string name="confirm_uninstall">確認解除安裝%s嗎</string>
+    <string name="connect_bluetooth_first">請先連接藍牙設備</string>
+    <string name="connect_usb">請先連線USB設備</string>
+    <string name="connect_usb_first">請先連接USB設備</string>
+    <string name="copilot_massage">副駕按摩</string>
+    <string name="copilot_rest">副駕一按休憩</string>
+    <string name="day_friday">星期五</string>
+    <string name="day_monday">星期一</string>
+    <string name="day_saturday">星期六</string>
+    <string name="day_sunday">星期日</string>
+    <string name="day_thursday">星期四</string>
+    <string name="day_tuesday">星期二</string>
+    <string name="day_wednesday">星期三</string>
+    <string name="dln_empty_text">投射中...</string>
+    <string name="dock_forced_resizable">應用程式可能無法在分割畫面中運作。</string>
+    <string name="dock_non_resizeble_failed_to_dock_text">應用程式不支援分割畫面。</string>
+    <string name="done">完成</string>
+    <string name="download_paused">已暫停</string>
+    <string name="download_pending">準備下載…</string>
+    <string name="download_progress">正在下載…</string>
+    <string name="drag_tip">長按可拖動功能到左側控制欄，拖動時可替換和排序現有功能</string>
+    <string name="drag_tip_right">長按可拖動功能到右側控制欄，拖動時可替換和排序現有功能</string>
+    <string name="driver_massage">主駕按摩</string>
+    <string name="driver_rest">主駕一按休憩</string>
+    <string name="edit_at_most">最多只能增加5個功能，請先刪減後再增加</string>
+    <string name="error_icon_content_description">錯誤</string>
+    <string name="exclusive_child_lock">專屬兒童鎖</string>
+    <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
+    <string name="favoriteslist">收藏清單</string>
+    <string name="fm_app_name">收音機</string>
+    <string name="fold_rear_mirror">摺疊後視鏡</string>
+    <string name="forced_resizable_secondary_display">應用程式可能無法在次要顯示屏上運作。</string>
+    <string name="front_charging_cap">前充電口蓋</string>
+    <string name="gallery_empty_text">"更多圖庫資源
+請前往應用查看"</string>
+    <string name="glove_box">手套箱</string>
+    <string name="gps_permission_denied">GPS資料未授權</string>
+    <string name="gps_permission_setting">設定</string>
+    <string name="hud">HUD開關</string>
+    <string name="icon_content_description">對話框圖示</string>
+    <string name="image_control">鏡像控制</string>
+    <string name="image_control_view_pager_txt">背後螢幕掌控</string>
+    <string name="install_progress">正在安裝…</string>
+    <string name="item_view_role_description">分頁</string>
+    <string name="launch_control">彈射起步</string>
+    <string name="left_dock_cancel">取消</string>
+    <string name="left_dock_close">關閉</string>
+    <string name="left_dock_edit">編輯</string>
+    <string name="left_opposite_door">左側對開門</string>
+    <string name="left_switch_disabled">左側開關停用</string>
+    <string name="left_window_lock">左後車窗童鎖</string>
+    <string name="lock_all">全部上鎖</string>
+    <string name="low_speed_alert">低速警示音</string>
+    <string name="manage_bubbles_text">管理</string>
+    <string name="mask_card_energy_title">·能源消耗</string>
+    <string name="mask_card_tire_title">·胎壓</string>
+    <string name="mask_card_trip_title">·行程</string>
+    <string name="material_clock_toggle_content_description">選擇上午或下午</string>
+    <string name="material_hour_24h_suffix">%1$s 個鐘</string>
+    <string name="material_hour_selection">選取時段</string>
+    <string name="material_hour_suffix">%1$s 點</string>
+    <string name="material_minute_selection">選取分鐘</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">切換至時鐘模式即可輸入時間。</string>
+    <string name="material_timepicker_hour">小時</string>
+    <string name="material_timepicker_minute">分鐘</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">選取時間</string>
+    <string name="material_timepicker_text_input_mode_description">切換至文字輸入模式即可輸入時間。</string>
+    <string name="media_app_name">極享</string>
+    <string name="media_bilibili_title">一起追劇吧</string>
+    <string name="media_data_exception">載入失敗</string>
+    <string name="media_data_retry">重新載入</string>
+    <string name="media_dln_open">前往螢幕投射</string>
+    <string name="media_dln_play_stoped">投射</string>
+    <string name="media_dln_playing">投屏中…</string>
+    <string name="media_empty_title_unknown">暫無</string>
+    <string name="media_float_lyric_window">浮動歌詞</string>
+    <string name="media_gallery_subtitle">前往圖庫</string>
+    <string name="media_gallery_title">圖庫瀏覽中</string>
+    <string name="media_leishi_title">讓我們一起K歌</string>
+    <string name="media_list_data_empty">暫無清單</string>
+    <string name="media_list_empty_recommend">暫無推薦</string>
+    <string name="media_loading">載入中...</string>
+    <string name="media_no_lrc_label">暫無歌詞</string>
+    <string name="media_open_app">進入應用程式</string>
+    <string name="media_recommend_playlist">熱榜歌單</string>
+    <string name="media_recommend_radio">推薦電台</string>
+    <string name="media_resume_ktv">恢復K歌</string>
+    <string name="media_resume_play">繼續播放</string>
+    <string name="media_switch_when_hfpcall">在藍牙通話中。請再試一次</string>
+    <string name="media_title_init">來首音樂吧</string>
+    <string name="media_to_iqiyi_video">前往愛奇藝</string>
+    <string name="media_to_leishi_ktv">前往雷石KTV</string>
+    <string name="media_to_migu_video">前往咪咕視訊</string>
+    <string name="media_video_none_title">一起追劇吧</string>
+    <string name="media_video_playing">影片媒體播放中</string>
+    <string name="memory_using">內部儲存空間佔用</string>
+    <string name="mirror_control_function_while_driving">為了您和他人的安全，請不要在駕駛過程中使用鏡像控制功能</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除「%1$s」</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
+    <string name="mtrl_picker_a11y_next_month">變更為下個月</string>
+    <string name="mtrl_picker_a11y_prev_month">變更為上個月</string>
+    <string name="mtrl_picker_announce_current_selection">目前選取：%1$s</string>
+    <string name="mtrl_picker_cancel">取消</string>
+    <string name="mtrl_picker_confirm">確定</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">請選擇日期</string>
+    <string name="mtrl_picker_date_header_unselected">已選取日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">日期欄：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式無效。</string>
+    <string name="mtrl_picker_invalid_format_example">例如：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">範圍無效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">瀏覽至 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">超出範圍：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 結束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">請選擇範圍</string>
+    <string name="mtrl_picker_range_header_unselected">開始日期 – 結束日期</string>
+    <string name="mtrl_picker_save">儲存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">結束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">日</string>
+    <string name="mtrl_picker_text_input_month_abbr">月</string>
+    <string name="mtrl_picker_text_input_year_abbr">年</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切換至日曆輸入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">輕按以切換至選擇日期</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">輕按以切換至選擇年份</string>
+    <string name="mtrl_timepicker_cancel">取消</string>
+    <string name="mtrl_timepicker_confirm">確定</string>
+    <string name="music_no_lyric_keyword1">無歌詞</string>
+    <string name="music_no_lyric_keyword2">純音樂</string>
+    <string name="music_no_lyric_keyword3">暫不支持歌詞</string>
+    <string name="netease_app_name">網易雲音樂</string>
+    <string name="netease_version_low_empty_list">"暫無清單
+請前往應用中心升級應用"</string>
+    <string name="netease_version_low_empty_lyric">"No lyrics yet
+Please go to the App store to upgrade"</string>
+    <string name="netease_version_low_empty_recommend">"No recommendation yet
+Please go to the App store to upgrade"</string>
+    <string name="no_connect_bluetooth">當前未連線藍牙設備</string>
+    <string name="no_connecting">暫未連接</string>
+    <string name="no_recent_apps">暫無最近使用</string>
+    <string name="notification_bubble_title">氣泡</string>
+    <string name="notification_channel_tv_pip">畫中畫</string>
+    <string name="nzp_string_array_1">ZEEKR Pilot 已退出</string>
+    <string name="nzp_string_array_10">右側轉線失敗</string>
+    <string name="nzp_string_array_11">左側轉線失敗</string>
+    <string name="nzp_string_array_12">即將駛出 NZP 路段</string>
+    <string name="nzp_string_array_13">請立即接管</string>
+    <string name="nzp_string_array_14">安全停車中</string>
+    <string name="nzp_string_array_15">請接管車輛</string>
+    <string name="nzp_string_array_16">請立即接管車輛</string>
+    <string name="nzp_string_array_17">請手握方向盤</string>
+    <string name="nzp_string_array_18">請注視前方道路</string>
+    <string name="nzp_string_array_19">請操作轉向撥桿以轉線</string>
+    <string name="nzp_string_array_2">NZP 即將開啟...</string>
+    <string name="nzp_string_array_20">NZP自主領航運作中</string>
+    <string name="nzp_string_array_21">已降級為LCC Plu</string>
+    <string name="nzp_string_array_22">LCC 已退出</string>
+    <string name="nzp_string_array_23">LCC Plus 功能取消</string>
+    <string name="nzp_string_array_24">NZP 功能取消</string>
+    <string name="nzp_string_array_3">NZP已啟用</string>
+    <string name="nzp_string_array_4">LCC Plus運作中</string>
+    <string name="nzp_string_array_5">LCC 運作中</string>
+    <string name="nzp_string_array_6">加速中</string>
+    <string name="nzp_string_array_7">轉線進行中</string>
+    <string name="nzp_string_array_8">本次轉線已取消</string>
+    <string name="nzp_string_array_9">轉線已完成</string>
+    <string name="one_click_breath">一按透氣</string>
+    <string name="one_click_breath_on">一按關窗</string>
+    <string name="one_click_close_door">一按關門</string>
+    <string name="one_click_drift">一按漂移</string>
+    <string name="one_handed_tutorial_description">如要退出，請從螢幕底部向上滑動，或輕按應用程式上方的任何位置</string>
+    <string name="one_handed_tutorial_title">使用單手模式</string>
+    <string name="onlineradio_app_name">雲聽</string>
+    <string name="open_car3d">打開車輛模型</string>
+    <string name="open_card">打開卡片</string>
+    <string name="open_map">打開地圖</string>
+    <string name="open_window">一按開窗</string>
+    <string name="open_window_on">一按關窗</string>
+    <string name="oversea_online_media_app_name">線上多媒體</string>
+    <string name="parking_comfort">駐車舒享</string>
+    <string name="part_glass">隔斷玻璃下降</string>
+    <string name="part_glass_on">隔斷玻璃上升</string>
+    <string name="password_toggle_content_description">顯示密碼</string>
+    <string name="phone_charge">無線充電</string>
+    <string name="pip_close">關閉 PIP</string>
+    <string name="pip_fullscreen">全螢幕</string>
+    <string name="pip_menu_title">選單</string>
+    <string name="pip_notification_message">如果您不想「%s」使用此功能，請輕按以開啟設定，然後停用此功能。</string>
+    <string name="pip_notification_title">「%s」目前在畫中畫模式</string>
+    <string name="pip_notification_unknown_title">(沒有標題的節目)</string>
+    <string name="pip_pause">暫停</string>
+    <string name="pip_phone_close">關閉</string>
+    <string name="pip_phone_enter_split">進入分割螢幕</string>
+    <string name="pip_phone_expand">展開</string>
+    <string name="pip_phone_settings">設定</string>
+    <string name="pip_play">播放</string>
+    <string name="pip_skip_to_next">跳到下一個</string>
+    <string name="pip_skip_to_prev">跳到上一個</string>
+    <string name="position_light">位置燈</string>
+    <string name="prompt_drift_condition_battery_power">整車電量>=20%</string>
+    <string name="prompt_drift_condition_cancel">暫不漂移</string>
+    <string name="prompt_drift_condition_check_title">開啟條件</string>
+    <string name="prompt_drift_condition_confirm">開啟漂移</string>
+    <string name="prompt_drift_condition_drive_mode">駕駛模式切換為運動模式</string>
+    <string name="prompt_drift_condition_drive_system">驅動系統正常</string>
+    <string name="prompt_drift_condition_esc_system">ESC系統正常</string>
+    <string name="prompt_drift_condition_hot_manage_system">熱管理系統正常</string>
+    <string name="prompt_drift_condition_safety_belt">司機和乘客已繫安全帶</string>
+    <string name="prompt_drift_condition_speed">車速&lt;7km/h</string>
+    <string name="prompt_drift_condition_steering_system">轉向系統正常</string>
+    <string name="prompt_drift_condition_tire_pressure_system">胎壓系統正常</string>
+    <string name="prompt_drift_control_accept">同意</string>
+    <string name="prompt_drift_disable_tips">彈射起步開啟，漂移功能暫不可用</string>
+    <string name="prompt_drift_error_tips">"請確認以下條件滿足，再重試
+ 1. 電量 > 20%
+ 2. 車輛在D檔
+ 3. 司機和乘客都已繫安全帶
+ 4. 驅動系統、ESC系統、轉向系統、胎壓系統、熱管理系統正常
+ 5. 運動模式切換成功
+"</string>
+    <string name="prompt_drift_error_title">一按漂移無法開啟</string>
+    <string name="prompt_drift_i_know">我已了解</string>
+    <string name="prompt_drift_tips" formatted="false">"使用要求：
+ 1. 此功能必須在符合國家安全標準的賽車場或專業場地內應用，不得在公共道路和不符合安全標準場所使用。
+ 2. 使用一按漂移時，為確保安全建議使用原廠配套的漂移套裝配件。一按漂移的不當操作和過度操作造成的部件損壞均不在質保範圍內。
+ 3. 一按漂移需要比較專業的駕駛技能，所以要求有至少3年駕齡以上的駕駛員操作。錯誤操作和私自改裝車輛，在行駛中造成的損失由駕駛人自己承擔。
+ 
+ 使用說明：
+ 1. 此功能須進入「運動」駕駛模式，且車速&lt;7km/h，確認司機和乘客安全帶繫上才能啟用。安全帶全程不得移除，在中途停車移除任一安全帶，會自動退出漂移模式。
+ 2. 此功能必須在電量>20%SOC才能啟用，當SOC&lt;20%的時候會自動退出；
+ 3. 此功能必須在整車系統全部正常下才能啟用，如有不正常自動退出；
+ 
+ 一按漂移功能開啟後：
+ 1. E-pedal，Autohold功能預設關閉；
+ 2. 自動切換到「運動」模式；
+ 3. 關閉ESC功能；
+ 4. 能量回收等級低；
+ 5. 自動關閉「彈射起步」功能（若該功能已開啟）。
+ 
+ 以上資料是否完全理解並同意？"</string>
+    <string name="prompt_drift_title">一按漂移用戶須知</string>
+    <string name="prompt_guest_mode_tips">訪客模式開啟中該功能不可用，請關閉後嘗試</string>
+    <string name="prompt_launch_control_accept">同意並進入</string>
+    <string name="prompt_launch_control_content">"警告：彈射起步過程中，駕駛者有責任全程保持對車輛的控制，並確保車輛行駛和使用環境，請務必在確認安全的條件下操作。長時間連續彈射可能會造成整車驅動和制動系統性能下降，希望您能謹慎使用該功能。
+ 
+使用要求：
+1. 彈射起步功能需要在停車狀態，確認車門關閉、司機和乘客安全帶正常繫好 
+2. 保證車輛動力系統溫度正常，電量充足 
+3. 關閉智能駕駛相關功能，擺正方向盤，釋放電子手剎，車輛調整為D檔 
+ 
+使用說明：
+1. 打開「彈射起步」按鍵
+2. 先滿踩下剎車，後滿踩油門，待儀錶提醒launch mode active後，4秒內將制動踏板完全釋放，整車會以極大的加速度彈射起步。（若提示launch mode failed，請查看大螢幕提示和檢查車輛狀態） 
+
+以上資料是否完全理解並同意？"</string>
+    <string name="prompt_launch_control_cs1e_content">"警告：彈射起步過程中，駕駛員有責任全程保持對車輛的控制，並確保車輛行駛和使用環境，請務必在確認安全的條件下操作。長時間連續彈射可能會造成整車驅動和制動系統性能下降，希望您能謹慎使用該功能，為確保行駛安全，不使用時請主動關閉功能開關。
+使用要求： 
+1、彈射起步功能需要在停車狀態，確認車門關閉、司乘人員安全帶正常系上 
+2、保證車輛動力系統溫度正常，電量充足 
+3、關閉智能駕駛相關功能，擺正方向盤，釋放電子手剎，車輛調整為D檔 
+使用說明： 
+1、 打開“彈射起步”按鍵 
+2、 先滿踩下剎車，後滿踩油門，4秒內將制動踏板完全釋放，整車會以極大的加速度彈射起步。
+3、為保證最佳體驗，功能開啟後，加速能力將自動切換為“運動”。功能關閉後，會保留在運動模式。如切換其他加速能力及特殊路況駕駛模式會自動關閉“彈射起步”功能。 
+以上信息是否完全理解並同意？"</string>
+    <string name="prompt_launch_control_disable_tips">漂移功能開啟，彈射起步暫不可用</string>
+    <string name="prompt_launch_control_race_content">"警告：彈射起步過程中，駕駛者有責任全程保持對車輛的控制，並確保車輛行駛和使用環境，請務必在確認安全的條件下操作。長時間連續彈射可能會造成整車驅動和制動系統性能下降，希望您能謹慎使用該功能，為確保行駛安全，不使用時請主動關閉功能開關。
+
+使用要求：
+1. 彈射起步功能需要在停車狀態，確認車門關閉、司機和乘客安全帶正常繫好 
+2. 保證車輛動力系統溫度正常，電量充足 
+3. 關閉智能駕駛相關功能，擺正方向盤，釋放電子手剎，車輛調整為D檔 
+ 
+使用說明：
+1. 打開「彈射起步」按鍵 
+2. 先滿踩下剎車，後滿踩油門，4秒內將制動踏板完全釋放，整車會以極大的加速度彈射起步。
+3. 為保證最佳體驗，功能開啟後，駕駛模式將自動切換為「運動模式」。功能關閉後，會保留在運動模式。如切換其他駕駛模式會自動關閉「彈射起步」功能。（如「極氪賽道-車輛控制啟用可用」狀態下，則不會切換為「運動模式」。）
+4. 開啟後，「極氪賽道-漂移模式」暫時不可用。
+ 
+以上資料是否完全理解並同意？"</string>
+    <string name="prompt_launch_control_title">彈射起步用戶須知</string>
+    <string name="prompt_saving_mode_tips">超級省電模式開啟中該功能不可用，請關閉後嘗試</string>
+    <string name="prompt_trunk_open_confirm">再次點擊可開啟車尾箱</string>
+    <string name="qq_app_name">QQ音樂</string>
+    <string name="racing_mode">競速模式</string>
+    <string name="rear_charging_cap">後充電口蓋</string>
+    <string name="rear_fog_lamps">後霧燈</string>
+    <string name="recent_apps">最近使用</string>
+    <string name="remove">移除</string>
+    <string name="remove_mini_app">移除小程式</string>
+    <string name="reset_internet">網絡重啟</string>
+    <string name="restart_button_description">輕按即可重新開啟此應用程式並放大至全螢幕。</string>
+    <string name="right_opposite_door">右側對開門</string>
+    <string name="right_switch_disabled">右側開關停用</string>
+    <string name="right_window_lock">右後車窗童鎖</string>
+    <string name="scarp_cruised">陡坡緩降</string>
+    <string name="search_menu_title">搜尋</string>
+    <string name="see_back_row">寶寶照看</string>
+    <string name="see_more">查看更多</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stream_media">串流媒體</string>
+    <string name="switch_car3d">切換到3D車輛模型</string>
+    <string name="switch_map">切換到地圖</string>
+    <string name="tab_mini_app">小程式</string>
+    <string name="tab_zeekr_lab">極氪極拓</string>
+    <string name="take_picture">拍照</string>
+    <string name="task_tips_content">目前背景無運作中的應用程式</string>
+    <string name="through_lamp">貫穿燈</string>
+    <string name="tip_backrest_is_running">後排螢幕正在使用此App，若繼續打開將中斷對方使用</string>
+    <string name="tip_csd_is_running">前排螢幕正在使用此App，若繼續打開將中斷對方使用</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">bar</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">建議胎壓</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">半載 %1$s %n滿載 %2$s</string>
+    <string name="title_baby_mode">寶寶模式</string>
+    <string name="title_child_lock">兒童鎖守護</string>
+    <string name="title_child_protect">兒童守護</string>
+    <string name="to_aiqilisten">前往愛趣聽</string>
+    <string name="to_bilibili">前往Bilibili</string>
+    <string name="to_connect_bluetooth">前往連線</string>
+    <string name="to_media_name">前往</string>
+    <string name="to_netease">前往網易雲</string>
+    <string name="to_online_music">前往線上多媒體</string>
+    <string name="to_qq_music">前往QQ音樂</string>
+    <string name="trips_100_km_caps">100km</string>
+    <string name="trips_10_km_caps">10km</string>
+    <string name="trips_62_mile_caps">62mi</string>
+    <string name="trips_6_mile_caps">6mi</string>
+    <string name="trips_avg_energy">平均能耗</string>
+    <string name="trips_avg_ev">平均電耗</string>
+    <string name="trips_avg_oil">平均油耗</string>
+    <string name="trips_distance">行駛距離</string>
+    <string name="trips_distance_unit_km">km</string>
+    <string name="trips_distance_unit_mile">mi</string>
+    <string name="trips_elapsed_time">駕駛時間</string>
+    <string name="trunk">車尾箱</string>
+    <string name="udisk_connected">USB Music - My USB</string>
+    <string name="udisk_no_connect">USB音樂-未連線</string>
+    <string name="uninstall">解除安裝</string>
+    <string name="uninstall_application">解除安裝應用程式</string>
+    <string name="uninstall_failure">解除安裝失敗</string>
+    <string name="unlock_all">全部解鎖</string>
+    <string name="usb_app_name_1">USB音樂</string>
+    <string name="usb_app_name_2">USB</string>
+    <string name="uvi_levels_1">最弱</string>
+    <string name="uvi_levels_2">弱</string>
+    <string name="uvi_levels_3">中等</string>
+    <string name="uvi_levels_4">強</string>
+    <string name="uvi_levels_5">很強</string>
+    <string name="video_empty_text">"更多影視資源
+請前往應用查看"</string>
+    <string name="weather_altitude">海拔：</string>
+    <string name="weather_aqs">空氣質素：</string>
+    <string name="weather_card_title">天氣</string>
+    <string name="weather_failed">載入失敗</string>
+    <string name="weather_loading">載入中…</string>
+    <string name="weather_net_unavailable">網絡不佳，請稍後重試</string>
+    <string name="weather_refresh">重新整理</string>
+    <string name="weather_uvi">紫外線：</string>
+    <string name="widget_drive_score_h">h</string>
+    <string name="widget_drive_score_km">km</string>
+    <string name="widget_drive_score_min">min</string>
+</resources>

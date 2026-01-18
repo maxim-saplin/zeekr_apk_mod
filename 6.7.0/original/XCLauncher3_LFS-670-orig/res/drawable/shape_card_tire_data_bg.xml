@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/card_tyre_data_bg_color" />
+    <corners android:radius="@dimen/card_radius_bg_type_data" />
+    <stroke android:width="@dimen/card_radius_bg_stroke_width" android:color="@color/card_tyre_data_bg_stroke_color" />
+</shape>

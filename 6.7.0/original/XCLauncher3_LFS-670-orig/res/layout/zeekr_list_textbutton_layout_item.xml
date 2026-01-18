@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/zeekr_list_card_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.ZeekrComponent.ListCard" />
+    <com.zeekr.component.button.ZeekrButton android:id="@id/zeekr_list_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Text" android:layout_marginStart="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.ZeekrButton.GhostButton" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?colorPrimary" android:id="@id/zeekr_list_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="text" android:layout_marginStart="32.0dip" app:layout_constraintBottom_toBottomOf="@id/zeekr_list_button" app:layout_constraintStart_toEndOf="@id/zeekr_list_button" app:layout_constraintTop_toTopOf="@id/zeekr_list_button" />
+</merge>

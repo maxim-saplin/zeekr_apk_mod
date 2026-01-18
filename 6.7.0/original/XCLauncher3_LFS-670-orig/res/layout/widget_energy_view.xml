@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:background="@drawable/shape_widget_view_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/card_trip" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@android:color/transparent" app:cardElevation="0.0dip" app:cardMaxElevation="0.0dip">
+        <com.ecarx.mycar.widget.view.LoopPager android:id="@id/loop_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.cardview.widget.CardView>
+    <com.zeekr.component.carousel.ZeekrCarousel android:id="@id/indicator_view" android:layout_width="wrap_content" android:layout_height="@dimen/widget_indicator_h" android:layout_marginBottom="@dimen/widget_indicator_margin_bottom" app:carousel_styleMode="small" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

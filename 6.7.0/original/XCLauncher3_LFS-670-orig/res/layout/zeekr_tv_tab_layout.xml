@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="bottom" android:id="@id/zeekr_tv_tab_dicator" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.zeekr.component.tv.ZeekrTVRememberFocusLocationLinearContainerView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/zeekr_tv_tab_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

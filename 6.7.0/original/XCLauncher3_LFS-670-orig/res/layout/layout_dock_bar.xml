@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/dock_bar_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zeekr.dock.widgets.DesktopSwitchButton android:id="@id/switch_btn" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/dock_bar_switch_btn_height" style="?android:borderlessButtonStyle">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/switch_icon" android:layout_width="@dimen/dock_bar_switch_btn_size" android:layout_height="@dimen/dock_bar_switch_btn_size" android:src="@drawable/icon_map" />
+    </com.zeekr.dock.widgets.DesktopSwitchButton>
+    <LinearLayout android:orientation="vertical" android:id="@id/ctrlBtnGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dock_bar_ctrl_btn_group_top" android:layout_below="@id/switch_btn">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dock_bar_recycler_margin_top" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <com.zeekr.dock.widgets.DockEditButton android:id="@id/edit_btn" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/dock_bar_ctrl_btn_height" android:src="@drawable/icon_dock_edit" android:scaleType="center" android:stateListAnimator="@animator/dock_bar_item_anim_selector" />
+        <com.zeekr.dock.widgets.DockEditButton android:id="@id/card_btn" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/dock_bar_ctrl_btn_height" android:src="@drawable/icon_card_show" android:scaleType="center" android:stateListAnimator="@animator/dock_bar_item_anim_selector" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="?zui_tv_horizontal_linear_tab_item_height" android:paddingStart="@dimen/zeekr_tv_tab_item_padding_start_end" android:paddingEnd="@dimen/zeekr_tv_tab_item_padding_start_end" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="@color/zeekr_tv_horizontal_linear_tab_item_text_color_selector" android:gravity="center" android:id="@id/zeekr_tablayout_tv_item_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Label" android:singleLine="true" />
+    <View android:id="@id/zeekr_tablayout_tv_item_indication" android:background="@drawable/zeekr_tv_horizontal_linear_tab_item_indicator_bg_selector" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+</LinearLayout>

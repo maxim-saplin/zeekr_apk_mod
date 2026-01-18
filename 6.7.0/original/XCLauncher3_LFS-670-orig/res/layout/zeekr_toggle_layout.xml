@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zeekr.component.segement.ZeekrSegementHorizontal android:id="@id/zeekr_segement_horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.zeekr.component.segement.ZeekrSegementVertical android:id="@id/zeekr_segement_vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

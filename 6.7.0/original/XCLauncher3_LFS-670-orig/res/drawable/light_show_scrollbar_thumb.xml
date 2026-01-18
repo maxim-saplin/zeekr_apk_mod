@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/lightShow_dialog_scrollbar" />
+    <size android:height="@dimen/d_dimen_132" android:width="@dimen/d_dimen_8" />
+    <corners android:radius="@dimen/d_dimen_90" />
+</shape>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <size android:height="@dimen/media_lyric_switch_btn_height" android:width="@dimen/media_lyric_switch_btn_width" />
+            <corners android:radius="@dimen/media_common_radius" />
+            <solid android:color="@color/bg_button" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <size android:height="@dimen/media_lyric_switch_btn_height" android:width="@dimen/media_lyric_switch_btn_width" />
+            <corners android:radius="@dimen/media_common_radius" />
+            <solid android:color="@color/bg_button_pressed" />
+        </shape>
+    </item>
+</selector>

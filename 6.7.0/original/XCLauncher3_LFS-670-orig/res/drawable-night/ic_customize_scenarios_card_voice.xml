@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/customize_scenarios_card_voice_icon_height" android:width="@dimen/customize_scenarios_card_voice_icon_width" android:viewportWidth="40.0" android:viewportHeight="35.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h40v35h-40z" />
+        <path android:fillColor="#ff000000" android:pathData="M0,16C0,7.163 7.163,0 16,0H40V15C40,26.046 31.046,35 20,35H0V16Z" android:fillAlpha="0.6" />
+        <path android:fillColor="#ffb3b3b3" android:pathData="M15.335,12.167C15.335,9.589 17.424,7.5 20.001,7.5C22.579,7.5 24.668,9.589 24.668,12.167V17.5C24.668,20.077 22.579,22.167 20.001,22.167C17.424,22.167 15.335,20.077 15.335,17.5V12.167Z" />
+        <path android:fillColor="#ffb3b3b3" android:pathData="M20.668,24.803C24.041,24.499 26.754,21.912 27.253,18.599C27.307,18.235 27.056,17.896 26.692,17.841C26.328,17.786 25.989,18.037 25.934,18.401C25.5,21.287 23.008,23.5 20.001,23.5C16.994,23.5 14.502,21.287 14.068,18.401C14.013,18.037 13.674,17.786 13.31,17.841C12.946,17.896 12.695,18.235 12.75,18.599C13.248,21.912 15.962,24.5 19.335,24.803V26.833C19.335,27.201 19.633,27.5 20.001,27.5C20.37,27.5 20.668,27.201 20.668,26.833V24.803Z" />
+    </group>
+</vector>

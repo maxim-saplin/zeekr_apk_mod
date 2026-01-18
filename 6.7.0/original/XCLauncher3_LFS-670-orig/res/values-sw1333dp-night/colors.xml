@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_layout_card">#ff1d1f24</color>
+    <color name="color_primary">#ff85898c</color>
+    <color name="color_primary_10">#1a85898c</color>
+    <color name="color_primary_20">#3385898c</color>
+    <color name="color_primary_30">#4d85898c</color>
+    <color name="color_primary_32">#5285898c</color>
+    <color name="color_primary_4">#0a85898c</color>
+    <color name="color_primary_40">#6685898c</color>
+    <color name="color_primary_60">#9985898c</color>
+    <color name="color_primary_80">#cc85898c</color>
+    <color name="media_float_lyric_window_solid">#e6212227</color>
+    <color name="page_indicator_select">#ffa65b3a</color>
+    <color name="page_indicator_unselect">#cc282a2f</color>
+    <color name="recommend_x_play_button_color">#ffb3b3b3</color>
+    <color name="recommend_x_text_color">#ffb3b3b3</color>
+    <color name="source_window_bg">#ff1d1f24</color>
+    <color name="text_color_4">#ffb3b3b3</color>
+    <color name="zeekr_yellow">#ffa65b3a</color>
+    <color name="zeekr_yellow_60">#99a65b3a</color>
+</resources>

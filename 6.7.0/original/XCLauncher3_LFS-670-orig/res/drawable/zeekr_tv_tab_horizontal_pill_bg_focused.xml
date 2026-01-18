@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/zeekr_tv_focus_high_light_border_width" android:color="?colorTvFocusHighLightColor" />
+            <corners android:radius="@dimen/zeekr_tv_outer_radius" />
+        </shape>
+    </item>
+    <item android:left="@dimen/zeekr_tv_focus_high_light_border_padding" android:top="@dimen/zeekr_tv_focus_high_light_border_padding" android:right="@dimen/zeekr_tv_focus_high_light_border_padding" android:bottom="@dimen/zeekr_tv_focus_high_light_border_padding">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/zeekr_tv_inner_radius" />
+            <solid android:color="?colorTVFocusTabHighLightColor" />
+        </shape>
+    </item>
+</layer-list>

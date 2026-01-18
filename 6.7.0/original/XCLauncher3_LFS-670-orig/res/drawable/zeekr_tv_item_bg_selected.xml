@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="100" android:exitFadeDuration="100"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_selected="false" android:drawable="@drawable/zeekr_focused_high_light_border_10_bg" />
+    <item android:drawable="@drawable/zeekr_tv_tab_horizontal_pill_bg_normal" />
+</selector>

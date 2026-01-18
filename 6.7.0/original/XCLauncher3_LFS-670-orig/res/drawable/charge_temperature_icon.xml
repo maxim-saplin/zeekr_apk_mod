@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/charge_status_icon" android:width="@dimen/charge_status_icon" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/charge_status_temperature_icon" android:pathData="M12,12m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    <path android:fillColor="@color/charge_status_icon_inside" android:pathData="M13.284,10.795V4.2L7.199,13.974L10.93,13.973V20.4L17.023,10.796L13.284,10.795Z" />
+</vector>

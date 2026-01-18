@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/zeekr_ly_stepper_value_sub" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/zeekr_ic_stepper_sub" android:layout_weight="1.0" android:defaultFocusHighlightEnabled="false" />
+    <com.zeekr.component.textview.ZeekrInternalTextView android:gravity="center" android:id="@id/zeekr_ly_stepper_value" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="99" android:layout_weight="3.0" android:layout_marginStart="@dimen/zeekr_stepper_padding_s_e" android:layout_marginEnd="@dimen/zeekr_stepper_padding_s_e" android:defaultFocusHighlightEnabled="false" app:zeekrUIEnableAdapterLineHeight="false" />
+    <ImageButton android:id="@id/zeekr_ly_stepper_value_add" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/zeekr_ic_stepper_add" android:layout_weight="1.0" android:defaultFocusHighlightEnabled="false" />
+</merge>

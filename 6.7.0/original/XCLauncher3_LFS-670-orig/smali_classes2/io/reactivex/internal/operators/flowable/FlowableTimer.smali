@@ -1,0 +1,48 @@
+.class public final Lio/reactivex/internal/operators/flowable/FlowableTimer;
+.super Lio/reactivex/Flowable;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lio/reactivex/internal/operators/flowable/FlowableTimer$TimerSubscriber;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lio/reactivex/Flowable<",
+        "Ljava/lang/Long;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final h(Lorg/reactivestreams/Subscriber;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/reactivestreams/Subscriber<",
+            "-",
+            "Ljava/lang/Long;",
+            ">;)V"
+        }
+    .end annotation
+
+    new-instance v0, Lio/reactivex/internal/operators/flowable/FlowableTimer$TimerSubscriber;
+
+    move-object v1, p1
+
+    check-cast v1, Lio/reactivex/FlowableSubscriber;
+
+    invoke-direct {v0, v1}, Lio/reactivex/internal/operators/flowable/FlowableTimer$TimerSubscriber;-><init>(Lio/reactivex/FlowableSubscriber;)V
+
+    invoke-interface {p1, v0}, Lorg/reactivestreams/Subscriber;->s(Lorg/reactivestreams/Subscription;)V
+
+    const/4 p1, 0x0
+
+    throw p1
+.end method

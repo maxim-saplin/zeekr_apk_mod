@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+    <string name="abc_action_bar_up_description">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Selecionar um app</string>
+    <string name="abc_capital_off">DESATIVADO</string>
+    <string name="abc_capital_on">ATIVADO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">espaço</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Pesquisar…</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+    <string name="abc_searchview_description_search">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+    <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string name="accessibility_action_divider_bottom_full">Parte inferior em tela cheia</string>
+    <string name="accessibility_action_divider_left_30">Esquerda a 30%</string>
+    <string name="accessibility_action_divider_left_50">Esquerda a 50%</string>
+    <string name="accessibility_action_divider_left_70">Esquerda a 70%</string>
+    <string name="accessibility_action_divider_left_full">Lado esquerdo em tela cheia</string>
+    <string name="accessibility_action_divider_right_full">Lado direito em tela cheia</string>
+    <string name="accessibility_action_divider_top_30">Parte superior a 30%</string>
+    <string name="accessibility_action_divider_top_50">Parte superior a 50%</string>
+    <string name="accessibility_action_divider_top_70">Parte superior a 70%</string>
+    <string name="accessibility_action_divider_top_full">Parte superior em tela cheia</string>
+    <string name="accessibility_action_pip_resize">Redimensionar</string>
+    <string name="accessibility_action_pip_stash">Ocultar</string>
+    <string name="accessibility_action_pip_unstash">Exibir</string>
+    <string name="accessibility_action_start_one_handed">Iniciar o modo para uma mão</string>
+    <string name="accessibility_action_stop_one_handed">Sair do modo para uma mão</string>
+    <string name="accessibility_bubble_dismissed">Balão dispensado.</string>
+    <string name="accessibility_divider">Divisor de tela</string>
+    <string name="active_widget">Ativar</string>
+    <string name="activity_launch_on_secondary_display_failed_text">O app não é compatível com a inicialização em telas secundárias.</string>
+    <string name="adjust_hud">Ajuste do HUD</string>
+    <string name="adjust_rear_mirror">Ajustar os espelhos</string>
+    <string name="apa">Assistente de estacionamento automático</string>
+    <string name="app_center">Centro de aplicativos</string>
+    <string name="app_is_installing">Instalando aplicativo. Espere...</string>
+    <string name="app_not_install">Certifique-se de que o aplicativo de proteção de criança esteja instalado.</string>
+    <string name="app_uninstall_cancel">Cancelar</string>
+    <string name="apps_all_title">Mais aplicativos</string>
+    <string name="apps_card_cancel_start_app">Cancel</string>
+    <string name="apps_card_confirm_start_app">Confirm to open</string>
+    <string name="apps_card_tip_backrest_is_running">The back screen is using this App, which will be interrupted If you continue to open</string>
+    <string name="apps_card_title">Favoritos</string>
+    <string name="apps_edit_at_most">É possível adicionar até 4 aplicativos. Exclua alguns e tente novamente.</string>
+    <string name="apps_edit_cancel">Cancelar</string>
+    <string name="apps_edit_finish">Feito</string>
+    <string name="apps_edit_group_custom_label">Personalizado</string>
+    <string name="apps_edit_group_recent_label">Recentes</string>
+    <string name="apps_edit_tips">Toque e segure, depois arraste os ícones dos aplicativos para o cartão Aplicativos usados com frequência. Você também pode substituir ou ordenar ícones de aplicativos existentes enquanto arrasta.</string>
+    <string name="apps_mini_title">Miniprograma</string>
+    <string name="apps_zeekr_lab_title">Z-emulator</string>
+    <string name="aqi_levels_1">Excelente</string>
+    <string name="aqi_levels_2">Bom</string>
+    <string name="aqi_levels_3">Poluição leve</string>
+    <string name="aqi_levels_4">Poluição moderada</string>
+    <string name="aqi_levels_5">Poluição pesada</string>
+    <string name="aqi_levels_6">Poluição grave</string>
+    <string name="aqi_levels_7">Extremamente crítico</string>
+    <string name="atmosphere_light">Luzes ambiente</string>
+    <string name="auto_hold">Auto Hold</string>
+    <string name="baby_into_car_widget">Entrada de criança</string>
+    <string name="baby_into_car_widget_active_dsc">Prestes a ativar o modo de entrada para crianças, onde a voz, o som, a segurança, o A/C traseiro, as janelas e o visor traseiro serão ajustados automaticamente para o modo predefinido.</string>
+    <string name="baby_sleep_well_widget">Sonho de criança</string>
+    <string name="baby_sleep_well_widget_active_dsc">Prestes a ativar o modo sonho de criança, onde a voz, o som, a segurança, o A/C traseiro, as janelas e o visor traseiro serão ajustados automaticamente para o modo predefinido.</string>
+    <string name="back_row_cinema">Modo cinema na fileira traseira</string>
+    <string name="back_row_meeting">Modo de reunião traseiro</string>
+    <string name="back_row_rest">Modo de repouso traseiro</string>
+    <string name="bottomsheet_action_collapse">Fechar a página inferior</string>
+    <string name="bottomsheet_action_expand">Abrir a página inferior</string>
+    <string name="bottomsheet_action_expand_halfway">Expandir até a metade</string>
+    <string name="bottomsheet_drag_handle_clicked">Alça de arrastar tocada duas vezes</string>
+    <string name="bottomsheet_drag_handle_content_description">Alça de arrastar</string>
+    <string name="bubble_accessibility_action_add_back">Devolver à pilha</string>
+    <string name="bubble_accessibility_action_move_bottom_left">Mover para canto inferior esquerdo</string>
+    <string name="bubble_accessibility_action_move_bottom_right">Mover para canto inferior direito</string>
+    <string name="bubble_accessibility_action_move_top_left">Mover para canto superior esquerdo</string>
+    <string name="bubble_accessibility_action_move_top_right">Mover para canto superior direito</string>
+    <string name="bubble_content_description_single">%1$s de %2$s</string>
+    <string name="bubble_content_description_stack">%1$s de %2$s mais %3$d</string>
+    <string name="bubble_dismiss_text">Dispensar balão</string>
+    <string name="bubble_overflow_button_content_description">Menu flutuante</string>
+    <string name="bubble_overflow_empty_subtitle">Os balões recentes e dispensados aparecerão aqui</string>
+    <string name="bubble_overflow_empty_title">Nenhum balão recente</string>
+    <string name="bubbles_app_settings">Configurações de %1$s</string>
+    <string name="bubbles_dont_bubble_conversation">Não criar balões de conversa</string>
+    <string name="bubbles_settings_button_description">Configurações de balões do %1$s</string>
+    <string name="bubbles_user_education_description">Novas conversas aparecerão como ícones flutuantes, ou balões. Toque para abrir o balão. Arraste para movê-lo.</string>
+    <string name="bubbles_user_education_got_it">Ok</string>
+    <string name="bubbles_user_education_manage">Toque em \"Gerenciar\" para desativar os balões desse app</string>
+    <string name="bubbles_user_education_manage_title">Controle os balões a qualquer momento</string>
+    <string name="bubbles_user_education_title">Converse usando balões</string>
+    <string name="business_voice_disabled">Desativar voz executiva</string>
+    <string name="call_notification_answer_action">Atender</string>
+    <string name="call_notification_answer_video_action">Vídeo</string>
+    <string name="call_notification_decline_action">Recusar</string>
+    <string name="call_notification_hang_up_action">Desligar</string>
+    <string name="call_notification_incoming_text">Chamada recebida</string>
+    <string name="call_notification_ongoing_text">Chamada em andamento</string>
+    <string name="call_notification_screening_text">Filtrando uma ligação recebida</string>
+    <string name="cancel_widget">Cancelar</string>
+    <string name="card_energy_chart_desc">Tendência recente de consumo de energia em viagens</string>
+    <string name="card_full_title">Condição do veículo</string>
+    <string name="card_kwh_mile_unit">kWh/100 mi</string>
+    <string name="card_kwh_unit">kWh/100 km</string>
+    <string name="card_trip_1">Viagem 1</string>
+    <string name="card_trip_2">Viagem 2</string>
+    <string name="central_lock">Travamento central</string>
+    <string name="character_counter_content_description">Caracteres inseridos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Limite de %2$d caracteres excedido em %1$d</string>
+    <string name="charge_charge_error_big_tips">Falha no carregamento, verifique imediatamente!</string>
+    <string name="charge_charging_done_tips">O carregamento parou, lembre-se de desconectar</string>
+    <string name="charge_charging_full">Priorizar o carregamento completo</string>
+    <string name="charge_charging_limit">Carregar até o limite</string>
+    <string name="charge_connect">Conectado</string>
+    <string name="charge_connect_tips">Aguarde</string>
+    <string name="charge_daily">Diário</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">Parar V2L</string>
+    <string name="charge_estimate">&lt;span color=#9985898C font-size=28px>Tempo restante&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span > &lt;span color=#85898C font-size=80px>%2$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_24">&lt;span color=#9985898C font-size=28px>Tempo restante&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>>24&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_24_day">&lt;span color=#99383A3D font-size=28px>Tempo restante&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>>24&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_day">" &lt;span color=#99383A3D font-size=28px>Tempo restante&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span > &lt;span color=#383A3D font-size=80px>%2$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_estimate_no_hour">&lt;span color=#9985898C font-size=28px>Tempo restante&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_no_hour_day">" &lt;span color=#99383A3D font-size=28px>Tempo restante&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_fully">Totalmente carregado em breve</string>
+    <string name="charge_next_day">No dia seguinte</string>
+    <string name="charge_no_plug">Não conectado</string>
+    <string name="charge_plug_connect_ac">Conectado (CA)</string>
+    <string name="charge_plug_connect_dc">Conectado (CC)</string>
+    <string name="charge_plug_connect_fault">Falha de conexão</string>
+    <string name="charge_plug_connect_fault_tips">Falha de conexão, verifique imediatamente!</string>
+    <string name="charge_plug_connect_tips">Conectado, mas não carregando</string>
+    <string name="charge_plug_connect_waiting">Não totalmente conectado</string>
+    <string name="charge_plug_no_active">Ponto de carregamento não ativado</string>
+    <string name="charge_plug_no_double">Não conecte ambos os carregadores CA e CC simultaneamente</string>
+    <string name="charge_plug_no_double_tips">Anomalia de conexão. Verifique imediatamente!</string>
+    <string name="charge_pre_time_title">Agendar carregamento</string>
+    <string name="charge_start">Iniciar carregamento</string>
+    <string name="charge_status_battery_fault">Falha na bateria de energia</string>
+    <string name="charge_status_booking">Programando</string>
+    <string name="charge_status_boosting">Carregamento rápido</string>
+    <string name="charge_status_charging">Carregando</string>
+    <string name="charge_status_charging_done">Carregamento interrompido</string>
+    <string name="charge_status_charging_fault">Falha de carregamento</string>
+    <string name="charge_status_discharging">V2L em andamento</string>
+    <string name="charge_status_discharging_done">V2L terminou</string>
+    <string name="charge_status_discharging_fault">Falha V2L</string>
+    <string name="charge_status_preheating">Regulando a temperatura da bateria…</string>
+    <string name="charge_status_super_fast_charging">Carregamento Z</string>
+    <string name="charge_stop">Parar carregamento</string>
+    <string name="charge_temperature_tips">Ajuste de temperatura. Aguarde um momento…</string>
+    <string name="charging_cap">Tampa de carregamento</string>
+    <string name="child_lock_left">Bloqueio para crianças esquerdo</string>
+    <string name="child_lock_right">Bloqueio para crianças direito</string>
+    <string name="clear_text_end_icon_content_description">Limpar texto</string>
+    <string name="climate_light">Luzes para todas as condições climáticas</string>
+    <string name="close_all">Desligar tudo</string>
+    <string name="close_window">Fechar janelas</string>
+    <string name="confirm">OK</string>
+    <string name="confirm_remove">Desinstalar %s?</string>
+    <string name="confirm_start_app">Abrir</string>
+    <string name="confirm_uninstall">Desinstalar %s?</string>
+    <string name="copilot_massage">Massagem para o passageiro dianteiro</string>
+    <string name="copilot_rest">Descanso do passageiro dianteiro</string>
+    <string name="day_friday">Sexta-feira</string>
+    <string name="day_monday">Segunda-feira</string>
+    <string name="day_saturday">Sábado</string>
+    <string name="day_sunday">Domingo</string>
+    <string name="day_thursday">Quinta-feira</string>
+    <string name="day_tuesday">Terça-feira</string>
+    <string name="day_wednesday">Quarta-feira</string>
+    <string name="dock_forced_resizable">É possível que o app não funcione com a tela dividida.</string>
+    <string name="dock_non_resizeble_failed_to_dock_text">O app não é compatível com a divisão de tela.</string>
+    <string name="done">Feito</string>
+    <string name="drag_tip">Toque e segure para arrastar o recurso para a barra de controle esquerda. Você também pode substituir ou ordenar recursos existentes enquanto arrasta</string>
+    <string name="drag_tip_right">Toque e segure para arrastar o recurso para a barra de controle direita. Você também pode substituir ou ordenar recursos existentes enquanto arrasta.</string>
+    <string name="driver_massage">Massagem para o motorista</string>
+    <string name="driver_rest">Descanso do motorista</string>
+    <string name="edit_at_most">É possível adicionar até 5 recursos. Exclua alguns e tente novamente.</string>
+    <string name="error_icon_content_description">Erro</string>
+    <string name="exclusive_child_lock">Bloq. exclus. crian.</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menu suspenso</string>
+    <string name="fold_rear_mirror">Dobrar espelhos laterais</string>
+    <string name="forced_resizable_secondary_display">É possível que o app não funcione em uma tela secundária.</string>
+    <string name="front_charging_cap">Tampa de carregamento frontal</string>
+    <string name="glove_box">Porta-luvas</string>
+    <string name="gps_permission_denied">Sem permissão para acessar a localização</string>
+    <string name="gps_permission_setting">Configurações</string>
+    <string name="hood">Front hood</string>
+    <string name="hud">Interruptor HUD</string>
+    <string name="icon_content_description">Ícone de caixa de diálogo</string>
+    <string name="image_control">Controle de espelho</string>
+    <string name="image_control_view_pager_txt">Controle do visor traseiro</string>
+    <string name="item_view_role_description">Guia</string>
+    <string name="launch_control">Controle de largada</string>
+    <string name="left_dock_cancel">Cancelar</string>
+    <string name="left_dock_close">Fechar</string>
+    <string name="left_dock_edit">Editar</string>
+    <string name="left_opposite_door">Portas esquerdas</string>
+    <string name="left_switch_disabled">Interruptor esquerdo desativado</string>
+    <string name="left_window_lock">Tranca para crianças na janela traseira esquerda</string>
+    <string name="lightShow_alert_message">For your driving safety, do not use light signal while parking</string>
+    <string name="lightShow_card_title">Card_Signature</string>
+    <string name="lightShow_title">Say Hello</string>
+    <string name="light_show">Say Hello</string>
+    <string name="lock_all">Bloquear tudo</string>
+    <string name="low_speed_alert">Som de aviso de pedestre</string>
+    <string name="manage_bubbles_text">Gerenciar</string>
+    <string name="mask_card_energy_title"> Consumo energ.</string>
+    <string name="mask_card_tire_title"> Pressão dos pneus</string>
+    <string name="mask_card_trip_title"> Viagem</string>
+    <string name="material_clock_toggle_content_description">Selecionar AM ou PM</string>
+    <string name="material_hour_24h_suffix">%1$s horas</string>
+    <string name="material_hour_selection">Selecionar horário</string>
+    <string name="material_hour_suffix">%1$s em ponto</string>
+    <string name="material_minute_selection">Selecione os minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Alterne para o modo de relógio para informar o horário.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Selecionar horário</string>
+    <string name="material_timepicker_text_input_mode_description">Alterne para o modo de entrada de texto para informar o horário.</string>
+    <string name="memory_using">Uso de memória</string>
+    <string name="mtrl_badge_numberless_content_description">Nova notificação</string>
+    <string name="mtrl_chip_close_icon_content_description">Remover %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Mais de %1$d novas notificações</string>
+    <string name="mtrl_picker_a11y_next_month">Alterar para o próximo mês</string>
+    <string name="mtrl_picker_a11y_prev_month">Alterar para o mês anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Seleção atual: %1$s</string>
+    <string name="mtrl_picker_cancel">Cancelar</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecionar data</string>
+    <string name="mtrl_picker_date_header_unselected">Data selecionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Coluna de dias: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato inválido.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar %1$s</string>
+    <string name="mtrl_picker_invalid_range">Intervalo inválido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir para o ano %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fora do intervalo: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data de início – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Data de término</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecionar intervalo</string>
+    <string name="mtrl_picker_range_header_unselected">Data de início – Data de término</string>
+    <string name="mtrl_picker_save">Salvar</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data de término</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data de início</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Alternar para o modo de entrada da agenda</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toque para alternar para a seleção de um dia</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Alternar para o modo de entrada de texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toque para alternar para a seleção de um ano</string>
+    <string name="mtrl_timepicker_cancel">Cancelar</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="no_recent_apps">Nenhum aplicativo usado recentemente</string>
+    <string name="notification_bubble_title">Bolha</string>
+    <string name="notification_channel_tv_pip">Picture-in-picture</string>
+    <string name="one_click_breath">Ventilação de ar</string>
+    <string name="one_click_breath_on">Fechar janelas</string>
+    <string name="one_click_close_door">Fechar todas as portas</string>
+    <string name="one_click_drift">Derrapagem</string>
+    <string name="one_handed_tutorial_description">Para sair, deslize de baixo para cima na tela ou toque em qualquer lugar acima do app</string>
+    <string name="one_handed_tutorial_title">Como usar o modo para uma mão</string>
+    <string name="open_window">Abrir todas as janelas</string>
+    <string name="open_window_on">Fechar janelas</string>
+    <string name="parking_comfort">Conforto de estacionamento</string>
+    <string name="part_glass">Partition glass lowering</string>
+    <string name="part_glass_on">Partition glass rising</string>
+    <string name="password_toggle_content_description">Exibir senha</string>
+    <string name="phone_charge">Carregamento sem fio do celular</string>
+    <string name="pip_close">Fechar PIP</string>
+    <string name="pip_fullscreen">Tela cheia</string>
+    <string name="pip_menu_title">Menu</string>
+    <string name="pip_notification_message">Se você não quer que o app %s use este recurso, toque para abrir as configurações e desativá-lo.</string>
+    <string name="pip_notification_title">%s está em picture-in-picture</string>
+    <string name="pip_notification_unknown_title">(programa sem título)</string>
+    <string name="pip_pause">Pausar</string>
+    <string name="pip_phone_close">Fechar</string>
+    <string name="pip_phone_enter_split">Dividir tela</string>
+    <string name="pip_phone_expand">Abrir</string>
+    <string name="pip_phone_settings">Configurações</string>
+    <string name="pip_play">Reproduzir</string>
+    <string name="pip_skip_to_next">Pular para a próxima</string>
+    <string name="pip_skip_to_prev">Pular para a anterior</string>
+    <string name="position_light">Luzes de posição</string>
+    <string name="prompt_drift_condition_battery_power">Vehicle battery >= 20%</string>
+    <string name="prompt_drift_condition_cancel">Not now</string>
+    <string name="prompt_drift_condition_check_title">Enabling conditions</string>
+    <string name="prompt_drift_condition_confirm">Enable Drift</string>
+    <string name="prompt_drift_condition_drive_mode">Switch drive mode to sport</string>
+    <string name="prompt_drift_condition_drive_system">Drive system normal</string>
+    <string name="prompt_drift_condition_esc_system">ESC system normal</string>
+    <string name="prompt_drift_condition_hot_manage_system">Thermal management system normal</string>
+    <string name="prompt_drift_condition_safety_belt">Driver and passenger seat belts are fastened</string>
+    <string name="prompt_drift_condition_speed">Speed &lt; 7 km/h</string>
+    <string name="prompt_drift_condition_steering_system">Steering system normal</string>
+    <string name="prompt_drift_condition_tire_pressure_system">Tire pressure system is normal</string>
+    <string name="prompt_drift_control_accept">Agree</string>
+    <string name="prompt_drift_disable_tips">Controle de largada ativado, derrapagem temporariamente indisponível</string>
+    <string name="prompt_drift_error_tips">"Certifique-se de que as seguintes condições sejam atendidas e tente novamente
+ 1. Bateria > 20%
+ 2. Veículo em marcha D
+ 3. Todos os ocupantes estão com cinto de segurança
+ 4. Sistema de condução, sistema ESC, sistema de direção, sistema de pressão dos pneus e sistema de gestão térmica (TMS) estão normais
+ 5. A troca do modo esportivo foi bem-sucedida
+"</string>
+    <string name="prompt_drift_error_title">Falha ao ativar derrapagem</string>
+    <string name="prompt_drift_i_know">Entendi</string>
+    <string name="prompt_drift_tips" formatted="false">"Observações:
+ 1. Esse recurso só pode ser ativados em pistas de corrida ou locais profissionais que estejam em conformidade com os padrões nacionais de segurança. Não o ative em vias públicas ou locais inseguros.
+ 2. Ao habilitar o derrapagem, é recomendável usar o kit de derrapagem original para garantir a segurança. Quaisquer danos aos componentes devido ao uso indevido e uso excessivo do derrapagem não são cobertos pela garantia.
+ 3. O derrapagem requer habilidades avançadas de direção. Os motoristas precisam ter mais de 3 anos de experiência de condução. O motorista assumirá total responsabilidade por quaisquer danos causados por operação inadequada ou modificações não autorizadas.
+ 
+ Instruções:
+ 1. Esse recurso requer que o modo de condução esteja definido como “Esportivo” e que a velocidade do veículo seja inferior a &lt;7 km/h. Certifique-se de que todos os ocupantes estejam com o cinto de segurança antes da ativação. O cinto de segurança deve ser usado o tempo todo. Se o cinto de segurança não estiver sendo usado durante uma parada, o modo de derrapagem sairá automaticamente.
+ 2. Esse recurso só pode ser ativado se a bateria tiver > 20% de SOC. Se o SOC &lt;for menor que 20%, ele sairá automaticamente;
+ 3. Esse recurso só pode ser ativado quando todo o sistema do veículo estiver normal. Caso haja alguma anormalidade, ele sairá automaticamente;
+ 
+ Após o recurso de derrapagem de um toque ser ativado:
+ 1. Os recursos E-pedal e Autohold são desativados por padrão;
+ 2. Muda automaticamente para o modo “Esportivo”;
+ 3. O recurso ESC é desativado;
+ 4. Baixo nível de frenagem regenerativa;
+ 5. O recurso “Controle de largada” é desativado automaticamente (se esse recurso estava ativado).
+ 
+ Você entende e concorda integralmente com o conteúdo acima?"</string>
+    <string name="prompt_drift_tips_cs1e" formatted="false">" Notes:
+ 1. Drift is only intended for use on racetracks or professional venues that comply with national safety standards. Do not activate it on public roads or unsafe places.
+ 2. When enabling drift, it is recommended to use the original drifting kit to ensure safety. Any damage to components due to improper use or overuse of drift is not covered by the warranty.
+ 3. Drift should be operated by a veteran with professional driving skills and at least 3 years of driving experience. The driver shall assume full responsibility for any damage incurred due to improper operation or unauthorized modifications.
+ 
+ Instructions:
+ 1. To enable drift, enter Sport drive mode with a speed &lt; 7 km/h, and ensure both the driver and passengers have securely fastened seat belts. Ensure that all seatbelts are fastened throughout the trip. Otherwise, the feature is disabled automatically.
+ 2. Drift can only be enabled when the battery SOC is no less than 20%. It automatically disables when the SOC is &lt; 20%.
+ 3. Drift can only be enabled when the entire car system works properly. In case of any faults, Drift is disabled.
+ 
+ After drift is enabled:
+ 1. Stop mode is switched to Creep;
+
+        2. Autohold is disabled by default;\\n
+        3. The drive mode automatically switches to Sport;
+
+        4. ESC is disabled;
+
+        5. The regenerative braking level is switched to Low;
+
+        6. Some driving assist and parking assist features will be disabled or restricted. Refer to User Manual for details;
+
+        
+
+        Do you fully understand and agree to the above content?
+    "</string>
+    <string name="prompt_drift_title">Aviso ao usuário do modo de derrapagem</string>
+    <string name="prompt_guest_mode_tips">Recurso indisponível no modo convidado. Desative o modo convidado e tente novamente</string>
+    <string name="prompt_launch_control_accept">Concordar e prosseguir</string>
+    <string name="prompt_launch_control_content">"Aviso: Durante o controle de largada, você deve manter o controle do veículo e garantir que o ambiente de direção e uso seja seguro. Opere somente em condições seguras. O uso contínuo do controle de largada pode resultar em redução no desempenho do sistema de direção e frenagem do veículo. Tenha cuidado ao usar esse recurso. Para garantir a segurança ao dirigir, desative o recurso quando não estiver em uso.
+ 
+Observações:
+1. Para ativar o controle de largada, mude para a posição PARK, feche todas as portas e certifique-se de que tanto o motorista quanto os passageiros tenham os cintos de segurança devidamente afivelados.
+ 2. Certifique-se de que o trem de força do veículo esteja na temperatura normal e que a bateria esteja suficientemente carregada.
+3. Desative os recursos de condução inteligente, centralize o volante, solte o freio de estacionamento eletrônico e mude para DRIVE. 
+ 
+Instruções:
+1. Toque no botão Controle de largada.
+2. Pressione totalmente o pedal de freio primeiro, pressione totalmente o pedal do acelerador e solte o pedal de freio completamente dentro de 4 s após a exibição do motorista mostrar Controle de largada ativado. Então o veículo será lançado com alta aceleração. (Se o painel mostrar Falha ao ativar o controle de largada, verifique o status do veículo seguindo as instruções na tela central.)
+ 
+Você entende e concorda integralmente com o conteúdo acima?"</string>
+    <string name="prompt_launch_control_cs1e_content">"Warning: During launch control, the driver is responsible for maintaining control of the vehicle at all times and ensuring the driving and usage environment is safe. Please only operate under safe conditions. Continuous use of launch control may result in a reduction in the vehicle's drive and braking system performance. Please exercise caution when using this feature. To ensure driving safety, please disable the feature when it is not in use.
+Notes: 
+1. Launch control shall be enabled while the vehicle is parked. Please ensure the doors are closed and the driver and passengers have their seat belts fastened properly. 
+2. Ensure the vehicle's power system is at normal temperature and the battery is sufficiently charged. 
+3. Disable smart driving features, center the steering wheel, release the electronic parking brake, and shift to Drive.
+Instructions:
+1. Tap the Launch control button. 
+2. Fully press the brake pedal first, then fully press the accelerator pedal and release the brake pedal completely within 4 seconds. The vehicle will launch with great acceleration.
+3. To offer an optimal experience, the drive mode will automatically switch to Sport after the feature is enabled.
+Do you fully understand and agree to the above content?"</string>
+    <string name="prompt_launch_control_disable_tips">Derrapagem ativada, controle de largada temporariamente indisponível</string>
+    <string name="prompt_launch_control_race_content">"Aviso: Durante o controle de largada, você deve manter o controle do veículo e garantir que o ambiente de direção e uso seja seguro. Opere somente em condições seguras. O uso contínuo do controle de largada pode resultar em redução no desempenho do sistema de direção e frenagem do veículo. Tenha cuidado ao usar esse recurso. Para garantir a segurança ao dirigir, desative o recurso quando não estiver em uso.
+ 
+Observações:
+1. Para ativar o controle de largada, mude para a posição PARK, feche todas as portas e certifique-se de que tanto o motorista quanto os passageiros tenham os cintos de segurança devidamente afivelados.
+ 2. Certifique-se de que o trem de força do veículo esteja na temperatura normal e que a bateria esteja suficientemente carregada.
+3. Desative os recursos de condução inteligente, centralize o volante, solte o freio de estacionamento eletrônico e mude para DRIVE. 
+ 
+Instruções:
+1. Toque no botão Controle de largada.
+2. Pressione totalmente o pedal do freio primeiro, depois pressione totalmente o pedal do acelerador e solte o pedal do freio completamente em 4s. Então o veículo será lançado com grande aceleração.
+3. Para oferecer uma experiência ideal, o modo de condução mudará automaticamente para Esporte depois que o recurso for ativado. Após o recurso ser desabilitado, o modo de condução permanecerá Esporte. Mudar para outro modo de condução desabilitará automaticamente o controle de largada. Entretanto, quando Pista Zeekr > Controle do veículo estiver ativado, o modo de condução não mudará para Esporte.
+4. Depois que o controle de largada estiver ativado, Pista Zeekr > Modo de derrapagem não estará disponível. 
+ 
+Você entende e concorda integralmente com o conteúdo acima?"</string>
+    <string name="prompt_launch_control_title">Aviso ao usuário do controle de largada</string>
+    <string name="prompt_saving_mode_tips">Recurso indisponível no modo Super economia de energia. Desabilite esse modo e tente novamente.</string>
+    <string name="prompt_trunk_open_confirm">Toque novamente para abrir o porta-malas</string>
+    <string name="racing_mode">Modo de corrida</string>
+    <string name="rear_charging_cap">Tampa de carregamento traseira</string>
+    <string name="rear_fog_lamps">Luz de neblina traseira</string>
+    <string name="recent_apps">Recentes</string>
+    <string name="remove">Remover</string>
+    <string name="remove_mini_app">Remover miniprograma</string>
+    <string name="reset_internet">Reinício da rede</string>
+    <string name="restart_button_description">Toque para reiniciar o app e usar tela cheia.</string>
+    <string name="right_opposite_door">Portas direitas</string>
+    <string name="right_switch_disabled">Interruptor direito desativado</string>
+    <string name="right_window_lock">Tranca para crianças na janela traseira direita</string>
+    <string name="scarp_cruised">Controle de descida de ladeira</string>
+    <string name="search_menu_title">Pesquisar</string>
+    <string name="see_back_row">Vigilância de criança</string>
+    <string name="see_more">Ver mais</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stream_media">Espelho retrovisor digital</string>
+    <string name="tab_mini_app">Miniprograma</string>
+    <string name="tab_zeekr_lab">Z-emulator</string>
+    <string name="take_picture">Tirar fotos</string>
+    <string name="take_video">Video</string>
+    <string name="task_tips_content">Nenhum aplicativo em execução em segundo plano</string>
+    <string name="through_lamp">Lanterna traseira envolvente</string>
+    <string name="tip_backrest_is_running">Este aplicativo está sendo usado atualmente na tela traseira. Abri-lo aqui interrompe a sessão da tela traseira</string>
+    <string name="tip_csd_is_running">Este aplicativo está sendo usado atualmente na tela frontal. Abri-lo aqui interrompe a sessão da tela frontal</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">bar</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">Pressão de pneu recomendada</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">Meia carga %1$skPa %nCarga total %2$skPa</string>
+    <string name="title_baby_mode">Modo criança</string>
+    <string name="title_child_lock">Proteção de bloqueio para crianças</string>
+    <string name="title_child_protect">Proteção de criança</string>
+    <string name="trips_100_km_caps">100 km</string>
+    <string name="trips_10_km_caps">10 km</string>
+    <string name="trips_62_mile_caps">62 mi</string>
+    <string name="trips_6_mile_caps">6 mi</string>
+    <string name="trips_avg_energy">Consumo médio de energia</string>
+    <string name="trips_distance">Distância de condução</string>
+    <string name="trips_elapsed_time">Tempo</string>
+    <string name="trunk">Porta-malas</string>
+    <string name="uninstall">Desinstalar</string>
+    <string name="uninstall_application">Desinstalar aplicativo</string>
+    <string name="uninstall_failure">Falha na desinstalação</string>
+    <string name="unlock_all">Desbloquear tudo</string>
+    <string name="uvi_levels_1">Baixo</string>
+    <string name="uvi_levels_2">Moderado</string>
+    <string name="uvi_levels_3">Alto</string>
+    <string name="uvi_levels_4">Muito alto</string>
+    <string name="uvi_levels_5">Extremo</string>
+    <string name="weather_altitude">Altitude:</string>
+    <string name="weather_aqs">Qualidade do ar:</string>
+    <string name="weather_card_title">Clima</string>
+    <string name="weather_failed">Falha no carregamento, dados meteorológicos indisponíveis</string>
+    <string name="weather_loading">Carregando…</string>
+    <string name="weather_net_unavailable">Sinal de rede ruim. Tente novamente mais tarde.</string>
+    <string name="weather_refresh">Atualizar</string>
+    <string name="weather_uvi">UV:</string>
+    <string name="widget_drive_score_km">km</string>
+</resources>

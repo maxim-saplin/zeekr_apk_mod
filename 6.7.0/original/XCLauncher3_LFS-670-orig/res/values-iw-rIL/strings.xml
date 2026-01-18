@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="active_widget">הפעלה</string>
+    <string name="adjust_hud">כוונן HUD</string>
+    <string name="adjust_rear_mirror">כוונון המראות</string>
+    <string name="apa">עזרה בחניה אוטומטית</string>
+    <string name="app_center">מרכז אפליקציות</string>
+    <string name="app_is_installing">מתקין אפליקציה. המתן...</string>
+    <string name="app_not_install">ודא שהאפליקציה להגנת ילדים מותקנת.</string>
+    <string name="app_uninstall_cancel">ביטול</string>
+    <string name="apps_all_title">אפליקציות נוספות</string>
+    <string name="apps_card_cancel_start_app">Cancel</string>
+    <string name="apps_card_confirm_start_app">Confirm to open</string>
+    <string name="apps_card_tip_backrest_is_running">The back screen is using this App, which will be interrupted If you continue to open</string>
+    <string name="apps_card_title">מועדפים</string>
+    <string name="apps_edit_at_most">באפשרותך להוסיף עד 4 אפליקציות בלבד. מחק כמה לפני הוספה</string>
+    <string name="apps_edit_cancel">ביטול</string>
+    <string name="apps_edit_finish">בוצע</string>
+    <string name="apps_edit_group_custom_label">מותאם אישית</string>
+    <string name="apps_edit_group_recent_label">אחרונים</string>
+    <string name="apps_edit_tips">הקש והחזק כדי לגרור סמלי אפליקציות לכרטיס האפליקציות שנמצאות בשימוש תכוף. תוכל גם להחליף או למיין את סמלי האפליקציות הקיימות תוך כדי גרירה</string>
+    <string name="apps_mini_title">תוכנית מיני</string>
+    <string name="apps_zeekr_lab_title">אמולטור Z</string>
+    <string name="aqi_levels_1">מצוין</string>
+    <string name="aqi_levels_2">טוב</string>
+    <string name="aqi_levels_3">זיהום קל</string>
+    <string name="aqi_levels_4">זיהום מתון</string>
+    <string name="aqi_levels_5">זיהום כבד</string>
+    <string name="aqi_levels_6">זיהום חמור</string>
+    <string name="aqi_levels_7">קריטי ביותר</string>
+    <string name="atmosphere_light">תאורת אווירה</string>
+    <string name="auto_hold">Auto Hold</string>
+    <string name="baby_into_car_widget">כניסת ילדים</string>
+    <string name="baby_into_car_widget_active_dsc">עומד להפעיל מצב כניסת ילדים, שבו הקול, הצליל, הבטיחות, המזגן האחורי, החלונות והתצוגה האחורית יתאמו אוטומטית למצב מראש.</string>
+    <string name="baby_sleep_well_widget">חלום ילדים</string>
+    <string name="baby_sleep_well_widget_active_dsc">עומד להפעיל מצב חלומות ילדים, שבו הקול, הצליל, הבטיחות, המזגן האחורי, החלונות והתצוגה האחורית יתאמו אוטומטית למצב מראש.</string>
+    <string name="back_row_cinema">מצב תיאטרון מאחור</string>
+    <string name="back_row_meeting">מצב פגישה מאחור</string>
+    <string name="back_row_rest">מצב מנוחה מאחור</string>
+    <string name="business_voice_disabled">השבת קול מחלקת עסקים</string>
+    <string name="cancel_widget">ביטול</string>
+    <string name="card_energy_chart_desc">מגמת צריכת האנרגיה בנסיעה האחרונה</string>
+    <string name="card_full_title">מצב הרכב</string>
+    <string name="card_kwh_mile_unit">kWh/100 mi</string>
+    <string name="card_kwh_unit">kWh/100 km</string>
+    <string name="card_trip_1">לוח זמנים 1</string>
+    <string name="card_trip_2">לוח זמנים 2</string>
+    <string name="central_lock">נעילה מרכזית</string>
+    <string name="charge_charge_error_big_tips">תקלה בטעינה, בדוק מיד!</string>
+    <string name="charge_charging_done_tips">הטעינה נעצרה, זכור לנתק</string>
+    <string name="charge_charging_full">עדיפות לטעינה מלאה</string>
+    <string name="charge_charging_limit">להטעין עד גבול</string>
+    <string name="charge_connect">התחברות</string>
+    <string name="charge_connect_tips">המתן בסבלנות</string>
+    <string name="charge_daily">יומי</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">עצור V2L</string>
+    <string name="charge_estimate">&lt;span color=#9985898C font-size=28px>זמן נותר&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span > &lt;span color=#85898C font-size=80px>%2$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_24">&lt;span color=#9985898C font-size=28px>זמן נותר&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>>24&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_24_day">&lt;span color=#99383A3D font-size=28px>זמן נותר&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>>24&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_day">" &lt;span color=#99383A3D font-size=28px>זמן נותר&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span > &lt;span color=#383A3D font-size=80px>%2$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_estimate_no_hour">&lt;span color=#9985898C font-size=28px>זמן נותר&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_no_hour_day">" &lt;span color=#99383A3D font-size=28px>זמן נותר&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_fully">טעינה מלאה בקרוב</string>
+    <string name="charge_next_day">יום למחרת</string>
+    <string name="charge_no_plug">לא מחובר</string>
+    <string name="charge_plug_connect_ac">התחבר</string>
+    <string name="charge_plug_connect_dc">מחובר (DC)</string>
+    <string name="charge_plug_connect_fault">תקלת חיבור</string>
+    <string name="charge_plug_connect_fault_tips">תקלה בחיבור, בדוק מיד!</string>
+    <string name="charge_plug_connect_tips">מחובר אך לא נטען</string>
+    <string name="charge_plug_connect_waiting">לא מחובר לגמרי</string>
+    <string name="charge_plug_no_active">עמדת טעינה לא מופעלת</string>
+    <string name="charge_plug_no_double">אין לחבר בו-זמנית את המטענים ל-AC ול-DC</string>
+    <string name="charge_plug_no_double_tips">חריגה בחיבור. בדוק מיד!</string>
+    <string name="charge_power_supply_capacity">&lt;span color=#9985898C font-size=28px>כמות V2L&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all">&lt;span color=#9985898C font-size=28px>סטטיסטיקות V2L&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all_day">&lt;span color=#99383A3D font-size=28px>סטטיסטיקות V2L&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_day">&lt;span color=#99383A3D font-size=28px>כמות V2L&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_pre_time">" &lt;span color=#9985898C font-size=28px>תזמון טעינה&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>יומי&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_day">" &lt;span color=#99383A3D font-size=28px>תזמון טעינה&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>יומי&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_full" formatted="false">" &lt;span color=#9985898C font-size=28px>תזמון טעינה&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>יומי&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>עדיפות לטעינה מלאה 100%&lt;/span >"</string>
+    <string name="charge_pre_time_full_day" formatted="false">" &lt;span color=#99383A3D font-size=28px>תזמון טעינה&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>יומי&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>עדיפות לטעינה מלאה 100%&lt;/span >"</string>
+    <string name="charge_pre_time_limit">" &lt;span color=#9985898C font-size=28px>תזמון טעינה&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>יומי&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>להטעין עד גבול&lt;/span >"</string>
+    <string name="charge_pre_time_limit_day">" &lt;span color=#99383A3D font-size=28px>תזמון טעינה&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>יומי&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>להטעין עד גבול&lt;/span >"</string>
+    <string name="charge_pre_time_next">" &lt;span color=#9985898C font-size=28px>תזמון טעינה&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=24px>יומי&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=24px>יום למחרת&lt;/span > &lt;span color=#85898C font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_next_day">" &lt;span color=#99383A3D font-size=28px>תזמון טעינה&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=24px>יומי&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=24px>יום למחרת&lt;/span > &lt;span color=#383A3D font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_title">תזמון טעינה</string>
+    <string name="charge_start">התחל טעינה</string>
+    <string name="charge_status_battery_fault">תקלה בסוללת אספקת חשמל</string>
+    <string name="charge_status_booking">טעינה מתוזמנת</string>
+    <string name="charge_status_boosting">טעינה מהירה...</string>
+    <string name="charge_status_charging">טעינה</string>
+    <string name="charge_status_charging_done">טעינה הופסקה</string>
+    <string name="charge_status_charging_fault">כשל טעינה</string>
+    <string name="charge_status_discharging">בתהליך V2L</string>
+    <string name="charge_status_discharging_done">V2L ended</string>
+    <string name="charge_status_discharging_fault">תקלה V2L</string>
+    <string name="charge_status_preheating">ויסות טמפרטורת סוללה…</string>
+    <string name="charge_status_super_fast_charging">טעינה Z</string>
+    <string name="charge_stop">הפסק טעינה</string>
+    <string name="charge_temperature_tips">ויסות טמפרטורה. המתן בסבלנות…</string>
+    <string name="charging_cap">כיסוי טעינה</string>
+    <string name="child_lock_left">נעילת ילדים משמאל</string>
+    <string name="child_lock_right">נעילת ילדים מימין</string>
+    <string name="climate_light">פנסים לכל מזג אוויר</string>
+    <string name="close_all">כבה הכל</string>
+    <string name="close_window">סגור חלונות</string>
+    <string name="confirm">אישור</string>
+    <string name="confirm_remove">להסיר את %s?</string>
+    <string name="confirm_start_app">פתח אותה בכל מקרה</string>
+    <string name="confirm_uninstall">להסיר את %s?</string>
+    <string name="copilot_massage">עיסוי לנוסע הקדמי</string>
+    <string name="copilot_rest">מנוחה נוסע קדמי</string>
+    <string name="day_friday">יום שישי</string>
+    <string name="day_monday">יום שני</string>
+    <string name="day_saturday">יום שבת</string>
+    <string name="day_sunday">יום ראשון</string>
+    <string name="day_thursday">יום חמישי</string>
+    <string name="day_tuesday">יום שלישי</string>
+    <string name="day_wednesday">יום רביעי</string>
+    <string name="done">בוצע</string>
+    <string name="download_paused">מושהה</string>
+    <string name="download_progress">מוריד…</string>
+    <string name="drag_tip">הקש והחזק כדי לגרור את התכונה לסרגל הבקרה השמאלי. תוכל גם להחליף או למיין תכונות קיימות בזמן הגרירה</string>
+    <string name="drag_tip_right">הקש והחזק כדי לגרור את התכונה לסרגל הבקרה השמאלי. תוכל גם להחליף או למיין תכונות קיימות בזמן הגרירה</string>
+    <string name="driver_massage">עיסוי נהג</string>
+    <string name="driver_rest">מנוחת נהג</string>
+    <string name="edit_at_most">ניתן להוסיף עד 5 תכונות בלבד. מחק כמה לפני הוספה</string>
+    <string name="exclusive_child_lock">מנעול ילד בלעדי</string>
+    <string name="fold_rear_mirror">קיפול מראות צד</string>
+    <string name="front_charging_cap">כיסוי טעינה קדמי</string>
+    <string name="glove_box">תא כפפות</string>
+    <string name="gps_permission_denied">מידע GPS לא מורשה</string>
+    <string name="gps_permission_setting">הגדרה</string>
+    <string name="hood">מכסה קדמי</string>
+    <string name="hud">מתג HUD</string>
+    <string name="image_control">בקרת מראה</string>
+    <string name="image_control_view_pager_txt">בקרת תצוגה אחורית</string>
+    <string name="install_progress">מתקין…</string>
+    <string name="launch_control">בקרת זינוק</string>
+    <string name="left_dock_cancel">ביטול</string>
+    <string name="left_dock_close">סגירה</string>
+    <string name="left_dock_edit">עריכה</string>
+    <string name="left_opposite_door">דלתות שמאליות</string>
+    <string name="left_switch_disabled">מתג שמאלי מושבת</string>
+    <string name="left_window_lock">נעילת ילדים לחלון אחורי שמאלי</string>
+    <string name="lightShow_alert_message">For your driving safety, do not use light signal while parking</string>
+    <string name="lightShow_card_title">Card_Signature</string>
+    <string name="lightShow_title">Say Hello</string>
+    <string name="light_show">Say Hello</string>
+    <string name="lock_all">נעל הכל</string>
+    <string name="low_speed_alert">צליל אזהרת הולכי רגל</string>
+    <string name="mask_card_energy_title">צריכת אנרגיה</string>
+    <string name="mask_card_tire_title">לחץ אוויר בצמיגים</string>
+    <string name="mask_card_trip_title">נסיעה</string>
+    <string name="memory_using">שימוש בזיכרון</string>
+    <string name="no_recent_apps">אין אפליקציות בהן נעשה שימוש לאחרונה</string>
+    <string name="one_click_breath">אוורור אוויר</string>
+    <string name="one_click_breath_on">סגור חלונות</string>
+    <string name="one_click_close_door">סגור את כל הדלתות</string>
+    <string name="one_click_drift">דריפט</string>
+    <string name="open_window">פתח את כל החלונות</string>
+    <string name="open_window_on">סגור חלונות</string>
+    <string name="parking_comfort">נוחות חניה</string>
+    <string name="part_glass">זכוכית מחיצה נמוכה יותר</string>
+    <string name="part_glass_on">הרם את זכוכית המחיצה</string>
+    <string name="phone_charge">טעינה אלחוטית לטלפון</string>
+    <string name="position_light">אור מיקום</string>
+    <string name="prompt_drift_condition_battery_power">Vehicle battery >= 20%</string>
+    <string name="prompt_drift_condition_cancel">Not now</string>
+    <string name="prompt_drift_condition_check_title">Enabling conditions</string>
+    <string name="prompt_drift_condition_confirm">Enable Drift</string>
+    <string name="prompt_drift_condition_drive_mode">Switch drive mode to sport</string>
+    <string name="prompt_drift_condition_drive_system">Drive system normal</string>
+    <string name="prompt_drift_condition_esc_system">ESC system normal</string>
+    <string name="prompt_drift_condition_hot_manage_system">Thermal management system normal</string>
+    <string name="prompt_drift_condition_safety_belt">Driver and passenger seat belts are fastened</string>
+    <string name="prompt_drift_condition_speed">Speed &lt; 7 km/h</string>
+    <string name="prompt_drift_condition_steering_system">Steering system normal</string>
+    <string name="prompt_drift_condition_tire_pressure_system">Tire pressure system is normal</string>
+    <string name="prompt_drift_control_accept">מסכים</string>
+    <string name="prompt_drift_disable_tips">בקרת זינוק הופעלה, מצב דריפט אינו זמין זמנית</string>
+    <string name="prompt_drift_error_tips">"ודא שמתקיימים התנאים הבאים ונסה שוב
+ 1. רמת טעינה בסוללה > 20%
+ 2. הרכב בהילוך D‏
+ 3. כל הנוסעים חגורים
+ 4. מערכת ההנעה, מערכת ה-ESC, מערכת ההיגוי, מערכת לחץ האוויר בצמיגים ומערכת ניהול החום תקינות
+ 5. מעבר למצב ספורט הסתיים בהצלחה
+"</string>
+    <string name="prompt_drift_error_title">הפעלת מצב דריפט נכשלה</string>
+    <string name="prompt_drift_i_know">הבנתי</string>
+    <string name="prompt_drift_tips" formatted="false">"הערות:
+ 1. תכונה זו ניתנת להפעלה במסלולי מרוצים או אירועים מקצועיים בלבד שעומדים בתקני הבטיחות הלאומיים. אין להפעיל תכונה זו בכבישים ציבוריים או במקומות לא בטוחים.
+ 2. בהפעלת מצב דריפט, מומלץ להשתמש בערכת הדריפט המקורית להבטחת הבטיחות. נזק לרכיבים עקב שימוש לא נכון ושימוש יתר במצב דריפט אינם מכוסים באחריות.
+ 3. מצב דריפט דורש מיומנויות נהיגה מתקדמות. נהגים צריכים להיות בעלי ניסיון נהיגה של יותר מ-3 שנים. הנהג יישא באחריות מלאה לכל נזק שנגרם עקב תפעול לא נכון או שינויים לא מורשים.
+ 
+ הוראות:
+ 1. תכונה זו דורשת שמצב הנהיגה יוגדר לספורט ומהירות הרכב תהיה נמוכה מ- &lt;‏7 km/h. ודא שכל הנוסעים חגורים בחגורות הבטיחות לפני ההפעלה. יש להשאיר את חגורות הבטיחות מהודקות כל הזמן. אם אחת מחגורות הבטיחות נפתחת בזמן עצירה, מצב דריפט יבוטל אוטומטית.
+ 2. ניתן להפעיל תכונה זו רק אם רמת הטעינה בסוללה גבוהה מ-20% SOC. אם ה-SOC &lt;נמוך מ-20%, התכונה מבוטלת באופן אוטומטי;
+ 3. תכונה זו ניתנת להפעלה רק כאשר כל מערכות הרכב פועלות בצורה תקינה. במקרה של חריגה כלשהי, היא תבוטל אוטומטית;
+ 
+ לאחר הפעלת התכונה דריפט בלחיצה אחת:
+ 1. תכונות One-Pedal ו-Autohold כבויות כברירת מחדל;
+ 2. מעבר אוטומטי למצב ספורט;
+ 3. תכונת ה-ESC מושבתת;
+ 4. רמת בלימה רגנרטיבית נמוכה;
+ 5. תכונת בקרת זינוק מושבתת אוטומטית (אם תכונה זו הופעלה).
+ 
+ האם אתה מבין ומסכים באופן מלא לתוכן הנל?"</string>
+    <string name="prompt_drift_tips_cs1e" formatted="false">" Notes:
+ 1. Drift is only intended for use on racetracks or professional venues that comply with national safety standards. Do not activate it on public roads or unsafe places.
+ 2. When enabling drift, it is recommended to use the original drifting kit to ensure safety. Any damage to components due to improper use or overuse of drift is not covered by the warranty.
+ 3. Drift should be operated by a veteran with professional driving skills and at least 3 years of driving experience. The driver shall assume full responsibility for any damage incurred due to improper operation or unauthorized modifications.
+ 
+ Instructions:
+ 1. To enable drift, enter Sport drive mode with a speed &lt; 7 km/h, and ensure both the driver and passengers have securely fastened seat belts. Ensure that all seatbelts are fastened throughout the trip. Otherwise, the feature is disabled automatically.
+ 2. Drift can only be enabled when the battery SOC is no less than 20%. It automatically disables when the SOC is &lt; 20%.
+ 3. Drift can only be enabled when the entire car system works properly. In case of any faults, Drift is disabled.
+ 
+ After drift is enabled:
+ 1. Stop mode is switched to Creep;
+
+        2. Autohold is disabled by default;\\n
+        3. The drive mode automatically switches to Sport;
+
+        4. ESC is disabled;
+
+        5. The regenerative braking level is switched to Low;
+
+        6. Some driving assist and parking assist features will be disabled or restricted. Refer to User Manual for details;
+
+        
+
+        Do you fully understand and agree to the above content?
+    "</string>
+    <string name="prompt_drift_title">הודעה למשתמש במצב דריפט</string>
+    <string name="prompt_guest_mode_tips">תכונה זו אינה זמינה במצב אורח. השבת מצב אורח ונסה שוב</string>
+    <string name="prompt_launch_control_accept">הסכמה והמשך</string>
+    <string name="prompt_launch_control_content">"אזהרה: במהלך בקרת השיגור, עליך לשמור על שליטה על הרכב ולוודא שסביבת הנהיגה והשימוש בטוחה. הפעל בתנאים בטוחים בלבד. שימוש מתמשך בבקרת השיגור עלול לגרום להפחתה בביצועי ההינע והבלימה של הרכב. נהג בזהירות בעת השימוש בתכונה זו. כדי להבטיח בטיחות נהיגה, נטרל את התכונה כאשר היא אינה בשימוש.
+ 
+הערות:
+1. כדי להפעיל בקרת זינוק, הזז למצב PARK, סגור את כל הדלתות, וודא שהנהג והנוסעים חגורים חגורות בטיחות כראוי.
+2. ודא שמערכת ההנעה של הרכב בטמפרטורה רגילה והסוללה טעונה דיה.
+3. השבת את תכונות הנהיגה החכמות, מרכז את גלגל ההגה, שחרר את בלם החניה האלקטרוני, והעבר ל-DRIVE. 
+ 
+הוראות:
+1. הקש על הלחצן בקרת הפעלה.
+2. לחץ לגמרי על דוושת הבלם קודם, לחץ לגמרי על דוושת הדלק ושחרר לגמרי את דוושת הבלם בתוך 4 שניות לאחר שלוח המחוונים מציג \"הפעלת שליטה בהשקה מורשת\". לאחר מכן הרכב ישוגר בהאצה גדולה. (אם לוח המחוונים מציג \"נכשל בהפעלת שליטה בהשקה\", בדוק את מצב הרכב בהתאם להוראות בתצוגה המרכזית.)
+ 
+האם אתה מבין ומסכים באופן מלא לתוכן הנל?"</string>
+    <string name="prompt_launch_control_cs1e_content">"Warning: During launch control, the driver is responsible for maintaining control of the vehicle at all times and ensuring the driving and usage environment is safe. Please only operate under safe conditions. Continuous use of launch control may result in a reduction in the vehicle's drive and braking system performance. Please exercise caution when using this feature. To ensure driving safety, please disable the feature when it is not in use.
+Notes: 
+1. Launch control shall be enabled while the vehicle is parked. Please ensure the doors are closed and the driver and passengers have their seat belts fastened properly. 
+2. Ensure the vehicle's power system is at normal temperature and the battery is sufficiently charged. 
+3. Disable smart driving features, center the steering wheel, release the electronic parking brake, and shift to Drive.
+Instructions:
+1. Tap the Launch control button. 
+2. Fully press the brake pedal first, then fully press the accelerator pedal and release the brake pedal completely within 4 seconds. The vehicle will launch with great acceleration.
+3. To offer an optimal experience, the drive mode will automatically switch to Sport after the feature is enabled.
+Do you fully understand and agree to the above content?"</string>
+    <string name="prompt_launch_control_disable_tips">מצב דריפט מופעל, בקרת זינוק אינה זמינה זמנית</string>
+    <string name="prompt_launch_control_race_content">"Warning: During Launch Control, the driver is responsible for maintaining control of the vehicle at all times and ensuring the driving and usage environment is safe. Please only operate under safe conditions. Continuous use of Launch Control may result in a reduction in the vehicle's drive and braking system performance. Please exercise caution when using this feature. To ensure driving safety, please disable the feature when it is not in use.
+ 
+Notes: 
+1. The Launch Control feature shall be enabled while the vehicle is parked. Please ensure the doors are closed and the driver and passengers have their seat belts fastened properly. 
+2. Ensure the vehicle's power system is at normal temperature and the battery is sufficiently charged. 
+3. Disable smart driving features, straighten the steering wheel, release the electronic parking brake, and shift to Drive. 
+ 
+ Instructions: 
+1. Tap the “Launch Control” button. 
+2. Fully press the brake pedal first, then fully press the accelerator pedal and release the brake pedal completely within 4 seconds. The vehicle will launch with great acceleration.
+ 3. To ensure the best experience, the driving mode will automatically switch to “Sport mode” after the feature is enabled. After the feature is disabled, it will remain in Sport mode. Switching to other driving modes will automatically disable the “Launch Control” feature. (In ZEEKR Track - Vehicle Control Activation Available, it will not switch to Sport mode.)
+ 4. Once enabled, ZEEKR Track-Drift mode will be unavailable. 
+ 
+Do you fully understand and agree to the above content?"</string>
+    <string name="prompt_launch_control_title">הודעת משתמש לבקרת זינוק</string>
+    <string name="prompt_saving_mode_tips">התכונה אינה זמינה במצב סופר ECO. השבת מצב זה ונסה שוב.</string>
+    <string name="prompt_trunk_open_confirm">הקש שנית כדי לפתוח את תא המטען</string>
+    <string name="racing_mode">מצב מרוצים</string>
+    <string name="rear_charging_cap">כיסוי טעינה אחורי</string>
+    <string name="rear_fog_lamps">פנס ערפל אחורי</string>
+    <string name="recent_apps">אחרונים</string>
+    <string name="remove">הסרה</string>
+    <string name="remove_mini_app">הסר מיני-תוכנה</string>
+    <string name="reset_internet">הפעלה מחדש של הרשת</string>
+    <string name="right_opposite_door">דלתות ימניות</string>
+    <string name="right_switch_disabled">מתג ימני מושבת</string>
+    <string name="right_window_lock">נעילת ילדים לחלון אחורי ימני</string>
+    <string name="scarp_cruised">בקרת נסיעה במורד</string>
+    <string name="see_back_row">שומר ילד</string>
+    <string name="see_more">הצג עוד</string>
+    <string name="stream_media">מראה פנימית דיגיטלית</string>
+    <string name="tab_mini_app">מיני-תוכנה</string>
+    <string name="tab_zeekr_lab">Z-emulator</string>
+    <string name="take_picture">צלם תמונות</string>
+    <string name="take_video">הקלט</string>
+    <string name="task_tips_content">אין יישומים שרצים ברקע</string>
+    <string name="through_lamp">פנס אחורי היקפי</string>
+    <string name="tip_backrest_is_running">אפליקציה זו נמצאת בשימוש כרגע במסך מאחור. פתיחה כאן תקטע את הסשן</string>
+    <string name="tip_csd_is_running">אפליקציה זו נמצאת בשימוש כרגע במסך מלפנים. פתיחה כאן תקטע את הסשן</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">bar</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">המלצה ללחץ אוויר בצמיגים</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">חצי עומס %1$s %nעומס מלא %2$s</string>
+    <string name="title_baby_mode">מצב ילדים</string>
+    <string name="title_child_lock">מיגון מנעול ילדים</string>
+    <string name="title_child_protect">הגנת ילדים</string>
+    <string name="trips_100_km_caps">100 km</string>
+    <string name="trips_10_km_caps">10 km</string>
+    <string name="trips_62_mile_caps">62 mi</string>
+    <string name="trips_6_mile_caps">6 mi</string>
+    <string name="trips_avg_energy">צריכת חשמל ממוצעת</string>
+    <string name="trips_distance">מרחק נסיעה</string>
+    <string name="trips_elapsed_time">זמן</string>
+    <string name="trunk">תא מטען</string>
+    <string name="uninstall">הסרת התקנת אפליקציה</string>
+    <string name="uninstall_application">הסר יישום</string>
+    <string name="uninstall_failure">הסרת התקנה נכשלה</string>
+    <string name="unlock_all">פתח הכל</string>
+    <string name="uvi_levels_1">נמוכה</string>
+    <string name="uvi_levels_2">בינוני</string>
+    <string name="uvi_levels_3">גבוהה</string>
+    <string name="uvi_levels_4">גבוה מאוד</string>
+    <string name="uvi_levels_5">קיצוני</string>
+    <string name="weather_altitude">גובה:</string>
+    <string name="weather_aqs">איכות האוויר:</string>
+    <string name="weather_card_title">מזג אוויר</string>
+    <string name="weather_failed">טעינה נכשלה, נתוני מזג האוויר אינם זמינים</string>
+    <string name="weather_loading">טוען…</string>
+    <string name="weather_net_unavailable">אות רשת גרוע. נסה שוב מאוחר יותר.</string>
+    <string name="weather_refresh">ריענון</string>
+    <string name="weather_uvi">UV:</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="6.0dip" android:width="186.0dip" android:viewportWidth="186.0" android:viewportHeight="6.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/bg_sr_scroll_bar" android:pathData="M3,0L183,0A3,3 0,0 1,186 3L186,3A3,3 0,0 1,183 6L3,6A3,3 0,0 1,0 3L0,3A3,3 0,0 1,3 0z" android:fillAlpha="0.2" />
+</vector>

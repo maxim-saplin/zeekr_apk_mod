@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/customize_scenarios_card_title_text_size" android:textColor="@color/customize_scenario_card_title_color" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scenario_customize_card_title" android:maxLines="1" android:paddingHorizontal="@dimen/customize_scenarios_card_title_left_margin" android:paddingVertical="@dimen/customize_scenarios_card_title_top_margin" />
+    <FrameLayout android:layout_gravity="end" android:id="@id/flEdit" android:visibility="gone" android:layout_width="@dimen/customize_scenarios_card_edit_click_width" android:layout_height="@dimen/customize_scenarios_card_edit_height_size">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/ivEdit" android:layout_width="@dimen/customize_scenarios_card_edit_width_size" android:layout_height="@dimen/customize_scenarios_card_edit_height_size" android:src="@drawable/ic_customize_scenarios_card_edit" android:scaleType="center" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvManualScenarios" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/customize_scenarios_card_content_top_margin" android:overScrollMode="never" android:layout_marginHorizontal="@dimen/customize_scenarios_card_content_horizontal_margin" />
+        <com.zeekr.scenario.customization.carditem.view.EmptyDataView android:id="@id/emptyDataView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</merge>

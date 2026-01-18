@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/zeekr_tv_tab_vertical_container_min_height" android:paddingStart="@dimen/zeekr_tv_tab_vertical_item_padding_lr" android:paddingEnd="@dimen/zeekr_tv_tab_vertical_item_padding_lr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@android:id/icon" android:layout_width="@dimen/zeekr_tv_tab_vertical_item_icon_size" android:layout_height="@dimen/zeekr_tv_tab_vertical_item_icon_size" android:src="@drawable/ic_tv_tab_white" />
+    <TextView android:textAppearance="?textAppearanceBodyLarge" android:textColor="?colorPrimary" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="智慧屏体验" android:singleLine="true" />
+</LinearLayout>

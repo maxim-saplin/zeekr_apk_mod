@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/shape_edit_bg_press" android:layout_width="@dimen/edit_function_content_width" android:layout_height="@dimen/edit_function_content_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_function_content_margin" android:src="@drawable/ic_hud" android:layout_marginStart="@dimen/edit_function_content_margin" />
+    <TextView android:textSize="@dimen/edit_function_name_txt_size" android:textColor="@color/dock_edit_txt" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/edit_function_content_margin" android:maxLines="2" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/edit_function_content_margin" />
+</RelativeLayout>

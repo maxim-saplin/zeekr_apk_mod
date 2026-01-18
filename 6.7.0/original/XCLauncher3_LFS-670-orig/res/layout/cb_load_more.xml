@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/loadmore_view" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/cb_pullup_icon" android:background="@drawable/cb_pullup_icon_big" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/cb_loading_icon" android:background="@drawable/cb_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/cb_loadstate_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pullup_to_load" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/cb_loadstate_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/cb_loadstate_tv" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

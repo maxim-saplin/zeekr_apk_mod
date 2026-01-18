@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/apps_card_title_text_size" android:textColor="@color/apps_card_title_color" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/apps_card_title_top_margin" android:text="@string/apps_card_title" android:layout_marginStart="@dimen/apps_card_title_left_margin" />
+    <FrameLayout android:layout_gravity="end" android:id="@id/flEdit" android:layout_width="@dimen/apps_card_edit_click_width" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/ivEdit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_apps_card_edit" android:scaleType="center" android:paddingHorizontal="@dimen/apps_card_edit_icon_end_margin" android:paddingVertical="@dimen/apps_card_edit_icon_top_margin" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvApps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/apps_card_content_top_margin" android:overScrollMode="never" android:layout_marginHorizontal="@dimen/apps_card_content_horizontal_margin" />
+</merge>

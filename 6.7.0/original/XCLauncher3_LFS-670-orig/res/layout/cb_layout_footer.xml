@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="50.0dip">
+        <ImageView android:id="@id/cb_loadicon" android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/cb_pullup_icon_big" />
+        <ImageView android:id="@id/cb_loadrotate" android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/cb_ic_loading_rotate" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/cb_tv" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="上拉加载更多" android:layout_toRightOf="@id/cb_loadicon" />
+    </RelativeLayout>
+</RelativeLayout>

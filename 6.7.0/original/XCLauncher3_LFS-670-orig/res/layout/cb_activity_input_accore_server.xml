@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/cb_back" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/cb_nav_back" android:scaleType="center" />
+    <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="22.0sp" android:textColor="#ff333333" android:id="@id/cb_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/cb_editTextIp1" android:background="#ffeeeeee" android:padding="2.0dip" android:nextFocusDown="@id/cb_editTextIp2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="number" android:layout_marginStart="10.0dip" android:layout_marginEnd="5.0dip" />
+        <TextView android:textColor="#ff000000" android:id="@id/cb_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="." />
+        <EditText android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/cb_editTextIp2" android:background="#ffeeeeee" android:padding="2.0dip" android:nextFocusDown="@id/cb_editTextIp3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="number" android:layout_marginEnd="5.0dip" />
+        <TextView android:textColor="#ff000000" android:id="@id/cb_textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="." />
+        <EditText android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/cb_editTextIp3" android:background="#ffeeeeee" android:padding="2.0dip" android:nextFocusDown="@id/cb_editTextIp4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="number" android:layout_marginEnd="5.0dip" />
+        <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="." />
+        <EditText android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/cb_editTextIp4" android:background="#ffeeeeee" android:padding="2.0dip" android:nextFocusDown="@id/cb_editTextPort" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="number" android:layout_marginEnd="10.0dip" />
+        <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:layout_marginStart="4.0dip" />
+        <EditText android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/cb_editTextPort" android:background="#ffeeeeee" android:padding="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="number" android:layout_marginEnd="5.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/cb_cancel_input" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cb_close_ic" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+    <Button android:id="@id/cb_btn_connect" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="84.0dip" android:text="连接" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+</LinearLayout>

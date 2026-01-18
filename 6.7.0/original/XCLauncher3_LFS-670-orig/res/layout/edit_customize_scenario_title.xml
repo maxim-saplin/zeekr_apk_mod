@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="@dimen/customize_scenarios_edit_card_title_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/customize_scenarios_card_title_text_size" android:textColor="@color/customize_scenario_card_title_color" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/customize_scenarios_card_title_top_margin" android:text="@string/scenario_customize_manual_title" />
+</LinearLayout>

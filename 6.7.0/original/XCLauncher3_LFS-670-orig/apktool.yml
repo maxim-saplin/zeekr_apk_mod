@@ -1,0 +1,25 @@
+version: 2.12.1
+apkFileName: XCLauncher3_LFS-670-orig.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 28
+  targetSdkVersion: 33
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 305019
+  versionName: 3.0.5019+20251127.d6910d14f
+doNotCompress:
+- arsc
+- dex
+- gif
+- ogg
+- png
+- so
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- res/raw/zeekr_switch_off_50.json
+- res/raw/zeekr_switch_on_50.json

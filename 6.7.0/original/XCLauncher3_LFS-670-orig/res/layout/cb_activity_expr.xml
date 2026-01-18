@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/cb_text" android:layout_width="fill_parent" android:layout_height="350.0dip" android:hint="数据" />
+    <EditText android:id="@id/cb_expr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="表达式" />
+    <EditText android:id="@id/cb_vfor_expr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="迭代表达式" />
+    <RadioGroup android:id="@id/cb_radio" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkedButton="@id/cb_vbind">
+        <RadioButton android:id="@id/cb_vbind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="vbind" />
+        <RadioButton android:id="@id/cb_vfor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="vfor" />
+    </RadioGroup>
+    <Button android:id="@id/cb_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="执行" />
+    <TextView android:id="@id/cb_result" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:hint="结果:" />
+</LinearLayout>

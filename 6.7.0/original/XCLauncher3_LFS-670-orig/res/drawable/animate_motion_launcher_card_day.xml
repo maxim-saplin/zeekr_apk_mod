@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_00" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_01" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_02" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_03" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_04" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_05" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_06" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_07" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_08" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_09" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_10" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_11" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_12" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_13" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_14" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_15" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_16" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_17" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_18" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_19" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_20" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_21" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_22" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_23" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_24" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_25" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_26" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_27" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_28" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_29" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_30" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_31" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_32" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_33" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_34" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_35" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_36" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_37" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_38" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_39" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_40" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_41" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_42" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_43" />
+    <item android:duration="66" android:drawable="@drawable/animate_motion_launcher_card_day_44" />
+</animation-list>

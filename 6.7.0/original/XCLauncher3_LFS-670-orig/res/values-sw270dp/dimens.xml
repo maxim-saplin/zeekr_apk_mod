@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="console_toast_horizontal_margin">60.0dip</dimen>
+    <dimen name="console_toast_line_height">40.5dip</dimen>
+    <dimen name="console_toast_margin_top">18.0dip</dimen>
+    <dimen name="console_toast_max_width">683.0dip</dimen>
+    <dimen name="console_toast_min_width">397.5dip</dimen>
+    <dimen name="console_toast_radius_size">6.0dip</dimen>
+    <dimen name="console_toast_text_size">27.0sp</dimen>
+    <dimen name="console_toast_vertical_margin">17.25dip</dimen>
+</resources>

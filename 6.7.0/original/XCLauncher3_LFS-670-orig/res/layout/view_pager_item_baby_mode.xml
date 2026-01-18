@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/ZeekrTheme26" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dp_36" android:paddingEnd="@dimen/dp_36"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_baby_into_car_root_view_pager" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.zeekr.component.button.ZeekrButton android:textSize="@dimen/sp_28" android:id="@id/layout_baby_into_car_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/baby_into_car_widget" app:icon="@drawable/baby_into_car" app:iconGravity="textTop" app:iconPadding="@dimen/dp_12" app:iconSize="@dimen/dp_76" app:iconTint="@null" style="@style/Widget.ZeekrButton.GhostButton" />
+        <ImageView android:layout_gravity="end" android:id="@id/layout_baby_into_car_turn_on_view_pager" android:visibility="gone" android:layout_width="@dimen/dp_50" android:layout_height="@dimen/dp_27" android:layout_marginTop="@dimen/dp_6" android:src="@drawable/turn_on" android:layout_marginEnd="@dimen/dp_6" />
+        <ImageView android:layout_gravity="center" android:id="@id/layout_baby_into_car_loading_view_pager" android:visibility="gone" android:layout_width="@dimen/dp_50" android:layout_height="@dimen/dp_50" android:src="@drawable/icon_loading" />
+    </FrameLayout>
+    <Space android:layout_width="@dimen/dp_27" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/layout_baby_sleep_well_root_view_pager" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.zeekr.component.button.ZeekrButton android:textSize="@dimen/sp_28" android:id="@id/layout_baby_sleep_well_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/baby_sleep_well_widget" app:icon="@drawable/baby_sleep_well" app:iconGravity="textTop" app:iconPadding="@dimen/dp_12" app:iconSize="@dimen/dp_76" app:iconTint="@null" style="@style/Widget.ZeekrButton.GhostButton" />
+        <ImageView android:layout_gravity="end" android:id="@id/layout_baby_sleep_well_turn_on_view_pager" android:visibility="gone" android:layout_width="@dimen/dp_50" android:layout_height="@dimen/dp_27" android:layout_marginTop="@dimen/dp_6" android:src="@drawable/turn_on" android:layout_marginEnd="@dimen/dp_6" />
+        <ImageView android:layout_gravity="center" android:id="@id/layout_baby_sleep_well_loading_view_pager" android:visibility="gone" android:layout_width="@dimen/dp_50" android:layout_height="@dimen/dp_50" android:src="@drawable/icon_loading" />
+    </FrameLayout>
+</LinearLayout>

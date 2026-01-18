@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:left="@dimen/weather_label_padding_horizontal" android:right="@dimen/weather_label_padding_horizontal" />
+    <corners android:radius="@dimen/weather_label_corner" />
+    <solid android:color="@color/weather_label_bg" />
+</shape>

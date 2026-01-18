@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/weather_label_size" android:width="@dimen/weather_label_size" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/weather_txt_dark" android:pathData="M13.458,24.869L19.138,31.26C19.53,31.7 20.218,31.7 20.609,31.26L26.29,24.869C26.854,24.234 26.403,23.231 25.554,23.231H21.35V10.439C21.35,9.624 20.689,8.963 19.874,8.963C19.059,8.963 18.398,9.624 18.398,10.439V23.231H14.193C13.344,23.231 12.893,24.234 13.458,24.869Z" />
+</vector>

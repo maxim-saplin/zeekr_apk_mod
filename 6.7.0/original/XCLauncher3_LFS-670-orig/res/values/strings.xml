@@ -1,0 +1,2597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="accessibility_action_divider_bottom_full">Bottom full screen</string>
+    <string name="accessibility_action_divider_left_30">Left 30%</string>
+    <string name="accessibility_action_divider_left_50">Left 50%</string>
+    <string name="accessibility_action_divider_left_70">Left 70%</string>
+    <string name="accessibility_action_divider_left_full">Left full screen</string>
+    <string name="accessibility_action_divider_right_full">Right full screen</string>
+    <string name="accessibility_action_divider_top_30">Top 30%</string>
+    <string name="accessibility_action_divider_top_50">Top 50%</string>
+    <string name="accessibility_action_divider_top_70">Top 70%</string>
+    <string name="accessibility_action_divider_top_full">Top full screen</string>
+    <string name="accessibility_action_pip_resize">Resize</string>
+    <string name="accessibility_action_pip_stash">Stash</string>
+    <string name="accessibility_action_pip_unstash">Unstash</string>
+    <string name="accessibility_action_start_one_handed">Start one-handed mode</string>
+    <string name="accessibility_action_stop_one_handed">Exit one-handed mode</string>
+    <string name="accessibility_bubble_dismissed">Bubble dismissed.</string>
+    <string name="accessibility_describe">launcher access service</string>
+    <string name="accessibility_divider">Split-screen divider</string>
+    <string name="action_settings">Settings</string>
+    <string name="active_widget">激活</string>
+    <string name="activity_launch_on_secondary_display_failed_text">App does not support launch on secondary displays.</string>
+    <string name="adapter_api_debug_open_tip">中间件调试模式</string>
+    <string name="adjust_hud">HUD adjustment</string>
+    <string name="adjust_rear_mirror">Adjust mirrors</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="apa">Auto parking assist</string>
+    <string name="app_center">App Center</string>
+    <string name="app_is_installing">Installing app. Wait...</string>
+    <string name="app_name">module-sdk</string>
+    <string name="app_not_install">请确保儿童守护app已安装</string>
+    <string name="app_title">Car Launcher</string>
+    <string name="app_uninstall_cancel">Cancel</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="apps_all_title">More apps</string>
+    <string name="apps_card_cancel_start_app">Cancel</string>
+    <string name="apps_card_confirm_start_app">Confirm to open</string>
+    <string name="apps_card_tip_backrest_is_running">The back screen is using this app, which will be interrupted If you continue to open</string>
+    <string name="apps_card_title">Favorites</string>
+    <string name="apps_edit_at_most">Up to 4 apps can be added. Delete some and try again</string>
+    <string name="apps_edit_cancel">Cancel</string>
+    <string name="apps_edit_finish">Done</string>
+    <string name="apps_edit_group_custom_label">Custom</string>
+    <string name="apps_edit_group_recent_label">Recents</string>
+    <string name="apps_edit_tips">Tap and hold to drag app icons to the Frequently used apps card. You can also replace or sort existing app icons while dragging</string>
+    <string name="apps_mini_title">Mini program</string>
+    <string name="apps_zeekr_lab_title">Z-emulator</string>
+    <string name="aqi_levels_1">Excellent</string>
+    <string name="aqi_levels_2">Good</string>
+    <string name="aqi_levels_3">Moderate</string>
+    <string name="aqi_levels_4">Unhealthy for sensitive groups</string>
+    <string name="aqi_levels_5">Unhealthy</string>
+    <string name="aqi_levels_6">Very unhealthy</string>
+    <string name="aqi_levels_7">Extremely critical</string>
+    <string name="aqt_app_name_1">Tencent Aiquting</string>
+    <string name="aqt_app_name_2">Aiquting</string>
+    <string name="args_full_url">full_url</string>
+    <string name="atmosphere_light">Ambient lights</string>
+    <string name="auto_hold">Auto Hold</string>
+    <string name="avp_go_charge_button">增强版记忆泊车可用</string>
+    <string name="avp_pop_12_button">开始</string>
+    <string name="avp_pop_12_click">点击按钮开始辅助驾驶</string>
+    <string name="avp_pop_14_button">取消</string>
+    <string name="avp_pop_14_click">前方受阻，即将为您重新规划路线</string>
+    <string name="avp_save">Save</string>
+    <string name="avp_study">学习</string>
+    <string name="avp_study_click_route">记忆泊车可用，点击学习路线</string>
+    <string name="avp_study_click_save">是否确认记忆当前行驶路线？</string>
+    <string name="baby_into_car_widget">宝贝上车</string>
+    <string name="baby_into_car_widget_active_dsc">即将为您激活宝贝上车，激活后将自动调整“语音、声音、安全、后排空调、车窗、后排屏”到目标状态</string>
+    <string name="baby_sleep_well_widget">宝贝安睡</string>
+    <string name="baby_sleep_well_widget_active_dsc">即将为您激活宝贝安睡，激活后将自动调整“语音、声音、安全、后排空调、车窗、后排屏”到目标状态</string>
+    <string name="back_row_cinema">Rear row theater mode</string>
+    <string name="back_row_meeting">Rear meeting mode</string>
+    <string name="back_row_rest">Rear rest mode</string>
+    <string name="banner_adapter_null_error">Adapter为空！请检查下参数</string>
+    <string name="bilibili_app_name">Bilibili</string>
+    <string name="bluetooth_no_artist">Not available</string>
+    <string name="bluetooth_no_connect">Bluetooth Music - Not Connected</string>
+    <string name="bluetooth_no_play">No songs available</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bottomsheet_action_collapse">Collapse the bottom sheet</string>
+    <string name="bottomsheet_action_expand">Expand the bottom sheet</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
+    <string name="bottomsheet_drag_handle_content_description">Drag handle</string>
+    <string name="brvah_load_complete">点击加载更多</string>
+    <string name="brvah_load_end">没有更多数据</string>
+    <string name="brvah_load_failed">加载失败，请点我重试</string>
+    <string name="brvah_loading">正在加载中...</string>
+    <string name="bt_app_name">Bluetooth Music</string>
+    <string name="btn_exit_leave_pilot">Exit Remote parking</string>
+    <string name="btn_leave_pilot">Remote parking</string>
+    <string name="btn_start_nzp">Click button to start Assisted driving</string>
+    <string name="btn_start_pilot">Start parking</string>
+    <string name="bubble_accessibility_action_add_back">Add back to stack</string>
+    <string name="bubble_accessibility_action_move_bottom_left">Move bottom left</string>
+    <string name="bubble_accessibility_action_move_bottom_right">Move bottom right</string>
+    <string name="bubble_accessibility_action_move_top_left">Move top left</string>
+    <string name="bubble_accessibility_action_move_top_right">Move top right</string>
+    <string name="bubble_content_description_single">%1$s from %2$s</string>
+    <string name="bubble_content_description_stack">%1$s from %2$s and %3$d more</string>
+    <string name="bubble_dismiss_text">Dismiss bubble</string>
+    <string name="bubble_overflow_button_content_description">Overflow</string>
+    <string name="bubble_overflow_empty_subtitle">Recent bubbles and dismissed bubbles will appear here</string>
+    <string name="bubble_overflow_empty_title">No recent bubbles</string>
+    <string name="bubbles_app_settings">%1$s settings</string>
+    <string name="bubbles_dont_bubble_conversation">Don’t bubble conversation</string>
+    <string name="bubbles_settings_button_description">Settings for %1$s bubbles</string>
+    <string name="bubbles_user_education_description">New conversations appear as floating icons, or bubbles. Tap to open bubble. Drag to move it.</string>
+    <string name="bubbles_user_education_got_it">Got it</string>
+    <string name="bubbles_user_education_manage">Tap Manage to turn off bubbles from this app</string>
+    <string name="bubbles_user_education_manage_title">Control bubbles anytime</string>
+    <string name="bubbles_user_education_title">Chat using bubbles</string>
+    <string name="business_voice_disabled">Disable business voice</string>
+    <string name="call_notification_answer_action">Answer</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Decline</string>
+    <string name="call_notification_hang_up_action">Hang Up</string>
+    <string name="call_notification_incoming_text">Incoming call</string>
+    <string name="call_notification_ongoing_text">Ongoing call</string>
+    <string name="call_notification_screening_text">Screening an incoming call</string>
+    <string name="cancel_widget">取消</string>
+    <string name="card_energy_chart_desc">Recent trip energy consumption trend</string>
+    <string name="card_full_title">Vehicle Condition</string>
+    <string name="card_in_preparation">准备中</string>
+    <string name="card_kwh_mile_unit">kWh/100 mi</string>
+    <string name="card_kwh_unit">kWh/100 km</string>
+    <string name="card_title_regex">%1$s%2$s</string>
+    <string name="card_trip_1">Trip 1</string>
+    <string name="card_trip_2">Trip 2</string>
+    <string name="central_lock">Central locking</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="charge_charge_error_big_tips">Charging fault, check immediately!</string>
+    <string name="charge_charging_done_tips">Charging stopped, Please Remember to Unplug</string>
+    <string name="charge_charging_full">Prioritize full charging</string>
+    <string name="charge_charging_limit">Charge to limit</string>
+    <string name="charge_connect">Connected</string>
+    <string name="charge_connect_tips">Please wait</string>
+    <string name="charge_daily">Daily</string>
+    <string name="charge_default_text">--</string>
+    <string name="charge_dis_stop">Stop V2L</string>
+    <string name="charge_estimate">&lt;span color=#9985898C font-size=28px>Remaining time&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span > &lt;span color=#85898C font-size=80px>%2$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_24">&lt;span color=#9985898C font-size=28px>Remaining time&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>>24&lt;/span > &lt;span color=#9985898C font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_24_day">&lt;span color=#99383A3D font-size=28px>Remaining time&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>>24&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span ></string>
+    <string name="charge_estimate_day">" &lt;span color=#99383A3D font-size=28px>Remaining time&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>h&lt;/span > &lt;span color=#383A3D font-size=80px>%2$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_estimate_no_hour">&lt;span color=#9985898C font-size=28px>Remaining time&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>min&lt;/span ></string>
+    <string name="charge_estimate_no_hour_day">" &lt;span color=#99383A3D font-size=28px>Remaining time&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>min&lt;/span > "</string>
+    <string name="charge_fully">Fully charged soon</string>
+    <string name="charge_line">-</string>
+    <string name="charge_next_day">Next day</string>
+    <string name="charge_no_plug">Not plugged in</string>
+    <string name="charge_plug_connect_ac">Plugged in (AC)</string>
+    <string name="charge_plug_connect_dc">Plugged in (DC)</string>
+    <string name="charge_plug_connect_fault">Connection fault</string>
+    <string name="charge_plug_connect_fault_tips">Connection fault, check immediately!</string>
+    <string name="charge_plug_connect_tips">Plugged in but not charging</string>
+    <string name="charge_plug_connect_waiting">Not fully plugged in</string>
+    <string name="charge_plug_no_active">Charging point not activated</string>
+    <string name="charge_plug_no_double">Do not plug in both AC and DC chargers simultaneously</string>
+    <string name="charge_plug_no_double_tips">Plugging Anomaly. Please Check Promptly!</string>
+    <string name="charge_power_supply_capacity">&lt;span color=#9985898C font-size=28px>V2L quantity&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all">&lt;span color=#9985898C font-size=28px>V2L statistics&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=80px>%1$s&lt;/span > &lt;span color=#9985898C font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_all_day">&lt;span color=#99383A3D font-size=28px>V2L statistics&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_power_supply_capacity_day">&lt;span color=#99383A3D font-size=28px>V2L quantity&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=80px>%1$s&lt;/span > &lt;span color=#99383A3D font-size=32px>kWh&lt;/span ></string>
+    <string name="charge_pre_time">" &lt;span color=#9985898C font-size=28px>Scheduled charging&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Every day&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_day">" &lt;span color=#99383A3D font-size=28px>Scheduled charging&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Every day&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span >"</string>
+    <string name="charge_pre_time_full">" &lt;span color=#9985898C font-size=28px>Scheduled charging&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Every day&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>Prioritize full charging&lt;/span >"</string>
+    <string name="charge_pre_time_full_day">" &lt;span color=#99383A3D font-size=28px>Scheduled charging&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Every day&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>Prioritize full charging&lt;/span >"</string>
+    <string name="charge_pre_time_limit">" &lt;span color=#9985898C font-size=28px>Scheduled charging&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Every day&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=40px>Charge to limit&lt;/span >"</string>
+    <string name="charge_pre_time_limit_day">" &lt;span color=#99383A3D font-size=28px>Scheduled charging&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Every day&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=40px>Charge to limit&lt;/span >"</string>
+    <string name="charge_pre_time_next">" &lt;span color=#9985898C font-size=28px>Scheduled charging&lt;/span > &lt;br>&lt;/br> &lt;span color=#85898C font-size=32px>Every day&lt;/span > &lt;span color=#85898C font-size=48px>%1$s&lt;/span > &lt;span color=#85898C font-size=32px>Next day&lt;/span > &lt;span color=#85898C font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_next_day">" &lt;span color=#99383A3D font-size=28px>Scheduled charging&lt;/span > &lt;br>&lt;/br> &lt;span color=#383A3D font-size=32px>Every day&lt;/span > &lt;span color=#383A3D font-size=48px>%1$s&lt;/span > &lt;span color=#383A3D font-size=32px>Next day&lt;/span > &lt;span color=#383A3D font-size=48px>%2$s&lt;/span >"</string>
+    <string name="charge_pre_time_title">Schedule charging</string>
+    <string name="charge_start">Start Charging</string>
+    <string name="charge_status_battery_fault">Power battery fault</string>
+    <string name="charge_status_booking">Scheduling</string>
+    <string name="charge_status_boosting">Boost charging</string>
+    <string name="charge_status_charging">Charging</string>
+    <string name="charge_status_charging_done">Charging stopped</string>
+    <string name="charge_status_charging_fault">Charging fault</string>
+    <string name="charge_status_discharging">V2L in progress</string>
+    <string name="charge_status_discharging_done">V2L ended</string>
+    <string name="charge_status_discharging_fault">V2L fault</string>
+    <string name="charge_status_preheating">Regulating battery temperature…</string>
+    <string name="charge_status_super_fast_charging">Fast charging...</string>
+    <string name="charge_stop">Stop Charging</string>
+    <string name="charge_temperature_tips">Temperature Adjusting. Wait patiently…</string>
+    <string name="charging_cap">Charging hatch</string>
+    <string name="child_lock_left">Left child lock</string>
+    <string name="child_lock_right">Right child lock</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="climate_light">All-weather lights</string>
+    <string name="close_all">Turn Off All</string>
+    <string name="close_card">Close card</string>
+    <string name="close_window">Close windows</string>
+    <string name="commuting_found_route">Explore commuting mode</string>
+    <string name="commuting_route_discover">Commute route found</string>
+    <string name="commuting_route_in_memory">Memorizing commute route</string>
+    <string name="commuting_route_manager">Route management</string>
+    <string name="commuting_route_memorized_little">Commute route memorized%1$s</string>
+    <string name="config_recentsComponentName">com.android.launcher3/com.android.quickstep.RecentsActivity</string>
+    <string name="confirm">OK</string>
+    <string name="confirm_remove">Do you want to uninstall %s?</string>
+    <string name="confirm_start_app">Open</string>
+    <string name="confirm_uninstall">Do you want to uninstall %s?</string>
+    <string name="connect_bluetooth_first">Connect a Bluetooth device</string>
+    <string name="connect_usb">Plug in a USB device</string>
+    <string name="connect_usb_first">Plug in a USB device</string>
+    <string name="copilot_massage">Passenger massage</string>
+    <string name="copilot_rest">Front passenger rest</string>
+    <string name="cube_debug">Playground</string>
+    <string name="customize_scenario_add_tips">最多只能添加4个场景，请先删减后再添加</string>
+    <string name="customize_scenario_to_add">去添加</string>
+    <string name="customize_scenario_to_create">去创建</string>
+    <string name="customize_scenario_to_login">请先登录账号</string>
+    <string name="day_friday">Friday</string>
+    <string name="day_monday">Monday</string>
+    <string name="day_saturday">Saturday</string>
+    <string name="day_sunday">Sunday</string>
+    <string name="day_thursday">Thursday</string>
+    <string name="day_tuesday">Tuesday</string>
+    <string name="day_wednesday">Wednesday</string>
+    <string name="debug_window_unlocked_text">调试模式</string>
+    <string name="dln_empty_text">Screen casting…</string>
+    <string name="dln_empty_text2">Casting not enabled</string>
+    <string name="dock_forced_resizable">App may not work with split-screen.</string>
+    <string name="dock_non_resizeble_failed_to_dock_text">App does not support split-screen.</string>
+    <string name="done">Done</string>
+    <string name="download_paused">Paused</string>
+    <string name="download_pending">Preparing to download…</string>
+    <string name="download_progress">Downloading…</string>
+    <string name="drag_tip">Tap and hold to drag the feature to the left control bar. You can also replace or sort existing features while dragging</string>
+    <string name="drag_tip_right">Tap and hold to drag the feature to the right control bar. You can also replace or sort existing features while dragging</string>
+    <string name="driver_massage">Driver massage</string>
+    <string name="driver_rest">Driver rest</string>
+    <string name="edit_at_most">Up to 5 features can be added. Delete some and try again</string>
+    <string name="error_a11y_label">Error: invalid</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exclusive_child_lock">专属童锁</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="favoriteslist">Favorites</string>
+    <string name="fm_app_name">Radio</string>
+    <string name="fold_rear_mirror">Fold side mirrors</string>
+    <string name="forced_resizable_secondary_display">App may not work on a secondary display.</string>
+    <string name="front_charging_cap">Front charging hatch</string>
+    <string name="gallery_empty_text">"For additional gallery resources,
+open the app"</string>
+    <string name="glove_box">Glove box</string>
+    <string name="gps_permission_denied">No permission to access location</string>
+    <string name="gps_permission_setting">Settings</string>
+    <string name="hello_widget">Hello desktop widget</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hood">Front hood</string>
+    <string name="hud">Adjust HUD</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="image_control">镜像控制</string>
+    <string name="image_control_view_pager_txt">后屏掌控</string>
+    <string name="indicator_color_error">指示器的颜色只能设置成“@color/colorID or #000000”</string>
+    <string name="install_progress">Installing...</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="km">km</string>
+    <string name="launch_control">Launch control</string>
+    <string name="launcher_card_default_positive">查看详情</string>
+    <string name="launcher_card_default_text">你想要的，Eva 都懂</string>
+    <string name="launcher_card_default_title">Eva 推荐</string>
+    <string name="launcher_card_permission_positive">去开启</string>
+    <string name="launcher_card_permission_subtext">开启以获取更精确的个性化建议</string>
+    <string name="launcher_card_permission_text">智能建议</string>
+    <string name="left_dock_cancel">Cancel</string>
+    <string name="left_dock_close">Close</string>
+    <string name="left_dock_edit">Edit</string>
+    <string name="left_opposite_door">Left doors</string>
+    <string name="left_switch_disabled">Left switch disabled</string>
+    <string name="left_window_lock">LR window child lock</string>
+    <string name="lightShow_alert_message">For your driving safety, do not use light signal while parking</string>
+    <string name="lightShow_card_title">Card_Signature</string>
+    <string name="lightShow_title">Say hello</string>
+    <string name="light_show">Say hello</string>
+    <string name="load_fail">加载失败</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="loading">正在加载...</string>
+    <string name="lock_all">全部上锁</string>
+    <string name="low_speed_alert">Pedestrian warning sound</string>
+    <string name="lyric_loading">Loading lyrics...</string>
+    <string name="m3_ref_typeface_brand_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_brand_regular">sans-serif</string>
+    <string name="m3_ref_typeface_plain_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_plain_regular">sans-serif</string>
+    <string name="m3_sys_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_accelerate">cubic-bezier(0.3, 0, 0.8, 0.2)</string>
+    <string name="m3_sys_motion_easing_emphasized_decelerate">cubic-bezier(0.1, 0.7, 0.1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_path_data">M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1</string>
+    <string name="m3_sys_motion_easing_legacy">cubic-bezier(0.4, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_accelerate">cubic-bezier(0.4, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_decelerate">cubic-bezier(0, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_linear">cubic-bezier(0, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard">cubic-bezier(0.2, 0, 0, 1)</string>
+    <string name="m3_sys_motion_easing_standard_accelerate">cubic-bezier(0.3, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard_decelerate">cubic-bezier(0, 0, 0, 1)</string>
+    <string name="manage_bubbles_text">Manage</string>
+    <string name="mask_card_energy_title"> Consumption</string>
+    <string name="mask_card_tire_title"> Tire Pressure</string>
+    <string name="mask_card_trip_title"> Trip</string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_24h_suffix">%1$s hours</string>
+    <string name="material_hour_selection">Select hour</string>
+    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_minute_selection">Select minutes</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="material_slider_range_end">Range end</string>
+    <string name="material_slider_range_start">Range start</string>
+    <string name="material_slider_value">Value</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Switch to clock mode for the time input.</string>
+    <string name="material_timepicker_hour">Hour</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Select time</string>
+    <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="media_app_name">Z-share</string>
+    <string name="media_bilibili_title">Watch together</string>
+    <string name="media_cancel">取消</string>
+    <string name="media_confirm">确定打开</string>
+    <string name="media_data_exception">Loading failed</string>
+    <string name="media_data_retry">Reload</string>
+    <string name="media_dln_open">Go to Screen Mirroring</string>
+    <string name="media_dln_play_stoped">Screen casting</string>
+    <string name="media_dln_playing">Screen casting…</string>
+    <string name="media_empty_artist">--</string>
+    <string name="media_empty_title_unknown">Unknown</string>
+    <string name="media_float_lyric_window">Floating Lyrics</string>
+    <string name="media_gallery_subtitle">Open gallery</string>
+    <string name="media_gallery_title">Browsing gallery</string>
+    <string name="media_leishi_title">"Let's sing together"</string>
+    <string name="media_list_data_empty">List unavailable</string>
+    <string name="media_list_empty_recommend">Recommendation unavailable</string>
+    <string name="media_loading">Loading...</string>
+    <string name="media_lyric_double_line">双</string>
+    <string name="media_lyric_single_line">单</string>
+    <string name="media_netease_playlist_title">You may also like</string>
+    <string name="media_no_lrc_label">Lyrics unavailable</string>
+    <string name="media_open_app">Enter app</string>
+    <string name="media_recommend_playlist">Hot Playlist</string>
+    <string name="media_recommend_radio">Recommended Stations</string>
+    <string name="media_resume_ktv">Resume K-Singing</string>
+    <string name="media_resume_play">Continue Playing</string>
+    <string name="media_switch_ktv_calling">通话中，请挂断后重试</string>
+    <string name="media_switch_when_hfpcall">Bluetooth call in progress, try again later</string>
+    <string name="media_title_init">Play some music</string>
+    <string name="media_to_iqiyi_video">Go to iQIYI</string>
+    <string name="media_to_leishi_ktv">Go to LEISHI KTV</string>
+    <string name="media_to_migu_video">Go to Migu Video</string>
+    <string name="media_video_none_title">Watch together</string>
+    <string name="media_video_playing">Video Media Playing</string>
+    <string name="meida_tip_backrest_is_running">后排屏正在使用此App，若继续打开将中断对方使用</string>
+    <string name="meida_tip_csd_is_running">前排屏正在使用此App，若继续打开将中断对方使用</string>
+    <string name="memory_using">Memory Usage</string>
+    <string name="meter">m</string>
+    <string name="mirror_control_function_while_driving">为了您和他人的安全，请不要在驾驶过程中使用镜像控制功能</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_checkbox_button_icon_path_checked">M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z</string>
+    <string name="mtrl_checkbox_button_icon_path_group_name">icon</string>
+    <string name="mtrl_checkbox_button_icon_path_indeterminate">M13.4,15 11,15 11,17 13.4,17 21,17 21,15z</string>
+    <string name="mtrl_checkbox_button_icon_path_name">icon path</string>
+    <string name="mtrl_checkbox_button_path_checked">M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z</string>
+    <string name="mtrl_checkbox_button_path_group_name">button</string>
+    <string name="mtrl_checkbox_button_path_name">button path</string>
+    <string name="mtrl_checkbox_button_path_unchecked">M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z M23,23H9V9h14V23z</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Partially checked</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_range_selection">Start date selection: %1$s – End date selection: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">none</string>
+    <string name="mtrl_picker_cancel">Cancel</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_end_date_description">End date %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Navigate to current year %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$d</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_start_date_description">Start date %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">Today %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to Calendar view</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to year view</string>
+    <string name="mtrl_switch_thumb_group_name">circle_group</string>
+    <string name="mtrl_switch_thumb_path_checked">M4,16 A12,12 0 0,1 16,4 H16 A12,12 0 0,1 16,28 H16 A12,12 0 0,1 4,16</string>
+    <string name="mtrl_switch_thumb_path_morphing">M0,16 A11,11 0 0,1 11,5 H21 A11,11 0 0,1 21,27 H11 A11,11 0 0,1 0,16</string>
+    <string name="mtrl_switch_thumb_path_name">circle</string>
+    <string name="mtrl_switch_thumb_path_pressed">M2,16 A14,14 0 0,1 16,2 H16 A14,14 0 0,1 16,30 H16 A14,14 0 0,1 2,16</string>
+    <string name="mtrl_switch_thumb_path_unchecked">M8,16 A8,8 0 0,1 16,8 H16 A8,8 0 0,1 16,24 H16 A8,8 0 0,1 8,16</string>
+    <string name="mtrl_switch_track_decoration_path">M1,16 A15,15 0 0,1 16,1 H36 A15,15 0 0,1 36,31 H16 A15,15 0 0,1 1,16</string>
+    <string name="mtrl_switch_track_path">M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16</string>
+    <string name="mtrl_timepicker_cancel">Cancel</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="multichannel_stream_media">全车视野补盲</string>
+    <string name="music_no_lyric_keyword1">无歌词</string>
+    <string name="music_no_lyric_keyword2">纯音乐</string>
+    <string name="music_no_lyric_keyword3">暂不支持歌词</string>
+    <string name="netease_app_name">NetEase Cloud Music</string>
+    <string name="netease_version_low_empty_list">"List unavailable
+Open App Center to update the app"</string>
+    <string name="netease_version_low_empty_lyric">"Lyrics unavailable
+Open App Center to update the app"</string>
+    <string name="netease_version_low_empty_recommend">"Recommendations unavailable
+Open App Center to update the app"</string>
+    <string name="no_connect_bluetooth">No Bluetooth device connected</string>
+    <string name="no_connecting">Not Connected Yet</string>
+    <string name="no_data_to_add">暂无可添加场景</string>
+    <string name="no_recent_apps">No recently used apps</string>
+    <string name="no_scene">暂无场景</string>
+    <string name="noa_pop_quick_active">点击按钮开始辅助驾驶</string>
+    <string name="noa_pop_quick_button">开始</string>
+    <string name="nomic_card_ktv_name">无麦K歌</string>
+    <string name="nomic_ktv_abf_site0">主驾</string>
+    <string name="nomic_ktv_abf_site1">副驾</string>
+    <string name="nomic_ktv_abf_site2">后排左</string>
+    <string name="nomic_ktv_abf_site3">后排右</string>
+    <string name="nomic_ktv_closed">无麦K歌已关闭</string>
+    <string name="nomic_ktv_ef4s_site0">商务舱左</string>
+    <string name="nomic_ktv_ef4s_site1">商务舱右</string>
+    <string name="nomic_ktv_ef6s_site0">主驾</string>
+    <string name="nomic_ktv_ef6s_site1">副驾</string>
+    <string name="nomic_ktv_ef6s_site2">二排左</string>
+    <string name="nomic_ktv_ef6s_site3">二排右</string>
+    <string name="nomic_ktv_ef6s_site4">三排左</string>
+    <string name="nomic_ktv_ef6s_site5">三排右</string>
+    <string name="nomic_ktv_empty" />
+    <string name="nomic_ktv_human_val_mute_toast_tips">麦克风音量当前为0，请调大音量后使用</string>
+    <string name="nomic_ktv_human_vol">人声音量</string>
+    <string name="nomic_ktv_mix_vol">混响效果</string>
+    <string name="nomic_ktv_name">无麦K歌</string>
+    <string name="nomic_ktv_one_site_toast_tips">至少保留一个音区</string>
+    <string name="nomic_ktv_opened">无麦K歌已开启</string>
+    <string name="nomic_ktv_site_area">收音区域选择</string>
+    <string name="nomic_ktv_turn_off">关闭无麦K歌</string>
+    <string name="nomic_ktv_withline">请断开外接麦克风设备后重试</string>
+    <string name="notification_bubble_title">Bubble</string>
+    <string name="notification_channel_tv_pip">Picture-in-Picture</string>
+    <string name="nzp_string_array_1">Driving Assist disabled</string>
+    <string name="nzp_string_array_10">Right lane change failed</string>
+    <string name="nzp_string_array_11">Left lane change failed</string>
+    <string name="nzp_string_array_12">About to leave NOA section</string>
+    <string name="nzp_string_array_13">Take over now</string>
+    <string name="nzp_string_array_14">Safe parking in progress</string>
+    <string name="nzp_string_array_15">Take over the car</string>
+    <string name="nzp_string_array_16">Take over now</string>
+    <string name="nzp_string_array_17">Hold the steering wheel</string>
+    <string name="nzp_string_array_18">Focus on the road ahead</string>
+    <string name="nzp_string_array_19">Toggle turn signal lever to change lane</string>
+    <string name="nzp_string_array_2">NOA is about to start...</string>
+    <string name="nzp_string_array_20">NOA in progress</string>
+    <string name="nzp_string_array_21">Downgraded to LCC Plus</string>
+    <string name="nzp_string_array_22">LCC deactivated</string>
+    <string name="nzp_string_array_23">LCC Plus canceled</string>
+    <string name="nzp_string_array_24">NOA canceled</string>
+    <string name="nzp_string_array_3">NOA activated</string>
+    <string name="nzp_string_array_4">LCC Plus activated</string>
+    <string name="nzp_string_array_5">LCC active</string>
+    <string name="nzp_string_array_6">Accelerating</string>
+    <string name="nzp_string_array_7">Lane change in progress</string>
+    <string name="nzp_string_array_8">Lane change canceled</string>
+    <string name="nzp_string_array_9">Lane change completed</string>
+    <string name="one_click_breath">Air ventilation</string>
+    <string name="one_click_breath_on">Close windows</string>
+    <string name="one_click_close_door">Close all doors</string>
+    <string name="one_click_drift">Drift</string>
+    <string name="one_handed_tutorial_description">To exit, swipe up from the bottom of the screen or tap anywhere above the app</string>
+    <string name="one_handed_tutorial_title">Using one-handed mode</string>
+    <string name="onlineradio_app_name">YunTing</string>
+    <string name="open_car3d">Open car model</string>
+    <string name="open_card">Open card</string>
+    <string name="open_map">Open Navigation</string>
+    <string name="open_window">Open all windows</string>
+    <string name="open_window_on">Close windows</string>
+    <string name="outside_close">点击空白处关闭</string>
+    <string name="oversea_online_media_app_name">Online media</string>
+    <string name="parking_comfort">Parking comfort</string>
+    <string name="part_glass">Partition glass lowering</string>
+    <string name="part_glass_on">Partition glass rising</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="phone_charge">Wireless phone charging</string>
+    <string name="pip_close">Close PIP</string>
+    <string name="pip_fullscreen">Full screen</string>
+    <string name="pip_menu_bounds">596 280 1324 690</string>
+    <string name="pip_menu_title">Menu</string>
+    <string name="pip_notification_message">"If you don't want %s to use this feature, tap to open settings and turn it off."</string>
+    <string name="pip_notification_title">%s is in picture-in-picture</string>
+    <string name="pip_notification_unknown_title">(No title program)</string>
+    <string name="pip_pause">Pause</string>
+    <string name="pip_phone_close">Close</string>
+    <string name="pip_phone_dismiss_hint">Drag down to dismiss</string>
+    <string name="pip_phone_enter_split">Enter split screen</string>
+    <string name="pip_phone_expand">Expand</string>
+    <string name="pip_phone_minimize">Minimize</string>
+    <string name="pip_phone_settings">Settings</string>
+    <string name="pip_play">Play</string>
+    <string name="pip_skip_to_next">Skip to next</string>
+    <string name="pip_skip_to_prev">Skip to previous</string>
+    <string name="position_light">Position light</string>
+    <string name="prompt_drift_condition_battery_power">Vehicle battery >= 20%</string>
+    <string name="prompt_drift_condition_cancel">Not now</string>
+    <string name="prompt_drift_condition_check_title">Enabling conditions</string>
+    <string name="prompt_drift_condition_confirm">Enable drift</string>
+    <string name="prompt_drift_condition_drive_mode">Switch drive mode to sport</string>
+    <string name="prompt_drift_condition_drive_system">Drive system normal</string>
+    <string name="prompt_drift_condition_esc_system">ESC system normal</string>
+    <string name="prompt_drift_condition_hot_manage_system">Thermal management system normal</string>
+    <string name="prompt_drift_condition_safety_belt">Driver and passenger seat belts are fastened</string>
+    <string name="prompt_drift_condition_speed">Speed &lt; 7 km/h</string>
+    <string name="prompt_drift_condition_steering_system">Steering system normal</string>
+    <string name="prompt_drift_condition_tire_pressure_system">Tire pressure system is normal</string>
+    <string name="prompt_drift_control_accept">Agree</string>
+    <string name="prompt_drift_disable_tips">Launch control enabled, drift temporarily unavailable</string>
+    <string name="prompt_drift_error_tips">"Please ensure the following conditions are met and try again
+ 1. Battery > 20%
+ 2. Vehicle in D gear
+ 3. All occupants have fastened seat belts
+ 4. Drive system, ESC system, steering system, tire pressure system, and thermal management system are normal
+ 5. Sport mode switch is successful
+"</string>
+    <string name="prompt_drift_error_title">Failed to enable drift</string>
+    <string name="prompt_drift_i_know">Got it</string>
+    <string name="prompt_drift_tips" formatted="false">"Notes:
+ 1. This feature can only be enabled on racetracks or professional venues that comply with national safety standards. Do not enable it on public roads or unsafe places.
+ 2. When enabling drift, it is recommended to use the original drifting kit to ensure safety. Any damage to components due to improper use and overuse of drift are not covered by the warranty.
+ 3. Drift requires advanced driving skills. Drivers need to have more than 3 years of driving experience . The driver shall assume full responsibility for any damage incurred due to improper operation or unauthorized modifications.
+ 
+ Instructions:
+ 1. This feature requires the driving mode to be set to “Sport” and the vehicle speed to be less than &lt;7 km/h. Ensure that all occupants have their seat belts fastened before activation. Seat belts must remain fastened at all times. If any seat belt is unfastened during a stop, drift mode will automatically exit.
+ 2. This feature can only be activated if the battery is > 20% SOC. If SOC &lt;is less than 20%, it will automatically exit;
+ 3. This feature can only be activated when the entire vehicle system is normal. If there is any abnormality, it will automatically exit;
+ 
+ After one-touch drifting feature is enabled:
+ 1. E-pedal and Autohold features are turned off by default;
+ 2. Automatically switches to “Sport” mode;
+ 3. ESC feature is turned off;
+ 4. Low regenerative braking level;
+ 5. Launch Control feature is automatically turned off (if this feature was activated).
+ 
+ Do you fully understand and agree to the above content?"</string>
+    <string name="prompt_drift_tips_cs1e" formatted="false">" Notes:
+ 1. Drift is only intended for use on racetracks or professional venues that comply with national safety standards. Do not activate it on public roads or unsafe places.
+ 2. When enabling drift, it is recommended to use the original drifting kit to ensure safety. Any damage to components due to improper use or overuse of drift is not covered by the warranty.
+ 3. Drift should be operated by a veteran with professional driving skills and at least 3 years of driving experience. The driver shall assume full responsibility for any damage incurred due to improper operation or unauthorized modifications.
+ 
+ Instructions:
+ 1. To enable drift, enter Sport drive mode with a speed &lt; 7 km/h, and ensure both the driver and passengers have securely fastened seat belts. Ensure that all seatbelts are fastened throughout the trip. Otherwise, the feature is disabled automatically.
+ 2. Drift can only be enabled when the battery SOC is no less than 20%. It automatically disables when the SOC is &lt; 20%.
+ 3. Drift can only be enabled when the entire car system works properly. In case of any faults, Drift is disabled.
+ 
+ After drift is enabled:
+ 1. Stop mode is switched to Creep;
+ 2. Autohold is disabled by default;\\n 3. The drive mode automatically switches to Sport;
+ 4. ESC is disabled;
+ 5. The regenerative braking level is switched to Low;
+ 6. Some driving assist and parking assist features will be disabled or restricted. Refer to User Manual for details;
+ 
+ Do you fully understand and agree to the above content? "</string>
+    <string name="prompt_drift_title">Drift user notice</string>
+    <string name="prompt_guest_mode_tips">Feature unavailable in guest mode. Disable guest mode and try again</string>
+    <string name="prompt_launch_control_accept">Agree and proceed</string>
+    <string name="prompt_launch_control_content">"Warning: During launch control, you should maintain control of the vehicle and ensure the driving and usage environment is safe. Please only operate under safe conditions. Continuous use of launch control may result in a reduction in the vehicle's drive and braking system performance. Please exercise caution when using this feature. To ensure driving safety, please disable the feature when it is not in use.
+
+Notes:
+1. To enable launch control, shift to PARK, close all doors, and ensure both the driver and passengers have their seat belts fastened properly.
+2. Ensure the vehicle's powertrain is at normal temperature and the battery is sufficiently charged.
+3. Disable smart driving features, center the steering wheel, release the electronic parking brake, and shift to DRIVE. 
+ 
+Instructions:
+1. Tap the Launch control button.
+2. Fully press the brake pedal first, fully press the accelerator pedal, and release the brake pedal completely within 4s after the dashboard shows Launch control enabled. Then the vehicle will launch with great acceleration. (If the dashboard shows Failed to enable launch control, check the vehicle status following the instructions on the center display.)
+ 
+Do you fully understand and agree to the above content?"</string>
+    <string name="prompt_launch_control_cs1e_content">"Warning: During launch control, the driver is responsible for maintaining control of the vehicle at all times and ensuring the driving and usage environment is safe. Please only operate under safe conditions. Continuous use of launch control may result in a reduction in the vehicle's drive and braking system performance. Please exercise caution when using this feature. To ensure driving safety, please disable the feature when it is not in use.
+Notes: 
+1. Launch control shall be enabled while the vehicle is parked. Please ensure the doors are closed and the driver and passengers have their seat belts fastened properly. 
+2. Ensure the vehicle's power system is at normal temperature and the battery is sufficiently charged. 
+3. Disable smart driving features, center the steering wheel, release the electronic parking brake, and shift to Drive.
+Instructions:
+1. Tap the Launch control button. 
+2. Fully press the brake pedal first, then fully press the accelerator pedal and release the brake pedal completely within 4 seconds. The vehicle will launch with great acceleration.
+3. To offer an optimal experience, the drive mode will automatically switch to Sport after the feature is enabled.
+Do you fully understand and agree to the above content?"</string>
+    <string name="prompt_launch_control_disable_tips">Drift enabled, launch control temporarily unavailable</string>
+    <string name="prompt_launch_control_race_content">"Warning: During launch control, the driver is responsible for maintaining control of the vehicle at all times and ensuring the driving and usage environment is safe. Please only operate under safe conditions. Continuous use of launch control may result in a reduction in the vehicle's drive and braking system performance. Please exercise caution when using this feature. To ensure driving safety, please disable the feature when it is not in use.
+ 
+Notes: 
+1. The launch control feature shall be enabled while the vehicle is parked. Please ensure the doors are closed and the driver and passengers have their seat belts fastened properly. 
+2. Ensure the vehicle's power system is at normal temperature and the battery is sufficiently charged. 
+3. Disable smart driving features, straighten the steering wheel, release the electronic parking brake, and shift to Drive. 
+ 
+ Instructions: 
+1. Tap the Launch control button. 
+2. Fully press the brake pedal first, then fully press the accelerator pedal and release the brake pedal completely within 4 seconds. The vehicle will launch with great acceleration.
+ 3 To ensure the best experience, the driving mode will automatically switch to “Sport mode” after the feature is enabled. After the feature is disabled, it will remain in sport mode. Switching to other driving modes will automatically disable the Launch control feature. (In ZEEKR Track - Vehicle control activation available, it will not switch to sport mode.)
+ 4. Once enabled, ZEEKR track-drift mode will be unavailable. 
+ 
+Do you fully understand and agree to the above content?"</string>
+    <string name="prompt_launch_control_title">Launch control user notice</string>
+    <string name="prompt_rear_fog_lamps_tips">请开启近光灯后再使用</string>
+    <string name="prompt_saving_mode_tips">Feature unavailable in super ECO mode. Disable this mode and try again</string>
+    <string name="prompt_trunk_open_confirm">Tap again to open the trunk</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="qq_app_name">QQ Music</string>
+    <string name="racing_mode">Race mode</string>
+    <string name="rear_charging_cap">Rear charging hatch</string>
+    <string name="rear_fog_lamps">Rear fog light</string>
+    <string name="recent_apps">Recents</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="remove">Remove</string>
+    <string name="remove_mini_app">Remove Mini Program</string>
+    <string name="reset_internet">Network restart</string>
+    <string name="restart_button_description">Tap to restart this app and go full screen.</string>
+    <string name="right_opposite_door">Right doors</string>
+    <string name="right_switch_disabled">Right switch disabled</string>
+    <string name="right_window_lock">RR window child lock</string>
+    <string name="scarp_cruised">Hill descent control</string>
+    <string name="scenario_customize_auto_title">自动场景</string>
+    <string name="scenario_customize_card_title">场景工坊</string>
+    <string name="scenario_customize_edit_cancel">取消</string>
+    <string name="scenario_customize_edit_finish">完成</string>
+    <string name="scenario_customize_edit_group_custom_label">自定义</string>
+    <string name="scenario_customize_edit_tips">长按可拖动场景到左边卡片内</string>
+    <string name="scenario_customize_manual_title">手动场景</string>
+    <string name="search_menu_title">Search</string>
+    <string name="searchbar_scrolling_view_behavior">com.google.android.material.search.SearchBar$ScrollingViewBehavior</string>
+    <string name="searchview_clear_text_content_description">Clear text</string>
+    <string name="searchview_navigation_content_description">Back</string>
+    <string name="see_back_row">宝贝照看</string>
+    <string name="see_more">查看更多</string>
+    <string name="sensors_analytics_ad_channel">当前为渠道包，无法使用联调诊断工具</string>
+    <string name="sensors_analytics_ad_create_link_callback_missing">未设置回调对象</string>
+    <string name="sensors_analytics_ad_create_link_channel_name_missing">渠道名缺少</string>
+    <string name="sensors_analytics_ad_create_link_common_redirect_url_missing">通用跳转链接缺少</string>
+    <string name="sensors_analytics_ad_create_link_custom_url_error">自定义域名未填写或者格式不对</string>
+    <string name="sensors_analytics_ad_create_link_no_network">没有检测到网络连接</string>
+    <string name="sensors_analytics_ad_create_link_response_data_error">后端返回数据异常</string>
+    <string name="sensors_analytics_ad_create_link_success">Slink 创建成功</string>
+    <string name="sensors_analytics_ad_create_link_template_id_missing">Slink 模板 ID 缺少</string>
+    <string name="sensors_analytics_ad_create_link_token_missing">token 缺少</string>
+    <string name="sensors_analytics_ad_dialog_activate">激活</string>
+    <string name="sensors_analytics_ad_dialog_cancel">取消</string>
+    <string name="sensors_analytics_ad_dialog_content">此模式下不需要卸载 App，点击“激活”按钮可反复触发激活</string>
+    <string name="sensors_analytics_ad_dialog_ok">确定</string>
+    <string name="sensors_analytics_ad_dialog_starting">即将开启联调模式</string>
+    <string name="sensors_analytics_ad_dialog_title">成功开启调试模式</string>
+    <string name="sensors_analytics_ad_error_debug_fail_content">"1. 开启 App 时拒绝“电话”授权；
+ + 2. 手机系统权限设置中是否关闭“电话”授权；
+ + 3. 请联系研发人员确认是否“调用 trackInstallation 接口在获取“电话”授权之后。
+
+  + 排查修复后，请先卸载应用并重新安装，再扫码进行联调。"</string>
+    <string name="sensors_analytics_ad_error_debug_fail_title">检测到 “设备码为空”，可能原因如下，请排查：</string>
+    <string name="sensors_analytics_ad_error_network">当前网络不可用，请检查网络！</string>
+    <string name="sensors_analytics_ad_error_project">App 集成的项目与电脑浏览器打开的项目不同，无法使用联调诊断工具</string>
+    <string name="sensors_analytics_ad_error_request">网络异常,请求失败!</string>
+    <string name="sensors_analytics_ad_error_retry">无法重连，请检查是否更换了联调手机</string>
+    <string name="sensors_analytics_ad_error_url">数据接收地址错误，无法使用联调诊断工具</string>
+    <string name="sensors_analytics_ad_error_whitelist">添加白名单请求失败，请联系神策技术支持人员排查问题!</string>
+    <string name="sensors_analytics_ad_listener">未调用 setDeepLinkCompletion 方法设置回调函数</string>
+    <string name="sensors_analytics_ad_whitelist_platform_error">请使用 iOS 设备类型扫码</string>
+    <string name="sensors_analytics_ad_whitelist_project_error">设备白名单配置项目与事件上报项目不一致</string>
+    <string name="sensors_analytics_ad_whitelist_request_falied">请求失败，请重新扫码</string>
+    <string name="sensors_analytics_ad_whitelist_request_success">请求成功</string>
+    <string name="sensors_analytics_common_cancel">取消</string>
+    <string name="sensors_analytics_common_continue">继续</string>
+    <string name="sensors_analytics_common_no">不再提示</string>
+    <string name="sensors_analytics_common_ok">确定</string>
+    <string name="sensors_analytics_common_title">提示</string>
+    <string name="sensors_analytics_debug_and_track">开启调试模式（导入数据）</string>
+    <string name="sensors_analytics_debug_name_default">调试模式已关闭</string>
+    <string name="sensors_analytics_debug_name_only">当前为调试模式（不导入数据）</string>
+    <string name="sensors_analytics_debug_name_track">当前为测试模式（导入数据）</string>
+    <string name="sensors_analytics_debug_only">开启调试模式（不导入数据）</string>
+    <string name="sensors_analytics_debug_tip_off">已关闭调试模式，请重新扫描二维码进行开启</string>
+    <string name="sensors_analytics_debug_tip_only">开启调试模式，校验数据，但不进行数据导入；关闭 App 进程后，将自动关闭调试模式</string>
+    <string name="sensors_analytics_debug_tip_track">开启调试模式，校验数据，并将数据导入到神策分析中；关闭 App 进程后，将自动关闭调试模式</string>
+    <string name="sensors_analytics_debug_view_title">SDK 调试模式选择</string>
+    <string name="sensors_analytics_encrypt_disable">当前 App 未开启加密，请开启加密后再试</string>
+    <string name="sensors_analytics_encrypt_fail">密钥验证不通过，所选密钥无效</string>
+    <string name="sensors_analytics_encrypt_key_null">密钥验证不通过，App 端密钥为空</string>
+    <string name="sensors_analytics_encrypt_pass">密钥验证通过，所选密钥与 App 端密钥相同</string>
+    <string name="sensors_analytics_encrypt_sdk_fail">加密模块没有集成，请检查</string>
+    <string name="sensors_analytics_encrypt_verify_fail_type">密钥验证不通过，所选密钥类型与 App 端密钥类型不相同。所选密钥对称算法类型: %1$s，非对称算法类型: %2$s，App 端密钥对称算法类型: %3$s，非对称算法类型: %4$s</string>
+    <string name="sensors_analytics_encrypt_verify_fail_version">密钥验证不通过，所选密钥与 App 端密钥不相同。所选密钥版本: %1$s，App 端密钥版本: %2$s</string>
+    <string name="sensors_analytics_heatmap">点击分析</string>
+    <string name="sensors_analytics_heatmap_dialog_error">App 集成的项目与电脑浏览器打开的项目不同，无法进行点击分析</string>
+    <string name="sensors_analytics_heatmap_mobile_name">正在连接 App 点击分析，建议在 WiFi 环境下使用。</string>
+    <string name="sensors_analytics_heatmap_network_fail">已关闭网络请求（NetworkRequest），无法使用 App 点击分析，请开启后再试！</string>
+    <string name="sensors_analytics_heatmap_sdk_fail">SDK 没有被正确集成，请联系贵方技术人员开启点击分析。</string>
+    <string name="sensors_analytics_heatmap_wifi_name">正在连接 App 点击分析…</string>
+    <string name="sensors_analytics_popwindow_fail">测试弹窗加载失败，请确认网络或项目环境是否正常！</string>
+    <string name="sensors_analytics_remote_config">开始获取采集控制信息</string>
+    <string name="sensors_analytics_remote_fail">远程配置获取失败，请稍后重新扫描二维码</string>
+    <string name="sensors_analytics_remote_other_error">远程配置获取失败，请稍后再试</string>
+    <string name="sensors_analytics_remote_succeed">采集控制加载完成，可以通过 Android Studio 控制台日志来调试</string>
+    <string name="sensors_analytics_remote_tip_error_appid">当前 App 与二维码对应的 App 不同，无法进行调试</string>
+    <string name="sensors_analytics_remote_tip_error_disable_network">SDK 网络权限已关闭，请允许 SDK 访问网络</string>
+    <string name="sensors_analytics_remote_tip_error_disable_remote">远程配置已禁用，请开启远程配置</string>
+    <string name="sensors_analytics_remote_tip_error_network">网络连接失败，请检查设备网络，确认网络畅通后，请重新扫描二维码进行调试</string>
+    <string name="sensors_analytics_remote_tip_error_os">App 与二维码对应的操作系统不同，无法进行调试</string>
+    <string name="sensors_analytics_remote_tip_error_project">App 集成的项目与二维码对应的项目不同，无法进行调试</string>
+    <string name="sensors_analytics_remote_tip_error_qrcode">二维码信息校验失败，请检查采集控制是否配置正确</string>
+    <string name="sensors_analytics_remote_version_error">版本不一致</string>
+    <string name="sensors_analytics_remote_version_tip">获取到采集控制信息的版本：%1$s，二维码信息的版本：%2$s，请稍后重新扫描二维码</string>
+    <string name="sensors_analytics_visual">可视化全埋点</string>
+    <string name="sensors_analytics_visual_appid_error">本地缓存的 AppId 或 Project 与当前项目不一致</string>
+    <string name="sensors_analytics_visual_cache_error">本地缓存不包含该事件配置</string>
+    <string name="sensors_analytics_visual_cache_no_property_error">本地缓存无自定义属性配置</string>
+    <string name="sensors_analytics_visual_code_loading">开启中</string>
+    <string name="sensors_analytics_visual_code_title">请输入神策分析页面上的配对码</string>
+    <string name="sensors_analytics_visual_config_error">获取配置</string>
+    <string name="sensors_analytics_visual_dialog_error">App 集成的项目与电脑浏览器打开的项目不同，无法进行可视化全埋点。</string>
+    <string name="sensors_analytics_visual_event_error">事件配置</string>
+    <string name="sensors_analytics_visual_getProperty_error">获取属性元素</string>
+    <string name="sensors_analytics_visual_heatmap_sdk_fail">SDK 没有被正确集成，请联系贵方技术人员开启可视化全埋点。</string>
+    <string name="sensors_analytics_visual_mobile_name">正在连接 App 可视化全埋点，建议在 WiFi 环境下使用。</string>
+    <string name="sensors_analytics_visual_network_fail">已关闭网络请求（NetworkRequest），无法使用 App 可视化全埋点，请开启后再试！</string>
+    <string name="sensors_analytics_visual_other_error">其他错误</string>
+    <string name="sensors_analytics_visual_parseProperty_error">解析属性</string>
+    <string name="sensors_analytics_visual_property_error">%1$s 属性未找到属性元素，属性元素路径为 %2$s，属性元素位置为 %3$s</string>
+    <string name="sensors_analytics_visual_property_switch_error">自定义属性运维配置开关关闭</string>
+    <string name="sensors_analytics_visual_regex_error">%1$s 属性正则解析失败，元素内容 %2$s，正则表达式为 %3$s，属性类型为 %4$s</string>
+    <string name="sensors_analytics_visual_sa_flutter_error">此页面未集成 Flutter 全埋点 SDK 或 Flutter 全埋点 SDK 版本过低，请集成最新版 Flutter 全埋点 SDK</string>
+    <string name="sensors_analytics_visual_sa_h5">当前页面无法进行可视化全埋点</string>
+    <string name="sensors_analytics_visual_sa_h5_error">此页面未集成 Web JS SDK 或者 Web JS SDK 版本过低，请集成最新版 Web JS SDK</string>
+    <string name="sensors_analytics_visual_sa_h5_error_link">配置文档</string>
+    <string name="sensors_analytics_visual_sdk_fail">SDK 没有被正确集成，请联系贵方技术人员开启可视化全埋点。</string>
+    <string name="sensors_analytics_visual_switch_error">开关控制</string>
+    <string name="sensors_analytics_visual_wifi_name">正在连接 App 可视化全埋点…</string>
+    <string name="side_sheet_accessibility_pane_title">Side Sheet</string>
+    <string name="side_sheet_behavior">com.google.android.material.sidesheet.SideSheetBehavior</string>
+    <string name="smart_screen_app_name">Smart screen</string>
+    <string name="smart_screen_empty_text">Using media in the rear...</string>
+    <string name="smart_screen_in_use">In use...</string>
+    <string name="smart_screen_lock_text">Business class locked. Tap to unlock</string>
+    <string name="smart_screen_rear_media_app">Media application in the rear</string>
+    <string name="smart_screen_unlock_text">Tap to lock Business class audio playback</string>
+    <string name="sr_alarm_info_100000">"Forward looking camera obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100001">"Rear looking camera obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100002">"Front surround view camera obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100003">"Rear surround view camera obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100004">"Left surround view camera obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100005">"Right surround view camera obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100006">"Front ultrasonic sensors obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100007">"Rear ultrasonic sensors obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100008">"Forward looking radar obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100009">"Left front corner radar obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100010">"Right front corner radar obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100011">"Left rear corner radar obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100012">"Right rear corner radar obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100013">"Right rear corner radar obstructed 
+ Assisted driving functionality is reduced"</string>
+    <string name="sr_alarm_info_100100">"Forward looking camera fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100101">"Rear looking camera fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100102">"Front surround view camera fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100103">"Rear surround view camera fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100104">"Left surround view camera fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100105">"Right surround view camera fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100106">"Front ultrasonic sensor fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100107">"Rear ultrasonic sensor fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100108">"Forward looking radar fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100109">"Left front corner radar fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100110">"Right front corner radar fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100111">"Left rear corner radar fault 
+Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100112">"Right rear corner radar fault 
+Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100113">"Forward looking camera fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100200">"Forward looking camera fault 
+Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100201">"Rear looking camera fault 
+Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100202">"Front surround view camera fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100203">"Rear surround view camera fault 
+Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100204">"Left surround view camera fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100205">"Right surround view camera fault 
+Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100206">"Forward looking radar fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100207">"Left front corner radar fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100208">"Right front corner radar fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100209">"Left rear corner radar fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100210">"Right rear corner radar fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_100211">"Forward looking camera fault 
+Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_101000">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101001">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101002">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101003">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101004">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101005">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101100">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101101">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101102">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101103">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101104">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101105">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101106">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101107">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101108">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101109">Assisted driving functionality is reduced, contact ZEEKR official after-sales service</string>
+    <string name="sr_alarm_info_101200">"Map fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_101201">"Map fault 
+ Assisted driving functionality is reduced, contact ZEEKR official after-sales service"</string>
+    <string name="sr_alarm_info_101300">"Trailer attached 
+ Assisted driving functionality is reduced, see user manual for more information"</string>
+    <string name="sr_alarm_info_101301">Assisted driving functionality is reduced, see user manual for more information</string>
+    <string name="sr_alarm_info_20001">"NZP unavailable
+Unsupported drive mode"</string>
+    <string name="sr_alarm_info_20002">"NZP unavailable
+Seatbelt unfastened"</string>
+    <string name="sr_alarm_info_20003">"NZP unavailable
+Doors open"</string>
+    <string name="sr_alarm_info_20004">"NZP unavailable
+Gear not in D"</string>
+    <string name="sr_alarm_info_20005">"NZP unavailable
+Energy hatch open"</string>
+    <string name="sr_alarm_info_20007">"NZP unavailable
+High speed"</string>
+    <string name="sr_alarm_info_20008">"NZP unavailable
+Low battery"</string>
+    <string name="sr_alarm_info_20009">"NZP unavailable
+Stop and shift to P"</string>
+    <string name="sr_alarm_info_20012">NZP unavailable</string>
+    <string name="sr_alarm_info_20013">"NZP unavailable
+Electric parking brake engaged"</string>
+    <string name="sr_alarm_info_20015">"NZP unavailable
+Too close to front vehicle"</string>
+    <string name="sr_alarm_info_20016">"NZP unavailable
+Brake pedal pressed"</string>
+    <string name="sr_alarm_info_20017">"NZP unavailable
+Autohold activated"</string>
+    <string name="sr_alarm_info_20018">"NZP unavailable
+Tire pressure issue"</string>
+    <string name="sr_alarm_info_20019">"NZP unavailable
+Vehicle is off-center"</string>
+    <string name="sr_alarm_info_20021">"NZP unavailable
+Vehicle is misaligned"</string>
+    <string name="sr_alarm_info_20024">Please reactivate assisted driving features later</string>
+    <string name="sr_alarm_info_20028">NZP activated</string>
+    <string name="sr_alarm_info_20031">Downgraded to LCC</string>
+    <string name="sr_alarm_info_20032">Downgraded to LCC</string>
+    <string name="sr_alarm_info_20033">"Downgraded to LCC
+Intersection lane forks ahead"</string>
+    <string name="sr_alarm_info_20034">"Lane centering assist paused
+Steering manually controlled"</string>
+    <string name="sr_alarm_info_20038">NZP about to exit in 300m</string>
+    <string name="sr_alarm_info_20040">"NZP exited
+Take control of the car"</string>
+    <string name="sr_alarm_info_20041">Close doors</string>
+    <string name="sr_alarm_info_20048">Fasten seatbelt</string>
+    <string name="sr_alarm_info_20049">"NZP about to exit
+Heavy rain"</string>
+    <string name="sr_alarm_info_20050">"NZP exited
+Gear not in D"</string>
+    <string name="sr_alarm_info_20051">"NZP exited
+Electric parking brake engaged"</string>
+    <string name="sr_alarm_info_20052">"NZP exited
+ESC deactivated"</string>
+    <string name="sr_alarm_info_20053">"NZP about to exit
+Tire pressure issue"</string>
+    <string name="sr_alarm_info_20054">"NZP exited
+Unsupported power mode"</string>
+    <string name="sr_alarm_info_20055">"NZP exited
+Take control of the car"</string>
+    <string name="sr_alarm_info_20058">"NZP about to exit
+Low battery"</string>
+    <string name="sr_alarm_info_20061">"Driving assist cannot decelerate
+When accelerator is pressed"</string>
+    <string name="sr_alarm_info_20062">"NZP exited
+Too close to front vehicle"</string>
+    <string name="sr_alarm_info_20065">"Decelerating
+Driving in a sharp curve"</string>
+    <string name="sr_alarm_info_20069">"NZP exited
+Timeout"</string>
+    <string name="sr_alarm_info_20070">"Gently press on accelerator
+Resume driving"</string>
+    <string name="sr_alarm_info_20073">"Pull down turn signal
+Confirm overtaking"</string>
+    <string name="sr_alarm_info_20074">"Pull up turn signal
+Confirm overtaking"</string>
+    <string name="sr_alarm_info_20080">Lane change canceled</string>
+    <string name="sr_alarm_info_20086">Reduce speed</string>
+    <string name="sr_alarm_info_20087">Increase speed</string>
+    <string name="sr_alarm_info_20088">"Lane change canceled
+Timeout waiting"</string>
+    <string name="sr_alarm_info_20089">"Prepare to take control of the car
+Road conditions dangerous"</string>
+    <string name="sr_alarm_info_20091">Entering the ramp</string>
+    <string name="sr_alarm_info_20092">"Manually change lanes
+About to miss the exit ramp"</string>
+    <string name="sr_alarm_info_20093">"Changing lane
+Lane ahead blocked"</string>
+    <string name="sr_alarm_info_20094">"Manually change to the left lane
+Complex road conditions"</string>
+    <string name="sr_alarm_info_20095">"No response to change lanes
+Mismatch navigation route"</string>
+    <string name="sr_alarm_info_20097">Changing lanes to the optimal</string>
+    <string name="sr_alarm_info_20099">"Manually change lanes
+About to miss the exit ramp"</string>
+    <string name="sr_alarm_info_20100">Emergency braking</string>
+    <string name="sr_alarm_info_201000">"路线学习准备中
+移动车辆会导致学习失败"</string>
+    <string name="sr_alarm_info_201001">"路线学习准备完成
+可泊出车辆继续学习"</string>
+    <string name="sr_alarm_info_20102">"Prepare to take control of the car
+Obstacle ahead"</string>
+    <string name="sr_alarm_info_20103">Take control now</string>
+    <string name="sr_alarm_info_20104">Take control now</string>
+    <string name="sr_alarm_info_20105">"NZP exited
+High speed"</string>
+    <string name="sr_alarm_info_20109">Hold the steering wheel</string>
+    <string name="sr_alarm_info_20110">Hold the steering wheel</string>
+    <string name="sr_alarm_info_20111">Take control now</string>
+    <string name="sr_alarm_info_20119">"NZP unavailable
+Super power saving on"</string>
+    <string name="sr_alarm_info_20122">Caution: entrance vehicle</string>
+    <string name="sr_alarm_info_20133">Take control now</string>
+    <string name="sr_alarm_info_20135">"Take control now
+Function limited"</string>
+    <string name="sr_alarm_info_20137">Manually merge to the main road</string>
+    <string name="sr_alarm_info_20138">Caution: Road constructions in 200m</string>
+    <string name="sr_alarm_info_20139">Caution: obstacles ahead</string>
+    <string name="sr_alarm_info_20140">"NZP exited
+Take control of the car"</string>
+    <string name="sr_alarm_info_20141">Caution: obstacles risk ahead</string>
+    <string name="sr_alarm_info_20143">"Downgraded to LCC
+Funtion limited"</string>
+    <string name="sr_alarm_info_20144">"Downgraded to ACC
+Funtion limited"</string>
+    <string name="sr_alarm_info_20145">"Manually Change lanes
+Complex traffic flow"</string>
+    <string name="sr_alarm_info_20146">"Sensors calibrating
+Assisted driving features temporarily unavailable"</string>
+    <string name="sr_alarm_info_20147">"Pull down turn signal to change lanes
+Road ahead blocked"</string>
+    <string name="sr_alarm_info_20193">"NZP unavailable
+Function limited"</string>
+    <string name="sr_alarm_info_20194">Caution: Change lanes limited</string>
+    <string name="sr_alarm_info_20195">"NZP exited
+Take control of the car"</string>
+    <string name="sr_alarm_info_20196">"NZP exited
+LCC/NZP disabled for this drive"</string>
+    <string name="sr_alarm_info_20197">"Take control now
+Identifying available lanes"</string>
+    <string name="sr_alarm_info_20198">NZP resumed</string>
+    <string name="sr_alarm_info_20199">"Pull down turn signal to change lanes
+Enter the ramp soon"</string>
+    <string name="sr_alarm_info_20200">"Pull up turn signal to change lanes
+Front lane blocked"</string>
+    <string name="sr_alarm_info_20201">"Pull down turn signal
+Follow navigation route"</string>
+    <string name="sr_alarm_info_20202">"Pull up turn signal
+Follow navigation route"</string>
+    <string name="sr_alarm_info_20203">"Manually change lanes
+About to miss intersection"</string>
+    <string name="sr_alarm_info_20204">"Overtaking adjusted to standard
+Multiple lane change canceled/uncomfirmed"</string>
+    <string name="sr_alarm_info_20205">Overtaking consumed to agile mode</string>
+    <string name="sr_alarm_info_20206">"Overtaking canceled
+Multiple lane change canceled/uncomfirmed"</string>
+    <string name="sr_alarm_info_20207">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_20208">Avoiding large vehicle</string>
+    <string name="sr_alarm_info_20209">Detouring</string>
+    <string name="sr_alarm_info_20210">"Decelerating
+Vehicle is detouring"</string>
+    <string name="sr_alarm_info_20212">"Change lane to the left
+Follow navigation route"</string>
+    <string name="sr_alarm_info_20213">"Change lane to the right
+Follow navigation route"</string>
+    <string name="sr_alarm_info_20214">Hold the steering wheel</string>
+    <string name="sr_alarm_info_20215">Hold the steering wheel</string>
+    <string name="sr_alarm_info_20217">Hold the steering wheel</string>
+    <string name="sr_alarm_info_20218">"Manually change lanes
+Traffic jam ahead"</string>
+    <string name="sr_alarm_info_20219">Caution: obstacles ahead</string>
+    <string name="sr_alarm_info_20220">"Cannot accelerate
+Too close to front vehicle"</string>
+    <string name="sr_alarm_info_20221">"Assisted driving calibration done
+no calibration needed"</string>
+    <string name="sr_alarm_info_20222">Make appropriate turns on urban roads</string>
+    <string name="sr_alarm_info_20223">Drive straight on the urban roads</string>
+    <string name="sr_alarm_info_20224">"Calibration successful
+Will take effect next time when the vehicle powered on"</string>
+    <string name="sr_alarm_info_20225">"Calibration timeout
+Try again"</string>
+    <string name="sr_alarm_info_20226">"NZP unavailable
+ESC deactivated"</string>
+    <string name="sr_alarm_info_20227">"NZP unavailable
+Unsupported power mode"</string>
+    <string name="sr_alarm_info_20228">"NZP unavailable
+Interfering with steering wheel"</string>
+    <string name="sr_alarm_info_20229">"NZP unavailable
+Road ahead blocked"</string>
+    <string name="sr_alarm_info_20230">"NZP unavailable
+Obstacle ahead"</string>
+    <string name="sr_alarm_info_20231">"NZP unavailable
+Car Wash Mode on"</string>
+    <string name="sr_alarm_info_20232">"NZP exited
+Function limited"</string>
+    <string name="sr_alarm_info_20233">Caution: Pull down turn signal to change lanes</string>
+    <string name="sr_alarm_info_20234">Caution: Pull up turn signal to change lanes</string>
+    <string name="sr_alarm_info_20235">"Pull up turn signal
+Follow navigation route"</string>
+    <string name="sr_alarm_info_20236">"Pull down turn signal
+Follow navigation route"</string>
+    <string name="sr_alarm_info_20237">"Pull down turn signal
+Follow navigation route"</string>
+    <string name="sr_alarm_info_20238">"Pull up turn signal
+Follow navigation route"</string>
+    <string name="sr_alarm_info_20239">"Pull down turn signal
+Follow navigation route"</string>
+    <string name="sr_alarm_info_20240">"Pull up turn signal
+Follow navigation route"</string>
+    <string name="sr_alarm_info_20241">Overtaking to the left</string>
+    <string name="sr_alarm_info_20242">Overtaking to the right</string>
+    <string name="sr_alarm_info_20244">"Manually change lanes
+Lane ahead obstructed"</string>
+    <string name="sr_alarm_info_20245">"NZP exited
+Unsupported drive mode"</string>
+    <string name="sr_alarm_info_20246">"NZP exited
+Wash mode on"</string>
+    <string name="sr_alarm_info_20247">"Activate NZP later
+Function limited"</string>
+    <string name="sr_alarm_info_20248">"NZP unavailable
+No navigation route"</string>
+    <string name="sr_alarm_info_20249">"NZP unavailable
+Setting switched off"</string>
+    <string name="sr_alarm_info_20250">"NZP unavailable
+Current road unavailable"</string>
+    <string name="sr_alarm_info_20251">"NZP exited
+Super power saving on"</string>
+    <string name="sr_alarm_info_20252">Close Energy hatch</string>
+    <string name="sr_alarm_info_20253">"Pull down turn signal to change lanes
+Enter the fast lane soon"</string>
+    <string name="sr_alarm_info_20254">"Pull up turn signal to change lanes
+Enter the fast lane soon"</string>
+    <string name="sr_alarm_info_20255">Entering the fast lane</string>
+    <string name="sr_alarm_info_20256">"Pull down turn signal to change lanes
+Avoid right merge"</string>
+    <string name="sr_alarm_info_20257">"Change lane to the left
+Avoid right merge"</string>
+    <string name="sr_alarm_info_20258">Entering the merging lane</string>
+    <string name="sr_alarm_info_20259">"Pull up turn signal to change lanes
+merge onto the main road ahead"</string>
+    <string name="sr_alarm_info_20260">"Pull down turn signal to change lanes
+merge onto the main road ahead"</string>
+    <string name="sr_alarm_info_20261">"Change lane to the right
+Avoid left merge"</string>
+    <string name="sr_alarm_info_20262">"Pull up turn signal to change lanes
+Avoid left merge"</string>
+    <string name="sr_alarm_info_20265">Changing lanes to avoid risks</string>
+    <string name="sr_alarm_info_20268">Caution: cutting-in vehicle</string>
+    <string name="sr_alarm_info_20270">"Lane change canceled
+Road conditions dangerous"</string>
+    <string name="sr_alarm_info_20272">NZP about to exit in 100m</string>
+    <string name="sr_alarm_info_20273">"Decelerating
+Construction road"</string>
+    <string name="sr_alarm_info_20274">"Abnormal lane lines recognition
+Drive carefully"</string>
+    <string name="sr_alarm_info_20275">Watch out for pedestrians</string>
+    <string name="sr_alarm_info_20276">"Hold the steering wheel
+Lane change canceled"</string>
+    <string name="sr_alarm_info_20277">Caution：large vehicle</string>
+    <string name="sr_alarm_info_20278">Risk lane change waiting</string>
+    <string name="sr_alarm_info_20279">Caution: construction ahead</string>
+    <string name="sr_alarm_info_20283">Turn steering wheel gently</string>
+    <string name="sr_alarm_info_20284">Turn steering wheel gently</string>
+    <string name="sr_alarm_info_20285">Turn steering wheel gently</string>
+    <string name="sr_alarm_info_20286">Turn steering wheel gently</string>
+    <string name="sr_alarm_info_20287">"Turn steering wheel gently
+Lane change canceled"</string>
+    <string name="sr_alarm_info_20288">Caution: complex road conditions</string>
+    <string name="sr_alarm_info_20289">"Unable to change lanes actively now
+Map restricted"</string>
+    <string name="sr_alarm_info_20291">Try activate NZP later</string>
+    <string name="sr_alarm_info_20298">NZP resumed</string>
+    <string name="sr_alarm_info_20299">Assisted driving cannot be resumed</string>
+    <string name="sr_alarm_info_20300">"Assisted driving cannot be resumed
+Timed out"</string>
+    <string name="sr_alarm_info_20301">Caution: complex road conditions</string>
+    <string name="sr_alarm_info_20302">Caution: bumpy road</string>
+    <string name="sr_alarm_info_20303">Caution: slope</string>
+    <string name="sr_alarm_info_20304">"Unclear lane markings
+Drive carefully"</string>
+    <string name="sr_alarm_info_20305">Caution: sharp curve</string>
+    <string name="sr_alarm_info_20306">Complex road conditions ahead</string>
+    <string name="sr_alarm_info_20307">"Proceed in open environment
+Try activate NZP in 10 minutes"</string>
+    <string name="sr_alarm_info_20308">"NZP exited
+Drift mode on"</string>
+    <string name="sr_alarm_info_20309">"Assisted driving features activating
+Try again later"</string>
+    <string name="sr_alarm_info_20310">"NZP exited
+Suspension system fault"</string>
+    <string name="sr_alarm_info_20311">"Decelerating
+Toll station ahead"</string>
+    <string name="sr_alarm_info_20313">"NZP exited
+Take control of the car"</string>
+    <string name="sr_alarm_info_20314">%d m NZP about to exit</string>
+    <string name="sr_alarm_info_20315">"Assisted driving speed restriction
+Function limited"</string>
+    <string name="sr_alarm_info_20316">"Decelerating
+Merge ahead"</string>
+    <string name="sr_alarm_info_20317">"Decelerating
+Narrow lane ahead"</string>
+    <string name="sr_alarm_info_20318">Congestion mode engaged</string>
+    <string name="sr_alarm_info_20319">Headway to level 1 to enable congestion mode</string>
+    <string name="sr_alarm_info_20320">"NZP exited
+Electric tow bar not retracted"</string>
+    <string name="sr_alarm_info_20321">"NZP unavailable
+NZP map temporarily unavailable"</string>
+    <string name="sr_alarm_info_20322">"Route learning
+Driving assistance function temporarily unavailable"</string>
+    <string name="sr_alarm_info_20323">Double-tap to activate NZP</string>
+    <string name="sr_alarm_info_20324">Double-click to activate NZP</string>
+    <string name="sr_alarm_info_20325">"Decelerating
+Blind Spot ahead"</string>
+    <string name="sr_alarm_info_20326">"Decelerating
+Pedestrian ahead"</string>
+    <string name="sr_alarm_info_20327">Decelerating</string>
+    <string name="sr_alarm_info_20504">Red light ahead - Stop required</string>
+    <string name="sr_alarm_info_20505">Green light ahead - Resume drive</string>
+    <string name="sr_alarm_info_20506">Caution: traffic lights ahead</string>
+    <string name="sr_alarm_info_20507">Yellow light ahead - Prepare to stop</string>
+    <string name="sr_alarm_info_20508">Left turn imminent</string>
+    <string name="sr_alarm_info_20509">"Decelerating
+Right turn ahead"</string>
+    <string name="sr_alarm_info_20510">"Manually driving required
+Upcoming road changes"</string>
+    <string name="sr_alarm_info_20511">NZP activated</string>
+    <string name="sr_alarm_info_20513">"NOA exited
+Take control of the car"</string>
+    <string name="sr_alarm_info_20514">Proceeding through green light</string>
+    <string name="sr_alarm_info_20515">Caution：traffic light status</string>
+    <string name="sr_alarm_info_20516">Caution：yellow light ahead</string>
+    <string name="sr_alarm_info_20517">"Traffic signal ahead
+Take control of the car"</string>
+    <string name="sr_alarm_info_21019">"Manually drive
+About to miss intersection"</string>
+    <string name="sr_alarm_info_21020">Caution: rear/side traffic</string>
+    <string name="sr_alarm_info_21021">Right turn ahead</string>
+    <string name="sr_alarm_info_21022">U-turn ahead</string>
+    <string name="sr_alarm_info_21023">"Decelerating
+Left turn ahead"</string>
+    <string name="sr_alarm_info_21024">"Decelerating
+Complex road conditions"</string>
+    <string name="sr_alarm_info_21025">"Decelerating
+Road gap ahead"</string>
+    <string name="sr_alarm_info_21026">"Manually change to left lane
+About to miss intersection"</string>
+    <string name="sr_alarm_info_21027">"Manually change to right lane
+About to miss intersection"</string>
+    <string name="sr_alarm_info_21028">"Manual driving required
+Obstruction ahead"</string>
+    <string name="sr_alarm_info_21029">Reduce speed</string>
+    <string name="sr_alarm_info_21030">"%dm Turn around
+Take control of the car"</string>
+    <string name="sr_alarm_info_21031">"%dm Enter the roundabout
+Take control of the car"</string>
+    <string name="sr_alarm_info_21032">"%dm Complex road conditions
+Take control of the car"</string>
+    <string name="sr_alarm_info_21033">"Decelerating
+Pedestrian crossing"</string>
+    <string name="sr_alarm_info_21034">Yielding to pedestrians</string>
+    <string name="sr_alarm_info_21035">NZP resumed</string>
+    <string name="sr_alarm_info_21036">NZP resumed</string>
+    <string name="sr_alarm_info_21037">Caution:special lane ahead</string>
+    <string name="sr_alarm_info_21038">"Proceed to public road
+NZP unavailable"</string>
+    <string name="sr_alarm_info_21039">"NZP unavailable
+Direction of travel mismatch"</string>
+    <string name="sr_alarm_info_21040">NZP completed</string>
+    <string name="sr_alarm_info_21041">"Changing lanes
+Complex road conditions"</string>
+    <string name="sr_alarm_info_21042">"Gently press on accelerator
+to enter the intersection"</string>
+    <string name="sr_alarm_info_21043">"Intelligent speed adjusting
+Mind current limit"</string>
+    <string name="sr_alarm_info_21044">"Intelligent speed adjusting
+Mind current limit"</string>
+    <string name="sr_alarm_info_21045">"Intelligent speed adjusting
+Mind current limit"</string>
+    <string name="sr_alarm_info_21046">Changing lane to avoid roadway gap</string>
+    <string name="sr_alarm_info_21047">"Swerve across solid line
+Drive safely"</string>
+    <string name="sr_alarm_info_21048">"Manually drive
+Driving direction mismatch"</string>
+    <string name="sr_alarm_info_21049">"NZP unavailable
+Setting switched off"</string>
+    <string name="sr_alarm_info_21050">"Rerouting to destination
+Deviated from NZP route"</string>
+    <string name="sr_alarm_info_21051">Entering turn waiting zone</string>
+    <string name="sr_alarm_info_21052">"Gently press on accelerator
+to enter turn waiting zone"</string>
+    <string name="sr_alarm_info_21053">"Changing lane across solid line
+Drive safely"</string>
+    <string name="sr_alarm_info_21054">Approaching special use lane</string>
+    <string name="sr_alarm_info_21055">Exiting bus lane</string>
+    <string name="sr_alarm_info_21056">"Bus lane ahead
+Current time slot available"</string>
+    <string name="sr_alarm_info_21057">"Time-Restricted
+Bus lane"</string>
+    <string name="sr_alarm_info_21058">Take control now</string>
+    <string name="sr_alarm_info_21059">"Click the confirm button
+to enter the intersection"</string>
+    <string name="sr_alarm_info_21062">"Rerouted to destination
+Restricted road section"</string>
+    <string name="sr_alarm_info_21063">"Rerouted to destination
+Obstruction ahead"</string>
+    <string name="sr_alarm_info_21064">"Rerouted to destination
+NZP route recovery failed"</string>
+    <string name="sr_alarm_info_21065">"Delete unused NZP routes
+Storage full"</string>
+    <string name="sr_alarm_info_21066">"Double tap to activate NZP
+Revert to original NZP route"</string>
+    <string name="sr_alarm_info_21067">"Drive carefully
+Passing toll station"</string>
+    <string name="sr_alarm_info_21068">"Please switch to the correct toll lane
+Complex road conditions"</string>
+    <string name="sr_alarm_info_21069">"Manually change to right lane
+Complex road conditions"</string>
+    <string name="sr_alarm_info_21070">"Downgraded to LCC
+Vehicle control required"</string>
+    <string name="sr_alarm_info_21071">"Gently press on accelerator
+to pass toll station"</string>
+    <string name="sr_alarm_info_21072">Approching NZP route</string>
+    <string name="sr_alarm_info_21073">Click Activation-Key to activate NZP</string>
+    <string name="sr_alarm_info_21074">Approaching destination , changing lane to the right</string>
+    <string name="sr_alarm_info_21075">Slowing down to park</string>
+    <string name="sr_alarm_info_21076">Braking , about to cross stop line</string>
+    <string name="sr_alarm_info_21077">"Intelligent speed adjusting
+Mind current limit"</string>
+    <string name="sr_alarm_info_21078">"U-Tune ahead
+Drive safely"</string>
+    <string name="sr_alarm_info_21079">"Roundabout ahead
+Drive safely"</string>
+    <string name="sr_alarm_info_21080">"Take control now
+Urgently changing to right lane"</string>
+    <string name="sr_alarm_info_21081">"Departing bus lane
+Time-restricted"</string>
+    <string name="sr_alarm_info_21082">Current time slot available</string>
+    <string name="sr_alarm_info_21083">"Drive safely
+No-Entry lane"</string>
+    <string name="sr_alarm_info_21084">Entering ETC lane</string>
+    <string name="sr_alarm_info_21085">"Vehicle control required
+Approaching manual toll booth"</string>
+    <string name="sr_alarm_info_21086">"About to reverse
+Attempting passage"</string>
+    <string name="sr_alarm_info_21087">"Accelerate with caution
+Adjusting direction"</string>
+    <string name="sr_alarm_info_21088">"Prepare to take control of the car
+Vehicles reversing ahead"</string>
+    <string name="sr_alarm_info_21089">Brake to activate NZP</string>
+    <string name="sr_alarm_info_21090">"Entering bus lane
+Time-restricted"</string>
+    <string name="sr_alarm_info_21091">"Drive safely
+ETC lane"</string>
+    <string name="sr_alarm_info_22001">"LCC exited
+Too close to front vehicle"</string>
+    <string name="sr_alarm_info_22004">"LCC unavailable
+Unsupported drive mode"</string>
+    <string name="sr_alarm_info_22006">"LCC unavailable
+Low battery"</string>
+    <string name="sr_alarm_info_22007">"LCC unavailable
+Doors open"</string>
+    <string name="sr_alarm_info_22009">"LCC unavailable
+Energy hatch open"</string>
+    <string name="sr_alarm_info_22011">"LCC unavailable
+Seatbelt unfastened"</string>
+    <string name="sr_alarm_info_22012">"LCC unavailable
+Gear not in D"</string>
+    <string name="sr_alarm_info_22013">"LCC unavailable
+ESC deactivated"</string>
+    <string name="sr_alarm_info_22015">"LCC unavailable
+Electric parking brake engaged"</string>
+    <string name="sr_alarm_info_22016">"LCC unavailable
+High speed"</string>
+    <string name="sr_alarm_info_22023">"LCC unavailable
+Low speed"</string>
+    <string name="sr_alarm_info_22036">"LCC exited
+Timeout"</string>
+    <string name="sr_alarm_info_22037">LCC activated</string>
+    <string name="sr_alarm_info_22038">"LCC exited
+Take control of the car"</string>
+    <string name="sr_alarm_info_22045">Hold the steering wheel</string>
+    <string name="sr_alarm_info_22046">Hold the steering wheel</string>
+    <string name="sr_alarm_info_22047">Take control now</string>
+    <string name="sr_alarm_info_22061">"About to change lane
+Road ahead blocked"</string>
+    <string name="sr_alarm_info_22073">"LCC exited
+High speed"</string>
+    <string name="sr_alarm_info_22075">"LCC exited
+Unsupported drive mode"</string>
+    <string name="sr_alarm_info_22076">Close doors</string>
+    <string name="sr_alarm_info_22080">Fasten seatbelt</string>
+    <string name="sr_alarm_info_22081">"LCC exited
+Gear not in D"</string>
+    <string name="sr_alarm_info_22082">"LCC exited
+Electric parking brake engaged"</string>
+    <string name="sr_alarm_info_22083">"LCC exited
+ESC deactivated"</string>
+    <string name="sr_alarm_info_22086">Take control now</string>
+    <string name="sr_alarm_info_22088">"LCC about to exit
+Heavy rain"</string>
+    <string name="sr_alarm_info_22089">"LCC about to exit
+Low battery"</string>
+    <string name="sr_alarm_info_22090">"Hold the steering wheel
+Downgraded to ACC"</string>
+    <string name="sr_alarm_info_22091">"LCC unavailable
+Auto hold activated"</string>
+    <string name="sr_alarm_info_22092">"LCC unavailable
+Heavy rain"</string>
+    <string name="sr_alarm_info_22140">"LCC exited
+Take control of the car"</string>
+    <string name="sr_alarm_info_22143">"LCC exited
+LCC/NZP disabled for this drive"</string>
+    <string name="sr_alarm_info_22144">"Downgraded to ACC
+Function limited"</string>
+    <string name="sr_alarm_info_22145">"LCC exited
+Function limited"</string>
+    <string name="sr_alarm_info_22148">"LCC unavailable
+Function limited"</string>
+    <string name="sr_alarm_info_22149">"LCC unavailable
+Super power saving on"</string>
+    <string name="sr_alarm_info_22152">"LCC exited
+Too close to front vehicle"</string>
+    <string name="sr_alarm_info_22154">"Park and Shift gears again
+Function unavailable"</string>
+    <string name="sr_alarm_info_22155">"Prepare to take control of the car
+Identifying available lanes"</string>
+    <string name="sr_alarm_info_22156">LCC resumed</string>
+    <string name="sr_alarm_info_22157">"LCC unavailable
+Tire pressure issue"</string>
+    <string name="sr_alarm_info_22158">LCC unavailable</string>
+    <string name="sr_alarm_info_22159">"LCC unavailable
+Unsupported power mode"</string>
+    <string name="sr_alarm_info_22160">"LCC unavailable
+Vehicle is off-center"</string>
+    <string name="sr_alarm_info_22161">"Hold the steering wheel gently
+LCC unavailable"</string>
+    <string name="sr_alarm_info_22162">"LCC unavailable
+High speed"</string>
+    <string name="sr_alarm_info_22164">"LCC unavailable
+Setting switched off"</string>
+    <string name="sr_alarm_info_22165">"LCC unavailable
+Obstacle ahead"</string>
+    <string name="sr_alarm_info_22166">"LCC unavailable
+Wash mode on"</string>
+    <string name="sr_alarm_info_22167">"LCC unavailable
+Brake pedal pressed"</string>
+    <string name="sr_alarm_info_22168">"LCC unavailable
+Too close to front vehicle"</string>
+    <string name="sr_alarm_info_22169">"LCC unavailable
+Lane conditions not met"</string>
+    <string name="sr_alarm_info_22170">"LCC exited
+Unsupported power mode"</string>
+    <string name="sr_alarm_info_22171">"LCC exited
+Wash mode on"</string>
+    <string name="sr_alarm_info_22172">"LCC exited
+Super power saving on"</string>
+    <string name="sr_alarm_info_22173">"LCC about to exit
+Tire pressure issue"</string>
+    <string name="sr_alarm_info_22174">Close Energy hatch</string>
+    <string name="sr_alarm_info_22177">"Try activate LCC later
+Function limited"</string>
+    <string name="sr_alarm_info_22178">"Decelerating
+Intersection ahead"</string>
+    <string name="sr_alarm_info_22179">Caution: dangerous vehicle</string>
+    <string name="sr_alarm_info_22180">"LCC about to exit
+complex road conditions ahead"</string>
+    <string name="sr_alarm_info_22181">Turn steering wheel gently</string>
+    <string name="sr_alarm_info_22182">Turn steering wheel gently</string>
+    <string name="sr_alarm_info_22183">LCC resumed</string>
+    <string name="sr_alarm_info_22184">"About to change to left lane
+Use turn signal to change lane"</string>
+    <string name="sr_alarm_info_22185">"About to change to right lane
+Use turn signal to change lane"</string>
+    <string name="sr_alarm_info_22186">Move turn signal down to choose left driving lane</string>
+    <string name="sr_alarm_info_22187">Move turn signal up to choose right driving lane</string>
+    <string name="sr_alarm_info_22188">"About to change to left lane
+Use turn signal to change lane"</string>
+    <string name="sr_alarm_info_22189">"About to change to right lane
+Use turn signal to change lane"</string>
+    <string name="sr_alarm_info_22190">"LCC unavailable
+Drive on side of the lane"</string>
+    <string name="sr_alarm_info_22191">"Decelerating
+Adjacent lane Trafffic slow"</string>
+    <string name="sr_alarm_info_22192">Caution: sharp curve</string>
+    <string name="sr_alarm_info_22193">Caution：speed</string>
+    <string name="sr_alarm_info_22194">"Decelerating
+Intersection curve"</string>
+    <string name="sr_alarm_info_22195">"Downgraded to ACC
+Complex road conditions"</string>
+    <string name="sr_alarm_info_22196">"LCC unavailable
+Current road unavailable"</string>
+    <string name="sr_alarm_info_22197">"Take control now
+Driving on lane markings"</string>
+    <string name="sr_alarm_info_22200">"LCC unavailable
+Drift mode on"</string>
+    <string name="sr_alarm_info_22201">"LCC exited
+Drift mode on"</string>
+    <string name="sr_alarm_info_22202">"LCC unavailable
+Electric tow bar not retracted"</string>
+    <string name="sr_alarm_info_22203">"LCC unavailable
+Suspension system fault"</string>
+    <string name="sr_alarm_info_22204">"LCC exited
+Suspension system fault"</string>
+    <string name="sr_alarm_info_22205">"LCC exited
+Take control of the car"</string>
+    <string name="sr_alarm_info_22206">"LCC exited
+Electric tow bar not retracted"</string>
+    <string name="sr_alarm_info_22212">Focus on driving</string>
+    <string name="sr_alarm_info_22213">Focus on driving</string>
+    <string name="sr_alarm_info_23001">ACC activated</string>
+    <string name="sr_alarm_info_23002">"ACC exited
+Take control of the car"</string>
+    <string name="sr_alarm_info_23006">"ACC unavailable
+Unsupported drive mode"</string>
+    <string name="sr_alarm_info_23007">"ACC unavailable
+Low battery"</string>
+    <string name="sr_alarm_info_23010">"ACC unavailable
+Energy hatch open"</string>
+    <string name="sr_alarm_info_23012">"ACC unavailable
+Gear not in D"</string>
+    <string name="sr_alarm_info_23014">"ACC unavailable
+Seatbelt unfastened"</string>
+    <string name="sr_alarm_info_23016">"ACC unavailable
+ESC deactivated"</string>
+    <string name="sr_alarm_info_23018">"ACC unavailable
+Electric parking brake engaged"</string>
+    <string name="sr_alarm_info_23019">"ACC unavailable
+High speed"</string>
+    <string name="sr_alarm_info_23021">"ACC unavailable
+Low battery"</string>
+    <string name="sr_alarm_info_23026">"ACC exited
+Gear not in D"</string>
+    <string name="sr_alarm_info_23028">Fasten seatbelt</string>
+    <string name="sr_alarm_info_23030">"ACC exited
+ESC deactivated"</string>
+    <string name="sr_alarm_info_23031">"ACC exited
+Electric parking brake engaged"</string>
+    <string name="sr_alarm_info_23033">"ACC exited
+High speed"</string>
+    <string name="sr_alarm_info_23036">"ACC unavailable
+Auto hold activated"</string>
+    <string name="sr_alarm_info_23037">"ACC unavailable
+Heavy rain"</string>
+    <string name="sr_alarm_info_23038">"ACC about to exit 
+Heavy rain"</string>
+    <string name="sr_alarm_info_23039">"ACC unavailable
+Doors open"</string>
+    <string name="sr_alarm_info_23041">ACC unavailable</string>
+    <string name="sr_alarm_info_23043">"ACC unavailable
+Too close to front vehicle"</string>
+    <string name="sr_alarm_info_23044">"ACC unavailable
+Brake pedal pressed"</string>
+    <string name="sr_alarm_info_23045">"ACC unavailable
+Tire pressure issue"</string>
+    <string name="sr_alarm_info_23047">ACC unavailable</string>
+    <string name="sr_alarm_info_23048">"ACC unavailable
+Super power saving on"</string>
+    <string name="sr_alarm_info_23051">Close doors</string>
+    <string name="sr_alarm_info_23052">"ACC exited
+Take control of the car"</string>
+    <string name="sr_alarm_info_23053">"ACC about to exit
+Tire pressure issue"</string>
+    <string name="sr_alarm_info_23054">"ACC exited
+Unsupported power mode"</string>
+    <string name="sr_alarm_info_23058">"ACC exited
+Too close to front vehicle"</string>
+    <string name="sr_alarm_info_23060">"ACC exited
+Timeout"</string>
+    <string name="sr_alarm_info_23063">"Take control of the car
+Obstacles ahead"</string>
+    <string name="sr_alarm_info_23068">"ACC unavailable
+Function limited"</string>
+    <string name="sr_alarm_info_23069">"ACC exited
+Function limited"</string>
+    <string name="sr_alarm_info_23070">"ACC exited
+Take control of the car"</string>
+    <string name="sr_alarm_info_23115">"ACC unavailable
+Obstacles ahead"</string>
+    <string name="sr_alarm_info_23116">"ACC unavailable
+Wash mode on"</string>
+    <string name="sr_alarm_info_23118">"ACC unavailable
+Unsupported power mode"</string>
+    <string name="sr_alarm_info_23120">ACC resumed</string>
+    <string name="sr_alarm_info_23121">Close Energy hatch</string>
+    <string name="sr_alarm_info_23122">"ACC exited
+Wash mode on"</string>
+    <string name="sr_alarm_info_23123">"ACC exited
+Unsupported drive mode"</string>
+    <string name="sr_alarm_info_23126">ACC resumed</string>
+    <string name="sr_alarm_info_23127">"ACC unavailable
+Drift mode on"</string>
+    <string name="sr_alarm_info_23128">"ACC exited
+Drift mode on"</string>
+    <string name="sr_alarm_info_23129">"ACC unavailable
+Electric tow bar not retracted"</string>
+    <string name="sr_alarm_info_23130">"ACC unavailable
+Suspension system fault"</string>
+    <string name="sr_alarm_info_23131">"ACC exited
+Suspension system fault"</string>
+    <string name="sr_alarm_info_23132">"ACC exited
+Electric tow bar not retracted"</string>
+    <string name="sr_alarm_info_23133">"Assisted driving unavailable
+Unsupported drive mode"</string>
+    <string name="sr_alarm_info_23134">"Assisted driving unavailable
+Low battery"</string>
+    <string name="sr_alarm_info_23135">"Assisted driving unavailable
+Energy hatch open"</string>
+    <string name="sr_alarm_info_23136">"Assisted driving unavailable
+Gear not in D"</string>
+    <string name="sr_alarm_info_23137">"Assisted driving unavailable
+Seatbelt unfastened"</string>
+    <string name="sr_alarm_info_23138">"Assisted driving unavailable
+ESC deactivated"</string>
+    <string name="sr_alarm_info_23139">"Assisted driving unavailable
+Electric parking brake engaged"</string>
+    <string name="sr_alarm_info_23140">"Assisted driving unavailable
+High speed"</string>
+    <string name="sr_alarm_info_23141">"Assisted driving unavailable
+Auto hold activated"</string>
+    <string name="sr_alarm_info_23142">"Assisted driving unavailable
+Heavy rain"</string>
+    <string name="sr_alarm_info_23143">"Assisted driving unavailable
+Doors open"</string>
+    <string name="sr_alarm_info_23144">Assisted driving unavailable</string>
+    <string name="sr_alarm_info_23145">"Assisted driving unavailable
+Too close to front vehicle"</string>
+    <string name="sr_alarm_info_23146">"Assisted driving unavailable
+Brake pedal pressed"</string>
+    <string name="sr_alarm_info_23147">"Assisted driving unavailable
+Tire pressure issue"</string>
+    <string name="sr_alarm_info_23148">Assisted driving unavailable</string>
+    <string name="sr_alarm_info_23149">"Assisted driving unavailable
+Super power saving on"</string>
+    <string name="sr_alarm_info_23150">"Assisted driving unavailable
+Function limited"</string>
+    <string name="sr_alarm_info_23151">"Assisted driving unavailable
+Obstacle ahead"</string>
+    <string name="sr_alarm_info_23152">"Assisted driving unavailable
+Wash mode on"</string>
+    <string name="sr_alarm_info_23153">"Assisted driving unavailable
+Unsupported power mode"</string>
+    <string name="sr_alarm_info_23154">"Assisted driving unavailable
+Drift mode on"</string>
+    <string name="sr_alarm_info_23155">"Assisted driving unavailable
+Electric tow bar not retracted"</string>
+    <string name="sr_alarm_info_23156">"Assisted driving unavailable
+Suspension system fault"</string>
+    <string name="sr_alarm_info_24001">Drive forward and searching</string>
+    <string name="sr_alarm_info_24002">High speed, slow down</string>
+    <string name="sr_alarm_info_24003">parking space detected, stop to park</string>
+    <string name="sr_alarm_info_24004">"Brake and choose parking space, then press 'start'"</string>
+    <string name="sr_alarm_info_24005">Release brake and steering wheel</string>
+    <string name="sr_alarm_info_24006">Narrow space, use Remote parking</string>
+    <string name="sr_alarm_info_24007">Parking, pay attention to surroundings</string>
+    <string name="sr_alarm_info_24008">Parking completed</string>
+    <string name="sr_alarm_info_24009">Parking paused, confirm safe to continue</string>
+    <string name="sr_alarm_info_24010">Parking deactivated</string>
+    <string name="sr_alarm_info_24011">Waiting, pay attention to surroundings</string>
+    <string name="sr_alarm_info_24015">Drive to a flat area</string>
+    <string name="sr_alarm_info_24017">Low light detected, pay attention to surroundings</string>
+    <string name="sr_alarm_info_24018">Drive to a brighter area</string>
+    <string name="sr_alarm_info_24019">Low light detected, pay attention to surroundings</string>
+    <string name="sr_alarm_info_24030">Parking Assist paused, suspension system fault</string>
+    <string name="sr_alarm_info_24032">Parking Assist paused, close doors</string>
+    <string name="sr_alarm_info_24035">Parking Assist paused, close trunk</string>
+    <string name="sr_alarm_info_24038">Parking Assist paused, close energy hatch</string>
+    <string name="sr_alarm_info_24041">Parking Assist paused, close hood</string>
+    <string name="sr_alarm_info_24044">Parking Assist paused, unfold side mirrors</string>
+    <string name="sr_alarm_info_24047">Parking Assist paused, end SOS</string>
+    <string name="sr_alarm_info_24050">Parking Assist paused, driver not seated</string>
+    <string name="sr_alarm_info_24054">Parking Assist paused, release the accelerator pedal</string>
+    <string name="sr_alarm_info_24055">Press the brake pedal and be aware of any rolling movement</string>
+    <string name="sr_alarm_info_24057">Parking Assist paused, release brake pedal</string>
+    <string name="sr_alarm_info_24058">Parking Assist paused, obstacle in the way</string>
+    <string name="sr_alarm_info_24064">Parking Assist exited, speed abnormal</string>
+    <string name="sr_alarm_info_24067">Drive backward to search for parking space</string>
+    <string name="sr_alarm_info_24068">Speed too high, slow down</string>
+    <string name="sr_alarm_info_24086">Careful, risk of scratches</string>
+    <string name="sr_alarm_info_24091">"Press the brake to adjust the parking space, then press 'start'"</string>
+    <string name="sr_alarm_info_24097">Parking space temporarily unavailable</string>
+    <string name="sr_alarm_info_24099">"Reverse parking ready, press 'start'"</string>
+    <string name="sr_alarm_info_24100">"Forwad parking ready, press 'start'"</string>
+    <string name="sr_alarm_info_24101">Resume driving position</string>
+    <string name="sr_alarm_info_24102">Fasten seatbelt</string>
+    <string name="sr_alarm_info_24103">Close doors</string>
+    <string name="sr_alarm_info_24104">Route planning in progress</string>
+    <string name="sr_alarm_info_24105">Parking space temporarily unavailable, re-adjust position</string>
+    <string name="sr_alarm_info_24106">"Press 'start' to park"</string>
+    <string name="sr_alarm_info_24107">Side mirrors folded</string>
+    <string name="sr_alarm_info_24108">"Parking Assist paused, confirm side mirrors folded then press 'continue'"</string>
+    <string name="sr_alarm_info_24109">Parking complete, check the wheel chocks</string>
+    <string name="sr_alarm_info_24114">Low light detected, park manually</string>
+    <string name="sr_alarm_info_24115">Small parking space, park manually</string>
+    <string name="sr_alarm_info_24116">Unstable recognition, park manually</string>
+    <string name="sr_alarm_info_24117">Complexsurroundings, park manually</string>
+    <string name="sr_alarm_info_24118">Mind the pedestrian</string>
+    <string name="sr_alarm_info_24119">Mind the vehicle</string>
+    <string name="sr_alarm_info_24120">Mind the obstacle</string>
+    <string name="sr_alarm_info_24121">Mind the outside mirrors</string>
+    <string name="sr_alarm_info_24122">Obstacles inside the parking space, re-adjust position</string>
+    <string name="sr_alarm_info_24123">Trajactory planning failed, re-adjust position</string>
+    <string name="sr_alarm_info_24124">Cones in the parking space, re-adjust position</string>
+    <string name="sr_alarm_info_24125">Ground lock in the parking space, re-adjust position</string>
+    <string name="sr_alarm_info_24126">Select parking space or continue driving</string>
+    <string name="sr_alarm_info_24127">Parking to right, watch out</string>
+    <string name="sr_alarm_info_24128">Parking to left, watch out</string>
+    <string name="sr_alarm_info_24129">Complex surroundings, scratch risk</string>
+    <string name="sr_alarm_info_24130">Narrow space, scratch risk</string>
+    <string name="sr_alarm_info_24131">Wheel chocks in slot, scratch risk</string>
+    <string name="sr_alarm_info_24135">Parking space temporarily unavailable, re-select parking space</string>
+    <string name="sr_alarm_info_24136">Parking space temporarily unavailable, drive closer and try again</string>
+    <string name="sr_alarm_info_24137">Parking space temporarily unavailable, try other slots</string>
+    <string name="sr_alarm_info_24138">Side mirrors folding</string>
+    <string name="sr_alarm_info_24139">"Park out ready, press 'start'"</string>
+    <string name="sr_alarm_info_24140">Side mirrors folding</string>
+    <string name="sr_alarm_info_24141">Mind animals</string>
+    <string name="sr_alarm_info_24142">Mind non-motorized vehicle</string>
+    <string name="sr_alarm_info_24143">Zeekr charging space detected, stop and select a parking spot if you need to park</string>
+    <string name="sr_alarm_info_24144">Parking space number not recognized, approch and try again</string>
+    <string name="sr_alarm_info_24145">"Manually parked
+No available parking exit direction"</string>
+    <string name="sr_alarm_info_24146">Shift gear and try again</string>
+    <string name="sr_alarm_info_24147">"Select the direction to pull out and then press 'start'"</string>
+    <string name="sr_alarm_info_24148">Unfold side mirrors</string>
+    <string name="sr_alarm_info_24149">Parking Assist paused, fold side mirrors</string>
+    <string name="sr_alarm_info_24152">Press accelerator pedal to take over and exit Parking Assist</string>
+    <string name="sr_alarm_info_24153">Avoiding, mind surroundings</string>
+    <string name="sr_alarm_info_24265">Press brake pedal for power on</string>
+    <string name="sr_alarm_info_24266">Confirm that the size and weight of vehicle meets the mechanical space limitations</string>
+    <string name="sr_alarm_info_24268">Press parking space if you wish to park</string>
+    <string name="sr_alarm_info_24269">Obstacle ingress too much, deviation implemented</string>
+    <string name="sr_alarm_info_24272">"Tire pressure issue detected
+Parking Assist abort"</string>
+    <string name="sr_alarm_info_26001">Shift to P</string>
+    <string name="sr_alarm_info_26002">Get off with key to use remote park</string>
+    <string name="sr_alarm_info_26003">Narrow slot front-in, remote park suggested</string>
+    <string name="sr_alarm_info_26004">Narrow slot back-in, remote park suggested</string>
+    <string name="sr_alarm_info_26005">Parking Assist paused</string>
+    <string name="sr_alarm_info_26006">Parking in progress, pay attention to surroundings</string>
+    <string name="sr_alarm_info_26007">Parking completed</string>
+    <string name="sr_alarm_info_26008">Parking complete, check the wheel chocks</string>
+    <string name="sr_alarm_info_26010">Reverse parking into mecanical slot, remote parking recommended</string>
+    <string name="sr_alarm_info_26033">Parking Assist paused, re-open the door and hood to resume parking</string>
+    <string name="sr_alarm_info_26034">Parking Assist paused, re-open the trunk to resume parking</string>
+    <string name="sr_alarm_info_26035">Remote parking paused</string>
+    <string name="sr_alarm_info_26036">Parking Assist paused, re-open the door and hood to resume parking</string>
+    <string name="sr_alarm_info_26037">Parking Assist paused, re-open the trunk to resume parking</string>
+    <string name="sr_alarm_info_26038">Remote parking completed</string>
+    <string name="sr_alarm_info_26039">Parking, pay attention to your surroundings</string>
+    <string name="sr_alarm_info_26041">Remote parking completed, check the wheel chocks</string>
+    <string name="sr_alarm_info_27001">"LP unavailable
+Shift to another gear"</string>
+    <string name="sr_alarm_info_27002">"LP unavailable
+Release steering wheel"</string>
+    <string name="sr_alarm_info_27003">"LP unavailable
+Try lane guidance"</string>
+    <string name="sr_alarm_info_27004">"LP unavailable
+High speed"</string>
+    <string name="sr_alarm_info_27005">"LP unavailable
+Slope too steep"</string>
+    <string name="sr_alarm_info_27006">"LP unavailable
+Door not locked"</string>
+    <string name="sr_alarm_info_27008">"LP unavailable
+Energy hatch open"</string>
+    <string name="sr_alarm_info_27010">"LP unavailable
+Seatbelt unfastened"</string>
+    <string name="sr_alarm_info_27012">LP unavailable</string>
+    <string name="sr_alarm_info_27013">"LP unavailable
+System fault"</string>
+    <string name="sr_alarm_info_27014">"LP unavailable
+Shift gear and try again"</string>
+    <string name="sr_alarm_info_27017">Vehicle yielding</string>
+    <string name="sr_alarm_info_27020">Accelerator pedal pressed</string>
+    <string name="sr_alarm_info_27021">LP exited</string>
+    <string name="sr_alarm_info_27023">"Take control now
+Limited functionality"</string>
+    <string name="sr_alarm_info_27024">"LP exited
+No parking space"</string>
+    <string name="sr_alarm_info_27025">Release the brake pedal</string>
+    <string name="sr_alarm_info_27029">Destination reached</string>
+    <string name="sr_alarm_info_27030">Return to route</string>
+    <string name="sr_alarm_info_27031">"LP exited
+System fault"</string>
+    <string name="sr_alarm_info_27032">Select another destination</string>
+    <string name="sr_alarm_info_27033">"Destination nearby
+APA available"</string>
+    <string name="sr_alarm_info_27038">Fasten seatbelt</string>
+    <string name="sr_alarm_info_27039">Close doors</string>
+    <string name="sr_alarm_info_27040">Drive to lot or garage</string>
+    <string name="sr_alarm_info_27041">"Route Learning unavailable
+Dark environment"</string>
+    <string name="sr_alarm_info_27042">"Route Learning unavailable
+Shift gear and try again"</string>
+    <string name="sr_alarm_info_27044">Route learning unavailable</string>
+    <string name="sr_alarm_info_27052">"High speed
+Slow down"</string>
+    <string name="sr_alarm_info_27053">"Route Learning
+Low light detected"</string>
+    <string name="sr_alarm_info_27055">"Route Learning
+Route learning failed"</string>
+    <string name="sr_alarm_info_27064">LP activated</string>
+    <string name="sr_alarm_info_27072">"Route Learning
+Close the door"</string>
+    <string name="sr_alarm_info_27073">"Route Learning
+Open the outside mirrors"</string>
+    <string name="sr_alarm_info_27078">"Function limited
+Do not move vehicle"</string>
+    <string name="sr_alarm_info_27079">"Function limited
+Re-enter parking area"</string>
+    <string name="sr_alarm_info_27080">"Route Learning failed
+Re-enter entrance"</string>
+    <string name="sr_alarm_info_27081">"LP exited
+Timeout"</string>
+    <string name="sr_alarm_info_27082">Be aware of the gate</string>
+    <string name="sr_alarm_info_27084">Search for parking lot</string>
+    <string name="sr_alarm_info_27085">Select destination to use navigation</string>
+    <string name="sr_alarm_info_27087">"LP unavailable
+ESC not enabled"</string>
+    <string name="sr_alarm_info_27089">Straighten the wheel</string>
+    <string name="sr_alarm_info_27090">"LP unavailable
+Super Eco Mode on"</string>
+    <string name="sr_alarm_info_27091">"LP unavailable
+Wash Mode on"</string>
+    <string name="sr_alarm_info_27092">"LP unavailable
+Unsupported drive mode"</string>
+    <string name="sr_alarm_info_27093">"LP unavailable
+Electric tow bar on"</string>
+    <string name="sr_alarm_info_27094">"LP unavailable
+Tank Pivot on"</string>
+    <string name="sr_alarm_info_27095">"LP unavailable
+Drift Mode on"</string>
+    <string name="sr_alarm_info_27098">Close the energy hatch</string>
+    <string name="sr_alarm_info_27099">"LP exited
+Take control now"</string>
+    <string name="sr_alarm_info_27100">"LP exited
+ESC off"</string>
+    <string name="sr_alarm_info_27102">"LPabout to exit
+Steep slope"</string>
+    <string name="sr_alarm_info_27103">"LP about to exit
+Dark environment"</string>
+    <string name="sr_alarm_info_27104">"LP exited
+Super Power Mode on"</string>
+    <string name="sr_alarm_info_27105">"LP exited
+Wash Mode on"</string>
+    <string name="sr_alarm_info_27106">"LP exited
+Unsupported drive mode"</string>
+    <string name="sr_alarm_info_27107">"LP exited
+
+Electric tow bar not retracted"</string>
+    <string name="sr_alarm_info_27108">"LP exited
+Tank Pivot on"</string>
+    <string name="sr_alarm_info_27109">"LP exited
+Drift Mode on"</string>
+    <string name="sr_alarm_info_27110">Take control now</string>
+    <string name="sr_alarm_info_27111">Stop the navigation and Take control of the car</string>
+    <string name="sr_alarm_info_27113">"About to exit
+Tire pressure issue"</string>
+    <string name="sr_alarm_info_27114">"Route Learning unavailable
+Location Failed"</string>
+    <string name="sr_alarm_info_27115">LP unavailable</string>
+    <string name="sr_alarm_info_27116">"LP unavailable
+Tire pressure issue"</string>
+    <string name="sr_alarm_info_27117">"LP unavailable
+Heavy rain"</string>
+    <string name="sr_alarm_info_27118">"LP about to exit
+Heavy rain"</string>
+    <string name="sr_alarm_info_27119">Turn on this feature under Settings - Zeekr AD</string>
+    <string name="sr_alarm_info_27120">Shift to P gear</string>
+    <string name="sr_alarm_info_27121">Click on the parking space to use APA</string>
+    <string name="sr_alarm_info_27122">Press the brake pedal</string>
+    <string name="sr_alarm_info_27123">Do not press the accelerator pedal</string>
+    <string name="sr_alarm_info_27124">"LP unavailable
+Outside mirrors folded"</string>
+    <string name="sr_alarm_info_27125">"LP about to exit
+Outside mirrors folded"</string>
+    <string name="sr_alarm_info_27126">Mind blind spot</string>
+    <string name="sr_alarm_info_27127">Passing through</string>
+    <string name="sr_alarm_info_27128">LP Plus available</string>
+    <string name="sr_alarm_info_27129">"Get out of the vehicle
+Active LP Plus with phone"</string>
+    <string name="sr_alarm_info_27130">"Keep safe distance
+LP Plus working"</string>
+    <string name="sr_alarm_info_27131">Shift to Park gear to use LP Plus</string>
+    <string name="sr_alarm_info_27132">"Error
+Car owner is on the way"</string>
+    <string name="sr_alarm_info_27133">New route planned</string>
+    <string name="sr_alarm_info_27137">Assisted driving preparing</string>
+    <string name="sr_alarm_info_27138">"LP exited
+Target charging spot unavailable"</string>
+    <string name="sr_alarm_info_27139">Choose a charging spot</string>
+    <string name="sr_alarm_info_27140">Release failed</string>
+    <string name="sr_alarm_info_27141">Waiting for lock</string>
+    <string name="sr_alarm_info_27142">Charging spot is ready</string>
+    <string name="sr_alarm_info_27143">Preparing to park</string>
+    <string name="sr_alarm_info_27144">Driving assistance activated</string>
+    <string name="sr_alarm_info_27145">Drive to straight road</string>
+    <string name="sr_alarm_info_27146">Drive to public road</string>
+    <string name="sr_alarm_info_27147">Route learned</string>
+    <string name="sr_alarm_info_27148">Charging space is full</string>
+    <string name="sr_alarm_info_27149">"Error
+Lower the lock manually"</string>
+    <string name="sr_alarm_info_27160">Valet Roam activated</string>
+    <string name="sr_alarm_info_27161">Valet Roam unavailable</string>
+    <string name="sr_alarm_info_27162">Valet Roam about to exit</string>
+    <string name="sr_alarm_info_27163">Valet Roam about to exit</string>
+    <string name="sr_alarm_info_27164">Take control now</string>
+    <string name="sr_alarm_info_27165">"Take control now
+Function limited"</string>
+    <string name="sr_alarm_info_27166">"about to exit
+Take control now"</string>
+    <string name="sr_alarm_info_27167">Adjusting direction of travel</string>
+    <string name="sr_alarm_info_27168">"Fasten seatbelt
+Valet Roam about to exit"</string>
+    <string name="sr_alarm_info_27169">"Close doors
+Valet Roam about to exit"</string>
+    <string name="sr_alarm_info_27170">"Steep slope
+Valet Roam about to exit"</string>
+    <string name="sr_alarm_info_27171">"Dark environment
+Valet Roam about to exit"</string>
+    <string name="sr_alarm_info_27172">"Tire pressure issue
+Valet Roam about to exit"</string>
+    <string name="sr_alarm_info_27173">"Heavy rain
+Valet Roam about to exit"</string>
+    <string name="sr_alarm_info_27174">"Outside mirrors folded
+Valet Roam about to exit"</string>
+    <string name="sr_alarm_info_27175">"Low Power
+Valet Roam about to exit"</string>
+    <string name="sr_alarm_info_29000">Emergency braking engaged</string>
+    <string name="sr_alarm_info_30001">Pay attention to the front-left side</string>
+    <string name="sr_alarm_info_30002">Pay attention to the front-right side</string>
+    <string name="sr_alarm_info_30003">Emergency braking engaged</string>
+    <string name="sr_alarm_info_30004">Emergency braking engaged</string>
+    <string name="sr_alarm_info_30005">Pay attention to the front-left side</string>
+    <string name="sr_alarm_info_30006">Pay attention to the front-right side</string>
+    <string name="sr_alarm_info_31000">Pay attention to the rear side</string>
+    <string name="sr_alarm_info_31001">Pay attention to the rear side</string>
+    <string name="sr_alarm_info_32000">Pay attention to the rear-left side</string>
+    <string name="sr_alarm_info_32001">Pay attention to the rear-left side</string>
+    <string name="sr_alarm_info_32002">Pay attention to the rear-right side</string>
+    <string name="sr_alarm_info_32003">Pay attention to the rear-right side</string>
+    <string name="sr_alarm_info_32004">Emergency braking engaged</string>
+    <string name="sr_alarm_info_32005">Emergency braking engaged</string>
+    <string name="sr_alarm_info_33000">Hold the steering wheel</string>
+    <string name="sr_alarm_info_33001">Hold the steering wheel</string>
+    <string name="sr_alarm_info_33004">Evasive steering assist engaged!</string>
+    <string name="sr_alarm_info_33005">Evasive steering assist activated</string>
+    <string name="sr_alarm_info_33006">Evasive steering assist activated</string>
+    <string name="sr_alarm_info_33007">Apply gentle steering</string>
+    <string name="sr_alarm_info_34000">The vehicle ahead has departed</string>
+    <string name="sr_alarm_info_34002">Red light ahead</string>
+    <string name="sr_alarm_info_34003">Red light ahead</string>
+    <string name="sr_alarm_info_34004">Red light ahead</string>
+    <string name="sr_alarm_info_34005">Right turn red light ahead</string>
+    <string name="sr_alarm_info_34006">Right turn red light ahead</string>
+    <string name="sr_alarm_info_35001">Keep safe distance</string>
+    <string name="sr_alarm_info_35002">Apply brakes</string>
+    <string name="sr_alarm_info_35003">Emergency braking engaged</string>
+    <string name="sr_alarm_info_35004">Apply brakes</string>
+    <string name="sr_alarm_info_35005">Brake assist engaged</string>
+    <string name="sr_alarm_info_35006">Pay attention to the front-left blind spot</string>
+    <string name="sr_alarm_info_35007">Pay attention to the front-right blind spot</string>
+    <string name="sr_alarm_info_35008">Pay attention to the right side</string>
+    <string name="sr_alarm_info_35009">Pay attention to the right side</string>
+    <string name="sr_alarm_info_35010">Pay attention to the front side</string>
+    <string name="sr_alarm_info_38000">Be cautious when opening the door</string>
+    <string name="sr_alarm_info_38001">Be cautious when opening the door</string>
+    <string name="sr_alarm_info_38002">Be cautious when opening the door</string>
+    <string name="sr_alarm_info_38003">Be cautious when opening the door</string>
+    <string name="sr_alarm_info_38004">Be cautious when opening the door</string>
+    <string name="sr_alarm_info_38009">Be cautious when opening the door</string>
+    <string name="sr_alarm_info_38013">Be cautious when opening the door</string>
+    <string name="sr_alarm_info_38016">Be cautious.Hold the button to open the door</string>
+    <string name="sr_alarm_info_38022">Be cautious.Hold the button to open the door</string>
+    <string name="sr_alarm_info_38024">Be cautious.Hold the button to open the door</string>
+    <string name="sr_alarm_info_38028">Be cautious.Hold the button to open the door</string>
+    <string name="sr_alarm_info_38031">Be cautious when opening the door</string>
+    <string name="sr_alarm_info_38033">Be cautious when opening the door</string>
+    <string name="sr_alarm_info_38034">Be cautious when opening the door</string>
+    <string name="sr_alarm_info_38036">Be cautious when opening the door</string>
+    <string name="sr_alarm_info_38037">Be cautious when opening the door</string>
+    <string name="sr_alarm_info_40001">Evasive steering assist engaged</string>
+    <string name="sr_alarm_info_42000">Release the brake pedal</string>
+    <string name="sr_alarm_info_43001">"Collision detected
+Emergency braking activated！"</string>
+    <string name="sr_alarm_info_44000">Evasive steering assist engaged</string>
+    <string name="sr_alarm_info_44001">Pay attention to the forward vechicle slipping</string>
+    <string name="sr_alarm_info_44002">Pay attention to the bumpy road ahead</string>
+    <string name="sr_alarm_info_45000">Pay attention to the roof scratching！</string>
+    <string name="sr_alarm_info_46000">Be cautious.Side collision risk detected！</string>
+    <string name="sr_alarm_info_46001">Pay attention to the road ahead</string>
+    <string name="sr_alarm_info_46002">Evasive steering assist engaged</string>
+    <string name="sr_alarm_info_46003">Narrow road ahead.Please drive carefully</string>
+    <string name="sr_alarm_info_46004">NA</string>
+    <string name="sr_alarm_info_46005">Slippery road ahead.Slow down</string>
+    <string name="sr_alarm_info_50001">ZAD activated</string>
+    <string name="sr_alarm_info_50002">"ZAD exited
+Take over"</string>
+    <string name="sr_alarm_info_50003">"ZAD about to exit
+Doors open"</string>
+    <string name="sr_alarm_info_50004">"ZAD about to exit
+Fasten seatbelt"</string>
+    <string name="sr_alarm_info_50007">"ZAD about to exit
+Tire pressure issue"</string>
+    <string name="sr_alarm_info_50008">"ZAD about to exit
+Low range"</string>
+    <string name="sr_alarm_info_50009">"ZAD canceled
+Take over the car"</string>
+    <string name="sr_alarm_info_50013">"ZAD unavailable
+Assisted driving Changing Lane"</string>
+    <string name="sr_alarm_info_50014">"ZAD unavailable
+Navigation Not Activated"</string>
+    <string name="sr_alarm_info_50015">"ZAD unavailable
+Vehicle Collision"</string>
+    <string name="sr_alarm_info_50016">ZAD unavailable on this road</string>
+    <string name="sr_alarm_info_50017">"ZAD unavailable
+Change drive mode"</string>
+    <string name="sr_alarm_info_50018">"ZAD unavailable
+Low range"</string>
+    <string name="sr_alarm_info_50019">"ZAD unavailable
+Doors open"</string>
+    <string name="sr_alarm_info_50020">"ZAD unavailable
+Energy hatch"</string>
+    <string name="sr_alarm_info_50021">"ZAD unavailable
+Fasten seatbelt"</string>
+    <string name="sr_alarm_info_50022">"ZAD unavailable
+Gear not in D"</string>
+    <string name="sr_alarm_info_50023">"ZAD unavailable
+ESC deactivated"</string>
+    <string name="sr_alarm_info_50024">"ZAD unavailable
+Electric parking brake engaged"</string>
+    <string name="sr_alarm_info_50025">"ZAD unavailable
+High speed"</string>
+    <string name="sr_alarm_info_50026">"ZAD unavailable
+High-Priority Function Activated"</string>
+    <string name="sr_alarm_info_50027">"ZAD unavailable
+Heavy rainfall"</string>
+    <string name="sr_alarm_info_50028">"ZAD unavailable
+Super power saving on"</string>
+    <string name="sr_alarm_info_50029">"Power Down and Restart
+Try to Activate Again"</string>
+    <string name="sr_alarm_info_50030">"ZAD unavailable
+Tire pressure issue"</string>
+    <string name="sr_alarm_info_50031">ZAD unavailable</string>
+    <string name="sr_alarm_info_50032">"ZAD unavailable
+Unsupported power mode"</string>
+    <string name="sr_alarm_info_50033">"ZAD unavailable
+Vehicle is off-center"</string>
+    <string name="sr_alarm_info_50034">"ZAD unavailable
+Hold the steering wheel"</string>
+    <string name="sr_alarm_info_50035">"ZAD unavailable
+High speed"</string>
+    <string name="sr_alarm_info_50036">"ZAD unavailable
+Obstacle ahead"</string>
+    <string name="sr_alarm_info_50037">"ZAD unavailable
+Wash mode on"</string>
+    <string name="sr_alarm_info_50038">"ZAD unavailable
+Brake pedal pressed"</string>
+    <string name="sr_alarm_info_50039">"ZAD unavailable
+Too close to front vehicle"</string>
+    <string name="sr_alarm_info_50040">"ZAD unavailable
+Lane conditions not met"</string>
+    <string name="sr_alarm_info_50041">"ZAD unavailable
+Drift mode on"</string>
+    <string name="sr_alarm_info_50042">"ZAD unavailable
+Electric tow bar not retracted"</string>
+    <string name="sr_alarm_info_50044">"ZAD unavailable
+Focus on road ahead"</string>
+    <string name="sr_alarm_info_50045">Approaching destination</string>
+    <string name="sr_alarm_info_50046">"Exiting ZAD road
+Take over the car"</string>
+    <string name="sr_alarm_info_50047">"ZAD unavailable
+Function limited"</string>
+    <string name="sr_alarm_info_50049">"Take over
+Exiting ZAD road"</string>
+    <string name="sr_alarm_info_50050">"ZAD about to exit
+Navigation issue"</string>
+    <string name="sr_alarm_info_50051">Release accelerator pedal</string>
+    <string name="sr_alarm_info_50052">Attention ahead</string>
+    <string name="sr_alarm_info_50053">"Take over
+Vehicle will stop."</string>
+    <string name="sr_alarm_info_50054">"ZAD unavailable
+Close to navigation destination"</string>
+    <string name="sr_alarm_info_50055">"Take over
+Vehicle is parking safely."</string>
+    <string name="sr_alarm_info_50056">ZAD available</string>
+    <string name="sr_alarm_info_50057">"ZAD about to exit
+Navigation canceled"</string>
+    <string name="sr_alarm_info_50058">"ZAD about to exit
+Vehicle entering emergency lane"</string>
+    <string name="sr_alarm_info_50060">Fasten seatbelt</string>
+    <string name="sr_alarm_info_50061">"ZAD unavailable
+Sit on the driver’s seat"</string>
+    <string name="sr_alarm_info_50062">Close doors</string>
+    <string name="sr_alarm_info_50064">"ZAD unavailable
+DMS system abnormal"</string>
+    <string name="sr_alarm_info_50065">Resume driving position</string>
+    <string name="sr_alarm_info_50067">"ZAD unavailable
+Unfold mirrors"</string>
+    <string name="sr_alarm_info_50068">"Caution
+ZAD cannot exit now"</string>
+    <string name="sr_alarm_info_50069">"ZAD about to exit
+Take over the car"</string>
+    <string name="sr_alarm_info_50070">"ZAD about to exit 
+Close to destination"</string>
+    <string name="sr_alarm_info_50071">"ZAD about to exit 
+ZAD system failure"</string>
+    <string name="sr_alarm_info_50074">"ZAD unavailable
+Setting option off"</string>
+    <string name="sr_alarm_info_50076">"ZAD about to exit
+Excessive rainfall"</string>
+    <string name="sr_alarm_info_50077">"ZAD about to exit
+Slippery road"</string>
+    <string name="sr_alarm_info_50078">"ZAD about to exit
+Super power saving on"</string>
+    <string name="sr_alarm_info_50079">"ZAD about to exit
+Usge mode not supported"</string>
+    <string name="sr_alarm_info_50081">"ZAD about to exit
+Drift mode on"</string>
+    <string name="sr_alarm_info_50082">"Caution
+Too close to front vehicle"</string>
+    <string name="sr_alarm_info_50083">"ZAD about to exit
+Attention ahead"</string>
+    <string name="sr_alarm_info_50084">"ZAD about to exit
+Speed limit exceeded"</string>
+    <string name="sr_alarm_info_50085">"ZAD about to exit
+DMS system unavailable"</string>
+    <string name="sr_alarm_info_50086">"ZAD about to exit
+Sit on the driver’s seat"</string>
+    <string name="sr_alarm_info_50087">"ZAD about to exit
+Difficult to deal with the obstacles"</string>
+    <string name="sr_alarm_info_50088">"ZAD about to exit
+Exceed the capacity of ZAD"</string>
+    <string name="sr_alarm_info_50091">"ZAD exited
+Unavailable in this power cycle"</string>
+    <string name="sr_alarm_info_50093">"ZAD about to exit
+Deviation from navigation route"</string>
+    <string name="sr_alarm_info_50094">Exit ZAD and try activating again</string>
+    <string name="sr_alarm_info_50095">"ZAD about to exit
+Accelerator pedal pressed"</string>
+    <string name="sr_alarm_info_50097">"ZAD about to exit
+Brake pedal pressed"</string>
+    <string name="sr_alarm_info_50098">Operation cannot be performed</string>
+    <string name="sr_alarm_info_50099">"You are interfering with the pedal
+Please pay attention to the road conditions"</string>
+    <string name="sr_alarm_info_50100">You have ended the intervention operation</string>
+    <string name="sr_alarm_info_50115">"ZAD about to exit
+DSSAD System Not Ready"</string>
+    <string name="sr_alarm_info_50116">"ZAD about to exit
+Software is being updated"</string>
+    <string name="sr_alarm_info_50117">"ZAD about to exit
+Followed time too long"</string>
+    <string name="sr_alarm_info_50123">"ZAD unavailable
+Exit the ODD range soon"</string>
+    <string name="sr_alarm_info_50124">"ZAD about to exit
+Electric parking brake engaged"</string>
+    <string name="sr_alarm_info_50126">Changing lane to yield to special vehicle</string>
+    <string name="sr_alarm_info_50127">"Lane change canceled
+Yielding"</string>
+    <string name="sr_alarm_info_50128">Change lane manually</string>
+    <string name="sr_alarm_info_50133">"ZAD exit soon
+Open side mirrors"</string>
+    <string name="sr_alarm_info_50134">"ZAD about to exit
+Mirror folded"</string>
+    <string name="sr_alarm_info_50136">Do not press different keys simultaneously</string>
+    <string name="sr_alarm_info_50137">Voice adjustment is not supported</string>
+    <string name="sr_alarm_info_50138">Caution：Traffic police ahead</string>
+    <string name="sr_alarm_info_50139">"ZAD unavailable
+DSSAD System Not Ready"</string>
+    <string name="sr_alarm_info_50140">"ZAD unavailable
+Updating software"</string>
+    <string name="sr_alarm_info_50141">"Focus on road
+Approaching missed ramp"</string>
+    <string name="sr_alarm_info_50142">"Focus on road
+Complex road conditions"</string>
+    <string name="sr_alarm_info_50143">"Focus on road
+Approaching missed ramp"</string>
+    <string name="sr_alarm_info_50145">"Focus on road
+Merging onto main road"</string>
+    <string name="sr_alarm_info_50146">"Focus on road
+Complex traffic flow"</string>
+    <string name="sr_alarm_info_50147">"Focus on road
+Approaching missed turn"</string>
+    <string name="sr_alarm_info_50149">"Focus on road
+Road congestion ahead"</string>
+    <string name="sr_alarm_info_50150">"Focus on road
+Forward lane obstructed"</string>
+    <string name="sr_alarm_info_50151">ZAD is being initialized</string>
+    <string name="sr_alarm_info_55000">Depression detected in parking space. Parking not recommended.</string>
+    <string name="sr_alarm_info_55001">Slight depression detected in parking space. Underbody scrape risk exists.</string>
+    <string name="sr_alarm_info_57000">Caution: Risk of undercarriage scraping</string>
+    <string name="sr_alarm_info_57001">Caution: Possible accident ahead. Drive carefully.</string>
+    <string name="sr_alarm_info_57002">Slippery road ahead. Drive carefully.</string>
+    <string name="sr_alarm_info_59001">"Clean windshield driving assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59002">"Clean windshield driving assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59003">"Clean windshield driving assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59004">"Clean left front driver assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59005">"Clean right front driver assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59006">"Clean left rear driver assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59007">"Clean right rear driver assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59008">"Clean rear driver assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59009">"Clean roof radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59010">"Clean left radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59011">"Clean right radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59012">"Clean front 360° camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59013">"Clean rear 360° camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59014">"Clean left 360° camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59015">"Clean right 360° camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59016">"Clean front parking assist radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59017">"Clean rear parking assist radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59019">"Clean front driver assist radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59020">"Clean left front driver assist radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59021">"Clean right front driver assist radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59022">"Clean left rear driver assist radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59023">"Clean right rear driver assist radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59024">Clean rear millimeter-wave radar，drive with caution</string>
+    <string name="sr_alarm_info_59025">Clean left millimeter-wave radar，drive with caution</string>
+    <string name="sr_alarm_info_59026">Clean right millimeter-wave radar，drive with caution</string>
+    <string name="sr_alarm_info_59027">"Driver assist limited, contact Zeekr support
+Front view telephoto camera fault"</string>
+    <string name="sr_alarm_info_59028">"Driver assist limited, contact Zeekr support
+Front view wide-angle camera fault"</string>
+    <string name="sr_alarm_info_59029">"Driver assist limited, contact Zeekr support
+Front camera fault"</string>
+    <string name="sr_alarm_info_59030">"Driver assist limited, contact Zeekr support
+Left front side camera fault"</string>
+    <string name="sr_alarm_info_59031">"Driver assist limited, contact Zeekr support
+Right front side camera fault"</string>
+    <string name="sr_alarm_info_59032">"Driver assist limited, contact Zeekr support
+Left rear side camera fault"</string>
+    <string name="sr_alarm_info_59033">"Driver assist limited, contact Zeekr support
+Right rear side camera fault"</string>
+    <string name="sr_alarm_info_59034">"Driver assist limited, contact Zeekr support
+Rear camera fault"</string>
+    <string name="sr_alarm_info_59035">"Driver assist limited, contact Zeekr support
+Front radar fault"</string>
+    <string name="sr_alarm_info_59036">"Driver assist limited, contact Zeekr support
+Left radar fault"</string>
+    <string name="sr_alarm_info_59037">"Driver assist limited, contact Zeekr support
+Right radar fault"</string>
+    <string name="sr_alarm_info_59038">"Driver assist limited, contact Zeekr support
+Front 360° camera fault"</string>
+    <string name="sr_alarm_info_59039">"Driver assist limited, contact Zeekr support
+Rear 360° camera fault"</string>
+    <string name="sr_alarm_info_59040">"Driver assist limited, contact Zeekr support
+Left 360° camera fault"</string>
+    <string name="sr_alarm_info_59041">"Driver assist limited, contact Zeekr support
+Right 360° camera fault"</string>
+    <string name="sr_alarm_info_59042">"Driver assist limited, contact Zeekr support
+Front ultrasonic sensors fault"</string>
+    <string name="sr_alarm_info_59043">"Driver assist limited, contact Zeekr support
+Rear ultrasonic sensors fault"</string>
+    <string name="sr_alarm_info_59044">"Driver assist limited, contact Zeekr support
+Parking controller fault"</string>
+    <string name="sr_alarm_info_59045">"Driver assist limited, contact Zeekr support 
+Front millimeter-wave radar fault"</string>
+    <string name="sr_alarm_info_59046">"Driver assist limited, contact Zeekr support
+Left front side millimeter-wave radar fault"</string>
+    <string name="sr_alarm_info_59047">"Driver assist limited, contact Zeekr support
+Right front side millimeter-wave radar fault"</string>
+    <string name="sr_alarm_info_59048">"Driver assist limited, contact Zeekr support
+Left rear side millimeter-wave radar fault"</string>
+    <string name="sr_alarm_info_59049">"Driver assist limited, contact Zeekr support
+Right rear side millimeter-wave radar fault"</string>
+    <string name="sr_alarm_info_59050">"Driver assist limited, contact Zeekr support
+Positioning sensor fault"</string>
+    <string name="sr_alarm_info_59051">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59052">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59053">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59054">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59055">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59056">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59057">"Driver assist limited, contact Zeekr support
+Driver assist system fault"</string>
+    <string name="sr_alarm_info_59058">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59059">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59060">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59061">"Driver assist limited, contact Zeekr support
+Related system fault"</string>
+    <string name="sr_alarm_info_59062">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59063">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59064">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59065">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59066">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59067">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59068">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59069">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59070">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59071">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59072">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59073">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59074">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59075">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59076">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59077">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59078">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59079">"Clean windshield driving assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59080">"Driver assist limited, contact Zeekr support
+Front camera fault"</string>
+    <string name="sr_alarm_info_59081">"Clean front driver assist radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59082">"Driver assist limited, contact Zeekr support
+Front millimeter-wave radar fault"</string>
+    <string name="sr_alarm_info_59083">"Driver assist limited, contact Zeekr support
+Driver assist system fault"</string>
+    <string name="sr_alarm_info_59084">"Driver assist limited, contact Zeekr support
+Related system fault"</string>
+    <string name="sr_alarm_info_59085">"Driver assist limited, contact Zeekr support
+Related system fault"</string>
+    <string name="sr_alarm_info_59086">"Clean left and right front driver assist radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59087">"Driver assist limited, contact Zeekr support
+Left or right front side millimeter-wave radar fault"</string>
+    <string name="sr_alarm_info_59088">"Driver assist limited, contact Zeekr support
+Left fron or left rear side camera fault"</string>
+    <string name="sr_alarm_info_59089">"Driver assist limited, contact Zeekr support
+Right front or right rear side camera fault"</string>
+    <string name="sr_alarm_info_59090">"Driver assist limited, contact Zeekr support
+Rear camera fault"</string>
+    <string name="sr_alarm_info_59091">"Clean left front and left rear driver assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59092">"Clean right front and right rear driver assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59093">"Clean rear driver assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59094">"Driver assist limited, contact Zeekr support
+Rear ultrasonic sensors fault"</string>
+    <string name="sr_alarm_info_59095">"Clean left and right rear driver assist radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59096">"Driver assist limited, contact Zeekr support
+Left or right rear side millimeter-wave radar fault"</string>
+    <string name="sr_alarm_info_59097">"Trailer connected
+ Driver assist limited"</string>
+    <string name="sr_alarm_info_59098">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59099">Driver assist limited, contact Zeekr support</string>
+    <string name="sr_alarm_info_59100">Driver assist sensor replacement not calibrated，contact Zeekr support</string>
+    <string name="sr_alarm_info_59101">Driver assist sensor calibration fault，contact Zeekr support</string>
+    <string name="sr_alarm_info_59102">Parking assist system fault</string>
+    <string name="sr_alarm_info_59103">"Driver assist limited, contact Zeekr support
+Ultrasonic sensors fault"</string>
+    <string name="sr_alarm_info_59104">Rear parking assist system limited in Tow Mode</string>
+    <string name="sr_alarm_info_59105">"Clean parking assist radar
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59106">RTK account expired, contact Zeekr support</string>
+    <string name="sr_alarm_info_59107">RTK account invalid, contact Zeekr support</string>
+    <string name="sr_alarm_info_59108">"Clean windshield driving assist camera
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59109">"Driver assist limited, contact Zeekr support
+Backup front view wide-angle camera fault"</string>
+    <string name="sr_alarm_info_59110">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59111">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59112">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59113">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59114">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59115">"Clean left lidar-short-range
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59116">"Clean right lidar-short-range
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59117">"Clean front lidar-short-range
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59118">"Clean rear lidar-short-range
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59119">"Clean camera night vision
+Driver assist limited"</string>
+    <string name="sr_alarm_info_59120">"Driver assist limited, contact Zeekr support
+Night vision camera fault"</string>
+    <string name="sr_alarm_info_59121">"Go to [Settings]
+Calibrate driver assist sensors"</string>
+    <string name="sr_alarm_info_59122">"Driver assist limited, contact Zeekr support
+Front lidar-short-range fault"</string>
+    <string name="sr_alarm_info_59123">"Driver assist limited, contact Zeekr support
+Rear lidar-short-range fault"</string>
+    <string name="sr_alarm_info_59124">"Driver assist limited, contact Zeekr support
+Left lidar-short-range fault"</string>
+    <string name="sr_alarm_info_59125">"Driver assist limited, contact Zeekr support
+Right lidar-short-range fault"</string>
+    <string name="sr_alarm_info_59126">"Driver assist limited, contact Zeekr support
+Main inertial measuring unit fault"</string>
+    <string name="sr_alarm_info_59127">"Driver assist limited, contact Zeekr support
+Backup inertial measuring unit fault"</string>
+    <string name="sr_alrm_info_24001">请向前行驶，正在寻找车位</string>
+    <string name="sr_alrm_info_24002">车速过高，请减速</string>
+    <string name="sr_alrm_info_24003">找到车位，如需泊入请停车选择车位</string>
+    <string name="sr_alrm_info_24004">请踩住刹车选择车位，点击开始</string>
+    <string name="sr_alrm_info_24005">请松开刹车和方向盘</string>
+    <string name="sr_alrm_info_24006">车位较窄，推荐使用遥控泊车</string>
+    <string name="sr_alrm_info_24007">泊车中，请注意周围环境</string>
+    <string name="sr_alrm_info_24008">泊车完成</string>
+    <string name="sr_alrm_info_24009">泊车已暂停，请确认安全后点击继续</string>
+    <string name="sr_alrm_info_24011">等待中，请注意周围环境</string>
+    <string name="sr_alrm_info_24015">请行驶到平缓区域</string>
+    <string name="sr_alrm_info_24017">光线较暗，请注意四周环境</string>
+    <string name="sr_alrm_info_24018">请行驶到明亮区域</string>
+    <string name="sr_alrm_info_24019">光线较暗，请注意四周环境</string>
+    <string name="sr_alrm_info_24030">泊车功能已暂停，悬架异常</string>
+    <string name="sr_alrm_info_24032">泊车功能已暂停，请关闭车门</string>
+    <string name="sr_alrm_info_24035">泊车功能已暂停，请关闭后备箱</string>
+    <string name="sr_alrm_info_24038">泊车功能已暂停，请关闭充电盖</string>
+    <string name="sr_alrm_info_24041">泊车功能已暂停，请关闭前机舱盖</string>
+    <string name="sr_alrm_info_24044">泊车功能已暂停，请展开外后视镜</string>
+    <string name="sr_alrm_info_24047">泊车功能已暂停，请结束SOS</string>
+    <string name="sr_alrm_info_24050">泊车功能已暂停，驾驶员未落座</string>
+    <string name="sr_alrm_info_24054">泊车功能已暂停，请松开加速踏板</string>
+    <string name="sr_alrm_info_24055">请刹车，注意溜车</string>
+    <string name="sr_alrm_info_24057">泊车功能已暂停，请松开加速踏板</string>
+    <string name="sr_alrm_info_24067">请向后行驶，正在寻找车位</string>
+    <string name="sr_alrm_info_24068">车速过高，请减速</string>
+    <string name="sr_alrm_info_24086">请小心，有剐蹭风险</string>
+    <string name="sr_alrm_info_24091">请踩住刹车调整车位，点击开始</string>
+    <string name="sr_alrm_info_24097">该车位暂不可泊</string>
+    <string name="sr_alrm_info_24098">传感器校准中，辅助驾驶功能暂不可用</string>
+    <string name="sr_alrm_info_24099">车尾泊入已就绪，点击开始</string>
+    <string name="sr_alrm_info_24100">车头泊入已就绪，点击开始</string>
+    <string name="sr_alrm_info_24101">请主驾落座</string>
+    <string name="sr_alrm_info_24102">请系好安全带</string>
+    <string name="sr_alrm_info_24103">请关闭车门</string>
+    <string name="sr_alrm_info_24104">路径规划中</string>
+    <string name="sr_alrm_info_24105">该车位暂不可泊，请重新调整车位</string>
+    <string name="sr_alrm_info_24106">泊入已就绪，点击开始</string>
+    <string name="sr_alrm_info_24107">后视镜已折叠</string>
+    <string name="sr_alrm_info_24108">泊车功能已暂停，请确认后视镜折叠后点击继续</string>
+    <string name="sr_alrm_info_24109">泊车完成，请注意轮挡</string>
+    <string name="sr_alrm_info_26001">请挂P挡</string>
+    <string name="sr_alrm_info_26002">请携带钥匙下车后使用功能</string>
+    <string name="sr_alrm_info_26003">车头泊入窄车位，推荐使用离车泊入</string>
+    <string name="sr_alrm_info_26004">车尾泊入窄车位，推荐使用离车泊入</string>
+    <string name="sr_alrm_info_26005">离车泊入功能已暂停</string>
+    <string name="sr_alrm_info_26006">离车泊入中，请注意周围环境</string>
+    <string name="sr_alrm_info_26007">离车泊入完成</string>
+    <string name="sr_alrm_info_26008">离车泊入完成，请注意轮挡</string>
+    <string name="sr_alrm_info_26010">车尾泊入机械车位，推荐使用离车泊入</string>
+    <string name="srl_content_empty">未添加任何布局</string>
+    <string name="srl_footer_failed">加载更多失败</string>
+    <string name="srl_footer_finish">加载更多成功</string>
+    <string name="srl_footer_loading">正在加载更多</string>
+    <string name="srl_footer_nothing">No More Data</string>
+    <string name="srl_footer_pulling">上拉加载更多</string>
+    <string name="srl_footer_refreshing">等待加载更多</string>
+    <string name="srl_footer_release">释放加载更多</string>
+    <string name="srl_header_failed">刷新失败</string>
+    <string name="srl_header_finish">刷新成功</string>
+    <string name="srl_header_loading">等待加载</string>
+    <string name="srl_header_pulling">下拉刷新</string>
+    <string name="srl_header_refreshing">正在刷新</string>
+    <string name="srl_header_release">释放刷新</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stream_media">Digital rearview mirror</string>
+    <string name="switch_car3d">Switch to 3D car model</string>
+    <string name="switch_map">Switch to Navigation</string>
+    <string name="tab_mini_app">Mini Program</string>
+    <string name="tab_zeekr_lab">Z-emulator</string>
+    <string name="take_picture">Take photos</string>
+    <string name="take_video">Video</string>
+    <string name="task_tips_content">No applications running in the background</string>
+    <string name="through_lamp">Wraparound taillight</string>
+    <string name="tip_backrest_is_running">This app is currently being used on the rear screen. Opening it here will interrupt their session</string>
+    <string name="tip_csd_is_running">This app is currently being used on the front screen. Opening it here interrupts the front screen session</string>
+    <string name="tire_pressure_fault">--</string>
+    <string name="tire_pressure_pressure_unit_bar">bar</string>
+    <string name="tire_pressure_pressure_unit_kpa">kPa</string>
+    <string name="tire_pressure_pressure_unit_psi">psi</string>
+    <string name="tire_pressure_suggestion">Recommended tire pressure</string>
+    <string name="tire_pressure_suggestion_value" formatted="false">Half load %1$s %nFull load %2$s</string>
+    <string name="tire_temperature_unit_c">°C</string>
+    <string name="tire_temperature_unit_f">°F</string>
+    <string name="title_baby_mode">宝贝模式</string>
+    <string name="title_child_lock">童锁守护</string>
+    <string name="title_child_protect">儿童守护</string>
+    <string name="to_aiqilisten">Go to Aiquting</string>
+    <string name="to_bilibili">Open Bilibili</string>
+    <string name="to_connect_bluetooth">Connect now</string>
+    <string name="to_media_name">Go to</string>
+    <string name="to_netease">Open NetEase Cloud</string>
+    <string name="to_online_music">Open online media</string>
+    <string name="to_qq_music">Go to QQ Music</string>
+    <string name="track_mode">Track mode</string>
+    <string name="trips_100_km_caps">100 km</string>
+    <string name="trips_10_km_caps">10 km</string>
+    <string name="trips_62_mile_caps">62 mi</string>
+    <string name="trips_6_mile_caps">6 mi</string>
+    <string name="trips_avg_energy">Avg. consumption</string>
+    <string name="trips_avg_ev">Avg. power consumption</string>
+    <string name="trips_avg_oil">Avg. fuel consumption</string>
+    <string name="trips_distance">Driving distance</string>
+    <string name="trips_distance_unit_km"> km</string>
+    <string name="trips_distance_unit_mile"> mi</string>
+    <string name="trips_elapsed_time">Time</string>
+    <string name="trunk">Trunk</string>
+    <string name="udisk_connected">USB music - My USB</string>
+    <string name="udisk_no_connect">USB music - not connected</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="uninstall_application">Uninstall application</string>
+    <string name="uninstall_failure">Failed to uninstall</string>
+    <string name="unlock_all">全部解锁</string>
+    <string name="usb_app_name_1">USB music</string>
+    <string name="usb_app_name_2">USB</string>
+    <string name="user_agreement_content">"        ตามกฎหมายและระเบียบปัจจุบัน โซนการบริหารของทหาร หน่วยงานด้านการป้องกันประเทศและอุตสาหกรรมทางวิทยาศาสตร์ และองค์กรของพรรคและรัฐบาลตั้งแต่ระดับตำบลขึ้นไปอาจถือเป็นความลับของรัฐ นอกจากนี้ ข้อมูลใบหน้าและป้ายทะเบียนภายนอกรถถือเป็นข้อมูลส่วนบุคคลซึ่งได้รับการคุ้มครองตามกฎหมาย เนื่องจากคุณสมบัตินี้อนุญาตให้บันทึกวิดีโอและรูปภาพภายนอกรถ ดังนั้นจึงสำคัญอย่างยิ่งที่จะต้องปฏิบัติตามกฎหมายอย่างเคร่งครัดเมื่อเปิดใช้งานคุณสมบัตินี้หรือแชร์ข้อมูลวิดีโอและรูปภาพภายนอกเพื่อหลีกเลี่ยงการใช้ที่ไม่เหมาะสมที่ละเมิดความลับของรัฐและสิทธิ์ตามกฎหมายของผู้อื่น ข้อมูลวิดีโอและรูปภาพที่บันทึกโดยคุณสมบัตินี้จะถูกเก็บไว้ภายในอุปกรณ์ภายในรถเท่านั้น ZEEKR จะไม่เข้าถึงหรือใช้ข้อมูลนี้ในทางใดทางหนึ่ง 
+        คุณเข้าใจเนื้อหาข้างต้นอย่างชัดเจนและยอมรับที่จะเปิดใช้งานคุณสมบัตินี้หรือไม่?"</string>
+    <string name="uvi_levels_1">Low</string>
+    <string name="uvi_levels_2">Moderate</string>
+    <string name="uvi_levels_3">High</string>
+    <string name="uvi_levels_4">Very high</string>
+    <string name="uvi_levels_5">Extreme</string>
+    <string name="verify_1">Verify_1</string>
+    <string name="video_empty_text">"For additional video resources,
+open the app"</string>
+    <string name="visitor_mode_unavailable">访客模式下不可用</string>
+    <string name="weather_altitude">Altitude:</string>
+    <string name="weather_aqs">Air Quality:</string>
+    <string name="weather_card_title">Weather</string>
+    <string name="weather_failed">Loading failed</string>
+    <string name="weather_loading">Loading…</string>
+    <string name="weather_net_unavailable">Poor network. Please try again later</string>
+    <string name="weather_refresh">Refresh</string>
+    <string name="weather_uvi">UV:</string>
+    <string name="widget_drive_score_h"> h </string>
+    <string name="widget_drive_score_km">km</string>
+    <string name="widget_drive_score_min"> min</string>
+    <string name="widget_energy_legend_ev">Power</string>
+    <string name="widget_energy_legend_oil">Fuel</string>
+    <string name="widget_energy_title">Recent %1$d%2$s energy consumption</string>
+    <string name="widget_label_energy">Energy consumption</string>
+    <string name="widget_label_tire">Tire pressure</string>
+    <string name="widget_label_trip">Trip</string>
+    <string name="widget_trip_meter">Subtotal trip</string>
+    <string name="widget_trip_once_charged">After charging</string>
+    <string name="widget_trip_once_parked">After parking</string>
+    <string name="widget_trip_once_refueled">After refueling</string>
+    <string name="widget_trip_save_fuel">累计节油 %1$s%2$s</string>
+    <string name="widget_unit_l">L</string>
+    <string name="xpopup_image_not_exist">Image not exist</string>
+    <string name="xpopup_save">save</string>
+    <string name="xpopup_saved_fail">Image save failed</string>
+    <string name="xpopup_saved_to_gallery">Saved to album</string>
+    <string name="zeekr_back">back</string>
+    <string name="zeekr_cancel">cancel</string>
+    <string name="zeekr_component_spring">Spring</string>
+    <string name="zeekr_inaccessible">Page unavailable</string>
+    <string name="zeekr_ok">ok</string>
+    <string name="zeekr_show_psw">show password</string>
+    <string name="zeekr_webview_loading">Loading…</string>
+</resources>
