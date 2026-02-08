@@ -10,6 +10,8 @@
 
 .field private readyCallback:Lcom/zeekr/sdk/base/ApiReadyCallback;
 
+.field private blinkerWatcher:Lcom/zeekr/carlauncher/proxy/HudProxyService$BlinkerWatcher;
+
 
 # direct methods
 .method public constructor <init>()V
@@ -261,9 +263,48 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
+    invoke-direct {p0}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->startBlinkerWatch()V
+
     iget-object v0, p0, Lcom/zeekr/carlauncher/proxy/HudProxyService;->binder:Landroid/os/IBinder;
 
     return-object v0
+.end method
+
+.method private startBlinkerWatch()V
+    .locals 5
+
+    iget-object v0, p0, Lcom/zeekr/carlauncher/proxy/HudProxyService;->blinkerWatcher:Lcom/zeekr/carlauncher/proxy/HudProxyService$BlinkerWatcher;
+
+    if-nez v0, :cond_done
+
+    new-instance v0, Lcom/zeekr/carlauncher/proxy/HudProxyService$BlinkerWatcher;
+
+    invoke-direct {v0, p0}, Lcom/zeekr/carlauncher/proxy/HudProxyService$BlinkerWatcher;-><init>(Lcom/zeekr/carlauncher/proxy/HudProxyService;)V
+
+    iput-object v0, p0, Lcom/zeekr/carlauncher/proxy/HudProxyService;->blinkerWatcher:Lcom/zeekr/carlauncher/proxy/HudProxyService$BlinkerWatcher;
+
+    const/4 v1, 0x2
+
+    new-array v1, v1, [I
+
+    const v2, 0x21051100
+
+    const/4 v3, 0x0
+
+    aput v2, v1, v3
+
+    const v2, 0x21051200
+
+    const/4 v3, 0x1
+
+    aput v2, v1, v3
+
+    sget-object v2, Lcom/zeekr/signal/AdapterSignalManager;->a:Lcom/zeekr/signal/AdapterSignalManager;
+
+    invoke-virtual {v2, v1, v0}, Lcom/zeekr/signal/AdapterSignalManager;->e([ILcom/ecarx/xui/adaptapi/car/base/ICarFunction$IFunctionValueWatcher;)V
+
+    :cond_done
+    return-void
 .end method
 
 .method public buildResult(ZILjava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
