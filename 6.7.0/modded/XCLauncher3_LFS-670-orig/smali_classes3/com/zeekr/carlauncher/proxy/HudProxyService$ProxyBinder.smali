@@ -111,6 +111,40 @@
 
     return v1
 
+    :pswitch_3
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result p1
+
+    invoke-virtual {v2, p1}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->getFunctionResult(I)Landroid/os/Bundle;
+
+    move-result-object p1
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    invoke-virtual {p3, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-virtual {p1, p3, v1}, Landroid/os/Bundle;->writeToParcel(Landroid/os/Parcel;I)V
+
+    return v1
+
+    :pswitch_4
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result p1
+
+    invoke-virtual {v2, p1}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->getSensorResult(I)Landroid/os/Bundle;
+
+    move-result-object p1
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    invoke-virtual {p3, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-virtual {p1, p3, v1}, Landroid/os/Bundle;->writeToParcel(Landroid/os/Parcel;I)V
+
+    return v1
+
     :pswitch_1
     sget-object p1, Landroid/content/Intent;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -162,5 +196,7 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
+        :pswitch_3
+        :pswitch_4
     .end packed-switch
 .end method

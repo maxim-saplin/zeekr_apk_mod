@@ -32,6 +32,228 @@
     return-void
 .end method
 
+.method public getFunctionResult(I)Landroid/os/Bundle;
+    .locals 6
+
+    new-instance v0, Landroid/os/Bundle;
+
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+
+    const-string v1, "source"
+
+    const-string v2, "adaptapi_function"
+
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v1, "function_id"
+
+    invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v1
+
+    const-string v3, "timestamp"
+
+    invoke-virtual {v0, v3, v1, v2}, Landroid/os/Bundle;->putLong(Ljava/lang/String;J)V
+
+    :try_start_0
+    invoke-static {}, Lcom/zeekr/signal/AdapterSignalManager;->a()Lcom/ecarx/xui/adaptapi/car/ICar;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_car_missing
+
+    invoke-interface {v1}, Lcom/ecarx/xui/adaptapi/car/ICar;->getICarFunction()Lcom/ecarx/xui/adaptapi/car/base/ICarFunction;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_function_missing
+
+    invoke-interface {v2, p1}, Lcom/ecarx/xui/adaptapi/car/base/ICarFunction;->getFunctionValue(I)I
+
+    move-result v3
+
+    const-string v4, "value"
+
+    invoke-virtual {v0, v4, v3}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
+
+    const-string v4, "ok"
+
+    const/4 v5, 0x1
+
+    const/4 v3, 0x0
+
+    invoke-virtual {p0, v5, v3, v4, v0}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->buildResult(ZILjava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_function_missing
+    const-string v1, "adaptapi_function_missing"
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x2
+
+    invoke-virtual {p0, v2, v3, v1, v0}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->buildResult(ZILjava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_car_missing
+    const-string v1, "adaptapi_car_missing"
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x2
+
+    invoke-virtual {p0, v2, v3, v1, v0}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->buildResult(ZILjava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    return-object v0
+
+    :try_end_0
+    .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    move-exception v1
+
+    const-string v2, "exception"
+
+    invoke-virtual {v1}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v2, v3}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v2, "adaptapi_exception"
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x3
+
+    invoke-virtual {p0, v3, v4, v2, v0}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->buildResult(ZILjava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getSensorResult(I)Landroid/os/Bundle;
+    .locals 6
+
+    new-instance v0, Landroid/os/Bundle;
+
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+
+    const-string v1, "source"
+
+    const-string v2, "adaptapi_sensor"
+
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v1, "sensor_id"
+
+    invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v1
+
+    const-string v3, "timestamp"
+
+    invoke-virtual {v0, v3, v1, v2}, Landroid/os/Bundle;->putLong(Ljava/lang/String;J)V
+
+    :try_start_0
+    invoke-static {}, Lcom/zeekr/signal/AdapterSignalManager;->a()Lcom/ecarx/xui/adaptapi/car/ICar;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_car_missing
+
+    invoke-interface {v1}, Lcom/ecarx/xui/adaptapi/car/ICar;->getSensorManager()Lcom/ecarx/xui/adaptapi/car/sensor/ISensor;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_sensor_missing
+
+    invoke-interface {v2, p1}, Lcom/ecarx/xui/adaptapi/car/sensor/ISensor;->getSensorEvent(I)I
+
+    move-result v3
+
+    const-string v4, "value"
+
+    invoke-virtual {v0, v4, v3}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
+
+    const-string v4, "ok"
+
+    const/4 v5, 0x1
+
+    const/4 v3, 0x0
+
+    invoke-virtual {p0, v5, v3, v4, v0}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->buildResult(ZILjava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_sensor_missing
+    const-string v1, "adaptapi_sensor_missing"
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x2
+
+    invoke-virtual {p0, v2, v3, v1, v0}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->buildResult(ZILjava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_car_missing
+    const-string v1, "adaptapi_car_missing"
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x2
+
+    invoke-virtual {p0, v2, v3, v1, v0}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->buildResult(ZILjava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    return-object v0
+
+    :try_end_0
+    .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    move-exception v1
+
+    const-string v2, "exception"
+
+    invoke-virtual {v1}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v2, v3}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v2, "adaptapi_exception"
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x3
+
+    invoke-virtual {p0, v3, v4, v2, v0}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->buildResult(ZILjava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
 
 # virtual methods
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
@@ -74,7 +296,7 @@
 .end method
 
 .method public enforceCaller()Z
-    .locals 7
+    .locals 8
 
     invoke-static {}, Landroid/os/Binder;->getCallingUid()I
 
@@ -105,15 +327,15 @@
 
     aget-object v6, v3, v4
 
-    const-string v3, "com.zeekr.phase0"
+    const-string v7, "com.zeekr.phase0"
 
-    invoke-virtual {v3, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v7, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    move-result v3
+    move-result v7
 
-    if-eqz v3, :cond_1
+    if-eqz v7, :cond_1
 
-    const/4 v3, 0x1
+    const/4 v7, 0x1
 
     goto :goto_0
 
@@ -123,10 +345,10 @@
     goto :cond_0
 
     :cond_3
-    const/4 v3, 0x0
+    const/4 v7, 0x0
 
     :goto_0
-    if-eqz v3, :cond_4
+    if-eqz v7, :cond_4
 
     invoke-virtual {v2, v0, v1}, Landroid/content/pm/PackageManager;->checkSignatures(II)I
 
@@ -150,7 +372,7 @@
 .end method
 
 .method public getServiceStatus()Landroid/os/Bundle;
-    .locals 3
+    .locals 4
 
     new-instance v0, Landroid/os/Bundle;
 
@@ -186,6 +408,96 @@
 .end method
 
 .method public getSignalResult(I)Landroid/os/Bundle;
+    .locals 10
+
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+
+    move-result-object v0
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v1
+
+    if-eq v0, v1, :cond_main
+
+    const/4 v2, 0x1
+
+    new-array v3, v2, [Landroid/os/Bundle;
+
+    new-instance v4, Landroid/os/Handler;
+
+    invoke-direct {v4, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+
+    new-instance v5, Lcom/zeekr/carlauncher/proxy/HudProxyService$SignalCall;
+
+    invoke-direct {v5, p0, p1, v3}, Lcom/zeekr/carlauncher/proxy/HudProxyService$SignalCall;-><init>(Lcom/zeekr/carlauncher/proxy/HudProxyService;I[Landroid/os/Bundle;)V
+
+    const-wide/16 v6, 0x7d0
+
+    invoke-virtual {v4, v5, v6, v7}, Landroid/os/Handler;->runWithScissors(Ljava/lang/Runnable;J)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_timeout
+
+    const/4 v0, 0x0
+
+    aget-object v0, v3, v0
+
+    if-eqz v0, :cond_timeout
+
+    return-object v0
+
+    :cond_timeout
+    new-instance v0, Landroid/os/Bundle;
+
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+
+    const-string v1, "source"
+
+    const-string v2, "car_function"
+
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v1, "signal_id"
+
+    invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v6
+
+    const-string v1, "timestamp"
+
+    invoke-virtual {v0, v1, v6, v7}, Landroid/os/Bundle;->putLong(Ljava/lang/String;J)V
+
+    const-string v1, "exception"
+
+    const-string v2, "signal_call_not_on_main_thread_or_timeout"
+
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v1, "signal_exception"
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x3
+
+    invoke-virtual {p0, v2, v3, v1, v0}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->buildResult(ZILjava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_main
+    invoke-virtual {p0, p1}, Lcom/zeekr/carlauncher/proxy/HudProxyService;->getSignalResultInternal(I)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getSignalResultInternal(I)Landroid/os/Bundle;
     .locals 11
 
     new-instance v0, Landroid/os/Bundle;
