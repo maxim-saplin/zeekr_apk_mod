@@ -1,0 +1,17 @@
+name: ci-publish-prep
+on:
+  push:
+    branches: [0044-publish-prep]
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - name: Launcher APK + NOTES
+        run: |
+          test -f NOTES-for-Maxim-0044.md
+          test -f 6.7.0/modded_apks/XCLauncher3-670-yandex-signed.apk
+          test $(stat -c%s 6.7.0/modded_apks/XCLauncher3-670-yandex-signed.apk) -gt 1000000

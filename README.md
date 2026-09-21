@@ -149,3 +149,7 @@ Installs signed APK:
 ## Contribution
 
 Code/APK contributions are welcome. File a PR, describe in details what you would like to add, share screenshots/videos of the tested app (if you submit a modifed APK)
+
+## Publish / Install (0044)
+
+zee-power-toys Install pulls the **6.7.0 Launcher with Yandex Navi** from a GitHub **Release** on this repo (`launcher-670` / `XCLauncher3-670-yandex-signed.apk`). See `NOTES-for-Maxim-0044.md`. Binaries for Install are Release assets — not a new git copy from elsewhere.
