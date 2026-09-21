@@ -8,12 +8,11 @@
 > **Research / DIY mods vs product Install.** This repo documents Zeekr OS APK
 > research and hand-built mods (translations, launcher experiments). The
 > **[zee-power-toys](https://github.com/maxim-saplin/zee-power-toys)** app Install
-> path uses the **public Release** `launcher-670` only — not ad-hoc folders and
-> not [zee_hud_2](https://github.com/maxim-saplin) research trees.
+> path uses the **public Release** `launcher-670` only — not ad-hoc folders.
 
 ## Zee Power Toys Install (Launcher)
 
-**Source for [zee-power-toys](https://github.com/maxim-saplin/zee-power-toys) Install** — public GitHub Release (not zee_hud_2, not a fresh git copy):
+**Source for [zee-power-toys](https://github.com/maxim-saplin/zee-power-toys) Install** — public GitHub Release `launcher-670` only:
 
 | | |
 |---|---|
@@ -26,7 +25,7 @@ Home screen launcher with Yandex Navigator as default nav.
 
 - `.github/workflows/ci.yml` on push to `main`: NOTES/README mention **`launcher-670`** / `XCLauncher3-670-yandex-signed.apk`; `build_apk.sh` present.
 - Optional `workflow_dispatch`: fails loud if that Release asset is missing (`gh api`).
-- **No** full apktool Launcher rebuild in CI — ship the Release asset Maxim already uploaded.
+- **No** full apktool Launcher rebuild in CI — Install uses the published Release asset.
 
 
 ---
@@ -190,4 +189,4 @@ Code/APK contributions are welcome. File a PR, describe in details what you woul
 
 ## Publish / Install (0044)
 
-zee-power-toys Install pulls the **6.7.0 Launcher with Yandex Navi** from a GitHub **Release** on this repo (`launcher-670` / `XCLauncher3-670-yandex-signed.apk`). See `NOTES-for-Maxim-0044.md`. Binaries for Install are Release assets — not a new git copy from elsewhere.
+zee-power-toys Install pulls the **6.7.0 Launcher with Yandex Navi** from a GitHub **Release** on this repo (`launcher-670` / `XCLauncher3-670-yandex-signed.apk`). Installables are Release assets only.
