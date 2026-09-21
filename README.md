@@ -4,6 +4,19 @@
 
 > ! Take caution, check your version of Zeekr OS before installing any APKs.
 
+## Zee Power Toys Install (Launcher)
+
+**Source for [zee-power-toys](https://github.com/maxim-saplin/zee-power-toys) Install** — public GitHub Release (not zee_hud_2, not a fresh git copy):
+
+| | |
+|---|---|
+| **Tag** | [`launcher-670`](https://github.com/maxim-saplin/zeekr_apk_mod/releases/tag/launcher-670) |
+| **Asset** | [`XCLauncher3-670-yandex-signed.apk`](https://github.com/maxim-saplin/zeekr_apk_mod/releases/download/launcher-670/XCLauncher3-670-yandex-signed.apk) |
+
+Home screen launcher with Yandex Navigator as default nav.
+
+---
+
 The repo describes how to modify APKs for Zeekr OS (infotaimanet system from Zeekr 001/007, aka "the Tablet"), e.g. translating Chinese UI to English.
 
 It includes:
@@ -20,9 +33,11 @@ It includes:
 
 ### Ready-made APKs
 
+**6.7.0 Launcher for Install:** use the [Release asset](https://github.com/maxim-saplin/zeekr_apk_mod/releases/tag/launcher-670) above. Paths below are in-repo copies for ADB / development.
+
 | App             | Version           | APK                                               | Description                               |
 | --------------- | ----------------- | ------------------------------------------------- | ----------------------------------------- |
-| Launcher with Yandex Navi | 6.7.0   | 6.7.0/modded_apks/XCLauncher3-670-yandex-signed.apk| Home screen with Yandex Navigator|
+| Launcher with Yandex Navi | 6.7.0   | **Release** `launcher-670` / `XCLauncher3-670-yandex-signed.apk` (also `6.7.0/modded_apks/…`)| Home screen with Yandex Navigator|
 | Launcher with Yandex Navi | 6.3.3   | 6.3.3/modded_apks/XCLauncher3-633-yandex-signed.apk| Home screen with Yandex Navigator|
 | Car Settings    | 6.0.5 (Zeekr 007) | 6.0.5/modded_apks/com.geely.pma.settings_en.apk   | Car Settings APP Translated to English    |
 | Bluetooth Phone | 6.0.5 (Zeekr 007) | 6.0.5/modded_apks/com.ecarx.btphone_en_signed.apk | Bluetooth Phone APP Translated to English |
