@@ -1,0 +1,70 @@
+# Push CI on main — docs/scripts sanity + optional Release asset presence (no apktool rebuild).
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      require_release_asset:
+        description: 'Fail if launcher-670 Release asset is missing'
+        type: boolean
+        default: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          lfs: false
+      - name: Scripts + NOTES + README (launcher-670)
+        run: |
+          set -euo pipefail
+          test -f NOTES-for-Maxim-0044.md
+          test -f README.md
+          test -x build_apk.sh || test -f build_apk.sh
+          test -f backup.sh || test -f backup.bat
+          grep -q 'launcher-670' README.md
+          grep -q 'XCLauncher3-670-yandex-signed.apk' README.md
+          grep -q 'launcher-670' NOTES-for-Maxim-0044.md
+          echo "OK — no full apktool Launcher rebuild in CI."
+      - name: Release launcher-670 asset present (gh api)
+        # Skip on PR (optional); push + dispatch must keep Install contract alive.
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          TAG=launcher-670
+          ASSET=XCLauncher3-670-yandex-signed.apk
+          # Fail loud if Release or asset missing (Install contract for zee-power-toys).
+          if ! gh release view "$TAG" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            echo "::error::Release tag $TAG missing — zee-power-toys Install needs it"
+            exit 1
+          fi
+          if ! gh release view "$TAG" --repo "${{ github.repository }}" --json assets \
+            --jq '.assets[].name' | grep -qx "$ASSET"; then
+            echo "::error::Release $TAG is missing asset $ASSET"
+            gh release view "$TAG" --repo "${{ github.repository }}" --json assets || true
+            exit 1
+          fi
+          echo "Release $TAG has $ASSET"
+
+  # Optional explicit dispatch that only checks the Release (same as above, kept separate name).
+  check-release-asset:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Fail loud if launcher-670 asset missing
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          TAG=launcher-670
+          ASSET=XCLauncher3-670-yandex-signed.apk
+          gh release view "$TAG" --repo "${{ github.repository }}" --json assets \
+            --jq '.assets[].name' | grep -qx "$ASSET" \
+            || { echo "::error::Missing $ASSET on Release $TAG"; exit 1; }
+          echo OK

@@ -22,6 +22,13 @@
 
 Home screen launcher with Yandex Navigator as default nav.
 
+### CI (main)
+
+- `.github/workflows/ci.yml` on push to `main`: NOTES/README mention **`launcher-670`** / `XCLauncher3-670-yandex-signed.apk`; `build_apk.sh` present.
+- Optional `workflow_dispatch`: fails loud if that Release asset is missing (`gh api`).
+- **No** full apktool Launcher rebuild in CI — ship the Release asset Maxim already uploaded.
+
+
 ---
 
 The repo describes how to modify APKs for Zeekr OS (infotaimanet system from Zeekr 001/007, aka "the Tablet"), e.g. translating Chinese UI to English.
