@@ -4,6 +4,13 @@
 
 > ! Take caution, check your version of Zeekr OS before installing any APKs.
 
+
+> **Research / DIY mods vs product Install.** This repo documents Zeekr OS APK
+> research and hand-built mods (translations, launcher experiments). The
+> **[zee-power-toys](https://github.com/maxim-saplin/zee-power-toys)** app Install
+> path uses the **public Release** `launcher-670` only — not ad-hoc folders and
+> not [zee_hud_2](https://github.com/maxim-saplin) research trees.
+
 ## Zee Power Toys Install (Launcher)
 
 **Source for [zee-power-toys](https://github.com/maxim-saplin/zee-power-toys) Install** — public GitHub Release (not zee_hud_2, not a fresh git copy):
@@ -43,6 +50,15 @@ It includes:
 | Bluetooth Phone | 6.0.5 (Zeekr 007) | 6.0.5/modded_apks/com.ecarx.btphone_en_signed.apk | Bluetooth Phone APP Translated to English |
 
 P.S> Modded Yandex Navi with increaswed screen scale can be found here: https://github.com/maxim-saplin/ynavi-zee
+
+
+## Related (trio)
+
+| Repo | Role |
+|------|------|
+| [zee-power-toys](https://github.com/maxim-saplin/zee-power-toys) | DHU/HUD product — Install downloads Launcher Release |
+| [ynavi-zee](https://github.com/maxim-saplin/ynavi-zee) | YNavi HUD mod — Release `ynavi-zeekr-v12` |
+| **This repo** | Launcher mod — Release `launcher-670` |
 
 ## Requirements
 
