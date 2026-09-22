@@ -10,7 +10,7 @@
 > 
 ---
 
-> **[zee-power-toys](https://github.com/maxim-saplin/zee-power-toys)** is a user friendly app that bundles features such as HUD and YNavi controls and allows to download and install this launcher.
+> **[zee-power-toys](https://github.com/maxim-saplin/zee-power-toys)** is a user friendly app that bundles features such as HUD and YNavi controls.
 
 The repo describes how to modify APKs for Zeekr OS (infotaimanet system from Zeekr 001/007, aka "the Tablet"), e.g. translating Chinese UI to English.
 
