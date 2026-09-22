@@ -7,28 +7,10 @@
 
 > **Research / DIY mods vs product Install.** This repo documents Zeekr OS APK
 > research and hand-built mods (translations, launcher experiments). The
-> **[zee-power-toys](https://github.com/maxim-saplin/zee-power-toys)** app Install
-> path uses the **public Release** `launcher-670` only — not ad-hoc folders.
-
-## Zee Power Toys Install (Launcher)
-
-**Source for [zee-power-toys](https://github.com/maxim-saplin/zee-power-toys) Install** — public GitHub Release `launcher-670` only:
-
-| | |
-|---|---|
-| **Tag** | [`launcher-670`](https://github.com/maxim-saplin/zeekr_apk_mod/releases/tag/launcher-670) |
-| **Asset** | [`XCLauncher3-670-yandex-signed.apk`](https://github.com/maxim-saplin/zeekr_apk_mod/releases/download/launcher-670/XCLauncher3-670-yandex-signed.apk) |
-
-Home screen launcher with Yandex Navigator as default nav.
-
-### CI (main)
-
-- `.github/workflows/ci.yml` on push to `main`: NOTES/README mention **`launcher-670`** / `XCLauncher3-670-yandex-signed.apk`; `build_apk.sh` present.
-- Optional `workflow_dispatch`: fails loud if that Release asset is missing (`gh api`).
-- **No** full apktool Launcher rebuild in CI — Install uses the published Release asset.
-
-
+> 
 ---
+
+> **[zee-power-toys](https://github.com/maxim-saplin/zee-power-toys)** is a user friendly app that bundles features such as HUD and YNavi controls and allows to download and install this launcher.
 
 The repo describes how to modify APKs for Zeekr OS (infotaimanet system from Zeekr 001/007, aka "the Tablet"), e.g. translating Chinese UI to English.
 
@@ -176,6 +158,12 @@ Zeekr OS is based on AOSP and uses test keys supplied by Google. I have included
 Installs signed APK:
 
 `adb install -g _output/com.android.systemui_en_signed.apk`
+
+### CI
+
+- `.github/workflows/ci.yml` on push to `main`: NOTES/README mention **`launcher-670`** / `XCLauncher3-670-yandex-signed.apk`; `build_apk.sh` present.
+- Optional `workflow_dispatch`: fails loud if that Release asset is missing (`gh api`).
+- **No** full apktool Launcher rebuild in CI — Install uses the published Release asset.
 
 ### Known Issues
 
